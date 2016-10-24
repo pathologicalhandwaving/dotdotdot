@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+# Exports
+
+export EDITOR='vim';
+
+export PYTHONENCODING='UTF-8';
+
+export LESS_TERMCAP_md="${yellow}";
+export MANPAGER='less -X';
+
