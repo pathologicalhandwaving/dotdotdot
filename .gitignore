@@ -1,0 +1,101 @@
+# Mac Specific:
+.DS_Store
+Icon
+
+# config
+.myconfig
+
+._*
+.Spotlight-V100
+.Trashes
+
+
+# Logs and databases:
+*.log
+*.sqlite
+
+# Packages:
+*.dmg
+*.gz
+*.tar
+*.zip
+*.rar
+*.iso
+
+# etags and ctags:
+TAGS
+tags
+
+.idea/
+
+# Vim:
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# diffmerge .orig files:
+*.orig
+
+# Office temp files:
+~$*
+
+# Python specific:
+*.py[cod]
+
+__pycache__
+.coverage
+
+# C specific:
+*.o
+*.a
+
+*.dll
+*.so
+*.so.*
+*.dylib
+
+*.exe
+*.out
+*.app
+
+# Java specific:
+*.class
+
+*.jar
+*.war
+*.ear
+
+# LaTeX specific:
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdf
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+*.tdo
