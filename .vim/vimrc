@@ -1,0 +1,66 @@
+" VIMRC
+
+set hidden
+set hlsearch
+set number
+set tabstop=4
+set noexpandtab
+set shiftwidth=4
+set wrap
+set autoindent
+set backspace=indent,eol,start
+
+
+" COLORS
+autocmd BufEnter * :syntax sync fromstart
+
+set background=dark
+set cursorline
+hi cursorline ctermbg=245 ctermfg=49
+set cursorcolumn
+hi cursorcolumn ctermbg=245 ctermfg=49
+
+set noswapfile
+
+
+" VIMHOME
+if !$VIMHOME
+    let $VIMHOME=$HOME."/.vim"
+endif
+
+
+
+" SOURCES
+source $VIMHOM/filetype.vim
+source $VIMHOME/settings/airline.vim
+source $VIMHOME/settings/csv.vim
+source $VIMHOME/settings/startify.vim
+source $VIMHOME/settings/vimwiki.vim
+source $VIMHOME/settings/YUNOcommit.vim
+
+" DICTIONARY
+source dictionary+='/Users/Em/.vim/dictionaries'
+
+" WILDMENU
+set wildmenu
+set wildmode=list:longest,full
+
+" MOUSE
+if has('mouse')
+    set mouse=a
+endif
+
+" SEARCH
+set incsearch
+
+
+" STATUSBAR
+set laststatus=2
+
+" Airline Stuff
+let g:airline_left_sep = '✾ '
+let g:airline_left_sep = '❤︎ '
+let g:airline_right_alt_sep = '✾ '
+let g:airline_right_sep = '❤︎ '
+
+
