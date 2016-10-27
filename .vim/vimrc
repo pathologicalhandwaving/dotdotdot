@@ -37,6 +37,7 @@ source $VIMHOME/settings/csv.vim
 source $VIMHOME/settings/startify.vim
 source $VIMHOME/settings/vimwiki.vim
 source $VIMHOME/settings/YUNOcommit.vim
+source $VIMHOME/settings/thematic.vim
 
 " DICTIONARY
 "source dictionary+='/Users/Em/.vim/dictionaries'
