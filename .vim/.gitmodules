@@ -21,13 +21,19 @@
 [submodule "start/vim-better-whitespace"]
 	path = start/vim-better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace.git
-[submodeule "start/vimwiki"]
+[submodule "start/vimwiki"]
 	path = start/vimwiki
-	url = https://github.com/vimwiki/vimwiki.git 
+	url = https://github.com/vimwiki/vimwiki.git
+[submodule "start/thematic"]
+    path = "start/thematic"
+	url = https://github.com/reedes/vim-thematic.git
+[submodule "start/vim-colorschemes"]
+	path = "start/vim-colorschemes"
+	url = https://github.com/flazz/vim-colorschemes.git
 
 "" Optional
 
-[submodule "start/LaTeX-Box"]
+[submodule "opt/LaTeX-Box"]
 	path = opt/startify
 	url = https://github.com/vim-scripts/LaTeX-Box.git
 

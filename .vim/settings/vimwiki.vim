@@ -27,13 +27,13 @@ nmap <Leader>rr <Plug>VimwikiRenameLink
 nmap <Leader>wcr <Plug>VimwikiDiaryGenerateLinks
 nmap <Leader>wq <Plug>VimwikiUISelect
 
-let g:vimwiki_hl_headers=1
-hi VimwikiHeader1 guifg='Red'
-hi VimwikiHeader2 guifg='Orange'
-hi VimwikiHeader3 guifg='Yellow'
-hi VimwikiHeader4 guifg='LightGreen'
-hi VimwikiHeader5 guifg='DarkCyan'
-hi VimwikiHeader6 guifg='DarkMagenta'
+"let g:vimwiki_hl_headers=1
+"hi VimwikiHeader1 guifg='Red'
+"hi VimwikiHeader2 guifg='Orange'
+"hi VimwikiHeader3 guifg='Yellow'
+"hi VimwikiHeader4 guifg='LightGreen'
+"hi VimwikiHeader5 guifg='DarkCyan'
+"hi VimwikiHeader6 guifg='DarkMagenta'
 
 let wiki_1={}
 let wiki_1.path='/Users/Em/PROJECTS/CAPTAINSLOG'
