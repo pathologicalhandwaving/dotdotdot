@@ -9,7 +9,7 @@ set shiftwidth=4
 set wrap
 set autoindent
 set backspace=indent,eol,start
-
+syntax on
 
 " COLORS
 autocmd BufEnter * :syntax sync fromstart
