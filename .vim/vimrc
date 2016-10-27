@@ -9,7 +9,9 @@ set shiftwidth=4
 set wrap
 set autoindent
 set backspace=indent,eol,start
-
+set nocompatible
+filetype plugin on
+syntax on
 
 " COLORS
 autocmd BufEnter * :syntax sync fromstart
@@ -37,6 +39,7 @@ source $VIMHOME/settings/startify.vim
 source $VIMHOME/settings/vimwiki.vim
 source $VIMHOME/settings/YUNOcommit.vim
 source $VIMHOME/settings/thematic.vim
+source $VIMHOME/settings/mappings.vim
 
 " DICTIONARY
 "source dictionary+='/Users/Em/.vim/dictionaries'
