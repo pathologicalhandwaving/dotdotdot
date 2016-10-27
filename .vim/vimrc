@@ -9,8 +9,11 @@ set shiftwidth=4
 set wrap
 set autoindent
 set backspace=indent,eol,start
+<<<<<<< HEAD
 set nocompatible
 filetype plugin on
+=======
+>>>>>>> 3d09d5effc0321e4ae2321d3d347d9bed6c94c08
 syntax on
 
 " COLORS
