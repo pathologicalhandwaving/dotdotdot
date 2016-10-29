@@ -1,4 +1,8 @@
 # Bash Profile
+export HOME=$HOME:/Users/Em/
+
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export GOPATH=$GOPATH:/Users/Em/PROJECTS/gocode
 
 source ~/.bashrc
 source ~/.aliases
