@@ -1,4 +1,8 @@
+.mutt/header_cache
+pending.data
+completed.data
 .config/ranger/history
+.config/ranger/bookmarks
 .apitokens
 .myconfig
 *.gz
