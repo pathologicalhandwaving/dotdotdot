@@ -1,0 +1,47 @@
+# OS X Basic Installs List
+
+InstallScripts:
+  - .dots # Runs the other scripts
+  - bootstrap.sh
+  - osxprep.sh
+  - brew.sh
+  - osx.sh
+  - pydata.sh
+  - datastores.sh
+  - web.sh
+
+Apps:
+  - iTerm2
+  - Vim
+  - Git
+  - Homebrew
+  - Ruby
+  - Python
+  - Pip
+  - VirtualEnv
+  - VirtualEnvWrapper
+
+PythonPackages:
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - Seaborn
+  - Scikit-learn
+  - SciPy
+  - Flask
+  - Bokeh
+
+Node:
+  - npm
+  - Node.js
+
+Languages:
+  - SMLNJ
+  - Python
+  - Perl
+  - Go
+  - Bash
+
+Math:
+  - RMZoo
+  - 

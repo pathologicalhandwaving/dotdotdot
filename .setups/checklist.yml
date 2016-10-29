@@ -1,0 +1,24 @@
+# MacBook Laptop Reset CheckList
+
+
+Reset:
+  - Run first aid on disk
+  - overwrite disk medium level overwrite
+  - install os x
+  - disable SIP
+    cmd: csrutil disable; reboot
+  - disable Gatekeeper
+  - iterm:
+    - mkdir /HOME/.dotfiles/iterm
+    - download latest stable version
+    - download color schemes
+    - install shell integration
+  - install xcode cli
+    cmd: x-code --select --commandline-tools?
+    
+    
+  - install brew
+  - install Karabiner
+  - install Seil
+  - install HammerSpoon
+  - clone setup repo
