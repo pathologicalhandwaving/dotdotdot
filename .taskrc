@@ -1,0 +1,63 @@
+# [Created by task 2.5.1 10/27/2016 20:09:15]
+# Taskwarrior program configuration file.
+# For more documentation, see http://taskwarrior.org or try 'man task', 'man task-color',
+# 'man task-sync' or 'man taskrc'
+
+# Here is an example of entries that use the default, override and blank values
+#   variable=foo   -- By specifying a value, this overrides the default
+#   variable=      -- By specifying no value, this means no default
+#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
+
+# Use the command 'task show' to see all defaults and overrides
+
+# Files
+data.location=~/.task
+
+# Color theme (uncomment one to use)
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/light-16.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/light-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-16.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-red-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-green-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-blue-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-violets-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-yellow-green.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-blue-256.theme
+include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-light-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/no-color.theme
+
+complete.all.projects=yes
+complete.all.tags=yes
+calendar.details.report=list
+calendar.legend=yes
+color.active=b:ack on bright orange
+color.burndown.done=black on green
+color.burndown.pending=black on red
+color.burndown.started=black on yellow
+color.calendar.due=white on red
+color.calendar.due.today=bold white on red
+color.calendar.holday=black on bright yellow
+color.calendar.overdue=black on bright red
+color.calendar.today=bold white on bright blue
+color.calendar.weekend=white on bright black
+color.calendar.weeknumber=bold blue
+color,due=red
+color.due.today=red
+color.footnote=blue
+color.header=yellow
+color.overdue=bold red
+color.recurring=violet
+color.tagged=yellow
+weekstart=monday
+dateformat=YMD
+dateformet.annotation=[Y-M-D H:N:S]
+dateformat.holiday=YMD
+dateformat.report=Y-M-D
+default.command=ls
+journal.info=on
+journal.time=on
+
+include ~/.task/holidays.rc
