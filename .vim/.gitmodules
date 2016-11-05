@@ -30,9 +30,6 @@
 [submodule "start/vim-colorschemes"]
 	path = start/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
-[submodule "start/vimtemplates"]
-	path = start/vimtemplates
-	url = https://github.com/drbeco/vimtemplates.git
 
 "" Optional
 

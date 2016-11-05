@@ -40,6 +40,7 @@ source $VIMHOME/settings/vimwiki.vim
 source $VIMHOME/settings/YUNOcommit.vim
 source $VIMHOME/settings/thematic.vim
 source $VIMHOME/settings/mappings.vim
+source $VIMHOME/settings/templates.vim
 
 " DICTIONARY
 "source dictionary+='/Users/Em/.vim/dictionaries'

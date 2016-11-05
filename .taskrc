@@ -14,9 +14,9 @@
 data.location=~/.task
 
 ## InTheAm Sync
-taskd.certificate=/path/to/private.certificate.pem
-taskd.key=/path/to/private.key.pem
-taskd.ca=/path/to/ca.cert.pem
+taskd.certificate=/Users/Em/.task/certs/private.certificate.pem
+taskd.key=/Users/Em/.task/certs/private.key.pem
+taskd.ca=/Users/Em/.task/certs/ca.cert.pem
 taskd.server=taskwarrior.inthe.am:53589
 taskd.credentials=inthe_am/emifixthis/ed4196f3-2985-4008-acc4-7597d3e63a5b
 taskd.trust=ignore hostname

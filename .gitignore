@@ -1,4 +1,5 @@
 .mutt/header_cache
+.task/certs/*
 .task/pending.data
 .task/completed.data
 .config/ranger/history

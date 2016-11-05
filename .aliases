@@ -2,6 +2,8 @@
 
 alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
 
+alias cleaned="rm *.aux *.log *.bbl *.blg *.out"
+
 alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
 
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
