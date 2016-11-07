@@ -30,6 +30,12 @@
 [submodule "start/vim-colorschemes"]
 	path = start/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "start/lua-inspect"]
+	path start/lua-inspect
+	url = https://github.com/xolox/vim-lua-inspect.git
+[submodule = "start/vim-misc"]
+	path = start/vim-misc
+	url = https://github.com/xolox/vim-misc.git
 
 "" Optional
 
