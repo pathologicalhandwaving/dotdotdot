@@ -1,0 +1,20 @@
+---
+0.2.1 json:>= 1.1.2,mime-types:>= 1.15,oauth:>= 0.3.1|checksum:fbb56c62446834220c5912f79954feb73776f648b81a6b553caef30af583364f
+0.2.2 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:3adea16c99bad1f53fd5ccaf815cc8507992c9cf470d77f762b0d6309e40e18b
+0.3.0 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:d56c5f5157ea83072931c15779859d7586bff866666cbcd98c25fa4ad462710f
+0.3.1 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:79b6a38996481af87aeb5c18bd0b46b139f7d1d089b8365a983c861b0dfa8a55
+0.3.2 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:e3e91de72142f3f51a6c33bbe93602e72c0101b5eac0b41105e167b281033cb4
+0.3.3 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:f317a9ac12b62552c5b8072b7622a39f21a57673a093251af0597e334eb14027
+0.3.4 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:13e9b92b09fc176618151f6b4804ceb3a536a9182f31fe7dc2e46660505515fa
+0.3.5 json:<= 1.2.4&>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:b54be8e05831c55e96cbbae2c4f4a40d154d051e7d1d16447c7a58e2ad3afc41
+0.3.6 json:<= 1.2.4&>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:168e7e47fe5bcdfaa639417c4a041369e60ad4d5b9c54ee93afdbe06f0e172d8
+0.4.0 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:83faebfe05d00362692d29e62a98420c51a918f45f63142d82c6afc0a2dea298
+0.4.1 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.3.6|checksum:b22c39b1354ccf9cee5d21027d133b3ab52419bad4825eda4580c3bb71080e1d
+0.4.2 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.4.1|checksum:64c357dd2198e773f39f609d6ad26d1944fcdfddcb3c3c83b6861b4c160bb90b
+0.4.3 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.4.1|checksum:4d2e57eecff62440de4df4a05e072f5507e5f7b22b18d9ca38e23fd71b751701
+0.4.4 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.4.1|checksum:b81d2cbba6718921c58c7e93c15e6516c660cc4ae201750f1dd4b5f668c9a02c
+0.4.9 json:>= 1.1.9,mime-types:>= 1.16,oauth:>= 0.4.1|checksum:3d806511bd0dcf790fc8469c4b3ee2b353a4337a575757d25c4ded4d55db5733
+0.4.91 json:>= 1.8.0,mime-types:>= 1.16,oauth:>= 0.4.7|checksum:e3bbe66211493d8b5c5296b16d0c4642298f7ad0bb9db97f8f3d89c394c4c056
+0.4.92 json:>= 1.8.0,mime-types:>= 1.16,oauth:>= 0.4.7|checksum:0c3f101fc70889ccd7636753285f5088c3604b57063fd2eb0bd59dc788aaea7c
+0.4.93 json:>= 1.8.0,mime-types:>= 1.16,oauth:>= 0.4.7|checksum:645e2a0498b6693e1639f047a2cffb4185f89a8b4b11e5011af1f559ce9dd02e
+0.4.94 json:>= 1.8.0,mime-types:>= 1.16,oauth:>= 0.4.7|checksum:7b387585147617cb3d3bec57df89a7104c87322aa7fd613fa8de0cfdd1c542a6
