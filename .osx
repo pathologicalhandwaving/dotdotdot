@@ -1,0 +1,16 @@
+# OSX Aliases
+
+alias bibdesk='open -a BibDesk'
+alias safari='open -a Safari'
+alias chrome='open -a Chrome'
+alias findr='open -a Finder'
+
+alias dsclean='find . -type f -name .DS_Store -delete'
+
+alias ql='qlmanage -p 2>/dev/null'
+
+alias mute="osascript -e 'set volume output muted true'"
+alias unmute="osascript -e 'set volume output muted false'"
+
+alias show="defaults write com.apple.finder AppleShowAllFiles TRUE"
+alias hide="defaults write com.apple.finder AppleShowAllFiles FALSE"
