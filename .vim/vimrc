@@ -17,6 +17,8 @@ syntax on
 autocmd BufEnter * :syntax sync fromstart
 
 set background=dark
+"colorscheme quantum
+colorscheme deep-space
 set cursorline
 hi cursorline ctermbg=245 ctermfg=49
 set cursorcolumn
@@ -30,6 +32,9 @@ if !$VIMHOME
     let $VIMHOME=$HOME."/.vim"
 endif
 
+if has("termguicolors")
+	set termguicolors
+endif
 
 
 " SOURCES
@@ -41,6 +46,8 @@ source $VIMHOME/settings/YUNOcommit.vim
 source $VIMHOME/settings/thematic.vim
 source $VIMHOME/settings/mappings.vim
 source $VIMHOME/settings/templates.vim
+"source $VIMHOME/settings/jedi.vim
+"source $VIMHOME/settings/supertab.vim
 
 " DICTIONARY
 "source dictionary+='/Users/Em/.vim/dictionaries'
@@ -61,6 +68,7 @@ set incsearch
 " STATUSBAR
 set laststatus=2
 
+let g:airline_theme="deep_space"
 " Airline Stuff
 let g:airline_left_sep = '✾ '
 let g:airline_left_sep = '❤︎ '
@@ -68,3 +76,6 @@ let g:airline_right_alt_sep = '✾ '
 let g:airline_right_sep = '❤︎ '
 
 
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'xml', 'css' ]
+let g:markdown_syntax_conceal = 0
