@@ -1,12 +1,19 @@
 # Aliases
 
+alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
+
+alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"
+
 alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
 
-alias cleaned="rm *.aux *.log *.bbl *.blg *.out"
+alias cleantex="rm *.aux *.log *.bbl *.blg *.out"
 
 alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
 
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
+
+alias icloud="cd /Users/Em/Library/Mobile Documents/com~apple~CloudDocs"
+
 
 alias cl="clear"
 alias ".."="cd .."
@@ -48,7 +55,7 @@ alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET
 
 
 alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+alias cleanosx="find . -type f -name '*.DS_Store' -ls -delete"
 
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
