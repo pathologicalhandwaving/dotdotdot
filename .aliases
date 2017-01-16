@@ -1,14 +1,22 @@
 # Aliases
 
+#alias foss="cd /Users/Em/Public/Sites/FosWiki"
+
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+alias aag="bash $HOME/School/Classes/MIT6001x/Misc/glossAppend.sh"
+
 alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
 
-alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"
 
-alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
 
-alias cleantex="rm *.aux *.log *.bbl *.blg *.out"
+#alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"
 
-alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
+#alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
+
+alias texclean="rm *.aux *.log *.bbl *.blg *.out"
+
+#alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
 
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
@@ -60,5 +68,8 @@ alias cleanosx="find . -type f -name '*.DS_Store' -ls -delete"
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
-alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+alias mit="cd /Users/Em/School/Classes/MIT6001x"
+alias lou="cd $HOME/School/Classes/LouvainIntLaw"
+alias cry="cd $HOME/School/Classes/StanCrypto1"
 
