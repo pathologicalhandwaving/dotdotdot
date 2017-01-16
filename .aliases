@@ -11,7 +11,7 @@ alias aag="bash $HOME/School/Classes/MIT6001x/Misc/glossAppend.sh"
 alias atl="bash $HOME/School/Classes/MIT6001x/Misc/termList.sh"
 alias ltt="bash $HOME/School/Classes/LouvainIntLaw/Misc/termList.sh"
 alias laa="bash $HOME/School/Classes/LouvainIntLaw/Misc/glossAppend.sh"
-
+#TODO: Add for crypt
 
 
 alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
