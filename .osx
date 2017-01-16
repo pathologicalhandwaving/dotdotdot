@@ -1,9 +1,16 @@
 # OSX Aliases
 
-alias bibdesk='open -a BibDesk'
-alias safari='open -a Safari'
-alias chrome='open -a Chrome'
-alias findr='open -a Finder'
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
+
+alias icloud="cd '/Users/Em/Library/Mobile Documents/com~apple~CloudDocs'"
+
+alias osafari='open -a Safari'
+alias ochrome='open -a Chrome'
+alias ofind='open -a Finder'
+alias otex='open -a TeXShop'
 
 alias dsclean='find . -type f -name .DS_Store -delete'
 
