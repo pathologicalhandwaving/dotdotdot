@@ -1,3 +1,4 @@
+/bundle/cache/*
 .mutt/header_cache
 .task/certs/*
 .task/pending.data
