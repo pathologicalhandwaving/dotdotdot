@@ -1,10 +1,10 @@
 # Aliases
 
-alias att="bash $HOME/School/Classes/Misc/termOnly.sh"
+alias atl="bash $HOME/School/Classes/MIT6001x/Misc/termList.sh"
 
-alias ltt="bash $HOME/School/Classes/LouvainIntlLaw/Misc/termOnly.sh"
+alias ltt="bash $HOME/School/Classes/LouvainIntLaw/Misc/termList.sh"
 
-alias laa="bash $HOME/School/Classes/LouvainIntlLaw/Misc/glossappend.sh"
+alias laa="bash $HOME/School/Classes/LouvainIntLaw/Misc/glossAppend.sh"
 
 # Clean up LaTeX Files
 alias cleantex="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
