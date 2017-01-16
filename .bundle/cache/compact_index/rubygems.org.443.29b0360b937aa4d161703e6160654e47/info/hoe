@@ -112,3 +112,5 @@
 3.15.0 rake:< 12.0&>= 0.8|checksum:b2e68ea2fc075b34d73b6a63f30dd9e308f1c67ddca86f0192ba8e93bbffc86d,rubygems:>= 1.4
 3.15.1 rake:< 12.0&>= 0.8|checksum:bffcbb976fd34bbb5e7fef9bd90ff7849c1c388a2f6615fa83b256b0162c7fc7,rubygems:>= 1.4
 3.15.2 rake:< 12.0&>= 0.8|checksum:f76b3503ba8dc1906ccd37e293a979b54dbc43ef49f6c2effbeddc9d64723ee6,rubygems:>= 1.4
+3.15.3 rake:< 12.0&>= 0.8|checksum:4e772892e8f23055adc7f8579153fc37b0636cbcb31e6e57b1e06b7fd55de717,rubygems:>= 1.4
+3.16.0 rake:< 13.0&>= 0.8|checksum:8bee33376af7dacbd0f3440614453589e60df14c13471c938ab6124bb8b6280f,rubygems:>= 1.4

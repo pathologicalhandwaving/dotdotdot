@@ -225,3 +225,6 @@
 5.0.0.1 activesupport:= 5.0.0.1|checksum:3b5a49d5297a8cf37ea97e6f9fcbf44adaaf6742be6f6a7f1ff15dd8f30df5bd,ruby:>= 2.2.2
 3.2.22.4 activesupport:= 3.2.22.4,builder:~> 3.0.0|checksum:16139b9dd8f116abfdeb04aed144eb0606adc8afc7678a7516b3280b63913175,ruby:>= 1.8.7
 3.2.22.5 activesupport:= 3.2.22.5,builder:~> 3.0.0|checksum:7bf7a1af9252417a732085a4da627208c41450c25472a99b93d876d80717b24e,ruby:>= 1.8.7
+5.0.1.rc1 activesupport:= 5.0.1.rc1|checksum:32be3ed9655f5d3e1c8cbb02dcc084f21b81b7d39bab68ae0552fdfb75be611d,ruby:>= 2.2.2,rubygems:> 1.3.1
+5.0.1.rc2 activesupport:= 5.0.1.rc2|checksum:a047c843fa4fd85d7acea5b1f35895a526d67468cc290f52536a5987c7a4c4b4,ruby:>= 2.2.2,rubygems:> 1.3.1
+5.0.1 activesupport:= 5.0.1|checksum:5c15679d79f5f386cc5a9d09500d2da9fe6f0953c5624aee0617761740e12850,ruby:>= 2.2.2

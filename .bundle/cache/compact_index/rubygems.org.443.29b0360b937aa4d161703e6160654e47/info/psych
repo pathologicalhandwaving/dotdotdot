@@ -37,3 +37,9 @@
 2.1.0-java jar-dependencies:>= 0.1.7|checksum:18acf02957c7d0dead47954c2524fda308d9ebf6dfc02c2f47c32c0220be8b34,ruby:>= 1.9.2
 2.1.1 |checksum:5e448c008cc3da4fdc32bc2163a2cba851d1510469a59ef8c7735787bdef0d03,ruby:>= 1.9.2
 2.1.1-java jar-dependencies:>= 0.1.7|checksum:443591275ae686e4bb656074c733bbced42ee104529e194567f243fa40da00b1,ruby:>= 1.9.2
+2.2.0 |checksum:291fedab5e36e072322b8d57c98a6c3a9f1a35b5576a7d51eb55ccd41482a723,ruby:>= 1.9.2
+2.2.0-java jar-dependencies:>= 0.1.7|checksum:78df0b96c61ccf5559be69c0f1a4876191595b8c3f63659f5f42049f78de52fb,ruby:>= 1.9.2
+2.2.1 |checksum:a3694d16c426b7d49670dc18c05f3697b1a365db3953297aba8dec335c77a823,ruby:>= 1.9.2
+2.2.1-java jar-dependencies:>= 0.1.7|checksum:6f9337f75a33b091a014d62dfbcbd00e257d01aeff92cea4c22ab3338c178e93,ruby:>= 1.9.2
+2.2.2 |checksum:fe2b5ad9e8e58f28921a76de5808a8bb828a13a3daa0942f2e8c073f46d54175,ruby:>= 1.9.2
+2.2.2-java jar-dependencies:>= 0.1.7|checksum:82a4f81b863b035d28cdfaa803fca4c5018022f7458dedc91cd2ddc0785100da,ruby:>= 1.9.2

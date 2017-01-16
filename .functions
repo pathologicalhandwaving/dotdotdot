@@ -1,5 +1,14 @@
 # Functions
 
+
+function weather() {
+	curl wttr.in/Oakland | lolcat -a -d 3 -s 17.0
+}
+
+function moon() {
+	curl wttr.in/Moon | lolcat -a -d 5 -s 17.0
+}
+
 function mkcd() {
     mkdir -p "$@" && cd "$_";
 

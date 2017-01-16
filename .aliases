@@ -1,5 +1,6 @@
 # Aliases
 
+<<<<<<< HEAD
 #alias foss="cd /Users/Em/Public/Sites/FosWiki"
 
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
@@ -17,9 +18,24 @@ alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
 alias texclean="rm *.aux *.log *.bbl *.blg *.out"
 
 #alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
+=======
+alias atl="bash $HOME/School/Classes/MIT6001x/Misc/termList.sh"
 
+alias ltt="bash $HOME/School/Classes/LouvainIntLaw/Misc/termList.sh"
+
+alias laa="bash $HOME/School/Classes/LouvainIntLaw/Misc/glossAppend.sh"
+
+# Clean up LaTeX Files
+alias cleantex="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
+
+# Timer
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+>>>>>>> 72ccb470a4dc2b1d9557e442013863824ccc2c7b
+
+# Lock
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
+# iCloud
 alias icloud="cd '/Users/Em/Library/Mobile Documents/com~apple~CloudDocs'"
 
 
@@ -28,7 +44,9 @@ alias ".."="cd .."
 alias "..."="cd../.."
 
 alias sbp="source /Users/Em/.bash_profile"
+
 alias pur="sudo purge"
+
 alias bup="brew update && brew upgrade && brew doctor && brew prune && brew cleanup"
 
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -63,13 +81,28 @@ alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET
 
 
 alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+
 alias cleanosx="find . -type f -name '*.DS_Store' -ls -delete"
 
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
+<<<<<<< HEAD
 
 alias mit="cd /Users/Em/School/Classes/MIT6001x"
 alias lou="cd $HOME/School/Classes/LouvainIntLaw"
 alias cry="cd $HOME/School/Classes/StanCrypto1"
+=======
+>>>>>>> 72ccb470a4dc2b1d9557e442013863824ccc2c7b
 
+
+
+alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
+
+# Graveyard
+
+#alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
+
+#alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
+
+#alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"

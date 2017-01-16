@@ -61,3 +61,4 @@
 3.8.1 little-plugger:~> 1.1,loquacious:~> 1.9,rake:>= 0.8.7,rdoc:~> 3.0|checksum:7fd2ec25c6780df4b51db24b85b60a42f9b2a7205dbc90fad992aa639166453c
 3.8.2 little-plugger:~> 1.1,loquacious:~> 1.9,rake:>= 0.8.7,rdoc:~> 3.0|checksum:1dfe0af1172e4af2d9a12fa5413b6d5952c1131d8994a3a90718b82a1a2e21bc
 3.8.3 little-plugger:~> 1.1,loquacious:~> 1.9,rake:~> 10.0,rdoc:~> 4.0|checksum:862b07d5cc84545dad43c848cc8d78ec001a6b430f7cce5c4a03efadb956c8e6
+3.8.4 little-plugger:~> 1.1,loquacious:~> 1.9,rake:~> 12.0,rdoc:~> 5.0|checksum:347b04f7e1df9d7fdae56e7ff9d2c016e6cf7c154b5580746e8e8498e6d93eb6

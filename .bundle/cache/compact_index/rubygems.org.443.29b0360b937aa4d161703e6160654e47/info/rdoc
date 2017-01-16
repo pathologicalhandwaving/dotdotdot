@@ -63,3 +63,5 @@
 4.2.2 json:~> 1.4|checksum:f3341c252b1547be6ba042f5ca1ce1fc5c52e3c27d8e0d485d0486173edfed08,ruby:>= 1.8.7,rubygems:>= 1.3
 5.0.0.beta1 |checksum:521f09c7a75ebd18e32679e616aa62a18ff0243594bca12b6c68620748096dad,ruby:>= 1.9.3,rubygems:>= 1.3
 5.0.0.beta2 |checksum:9e2076fad1cbd88cde508707c881c8d180b3b0d38612440160f0246b1220937a,ruby:>= 1.9.3,rubygems:>= 1.3
+4.3.0 |checksum:8cd820f70ec4b315ffff8e0653c8ce46cc9e444f3f8e7ed21c57338c61156a8d,ruby:>= 1.9.3,rubygems:>= 1.3
+5.0.0 |checksum:86fae3ac44b858e7abdb8809620232296f9a8cc6815c98b4cc1ed21ca9ffb0d1,ruby:>= 1.9.3,rubygems:>= 2.2

@@ -12,5 +12,3 @@ alias ql='qlmanage -p 2>/dev/null'
 alias mute="osascript -e 'set volume output muted true'"
 alias unmute="osascript -e 'set volume output muted false'"
 
-alias show="defaults write com.apple.finder AppleShowAllFiles TRUE"
-alias hide="defaults write com.apple.finder AppleShowAllFiles FALSE"

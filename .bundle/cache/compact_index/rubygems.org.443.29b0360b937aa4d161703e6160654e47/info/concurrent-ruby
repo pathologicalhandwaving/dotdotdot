@@ -105,3 +105,7 @@
 1.0.2-java |checksum:6496a7f5671ef84f386a45c623a5dc4fe1694e0042d0d720a6f4363dff342091,ruby:>= 1.9.3
 1.0.3.pre3 |checksum:ed6c87dad91a37649ed6d80d31b8747d2de90ca763ee2b0cec33960b512037fd,ruby:>= 1.9.3,rubygems:> 1.3.1
 1.0.3.pre3-java |checksum:79a2f686973e1b514aff7be39539a18a4625f6355d7d696b31fb31f103ea681d,ruby:>= 1.9.3,rubygems:> 1.3.1
+1.0.3 |checksum:f147ee7b088953d964f09b12c8c99cbed839426747dbbb22e48f16edf47a8dea,ruby:>= 1.9.3
+1.0.3-java |checksum:64cd678add8d7f9796afc88ea2abeead1f4eca845f6b9a19a7770dad41917f95,ruby:>= 1.9.3
+1.0.4 |checksum:ebd266064280cf52fab521ddd369d51a95f6aff664119e229b07101a6088f25c,ruby:>= 1.9.3
+1.0.4-java |checksum:2da72c7f85e5c258b1d9e203ddd008ac9ad8e6114c0c905047dbca5a810bd48e,ruby:>= 1.9.3

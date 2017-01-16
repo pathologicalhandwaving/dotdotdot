@@ -100,3 +100,12 @@
 4.0.0.beta2 |checksum:57ab6982ade5ecc08ab7ccafbb232a8d907637f6ff859cd228bcc42922b1ce0c,ruby:>= 2.0,rubygems:> 1.3.1
 3.2.1.beta1 |checksum:0561f66c29f04e2d706950dd206ad89be6841ae774ca06cd1ef4dd269698f015,ruby:>= 2.0,rubygems:> 1.3.1
 4.0.0.beta3 |checksum:a7d9f397420baf49bf556b27f646eba1834644091bd0946f137c34fe2d1d1f41,ruby:>= 2.0,rubygems:> 1.3.1
+3.3.0.beta1 |checksum:34c1ad37ad52e446b85c1f59c71102e8f0cbc91b4ee4f6330d7cbb687e896df4,ruby:>= 2.0,rubygems:> 1.3.1
+4.0.0.beta4 |checksum:ccd99f2307905d2db32f13680917c25baec5ab107ca0625829b328202473cbf4,ruby:>= 2.0,rubygems:> 1.3.1
+4.0.0.rc1 |checksum:7856f81fea6e68648261e9a75b5f3747a1148e12e7502e15ab640477020eb8b9,ruby:>= 2.0,rubygems:> 1.3.1
+4.0.0.rc2 |checksum:14566da19461c4896636f9df581f11fc95d58edbf110a56e58db5867e30d61a5,ruby:>= 2.0,rubygems:> 1.3.1
+4.0.0.rc3 |checksum:4f04ff8a74ff8a0c39d8920b871806d9ddd38e040046ddeb75f37ab4a2f2c4d9,ruby:>= 2.0,rubygems:> 1.3.1
+4.0.0 |checksum:97fb5661078f35983ca4e7ccc39d85b08e34bbfd4bed4dc5039eef50e5a917a8,ruby:>= 2.0
+4.0.1.rc1 |checksum:7b32dbc2b25d40ec0ee7d914fac0a6a386ad742e29007bd51b3fa0360ab2639e,ruby:>= 2.0,rubygems:> 1.3.1
+4.0.1.rc2 |checksum:fb7eeb678967277442ddfb8757094f476f63c32831d880c561d87e6e9200f9b7,ruby:>= 2.0,rubygems:> 1.3.1
+4.0.1 |checksum:d82af966e04bed53421791c3800795c5fcd25e385d6f3015b562647cd91db20b,ruby:>= 2.0
