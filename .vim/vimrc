@@ -46,7 +46,7 @@ source $VIMHOME/settings/YUNOcommit.vim
 source $VIMHOME/settings/thematic.vim
 source $VIMHOME/settings/mappings.vim
 source $VIMHOME/settings/templates.vim
-"source $VIMHOME/settings/jedi.vim
+source $VIMHOME/settings/jedi.vim
 "source $VIMHOME/settings/supertab.vim
 
 " DICTIONARY
