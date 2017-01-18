@@ -48,6 +48,7 @@ source $VIMHOME/settings/mappings.vim
 source $VIMHOME/settings/templates.vim
 source $VIMHOME/settings/jedi.vim
 "source $VIMHOME/settings/supertab.vim
+source $VIMHOME/settings/vim-taskwarrior.vim
 
 " DICTIONARY
 "source dictionary+='/Users/Em/.vim/dictionaries'
