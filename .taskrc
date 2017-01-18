@@ -69,3 +69,6 @@ journal.info=on
 journal.time=on
 
 include ~/.task/holidays.rc
+pomodoro.taskwarrior_path=/Users/Em/.task
+pomodoro.displayCount=true
+pomodoro.durationSeconds=1860
