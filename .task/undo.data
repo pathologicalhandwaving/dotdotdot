@@ -4112,3 +4112,73 @@ new [description:"Notes discrete probability" entry:"1484242271" modified:"14842
 time 1484242358
 new [description:"Text Mom ask if B is still going to practice tonight" entry:"1484242358" modified:"1484242358" project:"Home" status:"pending" uuid:"9ae9c769-9b3a-41fd-b52a-ef03f2e968d6"]
 ---
+time 1484762957
+old [description:"Fill out forms on Kelly" entry:"1483994685" modified:"1483994685" project:"Job" status:"pending" uuid:"3a05a69b-6a69-4a3a-871a-1a8f4b1a14f6"]
+new [description:"Fill out forms on Kelly" end:"1484762955" entry:"1483994685" modified:"1484762957" project:"Job" status:"completed" uuid:"3a05a69b-6a69-4a3a-871a-1a8f4b1a14f6"]
+---
+time 1484762958
+old [description:"Notes chapter 2" entry:"1484242180" modified:"1484242180" project:"MITCS" status:"pending" uuid:"300c6642-8ea6-497a-9735-6a6d45fc754f"]
+new [description:"Notes chapter 2" end:"1484762957" entry:"1484242180" modified:"1484762958" project:"MITCS" status:"completed" uuid:"300c6642-8ea6-497a-9735-6a6d45fc754f"]
+---
+time 1484762958
+old [description:"Notes Westphalia to Versailles" entry:"1484242228" modified:"1484242228" project:"InternationalLaw" status:"pending" uuid:"aecbf826-4e9a-4789-87ef-9e0cb1092ee0"]
+new [description:"Notes Westphalia to Versailles" end:"1484762958" entry:"1484242228" modified:"1484762958" project:"InternationalLaw" status:"completed" uuid:"aecbf826-4e9a-4789-87ef-9e0cb1092ee0"]
+---
+time 1484762958
+old [description:"Notes discrete probability" entry:"1484242271" modified:"1484242271" project:"StanCrypto" status:"pending" uuid:"3a3145c7-0b41-464c-a719-0ea89ba08439"]
+new [description:"Notes discrete probability" end:"1484762958" entry:"1484242271" modified:"1484762958" project:"StanCrypto" status:"completed" uuid:"3a3145c7-0b41-464c-a719-0ea89ba08439"]
+---
+time 1484762959
+old [description:"Text Mom ask if B is still going to practice tonight" entry:"1484242358" modified:"1484242358" project:"Home" status:"pending" uuid:"9ae9c769-9b3a-41fd-b52a-ef03f2e968d6"]
+new [description:"Text Mom ask if B is still going to practice tonight" end:"1484762958" entry:"1484242358" modified:"1484762959" project:"Home" status:"completed" uuid:"9ae9c769-9b3a-41fd-b52a-ef03f2e968d6"]
+---
+time 1484763093
+new [description:"Week two materials download" entry:"1484763093" modified:"1484763093" project:"IntLaw" status:"pending" tags:"law" uuid:"5ff4c7c9-1bea-4076-9f5a-fe54418d5cb0"]
+---
+time 1484763151
+old [description:"Week two materials download" entry:"1484763093" modified:"1484763093" project:"IntLaw" status:"pending" tags:"law" uuid:"5ff4c7c9-1bea-4076-9f5a-fe54418d5cb0"]
+new [description:"Week two materials download" due:"1484715600" entry:"1484763093" modified:"1484763151" project:"IntLaw" status:"pending" tags:"law" uuid:"5ff4c7c9-1bea-4076-9f5a-fe54418d5cb0"]
+---
+time 1484763379
+new [description:"Download week 2 transcript files" due:"1484715600" entry:"1484763379" modified:"1484763379" project:"IntLaw" status:"pending" tags:"law" uuid:"23c00642-338e-4fcf-b38f-b2bd8a0b0e3d"]
+---
+time 1484763502
+new [description:"Download pdfs in textbook tab" due:"1484715600" entry:"1484763502" modified:"1484763502" project:"IntLaw" status:"pending" tags:"law" uuid:"1d3f49e0-2783-40b6-bb9c-347dc46676d8"]
+---
+time 1484763544
+new [description:"Make green beans for mom birthday dinner" due:"1484715600" entry:"1484763544" modified:"1484763544" project:"Home" status:"pending" tags:"home" uuid:"eaae92e8-1b03-409d-81f3-743896d19f45"]
+---
+time 1484763566
+new [description:"Clean room" due:"1484715600" entry:"1484763566" modified:"1484763566" project:"Home" status:"pending" tags:"home" uuid:"7ab81c8b-afb9-4e2d-9db5-d17ea8f02afa"]
+---
+time 1484763580
+new [description:"Laundry" due:"1484715600" entry:"1484763580" modified:"1484763580" project:"Home" status:"pending" tags:"home" uuid:"71fa5492-6193-4aaa-b12b-3762a93364fb"]
+---
+time 1484763604
+new [description:"Nap" due:"1484715600" entry:"1484763604" modified:"1484763604" project:"Care" status:"pending" tags:"care" uuid:"e232e02b-5b0b-41e5-9288-7c9768ea0b7e"]
+---
+time 1484763713
+new [description:"Fix Bib directory and alias setup" entry:"1484763713" modified:"1484763713" project:"Library" status:"pending" tags:"library,references,bibtex" uuid:"2b8f75ac-5099-4891-9a90-bfc1b0ee0096"]
+---
+time 1484763758
+new [description:"Problem 2" entry:"1484763758" modified:"1484763758" project:"MIT6001x" status:"pending" tags:"homework,problem,problemset,mit" uuid:"9d3d73e3-b338-40ac-8b07-606b92b4e976"]
+---
+time 1484763770
+new [description:"Problem 3" entry:"1484763770" modified:"1484763770" project:"MIT6001x" status:"pending" tags:"homework,problem,problemset,mit" uuid:"3da1d564-da3d-471c-92d0-fa6c59298cdf"]
+---
+time 1484763801
+new [description:"Participation week 1" due:"1484715600" entry:"1484763801" modified:"1484763801" project:"IntLaw" status:"pending" tags:"law" uuid:"1bc8818c-3436-4e9a-90e7-fb996ab5538b"]
+---
+time 1484763818
+new [description:"Participation week 2" due:"1484888400" entry:"1484763818" modified:"1484763818" project:"IntLaw" status:"pending" tags:"law" uuid:"9a867375-0ac9-4522-9df5-5f53219901f4"]
+---
+time 1484763907
+new [description:"Problem set 1" due:"1485147600" entry:"1484763907" modified:"1484763907" project:"MIT6001x" status:"pending" tags:"mit,problemset,duedate" uuid:"42081099-f470-434a-8958-b7028ed45f69"]
+---
+time 1484763950
+new [description:"Check if Nik has looked at code for problem 1 yet" entry:"1484763950" modified:"1484763950" project:"MIT6001x" status:"pending" tags:"problem,homework" uuid:"6a6c158a-8f16-49d3-8d05-65079e69bf09"]
+---
+time 1484763965
+old [description:"Clean room" due:"1484715600" entry:"1484763566" modified:"1484763566" project:"Home" status:"pending" tags:"home" uuid:"7ab81c8b-afb9-4e2d-9db5-d17ea8f02afa"]
+new [description:"Clean room" due:"1484715600" end:"1484763965" entry:"1484763566" modified:"1484763965" project:"Home" status:"completed" tags:"home" uuid:"7ab81c8b-afb9-4e2d-9db5-d17ea8f02afa"]
+---
