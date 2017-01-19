@@ -1,0 +1,33 @@
+# HOME Directory Schema
+---
+detect_relations: true
+
+directory: home
+  subdirectories:
+    - .vim
+    - .task
+    - .timewarrior
+    - .myconfig
+    - .mytools
+    - .mutt
+    - .cmus
+    - .ranger
+    - .iterm2
+  dotfiles:
+    - .bashrc
+    - .bash_profile
+    - .bash_prompt
+    - .aliases
+    - .exports
+    - .functions
+    - .gitignore
+    - .mypaths
+    - .study
+    - .osx
+    - .taskrc
+    - .taskopenrc
+    - .wgetrc
+    
+  
+
+
