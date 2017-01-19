@@ -1,0 +1,4 @@
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T034131Z","tags":["Home","Laundry","home"]}

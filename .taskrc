@@ -33,33 +33,42 @@ taskd.trust=ignore hostname
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-yellow-green.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-blue-256.theme
-include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
+#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-light-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/no-color.theme
+#include /Users/Em/.task/themes/antiglare.theme
+#include /Users/Em/.task/themes/dark-256.theme
+#include /Users/Em/.task/themes/dark-gray-256.theme
+#include /Users/Em/.task/themes/dark-blue-256.theme
+#include /Users/Em/.task/themes/dark-green-256.theme
+#include /Users/Em/.task/themes/dark-red-256.theme
+#include /Users/Em/.task/themes/light-256.theme
+include /Users/Em/.task/themes/solarized-dark.theme
+#include /Users/Em/.task/themes/solarized-light.theme
 
 complete.all.projects=yes
 complete.all.tags=yes
 calendar.details.report=list
 calendar.legend=yes
-color.active=black on bright red
-color.burndown.done=black on green
-color.burndown.pending=black on red
-color.burndown.started=black on yellow
-color.calendar.due=white on red
-color.calendar.due.today=bold white on red
-color.calendar.holday=black on bright yellow
-color.calendar.overdue=black on bright red
-color.calendar.today=bold white on bright blue
-color.calendar.weekend=white on bright black
-color.calendar.weeknumber=bold blue
-color,due=red
-color.due.today=red
-color.footnote=blue
-color.header=yellow
-color.overdue=bold red
-color.recurring=magenta
-color.tagged=yellow
-weekstart=monday
+#color.active=black on bright red
+#color.burndown.done=black on green
+#color.burndown.pending=black on red
+#color.burndown.started=black on yellow
+#color.calendar.due=white on red
+#color.calendar.due.today=bold white on red
+#color.calendar.holday=black on bright yellow
+#color.calendar.overdue=black on bright red
+#color.calendar.today=bold white on bright blue
+#color.calendar.weekend=white on bright black
+#color.calendar.weeknumber=bold blue
+#color,due=red
+#color.due.today=red
+#color.footnote=blue
+#color.header=yellow
+#color.overdue=bold red
+#color.recurring=magenta
+#color.tagged=yellow
+#weekstart=monday
 dateformat=YMD
 dateformet.annotation=[Y-M-D H:N:S]
 dateformat.holiday=YMD
@@ -69,6 +78,6 @@ journal.info=on
 journal.time=on
 
 include ~/.task/holidays.rc
-pomodoro.taskwarrior_path=/Users/Em/.task
-pomodoro.displayCount=true
-pomodoro.durationSeconds=1860
+#pomodoro.taskwarrior_path=/Users/Em/.task
+#pomodoro.displayCount=true
+#pomodoro.durationSeconds=1860
