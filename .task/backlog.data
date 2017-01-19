@@ -1,1 +1,3 @@
-5dee9cbc-c175-4a39-8d75-5710223b5c18
+b03009a3-c035-4a9f-bb15-8d7d54f98693
+{"description":"Laundry","due":"20170118T050000Z","entry":"20170118T181940Z","modified":"20170119T034131Z","project":"Home","start":"20170119T034131Z","status":"pending","tags":["home"],"uuid":"71fa5492-6193-4aaa-b12b-3762a93364fb","annotations":[{"entry":"20170119T013026Z","description":"Started task"},{"entry":"20170119T032800Z","description":"Stopped task"},{"entry":"20170119T034131Z","description":"Started task"}]}
+{"description":"Laundry","due":"20170118T050000Z","entry":"20170118T181940Z","modified":"20170119T055651Z","project":"Home","status":"pending","tags":["home"],"uuid":"71fa5492-6193-4aaa-b12b-3762a93364fb","annotations":[{"entry":"20170119T013026Z","description":"Started task"},{"entry":"20170119T032800Z","description":"Stopped task"},{"entry":"20170119T034131Z","description":"Started task"},{"entry":"20170119T055650Z","description":"Stopped task"}]}
