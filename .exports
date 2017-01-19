@@ -9,7 +9,7 @@ export EDITOR='vim';
 # US English in UTF-8
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
-# Add python path
+
 
 # gnu path
 MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"

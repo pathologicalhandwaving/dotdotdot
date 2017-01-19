@@ -1,0 +1,21 @@
+# Study Aliases
+
+alias que="bash /Users/Em/Tools/question.sh"
+
+# Go To Directory
+alias mit="cd /Users/Em/School/Classes/MIT6001x"
+alias lou="cd $HOME/School/Classes/LouvainIntLaw"
+alias cry="cd $HOME/School/Classes/StanCrypto1"
+
+# Glossaries and Terms
+
+## MIT
+alias mgg="bash $HOME/School/Classes/MIT6001x/Misc/glossAppend.sh"
+alias mtt="bash $HOME/School/Classes/MIT6001x/Misc/termList.sh"
+
+## Louvain
+alias ltt="bash $HOME/School/Classes/LouvainIntLaw/Misc/termList.sh"
+alias lgg="bash $HOME/School/Classes/LouvainIntLaw/Misc/glossAppend.sh"
+
+## Stanford
+#TODO: Add for crypt

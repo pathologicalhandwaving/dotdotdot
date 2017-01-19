@@ -17,3 +17,6 @@ function mkcd() {
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	$(brew --prefix)/etc/bash_completion
 fi
+
+# Degree Sequence
+alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"

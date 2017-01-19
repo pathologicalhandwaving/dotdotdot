@@ -4,22 +4,6 @@
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 alias mytime="bash /Users/Em/Tools/time.sh"
 
-alias que="bash /Users/Em/Tools/question.sh"
-#alias idd="bash /Users/Em/Tools/idea.sh"
-
-alias mit="cd /Users/Em/School/Classes/MIT6001x"
-alias lou="cd $HOME/School/Classes/LouvainIntLaw"
-alias cry="cd $HOME/School/Classes/StanCrypto1"
-
-alias mgg="bash $HOME/School/Classes/MIT6001x/Misc/glossAppend.sh"
-alias mtt="bash $HOME/School/Classes/MIT6001x/Misc/termList.sh"
-alias ltt="bash $HOME/School/Classes/LouvainIntLaw/Misc/termList.sh"
-alias lgg="bash $HOME/School/Classes/LouvainIntLaw/Misc/glossAppend.sh"
-#TODO: Add for crypt
-
-
-alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
-
 
 # Clean up LaTeX Files
 alias texcleanup="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"

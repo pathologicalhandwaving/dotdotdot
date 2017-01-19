@@ -11,7 +11,7 @@ source ~/'.functions'
 source ~/.bash_prompt
 source ~/.apitokens
 source ~/.osx
-
+source ~/.study
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
