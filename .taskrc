@@ -21,21 +21,12 @@ taskd.server=taskwarrior.inthe.am:53589
 taskd.credentials=inthe_am/emifixthis/ed4196f3-2985-4008-acc4-7597d3e63a5b
 taskd.trust=ignore hostname
 
-# Color theme (uncomment one to use)
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/light-16.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/light-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-16.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-red-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-green-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-blue-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-violets-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-yellow-green.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-gray-blue-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-light-256.theme
-#include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/no-color.theme
+
+# Annotations
+annotations=full
+report.X.annotations=full
+
+# Color theme (uncomment one)
 #include /Users/Em/.task/themes/antiglare.theme
 #include /Users/Em/.task/themes/dark-256.theme
 #include /Users/Em/.task/themes/dark-gray-256.theme
@@ -46,10 +37,18 @@ taskd.trust=ignore hostname
 include /Users/Em/.task/themes/solarized-dark.theme
 #include /Users/Em/.task/themes/solarized-light.theme
 
+# Complete
 complete.all.projects=yes
 complete.all.tags=yes
+
+# Calendar
 calendar.details.report=list
 calendar.legend=yes
+
+# Nag
+nag="Shouldn't you be doing something more important?"
+
+# Custom Color Settings
 #color.active=black on bright red
 #color.burndown.done=black on green
 #color.burndown.pending=black on red
@@ -68,12 +67,20 @@ calendar.legend=yes
 #color.overdue=bold red
 #color.recurring=magenta
 #color.tagged=yellow
-#weekstart=monday
+
+# Date
+weekstart=Monday
 dateformat=YMD
-dateformet.annotation=[Y-M-D H:N:S]
+dateformat.annotation=[Y-M-D H:N:S]
 dateformat.holiday=YMD
 dateformat.report=Y-M-D
+
+report.X.dateformat=Y-M-D
+
+# Default
 default.command=ls
+
+# Journal
 journal.info=on
 journal.time=on
 
