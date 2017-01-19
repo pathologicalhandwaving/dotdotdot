@@ -1,8 +1,14 @@
-au BufRead,BufNewFile *.yml,*.yaml set filetype=yaml
+" Vim support file to detect Taskwarrior data and configuration files and 
+" single task edits
+"
+" Maintainer:   John Florian <jflorian@doubledog.org>
+" Updated:	Thu Dec 10 18:28:26 EST 2009
+"
+" Copyright 2009 - 2016 John Florian
+"
+" This file is available under the MIT license.
+" For the full text of this license, see COPYING.
 
-
-"au BufRead,BufNewFile *.wiki set filetype=vimwiki
-"autocmd FileType vimwiki map <Leader>w :d :VimwikiMakeNewDiaryNote
 
 " Taskwarrior data files
 au BufRead,BufNewFile {pending,completed,undo}.data	set filetype=taskdata
