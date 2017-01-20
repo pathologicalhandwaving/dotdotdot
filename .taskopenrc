@@ -62,9 +62,9 @@ NOTES_EXT=".txt"
 
 # Execute an arbitrary command if there is no annotation available. The corresponding taskwarrior IDs will
 # be passed as arguments, e.g. "addnote 21 42"
-#NO_ANNOTATION_HOOK=addnote
+NO_ANNOTATION_HOOK=addnote
 
 # Make additional taskwarrior attributes available as sort keys and environment variables.
 # E.g. TASK_ATTRIBUTES="project,tags" allows to sort by "task_project" or "task_tags" and to use 
 # "$TASK_PROJECT" or "$TASK_TAGS" within your (custom) commands.
-#TASK_ATTRIBUTES=""
+TASK_ATTRIBUTES="$TASK_TAGS"

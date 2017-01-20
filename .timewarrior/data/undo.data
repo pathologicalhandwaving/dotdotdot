@@ -2,3 +2,339 @@ txn:
   type: interval
   before: 
   after: {"start":"20170119T034131Z","tags":["Home","Laundry","home"]}
+txn:
+  type: interval
+  before: {"start":"20170119T034131Z","tags":["Home","Laundry","home"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T034131Z","end":"20170119T055651Z","tags":["Home","Laundry","home"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T060752Z","tags":["Care","Take sleep meds","care","sleep"]}
+txn:
+  type: interval
+  before: {"start":"20170119T060752Z","tags":["Care","Take sleep meds","care","sleep"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T060752Z","end":"20170119T061127Z","tags":["Care","Take sleep meds","care","sleep"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T063114Z","tags":["Care","Sleep","care","sleep"]}
+txn:
+  type: interval
+  before: {"start":"20170119T063114Z","tags":["Care","Sleep","care","sleep"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T063114Z","end":"20170119T122649Z","tags":["Care","Sleep","care","sleep"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T131535Z","tags":["Brush teeth","Care","care"]}
+txn:
+  type: interval
+  before: {"start":"20170119T131535Z","tags":["Brush teeth","Care","care"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T131535Z","end":"20170119T135251Z","tags":["Brush teeth","Care","care"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T135346Z","tags":["Care","Coffee","care"]}
+txn:
+  type: interval
+  before: {"start":"20170119T135346Z","tags":["Care","Coffee","care"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T135346Z","end":"20170119T141526Z","tags":["Care","Coffee","care"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T142430Z","tags":["Clean Room","Home","home","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170119T142430Z","tags":["Clean Room","Home","home","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T142430Z","end":"20170119T143944Z","tags":["Clean Room","Home","home","nonag"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T144034Z","tags":["Home","Laundry","home"]}
+txn:
+  type: interval
+  before: {"start":"20170119T144034Z","tags":["Home","Laundry","home"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T144034Z","end":"20170119T153010Z","tags":["Home","Laundry","home"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T153308Z","tags":["Break","break"]}
+txn:
+  type: interval
+  before: {"start":"20170119T153308Z","tags":["Break","break"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T153308Z","end":"20170119T154533Z","tags":["Break","break"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T154554Z","tags":["Care","Shower","care","next"]}
+txn:
+  type: interval
+  before: {"start":"20170119T154554Z","tags":["Care","Shower","care","next"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T154554Z","end":"20170119T160656Z","tags":["Care","Shower","care","next"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T160710Z","tags":["Care","Take meds","care","next","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170119T160710Z","tags":["Care","Take meds","care","next","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T160710Z","end":"20170119T160806Z","tags":["Care","Take meds","care","next","nonag"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T160821Z","tags":["Care","Get dressed","care","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170119T160821Z","tags":["Care","Get dressed","care","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T160821Z","end":"20170119T163229Z","tags":["Care","Get dressed","care","nonag"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T164023Z","tags":["Care","Walk","care","nonag","walk"]}
+txn:
+  type: interval
+  before: {"start":"20170119T164023Z","tags":["Care","Walk","care","nonag","walk"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T164023Z","end":"20170119T172648Z","tags":["Care","Walk","care","nonag","walk"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T172712Z","tags":["Break","break","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170119T172712Z","tags":["Break","break","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T172712Z","end":"20170119T180525Z","tags":["Break","break","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170119T172712Z","end":"20170119T180525Z","tags":["Break","break","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T172712Z","end":"20170119T174525Z","tags":["Break","break","nonag"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T175000Z","tags":["Make mental health appointment"]}
+txn:
+  type: interval
+  before: {"start":"20170119T175000Z","tags":["Make mental health appointment"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T175000Z","end":"20170119T181135Z","tags":["Make mental health appointment"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T181300Z","tags":["Job","Review Kelly checklist","job","kelly","list"]}
+txn:
+  type: interval
+  before: {"start":"20170119T181300Z","tags":["Job","Review Kelly checklist","job","kelly","list"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T181300Z","end":"20170119T191821Z","tags":["Job","Review Kelly checklist","job","kelly","list"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T191835Z","tags":["Email Logan about details","Job","email","job","kelly"]}
+txn:
+  type: interval
+  before: {"start":"20170119T191835Z","tags":["Email Logan about details","Job","email","job","kelly"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T191835Z","end":"20170119T191851Z","tags":["Email Logan about details","Job","email","job","kelly"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T203000Z","tags":["Taking B to swim practice"]}
+txn:
+  type: interval
+  before: {"start":"20170119T203000Z","tags":["Taking B to swim practice"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170119T203000Z","end":"20170120T013000Z","tags":["Taking B to swim practice"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T035232Z","tags":["Care","Sleep","care","sleep"]}
+txn:
+  type: interval
+  before: {"start":"20170120T035232Z","tags":["Care","Sleep","care","sleep"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T035232Z","end":"20170120T115707Z","tags":["Care","Sleep","care","sleep"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T123411Z","tags":["Care","Coffee","care"]}
+txn:
+  type: interval
+  before: {"start":"20170120T123411Z","tags":["Care","Coffee","care"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T123411Z","end":"20170120T123535Z","tags":["Care","Coffee","care"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T123557Z","tags":["Clean Room","Home","home","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170120T123557Z","tags":["Clean Room","Home","home","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T123557Z","end":"20170120T125414Z","tags":["Clean Room","Home","home","nonag"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T125434Z","tags":["Care","Get dressed","care","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170120T125434Z","tags":["Care","Get dressed","care","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T125434Z","end":"20170120T133003Z","tags":["Care","Get dressed","care","nonag"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T133008Z","tags":["Breakfast","Care","care","meal","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170120T133008Z","tags":["Breakfast","Care","care","meal","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T133008Z","end":"20170120T140359Z","tags":["Breakfast","Care","care","meal","nonag"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T142852Z","tags":["Care","Walk","care","nonag","walk"]}
+txn:
+  type: interval
+  before: {"start":"20170120T142852Z","tags":["Care","Walk","care","nonag","walk"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T142852Z","end":"20170120T151018Z","tags":["Care","Walk","care","nonag","walk"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T160203Z","tags":["Home","Setup outdoor space","home"]}
+txn:
+  type: interval
+  before: {"start":"20170120T160203Z","tags":["Home","Setup outdoor space","home"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T160203Z","end":"20170120T160924Z","tags":["Home","Setup outdoor space","home"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T161500Z","tags":["Notes IntLaw"]}
+txn:
+  type: interval
+  before: {"start":"20170120T161500Z","tags":["Notes IntLaw"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T161500Z","end":"20170120T180310Z","tags":["Notes IntLaw"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T180827Z","tags":["Care","Lunch","care","meal"]}
+txn:
+  type: interval
+  before: {"start":"20170120T180827Z","tags":["Care","Lunch","care","meal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T180827Z","end":"20170120T151000Z","tags":["Care","Lunch","care","meal"]}
+txn:
+  type: interval
+  before: {"start":"20170120T180827Z","tags":["Care","Lunch","care","meal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T180827Z","end":"20170120T151500Z","tags":["Care","Lunch","care","meal"]}
+txn:
+  type: interval
+  before: {"start":"20170120T180827Z","tags":["Care","Lunch","care","meal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T180827Z","end":"20170120T181135Z","tags":["Care","Lunch","care","meal"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T181511Z","tags":["Care","Lunch","care","meal"]}

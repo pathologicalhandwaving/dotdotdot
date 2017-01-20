@@ -1,0 +1,55 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Compress::Raw::Bzip2
+  CHECKSUM_STATUS: OK
+  ID: P/PM/PMQS/Compress-Raw-Bzip2-2.070.tar.gz
+  RO:
+    CPAN_COMMENT: ~
+    CPAN_USERID: PMQS
+  archived: tar
+  build_dir: /Users/Em/.cpan/build/Compress-Raw-Bzip2-2.070-0
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1484804612
+  localfile: /Users/Em/.cpan/sources/authors/id/P/PM/PMQS/Compress-Raw-Bzip2-2.070.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1484804610
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1484804611
+  mandatory: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: 0
+    opt_build_requires: {}
+    opt_requires: {}
+    requires: {}
+  reqtype: c
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1484804600
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1484804601
+perl:
+  $^X: /usr/bin/perl
+  mtime_$^X: 1468033395
+  mtime_dll: 0
+  sitearchexp: /Library/Perl/5.18/darwin-thread-multi-2level
+time: 1484804612
