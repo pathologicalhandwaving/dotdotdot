@@ -1,12 +1,12 @@
 # Aliases
 
 
-alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
-alias mytime="bash /Users/Em/Tools/time.sh"
+# Central Bibliography
+#alias biblib="cd /usr/local/texlive/texmf-local/bibtex/bib/local"
 
 
 # Clean up LaTeX Files
-alias texcleanup="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
+#alias texcleanup="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
 
 
 # Lock
@@ -32,9 +32,9 @@ else # macOS `ls`
 fi
 
 alias ls="command ls ${colorflag}"
-alias ll="ls -lF ${colorflag}"
-alias lk="ls -lF ${colorflag}"
-alias "l:"="ls -lF ${colorflag}"
+alias ll="ls ${colorflag}"
+alias lk="ls ${colorflag}"
+alias "l:"="ls ${colorflag}"
 
 
 
@@ -61,8 +61,8 @@ alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/La
 
 
 
-
-alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
+# TODO: Fix me
+#alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
 
 # Graveyard
 

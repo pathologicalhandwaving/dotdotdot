@@ -1,0 +1,5 @@
+# Math Utility Aliases
+
+alias truthtable="python3 /Users/Em/.myscripts/truthtable.py"
+
+alias randomnumber="py 'random.random()'"
