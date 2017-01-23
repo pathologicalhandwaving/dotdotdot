@@ -338,3 +338,227 @@ txn:
   type: interval
   before: 
   after: {"start":"20170120T181511Z","tags":["Care","Lunch","care","meal"]}
+txn:
+  type: interval
+  before: {"start":"20170120T181511Z","tags":["Care","Lunch","care","meal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T181511Z","end":"20170120T210045Z","tags":["Care","Lunch","care","meal"]}
+txn:
+  type: interval
+  before: {"start":"20170120T181511Z","end":"20170120T210045Z","tags":["Care","Lunch","care","meal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T181511Z","end":"20170120T210045Z","tags":["Care","Lunch","care","meal"]}
+txn:
+  type: interval
+  before: {"start":"20170120T181511Z","end":"20170120T210045Z","tags":["Care","Lunch","care","meal"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T181511Z","end":"20170120T191045Z","tags":["Care","Lunch","care","meal"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T193500Z","tags":["Organizing backups"]}
+txn:
+  type: interval
+  before: {"start":"20170120T193500Z","tags":["Organizing backups"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T193500Z","end":"20170120T210826Z","tags":["Organizing backups"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T215718Z","tags":["Crypto","Reading Constructing Cryptographic Definitions Rogaway","crypto","notes","reading"]}
+txn:
+  type: interval
+  before: {"start":"20170120T215718Z","tags":["Crypto","Reading Constructing Cryptographic Definitions Rogaway","crypto","notes","reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T215718Z","end":"20170120T220210Z","tags":["Crypto","Reading Constructing Cryptographic Definitions Rogaway","crypto","notes","reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T220217Z","tags":["Bib file for Cryptographic definitions Rogaway","Crypto","bib","crypto","make"]}
+txn:
+  type: interval
+  before: {"start":"20170120T220217Z","tags":["Bib file for Cryptographic definitions Rogaway","Crypto","bib","crypto","make"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T220217Z","end":"20170120T221042Z","tags":["Bib file for Cryptographic definitions Rogaway","Crypto","bib","crypto","make"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T230000Z","tags":["bibtex config"]}
+txn:
+  type: interval
+  before: {"start":"20170120T230000Z","tags":["bibtex config"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170120T230000Z","end":"20170121T010613Z","tags":["bibtex config"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T010842Z","tags":["Crypto","Reading Constructing Cryptographic Definitions Rogaway","crypto","notes","reading"]}
+txn:
+  type: interval
+  before: {"start":"20170121T010842Z","tags":["Crypto","Reading Constructing Cryptographic Definitions Rogaway","crypto","notes","reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T010842Z","end":"20170121T031751Z","tags":["Crypto","Reading Constructing Cryptographic Definitions Rogaway","crypto","notes","reading"]}
+txn:
+  type: interval
+  before: {"start":"20170121T010842Z","end":"20170121T031751Z","tags":["Crypto","Reading Constructing Cryptographic Definitions Rogaway","crypto","notes","reading"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T010842Z","end":"20170121T021751Z","tags":["Crypto","Reading Constructing Cryptographic Definitions Rogaway","crypto","notes","reading"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T024500Z","tags":["Dinner"]}
+txn:
+  type: interval
+  before: {"start":"20170121T024500Z","tags":["Dinner"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T024500Z","end":"20170121T031500Z","tags":["Dinner"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T045516Z","tags":["Care","Sleep","care","nonag","sleep"]}
+txn:
+  type: interval
+  before: {"start":"20170121T045516Z","tags":["Care","Sleep","care","nonag","sleep"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T045516Z","end":"20170121T144432Z","tags":["Care","Sleep","care","nonag","sleep"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T144528Z","tags":["Home","Wash bed clothes","home","laundry"]}
+txn:
+  type: interval
+  before: {"start":"20170121T045516Z","end":"20170121T144432Z","tags":["Care","Sleep","care","nonag","sleep"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T045516Z","end":"20170121T140932Z","tags":["Care","Sleep","care","nonag","sleep"]}
+txn:
+  type: interval
+  before: {"start":"20170121T144528Z","tags":["Home","Wash bed clothes","home","laundry"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T144528Z","end":"20170121T215958Z","tags":["Home","Wash bed clothes","home","laundry"]}
+txn:
+  type: interval
+  before: {"start":"20170121T144528Z","end":"20170121T215958Z","tags":["Home","Wash bed clothes","home","laundry"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T144528Z","end":"20170121T215958Z","tags":["Home","Wash bed clothes","home","laundry"]}
+txn:
+  type: interval
+  before: {"start":"20170121T144528Z","end":"20170121T215958Z","tags":["Home","Wash bed clothes","home","laundry"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170121T144528Z","end":"20170121T165958Z","tags":["Home","Wash bed clothes","home","laundry"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T170000Z","tags":["20170121","Changes to config","pm"]}
+txn:
+  type: interval
+  before: {"start":"20170122T170000Z","tags":["20170121","Changes to config","pm"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T170000Z","end":"20170122T090000Z","tags":["20170121","Changes to config","pm"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T120000Z","tags":["breakfast"]}
+txn:
+  type: interval
+  before: {"start":"20170122T120000Z","tags":["breakfast"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T120000Z","end":"20170122T123000Z","tags":["breakfast"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T160000Z","tags":["lunch"]}
+txn:
+  type: interval
+  before: {"start":"20170122T160000Z","tags":["lunch"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T160000Z","end":"20170122T170000Z","tags":["lunch"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T173000Z","tags":["break"]}
+txn:
+  type: interval
+  before: {"start":"20170122T173000Z","tags":["break"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T173000Z","end":"20170122T180000Z","tags":["break"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T130000Z","end":"20170122T140000Z","tags":["cleaning room"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T140000Z","end":"20170122T150000Z","tags":["get dressed"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T203658Z","tags":["Break","Care","break","care"]}
+txn:
+  type: interval
+  before: {"start":"20170122T203658Z","tags":["Break","Care","break","care"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T203658Z","end":"20170122T210503Z","tags":["Break","Care","break","care"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T210522Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}

@@ -1,0 +1,19 @@
+posed	Well-posed	If a problem is well-formulated then it is well-posed.
+posed	condition1	A problem is well-posed if it exists.
+posed	condition2	A problem is well-posed if its solution is unique.
+posed	condition3	A problem is well-posed if it varies continuously with the perturbation of the data
+posed	ill-posed	A problem is ill-posed if it fails any of the three conditions for being well-posed
+posed	soluble 	An ill-posed problem may still be soluble
+posed	ill-conditioned 	A problem is ill-conditioned if a small error in the initial data can result in much larger errors in the solution.
+posed	ill-conditioned but well-posed 	Even if a problem is well-posed, it may still be ill-conditioned.
+posed	condition number	The condition number of a function with respect to an argument measures how much the output may change for small changes in the input.
+posed	condition number measures?	The condition number measures how sensitive a function is to changes or error in the input, and how much error in the output results from an error in the input.
+posed	large condition number	If the condition number is large then the problem is ill-conditioned
+posed	small condition number	If the condition number is small then the problem is well-conditioned
+posed	zero condition number	If at any point the function is zero then the condition number at that point is infinite and there is infinite relative change at the point.
+posed	solution if well-posed	If the problem is well-posed there is a good chance a solution can be found using a stable algorithm
+posed	stable 	If a problem is well-posed the output should in some sense be continuous as a function of the perturbation (changes in the data)
+posed	not well-posed problem solutions 	If a problem is not well-posed it must be reformulated in order for a numerical treatment to be used.
+posed	re-formulation 	Re-formulation of a problem is often accomplised by including or re-evaluating assumptions, such as including the smoothness of a solution.
+posed	regularization of ill-posed problems	Regularization of ill-posed problems informally is the reformulation of the problem to make it amenable to numerical solution.
+posed	regularization	The process of introducing additional information in order to solve ill-posed problems and to prevent overfitting.

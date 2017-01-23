@@ -6,6 +6,8 @@ alias goscrpts="cd $HOME/.myscripts"
 
 
 alias timestamp="bash /Users/Em/.myscripts/timestamp.sh"
-alias times="bash /Users/Em/.yscripts/ourtimes.sh"
+alias times="bash /Users/Em/.myscripts/ourtimes.sh"
 alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date'
+
+alias tool="bash $HOME/.myscripts/tool.sh"
 

@@ -1,0 +1,23 @@
+# Tools and their Usages
+
+tools:
+  tool: borg
+    description: >
+      'Bash command finder'
+    example: |
+      borg "list only files"
+  tool: shpotify
+    description: >
+      'Spotify cli tool for controlling the os x application'
+    example: |
+      spotify next
+  tool: mdless
+    description: >
+      'Preview markdown documents in the terminal'
+    example: |
+      mdless file.md
+  tool: pinggraph
+    description: >
+      'Command line graph of ping'
+    example: |
+      gping

@@ -20,3 +20,4 @@ fi
 
 # Degree Sequence
 alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
+

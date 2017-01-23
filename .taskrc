@@ -34,8 +34,8 @@ report.X.annotations=full
 #include /Users/Em/.task/themes/dark-green-256.theme
 #include /Users/Em/.task/themes/dark-red-256.theme
 #include /Users/Em/.task/themes/light-256.theme
-#include /Users/Em/.task/themes/solarized-dark.theme
-include /Users/Em/.task/themes/solarized-light.theme
+include /Users/Em/.task/themes/solarized-dark.theme
+#include /Users/Em/.task/themes/solarized-light.theme
 
 # Complete
 complete.all.projects=yes
@@ -93,4 +93,6 @@ context.study=+homework +problemset +problem
 context.home=+home -work -study
 context.care=+care
 context.law=+law -home -job -study
-context=law
+context.crypto=+crypto -study -home -care
+context.config=+config
+context=study

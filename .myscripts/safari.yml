@@ -1,0 +1,18 @@
+# Safari Information
+# Date: 20161020
+
+application: Safari
+osx_version: 10.11.6
+application_path: /Users/Em/Library/Safari
+cmds:
+  cmd: safari_parser.py --history -f  history.plist -o history-results.tsv
+  cmd: safari_parser.py --topsites -f  TopSites.plist -o topsite-results.tsv
+  cmd: safari_parser.py --downloads -f  Downloads.plist -o download-results.tsv
+  cmd: safari_parser.py --bookmarks -f Bookmarks.plist -o bookmark-results.tsv
+  cmd: safari_parser.py -d /Users/maridegrazia/Library/Safari -o /Cases/InternetHistory/Reports
+  cmd: safari_parser.py --history -f  history.plist -o history-results.tsv
+  cmd: safari_parser.py --iPhonebookmarks -f bookmarks.db -o bookmark-results.tsv
+  cmd: safari_parser.py --iPhonerecentsearches -f recentsearches.plist -o recentsearches-results.tsv
+program:
+  - biplist
+  language: python

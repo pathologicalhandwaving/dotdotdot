@@ -1,4 +1,22 @@
 /Users/Em/Music/AmbientSpaceMusic.mp3
+/Users/Em/Music/DefCon23Soundtrack/AMB-333.mp3
+/Users/Em/Music/DefCon23Soundtrack/Agavee-Celeste.mp3
+/Users/Em/Music/DefCon23Soundtrack/AhabandMarsPluto-PlasticLion.mp3
+/Users/Em/Music/DefCon23Soundtrack/DaleChase-LiveLongandPropser.mp3
+/Users/Em/Music/DefCon23Soundtrack/Dysphemic-WorldWideWeaponft.YianiTreweeke.mp3
+/Users/Em/Music/DefCon23Soundtrack/ElephantInTheRoom-StringMeAlong.mp3
+/Users/Em/Music/DefCon23Soundtrack/Esseks-Error.mp3
+/Users/Em/Music/DefCon23Soundtrack/FineCutBodiesandHeadshotboyz-OneCoinPrincess.mp3
+/Users/Em/Music/DefCon23Soundtrack/Left_Right&Trespass-Here.mp3
+/Users/Em/Music/DefCon23Soundtrack/LiquidStranger-PlayftJazzmin.mp3
+/Users/Em/Music/DefCon23Soundtrack/MechanicalPressure&CaraLeigh-Inception.mp3
+/Users/Em/Music/DefCon23Soundtrack/Morillo-Elephant.mp3
+/Users/Em/Music/DefCon23Soundtrack/Mr.Bill-CrowdSourcedData.mp3
+/Users/Em/Music/DefCon23Soundtrack/OfTheTrees-PixelDrip.mp3
+/Users/Em/Music/DefCon23Soundtrack/SomatoastandZonra-OccamsButterknife.mp3
+/Users/Em/Music/DefCon23Soundtrack/SoulVeggies-EyeInTheSky.mp3
+/Users/Em/Music/DefCon23Soundtrack/VibeSquaD-WhoKnows-FZaeuI6qGKE.mp3
+/Users/Em/Music/DefCon23Soundtrack/ZebblerEncantiExperienceandLOEJ-G2GftStephenWebber-3TZTg4o_WUA.mp3
 /Users/Em/Music/StarTrek-TNGBridgeBackgroundAmbience.mp3
 /Users/Em/Music/StarTrek-TNGSleepingQuarters.mp3
 /Users/Em/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/Star Trek - TNG Bridge Background Ambience _8 HOURS-UKBvaOLDem0.mp3

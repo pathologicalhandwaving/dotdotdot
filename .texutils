@@ -1,0 +1,7 @@
+# LaTeX and BibTeX Utility Aliases
+
+alias tclean="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
+
+alias biblib="cd /usr/local/texlive/texmf-local/bibtex/bib/local"
+
+#alias addbib="bash /Users/Em/.myscripts/makebibentry.sh"
