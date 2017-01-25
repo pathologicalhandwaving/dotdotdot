@@ -562,3 +562,151 @@ txn:
   type: interval
   before: 
   after: {"start":"20170122T210522Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+txn:
+  type: interval
+  before: {"start":"20170122T210522Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T210522Z","end":"20170123T140148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+txn:
+  type: interval
+  before: {"start":"20170122T210522Z","end":"20170123T140148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T210522Z","end":"20170123T050148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+txn:
+  type: interval
+  before: {"start":"20170122T210522Z","end":"20170123T050148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T210522Z","end":"20170123T033148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+txn:
+  type: interval
+  before: {"start":"20170122T210522Z","end":"20170123T033148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T210522Z","end":"20170123T020148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+txn:
+  type: interval
+  before: {"start":"20170122T210522Z","end":"20170123T020148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170122T210522Z","end":"20170123T003148Z","tags":["MIT6001x","Problem 2","homework","mit","problem","problemset"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170123T040000Z","end":"20170123T123000Z","tags":["sleep"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170123T140856Z","tags":["Care","Get dressed","care","nonag"]}
+txn:
+  type: interval
+  before: {"start":"20170123T140856Z","tags":["Care","Get dressed","care","nonag"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170123T140856Z","end":"20170123T145955Z","tags":["Care","Get dressed","care","nonag"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170123T150007Z","tags":["Care","Walk","care","nonag","walk"]}
+txn:
+  type: interval
+  before: {"start":"20170123T150007Z","tags":["Care","Walk","care","nonag","walk"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170123T150007Z","end":"20170123T151755Z","tags":["Care","Walk","care","nonag","walk"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170123T153000Z","tags":["wego attempt config"]}
+txn:
+  type: interval
+  before: {"start":"20170123T153000Z","tags":["wego attempt config"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170123T153000Z","end":"20170123T175944Z","tags":["wego attempt config"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T004341Z","tags":["MIT6001x","Problem 3","homework","mit","problem","problemset"]}
+txn:
+  type: interval
+  before: {"start":"20170124T004341Z","tags":["MIT6001x","Problem 3","homework","mit","problem","problemset"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T004341Z","end":"20170124T030207Z","tags":["MIT6001x","Problem 3","homework","mit","problem","problemset"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T044622Z","tags":["Care","Sleep","care","nonag","sleep"]}
+txn:
+  type: interval
+  before: {"start":"20170124T044622Z","tags":["Care","Sleep","care","nonag","sleep"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T044622Z","end":"20170124T153031Z","tags":["Care","Sleep","care","nonag","sleep"]}
+txn:
+  type: interval
+  before: {"start":"20170124T044622Z","end":"20170124T153031Z","tags":["Care","Sleep","care","nonag","sleep"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T044622Z","end":"20170124T103031Z","tags":["Care","Sleep","care","nonag","sleep"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T150000Z","tags":["clean room"]}
+txn:
+  type: interval
+  before: {"start":"20170124T150000Z","tags":["clean room"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T150000Z","end":"20170124T151500Z","tags":["clean room"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T160000Z","tags":["shower"]}
+txn:
+  type: interval
+  before: {"start":"20170124T160000Z","tags":["shower"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T160000Z","end":"20170124T163000Z","tags":["shower"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T163000Z","tags":["dress"]}
+txn:
+  type: interval
+  before: {"start":"20170124T163000Z","tags":["dress"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20170124T163000Z","end":"20170124T170000Z","tags":["dress"]}

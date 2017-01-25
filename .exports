@@ -19,8 +19,8 @@ PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export PYTHONENCODING='UTF-8';
 
 # Go Path
-export PATH="/usr/local/opt/go/libexec/bin:$PATH"
-export GOPATH="/Users/Em/Projects/GoCode:$GOPATH"
+export GOPATH="/usr/local/opt/go/libexec/bin:$PATH"
+#export PATH=$PATH:$GOPATH="/Users/Em/Projects/GoCode"
 
 
 export LESS_TERMCAP_md="${yellow}";

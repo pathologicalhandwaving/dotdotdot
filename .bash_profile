@@ -1,7 +1,5 @@
 # Bash Profile
 
-#export PATH=$PATH:/usr/local/opt/go/libexec/bin
-#export GOPATH=$GOPATH:/Users/Em/PROJECTS/gocode
 
 export PATH="/usr/local/sbin:$PATH"
 source ~/.bashrc
@@ -18,4 +16,7 @@ source ~/.texutils
 source ~/.mathutils
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+
+source ~/.xsh
 

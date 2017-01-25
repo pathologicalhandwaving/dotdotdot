@@ -95,4 +95,4 @@ context.care=+care
 context.law=+law -home -job -study
 context.crypto=+crypto -study -home -care
 context.config=+config
-context=study
+context=care

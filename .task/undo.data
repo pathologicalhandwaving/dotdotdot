@@ -5184,3 +5184,337 @@ time 1485119122
 old [description:"Problem 2" entry:"1484763758" modified:"1484763758" project:"MIT6001x" status:"pending" tags:"homework,problem,problemset,mit" uuid:"9d3d73e3-b338-40ac-8b07-606b92b4e976"]
 new [annotation_1485119122:"Started task" description:"Problem 2" entry:"1484763758" modified:"1485119122" project:"MIT6001x" start:"1485119122" status:"pending" tags:"homework,problem,problemset,mit" uuid:"9d3d73e3-b338-40ac-8b07-606b92b4e976"]
 ---
+time 1485180108
+old [annotation_1485119122:"Started task" description:"Problem 2" entry:"1484763758" modified:"1485119122" project:"MIT6001x" start:"1485119122" status:"pending" tags:"homework,problem,problemset,mit" uuid:"9d3d73e3-b338-40ac-8b07-606b92b4e976"]
+new [annotation_1485119122:"Started task" annotation_1485180108:"Stopped task" description:"Problem 2" end:"1485180108" entry:"1484763758" modified:"1485180108" project:"MIT6001x" status:"completed" tags:"homework,problem,problemset,mit" uuid:"9d3d73e3-b338-40ac-8b07-606b92b4e976"]
+---
+time 1485180328
+new [annotation_1484789426:"Started task" annotation_1484796480:"Stopped task" annotation_1484797291:"Started task" annotation_1484805410:"Stopped task" description:"Laundry" due:"1485752400" entry:"1485180328" imask:"1" modified:"1484839810" parent:"71fa5492-6193-4aaa-b12b-3762a93364fb" project:"Home" recur:"weekly" status:"pending" tags:"home" uuid:"5d8e933e-d3f7-45d0-9f51-1f64fa829e12"]
+---
+time 1485180328
+old [annotation_1484789426:"Started task" annotation_1484796480:"Stopped task" annotation_1484797291:"Started task" annotation_1484805410:"Stopped task" description:"Laundry" due:"1485147600" entry:"1484763580" mask:"+" modified:"1484839810" project:"Home" recur:"weekly" status:"recurring" tags:"home" uuid:"71fa5492-6193-4aaa-b12b-3762a93364fb"]
+new [annotation_1484789426:"Started task" annotation_1484796480:"Stopped task" annotation_1484797291:"Started task" annotation_1484805410:"Stopped task" description:"Laundry" due:"1485147600" entry:"1484763580" mask:"+-" modified:"1485180328" project:"Home" recur:"weekly" status:"recurring" tags:"home" uuid:"71fa5492-6193-4aaa-b12b-3762a93364fb"]
+---
+time 1485180328
+new [description:"Breakfast" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485116944" parent:"32abcdf0-3d56-42f6-8f86-6d084632c928" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"c85861e7-c8c7-4cbc-94ad-5e44551a0b42"]
+---
+time 1485180328
+old [description:"Breakfast" due:"1484888400" entry:"1484805970" mask:"++++" modified:"1485116944" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"32abcdf0-3d56-42f6-8f86-6d084632c928"]
+new [description:"Breakfast" due:"1484888400" entry:"1484805970" mask:"++++-" modified:"1485180328" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"32abcdf0-3d56-42f6-8f86-6d084632c928"]
+---
+time 1485180328
+new [description:"Walk" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485112796" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" status:"pending" tags:"care,walk,nonag" uuid:"e64ec0ec-e760-41e2-b407-3f6c3abe9527"]
+---
+time 1485180328
+old [description:"Walk" due:"1484888400" entry:"1484806006" mask:"+++-" modified:"1485112796" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+new [description:"Walk" due:"1484888400" entry:"1484806006" mask:"+++--" modified:"1485180328" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+---
+time 1485180328
+new [description:"Clean Room" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485116956" parent:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4" project:"Home" recur:"daily" status:"pending" tags:"home,nonag" uuid:"4c47529f-5463-4836-8866-10b6cd9e4b2b"]
+---
+time 1485180328
+old [description:"Clean Room" due:"1484888400" entry:"1484806274" mask:"++++" modified:"1485116956" project:"Home" recur:"daily" status:"recurring" tags:"home,nonag" uuid:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4"]
+new [description:"Clean Room" due:"1484888400" entry:"1484806274" mask:"++++-" modified:"1485180328" project:"Home" recur:"daily" status:"recurring" tags:"home,nonag" uuid:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4"]
+---
+time 1485180328
+new [description:"Get dressed" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485116966" parent:"e996e936-eb8e-42c6-932f-ac0d4210f9a0" project:"Care" recur:"daily" status:"pending" tags:"care,nonag" uuid:"61596a96-54e7-464c-82d5-0ccefc6c61c9"]
+---
+time 1485180328
+old [description:"Get dressed" due:"1484888400" entry:"1484840977" mask:"++++" modified:"1485116966" project:"Care" recur:"daily" status:"recurring" tags:"care,nonag" uuid:"e996e936-eb8e-42c6-932f-ac0d4210f9a0"]
+new [description:"Get dressed" due:"1484888400" entry:"1484840977" mask:"++++-" modified:"1485180328" project:"Care" recur:"daily" status:"recurring" tags:"care,nonag" uuid:"e996e936-eb8e-42c6-932f-ac0d4210f9a0"]
+---
+time 1485180328
+new [description:"Set up work space" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485117045" parent:"356151d6-b386-44ee-91e8-3e63892ba8f8" project:"Home" recur:"daily" status:"pending" tags:"home" uuid:"c4a3d02f-acae-44d8-9595-1852aa511abc"]
+---
+time 1485180328
+old [description:"Set up work space" due:"1484888400" entry:"1484921084" mask:"++++" modified:"1485117045" project:"Home" recur:"daily" status:"recurring" tags:"home" uuid:"356151d6-b386-44ee-91e8-3e63892ba8f8"]
+new [description:"Set up work space" due:"1484888400" entry:"1484921084" mask:"++++-" modified:"1485180328" project:"Home" recur:"daily" status:"recurring" tags:"home" uuid:"356151d6-b386-44ee-91e8-3e63892ba8f8"]
+---
+time 1485180328
+new [description:"Lunch" due:"1485234000" entry:"1485180328" imask:"1" modified:"1485117032" parent:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"2a0eca76-560f-42e8-9abc-3fbe225bfc72"]
+---
+time 1485180328
+old [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"-" modified:"1485117032" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+new [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"--" modified:"1485180328" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+---
+time 1485180360
+old [description:"Breakfast" due:"1484888400" entry:"1484805970" mask:"++++-" modified:"1485180328" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"32abcdf0-3d56-42f6-8f86-6d084632c928"]
+new [description:"Breakfast" due:"1484888400" entry:"1484805970" mask:"+++++" modified:"1485180360" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"32abcdf0-3d56-42f6-8f86-6d084632c928"]
+---
+time 1485180360
+old [description:"Breakfast" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485116944" parent:"32abcdf0-3d56-42f6-8f86-6d084632c928" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"c85861e7-c8c7-4cbc-94ad-5e44551a0b42"]
+new [description:"Breakfast" due:"1485234000" end:"1485180360" entry:"1485180328" imask:"4.000000" modified:"1485180360" parent:"32abcdf0-3d56-42f6-8f86-6d084632c928" project:"Care" recur:"daily" status:"completed" tags:"care,meal,nonag" uuid:"c85861e7-c8c7-4cbc-94ad-5e44551a0b42"]
+---
+time 1485180393
+old [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"--" modified:"1485180328" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+new [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"+-" modified:"1485180393" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+---
+time 1485180393
+old [description:"Lunch" due:"1485147600" entry:"1485117032" imask:"0" modified:"1485117007" parent:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"8325daf4-b654-431e-9238-3b997e1bbe98"]
+new [description:"Lunch" due:"1485147600" end:"1485180393" entry:"1485117032" imask:"0.000000" modified:"1485180393" parent:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4" project:"Care" recur:"daily" status:"completed" tags:"care,meal,nonag" uuid:"8325daf4-b654-431e-9238-3b997e1bbe98"]
+---
+time 1485180403
+old [description:"Walk" due:"1484888400" entry:"1484806006" mask:"+++--" modified:"1485180328" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+new [description:"Walk" due:"1484888400" entry:"1484806006" mask:"++++-" modified:"1485180403" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+---
+time 1485180403
+old [description:"Walk" due:"1485147600" entry:"1485112795" imask:"3" modified:"1485018270" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" status:"pending" tags:"care,walk,nonag" uuid:"cab313a3-331a-4871-8b5c-d8def4ebd140"]
+new [description:"Walk" due:"1485147600" end:"1485180403" entry:"1485112795" imask:"3.000000" modified:"1485180403" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" status:"completed" tags:"care,walk,nonag" uuid:"cab313a3-331a-4871-8b5c-d8def4ebd140"]
+---
+time 1485180454
+new [description:"Sleep" due:"1485061200" entry:"1485180454" modified:"1485180454" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+---
+time 1485180458
+new [description:"Sleep" due:"1485061200" entry:"1485180458" imask:"0" modified:"1485180454" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"pending" tags:"care,sleep,nonag" uuid:"392a4016-0134-4003-8350-022a4a3cf3ae"]
+---
+time 1485180458
+new [description:"Sleep" due:"1485147600" entry:"1485180458" imask:"1" modified:"1485180454" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"pending" tags:"care,sleep,nonag" uuid:"8c018958-114d-4ada-8960-eeba1dc44aed"]
+---
+time 1485180458
+new [description:"Sleep" due:"1485234000" entry:"1485180458" imask:"2" modified:"1485180454" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"pending" tags:"care,sleep,nonag" uuid:"34ad74c6-76e6-4037-b39c-d9561a4385f2"]
+---
+time 1485180458
+old [description:"Sleep" due:"1485061200" entry:"1485180454" modified:"1485180454" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+new [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"---" modified:"1485180458" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+---
+time 1485180468
+old [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"---" modified:"1485180458" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+new [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"-+-" modified:"1485180468" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+---
+time 1485180468
+old [description:"Sleep" due:"1485147600" entry:"1485180458" imask:"1" modified:"1485180454" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"pending" tags:"care,sleep,nonag" uuid:"8c018958-114d-4ada-8960-eeba1dc44aed"]
+new [description:"Sleep" due:"1485147600" end:"1485180468" entry:"1485180458" imask:"1.000000" modified:"1485180468" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"completed" tags:"care,sleep,nonag" uuid:"8c018958-114d-4ada-8960-eeba1dc44aed"]
+---
+time 1485180536
+old [description:"Get dressed" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485116966" parent:"e996e936-eb8e-42c6-932f-ac0d4210f9a0" project:"Care" recur:"daily" status:"pending" tags:"care,nonag" uuid:"61596a96-54e7-464c-82d5-0ccefc6c61c9"]
+new [annotation_1485180536:"Started task" description:"Get dressed" due:"1485234000" entry:"1485180328" imask:"4.000000" modified:"1485180536" parent:"e996e936-eb8e-42c6-932f-ac0d4210f9a0" project:"Care" recur:"daily" start:"1485180536" status:"pending" tags:"care,nonag" uuid:"61596a96-54e7-464c-82d5-0ccefc6c61c9"]
+---
+time 1485183595
+old [description:"Get dressed" due:"1484888400" entry:"1484840977" mask:"++++-" modified:"1485180328" project:"Care" recur:"daily" status:"recurring" tags:"care,nonag" uuid:"e996e936-eb8e-42c6-932f-ac0d4210f9a0"]
+new [description:"Get dressed" due:"1484888400" entry:"1484840977" mask:"+++++" modified:"1485183595" project:"Care" recur:"daily" status:"recurring" tags:"care,nonag" uuid:"e996e936-eb8e-42c6-932f-ac0d4210f9a0"]
+---
+time 1485183595
+old [annotation_1485180536:"Started task" description:"Get dressed" due:"1485234000" entry:"1485180328" imask:"4.000000" modified:"1485180536" parent:"e996e936-eb8e-42c6-932f-ac0d4210f9a0" project:"Care" recur:"daily" start:"1485180536" status:"pending" tags:"care,nonag" uuid:"61596a96-54e7-464c-82d5-0ccefc6c61c9"]
+new [annotation_1485180536:"Started task" annotation_1485183594:"Stopped task" description:"Get dressed" due:"1485234000" end:"1485183594" entry:"1485180328" imask:"4.000000" modified:"1485183595" parent:"e996e936-eb8e-42c6-932f-ac0d4210f9a0" project:"Care" recur:"daily" status:"completed" tags:"care,nonag" uuid:"61596a96-54e7-464c-82d5-0ccefc6c61c9"]
+---
+time 1485183607
+old [description:"Walk" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485112796" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" status:"pending" tags:"care,walk,nonag" uuid:"e64ec0ec-e760-41e2-b407-3f6c3abe9527"]
+new [annotation_1485183606:"Started task" description:"Walk" due:"1485234000" entry:"1485180328" imask:"4.000000" modified:"1485183607" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" start:"1485183606" status:"pending" tags:"care,walk,nonag" uuid:"e64ec0ec-e760-41e2-b407-3f6c3abe9527"]
+---
+time 1485184675
+old [description:"Walk" due:"1484888400" entry:"1484806006" mask:"++++-" modified:"1485180403" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+new [description:"Walk" due:"1484888400" entry:"1484806006" mask:"+++++" modified:"1485184675" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+---
+time 1485184675
+old [annotation_1485183606:"Started task" description:"Walk" due:"1485234000" entry:"1485180328" imask:"4.000000" modified:"1485183607" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" start:"1485183606" status:"pending" tags:"care,walk,nonag" uuid:"e64ec0ec-e760-41e2-b407-3f6c3abe9527"]
+new [annotation_1485183606:"Started task" annotation_1485184675:"Stopped task" description:"Walk" due:"1485234000" end:"1485184675" entry:"1485180328" imask:"4.000000" modified:"1485184675" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" status:"completed" tags:"care,walk,nonag" uuid:"e64ec0ec-e760-41e2-b407-3f6c3abe9527"]
+---
+time 1485194349
+new [description:"wego weather backend is currently broken" entry:"1485194349" modified:"1485194349" project:"Config" status:"pending" tags:"config" uuid:"ac261f25-407b-420b-a4a4-fcd9459f9c72"]
+---
+time 1485202772
+old [description:"Clean Room" due:"1484888400" entry:"1484806274" mask:"++++-" modified:"1485180328" project:"Home" recur:"daily" status:"recurring" tags:"home,nonag" uuid:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4"]
+new [description:"Clean Room" due:"1484888400" entry:"1484806274" mask:"+++++" modified:"1485202772" project:"Home" recur:"daily" status:"recurring" tags:"home,nonag" uuid:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4"]
+---
+time 1485202772
+old [description:"Clean Room" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485116956" parent:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4" project:"Home" recur:"daily" status:"pending" tags:"home,nonag" uuid:"4c47529f-5463-4836-8866-10b6cd9e4b2b"]
+new [description:"Clean Room" due:"1485234000" end:"1485202771" entry:"1485180328" imask:"4.000000" modified:"1485202772" parent:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4" project:"Home" recur:"daily" status:"completed" tags:"home,nonag" uuid:"4c47529f-5463-4836-8866-10b6cd9e4b2b"]
+---
+time 1485202786
+old [description:"Set up work space" due:"1484888400" entry:"1484921084" mask:"++++-" modified:"1485180328" project:"Home" recur:"daily" status:"recurring" tags:"home" uuid:"356151d6-b386-44ee-91e8-3e63892ba8f8"]
+new [description:"Set up work space" due:"1484888400" entry:"1484921084" mask:"+++++" modified:"1485202786" project:"Home" recur:"daily" status:"recurring" tags:"home" uuid:"356151d6-b386-44ee-91e8-3e63892ba8f8"]
+---
+time 1485202786
+old [description:"Set up work space" due:"1485234000" entry:"1485180328" imask:"4" modified:"1485117045" parent:"356151d6-b386-44ee-91e8-3e63892ba8f8" project:"Home" recur:"daily" status:"pending" tags:"home" uuid:"c4a3d02f-acae-44d8-9595-1852aa511abc"]
+new [description:"Set up work space" due:"1485234000" end:"1485202786" entry:"1485180328" imask:"4.000000" modified:"1485202786" parent:"356151d6-b386-44ee-91e8-3e63892ba8f8" project:"Home" recur:"daily" status:"completed" tags:"home" uuid:"c4a3d02f-acae-44d8-9595-1852aa511abc"]
+---
+time 1485202820
+old [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"+-" modified:"1485180393" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+new [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"++" modified:"1485202820" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+---
+time 1485202820
+old [description:"Lunch" due:"1485234000" entry:"1485180328" imask:"1" modified:"1485117032" parent:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"2a0eca76-560f-42e8-9abc-3fbe225bfc72"]
+new [description:"Lunch" due:"1485234000" end:"1485202820" entry:"1485180328" imask:"1.000000" modified:"1485202820" parent:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4" project:"Care" recur:"daily" status:"completed" tags:"care,meal,nonag" uuid:"2a0eca76-560f-42e8-9abc-3fbe225bfc72"]
+---
+time 1485204302
+old [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"-+-" modified:"1485180468" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+new [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"-++" modified:"1485204302" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+---
+time 1485204302
+old [description:"Sleep" due:"1485234000" entry:"1485180458" imask:"2" modified:"1485180454" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"pending" tags:"care,sleep,nonag" uuid:"34ad74c6-76e6-4037-b39c-d9561a4385f2"]
+new [description:"Sleep" due:"1485234000" end:"1485204301" entry:"1485180458" imask:"2.000000" modified:"1485204302" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"completed" tags:"care,sleep,nonag" uuid:"34ad74c6-76e6-4037-b39c-d9561a4385f2"]
+---
+time 1485218621
+old [description:"Problem 3" entry:"1484763770" modified:"1484763770" project:"MIT6001x" status:"pending" tags:"homework,problem,problemset,mit" uuid:"3da1d564-da3d-471c-92d0-fa6c59298cdf"]
+new [annotation_1485218620:"Started task" description:"Problem 3" entry:"1484763770" modified:"1485218621" project:"MIT6001x" start:"1485218620" status:"pending" tags:"homework,problem,problemset,mit" uuid:"3da1d564-da3d-471c-92d0-fa6c59298cdf"]
+---
+time 1485226927
+old [annotation_1485218620:"Started task" description:"Problem 3" entry:"1484763770" modified:"1485218621" project:"MIT6001x" start:"1485218620" status:"pending" tags:"homework,problem,problemset,mit" uuid:"3da1d564-da3d-471c-92d0-fa6c59298cdf"]
+new [annotation_1485218620:"Started task" annotation_1485226924:"Stopped task" description:"Problem 3" entry:"1484763770" modified:"1485226927" project:"MIT6001x" status:"pending" tags:"homework,problem,problemset,mit" uuid:"3da1d564-da3d-471c-92d0-fa6c59298cdf"]
+---
+time 1485233092
+new [description:"yaml bibtex entries and fields" entry:"1485233092" modified:"1485233092" project:"Reference" status:"pending" tags:"ref,bibtex" uuid:"887468c2-0aca-4e4a-95a6-ffc2f333b952"]
+---
+time 1485233163
+old [description:"yaml bibtex entries and fields" entry:"1485233092" modified:"1485233092" project:"Reference" status:"pending" tags:"ref,bibtex" uuid:"887468c2-0aca-4e4a-95a6-ffc2f333b952"]
+new [annotation_1485233162:"file:\/\/\/Users\/Em\/BibTeX\/referenceTypes.yml" description:"yaml bibtex entries and fields" entry:"1485233092" modified:"1485233163" project:"Reference" status:"pending" tags:"ref,bibtex" uuid:"887468c2-0aca-4e4a-95a6-ffc2f333b952"]
+---
+time 1485233182
+old [description:"Sleep" due:"1485061200" entry:"1485180458" imask:"0" modified:"1485180454" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"pending" tags:"care,sleep,nonag" uuid:"392a4016-0134-4003-8350-022a4a3cf3ae"]
+new [annotation_1485233182:"Started task" description:"Sleep" due:"1485061200" entry:"1485180458" imask:"0.000000" modified:"1485233182" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" start:"1485233182" status:"pending" tags:"care,sleep,nonag" uuid:"392a4016-0134-4003-8350-022a4a3cf3ae"]
+---
+time 1485271813
+new [description:"Breakfast" due:"1485320400" entry:"1485271813" imask:"5" modified:"1485180360" parent:"32abcdf0-3d56-42f6-8f86-6d084632c928" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"7a7179c4-53e5-4740-9d1b-1de5a816632e"]
+---
+time 1485271813
+old [description:"Breakfast" due:"1484888400" entry:"1484805970" mask:"+++++" modified:"1485180360" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"32abcdf0-3d56-42f6-8f86-6d084632c928"]
+new [description:"Breakfast" due:"1484888400" entry:"1484805970" mask:"+++++-" modified:"1485271813" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"32abcdf0-3d56-42f6-8f86-6d084632c928"]
+---
+time 1485271813
+new [description:"Walk" due:"1485320400" entry:"1485271813" imask:"5" modified:"1485184675" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" status:"pending" tags:"care,walk,nonag" uuid:"d623396e-cdd6-4971-ba22-b709416cdd56"]
+---
+time 1485271814
+old [description:"Walk" due:"1484888400" entry:"1484806006" mask:"+++++" modified:"1485184675" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+new [description:"Walk" due:"1484888400" entry:"1484806006" mask:"+++++-" modified:"1485271814" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+---
+time 1485271814
+new [description:"Clean Room" due:"1485320400" entry:"1485271814" imask:"5" modified:"1485202772" parent:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4" project:"Home" recur:"daily" status:"pending" tags:"home,nonag" uuid:"60463c4d-c15c-401a-950c-28796b20a001"]
+---
+time 1485271814
+old [description:"Clean Room" due:"1484888400" entry:"1484806274" mask:"+++++" modified:"1485202772" project:"Home" recur:"daily" status:"recurring" tags:"home,nonag" uuid:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4"]
+new [description:"Clean Room" due:"1484888400" entry:"1484806274" mask:"+++++-" modified:"1485271814" project:"Home" recur:"daily" status:"recurring" tags:"home,nonag" uuid:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4"]
+---
+time 1485271814
+new [description:"Get dressed" due:"1485320400" entry:"1485271814" imask:"5" modified:"1485183595" parent:"e996e936-eb8e-42c6-932f-ac0d4210f9a0" project:"Care" recur:"daily" status:"pending" tags:"care,nonag" uuid:"38a2c2b5-a59d-40a0-b238-a6db9b4f2e78"]
+---
+time 1485271814
+old [description:"Get dressed" due:"1484888400" entry:"1484840977" mask:"+++++" modified:"1485183595" project:"Care" recur:"daily" status:"recurring" tags:"care,nonag" uuid:"e996e936-eb8e-42c6-932f-ac0d4210f9a0"]
+new [description:"Get dressed" due:"1484888400" entry:"1484840977" mask:"+++++-" modified:"1485271814" project:"Care" recur:"daily" status:"recurring" tags:"care,nonag" uuid:"e996e936-eb8e-42c6-932f-ac0d4210f9a0"]
+---
+time 1485271814
+new [description:"Set up work space" due:"1485320400" entry:"1485271814" imask:"5" modified:"1485202786" parent:"356151d6-b386-44ee-91e8-3e63892ba8f8" project:"Home" recur:"daily" status:"pending" tags:"home" uuid:"04bba126-f61b-44eb-9270-70cc037c70d9"]
+---
+time 1485271814
+old [description:"Set up work space" due:"1484888400" entry:"1484921084" mask:"+++++" modified:"1485202786" project:"Home" recur:"daily" status:"recurring" tags:"home" uuid:"356151d6-b386-44ee-91e8-3e63892ba8f8"]
+new [description:"Set up work space" due:"1484888400" entry:"1484921084" mask:"+++++-" modified:"1485271814" project:"Home" recur:"daily" status:"recurring" tags:"home" uuid:"356151d6-b386-44ee-91e8-3e63892ba8f8"]
+---
+time 1485271814
+new [description:"Lunch" due:"1485320400" entry:"1485271814" imask:"2" modified:"1485202820" parent:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"12acba37-c428-4391-b1c4-9e35de781d42"]
+---
+time 1485271814
+old [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"++" modified:"1485202820" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+new [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"++-" modified:"1485271814" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+---
+time 1485271814
+new [description:"Sleep" due:"1485320400" entry:"1485271814" imask:"3" modified:"1485204302" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"pending" tags:"care,sleep,nonag" uuid:"a40119cc-1b9f-451a-8b23-ef5653d1242c"]
+---
+time 1485271814
+old [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"-++" modified:"1485204302" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+new [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"-++-" modified:"1485271814" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+---
+time 1485271831
+old [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"-++-" modified:"1485271814" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+new [description:"Sleep" due:"1485061200" entry:"1485180454" mask:"+++-" modified:"1485271831" project:"Care" recur:"daily" status:"recurring" tags:"care,sleep,nonag" uuid:"c52088a9-afe7-49b5-9d29-12b7215108dd"]
+---
+time 1485271831
+old [annotation_1485233182:"Started task" description:"Sleep" due:"1485061200" entry:"1485180458" imask:"0.000000" modified:"1485233182" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" start:"1485233182" status:"pending" tags:"care,sleep,nonag" uuid:"392a4016-0134-4003-8350-022a4a3cf3ae"]
+new [annotation_1485233182:"Started task" annotation_1485271831:"Stopped task" description:"Sleep" due:"1485061200" end:"1485271831" entry:"1485180458" imask:"0.000000" modified:"1485271831" parent:"c52088a9-afe7-49b5-9d29-12b7215108dd" project:"Care" recur:"daily" status:"completed" tags:"care,sleep,nonag" uuid:"392a4016-0134-4003-8350-022a4a3cf3ae"]
+---
+time 1485271927
+old [description:"Breakfast" due:"1484888400" entry:"1484805970" mask:"+++++-" modified:"1485271813" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"32abcdf0-3d56-42f6-8f86-6d084632c928"]
+new [description:"Breakfast" due:"1484888400" entry:"1484805970" mask:"++++++" modified:"1485271927" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"32abcdf0-3d56-42f6-8f86-6d084632c928"]
+---
+time 1485271928
+old [description:"Breakfast" due:"1485320400" entry:"1485271813" imask:"5" modified:"1485180360" parent:"32abcdf0-3d56-42f6-8f86-6d084632c928" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"7a7179c4-53e5-4740-9d1b-1de5a816632e"]
+new [description:"Breakfast" due:"1485320400" end:"1485271927" entry:"1485271813" imask:"5.000000" modified:"1485271928" parent:"32abcdf0-3d56-42f6-8f86-6d084632c928" project:"Care" recur:"daily" status:"completed" tags:"care,meal,nonag" uuid:"7a7179c4-53e5-4740-9d1b-1de5a816632e"]
+---
+time 1485271939
+old [annotation_1484789426:"Started task" annotation_1484796480:"Stopped task" annotation_1484797291:"Started task" annotation_1484805410:"Stopped task" description:"Laundry" due:"1485147600" entry:"1484763580" mask:"+-" modified:"1485180328" project:"Home" recur:"weekly" status:"recurring" tags:"home" uuid:"71fa5492-6193-4aaa-b12b-3762a93364fb"]
+new [annotation_1484789426:"Started task" annotation_1484796480:"Stopped task" annotation_1484797291:"Started task" annotation_1484805410:"Stopped task" description:"Laundry" due:"1485147600" entry:"1484763580" mask:"++" modified:"1485271939" project:"Home" recur:"weekly" status:"recurring" tags:"home" uuid:"71fa5492-6193-4aaa-b12b-3762a93364fb"]
+---
+time 1485271939
+old [annotation_1484789426:"Started task" annotation_1484796480:"Stopped task" annotation_1484797291:"Started task" annotation_1484805410:"Stopped task" description:"Laundry" due:"1485752400" entry:"1485180328" imask:"1" modified:"1484839810" parent:"71fa5492-6193-4aaa-b12b-3762a93364fb" project:"Home" recur:"weekly" status:"pending" tags:"home" uuid:"5d8e933e-d3f7-45d0-9f51-1f64fa829e12"]
+new [annotation_1484789426:"Started task" annotation_1484796480:"Stopped task" annotation_1484797291:"Started task" annotation_1484805410:"Stopped task" description:"Laundry" due:"1485752400" end:"1485271939" entry:"1485180328" imask:"1.000000" modified:"1485271939" parent:"71fa5492-6193-4aaa-b12b-3762a93364fb" project:"Home" recur:"weekly" status:"completed" tags:"home" uuid:"5d8e933e-d3f7-45d0-9f51-1f64fa829e12"]
+---
+time 1485272012
+old [description:"Clean Room" due:"1484888400" entry:"1484806274" mask:"+++++-" modified:"1485271814" project:"Home" recur:"daily" status:"recurring" tags:"home,nonag" uuid:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4"]
+new [description:"Clean Room" due:"1484888400" entry:"1484806274" mask:"++++++" modified:"1485272012" project:"Home" recur:"daily" status:"recurring" tags:"home,nonag" uuid:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4"]
+---
+time 1485272012
+old [description:"Clean Room" due:"1485320400" entry:"1485271814" imask:"5" modified:"1485202772" parent:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4" project:"Home" recur:"daily" status:"pending" tags:"home,nonag" uuid:"60463c4d-c15c-401a-950c-28796b20a001"]
+new [description:"Clean Room" due:"1485320400" end:"1485272012" entry:"1485271814" imask:"5.000000" modified:"1485272012" parent:"ecde3a1e-6e37-4b86-90d1-e78f4ba4eca4" project:"Home" recur:"daily" status:"completed" tags:"home,nonag" uuid:"60463c4d-c15c-401a-950c-28796b20a001"]
+---
+time 1485272267
+old [annotation_1484853717:"Asked Myke waiting for response but he has the flu" description:"Ask Myke for character reference" entry:"1484853481" modified:"1484853717" project:"Job" status:"pending" tags:"job,kelly,Myke" uuid:"8a8534ac-f52d-4a7d-8a5b-bc504efe0e99"]
+new [annotation_1484853717:"Asked Myke waiting for response but he has the flu" annotation_1485230400:"Nik submitted reference" annotation_1485270000:"Waiting on Iz" annotation_1485272100:"Gave up on Myke" description:"Ask for character references" entry:"1484853481" modified:"1485272267" project:"Job" status:"pending" tags:"job,kelly,Myke" uuid:"8a8534ac-f52d-4a7d-8a5b-bc504efe0e99"]
+---
+time 1485272302
+old [annotation_1484853717:"Asked Myke waiting for response but he has the flu" annotation_1485230400:"Nik submitted reference" annotation_1485270000:"Waiting on Iz" annotation_1485272100:"Gave up on Myke" description:"Ask for character references" entry:"1484853481" modified:"1485272267" project:"Job" status:"pending" tags:"job,kelly,Myke" uuid:"8a8534ac-f52d-4a7d-8a5b-bc504efe0e99"]
+new [annotation_1484853717:"Asked Myke waiting for response but he has the flu" annotation_1485230400:"Nik submitted reference" annotation_1485270000:"Waiting on Iz" annotation_1485272100:"Gave up on Myke" description:"Ask for character references" entry:"1484853481" modified:"1485272302" project:"Job" status:"pending" tags:"job,kelly,Myke,Iz,Nik" uuid:"8a8534ac-f52d-4a7d-8a5b-bc504efe0e99"]
+---
+time 1485272349
+old [annotation_1485117156:"Called in refill can pick up after 01:00pm tommorow" description:"Get sleeping pills refilled" entry:"1484883944" modified:"1485117156" priority:"H" project:"Care" status:"pending" tags:"care,meds" uuid:"ec924b0d-3dd1-4560-8828-0c7953553206"]
+new [annotation_1485117156:"Called in refill can pick up after 01:00pm tommorow" annotation_1485272349:"Need to pick up" description:"Get sleeping pills refilled" entry:"1484883944" modified:"1485272349" priority:"H" project:"Care" status:"pending" tags:"care,meds" uuid:"ec924b0d-3dd1-4560-8828-0c7953553206"]
+---
+time 1485272374
+old [annotation_1485218620:"Started task" annotation_1485226924:"Stopped task" description:"Problem 3" entry:"1484763770" modified:"1485226927" project:"MIT6001x" status:"pending" tags:"homework,problem,problemset,mit" uuid:"3da1d564-da3d-471c-92d0-fa6c59298cdf"]
+new [annotation_1485218620:"Started task" annotation_1485226924:"Stopped task" description:"Problem 3" entry:"1484763770" modified:"1485272374" priority:"H" project:"MIT6001x" status:"pending" tags:"homework,problem,problemset,mit" uuid:"3da1d564-da3d-471c-92d0-fa6c59298cdf"]
+---
+time 1485272426
+old [description:"Kelly submit proof of education" entry:"1484850368" modified:"1484850368" project:"Job" status:"pending" tags:"job,keylly" uuid:"7d7fc5d1-3dde-45f5-9834-a22aba627f33"]
+new [description:"Kelly submit proof of education" entry:"1484850368" modified:"1485272426" priority:"H" project:"Job" status:"pending" tags:"job,keylly" uuid:"7d7fc5d1-3dde-45f5-9834-a22aba627f33"]
+---
+time 1485272446
+old [annotation_1484853717:"Asked Myke waiting for response but he has the flu" annotation_1485230400:"Nik submitted reference" annotation_1485270000:"Waiting on Iz" annotation_1485272100:"Gave up on Myke" description:"Ask for character references" entry:"1484853481" modified:"1485272302" project:"Job" status:"pending" tags:"job,kelly,Myke,Iz,Nik" uuid:"8a8534ac-f52d-4a7d-8a5b-bc504efe0e99"]
+new [annotation_1484853717:"Asked Myke waiting for response but he has the flu" annotation_1485230400:"Nik submitted reference" annotation_1485270000:"Waiting on Iz" annotation_1485272100:"Gave up on Myke" description:"Ask for character references" entry:"1484853481" modified:"1485272446" priority:"H" project:"Job" status:"pending" tags:"job,kelly,Myke,Iz,Nik" uuid:"8a8534ac-f52d-4a7d-8a5b-bc504efe0e99"]
+---
+time 1485272475
+old [description:"Online training courses" entry:"1484850441" modified:"1484850441" project:"Job" status:"pending" tags:"job,kelly" uuid:"a591442c-e9d8-431d-b460-8ca62d47d29d"]
+new [description:"Online training courses" entry:"1484850441" modified:"1485272475" priority:"H" project:"Job" status:"pending" tags:"job,kelly" uuid:"a591442c-e9d8-431d-b460-8ca62d47d29d"]
+---
+time 1485272558
+new [description:"Shower" entry:"1485272558" modified:"1485272558" project:"Care" status:"pending" tags:"care,nonag" uuid:"ae3c2b03-a51e-435b-bf0c-76733dd80461"]
+---
+time 1485272573
+old [description:"Shower" entry:"1485272558" modified:"1485272558" project:"Care" status:"pending" tags:"care,nonag" uuid:"ae3c2b03-a51e-435b-bf0c-76733dd80461"]
+new [description:"Shower" entry:"1485272558" modified:"1485272573" project:"Care" status:"pending" tags:"care,nonag,next" uuid:"ae3c2b03-a51e-435b-bf0c-76733dd80461"]
+---
+time 1485277566
+old [description:"Shower" entry:"1485272558" modified:"1485272573" project:"Care" status:"pending" tags:"care,nonag,next" uuid:"ae3c2b03-a51e-435b-bf0c-76733dd80461"]
+new [description:"Shower" end:"1485277566" entry:"1485272558" modified:"1485277566" project:"Care" status:"completed" tags:"care,nonag,next" uuid:"ae3c2b03-a51e-435b-bf0c-76733dd80461"]
+---
+time 1485277617
+old [description:"Get dressed" due:"1484888400" entry:"1484840977" mask:"+++++-" modified:"1485271814" project:"Care" recur:"daily" status:"recurring" tags:"care,nonag" uuid:"e996e936-eb8e-42c6-932f-ac0d4210f9a0"]
+new [description:"Get dressed" due:"1484888400" entry:"1484840977" mask:"++++++" modified:"1485277617" project:"Care" recur:"daily" status:"recurring" tags:"care,nonag" uuid:"e996e936-eb8e-42c6-932f-ac0d4210f9a0"]
+---
+time 1485277617
+old [description:"Get dressed" due:"1485320400" entry:"1485271814" imask:"5" modified:"1485183595" parent:"e996e936-eb8e-42c6-932f-ac0d4210f9a0" project:"Care" recur:"daily" status:"pending" tags:"care,nonag" uuid:"38a2c2b5-a59d-40a0-b238-a6db9b4f2e78"]
+new [description:"Get dressed" due:"1485320400" end:"1485277617" entry:"1485271814" imask:"5.000000" modified:"1485277617" parent:"e996e936-eb8e-42c6-932f-ac0d4210f9a0" project:"Care" recur:"daily" status:"completed" tags:"care,nonag" uuid:"38a2c2b5-a59d-40a0-b238-a6db9b4f2e78"]
+---
+time 1485277693
+new [description:"Nap" entry:"1485277693" modified:"1485277693" priority:"H" project:"Care" status:"pending" tags:"care,nonag" uuid:"2e67d1be-a166-4ccf-81f2-2c01b6f86723"]
+---
+time 1485301990
+old [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"++-" modified:"1485271814" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+new [description:"Lunch" due:"1485147600" entry:"1485116996" mask:"+++" modified:"1485301990" project:"Care" recur:"daily" status:"recurring" tags:"care,meal,nonag" uuid:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4"]
+---
+time 1485301990
+old [description:"Lunch" due:"1485320400" entry:"1485271814" imask:"2" modified:"1485202820" parent:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4" project:"Care" recur:"daily" status:"pending" tags:"care,meal,nonag" uuid:"12acba37-c428-4391-b1c4-9e35de781d42"]
+new [description:"Lunch" due:"1485320400" end:"1485301990" entry:"1485271814" imask:"2.000000" modified:"1485301990" parent:"c2cefa6a-6fc6-48b0-bf3d-8ee566fc40f4" project:"Care" recur:"daily" status:"completed" tags:"care,meal,nonag" uuid:"12acba37-c428-4391-b1c4-9e35de781d42"]
+---
+time 1485302001
+old [description:"Meridian mental health appointment" due:"1485243000" entry:"1484847616" modified:"1484847616" priority:"H" project:"Appointments" status:"pending" tags:"appointment,health,care" uuid:"956dfa3a-c7f1-4025-a9e2-36bdfa2fdbf0"]
+new [description:"Meridian mental health appointment" due:"1485243000" end:"1485302001" entry:"1484847616" modified:"1485302001" priority:"H" project:"Appointments" status:"completed" tags:"appointment,health,care" uuid:"956dfa3a-c7f1-4025-a9e2-36bdfa2fdbf0"]
+---
+time 1485302011
+old [description:"Walk" due:"1484888400" entry:"1484806006" mask:"+++++-" modified:"1485271814" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+new [description:"Walk" due:"1484888400" entry:"1484806006" mask:"++++++" modified:"1485302011" project:"Care" recur:"daily" status:"recurring" tags:"care,walk,nonag" uuid:"8918c339-fc1a-4e86-938e-c596f17eba24"]
+---
+time 1485302012
+old [description:"Walk" due:"1485320400" entry:"1485271813" imask:"5" modified:"1485184675" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" status:"pending" tags:"care,walk,nonag" uuid:"d623396e-cdd6-4971-ba22-b709416cdd56"]
+new [description:"Walk" due:"1485320400" end:"1485302011" entry:"1485271813" imask:"5.000000" modified:"1485302012" parent:"8918c339-fc1a-4e86-938e-c596f17eba24" project:"Care" recur:"daily" status:"completed" tags:"care,walk,nonag" uuid:"d623396e-cdd6-4971-ba22-b709416cdd56"]
+---
+time 1485302022
+old [description:"Nap" entry:"1485277693" modified:"1485277693" priority:"H" project:"Care" status:"pending" tags:"care,nonag" uuid:"2e67d1be-a166-4ccf-81f2-2c01b6f86723"]
+new [description:"Nap" end:"1485302022" entry:"1485277693" modified:"1485302022" priority:"H" project:"Care" status:"completed" tags:"care,nonag" uuid:"2e67d1be-a166-4ccf-81f2-2c01b6f86723"]
+---
