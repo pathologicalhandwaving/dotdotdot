@@ -7,6 +7,19 @@
 `flight-tracker <startDate> <endDate> <start> <end> [options]`
 `flight-tracker '2017-01-22 18:05' '2017-01-25 21:15' 'JAX' 'SFO' -i 50 -d 20`
 
+#### BibTeX
+##### Bib2Yaml
+`touch somefile.yml`
+`pandoc-citeproc --bib2yaml somefile.bib | pbcopy | pbpaste > somefile.yml`
+##### Parse BibTeX
+##### RFC to bib
+`rfc-to-bib 2616 > rfc2616.bib`
+
+##### Merge YAML 
+`merge-yaml -i example.yaml includes/*.yml -o merged.yml`
+
+
+
 #### Timers
 `stopwatch`
 `times`
