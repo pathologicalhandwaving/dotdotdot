@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AboutToPasteTabsWithCancel</key>
+	<true/>
+	<key>AboutToPasteTabsWithCancel_selection</key>
+	<integer>0</integer>
 	<key>AllowClipboardAccess</key>
 	<true/>
 	<key>AlternateMouseScroll</key>
@@ -31392,7 +31396,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>332 306 620 392 0 0 1280 800 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>454 0 606 456 0 0 1280 800 </string>
+	<string>583 276 606 456 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>7 188 796 473 0 0 1280 800 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
@@ -35681,15 +35685,15 @@
 			<key>Badge Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>0.5</real>
+				<real>0.000762939453125</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<real>0.02743418887257576</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.0071207880973815918</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.98624604940414429</real>
 			</dict>
 			<key>Badge Text</key>
 			<string></string>
@@ -35728,25 +35732,29 @@
 			<real>0.20996835443037976</real>
 			<key>Cursor Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.12078898400068283</real>
+				<real>0.089914850890636444</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.59354037046432495</real>
+				<real>0.40973761677742004</real>
 				<key>Red Component</key>
-				<real>0.99016290903091431</real>
+				<real>0.67544382810592651</real>
 			</dict>
 			<key>Cursor Guide Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>0.3111572265625</real>
 				<key>Blue Component</key>
-				<real>0.25296840071678162</real>
+				<real>0.99876785278320312</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.82674378156661987</real>
+				<real>0.67580503225326538</real>
 				<key>Red Component</key>
-				<real>0.99647152423858643</real>
+				<real>0.36089316010475159</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -35778,13 +35786,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.3274763822555542</real>
+				<real>0.21661889553070068</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.15302999317646027</real>
+				<real>0.10664770007133484</real>
 				<key>Red Component</key>
-				<real>0.050866860896348953</real>
+				<real>0.040362231433391571</real>
 			</dict>
 			<key>Guid</key>
 			<string>AD8A947B-F4B3-4B6F-AC4F-D8A4A3B17420</string>
@@ -36106,7 +36114,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Hack-Regular 10</string>
+			<string>SourceCodePro-Regular 10</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -36166,7 +36174,7 @@
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
-			<false/>
+			<true/>
 			<key>Use Cursor Guide</key>
 			<true/>
 			<key>Use Italic Font</key>
@@ -37597,7 +37605,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-23T03:21:02Z</date>
+	<date>2017-01-26T14:54:04Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
