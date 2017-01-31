@@ -14,6 +14,7 @@ source ~/.study
 source ~/.utils
 source ~/.texutils
 source ~/.mathutils
+source ~/.local/bin/bashmarks.sh
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
