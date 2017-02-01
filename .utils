@@ -14,4 +14,4 @@ alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date
 alias tool="bash $HOME/.myscripts/tool.sh"
 
 alias hrl="echo '*********************************************************************************************************' | lolcat"
-
+alias fu="python /Users/Em/Toolz/fu/fu"

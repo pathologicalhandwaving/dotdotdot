@@ -21,3 +21,73 @@ tools:
       'Command line graph of ping'
     example: |
       gping
+  tool: taskwarrior
+    description: >
+      'Tasks and scheduling manager'
+    example: |
+      tw add Something I should do project:ToDos +todo
+  tool: pdf-to-png
+    description: >
+      'Converts pdf to png thumbnail'
+    example: |
+      pdf-to-png file.pdg
+  tool: imgcat
+    description: >
+      'View image in terminal via cat'
+    example: |
+      imgcat pic.png
+  tool: yamllint
+    description: >
+      'Yaml checker'
+    example: |
+      cat file.yml | yamllint
+  tool: quickcite
+    description: >
+      'quick cite a reference in a bibtex file'
+    example: |
+      quickcite -b lib.bib
+  tool: lolcat
+    description: >
+      'Colorize stdout'
+    example: |
+      cat file.txt | lolcat -a -d 2 -F 0.3
+  tool: mdless
+    description: >
+      'Preview markdown in terminal'
+    example: |
+      mdless file.md
+  tool: bashmarks
+    description: >
+      'Bookmark directories in bash'
+    example: |
+      a /path
+  tool: dblp
+    description: >
+      'Fetch reference from dblp'
+    example: |
+      dblp -c <query>
+  tool: s
+    description: >
+      'Search for term and list of searches opens in safari'
+    example: |
+      s <query>
+  tool: wcloud
+    description: >
+      'Generate word cloud from file'
+    example: |
+      wcloud file
+  tool: shyaml
+    description: >
+      'Validate yaml file'
+    example: |
+      cat file.yml | shyaml show-keys
+  tool: howdoi
+    description: >
+      'Look up how to do stuff'
+    example: |
+      howdoi Something I want to do
+  tool: pmath
+    description: >
+      'Python math in shell'
+    example: |
+      pmath -c <<< exp(1j*pi).real
