@@ -91,3 +91,13 @@ tools:
       'Python math in shell'
     example: |
       pmath -c <<< exp(1j*pi).real
+  tool: giphycat
+    description: >
+      'Find a random gif and display it in iterm'
+    example: |
+      giphycat
+  tool: port
+    description: >
+      'Output a free port'
+    example: |
+      port

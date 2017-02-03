@@ -7,5 +7,5 @@ show_wind:true
 show_humidity:true
 show_pressure:true
 symbols:true
-ansi:true
+ansi:false
 
