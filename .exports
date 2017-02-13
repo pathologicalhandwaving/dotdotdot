@@ -10,7 +10,7 @@ export EDITOR='vim';
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
 
-export BIBINPUTS="/usr/local/texlive/texmf-local/bibtex/bib/local:$PATH"
+export BIBINPUTS="/Library/TeX/Local/bibtex/bib/local:$PATH"
 
 # gnu path
 MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"

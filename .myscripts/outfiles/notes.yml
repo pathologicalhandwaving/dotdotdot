@@ -2,3 +2,4 @@
 
 notes:
   - To get an integer that is not a long int, that is of practical size, use the if isinstance(i, integer) builtin function, and if it doesnt return true t then you should abort.
+  - Proper teaching is recognized with ease. You can know it without fail because it awakens within you that sensation which tells you this is something you have always known F. Herbert

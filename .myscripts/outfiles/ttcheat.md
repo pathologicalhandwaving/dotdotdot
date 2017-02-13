@@ -18,7 +18,7 @@
 * `view @mdo` will show @mdo ’s timeline. `view @dmo 9` will print exactly 9 tweets
 * `s noah` will search the word *‘noah’*. Result will come back with highlight. Search can be performed with or without hashtag
 
-##### Tweet Commands
+**Tweet Commands**
 
 * `t the rainbow is god's promise to noah` will tweet exactly *‘the rainbow is god’s promise to noah’*.
 * `rt 12` will retweet the tweet with *[id=12]*. You can see id of each tweet beside the time.
@@ -35,16 +35,14 @@
 * `open 12` will open url in tweet with *[id=12]* in your OS’s default browser
 * `pt 12` will add tweet with *[id=12]* in your Pocket list
 
-##### **Direct Messages Commands**
+**Direct Messages Commands**
 
 * `inbox` will show inbox messages. inbox 7 will show newest 7 messages.
 * `thread 2` will show full thread with [id=2].
 * `mes @dtvd88` hi will send a hi message to @dtvd88.
 * `trash 5` will remove message with *[message_id=5]*
 
-
-
-##### Friends and followers Commands
+**Friends and followers Commands**
 
 * `ls fl` will list all your followers (people who are following you).
 * `ls fr` will list all your friends (people who you are following).
@@ -81,23 +79,20 @@
 * `switch mine` will switch current stream to personal stream. -f will work as well.
 * `switch list` will switch to a Twitter list’s stream. You will be asked for list name.
 
-##### Smart shell
+**Smart shell**
 
 * `142857*2` or `101**3` like a calculator.
 * Even cal will show the calendar for current month.
 * Put `order_rainbow('anything')` or `random_rainbow('wahahaha')` will make more fun :)
 
-##### Config Management
+**Config Management**
 
 * `theme` will list available themes.
 
 
 * `theme monokai` will apply *monokai* theme immediately. Changed theme will be remember as the next time’s default theme.
 
-
 * `config` will list all config key.
-
-
 * `config ASCII_ART` will output current value of *ASCII_ART* config key.
 * `config TREND_MAX` default will output default value of *TREND_MAX* config key.
 * `config CUSTOM_CONFIG` drop will drop *CUSTOM_CONFIG* config key.
@@ -117,7 +112,7 @@
 #### Bashmarks
 
 Saves the current directory as "bookmark_name"
-`s <bookmark_name>`
+`a <bookmark_name>`
 Goes (cd) to the directory associated with "bookmark_name"
 `g <bookmark_name>`
 Prints the directory associated with "bookmark_name"
@@ -205,6 +200,7 @@ Lists all available bookmarks
 `term` Add a term to look up later
 `note` Make a short note
 `trick` Add a trick you found
+`shop` Add item to shopping list
 
 #### GoTo Directories
 `mit` MIT6001x

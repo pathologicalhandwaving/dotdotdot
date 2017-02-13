@@ -101,3 +101,33 @@ tools:
       'Output a free port'
     example: |
       port
+  tool: hexterm
+    description: >
+      'Hex to xterm color estimator'
+    example: |
+      hexterm '#d33682'
+  tool: thor
+    description: >
+      'List the most recently modified files'
+    example: |
+      ls -thor
+  tool: frequent-commands
+    description: >
+      'List most frequently used commands'
+    example: |
+      $ history | awk '{print $2}' | awk 'BEGIN {FS="|"}{print $1}' | sort | uniq -c | sort -nr | head
+  tool: hln
+    description: >
+      'Hard link files easy'
+    example: |
+      hln source destination
+  tool: askwiki
+    description: >
+      'get text of wikipedia article'
+    example: |
+      askwiki <query>
+  tool: wikiquote
+    description: >
+      'get wikiquote quote of the day'
+    example: |
+      wikiquote
