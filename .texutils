@@ -1,6 +1,6 @@
 # LaTeX and BibTeX Utility Aliases
 
-alias tclean="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
+alias tclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz"
 
 alias biblib="cd /Library/TeX/Local/bibtex/bib/local"
 alias bibfile="sudo vim /Library/TeX/Local/bibtex/bib/local/central-bibliography.bib"
