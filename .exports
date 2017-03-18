@@ -12,6 +12,9 @@ export LC_ALL='en_US.UTF-8';
 
 export BIBINPUTS="/Library/TeX/Local/bibtex/bib/local:$PATH"
 
+# Temp Dir
+export TMPDIR="/Users/Em/.config/tmp:$PATH"
+
 # gnu path
 MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"

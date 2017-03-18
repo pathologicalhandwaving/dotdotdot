@@ -26,4 +26,10 @@ fi
 
 source ~/.xsh
 
+#LDFLAGS:  -L/usr/local/opt/libffi/lib
 
+#PKG_CONFIG_PATH: /usr/local/opt/libffi/lib/pkgconfig
+
+#LDFLAGS:  -L/usr/local/opt/readline/lib
+
+#CPPFLAGS: -I/usr/local/opt/readline/include
