@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 FILE=/Users/Em/.myscripts/outfiles/conf-todo.yml
 
