@@ -36,6 +36,9 @@ if has("termguicolors")
 	set termguicolors
 endif
 
+if has("gui_running")
+    set $VIMHOME/gvimrc
+endif
 
 " SOURCES
 source $VIMHOME/filetype.vim
