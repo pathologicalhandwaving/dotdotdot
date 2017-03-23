@@ -36,8 +36,12 @@ if has("termguicolors")
 	set termguicolors
 endif
 
+if !$GVIMHOME
+	let $GVIMHOME=$HOME."/.gvim"
+endif
+
 if has("gui_running")
-    set $VIMHOME/gvimrc
+    set $GVIMHOME/gvimrc
 endif
 
 " SOURCES
