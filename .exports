@@ -12,8 +12,12 @@ export LC_ALL='en_US.UTF-8';
 
 export BIBINPUTS="/Library/TeX/Local/bibtex/bib/local:$PATH"
 
+# Node NPM Path
+export PATH="/usr/local/share/npm/bin:$PATH"
+
+# FIX ME!!!
 # Temp Dir
-export TMPDIR="/Users/Em/.config/tmp:$PATH"
+#export TMPDIR="/Users/Em/.config/tmp:$PATH"
 
 # gnu path
 MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"

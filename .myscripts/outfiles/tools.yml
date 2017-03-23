@@ -136,3 +136,8 @@ tools:
       'ContentMine tool to mine scientific literature automaticallyy'
     example: |
       getpapers -q <your query> -o <a folder to save them in> -x
+  tool: proselint
+    description: >
+      'lint for writing'
+    example: |
+      
