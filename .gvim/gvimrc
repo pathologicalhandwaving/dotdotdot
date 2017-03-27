@@ -1,0 +1,66 @@
+" GVIMRC
+
+set hidden
+set hlsearch
+set number
+set tabstop=4
+set noexpandtab
+set shiftwidth=4
+set wrap
+set autoindent
+set backspace=indent,eol,start
+set nocompatible
+filetype plugin on
+syntax on
+
+" COLORS
+autocmd BufEnter * :syntax sync fromstart
+
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+set cursorline
+hi cursorline guibg=245 guifg=49
+set cursorcolumn
+hi cursorcolumn guibg=245 guibg=49
+set guifont=Fira Code:h12
+set lines=40
+set columns=100
+
+if !$GVIMHOME
+	let $GVIMHOME=$HOME."/.gvim"
+endif
+
+" Source
+source $GVIMHOME/filetype.vim
+source $GVIMHOME/settings/csv.vim
+source $GVIMHOME/settings/startify.vim
+source $GVIMHOME/settings/YUNOcommit.vim
+source $GVIMHOME/settings/mappings.vim
+source $GVIMHOME/settings/templates.vim
+source $GVIMHOME/settings/mthesaur.vim
+source $GVIMHOME/settings/LaTeX-Box.vim
+source $GVIMHOME/settings/codi.vim
+
+" Dictionary
+source dictionary+='/Users/Em/.gvim/dictionaries'
+
+" Wildmenu
+set wildmenu
+set wildmode=list:longest,full
+
+set incsearch
+
+" Statusbar
+set laststatus=2
+
+let g:airline_theme="solarized"
+
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+autocmd BufNewFile,BufReadPost *.yml set filetype=yaml
+autocmd BufNewFile,BufReadPost *.tex set filetype=latex
+autocmd BufNewFile,BufReadPost *.bib set filetype=bibtex
+
+let g:markdown_syntax_conceal=0
+
+
