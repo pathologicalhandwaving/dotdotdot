@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 FILE="$HOME/.myscripts/outfiles/glossary.yml"
 
@@ -9,13 +9,10 @@ read -p 'Term Label: ' label
 read -p 'Term Description: ' descr
 read -p 'Tags: ' tags
 
+fmtgls="\\newglossaryentry{$label}{%\n\t'name={$term},'\n\t'description={$desc},'\n}"
 
 echo " "
-echo "  label: $label" >> $FILE
-echo "    term: $term" >> $FILE
-echo "    description: >" >> $FILE
-echo "      '$descr'" >> $FILE
-echo "    tags: $tags" >> $FILE
+echo "$fmtgls"
 echo " "
 
 
