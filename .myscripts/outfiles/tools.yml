@@ -141,3 +141,8 @@ tools:
       'lint for writing'
     example: |
       
+  tool: latitude
+    description: >
+      'Gives geolocation info'
+    example: |
+      latitude

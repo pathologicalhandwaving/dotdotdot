@@ -1,4 +1,10 @@
-#!/usr/local/bin/bash
+#!/bin/bash
+
+DATETIME="/Users/Em/.myscripts/datetime-utils"
+DEVONTHINK="/Users/Em/.myscripts/dt-utils"
+INPUTUTILS="/Users/Em/.myscripts/input-utils"
+MATHUTILS="/Users/Em/.myscripts/math-utils"
+TEXEDIT="/Users/Em/.myscripts/texedit-utils"
 
 function idea() {
 	sh ./Users/Em/.myscripts/idea.sh
