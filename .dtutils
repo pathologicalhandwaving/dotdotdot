@@ -1,0 +1,5 @@
+alias dnote="cd /Users/Em/ShortCut/DtUtils/ && bash dt_take_note.sh"
+alias dsearch="cd /Users/Em/ShortCut/DtUtils/ && bash dt_search.sh"
+alias dcontent="cd /Users/Em/ShortCut/DtUtils/ && bash dt_contents.sh"
+alias dimport="cd /Users/Em/ShortCut/DtUtils/ && bash dt_import.sh"
+alias dinfo="cd /Users/Em/ShortCut/DtUtils/ && bash dt_record_info.sh"
