@@ -1,4 +1,0 @@
----
-0.1.0 activesupport:~> 4.0,jekyll:~> 1.0|checksum:0ca2501916c90ea623bcf777f02759ca7f02a0e9ede2eb89db33045ae32ce8a0
-0.1.1 activesupport:~> 4.0,jekyll:~> 2.0|checksum:7ce35630253f07f7a2a3ae8fe8636c1b71c265e3c6457dab96679b7eebf55e00
-0.2.0 activesupport:~> 4.0,jekyll:~> 3.0|checksum:5267b13d73135b6decff8cb93aaadd0c4a39be59d7782bd7e2120e6e35628b1c
