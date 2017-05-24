@@ -54,7 +54,6 @@ source $VIMHOME/pack/settings/airline.vim
 source $VIMHOME/pack/settings/mappings.vim
 source $VIMHOME/pack/settings/templates.vim
 source $VIMHOME/pack/settings/startify.vim
-source $VIMHOME/pack/fuctions/quote.vim
 
 
 " DICTIONARY
@@ -83,18 +82,6 @@ let g:airline_left_sep = '🐹 '
 "let g:airline_right_alt_sep = '📈'
 let g:airline_right_sep = '🐹'
 
-" Vim-Workspaces
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent execute "!curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
-  autocmd VimEnter * PlugInstall | source $MYVIMRC
-endif
-
-call plug#begin('~/.vim/plugged')
-Plug 'thaerkh/vim-workspace'
-call plug#end()
-
-nnoremap <leader>s :ToggleWorkspace<CR>
-let g:workspace_autocreate=1
 
 " Jekyll
 let g:jekyll_path="/Users/Em/Repos/Page/pathologicalhandwaving.github.io"
