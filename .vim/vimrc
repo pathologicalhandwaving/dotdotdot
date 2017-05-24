@@ -3,6 +3,7 @@
 set hidden
 set hlsearch
 set number
+set numberwidth=3
 set tabstop=4
 set noexpandtab
 set shiftwidth=4
@@ -10,6 +11,9 @@ set wrap
 set autoindent
 set backspace=indent,eol,start
 set nocompatible
+set noswapfile
+set spell
+set spelllang=en_us
 filetype plugin on
 syntax on
 
@@ -32,7 +36,7 @@ hi cursorline ctermbg=245 ctermfg=49
 set cursorcolumn
 hi cursorcolumn ctermbg=245 ctermfg=49
 
-set noswapfile
+
 
 
 " VIMHOME
