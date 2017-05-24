@@ -1,0 +1,18 @@
+= Set custom icons in Mac OS X El Capitan
+Matthew Petty @lodestone
+
+Reset your custom icons for apps in El Capitan with this script. Especially useful for apps that update _too_ frequently. (I'm looking at you: Transmission and Calibre)
+
+
+== Instructions:
+
+. Put `reset-custom-icons` somewhere in your `$PATH`
+. `chmod +x WHEREVER_YOU_PUT_THE_SCRIPT`
+. Edit `.config/custom-icons.yaml` adding the app name and path of the icon on your computer.
+
+All done!
+
+Cheers!
+
+https://git.io/lodestone[@lodestone]
+

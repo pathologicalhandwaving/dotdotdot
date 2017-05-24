@@ -12,4 +12,6 @@ noremap <BS> gg
 nnoremap <c-j> /<cr>c/+>/e<cr>
 inoremap <c-j> <ESC>/<+.\{-1,}+><cr>c/+>/e<cr>
 " Syntax Highlighting for Placeholders
-match Todo /<+.\++>/ 
+match Todo /<+.\++>/
+" MacDict
+map <ALT> D "dyiw:call MacDict(@d)<CR>
