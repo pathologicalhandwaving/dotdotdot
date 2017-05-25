@@ -92,3 +92,5 @@ let g:jekyll_path="/Users/Em/Repos/Page/pathologicalhandwaving.github.io"
 
 " Align GitHub-flavored Markdown tables
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
+
+
