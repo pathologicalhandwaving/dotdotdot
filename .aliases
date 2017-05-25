@@ -4,7 +4,8 @@
 # Central Bibliography
 #alias biblib="cd /usr/local/texlive/texmf-local/bibtex/bib/local"
 
-
+# DevonThink Note
+alias dnote="bash /Users/Em/.myscripts/DevonThink-Utils/dt_take_note.sh"
 # Clean up LaTeX Files
 #alias texcleanup="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
 
