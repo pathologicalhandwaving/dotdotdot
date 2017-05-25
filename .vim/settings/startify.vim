@@ -17,7 +17,7 @@ let g:startify_list_order=['bookmarks', 'files', 'dir']
 		\]
 <
 
-let g:startify_bookmarks=[{'a' : '~/.aliases'},{'b' : '~/.bash_profile'},{'c' : '/Users/Em/PROJECTS/projectlist.yml'},{'d' : '/Users/Em/EmDB/directory.yml'}]
+let g:startify_bookmarks=[{'a' : '~/.aliases'},{'b' : '~/.bash_profile'},{'c' : '/Users/Em/PROJECTS/projectlist.yml'},{'d' : '/Users/Em/EmDB/directory.yml'},{'w' : '/Users/Em/.vim/doc/wherethingsare.md'}]
 
 let g:startify_recent_files=map(range(10,30), 'string(v:val)')
 let g:startify_custom_indices=map(range(25,100), 'string(v:val)')
