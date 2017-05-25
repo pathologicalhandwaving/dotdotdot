@@ -4,6 +4,8 @@
 # Central Bibliography
 #alias biblib="cd /usr/local/texlive/texmf-local/bibtex/bib/local"
 
+# cat is color cat (ccat)
+alias cat=ccat
 
 # Clean up LaTeX Files
 #alias texcleanup="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
