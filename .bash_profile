@@ -4,12 +4,11 @@ export PATH="/usr/local/mysql/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 source ~/.bashrc
 source ~/.aliases
-source ~/.mypaths
+#source ~/.mypaths
 source ~/.apitokens
 source ~/.exports
 source ~/'.functions'
-source ~/.bash_prompt
-source ~/.apitokens
+#source ~/.bash_prompt
 source ~/.osx
 source ~/.study
 source ~/.utils

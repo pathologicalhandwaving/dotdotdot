@@ -3,6 +3,9 @@
 alias tclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz"
 
 alias biblib="cd /Library/TeX/Local/bibtex/bib/local"
-alias bibfile="sudo vim /Library/TeX/Local/bibtex/bib/local/central-bibliography.bib"
 
-#alias addbib="bash /Users/Em/.myscripts/makebibentry.sh"
+# Central Bibliography File
+alias bibfile="vim /Users/Em/Repos/bibTexDB/central-bibliography.bib"
+# Where is bibfile
+alias 'whereismybib'="echo 'The Central Bibliography is in Repos/bibTexDB'"
+
