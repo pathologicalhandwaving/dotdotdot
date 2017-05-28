@@ -2,15 +2,16 @@
 
 # Exports
 
-#export PATH=$PATH:$HOME/bin
+# sbin PATH
+export PATH="/usr/local/sbin:$PATH"
 
+# Editor
 export EDITOR='vim';
-#export MYGVIMRC
+
 # US English in UTF-8
 export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
 
-export BIBINPUTS="/Library/TeX/Local/bibtex/bib/local:$PATH"
 
 # Node NPM Path
 export PATH="/usr/local/share/npm/bin:$PATH"
@@ -22,7 +23,17 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 # gnu path
 MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
+# XML
+
+# MySQL Path
+export PATH="/usr/local/mysql/bin:$PATH"
+
+# TeXInfo Path
+export PATH="/usr/local/opt/texinfo/bin:$PATH"
+
+# Python Encoding
 export PYTHONENCODING='UTF-8';
 
 # Go Path
@@ -30,12 +41,13 @@ export GOPATH="/usr/local/opt/go/libexec/bin:$PATH"
 #export PATH=$PATH:$GOPATH="/Users/Em/Projects/GoCode"
 
 
+# Less
 export LESS_TERMCAP_md="${yellow}";
 export MANPAGER='less -X';
 
-# Always use colored grep output
 export GREP_OPTIONS='--color=auto';
+
+# XML
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 export PATH="/usr/local/opt/libxslt/bin:$PATH"
 export XML_CATALOG_FILES=/usr/local/etc/xml/catalog
-
