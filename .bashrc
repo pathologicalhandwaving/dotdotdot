@@ -33,3 +33,5 @@ source ~/.xsh
 #LDFLAGS:  -L/usr/local/opt/readline/lib
 
 #CPPFLAGS: -I/usr/local/opt/readline/include
+
+PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"

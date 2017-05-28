@@ -58,6 +58,7 @@ source $VIMHOME/pack/settings/airline.vim
 source $VIMHOME/pack/settings/mappings.vim
 source $VIMHOME/pack/settings/templates.vim
 source $VIMHOME/pack/settings/startify.vim
+source $VIMHOME/pack/settings/highlights.vim
 
 
 " DICTIONARY
@@ -93,4 +94,8 @@ let g:jekyll_path="/Users/Em/Repos/Page/pathologicalhandwaving.github.io"
 " Align GitHub-flavored Markdown tables
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
+" vimtex
+source $VIMHOME/pack/settings/vimtex.vim
+" ensure tex is latex not plaintext
+let g:tex_flavor='latex'
 

@@ -5,6 +5,7 @@ export PATH="/usr/local/sbin:$PATH"
 source ~/.bashrc
 source ~/.aliases
 source ~/.mypaths
+source ~/.apitokens
 source ~/.exports
 source ~/'.functions'
 source ~/.bash_prompt
@@ -15,6 +16,7 @@ source ~/.utils
 source ~/.texutils
 source ~/.mathutils
 source ~/.local/bin/bashmarks.sh
+source ~/.dtutils
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
