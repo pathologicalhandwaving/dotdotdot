@@ -1,0 +1,21 @@
+# OSX Aliases
+
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
+
+alias icloud="cd '/Users/Em/Library/Mobile Documents/com~apple~CloudDocs'"
+
+alias osafari='open -a Safari'
+alias ochrome='open -a Chrome'
+alias ofind='open -a Finder'
+alias otex='open -a TeXShop'
+
+alias dsclean='find . -type f -name .DS_Store -delete'
+
+alias ql='qlmanage -p 2>/dev/null'
+
+alias mute="osascript -e 'set volume output muted true'"
+alias unmute="osascript -e 'set volume output muted false'"
+

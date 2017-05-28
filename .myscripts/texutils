@@ -1,0 +1,11 @@
+# LaTeX and BibTeX Utility Aliases
+
+alias tclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz"
+
+alias biblib="cd /Library/TeX/Local/bibtex/bib/local"
+
+# Central Bibliography File
+alias bibfile="vim /Users/Em/Repos/bibTexDB/central-bibliography.bib"
+# Where is bibfile
+alias 'whereismybib'="echo 'The Central Bibliography is in Repos/bibTexDB'"
+

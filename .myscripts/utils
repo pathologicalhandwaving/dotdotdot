@@ -1,0 +1,23 @@
+# General Utility Aliases
+
+alias note="cd ~/Notes && vim"
+alias clock="tty-clock -c -b -B -n  -C 5 -t"
+alias cheats="mdless -w 103 /Users/Em/.myscripts/outfiles/ttcheat.md"
+alias goout="cd $HOME/.myscripts/outfiles"
+alias goscrpts="cd $HOME/.myscripts"
+alias menu="bash /Users/Em/.myscripts/menu.sh"
+alias ntime="figlet -f roman Notes | boxes -d mouse | lolcat -a -d 3 -F 0.2"
+alias shop="bash $HOME/.myscripts/shop.sh"
+
+alias timestamp="bash /Users/Em/.myscripts/timestamp.sh"
+alias times="bash /Users/Em/.myscripts/ourtimes.sh"
+alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date'
+
+alias tool="bash $HOME/.myscripts/tool.sh"
+
+alias hrl="echo '*********************************************************************************************************' | lolcat"
+alias fu="python /Users/Em/Toolz/fu/fu"
+
+alias nosaf="sudo chmod ogu-rx /Applications/Safari.app"
+alias yesaf="sudo chmod ogu+rx /Applications/Safari.app"
+
