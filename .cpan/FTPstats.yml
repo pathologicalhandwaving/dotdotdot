@@ -2,45 +2,34 @@
 history:
   - attempts:
       - method: dleasy
-        start: 1484804599.19263
+        start: 1486178291.66105
         url: &1 !!perl/hash:CPAN::URL
           FROM: USER
           TEXT: http://mirror.teklinks.com/CPAN/
-    end: 1484804599.86665
-    file: authors/id/P/PM/PMQS/Compress-Raw-Bzip2-2.070.tar.gz
-    filesize: 137413
-    start: 1484804599.19196
+    end: 1486178296.76109
+    file: authors/01mailrc.txt.gz
+    filesize: 245750
+    start: 1486178291.66056
     thesiteurl: *1
   - attempts:
       - method: dleasy
-        start: 1484804599.90489
+        start: 1486178297.76293
         url: &2 !!perl/hash:CPAN::URL
           FROM: USER
           TEXT: http://mirror.teklinks.com/CPAN/
-    end: 1484804600.44324
-    file: authors/id/P/PM/PMQS/CHECKSUMS
-    filesize: 379774
-    start: 1484804599.88553
+    end: 1486178299.76948
+    file: modules/02packages.details.txt.gz
+    filesize: 1902312
+    start: 1486178297.76272
     thesiteurl: *2
   - attempts:
       - method: dleasy
-        start: 1484805239.23655
+        start: 1486178308.66565
         url: &3 !!perl/hash:CPAN::URL
           FROM: USER
           TEXT: http://mirror.teklinks.com/CPAN/
-    end: 1484805240.68771
-    file: authors/id/M/MA/MAKAMAKA/JSON-2.90.tar.gz
-    filesize: 85333
-    start: 1484805239.23609
+    end: 1486178308.76549
+    file: modules/03modlist.data.gz
+    filesize: 248
+    start: 1486178308.66549
     thesiteurl: *3
-  - attempts:
-      - method: dleasy
-        start: 1484805240.71888
-        url: &4 !!perl/hash:CPAN::URL
-          FROM: USER
-          TEXT: http://mirror.teklinks.com/CPAN/
-    end: 1484805240.84251
-    file: authors/id/M/MA/MAKAMAKA/CHECKSUMS
-    filesize: 30780
-    start: 1484805240.70113
-    thesiteurl: *4
