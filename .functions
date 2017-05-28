@@ -9,7 +9,7 @@ function moon() {
 	curl wttr.in/Moon | lolcat -a -d 5 -s 17.0
 }
 
-function mkcd() {
+function mk() {
     mkdir -p "$@" && cd "$_";
 
 }
