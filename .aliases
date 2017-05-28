@@ -6,7 +6,7 @@ alias listaliases="alias | sed 's/=.*//'"
 # Show non-prefixed functions
 alias listfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'"
 
-
+alias _="sudo"
 
 # cat is color cat (ccat)
 alias cat=ccat

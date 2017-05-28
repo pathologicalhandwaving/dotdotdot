@@ -16,6 +16,7 @@ source /Users/Em/.myscripts/texutils
 source /Users/Em/.myscripts/mathutils
 source /Users/Em/.myscripts/dtutils
 #source /Users/Em/.myscripts/
+source /Users/Em/.dir_colors
 
 # Bashmarks
 source ~/.local/bin/bashmarks.sh
