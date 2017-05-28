@@ -1,7 +1,6 @@
 " latex filetype
-" vim-latex
+" vimtex
 
 " indentation
 set sw=4
 
-set iskeyword+=:

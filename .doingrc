@@ -1,29 +1,37 @@
 ---
-doing_file: "~/what_was_i_doing.md"
+autotag:
+  whitelist: []
+  synonyms: {}
+doing_file: "/Users/Em/InProgress/ToDo/Doing/what_was_i_doing.md"
 current_section: Currently
-editor_app: 
+editor_app: Vim
 templates:
   default:
     date_format: "%Y-%m-%d %H:%M"
-    template: "%date | %title%note"
-    wrap_width: 0
+    template: |2-
+
+      %n%boldgreen%hr%n%n%boldwhite%date > %n%t%cyan%title%n%note%n%boldgreen%hr_under
+    wrap_width: 80
   today:
     date_format: "%_I:%M%P"
-    template: "%date: %title %interval%note"
-    wrap_width: 0
+    template: |2-
+
+      %hr
+      %boldred%date > %n%t%red%title%n%yellow%interval%n%white%note%n%hr_under
+    wrap_width: 80
   last:
     date_format: "%-I:%M%P on %a"
-    template: "%title (at %date)%odnote"
-    wrap_width: 88
+    template: "%n%red%hr%n%t%boldred%title (at %date) | %n%t%white%note%n%red%hr_under"
+    wrap_width: 80
   recent:
     date_format: "%_I:%M%P"
-    template: "%shortdate: %title"
-    wrap_width: 88
+    template: "%boldgreen%shortdate | %n%t%green%title"
+    wrap_width: 80
 views:
   done:
     date_format: "%_I:%M%P"
-    template: "%date | %title%note"
-    wrap_width: 0
+    template: "%date | %n%t%green%title%n%t%green%note"
+    wrap_width: 80
     section: All
     count: 0
     order: desc
@@ -31,11 +39,12 @@ views:
     tags_bool: OR
   color:
     date_format: "%F %_I:%M%P"
-    template: "%boldblack%date %boldgreen| %boldwhite%title%default%note"
-    wrap_width: 0
+    template: "%boldblack%date %boldgreen | %n%t%boldwhite%title%default%note"
+    wrap_width: 80
     section: Currently
     count: 10
     order: asc
 marker_tag: flagged
 marker_color: red
 :include_notes: true
+default_tags: []

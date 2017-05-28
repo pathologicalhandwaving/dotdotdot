@@ -1,5 +1,6 @@
 'Icon'$'\r'
 /bundle/cache/*
+'Icon'$'\r'
 .mutt/header_cache
 .task/certs/*
 .task/pending.data
@@ -8,6 +9,10 @@
 .config/ranger/bookmarks
 .apitokens
 .myconfig
+.cache
+.cpan/Metadata
+.cpan/FTPstats.yml
+.cpan/
 *.gz
 *.aux
 *.lof
@@ -80,7 +85,6 @@ Icon
 ._*
 .Spotlight-V100
 .Trashes
-
 
 # Logs and databases:
 *.log

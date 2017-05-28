@@ -1,9 +1,20 @@
 # Aliases
 
 
+# List declared aliases, functions
+
+alias listaliases="alias | sed 's/=.*//'"
+alias listfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'" # show non _prefixed functions
+
+
 # Central Bibliography
 #alias biblib="cd /usr/local/texlive/texmf-local/bibtex/bib/local"
 
+# DevonThink Note
+alias dnote="bash /Users/Em/.myscripts/DevonThink-Utils/dt_take_note.sh"
+
+# cat is color cat (ccat)
+alias cat=ccat
 
 # Clean up LaTeX Files
 #alias texcleanup="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz"
@@ -31,10 +42,11 @@ else # macOS `ls`
     export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
 fi
 
-alias ls="command ls ${colorflag}"
+alias ls="ls ${colorflag}"
 alias ll="ls ${colorflag}"
 alias lk="ls ${colorflag}"
-alias "l:"="ls ${colorflag}"
+alias 'l:'="ls ${colorflag}"
+alias ks="ls ${colorflag}"
 
 
 

@@ -1,0 +1,26 @@
+=== In Seil ===
+First I changed capslock (57) to esc (53)
+Then I changed esc (53) to capslock (57)
+
+caps => 53
+esc => 57 
+
+HYPER = [left command (55)] + [left control(59)] + [left option(58)] + [left shift(56)]
+HYPER = 55 + 59 + 58 + 56
+
+=== In Hammerspoon ===
+Set Hyper as follows:
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Remap Esc to Hyper</name>
+		<appendix>This maps Esc to Hyper which is Control + Shift + Option + Command.</appendix>
+		<identifier>usercustom.esc_to_hyper</identifier>
+		<autogen>
+			--KeyToKey--
+			KeyCode::ESCAPE,
+			KeyCode::CAPSLOCK,
+			ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
+		</autogen>
+	</item>
+</root>

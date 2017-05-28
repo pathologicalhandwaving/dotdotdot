@@ -1,3 +1,5 @@
+#Bare git repo for backing up dotfiles
+
 alias config='/usr/bin/git --git-dir=/Users/Em/.myconfig/ --work-tree=/Users/Em'
 
 
@@ -33,3 +35,5 @@ source ~/.xsh
 #LDFLAGS:  -L/usr/local/opt/readline/lib
 
 #CPPFLAGS: -I/usr/local/opt/readline/include
+
+PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
