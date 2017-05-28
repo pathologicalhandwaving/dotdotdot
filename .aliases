@@ -1,6 +1,12 @@
 # Aliases
 
 
+# List declared aliases, functions
+
+alias listaliases="alias | sed 's/=.*//'"
+alias listfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'" # show non _prefixed functions
+
+
 # Central Bibliography
 #alias biblib="cd /usr/local/texlive/texmf-local/bibtex/bib/local"
 
