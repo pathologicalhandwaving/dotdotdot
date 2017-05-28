@@ -38,11 +38,21 @@ Icon
 .AppleDesktop
 .apdisk
 
+# mps-youtube
+.config/mps-youtube/play_history
+.config/mps-youtube/input_history
 
 /bundle/cache/*
 
 # mutt
 .mutt/header_cache
+.mutt/message_cache/*
+.mutt/tmp/*
+.mutt/user
+.mutt/signature
+.mutt/aliases
+
+.wegorc
 
 # taskwarrior
 .task/certs/*
@@ -52,6 +62,14 @@ Icon
 # ranger
 .config/ranger/history
 .config/ranger/bookmarks
+.config/ranger/tags
+
+# texstudio
+.config/texstudio/lastSession.txss
+.config/texstudio/packageCache.dat
+.config/texstudio/wordcount.usage
+
+.config/tmp*
 
 
 .myscripts/apitokens
@@ -193,7 +211,6 @@ _minted*
 *.acn
 *.acr
 *.alg
-*.aux
 *.bbl
 *.blg
 *.dvi
@@ -254,7 +271,6 @@ __pycache__
 *.jar
 *.war
 *.ear
-
 
 
 
