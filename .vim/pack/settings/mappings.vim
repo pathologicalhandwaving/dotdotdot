@@ -15,9 +15,13 @@ noremap <BS> gg
 " Syntax Highlighting for Placeholders
 "match Todo /<+.\++>/
 
+" Highlight Colors
+highlight ANSWER ctermfg=green guifg=green ctermbg=blue guibg=blue term=bold
+
+
 match TODO /^TODO:/
 match QUESTION /^QUESTION/
 match ANSWER /^ANSWER/
-match 
+
 " MacDict
 map <ALT> D "dyiw:call MacDict(@d)<CR>
