@@ -53,5 +53,5 @@ let g:startify_change_to_dir=1
 
 >
 let g:startify_custom_header = 
-	\ map(split(system('fortune | cowsay'), '\n'), '"   ". v:val')
+	\ map(split(system('fortune | ponysay'), '\n'), '"   ". v:val')
 <
