@@ -17,7 +17,10 @@ alias tree="tree -CAFa -I 'CVS|*.*.package|.svn|.git' --dirsfirst"
 # Lock
 #alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
-# Handy 
+# StarDict Colorized
+alias sdcv='sdcv -n --utf8-output --color "$@" 2>&1 | fold --width=$(tput cols) | less -FRX'
+
+# Handy
 alias cl="clear"
 
 # Move Around a Bit
