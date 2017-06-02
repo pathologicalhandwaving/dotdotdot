@@ -32957,7 +32957,7 @@
 	<key>Default Arrangement Name</key>
 	<string>Task</string>
 	<key>Default Bookmark Guid</key>
-	<string>32BFFB79-8BD4-4E3F-B2FB-D2FB1FEC8562</string>
+	<string>3125D44E-845D-45B0-A60A-3212A3625281</string>
 	<key>DeleteProfile_SilenceUntil</key>
 	<real>506808388.57116902</real>
 	<key>DeleteProfile_selection</key>
@@ -33059,7 +33059,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 216 592 584 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1280 800 0 0 1280 800 </string>
+	<string>0 471 1280 329 0 0 1280 800 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -37820,7 +37820,7 @@
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
-			<true/>
+			<false/>
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Cursor Guide</key>
@@ -38051,7 +38051,7 @@
 			<key>Command</key>
 			<string>ranger</string>
 			<key>Cursor Boost</key>
-			<real>0.085007911392405072</real>
+			<real>0.04841772151898735</real>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -38068,15 +38068,15 @@
 			<key>Cursor Guide Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>0.1564178466796875</real>
+				<real>0.143341064453125</real>
 				<key>Blue Component</key>
-				<real>0.056768454611301422</real>
+				<real>0.44516605138778687</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.99244457483291626</real>
 				<key>Red Component</key>
-				<real>0.19764101505279541</real>
+				<real>0.54436516761779785</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -38478,7 +38478,7 @@
 			<key>Silence Bell</key>
 			<true/>
 			<key>Smart Cursor Color</key>
-			<false/>
+			<true/>
 			<key>Space</key>
 			<integer>-1</integer>
 			<key>Sync Title</key>
@@ -38492,7 +38492,7 @@
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
-			<true/>
+			<false/>
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Cursor Guide</key>
@@ -39150,7 +39150,7 @@
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
-			<true/>
+			<false/>
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Cursor Guide</key>
@@ -39263,7 +39263,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-05-26T00:46:14Z</date>
+	<date>2017-06-02T00:35:05Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
