@@ -2,7 +2,7 @@
 autotag:
   whitelist: []
   synonyms: {}
-doing_file: "/Users/Em/InProgress/ToDo/Doing/what_was_i_doing.md"
+doing_file: "/Users/Em/Repos/CaptainsLog/Doing/what_was_i_doing.md"
 current_section: Currently
 editor_app: Vim
 templates:
