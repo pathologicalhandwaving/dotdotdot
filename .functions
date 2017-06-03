@@ -1,6 +1,7 @@
 # Functions
 
 
+# Weather
 function weather() {
 	curl wttr.in/Oakland | lolcat -a -d 3 -s 17.0
 }
@@ -9,20 +10,42 @@ function moon() {
 	curl wttr.in/Moon | lolcat -a -d 5 -s 17.0
 }
 
+
+
+# mkdir and cd into it
 function mk() {
     mkdir -p "$@" && cd "$_";
 
 }
 
+# Bash Completion (why is this here?)
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	$(brew --prefix)/etc/bash_completion
 fi
 
+
 # Degree Sequence
 alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
 
+
+# Look Busy ;)
 function busy() {
 j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo $i;sleep 1; done | dialog --gauge "Install part $j : `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`" 6 40;done
 }
 
 alias busy="busy"
+
+
+# Codi
+# Usage: codi [filetype] [filename]
+codi() {
+  local syntax="${1:-python}"
+  shift
+  vim -c \
+    "let g:startify_disable_at_vimenter = 1 |\
+    set bt=nofile ls=0 noru nonu nornu |\
+    hi ColorColumn ctermbg=NONE |\
+    hi VertSplit ctermbg=NONE |\
+    hi NonText ctermfg=0 |\
+    Codi $syntax" "$@"
+}
