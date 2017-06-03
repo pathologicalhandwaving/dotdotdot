@@ -66,6 +66,8 @@ source $VIMHOME/pack/settings/highlights.vim
 source $VIMHOME/pack/settings/clock.vim
 source $VIMHOME/pack/settings/goyo.vim
 "source $VIMHOME/pack/settings/nerdtree.vim
+source $VIMHOME/pack/settings/searchtasks.vim
+
 
 " DICTIONARY
 set dictionary+='/Users/Em/.vim/dictionaries'
