@@ -28,6 +28,9 @@ set cursorcolumn
 hi cursorcolumn ctermbg=245 ctermfg=49
 
 
+"" Shell
+let $SHELL='/bin/bash'
+
 " Markdown Crap
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 let g:markdown_fenced_languages = ['html', 'javascript', 'yaml', 'yml', 'coffee', 'json', 'diff', 'python', 'bash=sh', 'latex=tex', 'bibtex=bib', 'ruby=rb']
