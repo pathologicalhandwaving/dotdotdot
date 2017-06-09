@@ -9,7 +9,7 @@
 " lightline_visual.vim
 "
 let g:promptline_preset = 'full'
-let g:promptline_theme = 'airline'
+let g:promptline_theme = 'solarized'
 
 ""let git_sha_slice = {
 ""	\'funtion_name': 'git_sha',
