@@ -57,25 +57,25 @@ alias ks="ls ${colorflag}"
 
 # Colorize Greps
 # grep simple patterns and regex
-alias grep='grep --color=auto'
+#alias grep='grep --color=auto'
 # Fast grep without regex
-alias fgrep='fgrep --color=auto'
+#alias fgrep='fgrep --color=auto'
 # Grep with regex
-alias egrep='egre --color=auto'
+#alias egrep='egre --color=auto'
 # Grep for pdfs
-alias pdfgrep='pdfgrep --color=auto'
+#alias pdfgrep='pdfgrep --color=auto'
 # Grep for binary files
-alias bgrep='bgrep --color=auto'
+#alias bgrep='bgrep --color=auto'
 # Context-aware grep for source code
-alias cgrep='cgrep --color=auto'
+#alias cgrep='cgrep --color=auto'
 # mailbox grep with regex
-alias mboxgrep='mboxgrep --color=auto'
+#alias mboxgrep='mboxgrep --color=auto'
 # Network grep
-alias ngrep='ngrep --color=auto'
+#alias ngrep='ngrep --color=auto'
 # Process ID Grep
-alias pgrep='pgrep --color=auto'
+#alias pgrep='pgrep --color=auto'
 # Grep for HTML SGML and XML
-alias sgrep='sgrep --color=auto'
+#alias sgrep='sgrep --color=auto'
 
 
 # IP Stuff

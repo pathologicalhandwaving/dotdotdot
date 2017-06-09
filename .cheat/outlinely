@@ -1,0 +1,155 @@
+# Outlinely
+
+## Keyboard Shortcuts
+
+### Organize
+	Indent - ⌘ ]
+	Outdent - ⇧Tab or ⌘ [
+	Move Lines Up - ⌥ ⌘ [ or ⌃ ⌘ ↑
+	Move Lines Down - ⌥ ⌘ ] or ⌃ ⌘ ↓
+	Group Topics - ⌥ ⌘ G
+
+### Edit
+	Add Child Topic - Tab
+	Add note - ⌥ ⌘ N or ⌘ /
+	Mark/Unmark as Done - ⌘ D
+	Bold - ⌘ B
+	Italic - ⌘ I
+	Strikethrough - ⌘ Y
+	Insert Timestamp - ⌘ T (format:MM-dd-yyyy) or ⌥ ⌘ T (format:MM-dd-yyyy-hh:mm)
+	Add Highlight - ⇧⌘ H
+	Add Checkbox - ⇧⌘ C
+	Make Text Bigger - ⌥ ⌘ =
+	Make Text Smaller - ⌥ ⌘ -
+
+### View
+	Focus Mode - ⇧⌘ D
+	Typewriter Mode - ⇧⌘ T
+	Show Counter - ⌃ ⌘ K
+	Zoom In - ⌘ ⏎
+	Zoom Out - Esc
+	Expand - ⌘ .
+	Collapse/Move to Parent Topic - ⌘ ,
+	Expand/Collapse Toggle - ⌘ '
+	Expand All - ⇧ ⌥ ⌘.
+	Collapse All - ⇧⌥ ⌘ ,
+	Increase Font Size - ⌘ +
+	Decrease Font Size - ⌘ -
+	Single/Two/Three Panes - ⌘ 1 / ⌘ 2 / ⌘ 3
+	Open Quickly - ⇧⌘ O
+	Search & Navigate - ⌘ L
+
+## URL Scheme
+
+	outlinely://x-callback-url/[action]?[parameters]&[x-callback parameters]
+
+You can pass x-success and x-error as x-callback parameters to tell Outlinely to return to your provided URLs after performing the action.
+
+### X-Callback-URL Actions
+
+Outlinely supports the following actions:
+
+	* open
+	* new
+	* insert
+
+### Open
+
+	/open
+	Open an outline
+
+#### Parameters
+
+	path
+		#required
+		#case-sensitive
+		The path to the outline
+		Example:
+			"Inbox/Today"
+			"Ideas/Business Idea"
+	storage
+		#optional
+		iCloud
+		local
+
+#### Example
+
+	outlinely://x-callback-url/open?path=Inbox/My%20Outline
+
+
+### New
+
+	/new
+
+	Create a new outline
+
+#### Parameters
+
+	text
+		#required
+		Initial content
+
+	group
+		#required
+		#case-sensitive
+		The path to the group where the new outline is created
+		Example:
+			"Inbox"
+			"Idea"
+			"Research/Technology"
+	title
+		#optional
+		Outline's title
+
+	storage
+		#optional
+		iCloud
+		local
+
+	type
+		#optional
+		markdown
+		richtext
+		Default
+			markdown
+
+#### Example
+
+	outlinely://x-callback-url/new?text=Welcome&group=Inbox&title=My%20Outline&storage=iCloud
+
+
+### Insert
+
+/insert
+
+Insert text into an existing outline
+
+#### Parameters
+
+	text
+		#required
+		Text to insert.
+	path
+		#required
+		#case-sensitive
+		The path to the outline
+		Example:
+			"Inbox/Today"
+			"Ideas/Business Idea"
+	storage
+		#optional
+		iCloud or local
+	parent
+	#optional
+		If specified, Outlinely will attempt to add text to section in the outline with the specified name mode #optional append or prepend.
+	Default
+		append
+
+#### Example
+
+	outlinely://x-callback-url/insert?text=Line1%13Line2&path=Inbox/Today&parent=Tasks&mode=prepend
+
+#### Discussion
+
+	If you omit the parent parameter, new content will be prepended or appended to the body of the outline.
+	The parent parameter should be pointed to a main heading (which is not indented).

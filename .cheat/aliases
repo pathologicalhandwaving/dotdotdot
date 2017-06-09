@@ -1,0 +1,31 @@
+# My Aliases
+# Date Created: Sunday, June 4, 2017 5:38:46 PM
+# Date Modified:
+***
+
+## .aliases
+|---------------+---------------------------------|
+| Action        | Alias                           |
+|---------------+---------------------------------|
+| listaliases   | No need to explain              |
+| _             | sudo                            |
+| listfunctions | No need to explain              |
+| sdcv          | StarDict                        |
+| lock          | No need to explain              |
+| cl            | Clear                           |
+| ..            | up one cd                       |
+| bup           | brew update + upgrade + cleanup |
+| pur           | purge                           |
+| ip            | Get my ip                       |
+| sniff         | ngrep en1                       |
+| localip       | local ip en0                    |
+| ips           | get ips                         |
+| flush         | flush cache                     |
+| httpdump      | tcpdump                         |
+| lscleanup     | get rid of mac crud             |
+| busywrite     | Look Busy                       |
+| glossitem     | Make a glossary item in yaml    |
+| truthtable    | No need to explain
+|---------------|
+
+

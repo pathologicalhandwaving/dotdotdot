@@ -14,9 +14,10 @@ source /Users/Em/.myscripts/study
 source /Users/Em/.myscripts/utils
 source /Users/Em/.myscripts/texutils
 source /Users/Em/.myscripts/mathutils
-source /Users/Em/.myscripts/dtutils
+#source /Users/Em/.myscripts/dtutils
 #source /Users/Em/.myscripts/
-#source /Users/Em/.dir_colors
+#source /Users/Em/.dir_colors/dircolors.256dark
+
 
 # Bashmarks
 source ~/.local/bin/bashmarks.sh
@@ -28,3 +29,5 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 source ~/.xsh
 
 
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"

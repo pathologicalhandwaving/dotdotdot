@@ -1,6 +1,6 @@
 # LaTeX and BibTeX Utility Aliases
 
-alias tclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz"
+alias tclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz *.synctex.gz(busy) *.tex.bak *.sty.bak"
 
 alias biblib="cd /Library/TeX/Local/bibtex/bib/local"
 

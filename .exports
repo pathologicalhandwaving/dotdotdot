@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # Exports
-
+export TERM=xterm-256color
 # sbin PATH
 export PATH="/usr/local/sbin:$PATH"
 

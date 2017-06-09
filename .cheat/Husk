@@ -1,0 +1,125 @@
+
+Husk
+
+Husk is an API and CLI written in Python for the Cornell Note-taking System.
+
+bash
+
+Usage:
+    husk [-h] [-v] {init,add,move,remove,workon,info} ...
+
+Positional Arguments:
+  {init,add,move,remove,workon,info}
+
+Optional Arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+
+
+Initialize Repository
+
+Usage:
+    husk init [-h] [-d] [path]
+
+Initialize a Husk repository in the current working directory (cwd) unless a
+`path` is specified.
+
+Positional Arguments:
+  path            Path to Husk repository
+
+Optional Arguments:
+  -h, --help      show this help message and exit
+  -d, --defaults  Add a copy of the Husk defaults to the repo control
+                  directory.
+
+
+The result will be the creation of a `.husk` directory in the
+specified path.
+
+Add Note
+
+Usage:
+    husk add [-h] [-r REPO] [-f] [path [path ...]]
+
+Adds a note to the repository specified by it's `path`. If `path` is an
+existing directory/note, pass `--force` to register it with the repository.
+Existing files of the same name will not be overwritten.
+
+Positional Arguments:
+  path                  Paths to note directory
+
+Optional Arguments:
+  -h, --help            show this help message and exit
+  -r REPO, --repo REPO  Path to Husk repository
+  -f, --force           Force an existing unregistered note to be added to the
+                        repository
+
+
+Move a Note
+
+Usage:
+    husk move [-h] [-r REPO] src dest
+
+Moves an existing note to a new path.
+
+Positional Arguments:
+  src                   Source path to note that will be moved
+  dest                  Destination path of the note
+
+Optional Arguments:
+  -h, --help            show this help message and exit
+  -r REPO, --repo REPO  Path to Husk repository
+
+
+Remove a Note
+
+Usage:
+    husk remove [-h] [-r REPO] [-d] [path [path ...]]
+
+Remove a note from the specified repo. By default note files are not deleted.
+
+Positional Arguments:
+  path                  Path to note directory
+
+Optional Arguments:
+  -h, --help            show this help message and exit
+  -r REPO, --repo REPO  Path to Husk repository
+  -d, --delete          Delete note files from disk
+
+
+Work on a Note
+
+Usage:
+    husk workon [-h] [-r REPO] path [files [files ...]]
+
+Command to "work on" a note of files with the editor defined in your Husk
+settings and falls back to what is set in the $EDITOR environment variable.
+
+Positional Arguments:
+  path                  Path to note directory
+  files                 Filenames to be opened
+
+Optional Arguments:
+
+Show this Help Message and Exit
+  -h, --help
+
+Path to Husk repository
+  -r REPO, --repo REPO
+
+
+Repo Info
+
+Usage:
+    husk info [-h] [-r REPO] [{notes} [{notes} ...]]
+
+Shows various info about the repo.
+
+Positional Arguments:
+  {notes}               Specify which kinds of info to be presented
+
+Optional Arguments:
+  -h, --help            show this help message and exit
+
+Path to Husk Repository
+  -r REPO,     --repo REPO

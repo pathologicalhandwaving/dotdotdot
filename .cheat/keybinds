@@ -1,0 +1,79 @@
+# Keybindings
+# Date Created: Sunday, June 4, 2017 4:27:14 PM
+# Date Modified:
+
+***
+
+## Keyboard Maestro Groups
+
+
+### Misc Utils
+|---------+------------|
+| Action  | Key Combo  |
+|---------+------------|
+| HeadsUp | ⌃ + ⌥  + ↑ |
+|---------+------------|
+
+
+### Palettes
+|--------------+------------|
+| Palette      | Key Combo  |
+|--------------+------------|
+| Annotate     | F7         |
+| DevonThink   | ⌃ + ⌘ + D  |
+| DateTime     | F11        |
+| PlainText    | F6         |
+| Highlighters | ⌥ + H      |
+| RTF          | F3         |
+| RTF Basic    | ⌥  + ⌃ + R |
+| RTF Styles   | ⌃ + R      |
+| Stickes      | F10        |
+| TeX          | F2         |
+| Utils        | F5         |
+| VLC          | F12        |
+| WebWindows   | ::www      |
+| Workspace    | ⌘ + W      |
+| Notes        | ⌃ + ⌥ + N  |
+| Research     | ⇧ + R      |
+| Teaching     | ⌃ + T      |
+| Tutoring     | ⌥  + T     |
+|--------------+------------|
+
+### TeX Wrappers
+|--------------+-----------|
+| Wrap         | Key Combo |
+|--------------+-----------|
+| ()           | ..9       |
+| []           | ..]       |
+| $$           | ..4       |
+| display math | ..dm      |
+|--------------+-----------|
+
+
+### Apps
+|-------------+-----------|
+| App         | Key Combo |
+|-------------+-----------|
+| Cheaters    | ⇧ + C     |
+| Hypothes.is | ⌃ + ⇧ + H |
+| ProofWiki   | ⌥  + P    |
+| ScratchPad  | ⌘ + S     |
+|-------------+-----------|
+
+#### DevonThink
+|--------------------+-----------|
+| Action             | Key Combo |
+|--------------------+-----------|
+| New from Clipboard | ⌥ + C     |
+| Take Note          | ⌘  + N    |
+|--------------------+-----------|
+
+### Web Actions
+|--------------+------------|
+| Action       | Key Combo  |
+|--------------+------------|
+| Wikipedia    | ⌃ + ⇧ + W  |
+| Search Input | ⌥  + SPACE |
+| Webpage      | ⌥  + ⇧ + P |
+|--------------+------------|
+

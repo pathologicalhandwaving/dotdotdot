@@ -1,0 +1,96 @@
+usage: buku [OPTIONS] [KEYWORD [KEYWORD ...]]
+
+Powerful command-line bookmark manager. Your mini web!
+
+POSITIONAL ARGUMENTS:
+      KEYWORD              search keywords
+
+GENERAL OPTIONS:
+      -a, --add URL [tag, ...]
+                           bookmark URL with comma-separated tags
+      -u, --update [...]   update fields of an existing bookmark
+                           accepts indices and ranges
+                           refresh the title, if no edit options
+                           if no arguments:
+                           - update results when used with search
+                           - otherwise refresh all titles
+      -w, --write [editor|index]
+                           open editor to edit a fresh bookmark
+                           to update by index, EDITOR must be set
+      -d, --delete [...]   remove bookmarks from DB
+                           accepts indices or a single range
+                           if no arguments:
+                           - delete results when used with search
+                           - otherwise delete all bookmarks
+      -h, --help           show this information and exit
+      -v, --version        show the program version and exit
+
+EDIT OPTIONS:
+      --url keyword        bookmark link
+      --tag [+|-] [...]    comma-separated tags
+                           clear bookmark tagset, if no arguments
+                           '+' appends to, '-' removes from tagset
+      --title [...]        bookmark title; if no arguments:
+                           -a: do not set title, -u: clear title
+      -c, --comment [...]  notes or description of the bookmark
+                           clears description, if no arguments
+      --immutable N        disable title fetch from web on update
+                           N=0: mutable (default), N=1: immutable
+
+SEARCH OPTIONS:
+      -s, --sany           find records with ANY search keyword
+                           this is the default search option
+      -S, --sall           find records with ALL search keywords
+                           special keywords -
+                           "blank": entries with empty title/tag
+                           "immutable": entries with locked title
+      --deep               match substrings ('pen' matches 'opens')
+      -r, --sreg           run a regex search
+      -t, --stag           search bookmarks by a tag
+                           list all tags, if no search keywords
+
+ENCRYPTION OPTIONS:
+      -l, --lock [N]       encrypt DB file with N (> 0, default 8)
+                           hash iterations to generate key
+      -k, --unlock [N]     decrypt DB file with N (> 0, default 8)
+                           hash iterations to generate key
+
+POWER TOYS:
+      -e, --export file    export bookmarks in Firefox format html
+                           export markdown, if file ends with '.md'
+                           format: [title](url), 1 entry per line
+                           use --tag to export only specific tags
+      -i, --import file    import Firefox or Chrome bookmarks html
+                           import markdown, if file ends with '.md'
+      -m, --merge file     add bookmarks from another buku DB file
+      -p, --print [...]    show record details by indices, ranges
+                           print all bookmarks, if no arguments
+                           -n shows the last n results (like tail)
+      -f, --format N       limit fields in -p or Json search output
+                           N=1: URL, N=2: URL and tag, N=3: title
+      -j, --json           Json formatted output for -p and search
+      --nc                 disable color output
+      --np                 do not show the prompt, run and exit
+      -o, --open [...]     browse bookmarks by indices and ranges
+                           open a random bookmark, if no arguments
+      --oa                 browse all search results immediately
+      --replace old new    replace old tag with new tag everywhere
+                           delete old tag, if new tag not specified
+      --shorten index|URL  fetch shortened url from tny.im service
+      --expand index|URL   expand a tny.im shortened url
+      --tacit              reduce verbosity
+      --threads N          max network connections in full refresh
+                           default N=4, min N=1, max N=10
+      -V                   check latest upstream version available
+      -z, --debug          show debug information and verbose logs
+
+SYMBOLS:
+      >                    url
+      +                    comment
+      #                    tags
+
+Version 3.0
+Copyright © 2015-2017 Arun Prakash Jana <engineerarun@gmail.com>
+License: GPLv3
+Webpage: https://github.com/jarun/Buku
+
