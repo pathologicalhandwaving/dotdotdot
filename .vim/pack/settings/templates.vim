@@ -1,3 +1,7 @@
-" Article Notes Template
-autocmd BufNewFile * silent! Or $VIMHOME/templates/%:e.tpl
+"" TEMPLATE LOADERS
 
+if has("autocmd")
+  augroup templates
+    autocmd BufNewFile *.sh 0r /Users/Em/.vim/skeleton.sh
+  augroup END
+endif
