@@ -20,12 +20,13 @@ syntax on
 " COLORS
 autocmd BufEnter * :syntax sync fromstart
 
+syntax enable
 set background=dark
 colorscheme solarized
 set cursorline
-hi cursorline ctermbg=245 ctermfg=49
+hi cursorline ctermbg=240 ctermfg=33
 set cursorcolumn
-hi cursorcolumn ctermbg=245 ctermfg=49
+hi cursorcolumn ctermbg=240 ctermfg=33
 
 
 "" Shell
@@ -68,9 +69,11 @@ source $VIMHOME/pack/settings/startify.vim
 source $VIMHOME/pack/settings/highlights.vim
 source $VIMHOME/pack/settings/clock.vim
 source $VIMHOME/pack/settings/goyo.vim
-"source $VIMHOME/pack/settings/nerdtree.vim
+source $VIMHOME/pack/settings/nerdtree.vim
 source $VIMHOME/pack/settings/searchtasks.vim
 source $VIMHOME/pack/settings/table.vim
+source $VIMHOME/pack/settings/solarized.vim
+
 
 " DICTIONARY
 set dictionary+='/Users/Em/.vim/dictionaries'
@@ -94,7 +97,7 @@ set laststatus=2
 let g:airline_theme="solarized"
 " Airline Stuff
 let g:airline_left_sep = '🚀 '
-let g:airline_left_sep = '🐹 '
+let g:airline_left_alt_sep = '🐹 '
 let g:airline_right_alt_sep = '🐹 '
 let g:airline_right_sep = '⏰ '
 
@@ -108,4 +111,5 @@ au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 source $VIMHOME/pack/settings/vimtex.vim
 " ensure tex is latex not plaintext
 let g:tex_flavor='latex'
+
 
