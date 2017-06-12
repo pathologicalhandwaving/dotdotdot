@@ -5,7 +5,7 @@ export PATH="/usr/local/sbin:$PATH"
 source ~/.bashrc
 source ~/.aliases
 #source ~/.mypaths
-source /Users/Em/.myscripts/apitokens
+source /Users/Em/.apitokens
 source /Users/Em/.exports
 source /Users/Em/'.functions'
 #source ~/.bash_prompt
