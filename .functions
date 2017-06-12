@@ -11,11 +11,25 @@ function moon() {
 }
 
 
-
 # mkdir and cd into it
 function mk() {
     mkdir -p "$@" && cd "$_";
 
+}
+
+
+# Encode
+function encode() {
+	echo -n $@ | perl -pe's/([^-_.~A-Za-z0-9])/sprintf("%%%02X", ord($1))/seg';}
+
+# Google
+function goo() {
+	links http://www.google.com/search?q="`encode $@`";
+}
+
+# Wikipedia
+function wiki() {
+	links https://en.wikipedia.org/w/index.php?search="`encode $@`";
 }
 
 # Bash Completion (why is this here?)
