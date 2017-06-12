@@ -33055,13 +33055,13 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 307 620 392 0 0 1280 800 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>319 86 606 456 0 0 1280 800 </string>
+	<string>319 37 606 456 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>259 124 796 473 0 0 1280 800 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 216 592 584 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>152 55 490 654 0 0 1280 800 </string>
+	<string>0 471 1280 329 0 0 1280 800 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -35678,7 +35678,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.90000000000000002</real>
+			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -39944,7 +39944,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-06-08T21:33:09Z</date>
+	<date>2017-06-10T22:55:40Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>

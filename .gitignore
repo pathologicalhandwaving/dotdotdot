@@ -1,4 +1,8 @@
 
+# links
+.links/links.hst
+.links/socket
+
 # cmus
 .config/cmus/autosave
 .config/cmus/cache

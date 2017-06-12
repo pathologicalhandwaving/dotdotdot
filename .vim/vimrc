@@ -73,7 +73,7 @@ source $VIMHOME/pack/settings/nerdtree.vim
 source $VIMHOME/pack/settings/searchtasks.vim
 source $VIMHOME/pack/settings/table.vim
 source $VIMHOME/pack/settings/solarized.vim
-
+source $VIMHOME/pack/settings/ultisnips.vim
 
 " DICTIONARY
 set dictionary+='/Users/Em/.vim/dictionaries'
