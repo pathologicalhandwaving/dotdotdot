@@ -12,7 +12,7 @@ EOF
 
 texfot --quiet --interactive pdflatex -shell-escape file.tex && \
 convert -density 600 file.pdf -quality 90 -background white -alpha off -resize 50% file.png && \
-tycat $dir/file.png && \
-tycat $dir/file.png && \
+catimg $dir/file.png && \
+catimg $dir/file.png && \
 sleep 0.5
 rm -r $dir
