@@ -65,13 +65,50 @@ snippet usep
 \usepackage[$1]{$0}
 endsnippet
 
-snippet hyper
-\usepackage{url}
-\usepackage{hyperref}
+snippet hyperhead
+%%% ---------------------------------
+%%% HEADER
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\RequirePackage{lastpage}
+
+\setlength{\headheight}{15.2pt}
+\setlength{\headsep}{0.4in}
+\fancyhead{}
+\chead{\scshape{${1:Title}}}
+\rhead{\thepage/\pageref{LastPage}}
+\lhead{\emph{${2:Subject}}}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+
+%%% FOOTNOTES UNDER FOOTRULE
+\makeatletter
+\renewcommand\footnoterule{%
+  \kern23\p@
+  \hrule\@width\linewidth
+  \kern2.6\p@}
+\makeatother 
+%%% ENDHEADER
+
+%%% HYPERREF
+\RequirePackage{hyperref}
 \hypersetup{%
-	
+	hyperfootnotes=false,
+ 	colorlinks=true,
+  linkcolor=blue,
+  anchorcolor=black,
+  citecolor=green,
+  linktocpage=true,
+  filecolor=magenta,
+  urlcolor=cyan,
+  pdftitle={$1},
+  pdfauthor={$0},
 }
+%%% ENDHYPER
+%%% ---------------------------------
 endsnippet
+
 
 snippet hcom
 %%% ---------------------------------
@@ -83,5 +120,4 @@ snippet hcom
 %
 %
 endsnippet
-
 
