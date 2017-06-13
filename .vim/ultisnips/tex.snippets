@@ -1,0 +1,87 @@
+snippet nabbr
+\newabbreviation{$1}{$2}{$0}
+endsnippet
+
+snippet nacro
+\newacronym{$1}{$2}{$0}
+endsnippet
+
+snippet nglo
+\newglossaryentry{$1}{%
+	name = {$2},
+	description = {$3},
+	category = {$0},
+}
+endsnippet
+
+snippet nsymb
+\newglossaryentry{$1}{%
+	name = {$2},
+	symbol = {\ensuremath{$3}},
+	description = {$4},
+	sort = {$0},
+	category = {symbol}
+}
+endsnippet
+
+snippet nunit
+\newglossaryentry{$1}{%
+	name = {$2},
+	symbol = {\ensuremath{$3}},
+	description = {$4},
+	sort = {$0},
+	category = {units}
+}
+endsnippet
+
+snippet beg{in}
+\begin{${1:}}
+$0
+\end{$1}
+endsnippet
+
+snippet item
+	\item $0
+endsnippet
+
+snippet descr
+\begin{description}
+	\item[\textbf{$1}] $2
+	\item[\textbf{$3}] $4
+	\item[\textbf{$5}] $0
+\end{description}
+endsnippet
+
+snippet bib
+%%% ---------------------------------
+%%% BIBLIOGRAPHY
+\bibliographystyle{alpha}
+\bibliography{$0}
+%%% ---------------------------------
+endsnippet
+
+
+snippet usep
+\usepackage[$1]{$0}
+endsnippet
+
+snippet hyper
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{%
+	
+}
+endsnippet
+
+snippet hcom
+%%% ---------------------------------
+%%% File Name: ${1:Name of File}
+%%% Date Created: ${`date +%Y%m%d`}
+%%% Date Modified: ${$2}
+%%% License: WTFPL
+%%% ---------------------------------
+%
+%
+endsnippet
+
+
