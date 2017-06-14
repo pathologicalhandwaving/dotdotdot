@@ -1,57 +1,66 @@
 snippet fhead
-%%% ---------------------------------
+%%% ----------------------------=------------
 %%% File Name: 		$1
-%%% Date Created: 	${`date +%Y-%m%d`}
-%%% Date Modified: 	$2
-%%% Description: 	$3
-%%% Keywords: 		$0
-%%% ---------------------------------
+%%% Date Created: 	${2:`date +%Y-%m-%d`}
+%%% Date Modified: 	$3
+%%% Description: 	$4
+%%% Keywords: 		$5
+%%% -----------------------------------------
+$0
 endsnippet
 
 snippet nsect
 \section*{$1}
-\label{sec:$0}
+\label{sec:$2}
+$0
 endsnippet
 
 snippet nsubsect
 \subsection*{$1}
-\label{subsec:$0}
+\label{subsec:$2}
+$0
 endsnippet
 
 snippet nssubsect
 \subsubsection*{$1}
-\label{subsubsec:$0}
+\label{subsubsec:$2}
+$0
 endsnippet
 
 snippet section
 \section{$1}
-\label{sec:$0}
+\label{sec:$2}
+$0
 endsnippet
 
 snippet ssection
 \subsection{$1}
-\label{subsec:$0}
+\label{subsec:$2}
+$0
 endsnippet
 
 snippet sssection
 \subsubsection{$1}
-\label{subsubsec:$0}
+\label{subsubsec:$2}
 endsnippet
 
 snippet nabbr
-\newabbreviation{$1}{$2}{$0}
+\newabbreviation{$1}{$2}{$3}
+$0
 endsnippet
 
 snippet nacro
-\newacronym{$1}{$2}{$0}
+\newacronym{$1}{$2}{$3}
+$0
 endsnippet
 
 snippet nglo
 \newglossaryentry{$1}{%
 	name = {$2},
 	description = {$3},
-	category = {$0},
+	category = {$4},
 }
+$0
 endsnippet
 
 snippet nsymb
@@ -59,9 +68,10 @@ snippet nsymb
 	name = {$2},
 	symbol = {\ensuremath{$3}},
 	description = {$4},
-	sort = {$0},
+	sort = {$5},
 	category = {symbol}
 }
+$0
 endsnippet
 
 snippet nunit
@@ -69,40 +79,46 @@ snippet nunit
 	name = {$2},
 	symbol = {\ensuremath{$3}},
 	description = {$4},
-	sort = {$0},
+	sort = {$5},
 	category = {units}
 }
+$0
 endsnippet
 
-snippet beg{in}
-\begin{${1:}}
-$0
+snippet env
+\begin{${1:env}}
+$2
 \end{$1}
+$0
 endsnippet
 
 snippet item
-	\item $0
+	\item $1
+$0
 endsnippet
 
 snippet descr
 \begin{description}
 	\item[\textbf{$1}] $2
 	\item[\textbf{$3}] $4
-	\item[\textbf{$5}] $0
+	\item[\textbf{$5}] $6
 \end{description}
+$0
 endsnippet
 
 snippet bib
 %%% ---------------------------------
 %%% BIBLIOGRAPHY
 \bibliographystyle{alpha}
-\bibliography{$0}
+\bibliography{$1}
 %%% ---------------------------------
+$0
 endsnippet
 
 
 snippet usep
-\usepackage[$1]{$0}
+\usepackage[$1]{$2}
+$0
 endsnippet
 
 snippet hyperhead
@@ -143,21 +159,23 @@ snippet hyperhead
   filecolor=magenta,
   urlcolor=cyan,
   pdftitle={$1},
-  pdfauthor={$0},
+  pdfauthor={$2},
 }
 %%% ENDHYPER
 %%% ---------------------------------
+$0
 endsnippet
 
 
 snippet hcom
 %%% ---------------------------------
 %%% File Name: ${1:Name of File}
-%%% Date Created: ${`date +%Y%m%d`}
-%%% Date Modified: ${$2}
+%%% Date Created: ${2:`date +%Y%m%d`}
+%%% Date Modified: ${$3}
 %%% License: WTFPL
 %%% ---------------------------------
 %
-%
+$0
 endsnippet
+
 
