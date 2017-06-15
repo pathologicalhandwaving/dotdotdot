@@ -1,5 +1,5 @@
 #!/bin/bash
-# dt_classify : Output classification proposals for a DT record based on 
+# dt_classify : Output classification proposals for a DT record based on
 #              its database ID.
 # Copyright (c) 2006, Eric Fedel. Released under the BSD License.
 # (http://home.earthlink.net/~efedel/code/devon_think/index.html)
@@ -49,7 +49,7 @@ on record_info(r_id)
 		on error msg
 	    	return "ERROR: Unable to find " & e_id as text & ": " & msg & nl
 		end try
-		
+
 		-- output classification groups
 		set out to ""
 		repeat with g in classify record r

@@ -87,10 +87,10 @@ set nl to "\\\\\\\\n"	-- newline (escaped)
 
 on find_records(s)
     set out to ""
-     
+
     tell application "DEVONthink Pro"
-	search s comparison $SEARCH_CMP $SEARCH_GROUP operator $SEARCH_OP $REP_GROUP within $SEARCH_IN 
-	
+	search s comparison $SEARCH_CMP $SEARCH_GROUP operator $SEARCH_OP $REP_GROUP within $SEARCH_IN
+
 	repeat with r in result
 	    set out to out & $DETAILS & my nl
 	end repeat

@@ -38,7 +38,7 @@ VAR=`osascript <<EOF
 set nl to "\\\\\\\\n"	-- newline (escaped)
 
 on sync_record(r_id)
-     
+
     tell application "DEVONthink Pro"
         set r to get record with r_id
 		-- check that record exists
@@ -47,9 +47,9 @@ on sync_record(r_id)
 		on error msg
 	    	return "ERROR: Unable to find " & r_id as text & ": " & msg & my nl
 		end try
-		
+
 		if path of r is "" then return "ERROR: Record " & r_id as text & " is not linked to any files." & my nl
-		
+
 		-- synchronize record
 		try
 			synchronize record r

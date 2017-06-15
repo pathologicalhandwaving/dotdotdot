@@ -1,6 +1,6 @@
 #!/bin/bash
 # dt_groups.sh : List groups in the current Devonthink Database.
-#                Options allow recursive listing and specifying the top-level 
+#                Options allow recursive listing and specifying the top-level
 #                group for the listing.
 # Copyright (c) 2006, Eric Fedel. Released under the BSD License.
 # (http://home.earthlink.net/~efedel/code/devon_think/index.html)
@@ -38,14 +38,14 @@ on get_groups(rec, recurse)
 		set loc to location of rec
     	set grp_list to every child of rec whose type is group
 	end tell
-	
+
 	repeat with g in grp_list
 		set out to out & loc & name of rec & "/" & name of g & my nl
 		if recurse then
 			set out to out & get_groups(g, recurse)
 		end	if
 	end
-	
+
 	return out
 end
 

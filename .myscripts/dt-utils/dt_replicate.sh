@@ -48,7 +48,7 @@ VAR=`osascript <<EOF
 set nl to "\\\\\\\\n"	-- newline (escaped)
 
 on replicate_record(r_id, grp_path)
-     
+
     tell application "DEVONthink Pro"
         set r to get record with r_id
 		-- check that record exists
@@ -57,7 +57,7 @@ on replicate_record(r_id, grp_path)
 		on error msg
 	    	return "ERROR: Unable to find " & r_id as text & ": " & msg & my nl
 		end try
-		
+
 		-- get new group
 		set g to get record at grp_path in current database
 		try
@@ -65,14 +65,14 @@ on replicate_record(r_id, grp_path)
 		on error msg
 	    	return "ERROR: Unable to find " & grp_path & ": " & msg & my nl
 		end try
-		
+
 		-- move record
 		try
 			$REPLICATE_CMD record r to g
 		on error msg
 	    	return "ERROR: Unable to replicate to " & grp_path & ": " & msg & my nl
 		end try
-		
+
     end tell
 	return ""
 end

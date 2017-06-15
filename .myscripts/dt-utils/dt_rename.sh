@@ -44,7 +44,7 @@ VAR=`osascript <<EOF
 set nl to "\\\\\\\\n"	-- newline (escaped)
 
 on rename_record(r_id, new_name)
-     
+
     tell application "DEVONthink Pro"
         set r to get record with r_id
 		-- check that record exists
@@ -53,7 +53,7 @@ on rename_record(r_id, new_name)
 		on error msg
 	    	return "ERROR: Unable to find " & r_id as text & ": " & msg & my nl
 		end try
-		
+
 		-- rename record
 		try
 			set name of r to new_name

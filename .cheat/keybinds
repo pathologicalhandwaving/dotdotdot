@@ -1,8 +1,8 @@
 # Keybindings
 # Date Created: Sunday, June 4, 2017 4:27:14 PM
-# Date Modified:
+# Date Modified: Thursday, June 15, 2017 01:56 PM
 
-***
+---
 
 ## Keyboard Maestro Groups
 
@@ -13,6 +13,16 @@
 |---------+------------|
 | HeadsUp | ⌃ + ⌥  + ↑ |
 |---------+------------|
+
+### iTerm Windows
+
+|--------------|-----------|
+| Window       | Key Combo |
+|--------------|-----------|
+| Doing Window | ⌘  + D    |
+| Notes Window | ⌥  + N    |
+| Drop Down    | ⌘ + K     |
+|--------------|-----------|
 
 
 ### Palettes
