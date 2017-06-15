@@ -25,7 +25,7 @@ HELP_STR="Usage: $0 -[acdilpstuwxDFILST] record_id
 	   -I		Image attributes
 	   -S		Source of record (markup)
 	   -T		Text data of record"
-	
+
 ALL="1"	# default to all options
 
 while getopts acdilnpstuwxDFILST\? opt
@@ -89,7 +89,7 @@ OUT_STR=""
 
 [ -n "$ALL" ] || [ -n "$OPT_l" ] && OUT_STR="${OUT_STR}
 	set out_str to out_str & \"Location: \" & location of r & nl"
-	
+
 [ -n "$ALL" ] || [ -n "$OPT_d" ] && OUT_STR="${OUT_STR}
 	set out_str to out_str & \"Create Date: \" & creation date of r & nl
 	set out_str to out_str & \"Modify Date: \" & modification date of r & nl"
@@ -119,7 +119,7 @@ OUT_STR=""
 	else
 		set out_str to out_str & \"Image Attributes: None\" & nl
 	end if"
-	
+
 [ -n "$ALL" ] || [ -n "$OPT_u" ] && OUT_STR="${OUT_STR}
 	set out_str to out_str & \"URL: \" & url of r & nl"
 
@@ -136,7 +136,7 @@ OUT_STR=""
 	set out_str to out_str & \"Label: \" & label of r as text & nl"
 
 [ -n "$ALL" ] || [ -n "$OPT_c" ] && OUT_STR="${OUT_STR}
-	-- need to remove emedded returns 
+	-- need to remove emedded returns
 	copy comment of r to the_cmt
 	set AppleScript's text item delimiters to return
 	set cmt_list to text items of the_cmt
@@ -152,7 +152,7 @@ OUT_STR=""
 		set sz to size of r -- doesn't seem to work
 	on error
 		set sz to \"?\"
-	end try 
+	end try
 	set out_str to out_str & \"Size: \" & sz as text & nl
 	set out_str to out_str & \"Word Count: \" & (word count of r) as text & nl"
 
@@ -176,7 +176,7 @@ OUT_STR=""
 	if type of r is sheet then
 		set tbl_str to \"\"
 		if number of children of r > 0 then set tbl_str to nl
-		
+
 		-- handle table header
 		set col_list to columns of r
 		if length of col_list > 0 then set tbl_str to tbl_str & \"# \"
@@ -184,7 +184,7 @@ OUT_STR=""
 			set tbl_str to tbl_str & col as text & tb
 		end repeat
 		set tbl_str to tbl_str & nl
-		
+
 		-- handle rows of data
 		repeat with row in children of r
 			set cell_list to cells of row
@@ -198,7 +198,7 @@ OUT_STR=""
 		set out_str to out_str & \"Table Data: None\" & nl
 	end if"
 
- 
+
 # Applescript for record info
 VAR=`osascript <<EOF
 
@@ -215,7 +215,7 @@ on record_info(r_id)
 		on error msg
 			return "ERROR: Unable to find " & r_id as text & ": " & msg & nl
 		end try
-		
+
 		-- output record info
 		set out_str to ""
 		$OUT_STR

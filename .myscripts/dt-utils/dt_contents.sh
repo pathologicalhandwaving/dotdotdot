@@ -37,7 +37,7 @@ set nl to "\\\\\\\\n"	-- newline (escaped)
 
 on do_group(g, recurse_group)
     set out to ""
-    
+
     tell application "DEVONthink Pro"
         set g_children to children of g
     end tell
@@ -47,7 +47,7 @@ on do_group(g, recurse_group)
         tell application "DEVONthink Pro"
             if type of c is group then
                 set recurse to recurse_group
-             else 
+             else
                 set recurse to false
                 set out to out & location of c & name of c & $DETAIL my nl
              end if

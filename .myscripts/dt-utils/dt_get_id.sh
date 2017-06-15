@@ -37,7 +37,7 @@ VAR=`osascript <<EOF
 set nl to "\\\\\\\\n"	-- newline (escaped)
 
 on get_record(path_str)
-     
+
     tell application "DEVONthink Pro"
         set r to get record at path_str
 		-- check that record exists
@@ -46,7 +46,7 @@ on get_record(path_str)
 		on error msg
 	    	return "ERROR: Unable to find " & path_str & ": " & msg & my nl
 		end try
-		
+
 		return id of r as text & my nl
     end tell
 end

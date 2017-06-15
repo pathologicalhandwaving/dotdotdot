@@ -45,7 +45,7 @@ VAR=`osascript <<EOF
 set nl to "\\\\\\\\n"	-- newline (escaped)
 
 on export_record(r_id, out_path)
-     
+
     tell application "DEVONthink Pro"
         set r to get record with r_id
 		-- check that record exists
@@ -54,7 +54,7 @@ on export_record(r_id, out_path)
 		on error msg
 	    	return "ERROR: Unable to find " & r_id as text & ": " & msg & my nl
 		end try
-		
+
 		-- export record
 		try
 	    	export record r to out_path

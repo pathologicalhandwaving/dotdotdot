@@ -15,4 +15,4 @@ convert -density 600 file.pdf -quality 90 -background white -alpha off -resize 5
 catimg $dir/file.png && \
 catimg $dir/file.png && \
 sleep 0.5
-rm -r $dir
+#rm -r $dir

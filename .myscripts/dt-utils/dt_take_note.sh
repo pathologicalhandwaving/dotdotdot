@@ -49,9 +49,9 @@ on take_note()
 		on error msg
 	    	return "ERROR: Unable to find " & location of g & name of g & ": " & msg & nl
 		end try
-		
+
 		-- take note
-		set r to paste clipboard to g 
+		set r to paste clipboard to g
 		set out to location of r & name of r & "|" & (id of r) as text & my  nl
     end tell
 

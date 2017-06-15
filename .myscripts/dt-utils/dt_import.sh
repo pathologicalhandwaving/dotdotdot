@@ -21,7 +21,7 @@ HELP_STR="Usage: $0 -[A|C|F|I|L|M|P|Q|R|S|T|X] [-g group] [path]
 	  -X		Sheet
 	Import Location options:
 	  -g path	Group to import into"
-	
+
 IMPORT_TYPE="all"
 DEST_PATH="(get root of current database)"
 
@@ -70,7 +70,7 @@ VAR=`osascript <<EOF
 
 on import_file(in_path)
 	set nl to "\\\\\\\\n"	-- newline (escaped)
-     
+
     tell application "DEVONthink Pro"
         set g to $DEST_PATH
 
@@ -80,7 +80,7 @@ on import_file(in_path)
 		on error msg
 	    	return "ERROR: Unable to find " & location of g & name of g & ": " & msg & nl
 		end try
-		
+
 		try
 	     	set r to import in_path to g type $IMPORT_TYPE
 		on error msg
