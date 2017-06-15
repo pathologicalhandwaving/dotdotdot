@@ -28,7 +28,7 @@ alias cl="clear"
 alias ".."="cd .."
 alias "..."="cd../.."
 alias "...."="cd../../.."
-alias up="/"
+alias up="cd /"
 alias lbin="/usr/local/bin"
 
 # Source
