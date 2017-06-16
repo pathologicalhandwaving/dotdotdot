@@ -47,6 +47,7 @@ endsnippet
 snippet sssection
 \subsubsection{$1}
 \label{subsubsec:$2}
+$0
 endsnippet
 
 snippet nabbr
@@ -86,6 +87,20 @@ snippet nunit
 	description = {$4},
 	sort = {$5},
 	category = {units}
+}
+$0
+endsnippet
+
+snippet formula
+\newglossaryentry{${1:identifier}}{%
+	name={${2:name}},
+	description={${3:description}},
+	form={\ensuremath{${4:commonform}}},
+	preciseform={\ensuremath{${5:preciseform}}},
+	applicationform={\ensuremath{${6:appform}}},
+	symbol={\ensuremath{${7:symbol}}},
+	category={relations},
+	type={relation}
 }
 $0
 endsnippet
@@ -182,5 +197,4 @@ snippet hcom
 %
 $0
 endsnippet
-
 
