@@ -2,10 +2,15 @@ snippet fhead
 %%% ----------------------------=------------
 %%% File Name: 		$1
 %%% Date Created: 	${2:`date +%Y-%m-%d`}
-%%% Date Modified: 	$3
+%%% Date Modified: 	${3:modified}
 %%% Description: 	$4
 %%% Keywords: 		$5
 %%% -----------------------------------------
+$0
+endsnippet
+
+snippet tdate
+${1:`date +%Y-%m-%d`}
 $0
 endsnippet
 
