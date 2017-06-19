@@ -14,4 +14,44 @@ License: WTF.PL
 $0
 endsnippet
 
+snippet def
+def ${1:name}():
+    $0
+endsnippet
+
+snippet pdef
+def ${1:name}(${2:parameter}):
+    $0
+endsnippet
+
+snippet print
+print("${1:printme}")
+$0
+endsnippet
+
+snippet input
+${1:variable} = input("${2:question}")
+$0
+endsnippet
+
+snippet len
+len(${1:thing})
+$0
+endsnippet
+
+snippet str
+str(${1:number})
+$0
+endsnippet
+
+snippet int
+int('${1:float}')
+$0
+endsnippet
+
+snippet float
+float('${2:integer}')
+$0
+endsnippet
+
 # vim:ft=snippets:
