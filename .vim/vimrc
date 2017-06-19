@@ -48,12 +48,12 @@ let g:jekyll_path="/Users/Em/Repos/Page/pathologicalhandwaving.github.io"
 
 " VIMHOME
 if !$VIMHOME
-    let $VIMHOME=$HOME."/.vim"
+  let $VIMHOME=$HOME."/.vim"
 endif
 
 if has('termguicolors')
-	set termguicolors
-	colorscheme solarized
+  set termguicolors
+  colorscheme solarized
 endif
 
 
@@ -84,7 +84,7 @@ set wildmode=list:longest,full
 
 " MOUSE
 if has('mouse')
-    set mouse=a
+  set mouse=a
 endif
 
 " SEARCH
