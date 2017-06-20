@@ -112,3 +112,12 @@ alias gp="git pull"
 alias gu="git push"
 alias ga="git add ."
 alias gc="git commit -m "
+
+# youtube-dl
+
+#alias dlmp4="youtube-dl -o '/Users/Em/Movies/Downloads/%(title)s.%(ext)s' -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'$1"
+
+
+alias dla='youtube-dl -x -f bestaudio --audio-format=mp3 -i --output "/Users/Em/Music/Downloads/%(title)s.%(ext)s"'
+
+alias dlv='youtube-dl -f bestvideo+bestaudio[ext=mp4] -i --output "/Users/Em/Movies/Downloads/%(title)s.%(ext)s"'
