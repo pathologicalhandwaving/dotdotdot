@@ -1,6 +1,6 @@
 # General Utility Aliases
 
-alias note="cd ~/Notes && vim"
+#alias note="cd ~/Notes && vim"
 alias clock="tty-clock -c -b -B -n  -C 5 -t"
 alias cheats="mdless -w 103 /Users/Em/.myscripts/outfiles/ttcheat.md"
 alias goout="cd $HOME/.myscripts/outfiles"
