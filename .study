@@ -5,6 +5,6 @@
 # Add to Lists
 alias idea="bash /Users/Em/.myscripts/input-utils/idea.sh"
 alias que="bash /Users/Em/.myscripts/input-utils/question.sh"
-alias note="bash /Users/Em/.myscripts/input-utils/note.sh"
+#alias note="bash /Users/Em/.myscripts/input-utils/note.sh"
 alias trick="bash /Users/Em/.myscripts/input-utils/trick.sh"
 alias quote="bash /Users/Em/.myscripts/input-utils/quote.sh"
