@@ -1,6 +1,6 @@
 # Aliases
 
-alias note="bash /Users/Em/.myscripts/input-utils/note.sh"
+alias note="bash /Users/Em/.myscripts/note.sh"
 
 # List declared aliases, functions
 alias listaliases="alias | sed 's/=.*//'"
