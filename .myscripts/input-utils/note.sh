@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE = $HOME/Repos/Notes/outfiles/notes.yml
+FILE=/Users/Em/Repos/Notes/outfiles/notes.yml
 
 read -p 'Note: ' note
 
