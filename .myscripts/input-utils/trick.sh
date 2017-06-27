@@ -1,11 +1,12 @@
 #!/bin/bash
 
-FILE="$HOME/.myscripts/outfiles/tricks.yml"
+FILE="/Users/Em/Repos/Notes/outfiles/tricks.yml"
 
 read -p 'Trick: ' trick
 
-echo "  - $trick" >> $FILE
+echo "trick: >" >> $FILE
+echo "  $trick" >> $FILE
 
-cat $FILE | tail -3
+cat $FILE | tail -5
 
 exit 0

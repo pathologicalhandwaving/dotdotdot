@@ -10,7 +10,7 @@ source /Users/Em/.exports
 source /Users/Em/'.functions'
 #source ~/.bash_prompt
 source /Users/Em/.myscripts/osx
-source /Users/Em/.myscripts/study
+#source /Users/Em/.study
 source /Users/Em/.myscripts/utils
 source /Users/Em/.myscripts/texutils
 source /Users/Em/.myscripts/mathutils

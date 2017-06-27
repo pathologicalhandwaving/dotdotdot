@@ -1,6 +1,6 @@
 # Aliases
 
-alias vtex="bash /Users/Em/.myscripts/tex2im.sh"
+alias note="bash /Users/Em/.myscripts/input-utils/note.sh"
 
 # List declared aliases, functions
 alias listaliases="alias | sed 's/=.*//'"

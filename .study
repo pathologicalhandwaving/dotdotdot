@@ -1,15 +1,10 @@
 # Study Aliases
 
 
-# Go To Directory
-alias mit="cd /Users/Em/School/Classes/MIT6001x"
-alias lou="cd $HOME/School/Classes/LouvainIntLaw"
-alias cry="cd $HOME/School/Classes/StanCrypto1"
 
 # Add to Lists
-alias idea="bash /Users/Em/.myscripts/idea,sh"
-alias que="bash /Users/Em/.myscripts/question.sh"
-alias note="bash /Users/Em/.myscripts/note.sh"
-alias gloss="bash /Users/Em/.myscripts/getglossentry.sh"
-alias trick="bash /Users/Em/.myscripts/trick.sh"
-alias quote="bash /Users/Em/.myscripts/quote.sh"
+alias idea="bash /Users/Em/.myscripts/input-utils/idea.sh"
+alias que="bash /Users/Em/.myscripts/input-utils/question.sh"
+alias note="bash /Users/Em/.myscripts/input-utils/note.sh"
+alias trick="bash /Users/Em/.myscripts/input-utils/trick.sh"
+alias quote="bash /Users/Em/.myscripts/input-utils/quote.sh"

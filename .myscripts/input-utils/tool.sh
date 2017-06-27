@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=$HOME/.myscripts/outfiles/tools.yml
+FILE=/Users/Em/Repos/Notes/outfiles/tools.yml
 
 echo " "
 read -p 'Tool Name: ' tool
@@ -13,6 +13,7 @@ echo "    description: >" >> $FILE
 echo "      '$desc'" >> $FILE
 echo "    example: |" >> $FILE
 echo "      $uses" >> $FILE
+echo " "
 
 cat $FILE | tail -5
 
