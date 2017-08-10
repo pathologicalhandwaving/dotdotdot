@@ -13,7 +13,7 @@ alias _="sudo"
 alias cat=ccat
 
 # Make Tree Pretty
-alias tree="tree -CAFa -I 'CVS|*.*.package|.svn|.git' --dirsfirst"
+#alias tree="tree -CAFa -I 'CVS|*.*.package|.svn|.git' --dirsfirst"
 
 # Lock
 #alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
