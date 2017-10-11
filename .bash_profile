@@ -34,4 +34,8 @@ export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 
-eval "$(rbenv init -)"
+# Ruby
+if which ruby >/dev/null && which gem >/dev/null; then
+    PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+fi
+
