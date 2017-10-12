@@ -74,7 +74,8 @@ source $VIMHOME/pack/settings/searchtasks.vim
 source $VIMHOME/pack/settings/table.vim
 source $VIMHOME/pack/settings/solarized.vim
 source $VIMHOME/pack/settings/ultisnips.vim
-"source $VIMHOME/pack/plugins/start/gruvbox
+source $VIMHOME/pack/plugins/start/StripWhiteSpaces/plugin/StripWhiteSpaces.vim
+"source $VIMHOME/pack/plugins/start/dash.vim
 "source $VIMHOME/pack/plugins/start/vim-airline-gruvbox-git
 
 " DICTIONARY
