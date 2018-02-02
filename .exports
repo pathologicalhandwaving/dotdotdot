@@ -16,10 +16,6 @@ export LC_ALL='en_US.UTF-8';
 # Node NPM Path
 export PATH="/usr/local/share/npm/bin:$PATH"
 
-# FIX ME!!!
-# Temp Dir
-#export TMPDIR="/Users/Em/.config/tmp:$PATH"
-
 # gnu path
 MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
@@ -45,7 +41,7 @@ export GOPATH="/usr/local/opt/go/libexec/bin:$PATH"
 export LESS_TERMCAP_md="${yellow}";
 export MANPAGER='less -X';
 
-export GREP_OPTIONS='--color=auto';
+#export GREP_OPTIONS='--color=auto';
 
 # XML
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
@@ -54,4 +50,5 @@ export XML_CATALOG_FILES=/usr/local/etc/xml/catalog
 
 # Cheat
 export CHEATCOLORS=true
+export DEFAULT_CHEAT_DIR="/Users/Em/.cheat"
 export CHEATPATH="$CHEATPATH:/Users/Em/.cheat"
