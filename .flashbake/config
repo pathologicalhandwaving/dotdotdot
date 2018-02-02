@@ -1,0 +1,18 @@
+# Flashbake Config
+
+
+# PLUGINS
+
+# WEATHER
+flashbake.plugins.weather:Weather
+weather_city: Gainesville, FL
+weather_appid: 2fdfb4efdc712a5500de918cd94f34e6
+
+# TIMEZONE
+flashbake.plugins.timezone:TimeZone
+
+
+# HOT FILES
+/Users/Em/Repos/ScratchPad/Scratchpad.md
+/Users/Em/Dropbox/Doing/what_was_i_doing.md
+/Users/Em/Repos/FlightRules/main.md
