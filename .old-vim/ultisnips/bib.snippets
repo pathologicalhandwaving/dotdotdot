@@ -1,0 +1,174 @@
+priority -50
+
+snippet article
+@article{${1:citekey},
+	author={${2:author}},
+	title={${3:title}},
+	journaltitle={${4:journal}},
+	volume={${5:NN}},
+	number={${6:NN}},
+	year={${7:YYYY}},
+	pages={${8:NN}--${9:NN}},
+	note={${10:note}}
+}
+$0
+endsnippet
+
+snippet book
+@book{${1:citekey},
+	author={${2:author}},
+	title={${3:title}},
+	subtitle={${4:subtitle}},
+	year={${5:YYYY}},
+	volume={${6:vol}},
+	edition={${7:edition}},
+	address={${8:somewhere}},
+	publisher={${9:publisher}},
+	editor={${10:editor}},
+	pages={${10:NN}--${11:NN}},
+	note={${12:note}}
+}
+$0
+endsnippet
+
+snippet inbook
+@inbook{${1:name},
+	author={${2:author}},
+	title={${3:title}},
+	subtitle={${4:subtitle}},
+	booktitle={${5:book}},
+	editor={${6:editor}},
+	year={${7:YYYY}},
+	edition={${8:edition}},
+	chapter={${9:chapter}},
+	address={${10:somewhere}},
+	publisher={${11:publisher}},
+	pages={${12:NN}--${13:NN}},
+	note={${14:note}}
+}
+$0
+endsnippet
+
+snippet booklet
+@booklet{${1:citekey},
+	author={${2:author}},
+	title={${3:title}},
+	year={${4:YYYY}},
+	note={${5:note}}
+}
+$0
+endsnippet
+
+snippet manual
+@manual{${1:citekey},
+	title={${2:title}},
+	author={${3:author}},
+	organization={${4:org}},
+	address={${5:address}},
+	edition={${6:edition}},
+	year={${7:YYYY}},
+	note={${8:note}}
+}
+$0
+endsnippet
+
+snippet misc
+@misc{${1:citekey},
+	author = {${2:author}},
+	title = {${3:title}},
+	howpublished = {${4:pub}},
+	year = {${5:YYYY}},
+	note = {${6:note}},
+	url = {\url{$7:url}},
+}
+$0
+endsnippet
+
+snippet phd
+@phdthesis{${1:citekey},
+	author = {${2:author}},
+	title = {${3:title}},
+	school = {${4:school}},
+	address = {${5:address}},
+	type = {${6:type}},
+	year = {${7:YYYY}},
+	month = {${8:MM}},
+	note = {${9:note}},
+	url = {\url{${10:url}}},
+}
+$0
+endsnippet
+
+snippet unpub
+@unpublished{${1:citekey},
+	author = {${2:author}},
+	title = {${3:title}},
+	year = {${4:YYYY}},
+	month = {${5:MM}},
+	note = {${6:note}},
+	url = {\url{${7:url}}},
+}
+$0
+endsnippet
+
+snippet inproc
+@inproceedings{${1:citekey},
+	author = {${2:author}},
+	editor = {${3:editor}},
+	title = {${4:title}},
+	booktitle = {${5:booktitle}},
+	pages = {${6:page} -- ${7:page}},
+	edition = {${8:edition}},
+	publisher = {${9:publisher}},
+	address = {${10:address}},
+	organization = {${11:organization}},
+	volume = {${12:volume}},
+	number = {${13:number}},
+	year = {${14:YYYY}},
+	month = {${15:MM}},
+	note = {${16:note}},
+	url = {\url{${17:url}}},
+}
+$0
+endsnippet
+
+snippet proc
+@proceedings{${1:citekey},
+	author = {${2:author}},
+	editor = {${3:editor}},
+	title = {${4:title}},
+	booktitle = {${5:booktitle}},
+	pages = {${6:page} -- ${7:page}},
+	edition = {${8:edition}},
+	publisher = {${9:publisher}},
+	address = {${10:address}},
+	organization = {${11:organization}},
+	volume = {${12:volume}},
+	number = {${13:number}},
+	year = {${14:YYYY}},
+	month = {${15:MM}},
+	note = {${16:note}},
+	url = {\url{${17:url}}},
+}
+$0
+endsnippet
+
+snippet techr
+@techreport{${1:citekey},
+	author = {${2:author}},
+	editor = {${3:editor}},
+	title = {${4:title}},
+	pages = {${5:page} -- ${6:page}},
+	edition = {${7:edition}},
+	institution = {${8:inst}},
+	type = {${9:type}},
+	number = {${10:number}},
+	year = {${11:YYYY}},
+	month = {${12:M}},
+	note = {${13:note}},
+	url = {\url{${14:url}}},
+}
+$0
+endsnippet
+
+# vim:ft=snippets:
