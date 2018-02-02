@@ -1,9 +1,10 @@
 # Aliases
 
-alias note="bash /Users/Em/.myscripts/note.sh"
+#alias note="bash /Users/Em/.myscripts/note.sh"
 
 # List declared aliases, functions
 alias listaliases="alias | sed 's/=.*//'"
+
 # Show non-prefixed functions
 alias listfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'"
 
@@ -11,9 +12,6 @@ alias _="sudo"
 
 # cat is color cat (ccat)
 alias cat=ccat
-
-# Make Tree Pretty
-#alias tree="tree -CAFa -I 'CVS|*.*.package|.svn|.git' --dirsfirst"
 
 # Lock
 #alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
@@ -56,35 +54,10 @@ alias 'l:'="ls ${colorflag}"
 alias ks="ls ${colorflag}"
 
 
-# Colorize Greps
-# grep simple patterns and regex
-#alias grep='grep --color=auto'
-# Fast grep without regex
-#alias fgrep='fgrep --color=auto'
-# Grep with regex
-#alias egrep='egre --color=auto'
-# Grep for pdfs
-#alias pdfgrep='pdfgrep --color=auto'
-# Grep for binary files
-#alias bgrep='bgrep --color=auto'
-# Context-aware grep for source code
-#alias cgrep='cgrep --color=auto'
-# mailbox grep with regex
-#alias mboxgrep='mboxgrep --color=auto'
-# Network grep
-#alias ngrep='ngrep --color=auto'
-# Process ID Grep
-#alias pgrep='pgrep --color=auto'
-# Grep for HTML SGML and XML
-#alias sgrep='sgrep --color=auto'
-
-
 # IP Stuff
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -0 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.)\{3\}[0-9]\+\)\[1-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr)? ?/, \"\"; print}'"
-
-
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
 alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
@@ -97,16 +70,8 @@ alias busywrite='rnd_file=$(find /usr/include -type f -size +5k | sort -R | head
 
 
 
-# TODO: Fix me
-#alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
 
-# Graveyard
-
-#alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
-
-#alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
-
-#alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"
+# GIT
 
 alias gp="git pull"
 alias gu="git push"
@@ -116,8 +81,16 @@ alias gc="git commit -m "
 # youtube-dl
 
 #alias dlmp4="youtube-dl -o '/Users/Em/Movies/Downloads/%(title)s.%(ext)s' -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'$1"
-
-
+# Download Audio
 alias dla='youtube-dl -x -f bestaudio --audio-format=mp3 -i --output "/Users/Em/Music/Downloads/%(title)s.%(ext)s"'
-
+# Download Video
 alias dlv='youtube-dl -f bestvideo+bestaudio[ext=mp4] -i --output "/Users/Em/Movies/Downloads/%(title)s.%(ext)s"'
+
+# TODO: Fix me
+#alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
+
+# Graveyard
+#alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
+#alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
+#alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"
+  
