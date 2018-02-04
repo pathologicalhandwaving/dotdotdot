@@ -34383,7 +34383,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string></string>
+			<string>motd</string>
 			<key>Cursor Boost</key>
 			<real>0.069224683544303806</real>
 			<key>Cursor Color</key>
@@ -34426,7 +34426,7 @@
 				<real>0.17621420323848724</real>
 			</dict>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Yes</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
@@ -35925,7 +35925,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string></string>
+			<string>motd</string>
 			<key>Cursor Boost</key>
 			<real>0.19533227848101267</real>
 			<key>Cursor Color</key>
