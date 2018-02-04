@@ -19,7 +19,13 @@
 
 
 ## Graphic
-FILE=/Users/Em/.myscripts/ASCIIart/
+FILE=/Users/Em/.myscripts/ASCIIart/ship.txt
+
+fortune | cowsay -f dragon-and-cow | lolcat
+
+figlet -f rounded Emi! | lolcat
+
+screenfetch | lolcat
 
 
 
