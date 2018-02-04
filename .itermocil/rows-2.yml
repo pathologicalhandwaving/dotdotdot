@@ -1,7 +1,0 @@
-windows:
-  - name: rows-2
-    root: ~
-    layout: even-vertical
-    panes:
-      - echo "pane 1"
-      - echo "pane 2"

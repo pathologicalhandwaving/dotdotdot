@@ -3,7 +3,7 @@
 export TTC_BOTS='tinycarebot,selfcare_bot,magicrealismbot'
 
 # Use this to have a different animal say a message in the big box.
-export TTC_SAY_BOX='cat'
+export TTC_SAY_BOX='parrot'
 
 # List of folders to look into for `git` commits, comma separated.
 export TTC_REPOS='/Users/Em/Repos,/Users/Em'
