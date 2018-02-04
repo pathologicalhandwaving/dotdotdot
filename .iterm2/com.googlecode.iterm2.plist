@@ -35543,7 +35543,7 @@
 				<real>0.87367779016494751</real>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>0.86807753164556967</real>
+			<real>0.080028678797468361</real>
 			<key>Mouse Reporting</key>
 			<false/>
 			<key>Name</key>
@@ -35968,7 +35968,7 @@
 				<real>0.17621420323848724</real>
 			</dict>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Yes</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
@@ -37117,7 +37117,7 @@
 				<real>0.87367779016494751</real>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>1</real>
+			<real>0.075776305379746833</real>
 			<key>Mouse Reporting</key>
 			<false/>
 			<key>Name</key>
@@ -37906,7 +37906,7 @@
 				<real>0.87367779016494751</real>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>1</real>
+			<real>0.10472705696202532</real>
 			<key>Mouse Reporting</key>
 			<false/>
 			<key>Name</key>
@@ -39441,7 +39441,7 @@
 				<real>0.50588244199999999</real>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>0.86807753164556967</real>
+			<real>0.13773239715189872</real>
 			<key>Mouse Reporting</key>
 			<false/>
 			<key>Name</key>
