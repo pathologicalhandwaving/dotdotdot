@@ -12,11 +12,7 @@ function moon() {
 
 
 # mkdir and cd into it
-function mk() {
-    mkdir -p "$@" && cd "$_";
-
-}
-
+mkcd() { mkdir -p $1; cd $1 }
 
 # Encode
 function encode() {
@@ -63,3 +59,10 @@ codi() {
     hi NonText ctermfg=0 |\
     Codi $syntax" "$@"
 }
+
+# Count number of files in directory 
+numfiles() { 
+    N="$(ls $1 | wc -l)"; 
+    echo "$N files in $1";
+}
+
