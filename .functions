@@ -12,7 +12,8 @@ function moon() {
 
 
 # mkdir and cd into it
-function mkcd() { mkdir -p $1; cd $1 }
+function mkcd() { 
+    mkdir -p $1 && cd $1; }
 
 # Encode
 function encode() {
