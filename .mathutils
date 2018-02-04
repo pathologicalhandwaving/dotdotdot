@@ -1,6 +1,6 @@
 # Math Utility Aliases
 
-alias truthtable="python3 /Users/Em/.myscripts/truthtable.py"
+alias truthtable="python3 /Users/Em/.myscripts/math-utils/truthtable.py"
 
 alias randomnumber="py 'random.random()'"
 
