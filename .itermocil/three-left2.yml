@@ -1,8 +1,0 @@
-windows:
-  - name: three-left2
-    root: ~
-    layout: main-vertical-flipped
-    panes:
-      - echo "pane 1"
-      - echo "pane 2"
-      - echo "pane 3"

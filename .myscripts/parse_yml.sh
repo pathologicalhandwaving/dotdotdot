@@ -1,5 +1,5 @@
 
-#!/usr/bin/env bash
+#!/bin/bash
 #
 # vim: set ft=sh:
 #
