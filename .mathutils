@@ -3,3 +3,5 @@
 alias truthtable="python3 /Users/Em/.myscripts/truthtable.py"
 
 alias randomnumber="py 'random.random()'"
+
+alias pi="curl --silent http://www.angio.net/pi/digits/pi1000000.txt | cut -c1-3000"
