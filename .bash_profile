@@ -39,6 +39,8 @@ if which ruby >/dev/null && which gem >/dev/null; then
     PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
 
-source "/Users/Em/.vim/pack/plugins/start/gruvbox/gruvbox_256palette.sh"
+#source "/Users/Em/.vim/pack/plugins/start/gruvbox/gruvbox_256palette.sh"
 
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
+source "/Users/Em/.tinycarebot"
