@@ -1,21 +1,30 @@
 # OSX Aliases
 
+# Show Hidden Files
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
+# Hide Hidden Files
+alias noshow="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Lock Screen
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
+# iCloud
 alias icloud="cd '/Users/Em/Library/Mobile Documents/com~apple~CloudDocs'"
 
+# Open GUI Programs
 alias osafari='open -a Safari'
-alias ochrome='open -a Chrome'
 alias ofind='open -a Finder'
 alias otex='open -a TeXShop'
 
+# Cleanup DS_Store Files
 alias dsclean='find . -type f -name .DS_Store -delete'
 
 alias ql='qlmanage -p 2>/dev/null'
 
+# Mute Volume
 alias mute="osascript -e 'set volume output muted true'"
+
+# Unmute Volume
 alias unmute="osascript -e 'set volume output muted false'"
 

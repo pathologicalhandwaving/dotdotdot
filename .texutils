@@ -1,11 +1,15 @@
 # LaTeX and BibTeX Utility Aliases
 
-alias tclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz *.synctex.gz(busy) *.tex.bak *.sty.bak"
+# Cleanup Auxiliary Files
+alias texclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz *.synctex.gz(busy) *.tex.bak *.sty.bak"
 
-alias biblib="cd /Library/TeX/Local/bibtex/bib/local"
+#alias biblib="cd /Library/TeX/Local/bibtex/bib/local"
 
-# Central Bibliography File
+# Central Bib Path
+
+# Edit Central Bibliography File
 alias bibfile="vim /Users/Em/Repos/bibTexDB/central-bibliography.bib"
-# Where is bibfile
+
+# Where is my Bib
 alias 'whereismybib'="echo 'The Central Bibliography is in Repos/bibTexDB'"
 

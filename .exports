@@ -5,6 +5,9 @@ export TERM=xterm-256color
 # sbin PATH
 export PATH="/usr/local/sbin:$PATH"
 
+# bin PATH
+export PATH="/usr/local/bin:$PATH"
+
 # Editor
 export EDITOR='vim';
 
@@ -52,3 +55,5 @@ export XML_CATALOG_FILES=/usr/local/etc/xml/catalog
 export CHEATCOLORS=true
 export DEFAULT_CHEAT_DIR="/Users/Em/.cheat"
 export CHEATPATH="$CHEATPATH:/Users/Em/.cheat"
+
+
