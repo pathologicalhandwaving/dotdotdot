@@ -11,10 +11,10 @@ source /Users/Em/'.functions'
 
 #source ~/.bash_prompt
 
-source /Users/Em/.myscripts/osx
-source /Users/Em/.myscripts/utils
-source /Users/Em/.myscripts/texutils
-source /Users/Em/.myscripts/mathutils
+source /Users/Em/.osx
+source /Users/Em/.utils
+source /Users/Em/.texutils
+source /Users/Em/.mathutils
 
 
 
