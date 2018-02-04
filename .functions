@@ -3,7 +3,7 @@
 
 # Weather
 function weather() {
-	curl wttr.in/Oakland | lolcat -a -d 3 -s 17.0
+	curl wttr.in/Lake\ City,\ FL | lolcat -a -d 3 -s 17.0
 }
 
 function moon() {
