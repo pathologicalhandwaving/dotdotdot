@@ -1,5 +1,17 @@
 # Aliases
 
+# Edit Karabiner private.xml
+alias karabin="vim '/Users/Em/Library/Application Support/Karabiner/private.xml'"
+
+# Edit .bash_profile
+alias ebp="vim /Users/Em/.bash_profile"
+# Edit .bashrc
+alias ebrc="vim /Users/Em/.bashrc"
+# Edit Hammerspoon init.lua
+alias eham="vim /Users/Em/.hammerspoon/init.lua"
+# Edit vimrc
+alias evim="vim /Users/Em/.vim/vimrc"
+
 #alias note="bash /Users/Em/.myscripts/note.sh"
 
 # Pull All Project Repos
