@@ -1,4 +1,0 @@
-TODO: Uninstall buku
-TODO: Uninstall mplayer
-TODO: Move Tools directory to .myscripts
-TODO: Fix .vim directory

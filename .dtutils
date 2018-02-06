@@ -1,5 +1,0 @@
-alias dnote="cd /Users/Em/.myscripts/dt-utils/ && bash dt_take_note.sh"
-alias dsearch="cd /Users/Em/.myscripts/dt-utils/ && bash dt_search.sh"
-alias dcontent="cd /Users/Em/.myscripts/dt-utils/ && bash dt_contents.sh"
-alias dimport="cd /Users/Em/.myscripts/dt-utils/ && bash dt_import.sh"
-alias dinfo="cd /Users/Em/.myscripts/dt-utils/ && bash dt_record_info.sh"

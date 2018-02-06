@@ -17,7 +17,10 @@ alias clock="tty-clock -c -b -B -n  -C 5 -t"
 #alias shop="bash $HOME/.myscripts/shop.sh"
 
 # Timestamp
-alias timestamp="bash /Users/Em/.myscripts/timestamp.sh"
+#alias timestamp="bash /Users/Em/.myscripts/timestamp.sh"
+
+# Create timestamps in ISO 8601 format
+alias timestamp='date "+%Y%m%dT%H%M%S" > pbcopy'
 
 # alias times="bash /Users/Em/.myscripts/ourtimes.sh"
 
@@ -28,12 +31,4 @@ alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date
 
 #alias hrl="echo '*********************************************************************************************************' | lolcat"
 
-# Search Command Line Fu
-alias fu="python /Users/Em/Toolz/fu/fu"
-
-# Enable and Disable Safari
-## Disable
-alias fsafari="sudo chmod ogu-rx /Applications/Safari.app"
-## Enable
-alias tsafari="sudo chmod ogu+rx /Applications/Safari.app"
 

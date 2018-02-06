@@ -1,0 +1,15 @@
+# Web Search Utils
+
+# Search Command Line Fu
+alias fu="python /Users/Em/Toolz/fu/fu"
+
+
+# Google
+function goo() {
+	links http://www.google.com/search?q="`encode $@`";
+}
+
+# Wikipedia
+function wiki() {
+	links https://en.wikipedia.org/w/index.php?search="`encode $@`";
+}

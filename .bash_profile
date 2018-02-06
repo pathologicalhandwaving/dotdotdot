@@ -5,7 +5,6 @@
 source /Users/Em/.bashrc
 source /Users/Em/.aliases
 source /Users/Em/.apitokens
-source /Users/Em/.apitokens
 source /Users/Em/.exports
 source /Users/Em/'.functions'
 
@@ -15,6 +14,11 @@ source /Users/Em/.osx
 source /Users/Em/.utils
 source /Users/Em/.texutils
 source /Users/Em/.mathutils
+source /Users/Em/.searched
+source /Users/Em/.editor
+source /Users/Em/.edits
+#source /Users/Em/.apps
+
 
 
 

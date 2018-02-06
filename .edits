@@ -1,0 +1,3 @@
+# Open the last file you edited in Vim.
+alias lvim="vim -c \"normal '0\""
+

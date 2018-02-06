@@ -1,5 +1,8 @@
 # LaTeX and BibTeX Utility Aliases
 
+# TeXInfo Path
+export PATH="/usr/local/opt/texinfo/bin:$PATH"
+
 # Cleanup Auxiliary Files
 alias texclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz *.synctex.gz(busy) *.tex.bak *.sty.bak"
 

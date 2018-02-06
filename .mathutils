@@ -4,4 +4,9 @@ alias truthtable="python3 /Users/Em/.myscripts/math-utils/truthtable.py"
 
 alias randomnumber="py 'random.random()'"
 
+# Gimme pi
 alias pi="curl --silent http://www.angio.net/pi/digits/pi1000000.txt | cut -c1-3000"
+
+
+# Degree Sequence
+alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"

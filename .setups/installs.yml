@@ -18,8 +18,6 @@ Apps:
   - Ruby
   - Python
   - Pip
-  - VirtualEnv
-  - VirtualEnvWrapper
 
 PythonPackages:
   - NumPy

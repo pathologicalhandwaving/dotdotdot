@@ -28,3 +28,13 @@ alias mute="osascript -e 'set volume output muted true'"
 # Unmute Volume
 alias unmute="osascript -e 'set volume output muted false'"
 
+
+
+# Enable and Disable Safari
+## Disable
+alias fsafari="sudo chmod ogu-rx /Applications/Safari.app"
+## Enable
+alias tsafari="sudo chmod ogu+rx /Applications/Safari.app"
+
+
+
