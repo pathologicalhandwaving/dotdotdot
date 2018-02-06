@@ -31,7 +31,7 @@ default.command=list
 
 
 # Files
-data.location=~/.task
+data.location=/Users/Em/.task
 
 # Color theme (uncomment one to use)
 #include /usr/share/task/light-16.theme
