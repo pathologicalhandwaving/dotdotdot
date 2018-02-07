@@ -16,7 +16,7 @@ export TTC_REPOS_DEPTH=3
 # Which method is to be used to read the git commits ('gitstandup' | 'gitlog').
 # If you're having problems seeing your commits in the dahsboard, set
 # this value to gitlog.
-export TTC_GITBOT='gitlog'
+export TTC_GITBOT='gitstandup'
 
 # Location/zip code to check the weather for. Both 90210 and "San Francisco, CA"
 # _should_ be ok (the zip code doesn't always work -- use a location
@@ -31,7 +31,7 @@ export TTC_CELSIUS=false
 export TTC_APIKEYS=true
 
 # Refresh the dashboard every 20 minutes.
-export TTC_UPDATE_INTERVAL=20
+export TTC_UPDATE_INTERVAL=10
 
 # Turn off terminal title
 export TTC_TERMINAL_TITLE=false
