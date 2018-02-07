@@ -88,10 +88,13 @@ alias busywrite='rnd_file=$(find /usr/include -type f -size +5k | sort -R | head
 
 # GIT
 
-alias gp="git pull"
-alias gu="git push"
-alias ga="git add ."
-alias gc="git commit -m "
+alias gl="git pull"
+alias gh="git push"
+
+
+# GIT CONFIG ALIASES (bare repo dots)
+alias conp="config pull"
+alias conu="config push"
 
 # youtube-dl
 
