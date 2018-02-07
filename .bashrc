@@ -8,4 +8,4 @@ if [ -f /usr/local/share/liquidprompt ]; then
     . /usr/local/share/liquidprompt
 fi
 
-export PS1="W$(git-radar --bash --fetch) "
+export PS1="$PS1\$(git-radar --bash --fetch)"
