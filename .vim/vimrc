@@ -46,6 +46,7 @@ source $VIMHOME/pack/settings/vim-gitgutter.vim
 source $VIMHOME/pack/settings/YUNOcommit.vim
 
 
+
 "" DICTIONARIES
 
 "" MOUSE
