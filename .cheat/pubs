@@ -1,0 +1,25 @@
+usage: pubs [-h] [--version]
+            {init,conf,add,rename,remove,list,doc,tag,note,export,import,websearch,edit}
+            ...
+
+research papers repository
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+valid commands:
+  {init,conf,add,rename,remove,list,doc,tag,note,export,import,websearch,edit}
+    init                initialize the pubs directory
+    conf                open the configuration in an editor
+    add                 add a paper to the repository
+    rename              rename the citekey of a repository
+    remove              removes a publication
+    list                list papers
+    doc                 manage the document relating to a publication
+    tag                 add, remove and show tags
+    note                edit the note attached to a paper
+    export              export bibliography
+    import              import paper(s) to the repository
+    websearch           launch a search on Google Scholar
+    edit                open the paper bibliographic file in an editor
