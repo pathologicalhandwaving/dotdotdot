@@ -1,0 +1,33 @@
+Support for URL schema in Prompt
+The following URL formats can be used for opening Prompt and auto-filling connection details:
+
+ssh
+ssh://hostname
+ssh://username@hostname
+ssh://username:password@hostname
+ssh://hostname:port
+ssh://username@hostname:port
+ssh://username:password@hostname:port
+
+prompt-ssh
+prompt-ssh://hostname
+prompt-ssh://username@hostname
+prompt-ssh://username:password@hostname
+prompt-ssh://hostname:port
+prompt-ssh://username@hostname:port
+prompt-ssh://username:password@hostname:port
+
+telnet
+telnet://hostname
+telnet://hostname:port
+
+prompt-telnet
+prompt-telnet://hostname
+prompt-telnet://hostname:port
+
+prompt-favorite
+prompt-favorite://Staging
+prompt-favorite://Production
+prompt-favorite://username@hostname
+
+Note: The prompt-favorite URL scheme will open a saved server using its name. If no server with a matching name is found it will then try to match the username and hostname.
