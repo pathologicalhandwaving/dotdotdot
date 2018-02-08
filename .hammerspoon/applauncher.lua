@@ -1,5 +1,6 @@
 -- App Launch Keybindings
 
+shorty = {"alt", "cmd"}
 
 a = hs.hotkey.modal.new({}, "shorty")
 apps = {

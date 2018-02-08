@@ -179,15 +179,14 @@ end)
 
 
 -- Push the window into the exact center of the screen
-local function center(window)
-  frame = window:screen():frame()
-  frame.x = (frame.w / 2) - (frame.w / 4)
-  frame.y = (frame.h / 2) - (frame.h / 4)
-  frame.w = frame.w / 2
-  frame.h = frame.h / 2
-  window:setFrame(frame)
-end
+--hs.hotkey.bind(hyper, "c", function ()
+  --local win = hs.window.frontmostWindow()
+  --local id = win.id()
+  --local frame = win:screen():frame()
+  --frame.x = (frame.w / 2) - (frame.w / 4)
+  --frame.y = (frame.h / 2) - (frame.h / 4)
+  --frame.w = frame.w / 2
+  --frame.h = frame.h / 2
+  --window:setFrame(frame)
+--end)
 
-hotkey.bind(hyper, "c", function() tiling.toggleFloat(center) end)
-
-hscheats_keys = {"alt", "S"}
