@@ -189,3 +189,5 @@ local function center(window)
 end
 
 hotkey.bind(hyper, "c", function() tiling.toggleFloat(center) end)
+
+hscheats_keys = {"alt", "S"}
