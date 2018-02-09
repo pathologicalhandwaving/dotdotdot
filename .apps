@@ -7,7 +7,7 @@
 # VLC
 
 # Chrome
-
+alias ochr="open -a '/Applications/Google Chrome.app'"
 # Rodeo
 
 # nteract

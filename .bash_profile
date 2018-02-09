@@ -7,6 +7,7 @@ source /Users/Em/.aliases
 source /Users/Em/.apitokens
 source /Users/Em/.exports
 source /Users/Em/'.functions'
+source /Users/Em/.apps
 
 #source ~/.bash_prompt
 
