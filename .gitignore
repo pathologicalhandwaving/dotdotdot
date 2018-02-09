@@ -1,5 +1,6 @@
 
-.tinycarebot
+# API
+.app-env/*
 
 # links
 .links/links.hst
