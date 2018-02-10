@@ -1,0 +1,21 @@
+TeXExec | version 6.2.1 - 1997-2009 - PRAGMA ADE/POD
+
+TeXExec | --check        check versions
+TeXExec | --figures      generate overview of figures
+TeXExec | --listing      list of file content
+TeXExec | --make         make formats
+TeXExec | --modules      generate module documentation
+TeXExec | --mpgraphic    process mp file to stand-alone graphics
+TeXExec | --mpstatic     process mp/ctx file to stand-alone graphics
+TeXExec | --mptex        process mp file
+TeXExec | --mpxtex       process mpx file
+TeXExec | --pdfarrange   impose pages (booklets)
+TeXExec | --pdfcombine   combine multiple pages
+TeXExec | --pdfcopy      copy pages from file(s)
+TeXExec | --pdfselect    select pages from file(s)
+TeXExec | --pdfsplit     split file in pages
+TeXExec | --pdftrim      trim pages from file(s)
+TeXExec | --process      process file
+TeXExec | 
+TeXExec | --help --all   shows all switches
+

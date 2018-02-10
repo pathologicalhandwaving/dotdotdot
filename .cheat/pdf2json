@@ -1,0 +1,17 @@
+
+Usage: pdf2json [options] <PDF-file> [<xml-file>]
+  -f <int>          : first page to convert
+  -l <int>          : last page to convert
+  -compress         : Use compressed mode
+  -q                : don't print any messages or errors
+  -h                : print usage information
+  -help             : print usage information
+  -i                : ignore images
+  -noframes         : use standard output
+  -xml              : output for XML post-processing
+  -split <int>      : split the output every nth page
+  -hidden           : output hidden text
+  -enc <string>     : output text encoding name
+  -v                : print copyright and version info
+  -opw <string>     : owner password (for encrypted files)
+  -upw <string>     : user password (for encrypted files)

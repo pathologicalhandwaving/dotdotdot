@@ -1,0 +1,22 @@
+latex2png -- convert latex file to PNG image
+
+USAGE: latex2png [-d density] [-o offset] [-h] [-e] [-k] [-c] [-g] [-m] [-H home dir] file[.tex|.eps]
+
+OPTIONS: 
+         -c color image
+         -g gray image  
+         -m monochrome  (default)
+         -e only create EPS files
+         
+         -d density     (default 300 dpi)
+         -o offset      (default 5)
+         -h             help
+         -H /home/dir   directory to be included in search path (default '.')
+         -k             keep intermediate files (for debugging)
+
+EXAMPLES: 
+         latex2png -d 144 /tmp/file   #create /tmp/file.png at 144 dpi
+         latex2png file.eps           #create file.png
+         latex2png file.tex           #create file.png via latex
+         latex2png -H . /tmp/file     #search the cwd for image files
+

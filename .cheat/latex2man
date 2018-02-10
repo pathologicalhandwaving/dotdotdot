@@ -1,0 +1,46 @@
+usage: latex2man [-t transfile] [-c cssfile] [-HTML] [-C name] [-h] [-V] infile outfile.
+  A tool to translate UNIX manual pages written with LaTeX into a format
+  understood by the UNIX man(1)-command.
+  Reads infile, writes outfile.
+
+  -t transfile:  Translation for user defined LaTeX macros.
+  -c CSSfile:    If -H is given, add a link to the \`CSSfile\' and use those
+                 CSS definitions.
+  -M:            Produce output suitable for the man(1) command (default).
+  -H:            Instead of producing output suitable for the man(1) command,
+                 HTML code is produced (despite of the name of the command).
+  -T:            Instead of producing output suitable for the man(1) command,
+		 TEXINFO code is produced (despite of the name of the command).
+  -L:            Output the LaTeX source. Useful in conjunctin with the -C
+                 option.
+  -C name:       Enable conditional text \`name\'.
+                 To enable more than one conditional name use quotes:
+                 -C 'name1 name2 ...'
+                 The following names are defined automatically:
+		    -H defines  HTML
+                    -T defines  TEXI
+		    -M defines  MAN
+		    -L defines  LATEX
+  -a char:       Is used only in conjunction with -T.
+	         Background:
+		   TEXINFO ignores all blanks before the first word on a
+                   new line. In order to produce some additional space before
+	           that word (using \SP) some character has to be printed
+		   before the additional space. By default this is a . (dot).
+		 The 'char' specifies an alternative for that first character.
+                 Giving a blank (-a" ") supresses the indentation of a line.
+                 Note: only for the first \SP of a series that char is printed.
+  -h:            Help.
+  -V:            Version.
+
+  Copyright (C) 1998 Dr. J¸rgen Vollmer, Am Rennbuckel 21, D-76185 Karlsruhe
+  email: Juergen.Vollmer@informatik-vollmer.de
+  License:
+    This program can be redistributed and/or modified under the terms
+    of the LaTeX Project Public License Distributed from CTAN
+    archives in directory macros/latex/base/lppl.txt; either
+    version 1 of the License, or any later version.
+
+  If you find this software useful, please send me a postcard from the place
+  where you are living.
+  Version 1.26, 06 October 2017.

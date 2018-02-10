@@ -1,0 +1,17 @@
+SpoofMAC
+
+Usage:
+    spoof-mac list [--wifi]
+    spoof-mac randomize [--local] <devices>...
+    spoof-mac set <mac> <devices>...
+    spoof-mac reset <devices>...
+    spoof-mac normalize <mac>
+    spoof-mac -h | --help
+    spoof-mac --version
+
+Options:
+
+    -h --help       Shows this message.
+    --version       Show package version.
+    --wifi          Try to only show wireless interfaces.
+    --local         Set the locally administered flag on randomized MACs.

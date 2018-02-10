@@ -1,0 +1,3 @@
+Usage: pngpaste [OPTIONS] <dest.png>
+        -v      Version
+        -h,-?   This usage

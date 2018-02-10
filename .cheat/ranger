@@ -1,0 +1,37 @@
+Usage: ranger [options] [path]
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -d, --debug           activate debug mode
+  -c, --clean           don't touch/require any config files.
+  --logfile=file        log file to use, '-' for stderr
+  --cachedir=dir        change the cache directory. (/Users/Em/.cache/ranger)
+  -r dir, --confdir=dir
+                        change the configuration directory.
+                        (/Users/Em/.config/ranger)
+  --datadir=dir         change the data directory.
+                        (/Users/Em/.local/share/ranger)
+  --copy-config=which   copy the default configs to the local config
+                        directory. Possible values: all, rc, rifle, commands,
+                        commands_full, scope
+  --choosefile=PATH     Makes ranger act like a file chooser. When opening a
+                        file, it will quit and write the name of the selected
+                        file to PATH.
+  --choosefiles=PATH    Makes ranger act like a file chooser for multiple
+                        files at once. When opening a file, it will quit and
+                        write the name of all selected files to PATH.
+  --choosedir=PATH      Makes ranger act like a directory chooser. When ranger
+                        quits, it will write the name of the last visited
+                        directory to PATH
+  --selectfile=filepath
+                        Open ranger with supplied file selected.
+  --show-only-dirs      Show only directories, no files or links
+  --list-unused-keys    List common keys which are not bound to any action.
+  --list-tagged-files=tag
+                        List all files which are tagged with the given tag,
+                        default: *
+  --profile             Print statistics of CPU usage on exit.
+  --cmd=COMMAND         Execute COMMAND after the configuration has been read.
+                        Use this option multiple times to run multiple
+                        commands.

@@ -1,0 +1,10 @@
+usage: bib2html [-h] bibtex_file html_file
+
+Convert BibTeX file to HTML file
+
+positional arguments:
+  bibtex_file  an input BibTeX file name
+  html_file    an output html file name
+
+optional arguments:
+  -h, --help   show this help message and exit

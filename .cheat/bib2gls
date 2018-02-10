@@ -1,0 +1,128 @@
+bib2gls version 1.1 (2017-11-25)
+Usage: bib2gls [<option>]+ <aux file>
+
+Helper application for the glossaries-extra package.
+See the manual for further details.
+
+Options:
+
+--help (or -h)		Display this help message and exit.
+--version (or -v)	Display version and exit.
+--debug [<n>]		Switch on debug mode (optionally with the 
+					given level).
+--no-debug		Switch off debug mode. (Default.)
+					Synonym: --nodebug
+--verbose		Switch on verbose mode.
+--no-verbose		Switch off verbose mode. (Default.)
+			Some messages are displayed.
+			Synonym: --noverbose
+--silent		Only display error messages.
+
+--locale <lang> (or -l <lang>)
+			Use language resource file for <lang>.
+--log-file <file> (or -t <file>)
+			Set transcript file name.
+--dir <directory> (or -d <directory>)
+			Files relative to <directory>.
+			(This doesn't change the current working
+			directory.)
+
+--interpret		Switch on interpret mode (default).
+--no-interpret		Switch off interpret mode.
+
+
+--break-space		Interpret tilde character as normal space.
+--no-break-space	Interpret tilde character as a non-breaking space 
+			(default).
+
+--packages <list> or -p <list>
+			Instruct interpreter to pretend the listed 
+			packages have been used in the document.
+
+
+--mfirstuc-protection <fields>|"all" (or -u <fields>|"all")
+			Insert an empty group if fields start 
+			with certain problematic commands
+			to protect against case-changing commands
+			like \Gls.
+
+			The default is to do this for all fields.
+			To do this for only a subset of fields,
+			set <fields> to a comma-separated
+			list of fields (e.g. name,short,long).
+			The keyword all indicates all fields.
+
+--no-mfirstuc-protection
+			Switch off the auto-insertion of an empty
+			group for all fields.
+
+--mfirstuc-math-protection
+			Switch on the auto-insertion of an empty
+			group for math-shift ($).
+			This option will be overriden by 
+			--no-mfirstuc-protection
+
+--no-mfirstuc-math-protection
+			Switch off the auto-insertion of an empty
+			group for math-shift ($).
+
+--shortcuts <option>
+			Check for the shortcut commands when 
+			searching for dependencies.
+			Permitted values of <option>:
+			'ac', 'acronyms' (or 'acro'),
+			'abbreviations' (or 'abbr'),
+			'all' (or 'true'),
+			'none' (or 'false')
+
+--nested-link-check <list>|"none"
+			Check each field listed in <list>
+			for potentially problematic nested link 
+			text. (Default list: name, text, plural,
+			first, firstplural, short, shortplural,
+			long, longplural, symbol).
+
+			If "none", disable check.
+
+--no-nested-link-check
+			Don't check for potentially problematic
+			nested link text. (Equivalent to
+			--nested-link-check "none")
+
+--map-format <key>:<value>[,<key>:<value>]* (or -m  <key>:<value>[,<key>:<value>]*)
+			Set location format mappings.
+
+--group or -g
+			Add 'group' field to entries.
+
+--no-group
+			Don't add 'group' field to entries (default).
+
+--record-count or -c
+			Add record count fields to entries.
+
+--no-record-count
+			Don't add record count fields to entries.
+			(Automatically implements --no-record-count-unit)
+
+--record-count-unit or -n
+			Add unit record count fields to entries.
+			(Automatically implements --record-count)
+
+--no-record-count-unit
+			Don't add unit record count fields to entries.
+
+--trim-fields
+			Trim leading and trailing spaces from fields.
+
+--no-trim-fields
+			Don't trim leading and trailing spaces from fields (default).
+
+--expand-fields
+			Don't write \glsnoexpandfields to the .glstex file.
+
+--no-expand-fields
+			Write \glsnoexpandfields to the .glstex file (default).
+
+--tex-encoding <name>
+			Set the character encoding for the output files.

@@ -1,0 +1,25 @@
+NAME:
+   slackcat - redirect a file to slack
+
+USAGE:
+   slackcat [global options] command [command options] [arguments...]
+
+VERSION:
+   1.4
+
+COMMANDS:
+     help, h  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --channel value, -c value   Slack channel or group to post to
+   --comment value             Initial comment for snippet
+   --configure                 Configure Slackcat via oauth
+   --filename value, -n value  Filename for upload. Defaults to current timestamp
+   --filetype value            Specify filetype for syntax highlighting
+   --list                      List team channel names
+   --noop                      Skip posting file to Slack. Useful for testing
+   --stream, -s                Stream messages to Slack continuously instead of uploading a single snippet
+   --tee, -t                   Print stdin to screen before posting
+   --username value, -u value  Stream messages as given bot user. Defaults to auth user
+   --help, -h                  show help
+   --version, -v               print the version

@@ -1,0 +1,5 @@
+Usage: browser
+       pipe html to a browser
+
+$ echo '<h1>hi mom!</h1>' | browser
+$ ron -5 man/rip.5.ron | browser

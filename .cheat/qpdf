@@ -1,0 +1,263 @@
+
+Usage: qpdf [ options ] { infilename | --empty } [ outfilename ]
+
+An option summary appears below.  Please see the documentation for details.
+
+If @filename appears anywhere in the command-line, each line of filename
+will be interpreted as an argument. No interpolation is done. Line
+terminators are stripped. @- can be specified to read from standard input.
+
+Note that when contradictory options are provided, whichever options are
+provided last take precedence.
+
+
+Basic Options
+-------------
+
+--password=password     specify a password for accessing encrypted files
+--verbose               provide additional informational output
+--linearize             generated a linearized (web optimized) file
+--copy-encryption=file  copy encryption parameters from specified file
+--encryption-file-password=password
+                        password used to open the file from which encryption
+                        parameters are being copied
+--encrypt options --    generate an encrypted file
+--decrypt               remove any encryption on the file
+--password-is-hex-key   treat primary password option as a hex-encoded key
+--pages options --      select specific pages from one or more files
+--rotate=[+|-]angle:page-range
+                        rotate each specified page 90, 180, or 270 degrees
+--split-pages=[n]       write each output page to a separate file
+
+If none of --copy-encryption, --encrypt or --decrypt are given, qpdf will
+preserve any encryption data associated with a file.
+
+Note that when copying encryption parameters from another file, all
+parameters will be copied, including both user and owner passwords, even
+if the user password is used to open the other file.  This works even if
+the owner password is not known.
+
+The --password-is-hex-key option overrides the normal computation of
+encryption keys. It only applies to the password used to open the main
+file. This option is not ordinarily useful but can be helpful for forensic
+or investigatory purposes. See manual for further discussion.
+
+The --rotate flag can be used to specify pages to rotate pages either
+90, 180, or 270 degrees. The page range is specified in the same
+format as with the --pages option, described below. Repeat the option
+to rotate multiple groups of pages. If the angle is preceded by + or -,
+it is added to or subtracted from the original rotation. Otherwise, the
+rotation angle is set explicitly to the given value.
+
+If --split-pages is specified, each page is written to a separate output
+file. File names are generated as follows:
+* If the string %d appears in the output file name, it is replaced with a
+  zero-padded page range starting from 1
+* Otherwise, if the output file name ends in .pdf (case insensitive), a
+  zero-padded page range, preceded by a dash, is inserted before the file
+  extension
+* Otherwise, the file name is appended with a zero-padded page range
+  preceded by a dash.
+Page ranges are single page numbers for single-page groups or first-last
+for multipage groups.
+
+
+Encryption Options
+------------------
+
+  --encrypt user-password owner-password key-length flags --
+
+Note that -- terminates parsing of encryption flags.
+
+Either or both of the user password and the owner password may be
+empty strings.
+
+key-length may be 40, 128, or 256
+
+Additional flags are dependent upon key length.
+
+  If 40:
+
+    --print=[yn]             allow printing
+    --modify=[yn]            allow document modification
+    --extract=[yn]           allow text/graphic extraction
+    --annotate=[yn]          allow comments and form fill-in and signing
+
+  If 128:
+
+    --accessibility=[yn]     allow accessibility to visually impaired
+    --extract=[yn]           allow other text/graphic extraction
+    --print=print-opt        control printing access
+    --modify=modify-opt      control modify access
+    --cleartext-metadata     prevents encryption of metadata
+    --use-aes=[yn]           indicates whether to use AES encryption
+    --force-V4               forces use of V=4 encryption handler
+
+  If 256, options are the same as 128 with these exceptions:
+    --force-V4               this option is not available with 256-bit keys
+    --use-aes                this option is always on with 256-bit keys
+    --force-R5               forces use of deprecated R=5 encryption
+
+    print-opt may be:
+
+      full                  allow full printing
+      low                   allow only low-resolution printing
+      none                  disallow printing
+
+    modify-opt may be:
+
+      all                   allow full document modification
+      annotate              allow comment authoring and form operations
+      form                  allow form field fill-in and signing
+      assembly              allow document assembly only
+      none                  allow no modifications
+
+The default for each permission option is to be fully permissive.
+
+Specifying cleartext-metadata forces the PDF version to at least 1.5.
+Specifying use of AES forces the PDF version to at least 1.6.  These
+options are both off by default.
+
+The --force-V4 flag forces the V=4 encryption handler introduced in PDF 1.5
+to be used even if not otherwise needed.  This option is primarily useful
+for testing qpdf and has no other practical use.
+
+
+Page Selection Options
+----------------------
+
+These options allow pages to be selected from one or more PDF files.
+Whatever file is given as the primary input file is used as the
+starting point, but its pages are replaced with pages as specified.
+
+--pages file [ --password=password ] [ page-range ] ... --
+
+For each file that pages should be taken from, specify the file, a
+password needed to open the file (if any), and a page range.  The
+password needs to be given only once per file.  If any of the input
+files are the same as the primary input file or the file used to copy
+encryption parameters (if specified), you do not need to repeat the
+password here.  The same file can be repeated multiple times.  All
+non-page data (info, outlines, page numbers, etc. are taken from the
+primary input file.  To discard this, use --empty as the primary
+input.
+
+The page range is a set of numbers separated by commas, ranges of
+numbers separated dashes, or combinations of those.  The character
+"z" represents the last page.  Pages can appear in any order.  Ranges
+can appear with a high number followed by a low number, which causes the
+pages to appear in reverse.  Repeating a number will cause an error, but
+the manual discusses a workaround should you really want to include the
+same page twice.
+
+If the page range is omitted, the range of 1-z is assumed.  qpdf decides
+that the page range is omitted if the range argument is either -- or a
+valid file name and not a valid range.
+
+See the manual for examples and a discussion of additional subtleties.
+
+
+Advanced Parsing Options
+-------------------------------
+
+These options control aspects of how qpdf reads PDF files. Mostly these are
+of use to people who are working with damaged files. There is little reason
+to use these options unless you are trying to solve specific problems.
+
+--suppress-recovery       prevents qpdf from attempting to recover damaged files
+--ignore-xref-streams     tells qpdf to ignore any cross-reference streams
+
+
+Advanced Transformation Options
+-------------------------------
+
+These transformation options control fine points of how qpdf creates
+the output file.  Mostly these are of use only to people who are very
+familiar with the PDF file format or who are PDF developers.
+
+--stream-data=option      controls transformation of stream data (below)
+--compress-streams=[yn]   controls whether to compress streams on output
+--decode-level=option     controls how to filter streams from the input
+--normalize-content=[yn]  enables or disables normalization of content streams
+--object-streams=mode     controls handing of object streams
+--preserve-unreferenced   preserve unreferenced objects
+--newline-before-endstream  always put a newline before endstream
+--qdf                     turns on "QDF mode" (below)
+--min-version=version     sets the minimum PDF version of the output file
+--force-version=version   forces this to be the PDF version of the output file
+
+Version numbers may be expressed as major.minor.extension-level, so 1.7.3
+means PDF version 1.7 at extension level 3.
+
+Values for stream data options:
+
+  compress              recompress stream data when possible (default)
+  preserve              leave all stream data as is
+  uncompress            uncompress stream data when possible
+
+Values for object stream mode:
+
+  preserve                  preserve original object streams (default)
+  disable                   don't write any object streams
+  generate                  use object streams wherever possible
+
+When --compress-streams=n is specified, this overrides the default behavior
+of qpdf, which is to attempt compress uncompressed streams. Setting
+stream data mode to uncompress or preserve has the same effect.
+
+The --decode-level parameter may be set to one of the following values:
+  none              do not decode streams
+  generalized       decode streams compressed with generalized filters
+                    including LZW, Flate, and the ASCII encoding filters.
+  specialized       additionally decode streams with non-lossy specialized
+                    filters including RunLength
+  all               additionally decode streams with lossy filters
+                    including DCT (JPEG)
+
+In qdf mode, by default, content normalization is turned on, and the
+stream data mode is set to uncompress.
+
+Setting the minimum PDF version of the output file may raise the version
+but will never lower it.  Forcing the PDF version of the output file may
+set the PDF version to a lower value than actually allowed by the file's
+contents.  You should only do this if you have no other possible way to
+open the file or if you know that the file definitely doesn't include
+features not supported later versions.
+
+Testing, Inspection, and Debugging Options
+------------------------------------------
+
+These options can be useful for digging into PDF files or for use in
+automated test suites for software that uses the qpdf library.
+
+--deterministic-id        generate deterministic /ID
+--static-id               generate static /ID: FOR TESTING ONLY!
+--static-aes-iv           use a static initialization vector for AES-CBC
+                          This is option is not secure!  FOR TESTING ONLY!
+--no-original-object-ids  suppress original object ID comments in qdf mode
+--show-encryption         quickly show encryption parameters
+--show-encryption-key     when showing encryption, reveal the actual key
+--check-linearization     check file integrity and linearization status
+--show-linearization      check and show all linearization data
+--show-xref               show the contents of the cross-reference table
+--show-object=obj[,gen]   show the contents of the given object
+  --raw-stream-data       show raw stream data instead of object contents
+  --filtered-stream-data  show filtered stream data instead of object contents
+--show-npages             print the number of pages in the file
+--show-pages              shows the object/generation number for each page
+  --with-images           also shows the object IDs for images on each page
+--check                   check file structure + encryption, linearization
+
+The --raw-stream-data and --filtered-stream-data options are ignored
+unless --show-object is given.  Either of these options will cause the
+stream data to be written to standard output.
+
+If --filtered-stream-data is given and --normalize-content=y is also
+given, qpdf will attempt to normalize the stream data as if it is a
+page content stream.  This attempt will be made even if it is not a
+page content stream, in which case it will produce unusable results.
+
+Ordinarily, qpdf exits with a status of 0 on success or a status of 2
+if any errors occurred.  In --check mode, if there were warnings but not
+errors, qpdf exits with a status of 3.
+

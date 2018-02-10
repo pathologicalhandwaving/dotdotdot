@@ -1,0 +1,28 @@
+Usage: primesieve [START] STOP [OPTION]...
+Generate the primes and/or prime k-tuplets in the interval [START, STOP]
+(< 2^64) using the segmented sieve of Eratosthenes.
+
+Options:
+
+  -c[N+], --count[=N+]    Count primes and prime k-tuplets, N <= 6,
+                          e.g. -c1 primes, -c2 twins, -c3 triplets, ...
+  -d<N>,  --dist=<N>      Sieve the interval [START, START + N]
+  -h,     --help          Print this help menu
+  -n,     --nthprime      Calculate the nth prime,
+                          e.g. 1 100 -n finds the 1st prime > 100
+          --no-status     Turn off the progressing status
+  -p[N],  --print[=N]     Print primes or prime k-tuplets, N <= 6,
+                          e.g. -p1 primes, -p2 twins, -p3 triplets, ...
+  -q,     --quiet         Quiet mode, prints less output
+  -s<N>,  --size=<N>      Set the sieve size in kilobytes, N <= 4096
+  -t<N>,  --threads=<N>   Set the number of threads, N <= CPU cores
+          --time          Print the time elapsed in seconds
+  -v,     --version       Print version and license information
+
+Examples:
+
+  primesieve 1000         Count the primes below 1000
+  primesieve 1000 -c2     Count the twin primes below 1000
+  primesieve 1e6 --print  Print the primes below 10^6
+  primesieve 100 200 -p   Print the primes inside [100, 200]
+

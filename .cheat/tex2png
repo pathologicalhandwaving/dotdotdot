@@ -1,0 +1,24 @@
+usage: tex2png [-h] [-m MATH_MODE] [-d DPI] [-p PACKAGES] [-fg FOREGROUND]
+               [-bg BACKGROUND] [-O]
+               formula output_file
+
+positional arguments:
+  formula               LaTeX formula text
+  output_file           output png file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -m MATH_MODE, --math-mode MATH_MODE
+                        LaTeX math mode: [inline, display, headless, none]
+  -d DPI, --dpi DPI     Output resolution in DPI
+  -p PACKAGES, --packages PACKAGES
+                        `,` or `+` seperated list of LaTeX package names
+                        additional to amsmath,amssymb, which are always
+                        included.
+  -fg FOREGROUND, --foreground FOREGROUND
+                        Set the foreground color (rgb or CSS3 color name, e.g.
+                        `gold`)
+  -bg BACKGROUND, --background BACKGROUND
+                        Set the background color (rgb or CSS3 color name, e.g.
+                        `deepskyblue`)
+  -O, --optimize        Optimize output image using `optipng`

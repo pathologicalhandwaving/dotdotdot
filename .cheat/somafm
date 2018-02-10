@@ -1,0 +1,10 @@
+Usage:
+  somafm channels
+  somafm listen <channel> [--quality=<low|high|highest>]
+
+Options:
+  quality  The listening quality (default: high)
+
+Commands:
+  channels  List channels
+  listen    Listen to channel

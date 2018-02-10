@@ -1,0 +1,36 @@
+texconfig supports adjusting and updating many aspects of
+the TeX installation.
+
+Usage: texconfig conf                  (show configuration information)
+       texconfig dvipdfmx paper PAPER  (dvipdfmx paper size)
+       texconfig dvips [OPTION...]     (dvips options)
+       texconfig faq                   (show pointer to TeX Live docs)
+       texconfig findprog PROG...      (show locations of PROGs, a la which)
+       texconfig font vardir DIR
+       texconfig font ro
+       texconfig font rw
+       texconfig formats               (edit fmtutil.cnf)
+       texconfig help                  (or --help; show this help)
+       texconfig hyphen FORMAT         (edit hyphenation config for FORMAT)
+       texconfig init [FORMAT]...      (rebuild FORMATs, or all formats
+                                        plus run texlinks and updmap)
+       texconfig mode MODE             (set Metafont MODE)
+       texconfig paper PAPER           (set default paper size to PAPER)
+       texconfig pdftex [OPTION]...    (pdftex options)
+       texconfig rehash                (rebuild ls-R files with mktexlsr)
+       texconfig version               (or --version; show version info)
+       texconfig xdvi paper PAPER      (xdvi paper size)
+
+Get more help with:
+       texconfig dvipdfmx
+       texconfig dvips
+       texconfig font
+       texconfig hyphen
+       texconfig mode
+       texconfig paper
+       texconfig pdftex
+       texconfig xdvi
+
+Report bugs to: tex-k@tug.org
+TeX Live home page: <http://tug.org/texlive/>
+

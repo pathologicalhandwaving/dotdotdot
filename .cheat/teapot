@@ -1,0 +1,7 @@
+Usage: teapot [-a] [-b] [-n] [-H] [-r] [-p digits] [file]
+       -a: use ASCII file format as default
+       -b: batch mode
+       -q: display strings in quotes
+       -H: hide row/column headers
+       -r: redraw more often
+       -p: set decimal precision

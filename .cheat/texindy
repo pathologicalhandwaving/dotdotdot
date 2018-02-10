@@ -1,0 +1,23 @@
+
+usage: texindy [-V?h] [-qv] [-iglr] [-d magic] [-o outfile.ind] [-t log] \
+            [-L lang] [-C codepage] [-M module] [-I input] [idx0 idx1 ...]
+
+GNU-STYLE LONG OPTIONS FOR SHORT OPTIONS:
+
+ -V / --version
+ -? / -h / --help
+ -q / --quiet
+ -v / --verbose
+ -i / --stdin
+ -g / --german
+ -l / --letter-ordering
+ -r / --no-ranges
+ -d / --debug          (multiple times)
+                       (supported: script, keep_tmpfiles, markup, level=n)
+ -o / --out-file
+ -t / --log-file
+ -L / --language
+ -C / --codepage
+ -M / --module         (multiple times)
+ -I / --input-markup   (supported: latex, omega)
+

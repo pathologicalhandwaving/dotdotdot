@@ -1,0 +1,13 @@
+Usage: proselint [OPTIONS] [PATHS]...
+
+  A CLI for proselint, a linter for prose.
+
+Options:
+  -v, --version  Show the version and exit.
+  -d, --debug    Give verbose output.
+  -c, --clean    Clear the cache.
+  -j, --json     Output as JSON.
+  -t, --time     Time on a corpus.
+  --demo         Run over demo file.
+  --compact      Shorten output.
+  -h, --help     Show this message and exit.

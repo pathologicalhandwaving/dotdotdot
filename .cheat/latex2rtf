@@ -1,0 +1,73 @@
+`latex2rtf' converts text files in LaTeX format to rich text format (RTF).
+
+Usage:  latex2rtf [options] input[.tex]
+
+Options:
+  -a auxfile       use LaTeX auxfile rather than input.aux
+  -b bblfile       use BibTex bblfile rather than input.bbl
+  -C codepage      charset used by the latex document (latin1, cp850, raw, etc.)
+  -d level         debugging output (level is 0-6)
+  -D dpi           number of dots per inch for bitmaps
+  -E#              figure handling
+       -E0          do not include any figures in RTF
+       -E1          include figures that need no conversion
+       -E2          include figures that need conversion
+       -E3          include all figures (default)
+       -E4          insert filenames for figures that do not need conversion
+       -E8          insert filenames for figures that need conversion
+  -f#              field handling
+       -f0          do not use fields
+       -f1          use fields for equations but not \ref{} & \cite{}
+       -f2          use fields for \cite{} & \ref{}, but not equations
+       -f3          use fields when possible (default)
+  -F               use LaTeX to convert all figures to bitmaps
+  -h               display help
+  -i language      idiom or language (e.g., german, french)
+  -l               use latin1 encoding (default)
+  -M#              math equation handling
+       -M1          displayed equations to RTF
+       -M2          inline equations to RTF
+       -M3          inline and displayed equations to RTF (default)
+       -M4          displayed equations to bitmap
+       -M6          inline equations to RTF and displayed equations to bitmaps
+       -M8          inline equations to bitmap
+       -M12         inline and displayed equations to bitmaps
+       -M16         insert Word comment field containing the raw LaTeX equation
+       -M32         insert raw LaTeX equation delimited by $...$ and \[...\]
+       -M64         displayed equations to EPS files with filenames in RTF
+       -M128        inline equations to EPS files with filenames in RTF
+  -o outputfile    file for RTF output
+  -p               option to avoid bug in Word for some equations
+  -P path          paths to *.cfg & latex2png
+  -S               use ';' to separate args in RTF fields
+  -se#             scale factor for bitmap equations
+  -sf#             scale factor for bitmap figures
+  -t#              table handling
+       -t1          tabular and tabbing environments as RTF
+       -t2          tabular and tabbing environments as bitmaps
+  -T /path/to/tmp  temporary directory
+  -v               version information
+  -V               version information
+  -W               include warnings in RTF
+  -Z#              add # of '}'s at end of rtf file (# is 0-9)
+
+Examples:
+  latex2rtf foo                       convert foo.tex to foo.rtf
+  latex2rtf <foo >foo.RTF             convert foo to foo.RTF
+  latex2rtf -P ./cfg/:./scripts/ foo  use alternate cfg and latex2png files
+  latex2rtf -M12 foo                  replace equations with bitmaps
+  latex2rtf -t3  foo                  tables as RTF *and* bitmaps
+  latex2rtf -i russian foo            assume russian tex conventions
+  latex2rtf -C raw foo                retain font encoding in rtf file
+  latex2rtf -f0 foo                   create foo.rtf without fields
+  latex2rtf -d4 foo                   lots of debugging information
+
+Report bugs to <latex2rtf-developers@lists.sourceforge.net>
+
+$RTFPATH designates the directory for configuration files (*.cfg)
+$RTFPATH = 'not defined'
+
+CFGDIR compiled-in directory for configuration files (*.cfg)
+CFGDIR  = '/usr/local/Cellar/latex2rtf/2.3.16/share/latex2rtf/cfg'
+
+latex2rtf 2.3.16 r1254 (released May 12 2017)

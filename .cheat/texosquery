@@ -1,0 +1,223 @@
+Usage: texosquery [<options>] <actions>
+
+Cross-platform OS query application
+for use with TeX's shell escape.
+
+Each query displays the result in a single line.
+An empty string is printed if the requested
+information is unavailable or not permitted.
+Multiple actions group the results.
+
+See the manual (texdoc texosquery) for further details.
+
+Options:
+
+-h or --help or -help
+	Display this help message and exit.
+
+-v or --version or -version
+	Display version information and exit.
+
+--nodebug
+	No debugging messages (default)
+
+--debug [<n>] or -debug [<n>]
+	Display debugging messages on STDOUT.
+	<n> should be an integer:
+	0: no debugging (same as --nodebug)
+	1: basic debugging messages
+	2: additionally display stack trace.
+	If omitted 3 is assumed
+
+--compatible <n> or -compat <n>
+	Compatibility setting.
+	<n> should be "latest" (default) or an integer:
+	0: version 1.0
+	1: version 1.1
+
+--encoding <charset> or -enc <charset>
+	Set the file encoding to <charset>.
+
+--default-encoding or -defenc
+	Use the default file encoding.
+
+--strip-path-prefix <prefix> or -sp <prefix>
+	Strip the given prefix from returned path names.
+	Can't be used with --replace-path.
+
+--nostrip-path-prefix
+	Cancel the effect of --strip-path-prefix.
+
+--replace-path <regex> <replacement> or -rp <regex> <replacement>
+	Substitutes the first occurrence of <regex> with
+	<replacement> in any returned path names.
+	Can't be used with --strip-path-prefix.
+
+--noreplace-path
+	Cancel the effect of --replace-path.
+
+--strip-uri-prefix <prefix> or -su <prefix>
+	Replace 'file:/<prefix>' with 'file:/'
+	from returned URIs.
+	Can't be used with --replace-uri.
+
+--nostrip-uri-prefix
+	Cancel the effect of --strip-uri-prefix.
+
+--replace-uri <regex> <replacement> or -ru <regex> <replacement>
+	Substitutes the first occurrence of <regex> with
+	<replacement> in any returned URIs.
+	Can't be used with --strip-uri-prefix.
+
+--noreplace-uri
+	Cancel the effect of --replace-uri.
+
+
+General actions:
+
+-o or --osname
+	Display OS name.
+
+-r or --osversion
+	Display OS version.
+
+-a or --osarch
+	Display OS architecture.
+
+-n or --pdfnow
+	Display current date-time in PDF format.
+
+-cs or --codeset
+	Display the codeset.
+
+-C or --codeset-lcs
+	Lower case codeset with hyphens stripped.
+
+-M or --date-time
+	Display all the current date-time data.
+
+
+Locale actions:
+
+-L or --locale
+	Display POSIX locale information.
+
+-l or --locale-lcs
+	Display POSIX style locale information with lower case codeset.
+
+-b or --bcp47
+	Display locale as BCP47 tag.
+
+-N [locale] or --numeric [locale]
+	Display locale numeric information.
+
+-D [locale] or --locale-data [locale]
+	Display all available locale information.
+
+-Z [locale] or --time-zones [locale]
+	Display all available time zone information.
+
+
+File actions:
+
+Paths should use / for the directory divider.
+TeX's openin_any setting is checked before attempting
+to access file information.
+
+-c or --cwd
+	Display current working directory.
+
+-m or --userhome
+	Display user's home directory.
+
+-t or --tmpdir
+	Display temporary directory.
+
+-d <file> or --pdfdate <file>
+	Display date stamp of <file> in PDF format.
+
+-s <file> or --filesize <file>
+	Display size of <file> in bytes.
+
+-i <sep> <dir> [<sort>] or --list <sep> <dir> [<sort>]
+	Display list of all files in <dir> separated by <sep>. If <sort> is 
+	omitted, the default order is used otherwise <sort> may be one of the 
+	following: default, date-ascending (or date or date-asc), 
+	date-descending (or date-des), size-ascending (or size or size-asc), 
+	size-descending (or size-des), name-ascending (or name or name-asc), 
+	name-descending (or name-des), iname-ascending (or iname or 
+	iname-asc), iname-descending (or iname-des), ext-ascending (or ext or 
+	ext-asc), ext-descending (or ext-des).
+
+-f <sep> <regex> <dir> [<sort>] or --filterlist <sep> <regex> <dir> [<sort>]
+	Display list of files in <dir> that fully match <regex> separated by 
+	<sep>. If <sort> is omitted, the default order is used otherwise 
+	<sort> may be one of the following: default, date-ascending (or date 
+	or date-asc), date-descending (or date-des), size-ascending (or size 
+	or size-asc), size-descending (or size-des), name-ascending (or name 
+	or name-asc), name-descending (or name-des), iname-ascending (or 
+	iname or iname-asc), iname-descending (or iname-des), ext-ascending 
+	(or ext or ext-asc), ext-descending (or ext-des).
+
+-id <sep> <dir> [<sort>] or --list-dir <sep> <dir> [<sort>]
+	Display list of all sub-directories in <dir> separated by <sep>. If 
+	<sort> is omitted, the default order is used otherwise <sort> may be 
+	one of the following: default, date-ascending (or date or date-asc), 
+	date-descending (or date-des), size-ascending (or size or size-asc), 
+	size-descending (or size-des), name-ascending (or name or name-asc), 
+	name-descending (or name-des), iname-ascending (or iname or 
+	iname-asc), iname-descending (or iname-des), ext-ascending (or ext or 
+	ext-asc), ext-descending (or ext-des).
+
+-fd <sep> <regex> <dir> [<sort>] or --filterlist-dir <sep> <regex> <dir> [<sort>]
+	Display list of sub-directories in <dir> that fully match <regex> 
+	separated by <sep>. If <sort> is omitted, the default order is used 
+	otherwise <sort> may be one of the following: default, date-ascending 
+	(or date or date-asc), date-descending (or date-des), size-ascending 
+	(or size or size-asc), size-descending (or size-des), name-ascending 
+	(or name or name-asc), name-descending (or name-des), iname-ascending 
+	(or iname or iname-asc), iname-descending (or iname-des), 
+	ext-ascending (or ext or ext-asc), ext-descending (or ext-des).
+
+-ir <sep> <dir> [<sort>] or --list-regular <sep> <dir> [<sort>]
+	Display list of all regular files in <dir> separated by <sep>. If 
+	<sort> is omitted, the default order is used otherwise <sort> may be 
+	one of the following: default, date-ascending (or date or date-asc), 
+	date-descending (or date-des), size-ascending (or size or size-asc), 
+	size-descending (or size-des), name-ascending (or name or name-asc), 
+	name-descending (or name-des), iname-ascending (or iname or 
+	iname-asc), iname-descending (or iname-des), ext-ascending (or ext or 
+	ext-asc), ext-descending (or ext-des).
+
+-fr <sep> <regex> <dir> [<sort>] or --filterlist-regular <sep> <regex> <dir> [<sort>]
+	Display list of regular files in <dir> that fully match <regex> 
+	separated by <sep>. If <sort> is omitted, the default order is used 
+	otherwise <sort> may be one of the following: default, date-ascending 
+	(or date or date-asc), date-descending (or date-des), size-ascending 
+	(or size or size-asc), size-descending (or size-des), name-ascending 
+	(or name or name-asc), name-descending (or name-des), iname-ascending 
+	(or iname or iname-asc), iname-descending (or iname-des), 
+	ext-ascending (or ext or ext-asc), ext-descending (or ext-des).
+
+-w <sep> <regex> <dir> [<sort>] or --walk <sep> <regex> <dir> [<sort>]
+	Display list of regular non-hidden files in <dir> (descending 
+	sub-directories) that fully match <regex> separated by <sep>. The 
+	starting directory <dir> may not be outside the current working 
+	directory. This action is not available for texosquery-jre5. If 
+	<sort> is omitted, the default order is used otherwise <sort> may be 
+	one of the following: default, date-ascending (or date or date-asc), 
+	date-descending (or date-des), size-ascending (or size or size-asc), 
+	size-descending (or size-des), name-ascending (or name or name-asc), 
+	name-descending (or name-des), iname-ascending (or iname or 
+	iname-asc), iname-descending (or iname-des), ext-ascending (or ext or 
+	ext-asc), ext-descending (or ext-des).
+
+-u <file> or --uri <file>
+	Display the URI of <file>.
+
+-p <file> or --path <file>
+	Display the canonical path of <file>.
+
+-e <file> or --dirname <file>
+	Display the canonical path of the parent of <file>.
+

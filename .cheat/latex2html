@@ -1,0 +1,443 @@
+LATEX2HTML(1)         User Contributed Perl Documentation        LATEX2HTML(1)
+
+
+
+NNAAMMEE
+       latex2html - Translate LaTeX files to HTML (HyperText Markup Language)
+
+SSYYNNOOPPSSIISS
+       llaatteexx22hhttmmll [ --hheellpp | --hh ] [ --vveerrssiioonn | --VV ]
+
+       llaatteexx22hhttmmll [ --sspplliitt _n_u_m ] [ --lliinnkk _n_u_m ] [ --ttoocc__ddeepptthh _n_u_m ]
+       [ --(nnoo)ttoocc__ssttaarrss ] [ --(nnoo)sshhoorrtt__eexxttnn ] [ --iissoo__llaanngguuaaggee _l_a_n_g ]
+       [ --(nnoo)vvaalliiddaattee ] [ --(nnoo)llaatteexx ] [ --(nnoo)ddjjggpppp ] [ --(nnoo)ffoorrkk ]
+       [ --(nnoo)eexxtteerrnnaall__iimmaaggeess ] [ --(nnoo)aasscciiii__mmooddee ] [ --(nnoo)llccaassee__ttaaggss ]
+       [ --(nnoo)ppss__iimmaaggeess ] [ --ffoonntt__ssiizzee _s_i_z_e ] [ --(nnoo)tteexx__ddeeffss ]
+       [ --(nnoo)nnaavviiggaattiioonn ] [ --(nnoo)ttoopp__nnaavviiggaattiioonn ] [ --(nnoo)bboottttoomm__nnaavviiggaattiioonn ]
+       [ --(nnoo)aauuttoo__nnaavviiggaattiioonn ] [ --(nnoo)iinnddeexx__iinn__nnaavviiggaattiioonn ]
+       [ --(nnoo)ccoonntteennttss__iinn__nnaavviiggaattiioonn ] [ --(nnoo)nneexxtt__ppaaggee__iinn__nnaavviiggaattiioonn ]
+       [ --(nnoo)pprreevviioouuss__ppaaggee__iinn__nnaavviiggaattiioonn ] [ --(nnoo)ffoooottnnooddee ]
+       [ --(nnoo)nnuummbbeerreedd__ffoooottnnootteess ] [ --pprreeffiixx _o_u_t_p_u_t___f_i_l_e_n_a_m_e___p_r_e_f_i_x ]
+       [ --(nnoo)aauuttoo__pprreeffiixx ] [ --lloonngg__ttiittlleess _n_u_m ] [ --(nnoo)ccuussttoomm__ttiittlleess ]
+       [ --ttiittllee|--tt _t_o_p___p_a_g_e___t_i_t_l_e ] [ --(nnoo)rrooootteedd ]
+       [ --rroooottddiirr _o_u_t_p_u_t___d_i_r_e_c_t_o_r_y ] [ --ddiirr _o_u_t_p_u_t___d_i_r_e_c_t_o_r_y ] [ --mmkkddiirr ]
+       [ --aaddddrreessss _a_u_t_h_o_r___a_d_d_r_e_s_s | --nnooaaddddrreessss ] [ --(nnoo)ssuubbddiirr ]
+       [ --iinnffoo _0 | _1 | _s_t_r_i_n_g ] [ --(nnoo)aauuttoo__lliinnkk ] [ --rreeuussee _n_u_m | --nnoorreeuussee ]
+       [ --(nnoo)aannttiiaalliiaass__tteexxtt ] [ --(nnoo)aannttiiaalliiaass ] [ --(nnoo)ttrraannssppaarreenntt ]
+       [ --(nnoo)wwhhiittee ] [ --(nnoo)ddiissccaarrdd ] [ --iimmaaggee__ttyyppee _t_y_p_e ] [ --(nnoo)iimmaaggeess ]
+       [ --aacccceenntt__iimmaaggeess _t_y_p_e | --nnooaacccceenntt__iimmaaggeess ] [ --ssttyyllee _s_t_y_l_e ]
+       [ --(nnoo)ppaarrbbooxx__iimmaaggeess ] [ --(nnoo)mmaatthh ] [ --(nnoo)mmaatthh__ppaarrssiinngg ]
+       [ --(nnoo)llaattiinn ] [ --(nnoo)eennttiittiieess ] [ --(nnoo)llooccaall__iiccoonnss ]
+       [ --(nnoo)ssccaallaabbllee__ffoonnttss ] [ --(nnoo)iimmaaggeess__oonnllyy ]
+       [ --(nnoo)sshhooww__sseeccttiioonn__nnuummbbeerrss ] [ --(nnoo)sshhooww__iinniitt ]
+       [ --iinniitt__ffiillee _P_e_r_l___f_i_l_e ] [ --uupp__uurrll _u_p___U_R_L ] [ --uupp__ttiittllee _u_p___t_i_t_l_e ]
+       [ --ddoowwnn__uurrll _d_o_w_n___U_R_L ] [ --ddoowwnn__ttiittllee _d_o_w_n___t_i_t_l_e ]
+       [ --pprreevv__uurrll _p_r_e_v___U_R_L ] [ --pprreevv__ttiittllee _p_r_e_v___t_i_t_l_e ] [ --iinnddeexx _i_n_d_e_x___U_R_L ]
+       [ --bbiibblliioo _b_i_b_l_i_o___U_R_L ] [ --ccoonntteennttss _t_o_c___U_R_L ]
+       [ --eexxtteerrnnaall__ffiillee _e_x_t_e_r_n_a_l___a_u_x___f_i_l_e ] [ --(nnoo)sshhoorrtt__iinnddeexx ]
+       [ --(nnoo)uunnsseeggmmeenntt ] [ --(nnoo)ddeebbuugg ] [ --ttmmpp _p_a_t_h ] [ --(nnoo)lldduummpp ]
+       [ --(nnoo)ttiimmiinngg ] [ --vveerrbboossiittyy _n_u_m ] [ --hhttmmll__vveerrssiioonn _n_u_m ]
+       [ --(nnoo)ssttrriicctt ] _f_i_l_e_._t_e_x [ _f_i_l_e_2_._t_e_x ... ]
+
+DDEESSCCRRIIPPTTIIOONN
+       _L_a_T_e_X_2_H_T_M_L is a Perl program that translates LaTeX source files into
+       HTML. For each source file given as an argument the translator will
+       create a directory containing the corresponding HTML files.
+
+OOPPTTIIOONNSS
+       Many options can be specified in a true/false manner. This is indicated
+       by _(_n_o_), e.g. to enable passing unknown environments to LaTeX, say
+       "-latex", to disable the feature say "-nolatex" or "-no_latex"
+       (portability mode).
+
+       --hheellpp | --hh
+           Print this online manual and exit.
+
+       --vveerrssiioonn | --VV
+           Print the LaTeX2HTML release and version information and exit.
+
+       --sspplliitt _n_u_m
+           Stop making separate files at this depth (say "-split 0" for one
+           huge HTML file).
+
+       --lliinnkk _n_u_m
+           Stop showing child nodes at this depth.
+
+       --ttoocc__ddeepptthh _n_u_m
+           MISSING_DESCRIPTION
+
+       --(nnoo)ttoocc__ssttaarrss
+           MISSING_DESCRIPTION
+
+       --(nnoo)sshhoorrtt__eexxttnn
+           If this is set all HTML file will have extension ".htm" instead of
+           ".html". This is helpful when shipping the document to PC systems.
+
+       --iissoo__llaanngguuaaggee _l_a_n_g
+           MISSING_DESCRIPTION
+
+       --(nnoo)vvaalliiddaattee
+           When this is set true, the HTML validator specified in _l_2_h_c_o_n_f_._p_m
+           will run.
+
+       --(nnoo)llaatteexx
+           Pass unknown environments to LaTeX. This is the default.
+
+       --(nnoo)ddjjggpppp
+           Specify this switch if you are running DJGPP on DOS and need to
+           avoid running out of filehandles.
+
+       --(nnoo)ffoorrkk
+           Enable/disable forking. The default is reasonable for this
+           platform.
+
+       --(nnoo)eexxtteerrnnaall__iimmaaggeess
+           If set, leave the images outside the document.
+
+       --(nnoo)aasscciiii__mmooddee
+           This is different from --nnooiimmaaggeess.  If this is set, LLaaTTeeXX22HHTTMMLL will
+           show textual tags rather than images, both in navigation panel and
+           text (Eg. "[Up]" instead the up icon).  You could use this feature
+           to create simple text from your document, eg. with 'Save as...
+           Text' from NNeettssccaappee or with llyynnxx --dduummpp.
+
+       --(nnoo)llccaassee__ttaaggss
+           writes out HTML tag names using lowercase letters, rather than
+           uppercase.
+
+       --(nnoo)ppss__iimmaaggeess
+           If set, use links to external postscript images rather than inlined
+           bitmaps.
+
+       --ffoonntt__ssiizzee _s_i_z_e
+           To set the point size of LaTeX-generated GIF files, specify the
+           desired value (i.e., "10pt", "11pt", "12pt", etc.).  The default is
+           to use the point size of the original LaTeX document.  This value
+           will be magnified by _$_F_I_G_U_R_E___S_C_A_L_E___F_A_C_T_O_R and _$_M_A_T_H___S_C_A_L_E___F_A_C_T_O_R
+           defined in _l_2_h_c_o_n_f_._p_m.
+
+       --(nnoo)tteexx__ddeeffss
+           Enable interpretation of raw TeX commands (default).  Note: There
+           are many variations of "\def" that LLaaTTeeXX22HHTTMMLL cannot process
+           correctly!
+
+       --(nnoo)nnaavviiggaattiioonn
+           Put a navigation panel at the top of each page (default).
+
+       --(nnoo)ttoopp__nnaavviiggaattiioonn
+           Enables navigation links at the top of each page (default).
+
+       --(nnoo)bboottttoomm__nnaavviiggaattiioonn
+           Enables navigation links at the bottom of each page.
+
+       --(nnoo)aauuttoo__nnaavviiggaattiioonn
+           Put navigation links at the top of each page. If the page exceeds
+           _$_W_O_R_D_S___I_N___P_A_G_E number of words then put one at the bottom of the
+           page.
+
+       --(nnoo)iinnddeexx__iinn__nnaavviiggaattiioonn
+           Put a link to the index page in the navigation panel.
+
+       --(nnoo)ccoonntteennttss__iinn__nnaavviiggaattiioonn
+           Put a link to the table of contents in the navigation panel.
+
+       --(nnoo)nneexxtt__ppaaggee__iinn__nnaavviiggaattiioonn
+           Put a link to the next logical page in the navigation panel.
+
+       --(nnoo)pprreevviioouuss__ppaaggee__iinn__nnaavviiggaattiioonn
+           Put a link to the previous logical page in the navigation panel.
+
+       --(nnoo)ffoooottnnooddee
+           Puts all footnotes onto a separate HTML page, called _f_o_o_t_n_o_d_e_._h_t_m_l,
+           rather than at the bottom of the page where they are referenced.
+
+       --(nnoo)nnuummbbeerreedd__ffoooottnnootteess
+           If true, you will get every footnote applied with a subsequent
+           number, else with a generic hyperlink icon.
+
+       --pprreeffiixx _o_u_t_p_u_t___f_i_l_e_n_a_m_e___p_r_e_f_i_x
+           Set the output file prefix, prepended to all ".html", ".gif" and
+           ".pl" files. See also --aauuttoo__pprreeffiixx.
+
+       --(nnoo)aauuttoo__pprreeffiixx
+           Set this to automatically insert the equivalent of --pprreeffiixx
+           "basename-"", where "basename" is the base name of the file being
+           translated.
+
+       --lloonngg__ttiittlleess _n_u_m
+           MISSING_DESCRIPTION
+
+       --(nnoo)ccuussttoomm__ttiittlleess
+           MISSING_DESCRIPTION
+
+       --ttiittllee|--tt _t_o_p___p_a_g_e___t_i_t_l_e
+           The title (displayed in the browser's title bar) the document shall
+           get.
+
+       --(nnoo)rrooootteedd
+           MISSING_DESCRIPTION
+
+       --rroooottddiirr _o_u_t_p_u_t___d_i_r_e_c_t_o_r_y
+           MISSING_DESCRIPTION
+
+       --ddiirr _o_u_t_p_u_t___d_i_r_e_c_t_o_r_y
+           Put the result in this directory instead of parallel to the LaTeX
+           file, provided the directory exists, or --mmkkddiirr is specified.
+
+       --mmkkddiirr
+           Allow directory specified with --ddiirr to be created if necessary.
+
+       --aaddddrreessss _a_u_t_h_o_r___a_d_d_r_e_s_s | --nnooaaddddrreessss
+           Supply a string to appear in the footer inside an <address> tag.
+           --nnooaaddddrreessss suppresses the generation of an address footer.
+
+       --(nnoo)ssuubbddiirr
+           If set (default), LLaaTTeeXX22HHTTMMLL creates (or reuses) another file
+           directory.  When false, the generated HTML files will be placed in
+           the current directory.
+
+       --iinnffoo _0 | _1 | _s_t_r_i_n_g
+       --nnooiinnffoo
+           If 0 is specified (or --nnooiinnffoo is used), do not generate an _"_A_b_o_u_t
+           _t_h_i_s _d_o_c_u_m_e_n_t_._._._" section. If 1 is specified (default), the
+           standard info page is generated. If a custom string is given, it is
+           used as the info page.
+
+       --(nnoo)aauuttoo__lliinnkk
+           MISSING_DESCRIPTION
+
+       --rreeuussee _n_u_m | --nnoorreeuussee
+           If false, do not reuse or recycle identical images generated in
+           previous runs. If the html subdirectory already exists, start the
+           interactive session.  If _n_u_m is nonzero, do recycle them and switch
+           off the interactive session.  If 1, only recycle images generated
+           from previous runs.  If 2, recycle images from the current and
+           previous runs (default).
+
+       --(nnoo)aannttiiaalliiaass__tteexxtt
+           Use anti-aliasing in the generation of images of typeset material;
+           e.g. mathematics and text, e.g. in tables and {makeimage}
+           environments.
+
+       --(nnoo)aannttiiaalliiaass
+           Use anti-aliasing in the generation of images of figures. This
+           usually results in "sharper" bitmap images.
+
+       --(nnoo)ttrraannssppaarreenntt
+           If this is set to false then any inlined images generated from
+           "figure" environments will NOT be transparent.
+
+       --(nnoo)wwhhiittee
+           This sets the background of generated images to white for anti-
+           aliasing.
+
+       --(nnoo)ddiissccaarrdd
+           if true, the PostScript file created for each generated image is
+           discarded immediately after its image has been rendered and saved
+           in the required graphics format. This can lead to significant
+           savings in disk-space, when there are a lot of images, since
+           otherwise these files are not discarded until the end of all
+           processing.
+
+       --iimmaaggee__ttyyppee _t_y_p_e
+           Specify the type of bitmap images to be generated. Depending on
+           your setup, LLaaTTeeXX22HHTTMMLL can generate ggiiff or ppnngg images. Note: Gif
+           images have certain legal restrictions, as their generation
+           involves an algorithm patented by Unisys.
+
+       --(nnoo)iimmaaggeess
+           If false, LLaaTTeeXX22HHTTMMLL will not attempt to produce any inlined
+           images.  The missing images can be generated "off-line" by
+           restarting LLaaTTeeXX22HHTTMMLL with --iimmaaggeess__oonnllyy.
+
+       --aacccceenntt__iimmaaggeess _t_y_p_e | --nnooaacccceenntt__iimmaaggeess
+           MISSING_DESCRIPTION
+
+       --ssttyyllee _s_t_y_l_e
+           MISSING_DESCRIPTION
+
+       --(nnoo)ppaarrbbooxx__iimmaaggeess
+           MISSING_DESCRIPTION
+
+       --(nnoo)mmaatthh
+           By default the special MATH extensions are not used since they do
+           not conform with the HTML 3.2 standard.
+
+       --(nnoo)mmaatthh__ppaarrssiinngg
+           MISSING_DESCRIPTION
+
+       --(nnoo)llaattiinn
+           MISSING_DESCRIPTION
+
+       --(nnoo)eennttiittiieess
+           MISSING_DESCRIPTION
+
+       --(nnoo)llooccaall__iiccoonnss
+           Set this if you want to copy the navigation icons to each document
+           directory so that the document directory is self-contained and can
+           be dropped into another server tree without further actions.
+
+       --(nnoo)ssccaallaabbllee__ffoonnttss
+           MISSING_DESCRIPTION
+
+       --(nnoo)iimmaaggeess__oonnllyy
+           When true, LLaaTTeeXX22HHTTMMLL will only try to convert the inlined images
+           in the file _i_m_a_g_e_s_._t_e_x which should have been generated
+           automatically during previous runs. This is very useful for
+           correcting "bad LaTeX" in this file.
+
+       --(nnoo)sshhooww__sseeccttiioonn__nnuummbbeerrss
+           When this is set true, the section numbers are shown. The section
+           numbers should then match those that would have been produced by
+           LaTeX.  The correct section numbers are obtained from the $FILE.aux
+           file generated by LaTeX.  Hiding the section numbers encourages use
+           of particular sections as standalone documents. In this case the
+           cross reference to a section is shown using the default symbol
+           rather than the section number.
+
+       --(nnoo)sshhooww__iinniitt
+           MISSING_DESCRIPTION
+
+       --iinniitt__ffiillee _P_e_r_l___f_i_l_e
+           MISSING_DESCRIPTION
+
+       --uupp__uurrll _u_p___U_R_L, --uupp__ttiittllee _u_p___t_i_t_l_e
+       --ddoowwnn__uurrll _d_o_w_n___U_R_L, --ddoowwnn__ttiittllee _d_o_w_n___t_i_t_l_e
+       --pprreevv__uurrll _p_r_e_v___U_R_L, --pprreevv__ttiittllee _p_r_e_v___t_i_t_l_e
+       --iinnddeexx _i_n_d_e_x___U_R_L,
+       --ccoonntteennttss _t_o_c___U_R_L
+       --bbiibblliioo _b_i_b_l_i_o___U_R_L
+           If both of the listed two options are set then the "Up" ("Previous"
+           etc.)  button of the navigation panel in the first node/page of a
+           converted document will point to _u_p___U_R_L etc. _u_p___t_i_t_l_e should be set
+           to some text which describes this external link.  Similarly you
+           might use these options to link external documents to your
+           navigation panel.
+
+       --eexxtteerrnnaall__ffiillee _e_x_t_e_r_n_a_l___a_u_x___f_i_l_e
+           MISSING_DESCRIPTION
+
+       --(nnoo)sshhoorrtt__iinnddeexx
+           If this is set then mmaakkeeiiddxx..ppeerrll will construct codified names for
+           the text of index references.
+
+       --(nnoo)uunnsseeggmmeenntt
+           Use this to translate a segmented document as if it were not
+           segmented.
+
+       --(nnoo)ddeebbuugg
+           If this is set then intermediate files are left for later
+           inspection and a lot of diagnostic output is produced. This output
+           may be useful when searching for problems and/or submitting bug
+           reports to the developers.  Temporary files include _$_$___i_m_a_g_e_s_._t_e_x
+           and _$_$___i_m_a_g_e_s_._l_o_g created during image conversion. Caution:
+           Intermediate files can be _e_n_o_r_m_o_u_s!
+
+       --ttmmpp _p_a_t_h
+           Path for temporary files. This should be a local, fast filesystem
+           because it is heavily used during image generation. The default is
+           set in _l_2_h_c_o_n_f_._p_m.
+
+       --(nnoo)lldduummpp
+           This will cause LaTeX2HTML to produce a LaTeX dump of images.tex
+           which is read in on subsequent runs and speeds up startup time of
+           LaTeX on the images.tex translation. This actually consumes
+           additional time on the first run, but pays off on subsequent runs.
+           The dump file will need about 1 Meg of disk space.
+
+       --(nnoo)ttiimmiinngg
+           MISSING_DESCRIPTION
+
+       --vveerrbboossiittyy _n_u_m
+           The amount of message information printed to the screen during
+           processing by LLaaTTeeXX22HHTTMMLL is controlled by this setting.  By
+           increasing this value, more information is displayed.  Here is the
+           type of extra information that is shown at each level:
+
+             0   no extra information
+             1   section types and titles
+             2   environment
+             3   command names
+             4   links, labels and internal sectioning codes
+
+       --hhttmmll__vveerrssiioonn _l_i_s_t
+           Which HTML version should be generated. Currently available are:
+           2.0, 3.0, 3.2, 4.0. Some additional options that may be added are:
+           "math" (parse mathematics), "i18n" (?), "table" (generate tables),
+           "frame" (generate frames), "latin1"..."latin9" (use ISO-Latin-x
+           encoding), "unicode" (generate unicode characters). Separate the
+           options with ',', e.g. "4.0,math,frame".
+
+       --(nnoo)ssttrriicctt
+           MISSING_DESCRIPTION
+
+FFIILLEESS
+       _$_L_A_T_E_X_2_H_T_M_L_P_L_A_T_D_I_R_/_l_2_h_c_o_n_f_._p_m
+           This file holds the global defaults and configuration settings for
+           LLaaTTeeXX22HHTTMMLL.
+
+       _$_H_O_M_E_/_._l_a_t_e_x_2_h_t_m_l_-_i_n_i_t
+       _._/_._l_a_t_e_x_2_h_t_m_l_-_i_n_i_t
+           These files may contain settings that override the global defaults,
+           just like specifying command line switches.
+
+EENNVVIIRROONNMMEENNTT
+       LATEX2HTMLDIR
+           Path where LaTeX2HTML library files are found. On this installation
+           LATEX2HTMLDIR is _/_u_s_r_/_l_o_c_a_l_/_C_e_l_l_a_r_/_l_a_t_e_x_2_h_t_m_l_/_2_0_1_7_._2
+
+       PERL5LIB
+           Set by the llaatteexx22hhttmmll program to find perl modules.
+
+       L2HCONFIG
+           An alternative configuration filename. The standard configuration
+           file is _$_L_A_T_E_X_2_H_T_M_L_P_L_A_T_D_I_R_/_l_2_h_c_o_n_f_._p_m. You may specify a sole
+           filename (searched for in _$_L_A_T_E_X_2_H_T_M_L_P_L_A_T_D_I_R (and _$_P_E_R_L_5_L_I_B) or a
+           complete path.
+
+       L2HINIT_NAME
+           The standard user-specific configuration filename is
+           _._l_a_t_e_x_2_h_t_m_l_-_i_n_i_t.  This environment variable will override this
+           name.
+
+       HOME
+           Evaluated if the system does not know about "home" directories
+           (like DOS, WinXX, OS/2, ...) to determine the path to
+           _$_L_2_H_I_N_I_T___N_A_M_E.
+
+       TEXE_DONT_INCLUDE, TEXE_DO_INCLUDE
+           Used internally for communication with tteexxeexxppaanndd.
+
+       TEXINPUTS
+           Used to find TeX includes of all sorts.
+
+PPRROOBBLLEEMMSS
+       For information on various problems and remedies see the WWW online
+       documentation or the documents available in the distribution.  An
+       online bug reporting form and various archives are available at
+       _h_t_t_p_:_/_/_w_w_w_._l_a_t_e_x_2_h_t_m_l_._o_r_g_/
+
+       There is a mailing list for discussing LLaaTTeeXX22HHTTMMLL: "latex2html@tug.org"
+
+AAUUTTHHOORR
+       Nikos Drakos,  Computer Based Learning Unit, University of Leeds
+       <nikos@cbl.leeds.ac.uk>. Several people have contributed suggestions,
+       ideas, solutions, support and encouragement.
+
+       The ppssttooiimmgg script was written by Marek Rouchal
+       <marek@saftsack.fs.uni-bayreuth.de> as a generalisation of the ppssttooggiiff
+       utility to allow graphic formats other than GIF to be created. Various
+       options and enhancements have been added by Ross Moore.  Some of the
+       code is based upon the pstoppm.ps postscript program originally written
+       by Phillip Conrad (Perfect Byte, Inc.)  and modified by L. Peter
+       Deutsch (Aladdin Enterprises).
+
+SSEEEE AALLSSOO
+       See the WWW online documentation or the _$_L_A_T_E_X_2_H_T_M_L_D_I_R_/_d_o_c_/_m_a_n_u_a_l_._p_s
+       file for more detailed information and examples.
+
+       pstoing, texexpand
+
+
+
+perl v5.18.2                      2017-04-03                     LATEX2HTML(1)

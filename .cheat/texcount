@@ -1,0 +1,23 @@
+Syntax: texcount.pl [options] files
+
+Use option -help (or just -h) to get help. For more detailed help, the
+following alternatives exist:
+  -help-man, -man	 Manual with more extensive help
+  -help-rule={macro/envir}   Macro/environment handling rule (backslash
+			 needed with macros)	   
+  -help-options (-hopt)   Get list of command line options
+  -help-options={substring}   Help on options containing substring
+  -help-styles		 List styles which determine how different elements
+			 (words, macros, etc) are presented in the verbose
+			 output
+  -help-style={style}	 Describe a particular style or style category
+  -help-tc, -help-instructions	 Help on %TC:instruction for inserting
+			 TeXcount instructions into the TeX code.
+
+Help, documentation, FAQ and updates are available from the TeXcount web
+page:
+  http://app.uio.no/ifi/texcount/
+or through running
+  texdoc texcount
+on the command line.
+

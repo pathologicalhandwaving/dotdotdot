@@ -1,0 +1,25 @@
+Usage: texlinks [OPTION]... [DIRECTORY]...
+
+Create symbolic links format -> engine according to fmtutil setup.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -e, --exeext EXT     append EXT to symlink targets (default: none)
+  -f, --cnffile FILE   use FILE as config file (default: fmtutil.cnf)
+  -m, --multiplatform  operate in all platform specific directories
+                        (default: operate only in directory for this platform)
+  -q, --quiet          silently skip existing scripts / binaries
+                        (default: issue warning)
+  -s, --silent         same as -q
+  -u, --unlink	       remove symlinks created by texlinks
+  -v, --verbose        enable verbose messages (default: off)
+  -h, --help           show this help text
+  --version            show version string
+
+The DIRECTORY arguments are an optional list of directories in which to
+operate.  If no directories are specified and --multiplatform is
+likewise not specified, the directory of this script itself is used.
+With --multiplatform, all child dirs of an upper-level bin/ dir are used.
+
+Report bugs to: tex-k@tug.org
+TeX Live home page: <http://tug.org/texlive/>
+

@@ -1,0 +1,23 @@
+Usage:
+	$ borg "your question"
+
+	$ borg COMMAND
+
+
+	  BORG - Terminal based search for bash snippets
+
+Commands:
+
+
+	+ worked  	Worked summary
+	+ editor  	Editor summary
+	+ pipeto  	Pipe To summary
+	+ edit    	Edit summary
+	+ link    	Link summary
+	+ login   	Login summary
+	+ new     	Save summary
+
+Options:
+
+
+	--help  	Show help

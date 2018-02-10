@@ -1,0 +1,71 @@
+[4mUsage[0m:
+  /usr/local/bin/screenfetch [OPTIONAL FLAGS]
+
+screenFetch - a CLI Bash script to show system/theme info in screenshots.
+
+[4mSupported GNU/Linux Distributions[0m:
+	Alpine Linux, Antergos, Arch Linux (Old and Current Logos), BLAG, BunsenLabs, 
+	CentOS, Chakra, Chapeau, Chrome OS, Chromium OS, CrunchBang, CRUX, Debian, 
+	Deepin, Devuan, Dragora, elementary OS, Evolve OS, Exherbo, Fedora, Frugalware, 
+	Fuduntu, Funtoo, Fux, Gentoo, gNewSense, Jiyuu Linux, Kali Linux, KaOS, KDE 
+	neon, Kogaion, Korora, LinuxDeepin, Linux Mint, LMDE, Logos, Mageia, 
+	Mandriva/Mandrake, Manjaro, Mer, Netrunner, NixOS, openSUSE, Oracle Linux, 
+	Parabola GNU/Linux-libre, Pardus, Parrot Security, PCLinuxOS, PeppermintOS, 
+	Qubes OS, Raspbian, Red Hat Enterprise Linux, ROSA, Sabayon, SailfishOS, 
+	Scientific Linux, Slackware, Solus, SparkyLinux, SteamOS, SUSE Linux 
+	Enterprise, SwagArch, TinyCore, Trisquel, Ubuntu, Viperr and Void.
+
+[4mOther Supported Systems[0m:
+	Dragonfly/Free/Open/Net BSD, Haiku, Mac OS X, Windows+Cygwin and Windows+MSYS2.
+
+[4mSupported Desktop Managers[0m:
+	KDE, GNOME, Unity, Xfce, LXDE, Cinnamon, MATE, Deepin, CDE, RazorQt and Trinity.
+
+[4mSupported Window Managers[0m:
+	2bwm, 9wm, Awesome, Beryl, Blackbox, Cinnamon, chromeos-wm, Compiz, deepin-wm, 
+	dminiwm, dwm, dtwm, E16, E17, echinus, Emerald, FluxBox, FLWM, FVWM, 
+	herbstluftwm, howm, IceWM, KWin, Metacity, monsterwm, Musca, Gala, Mutter, 
+	Muffin, Notion, OpenBox, PekWM, Ratpoison, Sawfish, ScrotWM, SpectrWM, StumpWM, 
+	subtle, sway, TWin, WindowMaker, WMFS, wmii, Xfwm4, XMonad and i3.
+
+[4mOptions[0m:
+   [1m-v[0m                 Verbose output.
+   [1m-o 'OPTIONS'[0m       Allows for setting script variables on the
+                      command line. Must be in the following format...
+                      'OPTION1="OPTIONARG1";OPTION2="OPTIONARG2"'
+   [1m-d '+var;-var;var'[0m Allows for setting what information is displayed
+                      on the command line. You can add displays with +var,var. You
+                      can delete displays with -var,var. Setting without + or - will
+                      set display to that explicit combination. Add and delete statements
+                      may be used in conjunction by placing a ; between them as so:
+                      +var,var,var;-var,var.
+   [1m-n[0m                 Do not display ASCII distribution logo.
+   [1m-L[0m                 Display ASCII distribution logo only.
+   [1m-N[0m                 Strip all color from output.
+   [1m-w[0m                 Wrap long lines.
+   [1m-t[0m                 Truncate output based on terminal width (Experimental!).
+   [1m-p[0m                 Portrait output.
+   [1m-s [-u IMGHOST][0m    Using this flag tells the script that you want it
+                      to take a screenshot. Use the -u flag if you would like
+                      to upload the screenshots to one of the pre-configured
+                      locations. These include: teknik, imgur, mediacrush and hmp.
+   [1m-c string[0m          You may change the outputted colors with -c. The format is
+                      as follows: [0-9][0-9],[0-9][0-9]. The first argument controls the
+                      ASCII logo colors and the label colors. The second argument
+                      controls the colors of the information found. One argument may be
+                      used without the other.
+   [1m-a 'PATH'[0m          You can specify a custom ASCII art by passing the path
+                      to a Bash script, defining `startline` and `fulloutput`
+                      variables, and optionally `labelcolor` and `textcolor`.
+                      See the `asciiText` function in the source code for more
+                      informations on the variables format.
+   [1m-S 'COMMAND'[0m       Here you can specify a custom screenshot command for
+                      the script to execute. Surrounding quotes are required.
+   [1m-D 'DISTRO'[0m        Here you can specify your distribution for the script
+                      to use. Surrounding quotes are required.
+   [1m-A 'DISTRO'[0m        Here you can specify the distribution art that you want
+                      displayed. This is for when you want your distro
+                      detected but want to display a different logo.
+   [1m-E[0m                 Suppress output of errors.
+   [1m-V, --version[0m      Display current script version.
+   [1m-h, --help[0m         Display this help.
