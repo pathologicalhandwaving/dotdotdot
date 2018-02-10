@@ -30,7 +30,8 @@ alias cat=ccat
 
 # Lock
 #alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
-
+# Current Coordinates
+alias coords='locateme -f "Latitude: {LAT} Longitude: {LON}"'
 # StarDict Colorized
 alias sdcv='sdcv -n --utf8-output --color "$@" 2>&1 | fold --width=$(tput cols) | less -FRX'
 
