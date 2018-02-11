@@ -4,7 +4,7 @@
 # Basic
 source /Users/Em/.bashrc
 source /Users/Em/.aliases
-source /Users/Em/.apitokens
+source /Users/Em/.app-envs/apitokens
 source /Users/Em/.exports
 source /Users/Em/'.functions'
 source /Users/Em/.apps
