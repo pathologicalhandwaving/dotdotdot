@@ -1,4 +1,6 @@
 
+.myscripts/bashmarks/*
+.myscripts/bashmarks
 # API
 .app-env/*
 
