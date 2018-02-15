@@ -4,7 +4,7 @@ autotag:
   synonyms: {}
 doing_file: "/Users/Em/Dropbox/Doing/what_was_i_doing.md"
 current_section: Currently
-editor_app: 
+editor_app: vim
 templates:
   default:
     date_format: "%Y-%m-%d %H:%M"

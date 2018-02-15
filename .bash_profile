@@ -35,7 +35,9 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 
 
 # GO Path
-export PATH="$PATH:/usr/local/opt/go/libexec/bin"
+export GOPATH="/Users/Em/.go"
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 
