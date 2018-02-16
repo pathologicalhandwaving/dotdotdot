@@ -1,0 +1,13 @@
+idea help
+usage: idea [command] <idea|filter|id>
+
+A lightweight CLI tool and module for keeping your ideas in a safe place quick and easy.
+
+[command]
+  create <idea>           Creates and saves a new idea. Example: `idea create "Implement something very cool"`
+  list                    Lists all ideas. Example: `idea list`
+  filter <filter>         Lists filtered ideas. Example: `idea filter '{"state": "SOLVED"}'`
+  solve <id>              Solves an idea. Example `idea solve 1`
+  help                    Prints this help.
+
+Documentation can be found at https://github.com/IonicaBizau/idea

@@ -1,0 +1,30 @@
+bibtool [options] [-o outfile] [[-i] infile] ...
+
+	Options:
+	-A<c>		Kind of disambiguating key strings: <c>=0|a|A
+	-c		Include crossreferenced entries into the output (toggle)
+	-d		Check double entries (toggle)
+	-f <format>	Key generation enabled (formatted key)
+	-F		Key generation enabled with formatted key
+	-h		Print this help info and exit
+	[-i] infile	Specify input file. If -i omitted it may not start
+			with a -. If absent stdin is taken to read from.
+			Multiple input files may be given.
+	-k		Key generation enabled.
+	-K		Key generation enabled (long key).
+	-m macfile	Dump macros to macfile. - is stdout
+	-M macfile	Dump used macros to macfile. - is stdout
+	-o outfile	Specify output file as next argument
+			If absent stdout is taken to write to.
+	-q		Quiet mode. No warnings.
+	-r resource	Load resource file (several are possible).
+	-R		Load default resource file here.
+	-s		Sort.
+	-S		Sort reverse.
+	-v		Enable verbose mode.
+	-V		Print version and exit.
+	-x file		Extract from aux file.
+	-X <regex>	Extract regular expression.
+	-- <rsc>	Evaluate one resource command <rsc>.
+	-@		Print statistics (short).
+	-#		Print statistics.
