@@ -30,7 +30,8 @@ alias cat=ccat
 
 # Lock
 #alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
-
+# Current Coordinates
+alias coords='locateme -f "Latitude: {LAT} Longitude: {LON}"'
 # StarDict Colorized
 alias sdcv='sdcv -n --utf8-output --color "$@" 2>&1 | fold --width=$(tput cols) | less -FRX'
 
@@ -107,6 +108,9 @@ alias dlv='youtube-dl -f bestvideo+bestaudio[ext=mp4] -i --output "/Users/Em/Mov
 # MOTD
 alias motd="bash /Users/Em/.myscripts/motd.sh"
 
+# QQ
+alias qq="bash /Users/Em/.qq/qq"
+
 # TODO: Fix me
 #alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
 
@@ -114,4 +118,5 @@ alias motd="bash /Users/Em/.myscripts/motd.sh"
 #alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
 #alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
 #alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"
-  
+ 
+

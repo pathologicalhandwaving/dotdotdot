@@ -1,7 +1,10 @@
-
+.qq/notes/*
+.myscripts/bashmarks/*
+.myscripts/bashmarks
 # API
 .app-env/*
 
+.config/configstore/update-notifier-npm.json
 # links
 .links/links.hst
 .links/socket

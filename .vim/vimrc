@@ -16,6 +16,8 @@ set noswapfile
 set spell
 set spelllang=en_us
 filetype plugin on
+set cursorline
+set cursorcolumn
 syntax on
 
 "" COLORS
@@ -44,7 +46,7 @@ source $VIMHOME/pack/settings/limelight.vim
 source $VIMHOME/pack/settings/goyo.vim
 source $VIMHOME/pack/settings/vim-gitgutter.vim
 source $VIMHOME/pack/settings/YUNOcommit.vim
-
+"source $VIMHOME/pack/settings/myHighlights.vim
 
 
 "" DICTIONARIES
