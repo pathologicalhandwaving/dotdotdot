@@ -2,7 +2,7 @@
 
 FILE=/Users/Em/Repos/ScratchPad/ScratchPad.md
 dated=$(date "+Y-%m-%d")
-timed=$(date -d "+%HH:%mm:%ss%Z")
+timed=$(date "+%H:%m")
 
 read -p 'Note: ' note
 
