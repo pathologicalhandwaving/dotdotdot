@@ -111,6 +111,10 @@ alias motd="bash /Users/Em/.myscripts/motd.sh"
 # QQ
 alias qq="bash /Users/Em/.qq/qq"
 
+# SCRATCHPAD
+alias scratchpad="bash /Users/Em/.myscripts/ScratchPad.sh"
+
+#####
 # TODO: Fix me
 #alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
 
