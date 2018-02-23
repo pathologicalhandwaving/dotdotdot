@@ -1,8 +1,8 @@
 #!/bin/bash
 
 FILE=/Users/Em/Repos/ScratchPad/ScratchPad.md
-dated=$(date "+%Y-%M-%d")
-timed=$(date "+%H:%m")
+dated=$(date "+%Y-%m-%d")
+timed=$(date "+%H:%M")
 
 read -p 'Note: ' note
 
