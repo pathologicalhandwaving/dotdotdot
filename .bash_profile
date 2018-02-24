@@ -21,6 +21,8 @@ source /Users/Em/.edits
 #source /Users/Em/.apps
 
 
+# colorls
+source $(dirname $(gem which colorls))/tab_complete.sh
 
 
 # Bashmarks
