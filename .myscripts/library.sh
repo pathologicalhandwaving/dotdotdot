@@ -3,14 +3,17 @@
 . /Users/Em/.myscripts/library.sh
 
 
-# Set Variables
+# VARIABLES
 
 ## Make True and False ReadOnly
 declare -r TRUE=0
 declare -r FALSE=1
 
 
+
 ### ANSI COLORING
+
+
 
 # Print Red
 function red {
@@ -57,7 +60,11 @@ function white {
     echo -e "\e[0;37m"$@"\e[0;37m"
 }
 
-### Color Code Strings
+
+
+### STRING THINGS
+
+
 
 # Throw Error
 function error() {
@@ -65,38 +72,23 @@ function error() {
     exit
 }
 
+
 # Throw Warning
 function warn() {
     printf "${byellow}${1}${white}\n"
     exit
 }
 
+
 # Throw Success
 function success() {
     printf "${bgreen}${1}${bblue}\n"
 }
 
+
 # Escape Characters in String
 funtion escape() {
   printf "%q " $1
-}
-
-# URL Encode String
-function urlenc() {
-    local string="${1}"
-    local strlen=${#string}
-    local encoded=""
-
-    for (( pos=0 ; pos<strlen ; pos++ )); do
-        c=${string:$pos:1}
-        case "$c" in
-            [-_.~a-zA-Z0-9] ) o="${c}" ;;
-            * )               printf -v o '%%%02x' "'$c"
-        esac
-        encoded+="${o}"
-    done
-    
-    echo "${encoded}"
 }
 
 
@@ -108,6 +100,7 @@ function lowercased() {
     echo $output
 }
 
+
 # Convert String to Uppercase
 function uppercased() {
     local str="$@"
@@ -115,6 +108,7 @@ function uppercased() {
     output=$(tr`[a-z]` `[A-Z]`<<<"${str}")
     echo $output
 }
+
 
 # Print Like a Typewriter
 function typewrite() {
@@ -157,23 +151,44 @@ function typewrite() {
 }
 
 
-### More Stuff
 
-# Histogram
-function histogram () {
-        awk ' NF > 0{ counts[$0] = counts[$0] + 1; } END { for (word in counts) print word, counts[word]; }'
+### URL STUFF
+
+
+
+# URL Encode String
+function urlenc() {
+    local string="${1}"
+    local strlen=${#string}
+    local encoded=""
+
+    for (( pos=0 ; pos<strlen ; pos++ )); do
+        c=${string:$pos:1}
+        case "$c" in
+            [-_.~a-zA-Z0-9] ) o="${c}" ;;
+            * )               printf -v o '%%%02x' "'$c"
+        esac
+        encoded+="${o}"
+    done
+    
+    echo "${encoded}"
 }
 
-# Average 
-function avg () {
-        awk '{ s+=$1 } END {  print 's/NR' }'
+
+# Create Data URL from File
+function dataurl() {
+    local mimeType=$(file -b --mime-type "$1");
+    if [[ $mimeType == text/* ]]; then
+        mimeType="${mimeType};charset=utf-8";
+    fi
+    echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')";
 }
 
-# Find My IP
-function myip() {
-    local ip=$(curl http://ifconfig.me/ip)
-    echo $ip
-}
+
+
+### FILES AND DIRECTORIES
+
+
 
 # BackUp File
 # Usage "backupf filename.txt"
@@ -187,20 +202,34 @@ function lsd () {
     ls -l | grep "^d" | awk '{ print $9 }' | tr -d "/"
 }
 
+
 # CD into Frontmost Finder Window
 function cdf() {  # short for cdfinder
   cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
 }
 
-# Print Battery Life
-function batterylife() {
-  printf ' Battery Life: ' && ioreg -l | grep -i capacity | tr '\n' ' | ' | awk '{ printf("%.2f%%", $10/$5 * 100) }' && echo ""
+
+
+### NETWORK STUFF
+
+
+
+# Find My IP
+function myip() {
+    local ip=$(curl http://ifconfig.me/ip)
+    echo $ip
 }
+
 
 # WebTraffic
 function webtraffic () {
     awk "{sum+=$10} END {print sum/1024/1024/1024}" "$(retlog)"
 }
+
+
+
+### GIT HELPERS
+
 
 
 # Git Commit and Push All Changes
@@ -211,11 +240,28 @@ function gacp() {
 }
 
 
-# Create Data URL from File
-function dataurl() {
-    local mimeType=$(file -b --mime-type "$1");
-    if [[ $mimeType == text/* ]]; then
-        mimeType="${mimeType};charset=utf-8";
-    fi
-    echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')";
+### HARDWARE STATUS
+
+
+
+# Print Battery Life
+function batterylife() {
+  printf ' Battery Life: ' && ioreg -l | grep -i capacity | tr '\n' ' | ' | awk '{ printf("%.2f%%", $10/$5 * 100) }' && echo ""
+}
+
+
+
+### MATHISH
+
+
+
+# Histogram
+function histogram () {
+        awk ' NF > 0{ counts[$0] = counts[$0] + 1; } END { for (word in counts) print word, counts[word]; }'
+}
+
+
+# Average 
+function avg () {
+        awk '{ s+=$1 } END {  print 's/NR' }'
 }
