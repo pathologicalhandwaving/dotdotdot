@@ -1,4 +1,13 @@
 #!/bin/bash
+# Load Library into Shell
+. /Users/Em/.myscripts/library.sh
+
+
+# Set Variables
+
+## Make True and False ReadOnly
+declare -r TRUE=0
+declare -r FALSE=1
 
 
 ### ANSI COLORING
@@ -90,7 +99,24 @@ function urlenc() {
     echo "${encoded}"
 }
 
-# Print a Message typewriter
+
+# Convert String to Lowercase
+function lowercased() {
+    local str="$@"
+    local output
+    output=$(tr `[A-Z]` `[a-z]`<<<"${str}")
+    echo $output
+}
+
+# Convert String to Uppercase
+function uppercased() {
+    local str="$@"
+    local output
+    output=$(tr`[a-z]` `[A-Z]`<<<"${str}")
+    echo $output
+}
+
+# Print Like a Typewriter
 function typewrite() {
     MESSAGE_TYPE="$1"
     MESSAGE="$2"
@@ -152,13 +178,23 @@ function myip() {
 # BackUp File
 # Usage "backupf filename.txt"
 function backupf () {
-    cp $1 ${1}-`date +%Y%m%d%H%M`.backup;
+    cp $1 ${1}-"date +%Y%m%d%H%M".backup;
 }
 
 
 # LS Directories
-function dls () {
+function lsd () {
     ls -l | grep "^d" | awk '{ print $9 }' | tr -d "/"
+}
+
+# CD into Frontmost Finder Window
+function cdf() {  # short for cdfinder
+  cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
+}
+
+# Print Battery Life
+function batterylife() {
+  printf ' Battery Life: ' && ioreg -l | grep -i capacity | tr '\n' ' | ' | awk '{ printf("%.2f%%", $10/$5 * 100) }' && echo ""
 }
 
 # WebTraffic
@@ -175,5 +211,11 @@ function gacp() {
 }
 
 
-
-
+# Create Data URL from File
+function dataurl() {
+    local mimeType=$(file -b --mime-type "$1");
+    if [[ $mimeType == text/* ]]; then
+        mimeType="${mimeType};charset=utf-8";
+    fi
+    echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')";
+}
