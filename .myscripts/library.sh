@@ -1,6 +1,6 @@
 #!/bin/bash
 # Load Library into Shell
-. /Users/Em/.myscripts/library.sh
+#. /Users/Em/.myscripts/library.sh
 
 
 # VARIABLES
@@ -190,6 +190,10 @@ function dataurl() {
 
 
 
+# Find in Current Directory
+alias findhere="find . -name "
+
+
 # BackUp File
 # Usage "backupf filename.txt"
 function backupf () {
@@ -213,6 +217,8 @@ function cdf() {  # short for cdfinder
 ### NETWORK STUFF
 
 
+# See Which Apps are using the Network
+alias listen="lsof -P -i -n" 
 
 # Find My IP
 function myip() {
