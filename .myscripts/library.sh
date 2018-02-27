@@ -217,6 +217,9 @@ function cdf() {  # short for cdfinder
 ### NETWORK STUFF
 
 
+# Download Website
+alias websiteget="wget --random-wait -r -p -e robots=off -U mozilla"
+
 # See Which Apps are using the Network
 alias listen="lsof -P -i -n" 
 
@@ -271,3 +274,12 @@ function histogram () {
 function avg () {
         awk '{ s+=$1 } END {  print 's/NR' }'
 }
+
+
+# Countdown Timer
+MIN=1 && for i in $(seq $(($MIN*60)) -1 1); do echo -n "$i, "; sleep 1; done; echo -e "\n\nBOOOM! Time to start."
+
+# Quick Reference All Date Formats
+
+alias dateh='date --help|sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t'
+
