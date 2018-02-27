@@ -47,6 +47,8 @@ source $VIMHOME/pack/settings/goyo.vim
 source $VIMHOME/pack/settings/vim-gitgutter.vim
 source $VIMHOME/pack/settings/YUNOcommit.vim
 "source $VIMHOME/pack/settings/myHighlights.vim
+source $VIMHOME/ftplugins/python/ipy.vim
+
 
 
 "" DICTIONARIES
