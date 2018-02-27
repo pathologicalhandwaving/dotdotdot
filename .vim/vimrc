@@ -3,11 +3,15 @@
 
 set hidden
 set hlsearch
+set incsearch
+set lazyredraw
+set magic
 set number
 set numberwidth=3
 set tabstop=4
 set noexpandtab
 set shiftwidth=4
+set foldcolumn=1
 set wrap
 set autoindent
 set backspace=indent,eol,start
@@ -16,6 +20,10 @@ set noswapfile
 set spell
 set spelllang=en_us
 filetype plugin on
+filetype indent on
+set autoread
+set wildmenu
+set ruler
 set cursorline
 set cursorcolumn
 syntax on
@@ -27,8 +35,14 @@ autocmd BufEnter * :syntax sync fromstart
 
 syntax enable
 set background=dark
-colorscheme nord
+try
+    colorscheme kalisi
+catch
+endtry
 
+let g:airline-theme='kalisi'
+
+set cmdheight=2
 
 "" SHELL
 let $SHELL='/bin/bash'
@@ -39,7 +53,7 @@ if !$VIMHOME
 endif
 
 "" SETTINGS
-source $VIMHOME/pack/settings/nord.vim
+"source $VIMHOME/pack/settings/nord.vim
 source $VIMHOME/pack/settings/mappings.vim
 source $VIMHOME/pack/settings/lightline.vim
 source $VIMHOME/pack/settings/limelight.vim
@@ -47,6 +61,8 @@ source $VIMHOME/pack/settings/goyo.vim
 source $VIMHOME/pack/settings/vim-gitgutter.vim
 source $VIMHOME/pack/settings/YUNOcommit.vim
 "source $VIMHOME/pack/settings/myHighlights.vim
+source $VIMHOME/colors/kalisi.vim
+source $VIMHOME/pack/plugins/start/airlines-themes.vim
 
 
 "" DICTIONARIES
@@ -56,6 +72,5 @@ if has ('mouse')
 	set mouse=a
 endif
 
-"" SEARCH
-set incsearch
+
 
