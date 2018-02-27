@@ -21,6 +21,8 @@ set spell
 set spelllang=en_us
 filetype plugin on
 filetype indent on
+set ai
+set si
 set autoread
 set wildmenu
 set ruler
@@ -67,10 +69,24 @@ source $VIMHOME/pack/plugins/start/airlines-themes.vim
 
 "" DICTIONARIES
 
+" ss toggles spelling
+map <leader>ss :setlocal spell!<cr>
+
+
 "" MOUSE
 if has ('mouse')
 	set mouse=a
 endif
 
+" When File is Reopened go to Last Position
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 
+" Always Show Status Line
+set laststatus=2
+
+" Format the Status Line
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+
+" Quick Open Scratchpad Buffer
+map <leader>q :e ~/buffer<cr>
