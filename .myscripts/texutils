@@ -9,3 +9,7 @@ alias bibfile="vim /Users/Em/Repos/bibTexDB/central-bibliography.bib"
 # Where is bibfile
 alias 'whereismybib'="echo 'The Central Bibliography is in Repos/bibTexDB'"
 
+
+# Append TEXROOT Information to all files in a directory
+
+# for file in src/chapters/*; do; echo $file; echo '% !TEX root =../qualificacao.tex' | cat - $file > temp && mv -f temp $file && rm -f temp; done
