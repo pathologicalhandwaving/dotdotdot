@@ -1,0 +1,169 @@
+# Nord Color Scheme
+
+
+## Base Component "Polar Night"  
+
+Usage:  
+  + texts  
+  + backgrounds  
+  + carets  
+  + structuring characters (curly and square brackets)  
+
+
+Color Profile Information:    
+  + component name: nord0  
+  + color name: Polar Night  
+  + hex: #2e3440  
+
+Markup:  
+  `<div style="background-color:#2e3440; width=60; height=60"></div>`  
+
+
+### Component Shade 1  
+
+Lighter shade of base component  
+
+Usage:  
+  + UI elements such as status bars  
+
+Color Information:  
+  + component name: nord1  
+  + hex: #3b4252  
+
+Markup:  
+  `<div style="background-color:#3b4252; width=60; height=60"></div>`  
+
+
+### Component Shade 2  
+
+Lighter still shade of base component color  
+
+Usage:  
+  + line highlighting in editor  
+  + UI scope as selection and highlight color  
+
+Color Information:  
+  + component name: nord2  
+  + hex: #434c5e  
+
+Markup:  
+  `<div style="background-color=#434c5e; width=60; height=60"></div>`  
+
+
+### Component Shade 3  
+
+Lightest shade of base component Polar Night  
+
+Usage:  
+  + comments  
+  + invisibles  
+  + indent marker  
+  + wrap guide marker  
+  + UI scope as pseudoclass color for disabled elements
+
+Color Information:  
+  + component name: nord3  
+  + hex: #4c566a  
+
+Markup:  
+  `<div style=background-color:#4c566a; width=60; height=60"></div>`  
+
+
+## Base Component Color "Snow Storm"  
+
+Usage:  
+  + main text color  
+  + variables  
+  + constants  
+  + attributes  
+  + UI scope used as semi-light background depending on the theme shading design  
+
+Color Profile Informaiton:  
+  + component name: nord4  
+  + color name: "Snow Storm"
+  + hex: #d8dee9
+
+Markup:  
+  `<div style=background-color:#d8dee9; width=60; height=60"></div>`  
+
+
+### Base Component Shade 5
+
+Usage:  
+  + background color of UI elements such as status bars
+  + semi-light background
+
+Color Information:
+  component name: nord5  
+  hex: #e5e9f0  
+
+Markup:  
+  `<div style=background-color="#e5e9fe; width=60; height=60"></div>`  
+
+### Base Component Shade 6  
+
+Usage:  
+  + punctuations  
+  + carets  
+  + structuring characters such as curly and square brackets  
+
+Color Information:  
+  + component name: nord6  
+  + hex: #eceff4
+
+Markup:  
+  `<div style=background-color:#eceff4; width=60; height=60"></div>`  
+
+
+## Core Colors
+
+### Blue Core Color
+
+Usage:  
+  + classes  
+  + types  
+  + documentation tags  
+
+Color Profile Information:  
+  + component name: nord7  
+  + color name: frost  
+  + hex: #8fbcbb 
+
+Markup:  
+  `<div style=background-color:#8fbcbb; width=60; height=60"></div>`  
+
+### Blue Accent Color
+
+Usage:  
+  + Main color of primary UI elements
+  + methods  
+  + functions  
+  + markup quotes
+  + markup link URLs
+
+Shade Information:
+  + component name: nord8  
+  + hex: #88c0d0
+
+Markup:  
+  `<div style=background-color:#88c0d0; width=60; height=60"></div>`  
+
+### Blue Syntax Color
+
+Usage:  
+  + Language specific syntactic/support characters
+  + keywords
+  + operators
+  + tags
+  + units
+  + punctuation such as semi-colons, commas, braces
+
+Shade Information:  
+  + component name: nord9  
+  + hex: #81a1c1  
+
+Markup:  
+  `<div style=background-color:#81a1c1; width=60; height=60"></div>`  
+
+
+r# Blue Markup Color 
