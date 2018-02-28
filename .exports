@@ -8,7 +8,12 @@ export PATH="/usr/local/sbin:$PATH"
 # bin PATH
 export PATH="/usr/local/bin:$PATH"
 
+export PYTHONPATH="/usr/local/bin/python3"
 
+# MATPLOTLIB iTern Backend
+export MPLBACKEND="module://itermplot"
+# Dark Background
+export ITERMPLOT=rv
 
 # Node NPM Path
 export PATH="/usr/local/share/npm/bin:$PATH"
