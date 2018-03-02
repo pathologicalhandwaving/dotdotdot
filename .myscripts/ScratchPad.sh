@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=/Users/Em/Repos/ScratchPad/ScratchPad.md
+FILE=/Users/Em/Repos/ScratchPad/ScratchPad.yaml
 dated=$(date "+%Y-%m-%d")
 timed=$(date "+%H:%M")
 
