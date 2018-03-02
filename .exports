@@ -2,15 +2,13 @@
 
 # Exports
 export TERM=xterm-256color
-# sbin PATH
-export PATH="/usr/local/sbin:$PATH"
 
-# bin PATH
-export PATH="/usr/local/bin:$PATH"
-
+# Python 3 Path
 export PYTHONPATH="/usr/local/bin/python3"
+# Python Encoding
+export PYTHONENCODING='UTF-8'
 
-# MATPLOTLIB iTern Backend
+# MATPLOTLIB iTerm Backend
 export MPLBACKEND="module://itermplot"
 # Dark Background
 export ITERMPLOT=rv
@@ -18,24 +16,23 @@ export ITERMPLOT=rv
 # Node NPM Path
 export PATH="/usr/local/share/npm/bin:$PATH"
 
-# gnu path
+# GNU
 MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
-# XML
 
 # MySQL Path
 export PATH="/usr/local/mysql/bin:$PATH"
 
-
-
-# Python Encoding
-export PYTHONENCODING='UTF-8';
-
-# Go Path
-export GOPATH="/usr/local/opt/go/libexec/bin:$PATH"
+# Old Go Path
+#export GOPATH="/usr/local/opt/go/libexec/bin:$PATH"
 #export PATH=$PATH:$GOPATH="/Users/Em/Projects/GoCode"
+
+# GO Path
+export GOPATH="/Users/Em/.go"
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 
 # Less
@@ -54,4 +51,15 @@ export CHEATCOLORS=true
 export DEFAULT_CHEAT_DIR="/Users/Em/.cheat"
 export CHEATPATH="$CHEATPATH:/Users/Em/.cheat"
 
+# TinyCareBot
+source "/Users/Em/.tinycarebot"
 
+
+# icu4c
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+
+
+# Ruby
+if which ruby >/dev/null && which gem >/dev/null; then
+    PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+fi

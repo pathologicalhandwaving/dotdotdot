@@ -15,4 +15,65 @@ alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date
 
 
 
+# Current Coordinates
+alias coords='locateme -f "Latitude: {LAT} Longitude: {LON}"'
 
+# StarDict Colorized
+alias sdcv='sdcv -n --utf8-output --color "$@" 2>&1 | fold --width=$(tput cols) | less -FRX'
+
+
+# IP Stuff
+
+# Find My IP
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+# Local IP
+alias localip="ipconfig getifaddr en0"
+
+# Get IPs
+alias ips="ifconfig -a | grep -0 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.)\{3\}[0-9]\+\)\[1-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr)? ?/, \"\"; print}'"
+
+# FLUSH DNS
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# SNIFF PORTS
+alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
+
+# HTTP DUMP
+alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+
+
+# Cleanup Mac Crud
+alias maccleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+
+# LOOK BUSY
+alias imbusy='rnd_file=$(find /usr/include -type f -size +5k | sort -R | head -n 1) && vim +$((RANDOM%$(wc -l $rnd_file | cut -f1 -d" "))) $rnd_file'
+
+
+# youtube-dl
+
+#alias dlmp4="youtube-dl -o '/Users/Em/Movies/Downloads/%(title)s.%(ext)s' -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'$1"
+
+# Download Audio
+alias dla='youtube-dl -x -f bestaudio --audio-format=mp3 -i --output "/Users/Em/Music/Downloads/%(title)s.%(ext)s"'
+
+# Download Video
+alias dlv='youtube-dl -f bestvideo+bestaudio[ext=mp4] -i --output "/Users/Em/Movies/Downloads/%(title)s.%(ext)s"'
+
+# MOTD
+alias motd="bash /Users/Em/.myscripts/motd.sh"
+
+# QQ
+alias qq="bash /Users/Em/.qq/qq"
+
+# SCRATCHPAD
+alias scratchpad="bash /Users/Em/.myscripts/ScratchPad.sh"
+
+#####
+# TODO: Fix Dead Stuff
+#alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
+
+# Graveyard
+#alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
+#alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
+#alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"

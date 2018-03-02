@@ -7,7 +7,7 @@ source /Users/Em/.aliases
 source /Users/Em/.app-envs/apitokens
 source /Users/Em/.exports
 source /Users/Em/'.functions'
-source /Users/Em/.apps
+
 
 #source ~/.bash_prompt
 
@@ -28,27 +28,11 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 # Bashmarks
 source ~/.local/bin/bashmarks.sh
 
-export PATH="/usr/local/mysql/bin:$PATH"
-
-export PATH="/usr/local/sbin:$PATH"
 
 # iTerm Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
 
-# GO Path
-export GOPATH="/Users/Em/.go"
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-export PATH="/usr/local/opt/icu4c/sbin:$PATH"
-
-# Ruby
-if which ruby >/dev/null && which gem >/dev/null; then
-    PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
-fi
-
-
+### LAST LINE
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-
-source "/Users/Em/.tinycarebot"

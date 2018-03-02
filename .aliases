@@ -1,23 +1,9 @@
 # Aliases
 
-# Edit Karabiner private.xml
-alias karabin="vim '/Users/Em/Library/Application Support/Karabiner/private.xml'"
-
-# Edit .bash_profile
-alias ebp="vim /Users/Em/.bash_profile"
-# Edit .bashrc
-alias ebrc="vim /Users/Em/.bashrc"
-# Edit Hammerspoon init.lua
-alias eham="vim /Users/Em/.hammerspoon/init.lua"
-# Edit vimrc
-alias evim="vim /Users/Em/.vim/vimrc"
-
-#alias note="bash /Users/Em/.myscripts/note.sh"
-
 # Pull All Project Repos
 alias gitit="cd /Users/Em/Repos && git-pull-all"
 
-# List declared aliases, functions
+# List declared aliases and functions
 alias lsaliases="alias | sed 's/=.*//'"
 
 # Show non-prefixed functions
@@ -28,12 +14,8 @@ alias su="sudo"
 # cat is color cat (ccat)
 alias cat=ccat
 
-# Lock
-#alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
-# Current Coordinates
-alias coords='locateme -f "Latitude: {LAT} Longitude: {LON}"'
-# StarDict Colorized
-alias sdcv='sdcv -n --utf8-output --color "$@" 2>&1 | fold --width=$(tput cols) | less -FRX'
+# Lock MacBook
+alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
 # Handy
 alias cl="clear"
@@ -54,35 +36,14 @@ alias pur="sudo purge"
 # Homebrew
 alias bup="brew update && brew upgrade && brew cleanup"
 
-# Colorize ls
-if ls --color > /dev/null 2>&1; then # GNU `ls`
-    colorflag="--color"
-    export LS_COLORS='no=00:fi=00:di=01;31:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
-else # macOS `ls`
-    colorflag="-G"
-    export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
-fi
 
-alias ls="ls ${colorflag}"
-alias ll="ls ${colorflag}"
-alias lk="ls ${colorflag}"
-alias 'l:'="ls ${colorflag}"
-alias ks="ls ${colorflag}"
-
-
-# IP Stuff
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="ipconfig getifaddr en0"
-alias ips="ifconfig -a | grep -0 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.)\{3\}[0-9]\+\)\[1-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr)? ?/, \"\"; print}'"
-alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
-alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
-alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
-
-# Cleanup Mac Crud
-alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
-
-
-alias busywrite='rnd_file=$(find /usr/include -type f -size +5k | sort -R | head -n 1) && vim +$((RANDOM%$(wc -l $rnd_file | cut -f1 -d" "))) $rnd_file'
+# Frequent LS Typos
+alias ls="ls"
+alias ll="ls"
+alias lk="ls"
+alias 'l:'="ls"
+alias ks="ls"
+alias sl="ls"
 
 
 
@@ -97,30 +58,5 @@ alias gh="git push"
 alias conp="config pull"
 alias conu="config push"
 
-# youtube-dl
 
-#alias dlmp4="youtube-dl -o '/Users/Em/Movies/Downloads/%(title)s.%(ext)s' -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'$1"
-# Download Audio
-alias dla='youtube-dl -x -f bestaudio --audio-format=mp3 -i --output "/Users/Em/Music/Downloads/%(title)s.%(ext)s"'
-# Download Video
-alias dlv='youtube-dl -f bestvideo+bestaudio[ext=mp4] -i --output "/Users/Em/Movies/Downloads/%(title)s.%(ext)s"'
-
-# MOTD
-alias motd="bash /Users/Em/.myscripts/motd.sh"
-
-# QQ
-alias qq="bash /Users/Em/.qq/qq"
-
-# SCRATCHPAD
-alias scratchpad="bash /Users/Em/.myscripts/ScratchPad.sh"
-
-#####
-# TODO: Fix me
-#alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
-
-# Graveyard
-#alias glossitem="bash /Users/Em/emdb/config/models/copymodel.sh"
-#alias truthtable="python3 /Users/Em/emdb/config/bin/truthtable.py"
-#alias agenda="column -s, -t < /Users/Em/Projects/DASHBOARD/SCHEDULE/agenda.csv | boxes -d caml | lolcat -a -d 3 -F 0.2"
- 
 
