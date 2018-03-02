@@ -30,7 +30,7 @@ module.exports = {
 
     //"oni.useDefaultConfig": true,
     //"oni.bookmarks": ["~/Documents"],
-    //"oni.loadInitVim": false,
+    //"oni.loadInitVim": true,
     "editor.fontSize": "11px",
     //"editor.fontFamily": "FiraCode"
 
