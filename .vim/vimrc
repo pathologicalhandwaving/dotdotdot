@@ -38,11 +38,11 @@ autocmd BufEnter * :syntax sync fromstart
 syntax enable
 set background=dark
 try
-    colorscheme kalisi
+    colorscheme nord
 catch
 endtry
 
-let g:airline-theme='kalisi'
+"let g:airline-theme='nord'
 
 set cmdheight=2
 
@@ -55,7 +55,7 @@ if !$VIMHOME
 endif
 
 "" SETTINGS
-"source $VIMHOME/pack/settings/nord.vim
+source $VIMHOME/pack/settings/nord.vim
 source $VIMHOME/pack/settings/mappings.vim
 source $VIMHOME/pack/settings/lightline.vim
 source $VIMHOME/pack/settings/limelight.vim
@@ -63,8 +63,6 @@ source $VIMHOME/pack/settings/goyo.vim
 source $VIMHOME/pack/settings/vim-gitgutter.vim
 source $VIMHOME/pack/settings/YUNOcommit.vim
 "source $VIMHOME/pack/settings/myHighlights.vim
-source $VIMHOME/colors/kalisi.vim
-source $VIMHOME/pack/plugins/start/airlines-themes.vim
 
 
 "" DICTIONARIES
