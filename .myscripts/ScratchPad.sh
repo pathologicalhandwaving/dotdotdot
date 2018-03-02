@@ -6,10 +6,12 @@ timed=$(date "+%H:%M")
 
 read -p 'Note: ' note
 
-echo "note: >" >> $FILE
+echo "scratch:" >> $FILE
 echo "  date: $dated" >> $FILE
 echo "  time: $timed" >> $FILE
-echo "  $note" >> $FILE
+echo "  note: > " >> $$FILE
+echo "    $note" >> $FILE
+echo " "
 
 cat $FILE | lolcat
 
