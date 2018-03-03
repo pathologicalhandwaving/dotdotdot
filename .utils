@@ -69,6 +69,9 @@ alias qq="bash /Users/Em/.qq/qq"
 # SCRATCHPAD
 alias scratchpad="bash /Users/Em/.myscripts/ScratchPad.sh"
 
+# achive.org tool
+alias ia="bash /Users/Em/.dict/ia"
+
 #####
 # TODO: Fix Dead Stuff
 #alias degseq="python3 /Users/Em/Projects/Play/graphicsequence.py"
