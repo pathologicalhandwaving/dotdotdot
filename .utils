@@ -70,7 +70,7 @@ alias qq="bash /Users/Em/.qq/qq"
 alias scratchpad="bash /Users/Em/.myscripts/ScratchPad.sh"
 
 # achive.org tool
-alias ia="./Users/Em/.dict/ia"
+alias ia=". /Users/Em/.dict/ia"
 
 #####
 # TODO: Fix Dead Stuff
