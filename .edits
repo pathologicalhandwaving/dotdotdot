@@ -8,7 +8,7 @@ alias ebp="vim /Users/Em/.bash_profile"
 alias ebrc="vim /Users/Em/.bashrc"
 
 # Edit aliases
-alias ealiase"vim /Users/Em/.aliases"
+alias ealiase="vim /Users/Em/.aliases"
 
 # Edit function library
 alias eflib="vim /Users/Em/.myscripts/Library.sh"
