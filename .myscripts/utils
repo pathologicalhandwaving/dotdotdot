@@ -21,3 +21,4 @@ alias fu="python /Users/Em/Toolz/fu/fu"
 alias nosaf="sudo chmod ogu-rx /Applications/Safari.app"
 alias yesaf="sudo chmod ogu+rx /Applications/Safari.app"
 
+alias ia="bash /Users/Em/.dict/ia"
