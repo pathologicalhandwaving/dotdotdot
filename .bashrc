@@ -9,3 +9,8 @@ if [ -f /usr/local/share/liquidprompt ]; then
 fi
 
 export PS1="$PS1\$(git-radar --bash --fetch)"
+
+# Bash Completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+	$(brew --prefix)/etc/bash_completion
+fi

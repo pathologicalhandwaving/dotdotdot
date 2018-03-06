@@ -235,6 +235,24 @@ function webtraffic () {
 }
 
 
+# Get local and WAP IP address info
+lips() {
+	local interface ip
+	for interface in $(networksetup -listallhardwareports | awk '/^Device: /{print $2}'); do
+		ip=$(ipconfig getifaddr $interface)
+		[ "$ip" != "" ] && break
+	done
+
+		local locip extip
+
+		[ "$ip" != "" ] && locip=$ip || locip="inactive"
+		
+		ip=`dig +short myip.opendns.com @resolver1.opendns.com`
+		[ "$ip" != "" ] && extip=$ip || extip="inactive"
+
+	printf '%11s: %s\n%11s: %s\n' "Local IP" $locip "External IP" $extip
+}
+
 
 ### GIT HELPERS
 
@@ -310,3 +328,64 @@ alias ia="bash /Users/Em/.dict/ia"
 
 source /Users/Em/.myscripts/ScratchPad.sh
 alias scratch="bash ScratchPad.sh"
+
+# Functions
+
+
+# Output a markdown list from stdin to stdout
+qlist() {
+	sed -E '/^[    ]*$/d'|sed -E 's/^([    ]*)/\1* /'
+}
+# list to clipboard
+alias qlistpb="qlist|pbcopy"
+
+
+
+
+# Weather
+function weather() {
+	curl wttr.in/Lake\ City,\ FL | lolcat -a -d 3 -s 17.0
+}
+
+function moon() {
+	curl wttr.in/Moon | lolcat -a -d 5 -s 17.0
+}
+
+
+# mkdir and cd into it
+function mkcd() { 
+    mkdir -p $1 && cd $1; }
+
+# Encode
+function encode() {
+	echo -n $@ | perl -pe's/([^-_.~A-Za-z0-9])/sprintf("%%%02X", ord($1))/seg';}
+
+
+
+
+# Look Busy ;)
+function busy() {
+j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo $i;sleep 1; done | dialog --gauge "Install part $j : `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`" 6 40;done
+}
+alias busy="busy"
+
+
+# Codi
+# Usage: codi [filetype] [filename]
+function codi() {
+  local syntax="${1:-python}"
+  shift
+  vim -c \
+    "let g:startify_disable_at_vimenter = 1 |\
+    set bt=nofile ls=0 noru nonu nornu |\
+    hi ColorColumn ctermbg=NONE |\
+    hi VertSplit ctermbg=NONE |\
+    hi NonText ctermfg=0 |\
+    Codi $syntax" "$@"
+}
+
+# Count number of files in directory 
+function numfiles() { 
+    N="$(ls $1 | wc -l)"; 
+    echo "$N files in $1";
+}

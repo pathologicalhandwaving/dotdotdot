@@ -6,7 +6,9 @@ qlist() {
 	sed -E '/^[    ]*$/d'|sed -E 's/^([    ]*)/\1* /'
 }
 # list to clipboard
-# alias qlistpb="qlist|pbcopy"
+alias qlistpb="qlist|pbcopy"
+
+
 # Get local and WAP IP address info
 lips() {
 	local interface ip
@@ -46,10 +48,6 @@ function encode() {
 	echo -n $@ | perl -pe's/([^-_.~A-Za-z0-9])/sprintf("%%%02X", ord($1))/seg';}
 
 
-# Bash Completion (why is this here?)
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-	$(brew --prefix)/etc/bash_completion
-fi
 
 
 

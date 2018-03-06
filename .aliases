@@ -44,9 +44,9 @@ alias lk="ls"
 alias 'l:'="ls"
 alias ks="ls"
 alias sl="ls"
+alias la="ls"   
 
-
-
+alias cheatsh="mdless $HOME/.myscripts/cheatsheet.md"
 
 # GIT
 
