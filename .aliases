@@ -46,7 +46,7 @@ alias ks="ls"
 alias sl="ls"
 alias la="ls"   
 
-alias cheatsh="mdless $HOME/.myscripts/cheatsheet.md"
+#alias cheatsh="mdless $HOME/.myscripts/cheatsheet.md"
 
 # GIT
 

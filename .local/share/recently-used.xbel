@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///Users/Em/Pictures/Backgrounds/Big_dipper.png" added="2018-02-28T19:17:56Z" modified="2018-02-28T19:17:56Z" visited="2018-02-28T19:17:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape-bin" exec="&apos;inkscape-bin %u&apos;" modified="2018-02-28T19:17:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/Em/Pictures/Backgrounds/winteriscoming.png" added="2018-02-28T20:04:19Z" modified="2018-02-28T20:04:19Z" visited="2018-02-28T20:04:19.702531Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="inkscape-bin" exec="&apos;inkscape-bin %u&apos;" modified="2018-02-28T20:04:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
