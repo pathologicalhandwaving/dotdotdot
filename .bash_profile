@@ -1,13 +1,13 @@
 # Bash Profile
 
-export HOME=/Users/Em:$PATH
+#export HOME=/Users/Em:$PATH
 
 # Basic
 source /Users/Em/.bashrc
 source /Users/Em/.aliases
 source /Users/Em/.app-envs/apitokens
 source /Users/Em/.exports
-#source /Users/Em/'.functions'
+source /Users/Em/'.functions'
 
 
 #source ~/.bash_prompt
@@ -20,7 +20,7 @@ source /Users/Em/.searched
 source /Users/Em/.editor
 source /Users/Em/.edits
 #source /Users/Em/.apps
-source ~/.functions
+#source ~/.functions
 
 #source /Users/Em/.myscripts/library.sh
 
