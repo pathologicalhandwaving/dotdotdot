@@ -58,9 +58,11 @@ source "/Users/Em/.tinycarebot"
 # icu4c
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 
-# Node
+
 
 # Ruby
 if which ruby >/dev/null && which gem >/dev/null; then
     PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
+
+export SCRIPTS_PATH="$HOME/.myscripts:$PATH"

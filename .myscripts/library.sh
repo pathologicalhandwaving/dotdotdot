@@ -14,7 +14,6 @@ declare -r FALSE=1
 ### ANSI COLORING
 
 
-
 # Print Red
 function red {
     echo -e "\e[0;31m"$@"\e[0m"
@@ -280,10 +279,34 @@ function avg () {
 MIN=1 && for i in $(seq $(($MIN*60)) -1 1); do echo -n "$i, "; sleep 1; done; echo -e "\n\nBOOOM! Time to start."
 
 # Quick Reference All Date Formats
-
 alias dateh='date --help|sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t'
 
 # Open argument in Dash
 function dash() {
   open "dash://$*"
 }
+# Open man page in Dash
+function dman() {
+	open "dash://man:$*"
+}
+
+
+# ttyclock
+alias clock="tty-clock -c -b -B -n  -C 5 -t"
+
+# Stopwatch
+alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date'
+
+# commandlinefu
+alias fu="python /Users/Em/Toolz/fu/fu"
+
+# Safari
+alias nosaf="sudo chmod ogu-rx /Applications/Safari.app"
+alias yesaf="sudo chmod ogu+rx /Applications/Safari.app"
+
+# archive.org
+alias ia="bash /Users/Em/.dict/ia"
+
+
+source /Users/Em/.myscripts/ScratchPad.sh
+alias scratch="bash ScratchPad.sh"
