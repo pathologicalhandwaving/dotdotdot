@@ -8,6 +8,11 @@
 #   variable=      -- By specifying no value, this means no default
 #   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
 
+reserved.lines=2
+indent.annotation=4
+print.empty.columns=no
+list.all.tags=yes
+
 # Use the command 'task show' to see all defaults and overrides
 
 # By default, the week starts on Sunday, let's fix that.
@@ -25,9 +30,10 @@ active.indicator=>
 report.list.columns=start.active,id,project,priority,due,description,entry.age
 report.list.labels= , ,Project,Pri,Due,Description,Age
 
-list.all.projects=no
+list.all.projects=yes
 #undo.style=diff
 default.command=list
+
 
 
 # Files
@@ -48,3 +54,4 @@ data.location=/Users/Em/.task
 # Include the solarized themes, enable solarized dark
 include /usr/share/task/solarized-dark-256.theme  
 #include /usr/share/task/solarized-light-256.theme
+include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/holidays.en-US.rc

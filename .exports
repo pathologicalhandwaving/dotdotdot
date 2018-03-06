@@ -59,9 +59,6 @@ source "/Users/Em/.tinycarebot"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 
 # Node
-export NPM_PACKAGES="/usr/local/lib/npm-packages/bin"
-export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
-export PATH="$NPM_PACKAGES/bin:$PATH"
 
 # Ruby
 if which ruby >/dev/null && which gem >/dev/null; then
