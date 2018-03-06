@@ -1,0 +1,49 @@
+#!/usr/bin/env python
+"""
+
+Let's you compile and access your own personal dictionary 
+for programming via the command line with ease.
+ 
+Usage:
+  codedict display LANGUAGE [SEARCHPATTERN] [(-t | -l) --hline]
+  codedict file PATH-TO-FILE LANGUAGE [PROBLEM] 
+  codedict edit LANGUAGE PROBLEM
+  codedict add
+  codedict tags LANGUAGE  
+  codedict link URL [LINK_NAME] [LANGUAGE] 
+  codedict export PATH-TO-FILE LANGUAGE
+  codedict import PATH-TO-FILE
+  codedict --suffix LANGUAGE [SUFFIX]
+  codedict --editor [EDITOR]
+  codedict --wait (off | on)
+  codedict --line [INTEGER]
+  codedict rollback im sure
+
+Options:
+  --editor      Sets your editor to the specified value. 
+                This has to be an executable.
+  --line        The output table gets formated based on this value. 
+                Should match your console's line length. Default value: 80
+  --suffix      Sets the suffix for the specified language to the given value. 
+                This is convenient for syntax highlighting inside editors.  
+  --hline       Doesn't print horizontal line between each row of output table. 
+  --wait        This is needed on certain editors. 
+                See the troubleshooting section on GitHub.  
+  --rollback    Rolls database back to moment right before your last file adding
+  --help        Show this screen.  
+  --version     Show version.
+
+"""
+
+# relative import
+from lib.docopt import docopt
+import processor
+
+if __name__ == '__main__':
+
+    COMMAND_LINE_ARGS = docopt(__doc__, version="codedict v0.7")
+
+    try:
+        processor.start_process(COMMAND_LINE_ARGS)
+    except (KeyboardInterrupt, EOFError):
+        print "\nAborted!"

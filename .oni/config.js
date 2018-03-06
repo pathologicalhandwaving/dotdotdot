@@ -26,13 +26,13 @@ module.exports = {
     deactivate,
     //add custom config here, such as
 
-    "ui.colorscheme": "nord",
+    "ui.colorscheme": "NeoSolarized",
 
     //"oni.useDefaultConfig": true,
-    //"oni.bookmarks": ["~/Documents"],
-    //"oni.loadInitVim": true,
+    "oni.bookmarks": ["/Users/Em/.oni/bookmarks/"],
+    "oni.loadInitVim": true,
     "editor.fontSize": "11px",
-    //"editor.fontFamily": "FiraCode"
+    //"editor.fontFamily": "Fira_Code"
 
     // UI customizations
     "ui.animations.enabled": true,
