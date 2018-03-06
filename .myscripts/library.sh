@@ -177,11 +177,11 @@ function urlenc() {
 
 # Create Data URL from File
 function dataurl() {
-    local mimeType=$(file -b --mime-type "$1");
-    if [[ $mimeType == text/* ]]; then
-        mimeType="${mimeType};charset=utf-8";
-    fi
-    echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')";
+  local mimeType=$(file -b --mime-type "$1");
+  if [[ $mimeType == text/* ]]; then
+      mimeType="${mimeType};charset=utf-8";
+  fi
+  echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')";
 }
 
 
@@ -197,13 +197,13 @@ alias findhere="find . -name "
 # BackUp File
 # Usage "backupf filename.txt"
 function backupf () {
-    cp $1 ${1}-"date +%Y%m%d%H%M".backup;
+  cp $1 ${1}-"date +%Y%m%d%H%M".backup;
 }
 
 
 # LS Directories
 function lsd () {
-    ls -l | grep "^d" | awk '{ print $9 }' | tr -d "/"
+  ls -l | grep "^d" | awk '{ print $9 }' | tr -d "/"
 }
 
 
@@ -225,14 +225,14 @@ alias listen="lsof -P -i -n"
 
 # Find My IP
 function myip() {
-    local ip=$(curl http://ifconfig.me/ip)
-    echo $ip
+  local ip=$(curl http://ifconfig.me/ip)
+  echo $ip
 }
 
 
 # WebTraffic
 function webtraffic () {
-    awk "{sum+=$10} END {print sum/1024/1024/1024}" "$(retlog)"
+  awk "{sum+=$10} END {print sum/1024/1024/1024}" "$(retlog)"
 }
 
 
@@ -266,13 +266,13 @@ function batterylife() {
 
 # Histogram
 function histogram () {
-        awk ' NF > 0{ counts[$0] = counts[$0] + 1; } END { for (word in counts) print word, counts[word]; }'
+   awk ' NF > 0{ counts[$0] = counts[$0] + 1; } END { for (word in counts) print word, counts[word]; }'
 }
 
 
 # Average 
 function avg () {
-        awk '{ s+=$1 } END {  print 's/NR' }'
+  awk '{ s+=$1 } END {  print 's/NR' }'
 }
 
 
@@ -283,3 +283,7 @@ MIN=1 && for i in $(seq $(($MIN*60)) -1 1); do echo -n "$i, "; sleep 1; done; ec
 
 alias dateh='date --help|sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t'
 
+# Open argument in Dash
+function dash() {
+  open "dash://$*"
+}
