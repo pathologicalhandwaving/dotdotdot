@@ -58,5 +58,5 @@ alias gh="git push"
 alias conp="config pull"
 alias conu="config push"
 
-
-
+# buku
+alias bukuls="buku --colors oKlxm -p"
