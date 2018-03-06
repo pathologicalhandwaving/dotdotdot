@@ -86,9 +86,9 @@ function success() {
 
 
 # Escape Characters in String
-funtion escape() {
-  printf "%q " $1
-}
+#funtion escape() {
+#  printf "%q " $1
+#}
 
 
 # Convert String to Lowercase
