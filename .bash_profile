@@ -1,6 +1,5 @@
 # Bash Profile
 
-#export HOME=/Users/Em:$PATH
 
 # Basic
 source /Users/Em/.bashrc
@@ -19,10 +18,9 @@ source /Users/Em/.mathutils
 source /Users/Em/.searched
 source /Users/Em/.editor
 source /Users/Em/.edits
-#source /Users/Em/.apps
-#source ~/.functions
+source /Users/Em/.apps
 
-#source /Users/Em/.myscripts/library.sh
+source /Users/Em/.myscripts/library.sh
 
 # colorls
 source $(dirname $(gem which colorls))/tab_complete.sh

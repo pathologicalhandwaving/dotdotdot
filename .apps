@@ -1,17 +1,17 @@
 # Application Openers
 
-# Safari
+# Vivaldi
+alias oviv="open -a Vivaldi"
 
 # TeXShop
+alias oshop="open -a TeXShop"
 
-# VLC
-
-# Chrome
-alias ochr="open -a '/Applications/Google Chrome.app'"
-# Rodeo
-
-# nteract
-
-# qutebrowser
 
 # Marked2
+alias omarkd="open -a 'Marked\ 2'"
+
+# Oni
+alias ooni="open -a Oni"
+
+# iTerm
+alias oiterm="open -a iTerm"

@@ -60,9 +60,7 @@ function white {
 }
 
 
-
 ### STRING THINGS
-
 
 
 # Throw Error
@@ -86,9 +84,9 @@ function success() {
 
 
 # Escape Characters in String
-#funtion escape() {
-#  printf "%q " $1
-#}
+function escape() {
+    printf "%q " $1
+}
 
 
 # Convert String to Lowercase
@@ -108,46 +106,6 @@ function uppercased() {
     echo $output
 }
 
-
-# Print Like a Typewriter
-function typewrite() {
-    MESSAGE_TYPE="$1"
-    MESSAGE="$2"
-
-    case $MESSAGE_TYPE in
-        'success' )
-            printf "${green}"
-            ;;
-        'warn' )
-            printf "${yellow}"
-            ;;
-        'error' )
-            printf "${red}"
-            ;;
-        'normal' )
-            ;;
-        * )
-            error "Error: Message type \"$MESSAGE_TYPE\" doesn't exist."
-            exit
-            ;;
-    esac
-
-    SPOT=0
-    while true; do
-        printf "${MESSAGE:SPOT:1}"
-        SPOT=$(($SPOT+1))
-
-        # Generate a random decimal
-        DELAY_INT=$(( ( RANDOM % 10 ) + 1 ))
-        sleep "0.0$DELAY_INT"
-
-        if [ ${#MESSAGE} -eq "$SPOT" ]; then
-            printf "${white}"
-            printf "\n"
-            break
-        fi
-    done
-}
 
 
 
@@ -169,18 +127,18 @@ function urlenc() {
         esac
         encoded+="${o}"
     done
-    
+
     echo "${encoded}"
 }
 
 
 # Create Data URL from File
 function dataurl() {
-  local mimeType=$(file -b --mime-type "$1");
-  if [[ $mimeType == text/* ]]; then
-      mimeType="${mimeType};charset=utf-8";
-  fi
-  echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')";
+    local mimeType=$(file -b --mime-type "$1");
+    if [[ $mimeType == text/* ]]; then
+        mimeType="${mimeType};charset=utf-8";
+    fi
+    echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')";
 }
 
 
@@ -196,22 +154,20 @@ alias findhere="find . -name "
 # BackUp File
 # Usage "backupf filename.txt"
 function backupf () {
-  cp $1 ${1}-"date +%Y%m%d%H%M".backup;
+    cp $1 ${1}-"date +%Y%m%d%H%M".backup;
 }
 
 
 # LS Directories
 function lsd () {
-  ls -l | grep "^d" | awk '{ print $9 }' | tr -d "/"
+    ls -l | grep "^d" | awk '{ print $9 }' | tr -d "/"
 }
 
 
 # CD into Frontmost Finder Window
 function cdf() {  # short for cdfinder
-  cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
+    cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
 }
-
-
 
 ### NETWORK STUFF
 
@@ -224,45 +180,43 @@ alias listen="lsof -P -i -n"
 
 # Find My IP
 function myip() {
-  local ip=$(curl http://ifconfig.me/ip)
-  echo $ip
+    local ip=$(curl http://ifconfig.me/ip)
+    echo $ip
 }
 
 
 # WebTraffic
 function webtraffic () {
-  awk "{sum+=$10} END {print sum/1024/1024/1024}" "$(retlog)"
+    awk "{sum+=$10} END {print sum/1024/1024/1024}" "$(retlog)"
 }
-
 
 # Get local and WAP IP address info
 lips() {
-	local interface ip
-	for interface in $(networksetup -listallhardwareports | awk '/^Device: /{print $2}'); do
-		ip=$(ipconfig getifaddr $interface)
-		[ "$ip" != "" ] && break
-	done
+    local interface ip
+    for interface in $(networksetup -listallhardwareports | awk '/^Device: /{print $2}'); do
+        ip=$(ipconfig getifaddr $interface)
+        "$ip" != "" ] && break
+    done
 
-		local locip extip
+    local locip extip
 
-		[ "$ip" != "" ] && locip=$ip || locip="inactive"
-		
-		ip=`dig +short myip.opendns.com @resolver1.opendns.com`
-		[ "$ip" != "" ] && extip=$ip || extip="inactive"
+    [ "$ip" != "" ] && locip=$ip || locip="inactive"
 
-	printf '%11s: %s\n%11s: %s\n' "Local IP" $locip "External IP" $extip
+    ip=`dig +short myip.opendns.com @resolver1.opendns.com`
+    [ "$ip" != "" ] && extip=$ip || extip="inactive"
+
+    printf '%11s: %s\n%11s: %s\n' "Local IP" $locip "External IP" $extip
 }
 
 
 ### GIT HELPERS
 
 
-
 # Git Commit and Push All Changes
 function gacp() {
-  git add -A
-  git commit -am $1
-  git push
+    git add -A
+    git commit -am $1
+    git push
 }
 
 
@@ -272,40 +226,37 @@ function gacp() {
 
 # Print Battery Life
 function batterylife() {
-  printf ' Battery Life: ' && ioreg -l | grep -i capacity | tr '\n' ' | ' | awk '{ printf("%.2f%%", $10/$5 * 100) }' && echo ""
+    printf ' Battery Life: ' && ioreg -l | grep -i capacity | tr '\n' ' | ' | awk '{ printf("%.2f%%", $10/$5 * 100) }' && echo ""
 }
-
 
 
 ### MATHISH
 
 
-
 # Histogram
 function histogram () {
-   awk ' NF > 0{ counts[$0] = counts[$0] + 1; } END { for (word in counts) print word, counts[word]; }'
+    awk ' NF > 0{ counts[$0] = counts[$0] + 1; } END { for (word in counts) print word, counts[word]; }'
 }
 
 
 # Average 
 function avg () {
-  awk '{ s+=$1 } END {  print 's/NR' }'
+    awk '{ s+=$1 } END {  print 's/NR' }'
 }
 
 
-# Countdown Timer
-MIN=1 && for i in $(seq $(($MIN*60)) -1 1); do echo -n "$i, "; sleep 1; done; echo -e "\n\nBOOOM! Time to start."
 
 # Quick Reference All Date Formats
-alias dateh='date --help|sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t'
+alias dateref='date --help|sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t'
 
 # Open argument in Dash
 function dash() {
-  open "dash://$*"
+    open "dash://$*"
 }
+
 # Open man page in Dash
 function dman() {
-	open "dash://man:$*"
+    open "dash://man:$*"
 }
 
 
@@ -325,67 +276,51 @@ alias yesaf="sudo chmod ogu+rx /Applications/Safari.app"
 # archive.org
 alias ia="bash /Users/Em/.dict/ia"
 
-
-source /Users/Em/.myscripts/ScratchPad.sh
-alias scratch="bash ScratchPad.sh"
-
-# Functions
-
-
 # Output a markdown list from stdin to stdout
-qlist() {
-	sed -E '/^[    ]*$/d'|sed -E 's/^([    ]*)/\1* /'
+function qlist() {
+    sed -E '/^[    ]*$/d'|sed -E 's/^([    ]*)/\1* /'
 }
 # list to clipboard
 alias qlistpb="qlist|pbcopy"
 
 
-
-
 # Weather
 function weather() {
-	curl wttr.in/Lake\ City,\ FL | lolcat -a -d 3 -s 17.0
+    curl wttr.in/Lake\ City,\ FL | lolcat -a -d 3 -s 17.0
 }
 
 function moon() {
-	curl wttr.in/Moon | lolcat -a -d 5 -s 17.0
+    curl wttr.in/Moon | lolcat -a -d 5 -s 17.0
 }
 
 
 # mkdir and cd into it
-function mkcd() { 
-    mkdir -p $1 && cd $1; }
+function mkcd() {
+    mkdir -p $1 && cd $1; 
+}
 
 # Encode
 function encode() {
-	echo -n $@ | perl -pe's/([^-_.~A-Za-z0-9])/sprintf("%%%02X", ord($1))/seg';}
-
-
+    echo -n $@ | perl -pe's/([^-_.~A-Za-z0-9])/sprintf("%%%02X", ord($1))/seg';
+}
 
 
 # Look Busy ;)
 function busy() {
-j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo $i;sleep 1; done | dialog --gauge "Install part $j : `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`" 6 40;done
+    j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo $i;sleep 1; done | dialog --gauge "Install part $j : `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`" 6 40;done
 }
 alias busy="busy"
 
-
-# Codi
-# Usage: codi [filetype] [filename]
-function codi() {
-  local syntax="${1:-python}"
-  shift
-  vim -c \
-    "let g:startify_disable_at_vimenter = 1 |\
-    set bt=nofile ls=0 noru nonu nornu |\
-    hi ColorColumn ctermbg=NONE |\
-    hi VertSplit ctermbg=NONE |\
-    hi NonText ctermfg=0 |\
-    Codi $syntax" "$@"
-}
 
 # Count number of files in directory 
 function numfiles() { 
     N="$(ls $1 | wc -l)"; 
     echo "$N files in $1";
+}
+
+# New Scratch File
+function scratch() {
+    cd /Users/Em/Repos/ScratchPad/
+    touch $1
+    vim $1
 }

@@ -46,7 +46,8 @@ alias ks="ls"
 alias sl="ls"
 alias la="ls"   
 
-#alias cheatsh="mdless $HOME/.myscripts/cheatsheet.md"
+# fu
+alias fu="python3 /Users/Em/Toolz/fu/fu"
 
 # GIT
 
