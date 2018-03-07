@@ -103,21 +103,26 @@ map <Leader>yy
 map <Leader>pp
 
 "" BUFFERS
-"" close current buffer
+"" Close current buffer
 map <Leader>bd :bufdo bd<CR>
-"" close all buffers
+
+"" Close all buffers
 map <Leader>ba :bufdo bd<CR>
 
 "" SPELLING
 set spell
 set spellland=en_us
-"" next spelling error
+
+"" Next spelling error
 map <Leader>sn ]s
-"" previous spelling error
+
+"" Previous spelling error
 map <Leader>sN [s
-"" add selected spelling error to dictionary
+
+"" Add selected spelling error to dictionary
 map <Leader>sa zg
-"" look up alternate spellings
+
+"" Look up alternate spellings
 map <Leader>s? z=
 noremap <Leader> w :w<CR>
 noremap <CR> G
@@ -145,4 +150,16 @@ function! HasPaste()
     return ''
 endfunction
 
+"" NeoTeX
+let g:neotex_enabled=1
+let g:neotex_delay=1000
+let g:neotex_latexdiff=1
+
+"" Git Fugitive
+
+
+"" NeoSnippets
+
+
+"" QuickTeX
 
