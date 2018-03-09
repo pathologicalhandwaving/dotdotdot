@@ -298,3 +298,24 @@ inoreabbrev <expr> __
 "" Jedi
 let g:jedi#use_splits_not_buffers = "left"
 
+"" Jekyll
+let g:jekyll_post_extension = '.md'
+
+let g:jekyll_post_template =  [
+    \ '---',
+    \ 'layout: default',
+    \ 'title: "JEKYLL_TITLE"',
+    \ 'date: "JEKYLL_DATE"',
+    \ '---',
+    \ '']
+
+"" Colorizer
+"" Filetypes to color automatically
+let g:colorizer_auto_filetype='css,html,theme,tex,vim'
+"" Dont color comments
+let g:colorizer_skip_comments=1
+"" Syntax highlighting
+let g:colorizer_syntax=1
+"" CUSTOM COLOR LABELS
+let g:colorizer_custom_colors={ 'base03': '#002b36', 'base02': '#073642', 'base01': '#586e75', 'base00': '#657b83', 'base0': '#839496', 'base1': '#93a1a1', 'base2': '#eee8d5', 'base3': '#fdf6e3', 'syellow': '#b58900', 'sorange': '#cb4b16', 'sred': '#dc322f', 'smagenta': '#d33682', 'sviolet': '#6c71c4', 'sblue': '#268bd2', 'scyan': '#2aa198', 'sgreen': '#859900'}
+"

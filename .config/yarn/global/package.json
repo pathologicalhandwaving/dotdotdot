@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "open-pip-cli": "^1.4.0"
+  }
+}
