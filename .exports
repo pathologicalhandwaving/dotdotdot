@@ -58,7 +58,8 @@ source "/Users/Em/.tinycarebot"
 # icu4c
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 
-
+# Rust Cargo Path
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # Ruby
 if which ruby >/dev/null && which gem >/dev/null; then

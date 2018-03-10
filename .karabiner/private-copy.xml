@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Remap Left Control Key to F1 Key</name>
+		<appendix>This maps Left Control to F1 for use with HammerSpoon Hyper Key Bindings</appendix>
+		<identifier>private.control_l_to_f1</identifier>
+		<autogen>__KeyToKey__ ModifierFlag::CONTROL_L, KeyCode::F1</autogen>
+	</item>
+	<item>
+		<name>F12 to F12</name>
+		<appendix>(F12 to Hyper (ctrl+cmd+alt) )</appendix>
+		<identifier>private.f122f12</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::F12,
+			KeyCode::COMMAND_L,
+			ModifierFlag::OPTION_L | ModifierFlag::CONTROL_L,
+			KeyCode::F12
+		</autogen>
+	</item>
+	<item>
+		<name>F11 to F11</name>
+		<appendix>(F11 to Super (ctrl+cmd+alt+shift) )</appendix>
+		<identifier>private.f12f1</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::F11,
+			KeyCode::COMMAND_L,
+			ModifierFlag::OPTION_L | ModifierFlag::CONTROL_L | ModifierFlag::SHIFT_L,
+			KeyCode::F11
+		</autogen>
+	</item>
+</root>

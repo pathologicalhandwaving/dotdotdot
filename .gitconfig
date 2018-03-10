@@ -3,3 +3,6 @@
 # Please adapt and uncomment the following lines:
 	name = pathologicalhandwaving
 	email = kshort@iastate.edu
+[alias]
+	unadd = reset HEAD --
+	unstage = reset HEAD --
