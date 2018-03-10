@@ -32,7 +32,8 @@ module.exports = {
     "oni.bookmarks": ["/Users/Em/.oni/bookmarks/"],
     "oni.loadInitVim": true,
     "editor.fontSize": "11px",
-    //"editor.fontFamily": "Fira_Code"
+    //"editor.fontFamily": "FiraCode-Regular"
+    "editor.fontLigatures": true
 
     // UI customizations
     "ui.animations.enabled": true,
