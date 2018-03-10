@@ -1,9 +1,20 @@
-" file: nvimrc
-" author: K. M. Short
+" file: init.vim
+" author: PathologicalHandwaving
 " webpage: https://pathologicalhandwaving.github.io
 " description: >
-"   A separate neovim config for LaTeX and programming with live updates
+"   A nvim config for mac Oni frontend.
+"   Config uses a different set of plugins and settings than my terminal vim setup (still
+"   prefered).
+"   Constructed with a focus on LaTeX editing with live preview, distraction
+"   free writing environment, and other things a gui is nice for.
+"   NOTE: Oni could be a bit lighter, and I am still getting intermittent
+"   javascript errors. 
+"   NOTE: This config is still in early development. Settings and plugin set
+"   may change at anytime without warning.
+" backend: neovim
 " frontend: Oni
+" date modified: 2018-03-09
+
 
 " GENERAL SETTINGS
 " ================
@@ -167,7 +178,29 @@ autocmd QuickFixCmdPost *grep* cwindow
 
 
 "" NeoSnippets
+let g:neosnippet#snippets_directory="/Users/Em/.oni/snippets/"
+let g:neosnippet#enable_snipmate_compatibility = 1
 
+" Plugin key-mappings.
+" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
+
+"" SuperTab like snippets behavior.
+""Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+""imap <expr><TAB>
+" \ pumvisible() ? "\<C-n>" :
+" \ neosnippet#expandable_or_jumpable() ?
+"" \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+"" For conceal markers.
+if has('conceal')
+    set conceallevel=2 concealcursor=niv
+endif
 
 "" Neoformat
 let g:neoformat_enabled_python = ['yapf']
@@ -237,15 +270,15 @@ autocmd! User GoyoLeave Limelight!
 
 "" Lightline
 let g:lightline = {
-      \ 'colorscheme': 'solarized',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'filetype', 'filename', 'lineinfo' ] ]
-      \ },
-      \ 'component_function': {
-      \   'gitbranch': 'fugitive#head'
-      \ },
-      \ }
+    \ 'colorscheme': 'solarized',
+    \ 'active': {
+    \   'left': [ [ 'mode', 'paste' ],
+    \             [ 'gitbranch', 'filetype', 'filename', 'lineinfo' ] ]
+    \ },
+    \ 'component_function': {
+    \   'gitbranch': 'fugitive#head'
+    \ },
+    \ }
 
 let g:lightline.separator = { 'left': '', 'right': '' }
 let g:lightline.subseparator = { 'left': '|', 'right': '|' }
@@ -271,18 +304,18 @@ let g:markdown_minlines = 50
 let g:table_mode_corner='|'
 
 function! s:isAtStartOfLine(mapping)
-  let text_before_cursor = getline('.')[0 : col('.')-1]
-  let mapping_pattern = '\V' . escape(a:mapping, '\')
-  let comment_pattern = '\V' . escape(substitute(&l:commentstring, '%s.*$', '', ''), '\')
-  return (text_before_cursor =~? '^' . ('\v(' . comment_pattern . '\v)?') . '\s*\v' . mapping_pattern . '\v$')
+    let text_before_cursor = getline('.')[0 : col('.')-1]
+    let mapping_pattern = '\V' . escape(a:mapping, '\')
+    let comment_pattern = '\V' . escape(substitute(&l:commentstring, '%s.*$', '', ''), '\')
+    return (text_before_cursor =~? '^' . ('\v(' . comment_pattern . '\v)?') . '\s*\v' . mapping_pattern . '\v$')
 endfunction
 
 inoreabbrev <expr> <bar><bar>
-          \ <SID>isAtStartOfLine('\|\|') ?
-          \ '<c-o>:TableModeEnable<cr><bar><space><bar><left><left>' : '<bar><bar>'
+    \ <SID>isAtStartOfLine('\|\|') ?
+    \ '<c-o>:TableModeEnable<cr><bar><space><bar><left><left>' : '<bar><bar>'
 inoreabbrev <expr> __
-          \ <SID>isAtStartOfLine('__') ?
-          \ '<c-o>:silent! TableModeDisable<cr>' : '__'
+    \ <SID>isAtStartOfLine('__') ?
+    \ '<c-o>:silent! TableModeDisable<cr>' : '__'
 
 "" Enable table mode by typing ||
 "" Disable table mode by typing __
@@ -319,3 +352,20 @@ let g:colorizer_syntax=1
 "" CUSTOM COLOR LABELS
 let g:colorizer_custom_colors={ 'base03': '#002b36', 'base02': '#073642', 'base01': '#586e75', 'base00': '#657b83', 'base0': '#839496', 'base1': '#93a1a1', 'base2': '#eee8d5', 'base3': '#fdf6e3', 'syellow': '#b58900', 'sorange': '#cb4b16', 'sred': '#dc322f', 'smagenta': '#d33682', 'sviolet': '#6c71c4', 'sblue': '#268bd2', 'scyan': '#2aa198', 'sgreen': '#859900'}
 "
+" vim-wordy
+let g:wordy#ring = [
+    \ 'weak',
+    \ ['being', 'passive-voice', ],
+    \ 'business-jargon',
+    \ 'weasel',
+    \ 'puffery',
+    \ ['problematic', 'redundant', ],
+    \ ['colloquial', 'idiomatic', 'similies', ],
+    \ 'art-jargon',
+    \ ['contractions', 'opinion', 'vague-time', 'said-synonyms', ],
+    \ 'adjectives',
+    \ 'adverbs',
+    \ ]
+"" keybind \w to wordy
+if !&wildcharm | set wildcharm=<C-z> | endif
+execute 'nnoremap <leader>w :Wordy<space>'.nr2char(&wildcharm)
