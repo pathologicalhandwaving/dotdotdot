@@ -52,7 +52,7 @@ export DEFAULT_CHEAT_DIR="/Users/Em/.cheat"
 export CHEATPATH="$CHEATPATH:/Users/Em/.cheat"
 
 # TinyCareBot
-source "/Users/Em/.tinycarebot"
+#source "/Users/Em/.tinycarebot"
 
 
 # icu4c

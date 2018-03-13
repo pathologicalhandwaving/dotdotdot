@@ -23,7 +23,7 @@ source /Users/Em/.apps
 source /Users/Em/.myscripts/library.sh
 
 # colorls
-source $(dirname $(gem which colorls))/tab_complete.sh
+#source $(dirname $(gem which colorls))/tab_complete.sh
 
 
 # Bashmarks
