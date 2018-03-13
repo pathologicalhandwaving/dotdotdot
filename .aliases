@@ -46,6 +46,9 @@ alias ks="ls"
 alias sl="ls"
 alias la="ls"   
 
+# list directories first
+alias ld="ls -1 --group-directories-first"
+
 # fu
 alias fu="python3 /Users/Em/Toolz/fu/fu"
 
