@@ -13,4 +13,7 @@ export PS1="$PS1\$(git-radar --bash --fetch)"
 # Bash Completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	$(brew --prefix)/etc/bash_completion
-fieval $(dircolors -b $HOME/.dircolors)
+fi
+
+# Dircolor
+eval $(dircolors -b $HOME/.dircolors)
