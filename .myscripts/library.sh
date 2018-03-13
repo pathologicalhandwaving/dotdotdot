@@ -269,12 +269,18 @@ alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date
 # commandlinefu
 alias fu="python /Users/Em/Toolz/fu/fu"
 
-# Safari
-alias nosaf="sudo chmod ogu-rx /Applications/Safari.app"
-alias yesaf="sudo chmod ogu+rx /Applications/Safari.app"
+# Safari Enable Disable
+alias offsafari="sudo chmod ogu-rx /Applications/Safari.app"
+alias onsafari="sudo chmod ogu+rx /Applications/Safari.app"
+
+# Vivaldi Enable Disable
+alias offvivaldi="sudo chmod ogu-rx /Applications/Vivaldi.app"
+alias onvivaldi="sudo chmod ogu+rx /Applications/Vivaldi.app"
+
 
 # archive.org
 alias ia="bash /Users/Em/.dict/ia"
+
 
 # Output a markdown list from stdin to stdout
 function qlist() {
@@ -306,19 +312,19 @@ function encode() {
 
 
 # Look Busy ;)
-function busy() {
-    j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo $i;sleep 1; done | dialog --gauge "Install part $j : `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`" 6 40;done
-}
-alias busy="busy"
+#function busy() {
+#    j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo $i;sleep 1; done | dialog --gauge "Install part $j : `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`" 6 40;done
+#}
+#alias busy="busy"
 
 
-# Count number of files in directory 
+# Count number of files in directory
 function numfiles() { 
     N="$(ls $1 | wc -l)"; 
     echo "$N files in $1";
 }
 
-# New Scratch File
+# New Scratch File and Open
 function scratch() {
     cd /Users/Em/Repos/ScratchPad/
     touch $1

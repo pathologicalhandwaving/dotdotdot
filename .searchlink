@@ -4,7 +4,7 @@ debug: true
 report: true
 
 # use Notification Center to display progress
-notifications: false
+notifications: true
 
 # when running on a file, back up original to *.bak
 backup: true
@@ -66,6 +66,7 @@ custom_site_searches:
   spark: macsparky.com
   man: http://man.cx/$term
   dev: developer.apple.com
+  wiki: https://wikipedia.org
   nq: http://nerdquery.com/?media_only=0&query=$term&search=1&category=-1&catid=&type=and&results=50&db=0&prefix=0
 
 # Remove or comment (with #) history searches you don't want
@@ -78,3 +79,5 @@ history_types:
 - chrome_bookmarks
 - safari_bookmarks
 - safari_history
+- vivaldi_history
+- vivaldi_bookmarks

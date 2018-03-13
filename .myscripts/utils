@@ -13,12 +13,26 @@ alias timestamp="bash /Users/Em/.myscripts/timestamp.sh"
 alias times="bash /Users/Em/.myscripts/ourtimes.sh"
 alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date'
 
+
 alias tool="bash $HOME/.myscripts/tool.sh"
 
 alias hrl="echo '*********************************************************************************************************' | lolcat"
+
+# Commandlinefu
 alias fu="python /Users/Em/Toolz/fu/fu"
 
+# Disable Enable Safari
 alias nosaf="sudo chmod ogu-rx /Applications/Safari.app"
 alias yesaf="sudo chmod ogu+rx /Applications/Safari.app"
 
+# Internet Archive
 alias ia="bash /Users/Em/.dict/ia"
+
+# Find all NOT git TODOs and FIXMEs
+alias tasks='grep --exclude-dir=.git -rEI "TODO|FIXME" . 2>/dev/null'
+
+# Recursive Find all TODOs
+grep -rnA 10 TODO *
+
+# Find TODOs in a file extension
+find . -name "*.EXT" | xargs grep -n "TODO" | wc -l
