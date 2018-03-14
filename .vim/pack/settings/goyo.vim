@@ -29,7 +29,6 @@ function! s:goyo_enter()
 	set noshowcmd
 	set scrolloff=999
 	Limelight
-	" ...
 endfunction
 
 function! s:goyo_leave()
@@ -44,3 +43,18 @@ endfunction
 
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+
+
+function! ProseMode()
+	call goyo#execute(0, [])
+	set spell noci nosi noai nolist noshowmode noshowcmd
+	set complete+=s
+	set bg=light
+	if !has('gui_running')
+    	let g:solarized_termcolors=256
+	endif
+	colors solarized
+endfunction
+
+command! ProseMode call ProseMode()
+nmap \p :ProseMode<CR>

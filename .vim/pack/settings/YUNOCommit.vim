@@ -1,4 +1,4 @@
 "" YUNOCOMMIT SETTINGS
-"" MODIFIED: 2018-01-24
+"" MODIFIED: 2018-03-14
 
-let g:YUNOcommit_after = 20
+let g:YUNOcommit_after=3

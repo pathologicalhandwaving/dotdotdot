@@ -1,48 +1,90 @@
 "" VIMRC
-"" Modified: 2018-01-24
+"" Modified: 2018-03-14
 
-set hidden
-set hlsearch
-set incsearch
-set lazyredraw
-set magic
-set number
-set numberwidth=3
-set tabstop=4
-set noexpandtab
-set shiftwidth=4
-set foldcolumn=1
-set wrap
-set autoindent
-set backspace=indent,eol,start
-set nocompatible
-set noswapfile
-set spell
-set spelllang=en_us
+"" FILETYPE
 filetype plugin on
 filetype indent on
+
+"" HISTORY
+set history=500
+
+set showcmd
+set noshowmode
+set hidden
+set lazyredraw
+
+"" BACKUPS
 set autoread
+set nobackup
+set noswapfile
+set nowb
+
+"" SEARCH
+set hlsearch
+set ignorecase
 set wildmenu
+set incsearch
+set showmatch
+set magic
+set mat=2
+
+
+"" LINE NUMBERS
+set number
+set numberwidth=3
+
+set foldcolumn=3
+set foldmethod=marker
+
+
+"" TABS ARE SPACES
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smarttab
+set backspace=indent,eol,start
+
+
+set nocompatible
+
+"" SPELL
+set spell
+set spelllang=en_us
+
 set ruler
+
+"" CURSOR
 set cursorline
 set cursorcolumn
-syntax on
+set cmdheight=2
+set laststatus=2
 
-"" COLORS
+
+"" TEXTWIDTH
+set textwidth=80
+set wrap
+
+"" ENCODING
+"set fileformat=unix,mac
+set encoding=utf8
+set fileencodings=utf8
+
+syntax on
+syntax enable
+
 
 " HIGHLIGHTING
 autocmd BufEnter * :syntax sync fromstart
 
-syntax enable
+
+"" COLORS
 set background=dark
 try
-    colorscheme nord
+    colorscheme solarized
 catch
 endtry
 
-"let g:airline-theme='nord'
 
-set cmdheight=2
 
 "" SHELL
 let $SHELL='/bin/bash'
@@ -53,20 +95,19 @@ if !$VIMHOME
 endif
 
 "" SETTINGS
-source $VIMHOME/pack/settings/nord.vim
+"source $VIMHOME/pack/settings/nord.vim
 source $VIMHOME/pack/settings/mappings.vim
 source $VIMHOME/pack/settings/lightline.vim
 source $VIMHOME/pack/settings/limelight.vim
 source $VIMHOME/pack/settings/goyo.vim
 source $VIMHOME/pack/settings/vim-gitgutter.vim
 source $VIMHOME/pack/settings/YUNOcommit.vim
-"source $VIMHOME/pack/settings/myHighlights.vim
+source $VIMHOME/pack/settings/solarized.vim
+source $VIMHOME/pack/settings/colorizer.vim
+
 
 
 "" DICTIONARIES
-
-" ss toggles spelling
-map <leader>ss :setlocal spell!<cr>
 
 
 "" MOUSE
@@ -75,16 +116,14 @@ if has ('mouse')
 endif
 
 " When File is Reopened go to Last Position
-au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+"au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 
 
-" Always Show Status Line
-set laststatus=2
 
 " Format the Status Line
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
 " Quick Open Scratchpad Buffer
-map <leader>q :e ~/buffer<cr>
+"map <leader>q :e ~/buffer<cr>
 
