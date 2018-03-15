@@ -67,3 +67,8 @@ alias bukuls="buku --colors oKlxm -p"
 
 # kanban
 alias kan="bash kanban"
+
+# p - pomodoro
+alias p="bash /Users/Em/.p/p"
+
+alias pwav="bash /Users/Em/.p/p wait && afplay /Users/Em/.p/dooropen.wav"

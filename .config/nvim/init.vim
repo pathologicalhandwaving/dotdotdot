@@ -159,12 +159,12 @@ autocmd BufRead,BufNewFile *.tex set filetype=tex
 map <Leader>x :e /Users/Em/Repos/ScratchPad/TeX/buffer.tex<CR>
 
 "" HAS PASTE
-function! HasPaste()
-    if &paste
-        return 'PASTE MODE '
-    endif
-    return ''
-endfunction
+""function! HasPaste()
+""    if &paste
+""        return 'PASTE MODE '
+""    endif
+""    return ''
+""endfunction
 
 "" NeoTeX
 let g:neotex_enabled=1

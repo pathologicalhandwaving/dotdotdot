@@ -3,10 +3,10 @@ local hotkey = require "hs.hotkey"
 local mash = {"ctrl", "cmd"}
 
 hotkey.bind(mash, "c", function() tiling.cycleLayout() end)
-hotkey.bind(mash, "j", function() tiling.cycle(1) end)
-hotkey.bind(mash, "k", function() tiling.cycle(-1) end)
+--hotkey.bind(mash, "j", function() tiling.cycle(1) end)
+--hotkey.bind(mash, "k", function() tiling.cycle(-1) end)
 hotkey.bind(mash, "space", function() tiling.promote() end)
-hotkey.bind(mash, "f", function() tiling.goToLayout("fullscreen") end)
+--hotkey.bind(mash, "f", function() tiling.goToLayout("fullscreen") end)
 
 -- Push the window into the exact center of the screen
 local function center(window)
@@ -18,4 +18,4 @@ local function center(window)
   window:setFrame(frame)
 end
 
-hotkey.bind(mash, "m", function() tiling.toggleFloat(center) end)
+hotkey.bind(mash, "f", function() tiling.toggleFloat(center) end)

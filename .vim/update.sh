@@ -16,6 +16,7 @@ repos=(
   tpope/vim-commentary
   tpope/vim-fugitive
   w0rp/ale
+  ryanoasis/vim-devicons
 
 )
 

@@ -5,26 +5,26 @@
 
 let g:lightline = {
     \ 'colorscheme': 'solarized',
+    \ 'active': {
+    \   'left':[ [ 'mode', 'paste'],
+    \            [ 'gitbranch', 'filename', 'lineinfo'
+    \   ]
     \ },
-    \ 'component': {
-    \   'lineinfo': '  %3l:%-2v',
-    \ },
+        \ 'component': {
+        \   'lineinfo': ' %3l:%-2v',
+        \ },
     \ 'component_function': {
-    \   'readonly': 'LightlineReadonly',
-    \   'fugitive': 'LightlineFugitive'
+    \   'gitbranch': 'fugitive#head',
     \ },
     \ 'separator': { 'left': ' ', 'right': ' ' },
     \ 'subseparator': { 'left': ' ', 'right': ' ' }
     \ }
 
-function! LightlineReadonly()
-    return &readonly ? ' ' : ''
-endfunction
-	
-function! LightlineFugitive()
-    if exists('*fugitive#head')
-        let branch = fugitive#head()
-        return branch !=# '' ? ' '.branch : ''
-    endif
-    return ''
-endfunction
+
+let g:lightline.separator = {
+    \ 'left': '🐙', 'right': '🐙'
+  \}
+
+let g:lightline.subseparator = {
+    \ 'left': '⎮', 'right': '⎮'
+  \}
