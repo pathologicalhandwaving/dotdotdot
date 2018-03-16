@@ -72,3 +72,6 @@ alias kan="bash kanban"
 alias p="bash /Users/Em/.p/p"
 
 alias pwav="bash /Users/Em/.p/p wait && afplay /Users/Em/.p/dooropen.wav"
+
+# Fun
+alias cfun="boxes -d simple | lolcat -a -s 20"

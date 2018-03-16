@@ -104,7 +104,8 @@ source $VIMHOME/pack/settings/vim-gitgutter.vim
 source $VIMHOME/pack/settings/YUNOcommit.vim
 source $VIMHOME/pack/settings/solarized.vim
 source $VIMHOME/pack/settings/colorizer.vim
-
+source $VIMHOME/pack/settings/quickmenu.vim
+source $VIMHOME/pack/settings/languagetool.vim
 
 
 "" DICTIONARIES

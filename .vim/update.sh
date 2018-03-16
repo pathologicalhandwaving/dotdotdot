@@ -17,6 +17,7 @@ repos=(
   tpope/vim-fugitive
   w0rp/ale
   ryanoasis/vim-devicons
+  skywind3000/quickmenu.vim
 
 )
 
