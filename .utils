@@ -68,6 +68,7 @@ alias qq="bash /Users/Em/.qq/qq"
 
 # SCRATCHPAD
 alias scratchpad="bash /Users/Em/.myscripts/ScratchPad.sh"
+alias dnote="bash /Users/Em/.myscripts/datenote.sh"
 
 # achive.org tool
 alias ia="cd /Users/Em/.dict && ./ia"
