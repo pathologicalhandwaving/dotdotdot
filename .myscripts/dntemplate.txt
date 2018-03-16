@@ -1,0 +1,11 @@
+---
+title: $fname
+date: $ntime
+---
+
+
+# $fname
+***
+
+
+

@@ -1,13 +1,28 @@
 #!/bin/bash
-FPATH="/Users/Em/ScratchPad"
 # DateNote
 
-today="$( date +"%Y%m%d" )"
-ntime="$( date +"%H%M%S" )"
+FPATH="/Users/Em/Repos/ScratchPad"
+
+TODAY="$( date +"%Y%m%d" )"
+NTIME="$( date +"%H%M%S" )"
 
 
 
-fname="$today$ntime.md"
-cd "$FPATH"
-touch "$fname"
-vim "$fname"
+FNAME="$TODAY-$NTIME"
+FNPTH="$FPATH/$FNAME.md"
+touch $FNPTH
+
+echo "---" >> $FNPTH
+echo "title: Scratchpad: $FNAME" >> $FNPTH
+echo "date: $TODAY" >> $FNPTH
+echo "tags: scratchpad, $TODAY, " >> $FNPTH
+echo "---" >> $FNPTH
+echo "" >> $FNPTH
+echo -en '\u0023' >> $FNPTH
+echo " ScratchPad: $FNAME" >> $FNPTH
+echo "" >> $FNPTH
+echo "***" >> $FNPTH
+echo "" >> $FNPTH
+echo "" >> $FNPTH
+
+vim $FNPTH
