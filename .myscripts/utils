@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # General Utility Aliases
 
 alias note="cd ~/Notes && vim"
