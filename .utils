@@ -34,10 +34,10 @@ alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -0 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.)\{3\}[0-9]\+\)\[1-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr)? ?/, \"\"; print}'"
 
 # FLUSH DNS
-alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+alias flushed="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
 # SNIFF PORTS
-alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
+alias sniffer="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
 
 # HTTP DUMP
 alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
@@ -61,14 +61,14 @@ alias dla='youtube-dl -x -f bestaudio --audio-format=mp3 -i --output "/Users/Em/
 alias dlv='youtube-dl -f bestvideo+bestaudio[ext=mp4] -i --output "/Users/Em/Movies/Downloads/%(title)s.%(ext)s"'
 
 # MOTD
-alias motd="bash /Users/Em/.myscripts/motd.sh"
+alias onlogin="config pull && bash /Users/Em/.myscripts/motd.sh"
 
 # QQ
 alias qq="bash /Users/Em/.qq/qq"
 
 # SCRATCHPAD
-alias scratchpad="bash /Users/Em/.myscripts/ScratchPad.sh"
-alias dnote="bash /Users/Em/.myscripts/datenote.sh"
+alias scratchpad="bash /Users/Em/.myscripts/datenote.sh"
+#alias dnote="bash /Users/Em/.myscripts/datenote.sh"
 
 # achive.org tool
 alias ia="cd /Users/Em/.dict && ./ia"
