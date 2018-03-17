@@ -14,5 +14,8 @@
     "node": "plain",
     "max_depth": 4
   },
+  "vcs": {
+    "show_symbol": "true"
+  }
   "theme": "solarized_dark"
 }
