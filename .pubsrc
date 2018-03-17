@@ -12,7 +12,7 @@ docsdir = /Users/Em/.pubs/doc
 doc_add = move
 
 # the command to use when opening document files
-open_cmd = open
+open_cmd = open viv
 
 # which editor to use when editing bibtex files.
 # if using a graphical editor, use the --wait or --block option, i.e.:
@@ -23,7 +23,7 @@ open_cmd = open
 edit_cmd = ""
 
 # Which default extension to use when creating a note file.
-note_extension = txt
+note_extension = md
 
 # If true debug mode is on which means exceptions are not catched and
 # the full python stack is printed.
@@ -56,8 +56,8 @@ color = True
 
 # messages
 ok = green
-warning = yellow
-error = red
+warning = byellow
+error = bred
 
 # ui elements
 filepath = bold
@@ -82,7 +82,7 @@ active = alias,
 # new subcommands can be defined, e.g.:
 # print = open --with lp
 # evince = open --with evince
-
+viv = open -a "Vivaldi"
 # shell commands can also be defined, by prefixing them with a bang `!`, e.g:
 # count = !pubs list -k | wc -l
 
