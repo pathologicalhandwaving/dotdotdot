@@ -9,7 +9,7 @@
     "newline",
     "root"
   ],
-  "mode": "compatible",
+  "mode": "patched",
   "cwd": {
     "node": "plain",
     "max_depth": 4
