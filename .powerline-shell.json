@@ -2,11 +2,10 @@
   "segments": [
     "username",
     "time",
-    "ssh",
-    "cwd",
-    "git",
     "jobs",
     "newline",
+    "git",
+    "cwd",
     "root"
   ],
   "mode": "patched",
