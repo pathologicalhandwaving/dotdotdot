@@ -1,13 +1,18 @@
 {
   "segments": [
-    "virtual_env",
     "username",
-    "hostname",
+    "time",
     "ssh",
     "cwd",
     "git",
-    "hg",
     "jobs",
+    "newline",
     "root"
-  ]
+  ],
+  "mode": "flat",
+  "cwd": {
+    "node": "plain",
+    "max_depth": 4
+  },
+  "theme": "solarized_dark"
 }
