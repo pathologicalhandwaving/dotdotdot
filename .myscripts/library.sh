@@ -311,12 +311,6 @@ function encode() {
 }
 
 
-# Look Busy ;)
-#function busy() {
-#    j=0;while true; do let j=$j+1; for i in $(seq 0 20 100); do echo $i;sleep 1; done | dialog --gauge "Install part $j : `sed $(perl -e "print int rand(99999)")"q;d" /usr/share/dict/words`" 6 40;done
-#}
-#alias busy="busy"
-
 
 # Count number of files in directory
 function numfiles() { 
@@ -324,9 +318,4 @@ function numfiles() {
     echo "$N files in $1";
 }
 
-# New Scratch File and Open
-function scratch() {
-    cd /Users/Em/Repos/ScratchPad/
-    touch $1
-    vim $1
-}
+
