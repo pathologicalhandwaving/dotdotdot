@@ -73,5 +73,8 @@ alias p="bash /Users/Em/.p/p"
 
 alias pwav="bash /Users/Em/.p/p wait && afplay /Users/Em/.p/dooropen.wav"
 
-# Fun
+# Fun Colors
 alias cfun="boxes -d simple | lolcat -a -s 20"
+
+# Find TODO FIXME
+alias tasks="grep -rEI 'TODO|FIXME' . 2>/dev/null"
