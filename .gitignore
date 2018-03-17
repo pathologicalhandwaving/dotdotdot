@@ -1,5 +1,7 @@
+# qq content
 .qq/notes/*
-.myscripts/bashmarks/*
+
+# bashmarks
 .myscripts/bashmarks
 # API
 .app-env/*
@@ -282,6 +284,7 @@ __pycache__
 *.war
 *.ear
 
-
+# personal variables
+.vars
 
 
