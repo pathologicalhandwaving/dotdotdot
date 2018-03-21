@@ -92,7 +92,8 @@ alias fu="python /Users/Em/Toolz/fu/fu"
 # Enable/Disable Browser
 ## Safari
 alias offsafari="sudo chmod ogu-rx /Applications/Safari.app"
-alias onsafari="sudo chmod ogu+rx /Applications/Safari.app"## Vivaldi
+alias onsafari="sudo chmod ogu+rx /Applications/Safari.app"
+## Vivaldi
 alias offvivaldi="sudo chmod ogu-rx /Applications/Vivaldi.app"
 alias onvivaldi="sudo chmode ogu+rx /Applications/Vivaldi.app"
 
