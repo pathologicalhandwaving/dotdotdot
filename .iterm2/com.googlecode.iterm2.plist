@@ -3388,11 +3388,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>674 338 599 459 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>484 66 796 473 0 0 1280 800 </string>
+	<string>327 68 918 512 0 0 1280 800 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 216 592 584 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1280 800 0 0 1280 800 </string>
+	<string>194 9 490 507 0 0 1280 800 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -8261,7 +8261,7 @@
 			<key>Guid</key>
 			<string>881119C2-4469-4DF2-8266-285750B3674D</string>
 			<key>Has Hotkey</key>
-			<true/>
+			<false/>
 			<key>Hide After Opening</key>
 			<false/>
 			<key>Horizontal Spacing</key>
@@ -8271,15 +8271,15 @@
 			<key>HotKey Alternate Shortcuts</key>
 			<array/>
 			<key>HotKey Characters</key>
-			<string>f</string>
+			<string></string>
 			<key>HotKey Characters Ignoring Modifiers</key>
-			<string>f</string>
+			<string>r</string>
 			<key>HotKey Key Code</key>
-			<integer>3</integer>
+			<integer>15</integer>
 			<key>HotKey Modifier Activation</key>
 			<integer>0</integer>
 			<key>HotKey Modifier Flags</key>
-			<integer>1048576</integer>
+			<integer>262144</integer>
 			<key>HotKey Window Animates</key>
 			<true/>
 			<key>HotKey Window AutoHides</key>
@@ -14770,7 +14770,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-03-16T00:34:45Z</date>
+	<date>2018-03-18T23:25:13Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
