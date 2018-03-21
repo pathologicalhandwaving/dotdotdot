@@ -1,0 +1,15 @@
+# Favorite CLI Tricks
+
+# Pretty CSV in Terminal
+
+cat orbitclasses.csv | column -t -s, | less -S
+
+# Tabs to Comma Separators
+
+cat orbitClasses.csv | tr "\\t" ","
+
+# PDF 2 Image and View
+
+sips -s format png file.pdf --out file.png && imagecat file.png
+
+

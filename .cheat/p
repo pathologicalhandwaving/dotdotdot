@@ -1,0 +1,17 @@
+usage: p [command]
+
+Available commands:
+   status (default)         Shows information about the current pomodoro
+   start [description]      Starts a new pomodoro, cancelling any in progress
+   cancel                   Cancels any pomodoro in progress
+   internal                 Records an internal interruption on current pomodoro
+   external                 Records an external interruption on current pomodoro
+   wait [command]           Prints ticking counter and blocks until pomodoro completion.
+                            Optionally runs 'command' every second
+   loop <tick> <end>        Prints ticker and runs 'tick' every second and 'end' at
+                            completion. Blocks until next pomodoro starts.
+   log                      Shows pomodoro log output in CSV format
+   help                     Prints this help text
+
+Most commands may be shortened to their first letter. For more information
+see http://github.com/chrismdp/p.

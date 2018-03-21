@@ -1,0 +1,140 @@
+# Favorite Shell Tools
+
+
+## seq - Generate a Sequence of Numbers
+
+`seq 3`
+
+### Example
+
+Generate a sequence up to 55 filter all elements containing the number five count the lines found by the filter  
+
+`seq 55 | grep 5 | wc -l`
+
+## type - Find the type of a command line tool
+
+### Example
+
+```bash
+$ type -a cd
+cd is a shell builting
+```
+
+## head - Show n number of the first lines in a file
+
+### Example
+
+`man cat | head -n 30`
+
+## fold - Wraps lines longer than 80 characters
+
+## cut - Trims lines
+
+### Example
+`cut -c1-80`  
+
+trims lines longer than 80 characters
+
+## scp - Secure Copy
+
+Copy files to a EC2 instance using your key  
+
+```bash
+scp -i mykey.pem ~/Desktop/logs.csv \
+> debian@ec2-184-73-72-150.compute-1.amazonaws.com:data
+```
+
+## CSV Format RFC 4180
+
+
+### csvlook - Format csvs as tables in the shell
+
+`csvlook examples/testfixed_converted.csv`
+
+
+`csvcut -c 9,1 examples/realdata/FY09_EDU_Recipients_by_State.csv | csvlook`
+
+
+### csvstat - Statistics of csv file
+
+```bash
+csvstat -c 4 --mean examples/realdata/FY09_EDU_Recipients_by_State.csv
+6,263.904
+```
+
+### csvformat - Convert csv to different output formats
+
+Convert a comma-separated file to a pipe-delimited file:  
+
+`csvformat -D "|" examples/dummy.csv`
+
+Convert to carriage return line-endings:  
+
+`csvformat -M $'\r' examples/dummy.csv`
+
+To avoid escaping quote characters when using --quoting 3, add --out-quotechar "":  
+
+`csvformat -u 3 -U 3 -Q "" examples/optional_quote_characters.csv`
+
+### csvjson - Converts a CSV file into JSON or GeoJSON (depending on flags):
+
+
+#### Convert to JSON
+
+`csvjson -k "State Abbreviate" -i 4 examples/realdata/FY09_EDU_Recipients_by_State.csv`
+
+#### Convert to GEOJSON
+
+`csvjson --lat latitude --lon longitude --k slug --crs EPSG:4269 -i 4 examples/test_geo.csv`
+
+
+### csvpy
+
+#### Basic Usage
+
+```python
+csvpy examples/dummy.csv
+Welcome! "examples/dummy.csv" has been loaded in a reader object named "reader".
+>>> reader.next()
+[u'a', u'b', u'c']
+```
+
+
+#### As Dictionary
+
+```python
+csvpy --dict examples/dummy.csv
+Welcome! "examples/dummy.csv" has been loaded in a DictReader object named "reader".
+>>> reader.next()
+{u'a': u'1', u'c': u'3', u'b': u'2'}
+```
+
+#### As Agate Table
+
+```python
+csvpy --agate examples/dummy.csv
+Welcome! "examples/dummy.csv" has been loaded in a from_csv object named "reader".
+>>> reader.print_table()
+|    a | b | c |
+| ---- | - | - |
+| True | 2 | 3 |
+```
+
+### csvsort
+
+```bash
+csvcut -c county,item_name,total_cost data.csv | csvgrep -c county -m LANCASTER |
+˓→csvsort -c total_cost -r | csvlook
+```
+
+## curl
+
+`curl http://www.gutenberg.org/cache/epub/76/pg76.txt > data/finn.txt`
+
+`curl -s http://www.gutenberg.org/cache/epub/76/pg76.txt -o data/finn.txt`
+
+`curl -u username:password ftp://host/file`
+
+`curl -s http://api.randomuser.me | jq '.'`
+
+
