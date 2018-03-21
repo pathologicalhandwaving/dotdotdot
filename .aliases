@@ -36,9 +36,10 @@ alias pur="sudo purge"
 # Homebrew
 alias bup="brew update && brew upgrade && brew cleanup"
 
+# ls is color-ls
+alias ls="color-ls"
 
 # Frequent LS Typos
-alias ls="ls"
 alias ll="ls"
 alias lk="ls"
 alias 'l:'="ls"
@@ -78,3 +79,31 @@ alias cfun="boxes -d simple | lolcat -a -s 20"
 
 # Find TODO FIXME
 alias tasks="grep -rEI 'TODO|FIXME' . 2>/dev/null"
+
+# TTYCLOCK
+alias clock="tty-clock -c -b -B -n -C 5 -t"
+
+i# Stopwatch
+alias stopwatch='echo "Time Started! CTRL-D to Stop" && date && time cat && date'
+
+# commandlinefu
+alias fu="python /Users/Em/Toolz/fu/fu"
+
+# Enable/Disable Browser
+## Safari
+alias offsafari="sudo chmod ogu-rx /Applications/Safari.app"
+alias onsafari="sudo chmod ogu+rx /Applications/Safari.app"## Vivaldi
+alias offvivaldi="sudo chmod ogu-rx /Applications/Vivaldi.app"
+alias onvivaldi="sudo chmode ogu+rx /Applications/Vivaldi.app"
+
+alias ia="bash /Users/Em/.dict/ia"
+
+# Download Website
+alias websiteget="wget --random-wait -r -p -e robots=off -U mozilla"
+
+# Which app are using the network
+alias listen="lsof -P -i -n"
+
+# Find in Current Directory
+alias findhere="find . name"
+
