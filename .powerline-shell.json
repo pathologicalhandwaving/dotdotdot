@@ -1,13 +1,13 @@
 {
   "segments": [
-    "username",
-    "time",
+    "root",
+    "cwd",
     "jobs",
     "newline",
     "git",
-    "cwd",
-    "root"
-  ],
+    "username",
+    "time"
+    ],
   "mode": "patched",
   "cwd": {
     "node": "plain",

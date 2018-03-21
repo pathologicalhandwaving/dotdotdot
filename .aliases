@@ -1,5 +1,7 @@
 # Aliases
 
+# Watch todo file
+alias upto="bash /Users/Em/.myscripts/todochange.sh"
 # Pull All Project Repos
 alias gitit="cd /Users/Em/Repos && git-pull-all"
 
@@ -83,7 +85,7 @@ alias tasks="grep -rEI 'TODO|FIXME' . 2>/dev/null"
 # TTYCLOCK
 alias clock="tty-clock -c -b -B -n -C 5 -t"
 
-i# Stopwatch
+# Stopwatch
 alias stopwatch='echo "Time Started! CTRL-D to Stop" && date && time cat && date'
 
 # commandlinefu

@@ -146,11 +146,6 @@ function dataurl() {
 ### FILES AND DIRECTORIES
 
 
-
-# Find in Current Directory
-alias findhere="find . -name "
-
-
 # BackUp File
 # Usage "backupf filename.txt"
 function backupf () {
@@ -172,11 +167,6 @@ function cdf() {  # short for cdfinder
 ### NETWORK STUFF
 
 
-# Download Website
-alias websiteget="wget --random-wait -r -p -e robots=off -U mozilla"
-
-# See Which Apps are using the Network
-alias listen="lsof -P -i -n" 
 
 # Find My IP
 function myip() {
@@ -260,28 +250,6 @@ function dman() {
 }
 
 
-# ttyclock
-alias clock="tty-clock -c -b -B -n  -C 5 -t"
-
-# Stopwatch
-alias stopwatch='echo "Time Started. CTRL-D to Stop" && date && time cat && date'
-
-# commandlinefu
-alias fu="python /Users/Em/Toolz/fu/fu"
-
-# Safari Enable Disable
-alias offsafari="sudo chmod ogu-rx /Applications/Safari.app"
-alias onsafari="sudo chmod ogu+rx /Applications/Safari.app"
-
-# Vivaldi Enable Disable
-alias offvivaldi="sudo chmod ogu-rx /Applications/Vivaldi.app"
-alias onvivaldi="sudo chmod ogu+rx /Applications/Vivaldi.app"
-
-
-# archive.org
-alias ia="bash /Users/Em/.dict/ia"
-
-
 # Output a markdown list from stdin to stdout
 function qlist() {
     sed -E '/^[    ]*$/d'|sed -E 's/^([    ]*)/\1* /'
@@ -299,7 +267,6 @@ function moon() {
     curl wttr.in/Moon | lolcat -a -d 5 -s 17.0
 }
 
-
 # mkdir and cd into it
 function mkcd() {
     mkdir -p $1 && cd $1; 
@@ -309,8 +276,6 @@ function mkcd() {
 function encode() {
     echo -n $@ | perl -pe's/([^-_.~A-Za-z0-9])/sprintf("%%%02X", ord($1))/seg';
 }
-
-
 
 # Count number of files in directory
 function numfiles() { 
