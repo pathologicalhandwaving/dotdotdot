@@ -1,20 +1,15 @@
 # LaTeX and BibTeX Utility Aliases
 
-# TeXInfo Path
-export PATH="/usr/local/opt/texinfo/bin:$PATH"
 
 # Cleanup Auxiliary Files
-alias texclean="rm *.log *.bbl *.blg *.out *.gz *.synctex.gz *.synctex.gz(busy) *.tex.bak *.sty.bak"
-
-#alias biblib="cd /Library/TeX/Local/bibtex/bib/local"
+alias texclean="rm *.aux *.log *.bbl *.blg *.out *.gz *.synctex.gz *.tex.bak *.sty.bak"
 
 # Central Bib Path
+export BIBPATH="/Users/Em/.pubs/bib/"
 
 # Edit Central Bibliography File
-alias bibfile="vim /Users/Em/Repos/bibTexDB/central-bibliography.bib"
+alias bibfile="vim /Users/Em/.pubs/bib/central.bib"
 
-# Where is my Bib
-alias 'whereismybib'="echo 'The Central Bibliography is in Repos/bibTexDB'"
 
 # TeX Search
 function texhelp {

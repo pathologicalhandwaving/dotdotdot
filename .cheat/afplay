@@ -1,0 +1,51 @@
+# afplay - Audio File Play.
+
+## Syntax
+      afplay [option...] audio_file
+
+## Options: (may appear before or after arguments)
+   -v VOLUME
+   --volume VOLUME
+        Set the volume for playback of the file
+        Apple does not define a value range for this, but it appears to accept
+        0=silent, 1=normal (default) and then up to 255=Very loud.
+        The scale is logarithmic and in addition to (not a replacement for) other volume control(s).
+   -h
+   --help
+        Print help.
+
+   --leaks
+        Run leaks analysis.
+
+   -t TIME
+   --time TIME
+        Play for TIME seconds
+        >0 and < duration of audio_file.
+
+   -r RATE
+   --rate RATE
+        Play at playback RATE.
+        practical limits are about 0.4 (slower) to 3.0 (faster).
+
+   -q QUALITY
+   --rQuality QUALITY
+        Set the quality used for rate-scaled playback (default is 0 - low quality, 1 - high quality).
+
+   -d
+   --debug
+        Debug print output.
+Play can be aborted with Ctrl-C
+
+## Examples
+
+Play music.wav for 5 seconds:
+$ afplay music.wav -t 5
+
+Play jolene.mp3:
+$ afplay jolene.mp3
+
+Play jolene.mp3 at half speed:
+$ afplay jolene.mp3 -r 0.5
+
+> “You've achieved success in your field when you don't know whether what you're doing is work or play” ~ Warren Beatty
+

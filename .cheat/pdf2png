@@ -1,0 +1,4 @@
+Convert pdf to png
+
+sips -s format png Name_of_PDF.pdf -out Name_of_Image.png
+
