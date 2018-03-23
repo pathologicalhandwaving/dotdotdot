@@ -4,6 +4,9 @@
 
 cat orbitclasses.csv | column -t -s, | less -S
 
+cat orbitclasses.csv | csvlook --max-column-width 50
+
+
 # Tabs to Comma Separators
 
 cat orbitClasses.csv | tr "\\t" ","

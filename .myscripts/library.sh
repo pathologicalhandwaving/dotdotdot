@@ -185,7 +185,7 @@ lips() {
     local interface ip
     for interface in $(networksetup -listallhardwareports | awk '/^Device: /{print $2}'); do
         ip=$(ipconfig getifaddr $interface)
-        "$ip" != "" ] && break
+        [ "$ip" != "" ] && break
     done
 
     local locip extip
@@ -203,7 +203,7 @@ lips() {
 
 
 # Git Commit and Push All Changes
-function gacp() {
+function gcp() {
     git add -A
     git commit -am $1
     git push
@@ -237,7 +237,7 @@ function avg () {
 
 
 # Quick Reference All Date Formats
-alias dateref='date --help|sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t'
+alias dateref='date --help | sed -n "/^ *%%/,/^ *%Z/p"|while read l;do F=${l/% */}; date +%$F:"|'"'"'${F//%n/ }'"'"'|${l#* }";done|sed "s/\ *|\ */|/g" |column -s "|" -t'
 
 # Open argument in Dash
 function dash() {
@@ -252,19 +252,19 @@ function dman() {
 
 # Output a markdown list from stdin to stdout
 function qlist() {
-    sed -E '/^[    ]*$/d'|sed -E 's/^([    ]*)/\1* /'
+    sed -E '/^[    ]*$/d'| sed -E 's/^([    ]*)/\1* /'
 }
 # list to clipboard
-alias qlistpb="qlist|pbcopy"
+alias qlistpb="qlist | pbcopy"
 
 
 # Weather
 function weather() {
-    curl wttr.in/Lake\ City,\ FL | lolcat -a -d 3 -s 17.0
+    curl "wttr.in/Lake City, FL" | lolcat -a -d 3 -s 17.0
 }
 
 function moon() {
-    curl wttr.in/Moon | lolcat -a -d 5 -s 17.0
+    curl "wttr.in/Moon" | lolcat -a -d 5 -s 17.0
 }
 
 # mkdir and cd into it
