@@ -110,3 +110,5 @@ alias listen="lsof -P -i -n"
 # Find in Current Directory
 alias findhere="find . name"
 
+# Adto
+alias adto="bash /Users/Em/.myscripts/adto.sh"
