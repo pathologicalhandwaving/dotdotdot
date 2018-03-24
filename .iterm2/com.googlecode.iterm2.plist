@@ -3344,7 +3344,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 8</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Repos/Doing</string>
+	<string>~/Repos/Tutoring/Jeremie/March</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 459}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -3386,13 +3386,13 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 307 620 392 0 0 1280 800 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>674 338 599 459 0 0 1280 800 </string>
+	<string>674 396 609 401 0 0 1280 800 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>327 68 918 512 0 0 1280 800 </string>
+	<string>327 107 796 473 0 0 1280 800 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>80 216 592 584 0 0 1280 800 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>194 9 490 507 0 0 1280 800 </string>
+	<string>0 4 485 796 0 0 1280 800 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -14770,7 +14770,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-03-18T23:25:13Z</date>
+	<date>2018-03-21T00:25:01Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -14808,8 +14808,6 @@
 	<key>ToolbeltTools</key>
 	<array>
 		<string>Command History</string>
-		<string>Paste History</string>
-		<string>Notes</string>
 	</array>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1518113408</real>

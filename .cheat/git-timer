@@ -1,0 +1,35 @@
+git-timer is a node.js CLI application written in LiveScript that forces you to commit before a timer is up. It can be used for learning purposes (e.g. for a Code Retreat), or just for regular use, to keep a good commit pace.
+
+Installation
+$ npm install -g git-timer
+How it works
+When you run it, it starts a countdown timer. You are suppose to write code and commit before the time is up. If you don't commit, the repository is reset (using git reset --hard) and the timer starts over. Else, if you commit before timeout, the timer simply resets, and you can move on to the next commit.
+
+Advanced usage - commit only on green
+To make things more challenging, you can add another rule to the game, by only allowing yourself to commit when all tests pass. You can enforce that by adding a pre-commit hook that will run your test suite before commiting.
+
+If you are developing a node.js project and define npm test (in package.json), you just have to run git-timer -g (see section Options below for details).
+
+Options
+$ git-timer -h
+ 
+Usage: git-timer [options]
+ 
+Options:
+    -h, --help          output usage information
+    -V, --version       output the version number
+    -m, --minutes [min] specify timeout in minutes (default is 5)
+    -g, --green         Allow only commits on green.
+                        (!) node only - requires `npm test` to be defined.
+                        (!) WARNING: adds a pre-commit hook to git
+--minutes allows you to override the default timeout (5 minutes)
+--green enforces commits only on green, assuming npm test is available. It basically creates a pre-commit script so that commits are allowed only if npm test passes.
+Notes
+It only works if you don't already use a pre-commit hook.
+It can be reverted by rm .git/hooks/pre-commit
+If you use another language, you can still use this, just replace npm test with the test command, inside the generated pre-commit script
+Keywords
+none
+install
+npm i git-timer
+
