@@ -1,19 +1,13 @@
 #!/bin/bash
 
 
-timestamp="date +%Y%m%dT%H%M"
-
-FILE="Users/Em/Repos/tasks/20728d49baac67ae2f557153e7396627/todo.md"
+FILE="/Users/Em/Repos/list/todo.md"
 
 read -p "Add Task: " thing
 
-function adme() {
-    $thing
-    prefixer="- [ ] "
-    apndd="$prefixer$thing @created($timestamp)"
-    echo = "$($apndd)" >> $FILE
-    clear
-    tail -n 2 < $FILE
-}
+apndd="- [ ] $thing @created($(date +%Y%m%dT%H%M))"
+echo "$apndd" >> $FILE
+clear
+tail -n 1 $FILE
 
 exit 0
