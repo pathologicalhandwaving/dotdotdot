@@ -24,6 +24,6 @@ fi
 #        PROMPT_COMMAND="$PROMPT_COMMAND; ~/bin/TODO.sh";
 #    fi
 #else
-    PROMPT_COMMAND="~/bin/TODO.sh";
+#    PROMPT_COMMAND="~/bin/TODO.sh";
 #fi
 

@@ -93,7 +93,9 @@ Icon
 # cpan
 .cpan/Metadata
 .cpan/FTPstats.yml
-.cpan/
+.cpan/sources/*
+
+.config/configstore/*
 
 # TeX
 *.gz
