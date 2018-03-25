@@ -115,3 +115,5 @@ alias findhere="find . name"
 
 # Adto
 alias adto="bash /Users/Em/.myscripts/adto.sh"
+# Addone
+alias addone="bash /Users/Em/.myscripts/addone.sh"
