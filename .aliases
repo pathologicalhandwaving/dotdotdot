@@ -1,7 +1,8 @@
 # Aliases
 
 # Watch todo file
-alias upto="bash /Users/Em/.myscripts/todochange.sh"
+#alias upto="bash /Users/Em/.myscripts/todochange.sh"
+
 # Pull All Project Repos
 alias gitit="cd /Users/Em/Repos && git-pull-all"
 
@@ -64,6 +65,8 @@ alias gh="git push"
 # GIT CONFIG ALIASES (bare repo dots)
 alias conp="config pull"
 alias conu="config push"
+alias gta="bash /Users/Em/.myscripts/gta.sh"
+
 
 # buku
 alias bukuls="buku --colors oKlxm -p"
