@@ -7,7 +7,9 @@ FPATH="/Users/Em/Repos/list/"
 echo
 echo
 echo "💥 🎌 "
+echo
 echo "Add Completed Task:" | lolcat
+echo 
 echo " 🎊 🎏 "
 read -e thing
 echo
