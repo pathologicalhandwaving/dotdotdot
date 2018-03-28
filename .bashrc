@@ -19,4 +19,5 @@ fi
 
 [[ -s "/usr/local/etc/grc.bashrc" ]] && source /usr/local/etc/grc.bashrc
 
+source ~/.local/share/icons-in-terminal/icons_bash.sh
 
