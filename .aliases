@@ -94,13 +94,6 @@ alias stopwatch='echo "Time Started! CTRL-D to Stop" && date && time cat && date
 # commandlinefu
 alias fu="python /Users/Em/Toolz/fu/fu"
 
-# Enable/Disable Browser
-## Safari
-alias offsafari="sudo chmod ogu-rx /Applications/Safari.app"
-alias onsafari="sudo chmod ogu+rx /Applications/Safari.app"
-## Vivaldi
-alias offvivaldi="sudo chmod ogu-rx /Applications/Vivaldi.app"
-alias onvivaldi="sudo chmode ogu+rx /Applications/Vivaldi.app"
 
 alias ia="bash /Users/Em/.dict/ia"
 
@@ -117,3 +110,6 @@ alias findhere="find . name"
 alias adto="bash /Users/Em/.myscripts/adto.sh"
 # Addone
 alias addone="bash /Users/Em/.myscripts/addone.sh && it2attention fireworks"
+# Logbook
+alias log="bash /Users/Em/.myscripts/logbook.sh && it2attention fireworks"
+

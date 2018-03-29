@@ -15,3 +15,17 @@ alias ooni="open -a Oni"
 
 # iTerm
 alias oiterm="open -a iTerm"
+
+# Spacemacs
+alias ospace="open -a Spacemacs"
+
+
+# Enable/Disable Browser
+## Safari
+alias offsafari="sudo chmod ogu-rx /Applications/Safari.app"
+alias onsafari="sudo chmod ogu+rx /Applications/Safari.app"
+## Vivaldi
+alias offvivaldi="sudo chmod ogu-rx /Applications/Vivaldi.app"
+alias onvivaldi="sudo chmode ogu+rx /Applications/Vivaldi.app"
+
+
