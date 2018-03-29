@@ -61,6 +61,10 @@ export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 # Rust Cargo Path
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# PDF-Tools Helper
+export PKG_CONFIG_PATH=/usr/local/Cellar/zlib/1.2.8/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig
+
+
 # Ruby
 if which ruby >/dev/null && which gem >/dev/null; then
     PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
