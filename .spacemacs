@@ -313,9 +313,7 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (setq screenshots-folder "~/Pictures/ScreenShots")
-  (setq org-todo-files "~/Repos/tasks/OrgMode/captainslog/todo.org")
-  (setq org-agenda-files "~/Repos/tasks/OrgMode/captainslog/agenda.org")
+
   (setq org-ref-default-bibliography '("~/Repos/tasks/OrgMode/library/ref/default.bib")
       org-ref-pdf-directory "~/Repos/tasks/OrgMode/library/ref/pdfs"
       org-ref-bibliography-notes "~/Repos/tasks/OrgMode/library/ref/notes.org")
