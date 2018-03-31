@@ -152,27 +152,27 @@ values."
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(spacemacs-dark
                          spacemacs-light
-                         planet
-                         sanityinc-solarized-dark
-                         sanityinc-tomorrow-blue
-                         seti
-                         spacegray
-                         spolsky
-                         toxi
-                         tronesque
-                         underwater
-                         zonokai-blue
-                         moe
-                         cyberpunk
-                         deeper-blue
-                         farmhouse-dark
-                         fogus
-                         granger
-                         hc-zenburn
-                         material
-                         minimal-light
-                         minimal-dark
-                         monokai)
+                         planet-theme
+                         color-theme-sanityinc-solarized
+                         color-theme-sanityinc-tomorrow
+                         seti-theme
+                         spacegray-theme
+                         spolsky-theme
+                         toxi-theme
+                         tronesque-theme
+                         underwater-theme
+                         zonokai-blue-theme
+                         moe-theme
+                         cyberpunk-theme
+                         deeper-blue-theme
+                         farmhouse-dark-theme
+                         fogus-theme
+                         granger-theme
+                         hc-zenburn-theme
+                         material-theme
+                         minimal-light-theme
+                         minimal-dark-theme
+                         monokai-theme)
 
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
