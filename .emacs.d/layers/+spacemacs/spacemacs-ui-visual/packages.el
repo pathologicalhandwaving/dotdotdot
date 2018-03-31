@@ -165,7 +165,7 @@
     :commands neo-global--window-exists-p
     :init
     (progn
-      (setq neo-window-width 32
+      (setq neo-window-width 28
             neo-create-file-auto-open t
             neo-banner-message "Press ? for neotree help"
             neo-show-updir-line nil
