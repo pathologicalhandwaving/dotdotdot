@@ -77,6 +77,7 @@ values."
     (require 'all-the-icons)
     (use-package all-the-icons
       :config (setq neo-theme 'all-the-icons))
+    (require 'eww)
    )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
