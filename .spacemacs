@@ -61,7 +61,23 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '()
+   dotspacemacs-additional-packages '(
+    (package-install 'spaceline)
+    (require 'spaceline)
+    (use-package spaceline)
+
+    (package-install 'spaceline-all-the-icons)
+    (require 'spaceline-all-the-icons)
+    (use-package spaceline-all-the-icons
+      :after spaceline
+      :config (progn
+              (spaceline-all-the-icons-theme)
+              (setq spaceline-all-the-icons-separator-type 'slant)))
+    (package-install 'all-the-icons)
+    (require 'all-the-icons)
+    (use-package all-the-icons
+      :config (setq neo-theme 'all-the-icons))
+   )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -320,25 +336,7 @@ you should place your code here."
         org-ref-pdf-directory "~/Repos/tasks/OrgMode/library/refs/pdfs/"
         org-ref-bibliography-notes "~/Repos/tasks/OrgMode/library/refs/refnotes.org")
   (setq default-frame-alist'((undecorated . t)))
-  (package-install 'all-the-icons)
-  (require 'all-the-icons)
-  (use-package all-the-icons
-    :config (setq neo-theme 'icons))
-
-  (require 'themes-megapack-packages)
-  (use-package themes-megapack-packages)
-
-  (package-install 'spaceline)
-  (require 'spaceline)
-  (use-package spaceline)
-
-  (package-install 'spaceline-all-the-icons)
-  (require 'spaceline-all-the-icons)
-  (use-package spaceline-all-the-icons
-    :after spaceline
-    :config (progn
-              (spaceline-all-the-icons-theme)
-              (setq spaceline-all-the-icons-separator-type 'slant)))
+  
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
