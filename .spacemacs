@@ -52,7 +52,7 @@ values."
      (colors :variables
              colors-enable-rainbow-identifiers t
              colors-enable-nyan-cat-progress-bar (display-graphic-p))
-
+     xkcd
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
