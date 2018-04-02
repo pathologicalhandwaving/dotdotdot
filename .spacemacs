@@ -31,54 +31,53 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
-     yaml
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     bibtex
+     csv
+     (latex :variables
+            latex-enable-auto-fill t
+            latex-enable-folding t
+            latex-build-command "LaTeX")
      ivy
      auto-completion
      ;; better-defaults
+     ;;dash
      emacs-lisp
-     git
-     ;; markdown
-     (org  :variables
-           org-enable-github-support t)
+     ;; git
+     helm
+     html
+     imenu-list
+     finance
+     markdown
+     ;;mu4e
+     (org :variables
+          org-projectile-file "~/Repos/tasks/OrgMode/projects/projects.org"
+          org-enable-github-support t)
      (shell :variables
             shell-default-height 30
-            shell-default-position 'top)
-     themes-megapack
+            shell-default-position 'bottom)
+     shell-scripts
+     ;;sml
+     spell-checking
+     syntax-checking
+     ;;rebox
      (colors :variables
-             colors-enable-rainbow-identifiers t
-             colors-enable-nyan-cat-progress-bar (display-graphic-p))
-     xkcd
-     ;; spell-checking
-     ;; syntax-checking
+             (setq colors-enable-nyan-cat-progress-bar t)
+             (setq rainbow-mode)
+             (setq colors-colors-identifiers t))
      ;; version-control
+     yaml
+     ipython-notebook
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '(
-    (package-install 'spaceline)
-    (require 'spaceline)
-    (use-package spaceline)
-
-    (package-install 'spaceline-all-the-icons)
-    (require 'spaceline-all-the-icons)
-    (use-package spaceline-all-the-icons
-      :after spaceline
-      :config (progn
-              (spaceline-all-the-icons-theme)
-              (setq spaceline-all-the-icons-separator-type 'slant)))
-    (package-install 'all-the-icons)
-    (require 'all-the-icons)
-    (use-package all-the-icons
-      :config (setq neo-theme 'all-the-icons))
-    (require 'eww)
-   )
+   dotspacemacs-additional-packages '()
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -152,34 +151,13 @@ values."
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(spacemacs-dark
                          spacemacs-light
-                         planet-theme
-                         color-theme-sanityinc-solarized
-                         color-theme-sanityinc-tomorrow
-                         seti-theme
-                         spacegray-theme
-                         spolsky-theme
-                         toxi-theme
-                         tronesque-theme
-                         underwater-theme
-                         zonokai-blue-theme
-                         moe-theme
-                         cyberpunk-theme
-                         deeper-blue-theme
-                         farmhouse-dark-theme
-                         fogus-theme
-                         granger-theme
-                         hc-zenburn-theme
-                         material-theme
-                         minimal-light-theme
-                         minimal-dark-theme
-                         monokai-theme)
-
+                         moe-dark)
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
-   dotspacemacs-default-font '("Fira Code Retina"
-                               :size 13
+   dotspacemacs-default-font '("Fira Code Medium"
+                               :size 12
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -266,14 +244,14 @@ values."
    dotspacemacs-loading-progress-bar t
    ;; If non nil the frame is fullscreen when Emacs starts up. (default nil)
    ;; (Emacs 24.4+ only)
-   dotspacemacs-fullscreen-at-startup t
+   dotspacemacs-fullscreen-at-startup nil
    ;; If non nil `spacemacs/toggle-fullscreen' will not use native fullscreen.
    ;; Use to disable fullscreen animations in OSX. (default nil)
    dotspacemacs-fullscreen-use-non-native nil
    ;; If non nil the frame is maximized when Emacs starts up.
    ;; Takes effect only if `dotspacemacs-fullscreen-at-startup' is nil.
    ;; (default nil) (Emacs 24.4+ only)
-   dotspacemacs-maximized-at-startup t
+   dotspacemacs-maximized-at-startup nil
    ;; A value from the range (0..100), in increasing opacity, which describes
    ;; the transparency level of a frame when it's active or selected.
    ;; Transparency can be toggled through `toggle-transparency'. (default 90)
@@ -355,11 +333,48 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+
+  ;; CUSTOM: ORGMODE CONFIG
+  (require org-brain)
+  (setq-default dotspacemacs-configuration-layers '(
+                                                    (org :variables
+                                                         org-enable-github-support t)))
+  ;; CUSTOM: TODO KEYWORDS
+  ;; THESE MAY NEED TO BE TAGS INSTEAD
+  (setq org-todo-keywords
+        '((sequence "TODO(t)" "PURGATORY" "INPROGRESS(i)" "|" "PREPARE" "READY" "DONE(d!)")
+          (sequence "APPOINTMENT" "SCHEDULED" "RESCHEDULED" "|" "CANCELED")
+	        (sequence "CLASS" "LECTURE" "LAB" "|" "ASSIGNMENT" "PROBLEMSET" "|" "QUIZ" "TEST" "EXAM" "FINAL" "REVIEW" "|" "ASSIGNMENT" "PROBLEMSET")
+          (sequence "DEFINITION" "THEOREM" "|" "LEMMA" "COROLLARY")
+          (sequence "CONCEPT" "TOPIC" "|" "SYSTEM" "COMPONENT" "|" "MAP" "CONNECT" "CLARIFY")
+          (sequence "OUTLINE" "WRITE" "NOTES" "|" "RESEARCH" "PROCESS" "REFERENCES" "|" "VERSION")
+          (sequence "DEVELOP" "ALPHA" "BETA" "|" "DEBUG" "FIXME" "TEST" "|" "REFACTOR" "MAINTENANCE")
+          (sequence "TOOL" "UTILITY" "APP" "|" "CLI" "SCRIPT" "LIB" "|" "SOURCE" "CODE" "|" "DATABASE" "SERVICE" "REPOSITORY")
+          (sequence "HEALTH" "FAMILY" "SELFSPY" "TUTORING" "DEV" "CLIENTS" "WORK" "ACADEMIC")))
+  ;; CUSTOM: KEYWORD HIGHLIGHTING
+
+  ;; Fix for auto-add-todos to agenda
+  (with-eval-after-load 'org-agenda
+    (require 'org-projectile)
+    (push (org-projectile:todo-files) org-agenda-files))
+
+  ;; This should (hopefully) enable ligatures in fonts
+  (if (fboundp 'mac-auto-operator-composition-mode) (mac-auto-operator-composition-mode))
+
+  ;; NEOTREE
+  (setq neo-theme 'nerd)
+  (setq neo-modern-sidebar t)
+  (setq neo-widow-width 26)
+  ;; LEDGER
+  (setq ledger-post-amount-alignment-column 68)
+
+  ;; BIBTEX
   (setq org-ref-default-bibliography '("~/Repos/tasks/OrgMode/library/refs/default.bib")
-        org-ref-pdf-directory "~/Repos/tasks/OrgMode/library/refs/pdfs/"
-        org-ref-bibliography-notes "~/Repos/tasks/OrgMode/library/refs/refnotes.org")
-  (setq default-frame-alist'((undecorated . t)))
-  
+        org-ref-pdf-directory "~/Repos/tasks/OrgMode/library/refs/pdfs"
+        org-ref-bibliography-notes "~/Repos/tasks/OrgMode/library/refs/bib-notes.org")
+  (setq spaceline-org-clock-p t)
+  ;; LATEX PREVIEW
+  (add-hook 'doc-view-mode-hook 'auto-revert-mode)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -370,10 +385,10 @@ you should place your code here."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "27b97024320d223cbe0eb73104f2be8fcc55bd2c299723fc61d20057f313b51c" default))
+   '("291588d57d863d0394a0d207647d9f24d1a8083bb0c9e8808280b46996f3eb83" default))
  '(evil-want-Y-yank-to-eol nil)
  '(package-selected-packages
-   '(w3 notes-mode darkroom tramp-theme ahungry-theme rainbow-mode all-the-icons yaml-mode image+ ox-gfm xterm-color smeargle shell-pop orgit multi-term magit-gitflow gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link fuzzy evil-magit magit magit-popup git-commit ghub with-editor eshell-z eshell-prompt-extras esh-help company-statistics company auto-yasnippet yasnippet ac-ispell auto-complete org-projectile org-category-capture org-present org-pomodoro alert log4e gntp org-mime org-download htmlize gnuplot ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox spinner org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make helm helm-core google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg undo-tree eval-sexp-fu highlight elisp-slime-nav dumb-jump popup f dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent adaptive-wrap ace-window ace-link avy)))
+   '(org-capture-pop-frame org-brain yaml-mode web-mode tagedit slim-mode scss-mode sass-mode pug-mode ox-gfm ob-sml sml-mode mu4e-maildirs-extension mu4e-alert ht ledger-mode imenu-list helm-css-scss haml-mode flycheck-ledger emmet-mode ein skewer-mode request-deferred websocket deferred js2-mode simple-httpd dash-at-point csv-mode counsel-dash helm-dash dash-functional company-web web-completion-data insert-shebang fish-mode company-shell elfeed-org elfeed rainbow-mode color-identifiers-mode moe-theme xterm-color shell-pop org-ref pdf-tools key-chord tablist multi-term mmm-mode markdown-toc markdown-mode helm-themes helm-swoop helm-projectile helm-mode-manager helm-flx helm-descbinds helm-company helm-c-yasnippet helm-bibtex parsebib helm-ag gh-md fuzzy flyspell-correct-ivy flyspell-correct-helm flyspell-correct flycheck-pos-tip pos-tip flycheck eshell-z eshell-prompt-extras esh-help company-statistics company-auctex company biblio biblio-core auto-yasnippet yasnippet auto-dictionary auctex-latexmk auctex ace-jump-helm-line ac-ispell auto-complete rainbow-identifiers org-projectile org-category-capture org-present org-pomodoro alert log4e gntp org-mime org-download htmlize gnuplot ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox spinner org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make helm helm-core google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg undo-tree eval-sexp-fu highlight elisp-slime-nav dumb-jump popup f dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent adaptive-wrap ace-window ace-link avy)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

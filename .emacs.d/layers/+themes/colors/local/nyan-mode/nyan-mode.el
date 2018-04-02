@@ -85,7 +85,7 @@
   (kill-process "nyan-music"))
 
 ;;; FIXME bug, doesn't work for antoszka.
-(defcustom nyan-wavy-trail t
+(defcustom nyan-wavy-trail nil
   "If enabled, Nyan Cat's rainbow trail will be wavy."
   :type '(choice (const :tag "Enabled" t)
                  (const :tag "Disabled" nil))
@@ -94,7 +94,7 @@
          (nyan-refresh))
   :group 'nyan)
 
-(defcustom nyan-bar-length 52
+(defcustom nyan-bar-length 32
   "Length of Nyan Cat bar in units; each unit is equal to an 8px
   image. Minimum of 3 units are required for Nyan Cat."
   :set (lambda (sym val)
@@ -102,7 +102,7 @@
          (nyan-refresh))
   :group 'nyan)
 
-(defcustom nyan-animate-nyancat t
+(defcustom nyan-animate-nyancat nil
   "Enable animation for Nyan Cat.
 This can be t or nil."
   :type '(choice (const :tag "Enabled" t)
@@ -238,7 +238,7 @@ This can be t or nil."
             nyancat-string
             outerspace-string)))
 
-(defvar nyan-old-car-mode-line-position t)
+(defvar nyan-old-car-mode-line-position nil)
 
 ;;;###autoload
 (define-minor-mode nyan-mode

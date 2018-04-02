@@ -80,7 +80,7 @@ autocmd BufEnter * :syntax sync fromstart
 "" COLORS
 set background=dark
 try
-    colorscheme solarized
+    colorscheme melanite
 catch
 endtry
 

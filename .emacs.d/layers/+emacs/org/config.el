@@ -20,7 +20,7 @@
 (defvar org-enable-reveal-js-support nil
   "If non-nil, enable export to reveal.js.")
 
-(defvar org-projectile-file "~/Repos/tasks/OrgMode/captainslog/todos.org"
+(defvar org-projectile-file "/Users/Em/Repos/tasks/OrgMode/projects/projects.org"
   "The file to store project TODOs in. If this is a relative
 path, one file per project is used (and the path is relative to
 the project root). If it an absolute path, one global file is

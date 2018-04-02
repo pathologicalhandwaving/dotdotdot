@@ -102,8 +102,6 @@ at this stage.  It is possible to disable the configuration of gnuplot support
 as usual by adding the package =gnuplot= to your =dotspacemacs-excluded-packages=
 variable.
 
-TODO: Enable gnuplot
-
 ** Reveal.js support
 To enable the export of your org file as a [[http://lab.hakim.se/reveal-js/][reveal.js]] presentation, set the
 variable =org-enable-reveal-js-support= to =t=. This will install the [[https://github.com/yjwen/org-reveal/][org-reveal]]
