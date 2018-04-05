@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- neotree-change-root
+ package-install
+ rainbow-delimiters-mode
+ load-theme
+ menu-bar-mode
  recover-this-file
  neotree-show
  tool-bar-mode
- menu-bar-mode
- update-file-autoloads
- package-delete
 )
 
 ;; ----- smex-data -----
 (
- (menu-bar-mode . 2)
+ (menu-bar-mode . 3)
  (neotree-show . 2)
  (buffer-menu . 1)
  (write-file . 6)
@@ -22,4 +22,7 @@
  (tool-bar-mode . 2)
  (recover-this-file . 1)
  (neotree-change-root . 1)
+ (load-theme . 1)
+ (package-install . 15)
+ (rainbow-delimiters-mode . 1)
 )
