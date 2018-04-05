@@ -1,0 +1,51 @@
+# -*- mode: snippet; require-final-newline: t -*-
+# name: org.projectstart
+# key: pjs
+# --
+#+TAGS: PROJECT INDEXPAGE
+
+#+PROJECT_ID: $4
+#+GITHUB_USERNAME: PathologicalHandwaving
+#+GITHUB_PROJECT_REPO: $3
+#+EMAIL: kmshort@protonmail.com
+#+INIT_DATE: %T
+#+GITHUB_CLONE_URL: git@github.com:pathologicalhandwaving/$2
+#+DESCRIPTION: $1
+#+LAST_MODIFIED: $
+
+
+* Project: $
+
+  - LINK_NOTES
+  - CHANGELOG
+
+
+** Objectives
+
+  - $
+  - $
+  - $
+
+
+** Metrics
+
+  - $
+  - $
+  - $
+
+
+** Resources
+
+*** Library Files
+
+  - [[file:/Users/Em/Repos/ImInSpace/Library/Refs/default.bib][Bibliography]]
+  - [[file:/Users/Em/Repos/ImInSpace/Library/Refs/ProjectNotes/$.org][PROJECT_ID Reference Notes]]
+  - [[file:/Users/Em/Repos/ImInSpace/
+  
+  
+** 
+
+
+
+
+$0
