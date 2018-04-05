@@ -1,0 +1,25 @@
+
+;; ----- smex-history -----
+(
+ neotree-change-root
+ recover-this-file
+ neotree-show
+ tool-bar-mode
+ menu-bar-mode
+ update-file-autoloads
+ package-delete
+)
+
+;; ----- smex-data -----
+(
+ (menu-bar-mode . 2)
+ (neotree-show . 2)
+ (buffer-menu . 1)
+ (write-file . 6)
+ (org-time-stamp . 1)
+ (package-delete . 1)
+ (update-file-autoloads . 2)
+ (tool-bar-mode . 2)
+ (recover-this-file . 1)
+ (neotree-change-root . 1)
+)

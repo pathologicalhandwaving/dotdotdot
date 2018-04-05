@@ -3,6 +3,10 @@
 # Exports
 export TERM=xterm-256color
 
+# PKG-CONFIG
+export PKG_CONFIG_PATH="/usr/local/bin/pkg-config"
+
+
 # Python 3 Path
 export PYTHONPATH="/usr/local/bin/python3"
 # Python Encoding

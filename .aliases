@@ -1,13 +1,13 @@
 # Aliases
 
-# Watch todo file
-#alias upto="bash /Users/Em/.myscripts/todochange.sh"
+# SciMax- Emacs Distro
+#alias max="emacs -q -l /Users/Em/scimax/init.el"
+
+
 
 # Pull All Project Repos
 alias gitit="cd /Users/Em/Repos && git-pull-all"
 
-# List declared aliases and functions
-alias lsaliases="alias | sed 's/=.*//'"
 
 # Show non-prefixed functions
 alias lsfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'"
@@ -65,7 +65,7 @@ alias gh="git push"
 # GIT CONFIG ALIASES (bare repo dots)
 alias conp="config pull"
 alias conu="config push"
-alias gta="bash /Users/Em/.myscripts/gta.sh"
+alias gta="bash /Users/Em/.myscripts/gta.sh && it2attention fireworks"
 
 
 # buku
@@ -107,7 +107,7 @@ alias listen="lsof -P -i -n"
 alias findhere="find . name"
 
 # Adto
-alias adto="bash /Users/Em/.myscripts/adto.sh"
+#alias adto="bash /Users/Em/.myscripts/adto.sh"
 # Addone
 alias addone="bash /Users/Em/.myscripts/addone.sh && it2attention fireworks"
 # Logbook
