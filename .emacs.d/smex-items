@@ -1,28 +1,34 @@
 
 ;; ----- smex-history -----
 (
+ pdf-tools-install
  package-install
- rainbow-delimiters-mode
- load-theme
- menu-bar-mode
- recover-this-file
- neotree-show
- tool-bar-mode
+ orgtbl-mode
+ save-buffer
+ interleave
+ edit-server-start
+ write-file
 )
 
 ;; ----- smex-data -----
 (
- (menu-bar-mode . 3)
- (neotree-show . 2)
+ (menu-bar-mode . 4)
+ (neotree-show . 3)
  (buffer-menu . 1)
- (write-file . 6)
+ (write-file . 7)
  (org-time-stamp . 1)
  (package-delete . 1)
  (update-file-autoloads . 2)
  (tool-bar-mode . 2)
  (recover-this-file . 1)
- (neotree-change-root . 1)
+ (neotree-change-root . 2)
  (load-theme . 1)
- (package-install . 15)
+ (package-install . 84)
  (rainbow-delimiters-mode . 1)
+ (neotree-enter . 1)
+ (edit-server-start . 1)
+ (pdf-tools-install . 6)
+ (interleave . 1)
+ (save-buffer . 1)
+ (orgtbl-mode . 1)
 )

@@ -124,6 +124,9 @@
                    ((:background "black")
                     (:foreground "red"))
                    :overlap-face nil :gap-face nil :no-end-time-face nil :long-face nil :short-face nil))
+ '(org-agenda-diary-file "/Users/Em/Repos/ImInSpace/CaptainsLog/log.org")
+ '(org-agenda-files
+   '("/Users/Em/Repos/ImInSpace/CaptainsLog/agenda.org" "/Users/Em/Repos/ImInSpace/deck.org" "/Users/Em/Repos/ImInSpace/"))
  '(org-agenda-include-diary t)
  '(org-agenda-insert-diary-extract-time t)
  '(org-agenda-log-mode-items '(closed clock state))
@@ -144,9 +147,8 @@
  '(org-babel-python-command "python3")
  '(org-babel-remote-temporary-directory "/Users/Em/Repos/ImInSpace/Systemic/tmp/")
  '(org-beamer-theme "Cuerna")
- '(org-brain-data-file
-   "/Users/Em/Repos/ImInSpace/CaptainsLog/Brain/.org-brain-data.el")
- '(org-brain-path "/Users/Em/Repos/ImInSpace/CaptainsLog/Brain/")
+ '(org-brain-data-file "/Users/Em/Repos/ImInSpace/ExoCortex/.org-brain-data.el")
+ '(org-brain-path "/Users/Em/Repos/ImInSpace/ExoCortex")
  '(org-brain-visualize-one-child-per-line t)
  '(org-bullets-bullet-list '("♛" "♚" "♝" "♜"))
  '(org-capture-use-agenda-date t)
@@ -165,6 +167,7 @@
  '(org-directory "/Users/Em/Repos/ImInSpace")
  '(org-edit-src-auto-save-idle-delay 120)
  '(org-edit-src-turn-on-auto-save t)
+ '(org-ellipsis ".#")
  '(org-enforce-todo-checkbox-dependencies t)
  '(org-enforce-todo-dependencies t)
  '(org-export-backends '(ascii beamer html icalendar latex md odt))
@@ -225,7 +228,7 @@
  '(org-mobile-inbox-for-pull "/Users/Em/Repos/ImInSpace/ToGo/togo-refiler.org")
  '(org-mobile-index-file "/Users/Em/Repos/ImInSpace/ToGo/togo-index.org")
  '(org-modules
-   '(org-bbdb org-bibtex org-docview org-gnus org-habit org-id org-info org-irc org-mhe org-mouse org-protocol org-rmail org-w3m org-annotate-file org-bookmark org-checklist org-choose org-collector org-drill org-eshell org-eval-light org-eval org-expiry org-favtable org-git-link org-invoice org-learn org-mac-iCal org-mac-link org-man org-notmuch org-panel org-registry org-toc org-velocity))
+   '(org-bbdb org-bibtex org-docview org-gnus org-habit org-id org-info org-irc org-mhe org-mouse org-protocol org-rmail org-w3m org-annotate-file org-bookmark org-checklist org-choose org-collector org-drill org-eshell org-eval-light org-eval org-expiry org-favtable org-git-link org-invoice org-learn org-mac-iCal org-mac-link org-man org-mew org-panel org-registry org-toc org-velocity))
  '(org-pretty-entities t)
  '(org-provide-todo-statistics 'all-headlines)
  '(org-publish-sitemap-file-entry-format "%T")
@@ -250,7 +253,7 @@
  '(org-ref-note-title-format
    "** BIBNOTE: %T\n :PROPERTIES:\n  :Citekey: %k\n  :AUTHOR: %9a\n  :JOURNAL: %j\n  :YEAR: %y\n  :VOLUME: %v\n  :PAGES: %p\n  :DOI: %D\n  :URL: %U\n :END:\n\n")
  '(org-ref-notes-directory nil)
- '(org-ref-pdf-directory "/Users/Em/Repos/ImInSpace/Library/Attachments/pdfs/")
+ '(org-ref-pdf-directory "/Users/Em/Repos/ImInSpace/Library/Refs/PDFs/")
  '(org-ref-prefer-bracket-links t)
  '(org-scheduled-delay-days 1)
  '(org-sparse-tree-default-date-type 'all)
@@ -274,17 +277,18 @@
      ("LaTeX" . tex)
      ("BibTeX" . bib)))
  '(org-startup-align-all-tables t)
+ '(org-startup-folded 'content)
  '(org-startup-with-inline-images t)
  '(org-startup-with-latex-preview t)
  '(org-table-default-size "3x3")
  '(org-time-stamp-custom-formats '("<%Y/%m/%d %a>" . "<%Y/%m/%d %a %H:%M>"))
  '(org-todo-keywords
-   '((sequence "TODO" "PLAN" "INPROGRESS" "REVIEW" "DONE" "PURGATORY" "BLOCK" "HOLD")))
+   '((sequence "TODO" "PLAN" "INPROGRESS" "REVIEW" "DONE" "PURGATORY" "BLOCK" "HOLD" "FIXME")))
  '(org-todo-repeat-to-state nil)
  '(org-track-ordered-property-with-tag nil)
  '(org-use-sub-superscripts '{})
  '(package-selected-packages
-   '(grab-mac-link org-easy-img-insert org-chef checkbox org-mind-map diff-hl github-search search-web web-search xkcd fireplace wttrin transcribe elbank emms org-alert annotate homebrew-mode twittering-mode sx mew quickref writegood-mode google-translate google-maps google-this shell-pop git-gutter-fringe+ git-gutter+ org-capture-pop-frame org-protocol-jekyll cheatsheet discover sml-mode lua-mode literate-starter-kit coffee-mode json-navigator jsonnet-mode impatient-mode auto-yasnippet org-time-budgets orgtbl-ascii-plot orgtbl-show-header orgtbl-join orgtbl-aggregate focus latex-pretty-symbols pretty-symbols buffer-move tabbar workgroups2 org2jekyll latex-extra ukrainian-holidays bibslurp bibtex-utils bibretrieve latex-preview-pane magic-latex-buffer cdlatex latexdiff auctex-latexmk bbdb ereader org-board edit-server offlineimap org-present org-preview-html org-web-tools org-edit-latex org-pomodoro org-pdfview org-randomnote org-download org-notebook org-journal gnuplot-mode latex-math-preview dashboard gnuplot org-brain all-the-icons-ivy 0blayout rainbow-delimiters doom-themes org-dashboard interleave org-ref all-the-icons neotree lsp-rust cargo rust-mode intero alchemist elixir-mode psc-ide psci purescript-mode flow-mode lsp-javascript-typescript tern js2-refactor js2-mode json-mode rainbow-mode web-mode lsp-ui company-lsp lsp-mode smart-mode-line rich-minority emojify unicode-fonts fish-completion bash-completion esh-autosuggest eshell-git-prompt helm-ext helm-flx helm-projectile helm-flycheck swiper-helm helm eros highlight-parentheses paredit discover-my-major which-key org-cliplink org-bullets org-plus-contrib git-gutter-fringe gist magit flycheck-color-mode-line flycheck ibuffer-projectile projectile dired+ ethan-wspace yasnippet company-try-hard company-emoji company-quickhelp company volatile-highlights shrink-whitespace expand-region multiple-cursors anzu ace-window avy flx-ido ido-vertical-mode smex ido-ubiquitous web material-theme diminish nyan-mode hlinum exec-path-from-shell f use-package paradox))
+   '(ialign ibuffer-sidebar grab-mac-link org-easy-img-insert org-chef checkbox org-mind-map diff-hl github-search search-web web-search xkcd fireplace wttrin transcribe elbank emms org-alert annotate homebrew-mode twittering-mode sx mew quickref writegood-mode google-translate google-maps google-this shell-pop git-gutter-fringe+ git-gutter+ org-capture-pop-frame org-protocol-jekyll cheatsheet discover sml-mode lua-mode literate-starter-kit coffee-mode json-navigator jsonnet-mode impatient-mode auto-yasnippet org-time-budgets orgtbl-ascii-plot orgtbl-show-header orgtbl-join orgtbl-aggregate focus latex-pretty-symbols pretty-symbols buffer-move tabbar workgroups2 org2jekyll latex-extra ukrainian-holidays bibslurp bibtex-utils bibretrieve latex-preview-pane magic-latex-buffer cdlatex latexdiff auctex-latexmk bbdb ereader org-board edit-server offlineimap org-present org-preview-html org-web-tools org-edit-latex org-pomodoro org-pdfview org-randomnote org-download org-notebook org-journal gnuplot-mode latex-math-preview dashboard gnuplot org-brain all-the-icons-ivy 0blayout rainbow-delimiters doom-themes org-dashboard interleave org-ref all-the-icons neotree lsp-rust cargo rust-mode intero alchemist elixir-mode psc-ide psci purescript-mode flow-mode lsp-javascript-typescript tern js2-refactor js2-mode json-mode rainbow-mode web-mode lsp-ui company-lsp lsp-mode smart-mode-line rich-minority emojify unicode-fonts fish-completion bash-completion esh-autosuggest eshell-git-prompt helm-ext helm-flx helm-projectile helm-flycheck swiper-helm helm eros highlight-parentheses paredit discover-my-major which-key org-cliplink org-bullets org-plus-contrib git-gutter-fringe gist magit flycheck-color-mode-line flycheck ibuffer-projectile projectile dired+ ethan-wspace yasnippet company-try-hard company-emoji company-quickhelp company volatile-highlights shrink-whitespace expand-region multiple-cursors anzu ace-window avy flx-ido ido-vertical-mode smex ido-ubiquitous web material-theme diminish nyan-mode hlinum exec-path-from-shell f use-package paradox))
  '(pdf-info-epdfinfo-program "/usr/local/bin/epdfinfo")
  '(projectile-completion-system 'ido)
  '(projectile-enable-idle-timer t)
@@ -350,3 +354,16 @@
  '(outline-3 ((t (:inherit nil :foreground "#BB88AE"))))
  '(outline-4 ((t (:inherit nil :foreground "#EDCD84"))))
  '(rmail-highlight ((t (:inherit highlight :foreground "#7EC1D2")))))
+;;
+;; KEYBIND TO DECK
+(global-set-key (kbd "C-c d")
+                (lambda () (interactive) (find-file "/Users/Em/Repos/ImInSpace/deck.org")))
+;; KEYBIND TO CAPTAINSLOG
+(global-set-key (kbd "C-c l")
+                (lambda () (interactive) (find-file "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org")))
+;; KEYBIND TO ExoCortex
+(global-set-key (kbd "C-c e")
+                (lambda () (interactive) (find-file "/Users/Em/Repos/ImInSpace/ExoCortex/exocortex.org")))
+;; KEYBIND TO ORG CAPTURE
+(global-set-key (kbd "C-c c") 'org-capture)
+
