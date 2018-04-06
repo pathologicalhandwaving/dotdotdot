@@ -45,9 +45,9 @@
   ;; org-ref
   (use-package org-ref
     :config
-    (setq org-ref-bibliography-notes "/Users/Em/Repos/tasks/OrgMode/library/refs/bib-notes.org"
-          org-ref-default-bibliography '("/Users/Em/Repos/tasks/OrgMode/library/refs/default.bib")
-          org-ref-pdf-directory "/Users/Em/Repos/tasks/OrgMode/library/refs/pdfs/")
+    (setq org-ref-bibliography-notes "/Users/Em/Repos/ImInSpace/Library/Refs/refnotes.org"
+          org-ref-default-bibliography '("/Users/Em/Repos/ImInSpace/Library/Refs/default.bib")
+          org-ref-pdf-directory "/Users/Em/Repos/ImInSpace/Library/Refs/PDFs/")
     (require 'org-ref))
   ;; org-brain
   (use-package org-brain)
