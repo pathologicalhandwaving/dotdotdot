@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: masterthesis
+# key: masterthesis
+# --
+@masterthesis{${citekey},
+  author    = {${author}},
+  title     = {${title}},
+  school    = {${school}},
+  year      = {${year}},
+  type      = {${type}},
+  address   = {${address}},
+  month     = {${month}},
+  note      = {${note}},
+  keywords  = {${keywords}}
+}
+
+$0

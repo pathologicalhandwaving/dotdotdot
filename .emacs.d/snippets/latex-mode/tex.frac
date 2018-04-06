@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: t -*-
+# name: tex.frac
+# key: frac
+
+\frac{$1}{$0} 

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: booklet
+# key: booklet
+# --
+@booklet{${citekey},
+  author       = {${author}},
+  howpublished = {${howpublished}},
+  address      = {${address}},
+  year         = {${year}},
+  month        = {${month}},
+  volume       = {${volume}},
+  note         = {${note}},
+  keywords     = {${keywords}}
+}
+
+$0

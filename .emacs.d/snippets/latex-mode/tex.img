@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: t -*-
+# name: tex.img
+# key: timg
+
+
+\includegraphics[scale=$1]{$0}
+
