@@ -158,14 +158,6 @@
 ;; Unclutter the modeline
 (use-package diminish)
 
-;; include neotree
-(use-package doom-themes
-  :config
-  (require 'doom-themes)
-  (setq doom-themes-enable-bold t
-        doom-themes-enable-italic t)
-  (doom-themes-neotree-config)
-  (doom-themes-org-config))
 
 (eval-after-load "eldoc" '(diminish 'eldoc-mode))
 (eval-after-load "autopair" '(diminish 'autopair-mode))
