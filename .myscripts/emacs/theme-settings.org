@@ -1,0 +1,110 @@
+;; Theme Settings
+
+
+
+;; neotree
+(use-package doom-themes
+  :config
+  (require 'doom-themes)
+  (setq doom-themes-enable-bold t
+        doom-themes-enable-italic t)
+  (doom-themes-neotree-config)
+  (doom-themes-org-config))
+
+
+;; Nyan Cat
+(use-package nyan-mode
+  :config
+  (nyan-mode 1)
+  (setq nyan-bar-length 16
+        nyan-wavy-trail t))
+
+
+;; doom one theme
+(use-package doom-themes)
+(load-theme 'doom-one)
+
+;; mode-line
+(set-face-attribute 'mode-line nil
+                    :foreground "#"
+                    :background "#"
+                    :box nil
+                    :weight 'bold)
+
+;; mode-line-buffer-id
+(set-face-attribute 'mode-line-buffer-d nil
+                    :foreground "#"
+                    :background "#"
+                    :weight 'bold)
+
+;; face-foreground
+(set-face-foreground ' "#")
+
+;; face-attribute 'linum
+(set-face-attribute 'linum nil
+                    :height 0.7)
+
+;; face-attribute 'linum-highlight-face
+(set-face-attribute 'linum-highlight-face nil
+                    :foreground nil
+                    :background "#"
+                    :height 0.7)
+
+;; face-foreground colors
+(set-face-foreground 'term-color-black "#")
+(set-face-foreground 'term-color-red "#")
+(set-face-foreground 'term-color-green "#")
+(set-face-foreground 'term-color-yellow "#")
+(set-face-foreground 'term-color-blue "#")
+(set-face-foreground 'term-color-magenta "#")
+(set-face-foreground 'term-color-cyan "#")
+(set-face-foreground 'term-color-white "#")
+
+;; face-background colors
+(set-face-background 'regior "#")
+(set-face-background 'fringe "#")
+
+;; gui
+(setq frame-title-format '(buffer-file-name "%f" ("%b")))
+(tooltip-mode -1)
+(mouse-wheel-mode t)
+(blink-cursor-mode -1))
+
+;; Show line numbers in buffers
+(global-linum-mode t)
+(setq linum-format (if (not window-system) "%4d " "%4d"))
+
+;; Highlight the line number of the current line.
+(use-package hlinum
+  :config
+  (hlinum-activate))
+
+;; Show column numbers in modeline
+(setq column-number-mode t)
+
+;; Show current function in modeline
+(which-function-mode)
+
+;; Highlight matching braces.
+(show-paren-mode 1)
+
+;; Handle ANSI colours in compile buffer output.
+;; From https://gist.github.com/jwiegley/8ae7145ba5ce64250a05
+(defun compilation-ansi-color-process-output ()
+  (ansi-color-process-output nil)
+  (set (make-local-variable 'comint-last-output-start)
+       (point-marker)))
+(add-hook 'compilation-filter-hook #'compilation-ansi-color-process-output)
+
+;; maximize frame
+(set-frame-parameter nil 'fullscreen 'maximized)
+
+;; menu-bar-mode
+(mode 'menu-bar-mode t)
+
+;; tool-bar-mode
+(mode 'tool-bar-mode t)
+
+;; scroll-bar-mode
+(mode 'scroll-bar-mode nil)
+

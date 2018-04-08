@@ -1,0 +1,26 @@
+* Splash Screen Settings
+
+
+(defun ohai-splash/inject-spinner ()
+  (with-current-buffer (get-buffer "*scratch*")
+    (insert "Downloading internets... ")))
+
+(defun ohai-splash/inject-picture (img)
+  (with-current-buffer (get-buffer "*scratch*")
+    (end-of-buffer)
+    (move-beginning-of-line nil)
+    (kill-line)
+    (insert-image img "ohai")
+    (move-beginning-of-line nil)
+    (mark-word)
+    (delete-other-windows)))
+
+(defun ohai-splash/go ()
+  (ohai-splash/inject-help-text)
+  (when (and (online?) ohai-splash/sources)
+    (ohai-splash/inject-spinner)
+    (ohai-splash/run nil (lambda (img) (ohai-splash/inject-picture img))))
+  t)
+
+(when window-system
+  (setq initial-buffer-choice 'ohai-splash/go))

@@ -1,0 +1,25 @@
+* git Settings
+
+
+** Magit
+(use-package magit
+  :commands magit-status
+  :bing ("C-x g" . magit-status))
+
+*** Magit Website
+http://magit.github.io
+
+** gist
+Use M-x gist-buffer or
+M-x gist-region
+to create a gist
+
+(use-package gist)
+
+*** Mark uncommited changes in the fridge
+(use-package git-gutter-fringe
+  :config
+  (global-git-gutter-mode t)
+  :diminish git-gutter-mode)
+
+

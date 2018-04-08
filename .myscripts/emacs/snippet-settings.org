@@ -1,0 +1,17 @@
+* Snippet Settings
+
+**s Package
+Package contains useful functions for snippets
+(use-package s)
+
+
+** yasnippet
+Install yasnippet & make yasnippet global
+(use-package yasnippet
+  :config
+  (yas-global-mode 1)
+  :dimish yas-minor-mode)
+
+
+** yasnippet website
+http://capitaomorte.github.io/yasnippet/
