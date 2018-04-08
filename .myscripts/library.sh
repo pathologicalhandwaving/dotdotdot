@@ -284,3 +284,10 @@ function numfiles() {
 }
 
 
+# unfluff
+function fluffy() {
+    cd /Users/Em/Repos/ScratchPad
+    read -p "File name:" file
+    curl -s "$@" | unfluff | jq -r .text > $file.txt
+}
+alias fluffy="bash fluffy"
