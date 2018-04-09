@@ -57,7 +57,7 @@
   :pin org
   :defer t)
 
-(require 'cl-lib)
+(require 'cl)
 (setq load-path (remove-if (lambda (x) (string-match-p "org$" x)) load-path))
 
 (use-package toc-org

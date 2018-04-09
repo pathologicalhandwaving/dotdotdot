@@ -22,180 +22,210 @@ line3 :: Automatically tangle (include) all code blocks in this file when genera
 #+END_SRC
 
 
+** Initialize Config
 
+*** Settings
 
-** Load Path
+**** gc-cons-threshold
 
-#+NAME: dotmac-load-paths
+Increasing gc-cons-threshold to a ridiculously high number during initialization.
+Threshold increase will decrease load and compile time.
+After initialization has completed we want to lower the threshold to avoid long GC pauses during use.
+
 #+BEGIN_SRC emacs-lisp
-  (let ((elisp-dir (expand-file-name "src" dotmac-dir)))
-    (add-to-list 'load-path elisp-dir)
-      (let ((default-directory elisp-dir))
-        (normal-top-level-add-subdirs-to-load-path))))
-  (setq autoload-file (concat dotmac-dir "loaddefs.el"))
-  (setq package-user-dir (concat "elpa"))
-  (setq custom-file (concat dotmac-dir "custom.el))
+(eval-and-compile
+  (setq gc-cons-threshold 402653184
+        gc-cons-percentage 0.6))
 #+END_SRC
 
 
-** Packages to Always Load on Startup
+**** Disable some byte compiler warnings to reduce noise
 
-#+NAME: dotmac-load-on-startup
+Change this if you want to see some or all byte compiler warnings
+
 #+BEGIN_SRC emacs-lisp
-  (require 'cl)
-  (require 'cl-lib)
-  (require 'recentf)
-  (require 'ffap)
-  (require 'ansi-color)
-#+END_SRC
-
-
-
-** Check if Packages Exist in load-path
-
-#+NAME: dotmac-loadable
-#+BEGIN_SRC emacs-lisp
-  (defun dotmac-loadable-p (package)
-    (let ((load-file (concat (symbol-name package) ".el")))
-      (catch 'file-found
-        (dolist (dir load-path)
-	  (let ((path-expand-file-name load-file dir)))
-	    (when (file-exists-p path)
-	      (throw 'file-found path))))))
+(setq bytes-compile-warnings '(not free-vars unresolved noruntime lexical make-local))
 #+END_SRC
 
 
 
-** Load Archive Repositories by Default
+** Package Management
+
+
+*** Package Initialization
+
+Set =load-path= explicitly
+and avoid calling =(package-initialize)= for performance
+We need to set =package--init-file-ensured t=
+so that =package.el= will not automatically call it for us
+
+Also we set =package-enable-at-startup nil=
+since =use-package= is handling that
 
 #+BEGIN_SRC emacs-lisp
-  (setq package-archives
-        '(("gnu" . "http://elpa.gnu.org/packages/")
-	  ("org" . "http://orgmode.org/elpa/")
-	  ("melpa" . "http://melpa.org/packages/")
-	  ("marmalade" . "http://marmalade-repo.org/packages/")))
+(eval-and-compile
+  (setq load-prefer-newer t
+        package-user-dir "~/.emacs.d/elpa"
+        package--init-file-ensured t
+        package-enabled-at-startup nil)
+  (unless (file-directory-p package-user-dir)
+    (make-directory package-user-dir t)))
+#+END_SRC
+
+
+*** Use Package Settings
+
+Tell =use-package= to always defer loading of packages
+unless explicitly told otherwise
+
+The effect of this setting speeds up initialization since many packages will only be loaded on a per use basis
+
+
+#+BEGIN_SRC emacs-lisp
+(setq use-package-always-defer t
+      use-package-verbose t)
+#+END_SRC
+
+
+*** Manually Set Load Path
+
+Dodge large performance hit by setting the =load-path= manually
+so we dont have to call =package-initialize= at runtime
+
+This =load-path= will be faster than =package-initialize=
+since it appends the elpa packages to the end of the load path
+Avoiding the case where anytime a builtin package is called
+all third party paths are searched first
+
+#+BEGIN_SRC emacs-lisp
+(eval-and-compile
+  (setq load-path (append load-path (directory-files package-user-dir t "^[^.]" t))))
+#+END_SRC
+
+
+*** Initialize Package Management
+
+Require =package.el= and add additional package archives 'melpa' and 'org'
+Then initialize packages
+ensure =use-package= is installed
+if missing install it
+load =use-package= and tell it to always install missing packages
+
+We wrap the whole block in =eval-when-compile=
+This ensures all package initialization is performed during compilation
+so byte compilation doesnt take as long
+We can do this because results of byte compiling =use-package= statements cause the macro to be fully-expanded
+this expansion means =use-package= is not required any more
+
+
+#+BEGIN_SRC emacs-lisp
+(eval-when-compile
+  (require 'package)
+
+  (unless (assoc-default "melpa" package-archives)
+    (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages") t))
+  (unless (assoc-default "org" package-archives)
+    (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa") t))
+
   (package-initialize)
-
-  (defvar dotmac-packages nil
-
-  (defun dotmac-install-if-needed (&rest packages)
-    (when packages
-      (unless package-archive-contents
-        (package-refresh-contents_))
-      (dolist (package packages)
-        (unless (or (dotmac-loadable-p package)
-	            (package-installed-p package))
-	  (package-install package)))))
+  (unless (package-installed-p 'use-package)
+    (package-refresh-content)
+    (package-install 'use-package))
+  (require 'use-package)
+  (setq use-package-always-ensure t))
 #+END_SRC
 
 
 
-** Load Rest of Stuff
+** Load Base Packages
 
-#+NAME: dotmac-load
+
+
+*** Ivy
+Completion frontend
+
 #+BEGIN_SRC emacs-lisp
-  (defun dotmac-load (file &optional header-or-tag)
-      (let ((file (expand-file-name (if (string-match "starter-kit-.+\.org" file)
-                                        file
-                                      (format "starter-kit-%s.org" file))
-                                    starter-kit-dir)))
-        (org-babel-load-file
-         (if header-or-tag
-             (let* ((base (file-name-nondirectory file))
-                    (dir  (file-name-directory file))
-                    (partial-file (expand-file-name
-                                   (concat "." (file-name-sans-extension base)
-                                           ".part." header-or-tag ".org")
-                                   dir)))
-               (unless (file-exists-p partial-file)
-                 (with-temp-file partial-file
-                   (insert
-                    (with-temp-buffer
-                      (insert-file-contents file)
-                      (save-excursion
-                        (condition-case nil ;; collect as a header
-                            (progn
-                              (org-link-search (concat"#"header-or-tag))
-                              (org-narrow-to-subtree)
-                              (buffer-string))
-                          (error ;; collect all entries with as tags
-                           (let (body)
-                             (org-map-entries
-                              (lambda ()
-                                (save-restriction
-                                  (org-narrow-to-subtree)
-                                  (setq body (concat body "\n" (buffer-string)))))
-                              header-or-tag)
-                             body))))))))
-               partial-file)
-           file))))
+(use-package ivy
+  :demand t)
 #+END_SRC
 
-** IS THIS BUG STILL A THING?
-Work around OS X bug system-name is FQDN
 
-#+NAME: dotmac-osX-workaround
+*** Counsel
+Use ivy better
+
 #+BEGIN_SRC emacs-lisp
-  (if (or
-      (eq system-type 'darwin)
-      (eq system-type 'berkeley-unix))
-      (setq system-name (car (split-string system-name "\\."))))
+(use-package counsel-projectile)
+(use-package counsel
+  :demand t)
 #+END_SRC
 
-** Rest of Core
-:PROPERTIES:
-:CUSTOM_ID: dotmac-core
-:END:
 
-*** Load Function Definitions
+*** Swiper
+Search util with preview
+
 #+BEGIN_SRC emacs-lisp
-  (dotmac-load "dotmac-defuns.org")
+(use-package swiper
+  :commands (swiper swiper-all))
 #+END_SRC
 
-*** Load Keybinds
+
+*** Magit
+Git client
+Load when called
+
 #+BEGIN_SRC emacs-lisp
-  (dotmac-load "dotmac-bindings.org")
+(use-package magit
+  :commands (magit-status magit-blame magit-log-buffer-file magit-log-all))
 #+END_SRC
 
-*** Misc
+
+*** Projectile
+Project manager
+
 #+BEGIN_SRC emacs-lisp
-  (dotmac-load "dotmac-registers.org")
+(use-package projectile
+  :demand t)
 #+END_SRC
 
-** User and System Specific Files Loader
 
-*** System User Specific Customizations
-#+NAME: dotmac-load-files
+*** OrgMode
+Its fucking orgmore
+We want the newer org so we load =org-plus-contrib=
+Manually remove org dirs from load path
+ensuring the version we want gets priority
+
 #+BEGIN_SRC emacs-lisp
-  (cl-flet ((sk-load (base)
-           (let* ((path (expand-file-name base dotmac-dir))
-	         (literate (concat path ".org"))
-	         (plain (concat path ".el")))
-	   (cond
-	     ((file-exists-p literate) (org-babel-load-file literate))
-	     ((file-exists-p plain) (load plain)))))
-	     (remove-extension (name)
-	       (string-match "\\(.*?\\)\.\\(org\\(\\.el\\)?\\|el\\)\\(\\.gpg\\)?$" name)
-	       (match-string 1 name)))
-    (let ((user-dir (expand-file-name user-login-name dotmac-dir)))
-      (sk-load system-name)
-      (sk-load user-login-name)
-      (when (file-exists-p 'load-path user-dir)
-        (add-to-list 'load-path user-dir)
-	(mapc #'sk-load
-	      (remove-duplicates
-	      (mapcar #'remove-extension
-	              (directory-files user-dir t ".*\.\\(org\\|el\\)\\(\\.gpg\\)?$"))
-	      :test #'string=)))))
+(use-package org
+  :ensure org-plus-contrib
+  :pin org
+  :defer t)
+
+(require 'cl)
+(setq load-path (remove-if (lambda (x) (string-match-p "org$" x)) load-path))
 #+END_SRC
 
 
-*** M-x Customize Settings
+**** TOC-org
+Load =TOC-org= after org mode is loaded
+This autoupdates the toc
 
-#+NAME: m-x-customize-customizations
 #+BEGIN_SRC emacs-lisp
-  (load custom-file 'noerror)
+(use-package toc-org
+  :after org
+  :init (add-hook 'org-mode-hook #'toc-org-enable))
 #+END_SRC
 
 
+*** Custom Config Load
+(setq custom-file "custom.el"
+(load custom-file)
 
+
+** Post Initialization
+
+Lower GC thresholds to sane leve
+
+#+BEGIN_SRC emacs-lisp
+(setq gc-cons-threshold 16777216
+      gc-cons-percentage 0.1)
+#+END_SRC
