@@ -1,0 +1,201 @@
+#+TITLE: Literate Emacs Config
+#+AUTHOR: PathologicalHandwaving
+#+PROPERTY: header-args :tangle yes
+
+line3 :: Automatically tangle (include) all code blocks in this file when generating the code for the config
+
+
+* Config
+:PROPERTIES:
+:VISIBILITY: children
+:END:
+
+
+** Table of Contents :TOC_3_gh:
+
+
+** Basic User Info
+
+#+BEGIN_SRC emacs-lisp
+(setq user-full-name "PathologicalHandwaving"
+      user-mail-address "pathologicalhandwaving@icloud.com")
+#+END_SRC
+
+
+
+
+** Load Path
+
+#+NAME: dotmac-load-paths
+#+BEGIN_SRC emacs-lisp
+  (let ((elisp-dir (expand-file-name "src" dotmac-dir)))
+    (add-to-list 'load-path elisp-dir)
+      (let ((default-directory elisp-dir))
+        (normal-top-level-add-subdirs-to-load-path))))
+  (setq autoload-file (concat dotmac-dir "loaddefs.el"))
+  (setq package-user-dir (concat "elpa"))
+  (setq custom-file (concat dotmac-dir "custom.el))
+#+END_SRC
+
+
+** Packages to Always Load on Startup
+
+#+NAME: dotmac-load-on-startup
+#+BEGIN_SRC emacs-lisp
+  (require 'cl)
+  (require 'cl-lib)
+  (require 'recentf)
+  (require 'ffap)
+  (require 'ansi-color)
+#+END_SRC
+
+
+
+** Check if Packages Exist in load-path
+
+#+NAME: dotmac-loadable
+#+BEGIN_SRC emacs-lisp
+  (defun dotmac-loadable-p (package)
+    (let ((load-file (concat (symbol-name package) ".el")))
+      (catch 'file-found
+        (dolist (dir load-path)
+	  (let ((path-expand-file-name load-file dir)))
+	    (when (file-exists-p path)
+	      (throw 'file-found path))))))
+#+END_SRC
+
+
+
+** Load Archive Repositories by Default
+
+#+BEGIN_SRC emacs-lisp
+  (setq package-archives
+        '(("gnu" . "http://elpa.gnu.org/packages/")
+	  ("org" . "http://orgmode.org/elpa/")
+	  ("melpa" . "http://melpa.org/packages/")
+	  ("marmalade" . "http://marmalade-repo.org/packages/")))
+  (package-initialize)
+
+  (defvar dotmac-packages nil
+
+  (defun dotmac-install-if-needed (&rest packages)
+    (when packages
+      (unless package-archive-contents
+        (package-refresh-contents_))
+      (dolist (package packages)
+        (unless (or (dotmac-loadable-p package)
+	            (package-installed-p package))
+	  (package-install package)))))
+#+END_SRC
+
+
+
+** Load Rest of Stuff
+
+#+NAME: dotmac-load
+#+BEGIN_SRC emacs-lisp
+  (defun dotmac-load (file &optional header-or-tag)
+      (let ((file (expand-file-name (if (string-match "starter-kit-.+\.org" file)
+                                        file
+                                      (format "starter-kit-%s.org" file))
+                                    starter-kit-dir)))
+        (org-babel-load-file
+         (if header-or-tag
+             (let* ((base (file-name-nondirectory file))
+                    (dir  (file-name-directory file))
+                    (partial-file (expand-file-name
+                                   (concat "." (file-name-sans-extension base)
+                                           ".part." header-or-tag ".org")
+                                   dir)))
+               (unless (file-exists-p partial-file)
+                 (with-temp-file partial-file
+                   (insert
+                    (with-temp-buffer
+                      (insert-file-contents file)
+                      (save-excursion
+                        (condition-case nil ;; collect as a header
+                            (progn
+                              (org-link-search (concat"#"header-or-tag))
+                              (org-narrow-to-subtree)
+                              (buffer-string))
+                          (error ;; collect all entries with as tags
+                           (let (body)
+                             (org-map-entries
+                              (lambda ()
+                                (save-restriction
+                                  (org-narrow-to-subtree)
+                                  (setq body (concat body "\n" (buffer-string)))))
+                              header-or-tag)
+                             body))))))))
+               partial-file)
+           file))))
+#+END_SRC
+
+** IS THIS BUG STILL A THING?
+Work around OS X bug system-name is FQDN
+
+#+NAME: dotmac-osX-workaround
+#+BEGIN_SRC emacs-lisp
+  (if (or
+      (eq system-type 'darwin)
+      (eq system-type 'berkeley-unix))
+      (setq system-name (car (split-string system-name "\\."))))
+#+END_SRC
+
+** Rest of Core
+:PROPERTIES:
+:CUSTOM_ID: dotmac-core
+:END:
+
+*** Load Function Definitions
+#+BEGIN_SRC emacs-lisp
+  (dotmac-load "dotmac-defuns.org")
+#+END_SRC
+
+*** Load Keybinds
+#+BEGIN_SRC emacs-lisp
+  (dotmac-load "dotmac-bindings.org")
+#+END_SRC
+
+*** Misc
+#+BEGIN_SRC emacs-lisp
+  (dotmac-load "dotmac-registers.org")
+#+END_SRC
+
+** User and System Specific Files Loader
+
+*** System User Specific Customizations
+#+NAME: dotmac-load-files
+#+BEGIN_SRC emacs-lisp
+  (cl-flet ((sk-load (base)
+           (let* ((path (expand-file-name base dotmac-dir))
+	         (literate (concat path ".org"))
+	         (plain (concat path ".el")))
+	   (cond
+	     ((file-exists-p literate) (org-babel-load-file literate))
+	     ((file-exists-p plain) (load plain)))))
+	     (remove-extension (name)
+	       (string-match "\\(.*?\\)\.\\(org\\(\\.el\\)?\\|el\\)\\(\\.gpg\\)?$" name)
+	       (match-string 1 name)))
+    (let ((user-dir (expand-file-name user-login-name dotmac-dir)))
+      (sk-load system-name)
+      (sk-load user-login-name)
+      (when (file-exists-p 'load-path user-dir)
+        (add-to-list 'load-path user-dir)
+	(mapc #'sk-load
+	      (remove-duplicates
+	      (mapcar #'remove-extension
+	              (directory-files user-dir t ".*\.\\(org\\|el\\)\\(\\.gpg\\)?$"))
+	      :test #'string=)))))
+#+END_SRC
+
+
+*** M-x Customize Settings
+
+#+NAME: m-x-customize-customizations
+#+BEGIN_SRC emacs-lisp
+  (load custom-file 'noerror)
+#+END_SRC
+
+
+

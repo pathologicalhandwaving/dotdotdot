@@ -1,0 +1,90 @@
+#+TITLE: Customization Loader
+#+AUTHOR: PathologicalHandwaving
+#+PROPERTY: header-args :tangle yes
+
+* Customizations
+:PROPERTIES:
+:VISIBILITY: children
+:END:
+
+** Table of Contents :TOC_3_gh:
+
+
+
+*** Set Backup Directory
+
+Set location of backups directory
+make backups by copying
+use version control
+delete old versions but keep 5 new versions and 5 old versions
+automatically timeout save after 27 seconds
+automatically save after 100 characters have been typed
+
+#+BEGIN_SRC emacs-lisp
+(setq backup-directory-alist '(("." . "/~.emacs.d/backup"))
+      backup-by-copying t
+      version-control t
+      delete-old-versions t
+      kept-new-versions 5
+      kept-old-versions 5
+      auto-save-timeout 27
+      auto-save-interval 100)
+#+END_SRC
+
+
+*** Package List
+
+#+BEGIN_SRC emacs-lisp
+(setq my-package-list '(doom-themes
+                        cyberpunk-theme
+                        nyan-mode
+                        rainbow-mode
+			rainbow-delimiters
+                        rainbow-identifiers
+                        hydra
+                        smartparens
+                        golden-ratio
+                        neotree
+                        all-the-icons)
+#+END_SRC
+
+*** Themes
+
+Load neotree and options
+#+BEGIN_SRC emacs-lisp
+(use-package neotree
+  :ensure t
+  :config
+  (require 'neotree)
+  (setq neo-theme 'icons))
+#+END_SRC
+
+
+
+Load the doom theme and options
+#+BEGIN_SRC emacs-lisp
+(use-package doom-themes
+  :ensure t
+  :config
+  (require 'doom-themes)
+  (setq doom-themes-enable-bold t
+        doom-themes-enable-italic t)
+  (doom-themes-neotree-config)
+  (doom-themes-org-config))
+
+#+END_SRC
+*** Templates and Snippets
+
+Install yasnippets and make snippets global
+
+#+BEGIN_SRC emacs-lisp
+(use-package yasnippet
+  :ensure t
+  :config
+  (yas-global-mode 1))
+(require 'yasnippet)
+(setq yas-snippet-dirs '("~/.emacs.d/snippets"))
+#+END_SRC
+
+
+
