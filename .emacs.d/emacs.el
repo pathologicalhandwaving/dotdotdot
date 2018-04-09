@@ -1,17 +1,17 @@
-(setq user-full-name "PathologicalHandwaving"
-      user-mail-address "pathologicalhandwaving@icloud.com")
+(setq user-full-name "Your Name Here"
+      user-mail-address "user@email.com")
 
 (eval-and-compile
   (setq gc-cons-threshold 402653184
         gc-cons-percentage 0.6))
 
-(setq bytes-compile-warnings '(not free-vars unresolved noruntime lexical make-local))
+(setq byte-compile-warnings '(not free-vars unresolved noruntime lexical make-local))
 
 (eval-and-compile
   (setq load-prefer-newer t
         package-user-dir "~/.emacs.d/elpa"
         package--init-file-ensured t
-        package-enabled-at-startup nil)
+        package-enable-at-startup nil)
   (unless (file-directory-p package-user-dir)
     (make-directory package-user-dir t)))
 
@@ -25,16 +25,21 @@
   (require 'package)
 
   (unless (assoc-default "melpa" package-archives)
-    (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages") t))
+    (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t))
   (unless (assoc-default "org" package-archives)
-    (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa") t))
+    (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t))
 
   (package-initialize)
   (unless (package-installed-p 'use-package)
-    (package-refresh-content)
+    (package-refresh-contents)
     (package-install 'use-package))
   (require 'use-package)
   (setq use-package-always-ensure t))
+
+(use-package evil
+  :demand t
+  :config
+  (evil-mode 1))
 
 (use-package ivy
   :demand t)
@@ -57,7 +62,8 @@
   :pin org
   :defer t)
 
-(require 'cl)
+;; Ensure ELPA org is prioritized above built-in org.
+(require 'cl-lib)
 (setq load-path (remove-if (lambda (x) (string-match-p "org$" x)) load-path))
 
 (use-package toc-org
