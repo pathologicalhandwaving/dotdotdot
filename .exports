@@ -4,7 +4,7 @@
 export TERM=xterm-256color
 
 # PKG-CONFIG
-export PKG_CONFIG_PATH="/usr/local/bin/pkg-config"
+export PKG_CONFIG_PATH="/usr/local/Cellar/zlib/1.2.8/lib/pkgconfig:/usr/local/lib/pkgconfig:/opt/X11/lib/pkgconfig"
 
 
 # Python 3 Path

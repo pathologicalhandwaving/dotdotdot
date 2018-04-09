@@ -14,8 +14,6 @@ alias lsfunctions="declare -f | grep '^[a-z].* ()' | sed 's/{$//'"
 
 alias su="sudo"
 
-# cat is color cat (ccat)
-alias cat=ccat
 
 # Lock MacBook
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'

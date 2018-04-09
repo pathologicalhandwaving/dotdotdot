@@ -1,9 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: ps.module
-# key: mod
-# --
-module ${1:`(purescript-module-name-from-current-buffer-file)`} where
-
-import Prelude
-
-$0
