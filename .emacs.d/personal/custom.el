@@ -12,6 +12,7 @@
  '(custom-safe-themes
    '("0598de4cc260b7201120b02d580b8e03bd46e5d5350ed4523b297596a25f7403" "4e21fb654406f11ab2a628c47c1cbe53bab645d32f2c807ee2295436f09103c6" "c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" "4597d1e9bbf1db2c11d7cf9a70204fa42ffc603a2ba5d80c504ca07b3e903770" "d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" default))
  '(expand-region-preferred-python-mode 'fgallina-python)
+ '(nyan-mode t)
  '(org-agenda-diary-file "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org")
  '(org-agenda-files
    '("/Users/Em/Repos/ImInSpace/deck.org" "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org" "/Users/Em/Repos/ImInSpace/CaptainsLog/agenda.org" "/Users/Em/Repos/ImInSpace/Projects/projectslog.org" "/Users/Em/Repos/ImInSpace/HomeBase/homebase.org" "/Users/Em/Repos/ImInSpace/ExoCortex/Learn/learning.org" "/Users/Em/Repos/ImInSpace/Werx/schedule.org" "/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org" "/Users/Em/Repos/ImInSpace/CaptainsLog/todos.org" "/Users/Em/Repos/ImInSpace/Werx/Clients/clientlog.org" "/Users/Em/Repos/ImInSpace/ToGo/agenda-refiler.org"))
@@ -21,13 +22,19 @@
  '(org-capture-templates
    '(("l" "Captain's Log" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org")
-      "* Log Entry: %?\\n\\n %i\\n\\n From: %a" :empty-lines-after 1 :tree-type week)
+      "* Log Entry: %u\n  - Item: %^{activity}\n  - Details: %^{details}\n  - Follow Up Required? %^{yesorno}\n  - Date Added: %U" :empty-lines-after 1)
      ("t" "ToDo" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/todos.org")
-      "* TODO %?\\n\\n  Details: %^{details}" :empty-lines-after 1 :tree-type week)
+      "* TODO %?\n  - Details: %^{details}\n  - Date Added: %U" :empty-lines-after 1 :tree-type week)
      ("a" "Appointments" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org")
-      "* APPOINTMENT %^{withwhom}\\n  - Date: %^{appointmentdate}\\n  - Time: %^{appointmenttime}\\n  - Location: %^{location}" :empty-lines-after 1 :tree-type week)))
+      "* APPOINTMENT %?\n  - Date: %^U\n  - Location: %^{location}\n  - Date Added: %U" :empty-lines-after 1 :tree-type week)
+     ("m" "Medic Vitals" entry
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/Health/tracking.org")
+      "* %U Vitals\n  - Energy Level: %?\n  - Blood Pressure\n    - Systolic: %^{systolic}\n    - Diastolic: %^{diastolic}\n  - Pulse: %^{pulse}\n  - Temperature: %^{temperature} ℉\n  - Symptoms: %^{symptoms}\n  - Date Recorded: %U" :empty-lines-after 1 :tree-type week)
+     ("u" "Tutoring" entry
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/Werx/tutoringlogs.org")
+      "* Tutoring Session %T\n  - Student: %^{student}\n  - Subject: %^{subject}\n  - Time Log\n    - Session Start: %^u\n    - Session End: %^u" :empty-lines-before 1 :empty-lines-after 1 :clock-in t)))
  '(org-clock-into-drawer "LOGBOOK")
  '(org-closed-keep-when-no-todo t)
  '(org-default-notes-file "/Users/Em/Repos/ImInSpace/Notes/notes.org")
@@ -70,7 +77,7 @@
    '((sequence "TODO" "PLAN" "INPROGRESS" "REVIEW" "FEEDBACK" "REFACTOR" "VERIFY" "DONE" "DELEGATED" "ASSIGNED" "PURGATORY" "WAITING")))
  '(org-treat-insert-todo-heading-as-state-change t)
  '(package-selected-packages
-   '(org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
+   '(org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tool-bar-mode nil))
