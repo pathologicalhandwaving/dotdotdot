@@ -18,6 +18,16 @@
  '(org-agenda-mouse-1-follows-link t)
  '(org-archive-location "/Users/Em/Repos/ImInSpace/Archives/%s_archive::")
  '(org-attach-store-link-p t)
+ '(org-capture-templates
+   '(("l" "Captain's Log" entry
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org")
+      "* Log Entry: %?\\n\\n %i\\n\\n From: %a" :empty-lines-after 1 :tree-type week)
+     ("t" "ToDo" entry
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/todos.org")
+      "* TODO %?\\n\\n  Details: %^{details}" :empty-lines-after 1 :tree-type week)
+     ("a" "Appointments" entry
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org")
+      "* APPOINTMENT %^{withwhom}\\n  - Date: %^{appointmentdate}\\n  - Time: %^{appointmenttime}\\n  - Location: %^{location}" :empty-lines-after 1 :tree-type week)))
  '(org-clock-into-drawer "LOGBOOK")
  '(org-closed-keep-when-no-todo t)
  '(org-default-notes-file "/Users/Em/Repos/ImInSpace/Notes/notes.org")

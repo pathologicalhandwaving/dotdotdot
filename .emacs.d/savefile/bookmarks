@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Agenda"
+(("Appointments"
+ (filename . "~/Repos/ImInSpace/CaptainsLog/appointments.org")
+ (front-context-string . "                ")
+ (rear-context-string . "2018-04-11 03:30")
+ (position . 237))
+("Agenda"
  (filename . "~/Repos/ImInSpace/CaptainsLog/agenda.org")
  (front-context-string . ":PROPERTIES:\n:YE")
  (rear-context-string . "* 2018-04 April\n")
