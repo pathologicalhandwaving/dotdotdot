@@ -1,0 +1,28 @@
+%% LaTeX Outline Template
+\documentclass{article}
+
+\usepackage[paperheight=11in,paperwidth=8.5in,top=.25in,bottom=.25in,right=4mm,left=4mm]{geometry}
+
+\usepackage[none]{hyphenat}
+\usepackage[parfill]{parskip}
+\usepackage{amsmath}
+\usepackage{amsymb}
+\newcommand{\class}[1]{\class{ #1 }}
+\newcommand{\school}[1]{\school{#1}}
+
+
+\begin{document}
+\begin{center}
+\large{Outline} \\
+\vspace{3pt}
+%\scriptsize{{\hfill \date{\today}} \\
+\vspace{5pt}
+\hrule
+\vspace{10pt}
+\end{center}
+
+\section*{$}
+
+
+
+\end{document}
