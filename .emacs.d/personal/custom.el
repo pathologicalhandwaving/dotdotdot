@@ -26,15 +26,18 @@
      ("t" "ToDo" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/todos.org")
       "* TODO %?\n  - Details: %^{details}\n  - Date Added: %U" :empty-lines-after 1 :tree-type week)
+     ("d" "Add Done" entry
+      (file+function "\\Users\\Em\\Repos\\ImInSpace\\CaptainsLog\\captainslog.org" nil)
+      "* DONE %?\n  - Details: %^{details}\n  - Date Completed: %^U" :empty-lines-after 1)
      ("a" "Appointments" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org")
       "* APPOINTMENT %?\n  - Date: %^U\n  - Location: %^{location}\n  - Date Added: %U" :empty-lines-after 1 :tree-type week)
      ("m" "Medic Vitals" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/Health/tracking.org")
-      "* %U Vitals\n  - Energy Level: %?\n  - Blood Pressure\n    - Systolic: %^{systolic}\n    - Diastolic: %^{diastolic}\n  - Pulse: %^{pulse}\n  - Temperature: %^{temperature} ℉\n  - Symptoms: %^{symptoms}\n  - Date Recorded: %U" :empty-lines-after 1 :tree-type week)
+      "* %U : Vital Statistics\n  - Energy Level: %?\n  - Blood Pressure\n    - Systolic: %^{systolic}\n    - Diastolic: %^{diastolic}\n  - Pulse: %^{pulse}\n  - Temperature: %^{temperature} ℉\n  - Symptoms: %^{symptoms}\n  - Date Recorded: %U" :empty-lines-after 1 :tree-type week)
      ("u" "Tutoring" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/Werx/tutoringlogs.org")
-      "* Tutoring Session %T\n  - Student: %^{student}\n  - Subject: %^{subject}\n  - Time Log\n    - Session Start: %^u\n    - Session End: %^u" :empty-lines-before 1 :empty-lines-after 1 :clock-in t)))
+      "* Tutoring Session %T\n  - Student: %^{student}\n  - Subject: %^{subject}\n  - Time Log\n    - Session Start: %^u\n    - Session End: %^u" :empty-lines-before 1 :empty-lines-after 1)))
  '(org-clock-into-drawer "LOGBOOK")
  '(org-closed-keep-when-no-todo t)
  '(org-default-notes-file "/Users/Em/Repos/ImInSpace/Notes/notes.org")
@@ -77,7 +80,7 @@
    '((sequence "TODO" "PLAN" "INPROGRESS" "REVIEW" "FEEDBACK" "REFACTOR" "VERIFY" "DONE" "DELEGATED" "ASSIGNED" "PURGATORY" "WAITING")))
  '(org-treat-insert-todo-heading-as-state-change t)
  '(package-selected-packages
-   '(org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
+   '(podcaster org-download auto-yasnippet interleave org-ref org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tool-bar-mode nil))
