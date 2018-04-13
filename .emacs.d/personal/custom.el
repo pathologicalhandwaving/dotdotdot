@@ -4,13 +4,14 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(BibLaTeX-style-extensions '("bbx"))
+ '(auto-image-file-mode t)
  '(bibtex-autokey-year-length 4)
  '(bibtex-file-path /Users/Em/Repos/ImInSpace/Library/Refs/)
  '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(company-minimum-prefix-length 2)
  '(custom-safe-themes
-   '("0598de4cc260b7201120b02d580b8e03bd46e5d5350ed4523b297596a25f7403" "4e21fb654406f11ab2a628c47c1cbe53bab645d32f2c807ee2295436f09103c6" "c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" "4597d1e9bbf1db2c11d7cf9a70204fa42ffc603a2ba5d80c504ca07b3e903770" "d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" default))
+   '("bbb4a4d39ed6551f887b7a3b4b84d41a3377535ccccf901a3c08c7317fad7008" "83db918b06f0b1df1153f21c0d47250556c7ffb5b5e6906d21749f41737babb7" "dcb9fd142d390bb289fee1d1bb49cb67ab7422cd46baddf11f5c9b7ff756f64c" "0598de4cc260b7201120b02d580b8e03bd46e5d5350ed4523b297596a25f7403" "4e21fb654406f11ab2a628c47c1cbe53bab645d32f2c807ee2295436f09103c6" "c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" "4597d1e9bbf1db2c11d7cf9a70204fa42ffc603a2ba5d80c504ca07b3e903770" "d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" default))
  '(expand-region-preferred-python-mode 'fgallina-python)
  '(nyan-mode t)
  '(org-agenda-diary-file "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org")
@@ -20,38 +21,57 @@
  '(org-archive-location "/Users/Em/Repos/ImInSpace/Archives/%s_archive::")
  '(org-attach-store-link-p t)
  '(org-capture-templates
-   '(("l" "Captain's Log" entry
+   '(("c" "Captain's Log" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org")
-      "* Log Entry: %u\n  - Item: %^{activity}\n  - Details: %^{details}\n  - Follow Up Required? %^{yesorno}\n  - Date Added: %U" :empty-lines-after 1)
+      "* Log Entry: %U\n  - Item: %^{Activity}\n  - Details: %^{Details}\n  - Status: %^{Status|PLAN|REVIEW|INPROGRESS|READ|STUDY|DONE}\n  - Follow Up: %^{Follow Up}\n  - Date Added: %U" :empty-lines-after 1)
      ("t" "ToDo" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/todos.org")
-      "* TODO %?\n  - Details: %^{details}\n  - Date Added: %U" :empty-lines-after 1 :tree-type week)
+      "* TODO %?\n  - Details: %^{Details}\n  - Date Added: %U" :empty-lines-after 1 :tree-type week)
      ("d" "Add Done" entry
       (file+function "\\Users\\Em\\Repos\\ImInSpace\\CaptainsLog\\captainslog.org" nil)
-      "* DONE %?\n  - Details: %^{details}\n  - Date Completed: %^U" :empty-lines-after 1)
-     ("a" "Appointments" entry
+      "* DONE %U\n  - Details: %^{Details}" :empty-lines-after 1 :tree-type week)
+     ("a" "Add Appointment" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org")
-      "* APPOINTMENT %?\n  - Date: %^U\n  - Location: %^{location}\n  - Date Added: %U" :empty-lines-after 1 :tree-type week)
-     ("m" "Medic Vitals" entry
+      "* APPOINTMENT %?\n  - Date: %^U\n  - Location: %^{Location}\n  - Date Added: %U" :jump-to-captured t :empty-lines-after 1 :time-prompt t :tree-type week)
+     ("v" "Vital Signs" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/Health/tracking.org")
-      "* %U : Vital Statistics\n  - Energy Level: %?\n  - Blood Pressure\n    - Systolic: %^{systolic}\n    - Diastolic: %^{diastolic}\n  - Pulse: %^{pulse}\n  - Temperature: %^{temperature} ℉\n  - Symptoms: %^{symptoms}\n  - Date Recorded: %U" :empty-lines-after 1 :tree-type week)
+      "* %U : Vitals\n  - Energy Level: %?\n  - Blood Pressure\n    - Systolic: %^{Systolic}\n    - Diastolic: %^{Diastolic}\n  - Pulse: %^{Pulse}\n  - Temperature: %^{Temperature} ℉\n  - Symptoms: %^{Symptoms}\n  - Date Recorded: %U" :empty-lines-after 1 :tree-type week)
      ("u" "Tutoring" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/Werx/tutoringlogs.org")
-      "* Tutoring Session %T\n  - Student: %^{student}\n  - Subject: %^{subject}\n  - Time Log\n    - Session Start: %^u\n    - Session End: %^u" :empty-lines-before 1 :empty-lines-after 1)))
+      "* Tutoring Session %T\n  - Student: %^{Student|Jeremie}\n  - Subject: %^{Subject}\n  - Time Log\n    - Session Start: %^u\n    - Session End: %^u" :empty-lines-after 1 :time-prompt t :tree-type week)
+     ("n" "Random Note" entry
+      (file "/Users/Em/Repos/ImInSpace/Notes/notes.org")
+      "* NOTE %^{Heading}\n  - Description: %^{Description}\n  - Date Added: %T\n  - Current File: %f" :empty-lines-after 1)
+     ("r" "Research Diary Entry" entry
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/ExoCortex/ELN/researchdiary.org")
+      "* %U %^{Heading}\n  - Description: %^{Description}\n  - Action: %^{Action}\n  - Do Next: %^{Next}\n  - Current File: %f" :jump-to-captured t :empty-lines-after 1 :tree-type week)
+     ("i" "Idea" entry
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/ExoCortex/Ideas/ideas.org" "* Ideas")
+      "* %T %^{Idea Heading}\n  - Description: %^{Description}\n  - Keywords: %^{Keywords}\n  - Current File: %f\n  - Date Added: %U" :immediate-finish t :empty-lines-after 1)
+     ("w" "Web Capture" entry
+      (file+olp "/Users/Em/Repos/ImInSpace/Notes/notes.org" "Web Captures")
+      "* %U -  %:description\n  %i\n  \n  Link: %c" :jump-to-captured t :empty-lines-before 1 :empty-lines-after 1)))
+ '(org-clock-in-switch-to-state "INPROGRESS")
  '(org-clock-into-drawer "LOGBOOK")
  '(org-closed-keep-when-no-todo t)
+ '(org-custom-properties '("BRANCH" "DESCRIPTION"))
  '(org-default-notes-file "/Users/Em/Repos/ImInSpace/Notes/notes.org")
  '(org-enforce-todo-checkbox-dependencies t)
  '(org-enforce-todo-dependencies t)
+ '(org-export-with-sub-superscripts '{})
  '(org-file-apps
    '((auto-mode . emacs)
      ("\\.mm\\'" . default)
      ("\\.x?html?\\'" . default)
      ("\\.pdf\\'" . default)
      (auto-mode . "\\.org\\'")))
+ '(org-fontify-done-headline t)
  '(org-habit-completed-glyph 10019)
  '(org-habit-today-glyph 9100)
+ '(org-hide-emphasis-markers t)
+ '(org-hide-leading-stars t)
  '(org-icalendar-combined-agenda-file "/.emacs.d/org.ics")
+ '(org-insert-heading-respect-content t)
  '(org-log-done 'time)
  '(org-log-into-drawer t)
  '(org-log-note-clock-out t)
@@ -68,19 +88,24 @@
  '(org-log-redeadline 'time)
  '(org-log-refile 'time)
  '(org-log-reschedule 'time)
+ '(org-mobile-agendas 'custom)
+ '(org-mobile-directory "/Users/Em/Repos/ImInSpace/ToGo/")
  '(org-mobile-files '(org-agenda-files org-agenda-text-search-extra-files))
+ '(org-mobile-inbox-for-pull "/Users/Em/Repos/ImInSpace/ToGo/togo-todos.org")
  '(org-mobile-index-file "/Users/Em/Repos/ImInSpace/ToGo/index.org")
  '(org-modules
    '(org-bbdb org-bibtex org-docview org-eww org-gnus org-habit org-id org-info org-irc org-mhe org-mouse org-protocol org-rmail org-w3m org-annotate-file org-bookmark org-checklist org-choose org-collector org-drill org-eshell org-eval-light org-eval org-expiry org-favtable org-git-link org-invoice org-mac-iCal org-mac-link org-man org-panel org-registry org-secretary org-toc))
  '(org-open-non-existing-files t)
+ '(org-pretty-entities t)
  '(org-return-follows-link t)
  '(org-time-stamp-custom-formats '("<%y-%m-%d %a>" . "<%y-%m-%d %a %H:%M>"))
  '(org-timer-default-timer "00:25:00")
  '(org-todo-keywords
-   '((sequence "TODO" "PLAN" "INPROGRESS" "REVIEW" "FEEDBACK" "REFACTOR" "VERIFY" "DONE" "DELEGATED" "ASSIGNED" "PURGATORY" "WAITING")))
+   '((sequence "TODO" "PLAN" "INPROGRESS" "REVIEW" "FEEDBACK" "REFACTOR" "VERIFY" "WAITING" "DELEGATED" "ASSIGNED" "PURGATORY" "DONE")))
  '(org-treat-insert-todo-heading-as-state-change t)
+ '(org-use-sub-superscripts '{})
  '(package-selected-packages
-   '(podcaster org-download auto-yasnippet interleave org-ref org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
+   '(org-pomodoro apache-mode edit-server org-dashboard dashboard org-board arjen-grey-theme challenger-deep-theme academic-phrases read-aloud readability bibslurp bibretrieve bibtex-utils focus sunshine highlight org-index org-edit-latex ialign podcaster org-download auto-yasnippet interleave org-ref org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tool-bar-mode nil))

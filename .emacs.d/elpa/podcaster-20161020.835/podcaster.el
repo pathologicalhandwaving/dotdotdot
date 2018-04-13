@@ -67,7 +67,9 @@ If the player is avplay or ffplay or itunes, you don't have to set the params"
 
 (defcustom podcaster-feeds-urls
   '("https://ipn.li/kernelpanic/feed"
-    "http://sachachua.com/blog/tag/emacs-chat/podcast" )
+    "http://sachachua.com/blog/tag/emacs-chat/podcast"
+    "http://feeds.podtrac.com/xUnmFXZLuavF"
+    "http://dancarlinhh.libsyn.com/rss")
   "The RSS Feed URL list."
   :type 'list
   :group 'podcaster)

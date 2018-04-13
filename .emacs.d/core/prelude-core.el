@@ -58,11 +58,19 @@ PROMPT sets the `read-string prompt."
        (interactive)
        (prelude-search ,search-engine-url ,search-engine-prompt)))
 
-(prelude-install-search-engine "google"     "http://www.google.com/search?q="              "Google: ")
-(prelude-install-search-engine "youtube"    "http://www.youtube.com/results?search_query=" "Search YouTube: ")
-(prelude-install-search-engine "github"     "https://github.com/search?q="                 "Search GitHub: ")
-(prelude-install-search-engine "duckduckgo" "https://duckduckgo.com/?t=lm&q="              "Search DuckDuckGo: ")
-
+(prelude-install-search-engine "google"     "http://www.google.com/search?q="                              "Google: ")
+(prelude-install-search-engine "youtube"    "http://www.youtube.com/results?search_query="                 "Search YouTube: ")
+(prelude-install-search-engine "github"     "https://github.com/search?q="                                 "Search GitHub: ")
+(prelude-install-search-engine "duckduckgo" "https://duckduckgo.com/?t=lm&q="                              "Search DuckDuckGo: ")
+(prelude-install-search-engine "wikipedia"  "https://en.wikipedia.org/w/index.php?search="                 "Wikipedia: ")
+(prelude-install-search-engine "scholar"    "https://scholar.google.com/scholar?hl=en&q="                  "Scholar: ")
+(prelude-install-search-engine "crossref"   "https://search.crossref.org/?q=" "CrossRef")
+(prelude-install-search-engine "sep"        "https://plato.stanford.edu/search/searcher.py?query="         "Stanford Ency: ")
+(prelude-install-search-engine "acronyms"   "https://www.acronymfinder.com/~/search/af.aspx?Acronym="      "Acronym: ")
+(prelude-install-search-engine "moby"       "http://moby-thesaurus.org/search?q="                          "Moby Thesaurus: ")
+(prelude-install-search-engine "rxlist"     "https://www.rxlist.com/script/main/mobileart-rx.asp?type=search&search=" "RxList: ")
+(prelude-install-search-engine "tabers"     "https://www.tabers.com/tabersonline/search?st=OSS&q="         "Tabers: ")
+(prelude-install-search-engine "medidict"   "http://www.online-medical-dictionary.org/searchola/?b=1&q="   "Medical Dictionary: ")
 (defun prelude-todo-ov-evaporate (_ov _after _beg _end &optional _length)
   (let ((inhibit-modification-hooks t))
     (if _after (ov-reset _ov))))
@@ -88,10 +96,18 @@ PROMPT sets the `read-string prompt."
     "Press <C-c p s g> to run grep on a project."
     "Press <C-c p p> to switch between projects."
     "Press <C-=> to expand the selected region."
-    "Press <C-c g> to search in Google."
-    "Press <C-c G> to search in GitHub."
-    "Press <C-c y> to search in YouTube."
-    "Press <C-c U> to search in DuckDuckGo."
+    "Press <C-c g> to search Google"
+    "Press <C-c G> to search GitHub"
+    "Press <C-c y> to search YouTube"
+    "Press <C-c U> to search DuckDuckGo"
+    "Press <C-c w> to search Wikipedia"
+    "Press <C-c s e p> to search Stanford Encyclopedia"
+    "Press <C-c c r> to search CrossRef"
+    "Press <C-c g s> to search Google Scholar"
+    "Press <C-c a c r> to search Acronym Finder"
+    "Press <C-c m t> to search Moby Thesaurus"
+    "Press <C-c t a b> to search Tabers Medical Dictionary"
+    "Press <C-c r x> to search RxList"
     "Press <C-c r> to rename the current buffer and the file it's visiting if any."
     "Press <C-c t> to open a terminal in Emacs."
     "Press <C-c k> to kill all the buffers, but the active one."

@@ -50,6 +50,9 @@
     (push `(prelude-mode . ,newmap) minor-mode-overriding-map-alist))
 )
 
+(server-start)
+(require 'org-protocol)
+
 (setq prelude-org-mode-hook 'prelude-org-mode-defaults)
 
 (add-hook 'org-mode-hook (lambda () (run-hooks 'prelude-org-mode-hook)))

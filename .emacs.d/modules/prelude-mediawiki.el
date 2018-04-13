@@ -37,7 +37,18 @@
 (eval-after-load 'mediawiki
   '(progn
      (setq mediawiki-site-alist '(("Wikipedia" "http://en.wikipedia.org/w" "" "" "Main Page")
-                                  ("WikEmacs" "http://wikemacs.org/w/" "" "" "Main Page")))
+                                  ("WikEmacs" "http://wikemacs.org/w/" "" "" "Main Page")
+                                  ("Wikitionary" "https://en.wiktionary.org/wiki/Wiktionary:Main_Page")
+                                  ("Wikibooks" "https://en.wikibooks.org/wiki/Main_Page")
+                                  ("Wikisource" "https://en.wikisource.org/wiki/Main_Page")
+                                  ("Wikiquote" "https://en.wikiquote.org/wiki/Main_Page")
+                                  ("Wikicommons" "https://commons.wikimedia.org/wiki/Main_Page")
+                                  ("Wikidata" "https://www.wikidata.org/wiki/Wikidata:Main_Page")
+                                  ("Wikinews" "https://en.wikinews.org/wiki/Main_Page")
+                                  ("Complexity Zoo" "https://complexityzoo.uwaterloo.ca/Complexity_Zoo")
+                                  ("Encyclopedia of Maths" "https://www.encyclopediaofmath.org/index.php/Main_Page")
+                                  ("OEIS" "https://oeis.org/")
+                                  ("MathWorld" "http://mathworld.wolfram.com/")))
 
      ;; Emacs users care more for WikEmacs than Wikipedia :-)
      (setq mediawiki-site-default "WikEmacs")))

@@ -3,10 +3,10 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/Repos/ImInSpace/CaptainsLog/Health/tracking.org")
- (front-context-string . "**** <2018-04-10")
- (rear-context-string . "8-04-10 Tuesday\n")
- (position . 227))
+ (filename . "~/Repos/ImInSpace/ExoCortex/ELN/researchdiary.org")
+ (front-context-string . "**** [2018-04-12")
+ (rear-context-string . "-04-12 Thursday\n")
+ (position . 262))
 ("Appointments"
  (filename . "~/Repos/ImInSpace/CaptainsLog/appointments.org")
  (front-context-string . "                ")
