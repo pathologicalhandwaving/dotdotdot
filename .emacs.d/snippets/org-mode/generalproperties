@@ -3,6 +3,9 @@
 # key: gprops
 # --
 :PROPERTIES:
-:CUSTOM_ID:
-:DESCRIPTION:
-:DATE_ADDED:
+:CUSTOM_ID: $3
+:DESCRIPTION: $2
+:DATE_ADDED: $1
+:END:
+
+$0
