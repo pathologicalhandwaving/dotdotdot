@@ -49,8 +49,6 @@
     (make-local-variable 'minor-mode-overriding-map-alist)
     (push `(prelude-mode . ,newmap) minor-mode-overriding-map-alist))
 )
-
-(server-start)
 (require 'org-protocol)
 
 (setq prelude-org-mode-hook 'prelude-org-mode-defaults)
