@@ -1,0 +1,89 @@
+# -*- snippet -*-
+# name: elnentry
+# key: elnentry
+# --
+#
+
+:ELN_ENTRY:
+:ELN_ID: eln-
+:DESCRIPTION: 
+:PROJECT: 
+:DATE_ADDED: 
+:EXPERIMENT_ID: 
+:DMP_ID: 
+:DESIGN_ID: 
+:ELN_PHASE: 
+:ELN_STATUS: 
+:END:
+
+* 
+
+** Introductory Information 
+
+
+*** Rationale
+
+
+*** Hypothesis
+
+
+
+*** Data
+**** Repository Information
+:DMP_DATA:
+:DATA_ID: 
+:DATA_FORMAT: 
+:DATA_STATE: 
+:COLLECTOR: 
+:PROTOCOL_ID: 
+:DATE_COLLECTED: 
+:REPO:
+:END:
+
+
+*** Observations
+
+
+*** Results
+
+**** Positive Results
+
+
+**** Negative Results
+
+
+*** Hypotheses 
+
+
+*** Analysis
+
+
+*** Conclusion
+
+
+*** Closing Notes
+
+
+**** Future Actions
+
+
+*** References
+
+#+BIBTEX
+\bibliography{default}
+\bibliographystyle{phlab}
+
+\cite{}
+\cite{}
+
+#+BIBTEX
+
+
+
+
+
+
+
+
+
+
