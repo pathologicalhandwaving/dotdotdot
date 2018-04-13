@@ -11,7 +11,7 @@
  '(column-number-mode t)
  '(company-minimum-prefix-length 2)
  '(custom-safe-themes
-   '("bbb4a4d39ed6551f887b7a3b4b84d41a3377535ccccf901a3c08c7317fad7008" "83db918b06f0b1df1153f21c0d47250556c7ffb5b5e6906d21749f41737babb7" "dcb9fd142d390bb289fee1d1bb49cb67ab7422cd46baddf11f5c9b7ff756f64c" "0598de4cc260b7201120b02d580b8e03bd46e5d5350ed4523b297596a25f7403" "4e21fb654406f11ab2a628c47c1cbe53bab645d32f2c807ee2295436f09103c6" "c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" "4597d1e9bbf1db2c11d7cf9a70204fa42ffc603a2ba5d80c504ca07b3e903770" "d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" default))
+   '("bc4b650c41b16b98166b35da94b366c6a9e1e7883bbf4937c897fb7bd05aa619" "bbb4a4d39ed6551f887b7a3b4b84d41a3377535ccccf901a3c08c7317fad7008" "83db918b06f0b1df1153f21c0d47250556c7ffb5b5e6906d21749f41737babb7" "dcb9fd142d390bb289fee1d1bb49cb67ab7422cd46baddf11f5c9b7ff756f64c" "0598de4cc260b7201120b02d580b8e03bd46e5d5350ed4523b297596a25f7403" "4e21fb654406f11ab2a628c47c1cbe53bab645d32f2c807ee2295436f09103c6" "c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" "4597d1e9bbf1db2c11d7cf9a70204fa42ffc603a2ba5d80c504ca07b3e903770" "d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" default))
  '(expand-region-preferred-python-mode 'fgallina-python)
  '(nyan-mode t)
  '(org-agenda-category-icon-alist
@@ -33,6 +33,9 @@
  '(org-agenda-text-search-extra-files nil)
  '(org-agenda-time-leading-zero t)
  '(org-archive-location "/Users/Em/Repos/ImInSpace/Archives/%s_archive::")
+ '(org-attach-auto-tag "ATTACHMENT")
+ '(org-attach-directory "/Users/Em/Repos/ImInSpace/Attachments/")
+ '(org-attach-method 'lns)
  '(org-attach-store-link-p t)
  '(org-capture-templates
    '(("c" "Captain's Log" entry
@@ -44,6 +47,9 @@
      ("d" "Add Done" entry
       (file+function "\\Users\\Em\\Repos\\ImInSpace\\CaptainsLog\\captainslog.org" nil)
       "* DONE %U\n  - Details: %^{Details}" :empty-lines-after 1 :tree-type week)
+     ("s" "Start Task" entry
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org" "**** 2018-W%^{Week Number}")
+      "* INPROGRESS %^{Heading}\n:PROPERTIES:\n:CUSTOM_ID: %^{Custom ID}\n:LOGGING: lognotedone\n:DATE_ADDED: %U\n:END:\n** Objective: %^{Objective}\n*** Proceedure [%]\n  - [ ] %^{Step 1}\n  - [ ] %^{Step 2}\n  - [ ] %^{Step 3} \n*** Current File: %f" :jump-to-captured t :empty-lines 1 :empty-lines-before 1 :empty-lines-after 1 :clock-in t :tree-type week)
      ("a" "Add Appointment" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org")
       "* APPOINTMENT %?\n  - Date: %^U\n  - Location: %^{Location}\n  - Date Added: %U" :jump-to-captured t :empty-lines-after 1 :time-prompt t :tree-type week)
@@ -72,7 +78,9 @@
  '(org-columns-ellipses ">")
  '(org-custom-properties
    '("SELFSPY" "DESCRIPTION" "CLASS" "REPO" "SUBJECT" "PROJECT" "ELN_PAGE" "PROTOCOL" "METHOD" "ALGORITHM" "LANGUAGE" "HEALTH" "RESOURCE" "ARRAY" "YEAR" "MONTH" "WEEK" "DAY" "LOCATION" "CLIENT" "STUDENTID" "DATE_ADDED" "DATE_MODIFIED" "CITEKEY" "URL" "METRIC" "DATATYPE" "LOG_CLASS" "SELFSPY_VAR" "CITY" "STATE" "STREET" "PLACE_NAME"))
+ '(org-datetree-add-timestamp 'inactive)
  '(org-default-notes-file "/Users/Em/Repos/ImInSpace/Notes/notes.org")
+ '(org-directory "/Users/Em/Repos/ImInSpace/")
  '(org-edit-src-turn-on-auto-save t)
  '(org-enforce-todo-checkbox-dependencies t)
  '(org-enforce-todo-dependencies t)
@@ -84,6 +92,8 @@
      ("\\.pdf\\'" . default)
      (auto-mode . "\\.org\\'")))
  '(org-fontify-done-headline t)
+ '(org-footnote-auto-adjust 'renumber)
+ '(org-footnote-fill-after-inline-note-extraction t)
  '(org-global-properties
    '(("DESCRIPTION" . "")
      ("DATE_ADDED" . "%U")
@@ -101,8 +111,33 @@
  '(org-hide-emphasis-markers t)
  '(org-hide-leading-stars t)
  '(org-icalendar-combined-agenda-file "/.emacs.d/org.ics")
+ '(org-indent-mode-turns-off-org-adapt-indentation nil)
  '(org-insert-heading-respect-content t)
  '(org-keep-stored-link-after-insertion t)
+ '(org-latex-default-packages-alist
+   '(("AUTO" "inputenc" t
+      ("pdflatex"))
+     ("T1" "fontenc" t
+      ("pdflatex"))
+     ("" "graphicx" t nil)
+     ("" "grffile" t nil)
+     ("" "longtable" nil nil)
+     ("" "wrapfig" nil nil)
+     ("" "rotating" nil nil)
+     ("normalem" "ulem" t nil)
+     ("" "amsmath" t nil)
+     ("" "textcomp" t nil)
+     ("" "amssymb" t nil)
+     ("" "capt-of" nil nil)
+     ("" "hyperref" nil nil)
+     ("" "glossaries-extra" nil nil)
+     ("dvipsnames" "xcolor" nil nil)
+     ("none" "hyphenat" nil nil)
+     ("parfill" "parskip" nil nil)
+     ("" "url" nil nil)
+     ("" "stmaryrd" nil nil)))
+ '(org-latex-image-default-height "3in")
+ '(org-latex-tables-booktabs t)
  '(org-log-done 'time)
  '(org-log-into-drawer t)
  '(org-log-note-clock-out t)
@@ -129,6 +164,7 @@
  '(org-open-non-existing-files t)
  '(org-pretty-entities t)
  '(org-priority-faces '((65 . "red") (66 . "orange") (67 . "yellow")))
+ '(org-protocol-default-template-key "w")
  '(org-return-follows-link t)
  '(org-src-lang-modes
    '(("ocaml" . tuareg)
@@ -158,10 +194,12 @@
  '(org-use-property-inheritance t)
  '(org-use-sub-superscripts '{})
  '(package-selected-packages
-   '(org-pomodoro apache-mode edit-server org-dashboard dashboard org-board arjen-grey-theme challenger-deep-theme academic-phrases read-aloud readability bibslurp bibretrieve bibtex-utils focus sunshine highlight org-index org-edit-latex ialign podcaster org-download auto-yasnippet interleave org-ref org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
+   '(svg-clock osx-org-clock-menubar org-clock-today graphviz-dot-mode protocols labburn-theme ob-http ob-diagrams ob-blockdiag ob-cypher ob-browser yasnippet-snippets ipython-shell-send org-super-agenda 0blayout org-easy-img-insert org-capture-pop-frame org-babel-eval-in-repl org-pomodoro apache-mode edit-server org-dashboard dashboard org-board arjen-grey-theme challenger-deep-theme academic-phrases read-aloud readability bibslurp bibretrieve bibtex-utils focus sunshine highlight org-index org-edit-latex ialign podcaster org-download auto-yasnippet interleave org-ref org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(yas-buffer-local-condition 'always)
+ '(yas-use-menu 'full))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
