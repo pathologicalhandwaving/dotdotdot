@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(BibLaTeX-style-extensions '("bbx"))
  '(auto-image-file-mode t)
- '(bib-file "/Users/Em/Repos/ImInSpace/Library/Refs/default.bib.bib")
+ '(bib-file "/Users/Em/Repos/ImInSpace/Library/Refs/default.bib")
  '(bibtex-autokey-year-length 4)
  '(bibtex-file-path /Users/Em/Repos/ImInSpace/Library/Refs/)
  '(blink-cursor-mode nil)
