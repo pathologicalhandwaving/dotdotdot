@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: sleepcycle
+# key: sleepcycle
+# --
+****** Sleep Log
+:SLEEPCYCLE:
+:DATE_RANGE: $8, $9
+:SLEEP_QUALITY: $7 %
+:SLEEP_DURATION: $5 hours $6 minutes
+:SLEEP_OCCURANCE: $3 - $4
+:HEART_RATE: $2 bpm
+:NOTE: $1
+:END:
+
+$0
