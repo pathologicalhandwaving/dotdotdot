@@ -3,5 +3,5 @@
 # key: <l
 # --
 #+BEGIN_LATEX
-$0
+  $0
 #+END_LATEX
