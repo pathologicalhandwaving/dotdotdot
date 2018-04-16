@@ -1,0 +1,9 @@
+#+TITLE: `(format-time-string "%Y-%m%d %A")`
+#+TAGS: DIARY DAY PAGE
+
+* `(format-time-string "%Y-%m%d %A")`
+  :PROPERTIES:
+  :LOGGING: all
+  :END:
+
+$0
