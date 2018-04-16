@@ -1,0 +1,10 @@
+#+TITLE: ${1:title}
+
+* $1
+  :PROPERTIES: 
+  :CUSTOM_ID: ${customid}
+  :DESCRIPTION: ${1:description}
+  :DATE_ADDED: `(format-time-string "2018-04-16 12:35")`
+  :END:
+
+$0
