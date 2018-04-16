@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: symptom
+# key: symptom
+# --
+:SYMPTOMLESS:
+:DESCRIPTION: $0
+:DATE_ADDED: 
+:CATEGORY: HEALTH
+:TAGS: SYMPTOMS LOG
+:END:
