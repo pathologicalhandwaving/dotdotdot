@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: captainslog
+# key: capnlog
+# --
+:CAPTAINSLOG:
+:CAPT: $1
+:DATE_ADDED: `(format-time-string "%Y-%m-%d %H:%M")`
+:END:
+
+$0
