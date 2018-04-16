@@ -2,9 +2,11 @@
 # name: symptom
 # key: symptom
 # --
-:SYMPTOMLESS:
-:DESCRIPTION: $0
-:DATE_ADDED: 
+:SYMPTOMLOG:
+:DESCRIPTION: $1
+:DATE_ADDED: `(format-time-string "%Y-%m-%d %H:%M")`
 :CATEGORY: HEALTH
 :TAGS: SYMPTOMS LOG
 :END:
+
+$0
