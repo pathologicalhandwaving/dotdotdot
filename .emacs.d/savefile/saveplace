@@ -1,5 +1,7 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/Em/Repos/ImInSpace/CaptainsLog/todos.org" . 136)
+(("/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org" . 3359)
+ ("/Users/Em/.emacs.d/savefile/recentf" . 6030)
+ ("/Users/Em/Repos/ImInSpace/CaptainsLog/todos.org" . 136)
  ("/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org" . 236)
  ("/Users/Em/Repos/ImInSpace/ExoCortex/Learn/learning.org" . 152)
  ("/Users/Em/Repos/ImInSpace/Projects/projectslog.org" . 181)
@@ -13,7 +15,6 @@
   (dired-filename . "/Users/Em/Documents/Dropbox/Apps/MobileOrg"))
  ("/Users/Em/Documents/Dropbox/Apps/MobileOrg/"
   (dired-filename . "/Users/Em/Documents/Dropbox/Apps/MobileOrg/mobileorg.org"))
- ("/Users/Em/Documents/Dropbox/Apps/MobileOrg/mobileorg.org" . 33)
  ("/Users/"
   (dired-filename . "/Users/Em"))
  ("/Users/Em/"
@@ -25,8 +26,6 @@
  ("/Users/Em/Repos/ImInSpace/CaptainsLog/"
   (dired-filename . "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org"))
  ("/Users/Em/.emacs.d/snippets/org-mode/sleepcycle" . 241)
- ("/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org" . 3359)
- ("/Users/Em/.emacs.d/savefile/recentf" . 6030)
  ("/Users/Em/Repos/ImInSpace/ToGo/togo-todos.org" . 225)
  ("/Users/Em/Repos/ImInSpace/ToGo/readlater-refiler.org" . 15841)
  ("/Users/Em/.emacs.d/elpa/org-pomodoro-20171108.1314/org-pomodoro-autoloads.el" . 1111)
