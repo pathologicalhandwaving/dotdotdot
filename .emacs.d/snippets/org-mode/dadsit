@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: dadsit
+# key: dadsit
+# --
+:DADSITTING:
+:ACTIVITY: $4
+:LOCATION: $3
+:DAD_STATE: $2
+:DATE_ADDED: `(format-time-string "%Y-%m-%d %H:%M")`
+:NOTE: $1
+:END:
+
+$0
