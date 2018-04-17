@@ -18,7 +18,7 @@
  '(column-number-mode t)
  '(company-minimum-prefix-length 2)
  '(custom-safe-themes
-   '("bc4b650c41b16b98166b35da94b366c6a9e1e7883bbf4937c897fb7bd05aa619" "bbb4a4d39ed6551f887b7a3b4b84d41a3377535ccccf901a3c08c7317fad7008" "83db918b06f0b1df1153f21c0d47250556c7ffb5b5e6906d21749f41737babb7" "dcb9fd142d390bb289fee1d1bb49cb67ab7422cd46baddf11f5c9b7ff756f64c" "0598de4cc260b7201120b02d580b8e03bd46e5d5350ed4523b297596a25f7403" "4e21fb654406f11ab2a628c47c1cbe53bab645d32f2c807ee2295436f09103c6" "c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" "4597d1e9bbf1db2c11d7cf9a70204fa42ffc603a2ba5d80c504ca07b3e903770" "d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" default))
+   '("e297f54d0dc0575a9271bb0b64dad2c05cff50b510a518f5144925f627bb5832" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "bc4b650c41b16b98166b35da94b366c6a9e1e7883bbf4937c897fb7bd05aa619" "bbb4a4d39ed6551f887b7a3b4b84d41a3377535ccccf901a3c08c7317fad7008" "83db918b06f0b1df1153f21c0d47250556c7ffb5b5e6906d21749f41737babb7" "dcb9fd142d390bb289fee1d1bb49cb67ab7422cd46baddf11f5c9b7ff756f64c" "0598de4cc260b7201120b02d580b8e03bd46e5d5350ed4523b297596a25f7403" "4e21fb654406f11ab2a628c47c1cbe53bab645d32f2c807ee2295436f09103c6" "c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" "4597d1e9bbf1db2c11d7cf9a70204fa42ffc603a2ba5d80c504ca07b3e903770" "d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" default))
  '(diary-file "/Users/Em/Repos/ImInSpace/CaptainsLog/diary")
  '(doc-view-image-width 400)
  '(expand-region-preferred-python-mode 'fgallina-python)
@@ -31,6 +31,8 @@
  '(global-hl-line-mode t)
  '(global-prettify-symbols-mode t)
  '(global-undo-tree-mode t)
+ '(image-load-path
+   '("/usr/local/Cellar/emacs-plus/HEAD-fbd025a/share/emacs/27.0.50/etc/images/" data-directory load-path "/Users/Em/Repos/" "/Users/Em/Pictures/"))
  '(mm-inline-large-images 'resize)
  '(nyan-mode t)
  '(org-agenda-category-icon-alist
@@ -38,7 +40,7 @@
      ("PAPERWORK" "/Users/Em/Pictures/Icons/Envelope.png" nil nil nil)))
  '(org-agenda-columns-add-appointments-to-effort-sum t)
  '(org-agenda-default-appointment-duration 120)
- '(org-agenda-diary-file "/Users/Em/Repos/ImInSpace/CaptainsLog/diary.org")
+ '(org-agenda-diary-file "/Users/Em/Repos/ImInSpace/CaptainsLog/Diary/diary.org")
  '(org-agenda-files
    '("/Users/Em/Repos/ImInSpace/deck.org" "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org" "/Users/Em/Repos/ImInSpace/CaptainsLog/agenda.org" "/Users/Em/Repos/ImInSpace/Projects/projectslog.org" "/Users/Em/Repos/ImInSpace/HomeBase/homebase.org" "/Users/Em/Repos/ImInSpace/ExoCortex/Learn/learning.org" "/Users/Em/Repos/ImInSpace/Werx/schedule.org" "/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org" "/Users/Em/Documents/Dropbox/ToGo/togo.org" "/Users/Em/Repos/ImInSpace/Werx/Clients/clientlog.org"))
  '(org-agenda-include-diary t)
@@ -65,19 +67,19 @@
  '(org-capture-templates
    '(("c" "Captain's Log" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org")
-      "* Log Entry: %U\n  - Item: %^{Activity}\n  - Details: %^{Details}\n  - Status: %^{Status|PLAN|REVIEW|INPROGRESS|READ|STUDY|DONE}\n  - Follow Up: %^{Follow Up}\n  - Date Added: %U" :empty-lines-after 1)
+      "* Log Entry: %U\n  - Item: %^{Activity}\n  - Details: %^{Details}\n  - Status: %^{Status}\n  - Follow Up: %^{Follow Up}\n  - Date Added: %T" :empty-lines-after 1 :tree-type week)
      ("t" "ToDo" entry
-      (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/todos.org")
-      "* TODO %?\n  - Details: %^{Details}\n  - Date Added: %U" :empty-lines-after 1 :tree-type week)
+      (file+olp+datetree "/Users/Em/Documents/Dropbox/ToGo/togo.org")
+      "* TODO %?\n  - Details: %^{Details}\n  - Date Added: %T" :empty-lines-after 1 :tree-type week)
      ("d" "Add Done" entry
-      (file+function "\\Users\\Em\\Repos\\ImInSpace\\CaptainsLog\\captainslog.org" nil)
-      "* DONE %U\n  - Details: %^{Details}" :empty-lines-after 1 :tree-type week)
+      (file+function "/Users/Em/Documents/Dropbox/ToGo/togo.org" nil)
+      "* DONE %^{Heading}\n  - Description: %^{Description}\n  - DATE_CLOSED: %^T" :empty-lines-after 1 :tree-type week)
      ("s" "Start Task" entry
-      (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org" "**** 2018-W%^{Week Number}")
-      "* INPROGRESS %^{Heading}\n:PROPERTIES:\n:CUSTOM_ID: %^{Custom ID}\n:LOGGING: lognotedone\n:DATE_ADDED: %U\n:END:\n** Objective: %^{Objective}\n*** Proceedure [%]\n  - [ ] %^{Step 1}\n  - [ ] %^{Step 2}\n  - [ ] %^{Step 3} \n*** Current File: %f" :jump-to-captured t :empty-lines 1 :empty-lines-before 1 :empty-lines-after 1 :clock-in t :tree-type week)
+      (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/captainslog.org")
+      "* INPROGRESS %^{Heading}\n  :PROPERTIES:\n  :CUSTOM_ID: %^{Custom ID}\n  :LOGGING: lognotedone\n  :DATE_ADDED: %U\n  :END:\n** Objective: %^{Objective}\n*** Proceedure [%]\n  - [ ] %^{Step 1}\n  - [ ] %^{Step 2}\n  - [ ] %^{Step 3} \n*** Current File: %f" :jump-to-captured t :empty-lines 1 :empty-lines-before 1 :empty-lines-after 1 :clock-in t :tree-type week)
      ("a" "Add Appointment" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/appointments.org")
-      "* APPOINTMENT %?\n  - Date: %^U\n  - Location: %^{Location}\n  - Date Added: %U" :jump-to-captured t :empty-lines-after 1 :time-prompt t :tree-type week)
+      "* APPOINTMENT %?\n  :PROPERTIES:\n  :EVENT_TYPE: APPOINTMENT\n  :APPT_DATE: %^T\n  :PLACE_NAME: %^{Place Name}\n  :NOTE: %^{Note}\n  :END:" :jump-to-captured t :empty-lines-after 1 :time-prompt t :tree-type week)
      ("v" "Vital Signs" entry
       (file+olp+datetree "/Users/Em/Repos/ImInSpace/CaptainsLog/Health/tracking.org")
       "* %U : Vitals\n  - Energy Level: %?\n  - Blood Pressure\n    - Systolic: %^{Systolic}\n    - Diastolic: %^{Diastolic}\n  - Pulse: %^{Pulse}\n  - Temperature: %^{Temperature} ℉\n  - Symptoms: %^{Symptoms}\n  - Date Recorded: %U" :empty-lines-after 1 :tree-type week)
@@ -102,13 +104,13 @@
  '(org-coderef-label-format "[ref:%s]")
  '(org-columns-ellipses ">")
  '(org-custom-properties
-   '("SELFSPY" "DESCRIPTION" "CLASS" "REPO" "SUBJECT" "PROJECT" "ELN_PAGE" "PROTOCOL" "METHOD" "ALGORITHM" "LANGUAGE" "HEALTH" "RESOURCE" "ARRAY" "YEAR" "MONTH" "WEEK" "DAY" "LOCATION" "CLIENT" "STUDENTID" "DATE_ADDED" "DATE_MODIFIED" "CITEKEY" "URL" "METRIC" "DATATYPE" "LOG_CLASS" "SELFSPY_VAR" "CITY" "STATE" "STREET" "PLACE_NAME"))
+   '("SELFSPY" "DESCRIPTION" "CLASS" "REPO" "SUBJECT" "PROJECT" "ELN_PAGE" "PROTOCOL" "METHOD" "ALGORITHM" "LANGUAGE" "HEALTH" "RESOURCE" "ARRAY" "YEAR" "MONTH" "WEEK" "DAY" "LOCATION" "CLIENT" "STUDENTID" "DATE_ADDED" "DATE_MODIFIED" "CITEKEY" "URL" "METRIC" "DATATYPE" "LOG_CLASS" "SELFSPY_VAR" "CITY" "STATE" "STREET" "PLACE_NAME" "POSTALCODE" "COUNTRY"))
  '(org-datetree-add-timestamp 'inactive)
  '(org-default-notes-file "/Users/Em/Repos/ImInSpace/Notes/notes.org")
  '(org-default-priority 67)
  '(org-directory "/Users/Em/Repos/ImInSpace/")
  '(org-edit-src-turn-on-auto-save t)
- '(org-ellipsis "⤏")
+ '(org-ellipsis " ")
  '(org-enforce-todo-checkbox-dependencies t)
  '(org-enforce-todo-dependencies t)
  '(org-export-backends
@@ -232,7 +234,7 @@
  '(org-time-stamp-custom-formats '("<%y-%m-%d %H:%M>" . "<%y-%m-%d %a %H:%M>"))
  '(org-timer-default-timer "00:25:00")
  '(org-todo-keywords
-   '((sequence "TODO" "NEXT" "PLAN" "INPROGRESS" "WAITING" "DELEGATED" "ASSIGNED" "PURGATORY" "DONE")
+   '((sequence "TODO" "NEXT" "PLAN" "INPROGRESS" "PAUSED" "RESUME" "WAITING" "DELEGATED" "ASSIGNED" "PURGATORY" "DONE")
      (type "READNEXT" "READLATER" "WATCHNEXT" "WATCHLATER" "LISTEN")
      (sequence "IDEA" "DEFINE" "LOOKUP" "RESEARCH" "FEEDBACK" "REVIEW" "REFACTOR" "VERIFY" "DOCUMENT")
      (type "APPOINTMENT" "SESSION" "MEETING" "CALL" "SKYPE" "ERRAND")
@@ -251,7 +253,7 @@
  '(org-use-property-inheritance t)
  '(org-use-sub-superscripts '{})
  '(package-selected-packages
-   '(org-preview-html org-journal org-brain mpv emms-player-mpv-jp-radios emms-player-mpv draft-mode dot-mode blackboard-bold-mode chef-mode edit-server-htmlize reveal-in-osx-finder google-maps applescript-mode apples-mode defproject map-progress captain capture org-category-capture private-diary tagedit turing-machine hl-anything achievements org-context exiftool shell-current-directory download-region org-linkany orglink link org-cliplink toc-org outline-toc otama imapfilter ivy-feedwrangler writegood-mode csv-mode parse-csv csv tblui orgtbl-show-header orgtbl-join orgtbl-ascii-plot orgtbl-aggregate xkcd wotd list-utils minimap miniedit gnuplot gnuplot-mode all-the-icons-gnus edit-list popup-edit-menu popup-imenu char-menu imenu-list imenus tiny-menu auto-complete-rst macro-math graphql-mode elpy bart-mode prop-menu gruvbox-theme boxquote checkbox org-table-sticky-header org-sticky-header state magit-org-todos edit-indirect-region-latex gitignore-templates latex-pretty-symbols add-hooks add-node-modules-path nodejs-repl shimbun search-web web-beautify fastdef wiki-summary jedi python-cell importmagic python-x sound-wav zone-rainbow rainbow-blocks auto-complete-sage empos bog ein-mumamo audio-notes-mode calfw-org bbdb2erc bbdb-ext helm-bbdb bbdb-vcard bbdb-csv-import bbdb- offlineimap company-coq company-pollen company-dict ac-math auto-complete-auctex color-theme-sanityinc-solarized ibuffer-sidebar anybar org-autolist code-library org-tracktable org-time-budgets org-web-tools org-random-todo org-noter org-beautify-theme org-bookmark-heading org-alert org-agenda-property html2org org-review homebrew-mode hackernews auctex-latexmk yatemplate latexdiff latex-preview-pane magic-latex-buffer latex-extra google-translate math-symbol-lists latex-math-preview company-bibtex gscholar-bibtex annotate ebib shell-here shell-command eval-in-repl fireplace babel-repl ox-epub pynt svg-clock osx-org-clock-menubar org-clock-today graphviz-dot-mode protocols labburn-theme ob-http ob-diagrams ob-blockdiag ob-cypher ob-browser yasnippet-snippets ipython-shell-send org-super-agenda 0blayout org-easy-img-insert org-capture-pop-frame org-babel-eval-in-repl org-pomodoro apache-mode edit-server org-dashboard dashboard org-board arjen-grey-theme challenger-deep-theme academic-phrases read-aloud readability bibslurp bibretrieve bibtex-utils focus sunshine highlight org-index org-edit-latex ialign podcaster org-download auto-yasnippet interleave org-ref org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
+   '(use-package angry-police-captain osx-trash osx-pseudo-daemon osx-plist osx-location osx-lib osx-dictionary osx-clipboard osx-browse counsel-osx-app sx helm-orgcard helm-org-rifle org-dropbox org-preview-html org-journal org-brain mpv emms-player-mpv-jp-radios emms-player-mpv draft-mode dot-mode blackboard-bold-mode chef-mode edit-server-htmlize reveal-in-osx-finder google-maps applescript-mode apples-mode defproject map-progress captain capture org-category-capture private-diary tagedit turing-machine hl-anything achievements org-context exiftool shell-current-directory download-region org-linkany orglink link org-cliplink toc-org outline-toc otama imapfilter ivy-feedwrangler writegood-mode csv-mode parse-csv csv tblui orgtbl-show-header orgtbl-join orgtbl-ascii-plot orgtbl-aggregate xkcd wotd list-utils minimap miniedit gnuplot gnuplot-mode all-the-icons-gnus edit-list popup-edit-menu popup-imenu char-menu imenu-list imenus tiny-menu auto-complete-rst macro-math graphql-mode elpy bart-mode prop-menu gruvbox-theme boxquote checkbox org-table-sticky-header org-sticky-header state magit-org-todos edit-indirect-region-latex gitignore-templates latex-pretty-symbols add-hooks add-node-modules-path nodejs-repl search-web web-beautify fastdef wiki-summary jedi python-cell importmagic python-x sound-wav zone-rainbow rainbow-blocks auto-complete-sage empos bog ein-mumamo audio-notes-mode calfw-org bbdb2erc bbdb-ext helm-bbdb bbdb-vcard bbdb-csv-import bbdb- offlineimap company-coq company-pollen company-dict ac-math auto-complete-auctex color-theme-sanityinc-solarized ibuffer-sidebar anybar org-autolist code-library org-tracktable org-time-budgets org-web-tools org-random-todo org-noter org-beautify-theme org-bookmark-heading org-alert org-agenda-property html2org org-review homebrew-mode hackernews auctex-latexmk yatemplate latexdiff latex-preview-pane magic-latex-buffer latex-extra google-translate math-symbol-lists latex-math-preview company-bibtex gscholar-bibtex annotate ebib shell-here shell-command eval-in-repl fireplace babel-repl ox-epub pynt svg-clock osx-org-clock-menubar org-clock-today graphviz-dot-mode protocols labburn-theme ob-http ob-diagrams ob-blockdiag ob-cypher ob-browser yasnippet-snippets ipython-shell-send org-super-agenda 0blayout org-easy-img-insert org-capture-pop-frame org-babel-eval-in-repl org-pomodoro apache-mode edit-server org-dashboard dashboard org-board arjen-grey-theme challenger-deep-theme academic-phrases read-aloud readability bibslurp bibretrieve bibtex-utils focus sunshine highlight org-index org-edit-latex ialign podcaster org-download auto-yasnippet interleave org-ref org-randomnote ob-sml ob-sagemath ob-applescript ob-ipython nyan-mode org-pdfview pdf-tools ereader org-chef org-bullets org-mobile-sync neotree all-the-icons-ivy doom-themes cyberpunk-theme yaml-mode web-mode geiser yari inf-ruby company-anaconda anaconda-mode company-auctex cdlatex auctex json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters coffee-mode company helm-ag helm-descbinds helm-projectile helm counsel swiper ivy smex ido-completing-read+ flx-ido vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
  '(pdf-info-log t)
  '(pdf-view-resize-factor 0.75)
  '(pdf-view-use-imagemagick t)

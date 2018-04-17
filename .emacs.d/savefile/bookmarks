@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("ToGo"
+(("JThompson Dashboard"
+ (filename . "~/Repos/Tutoring/Students/JThompson/jthompson-dash.org")
+ (front-context-string)
+ (rear-context-string . "hj-timeline.htm\n")
+ (position . 5041))
+("ToGo"
  (filename . "~/Documents/Dropbox/ToGo/togo.org")
  (front-context-string . "* ToGo\n* PLAN Sp")
  (rear-context-string)

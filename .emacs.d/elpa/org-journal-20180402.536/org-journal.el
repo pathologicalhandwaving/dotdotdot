@@ -123,7 +123,7 @@ org-journal. Use org-journal-file-format instead.")
   "Face for highlighting future org-journal entries in M-x calendar."
   :group 'org-journal)
 
-(defcustom org-journal-dir "~/Documents/journal/"
+(defcustom org-journal-dir "/Users/Em/Repos/ImInSpace/CaptainsLog/Diary/"
   "Directory containing journal entries.
   Setting this will update auto-mode-alist using
   `(org-journal-update-auto-mode-alist)`"
@@ -147,7 +147,7 @@ org-journal. Use org-journal-file-format instead.")
                (org-journal-format-string->regex value))
          (org-journal-update-auto-mode-alist)))
 
-(defcustom org-journal-date-format "%A, %x"
+(defcustom org-journal-date-format "%Y-%m-%d %A"
   "Format string for date, by default \"WEEKDAY, DATE\", where
   DATE is what Emacs thinks is an appropriate way to format days
   in your language. If you define it as a function, it is evaluated
