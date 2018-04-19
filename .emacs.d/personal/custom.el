@@ -20,7 +20,7 @@
  '(custom-safe-themes
    '("e297f54d0dc0575a9271bb0b64dad2c05cff50b510a518f5144925f627bb5832" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "bc4b650c41b16b98166b35da94b366c6a9e1e7883bbf4937c897fb7bd05aa619" "bbb4a4d39ed6551f887b7a3b4b84d41a3377535ccccf901a3c08c7317fad7008" "83db918b06f0b1df1153f21c0d47250556c7ffb5b5e6906d21749f41737babb7" "dcb9fd142d390bb289fee1d1bb49cb67ab7422cd46baddf11f5c9b7ff756f64c" "0598de4cc260b7201120b02d580b8e03bd46e5d5350ed4523b297596a25f7403" "4e21fb654406f11ab2a628c47c1cbe53bab645d32f2c807ee2295436f09103c6" "c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" "4597d1e9bbf1db2c11d7cf9a70204fa42ffc603a2ba5d80c504ca07b3e903770" "d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" default))
  '(diary-file "/Users/Em/Repos/ImInSpace/CaptainsLog/diary")
- '(doc-view-image-width 400)
+ '(doc-view-image-width 300)
  '(expand-region-preferred-python-mode 'fgallina-python)
  '(fancy-splash-image "/Users/Em/Repos/ImInSpace/escape.png")
  '(global-anzu-mode t)

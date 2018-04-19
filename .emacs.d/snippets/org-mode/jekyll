@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: jekyllpost
+# key: 
+# --
+
+
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+BEGIN_HTML
+---
+title: ${title}
+layout: post
+date: `(format-time-string "%Y-%m-%d")`
+tags: ${tags}
+---
+#+END_HTML
+
+
+$0
