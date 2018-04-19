@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("JThompson Dashboard"
+(("DocNorang"
+ (filename . "~/Documents/Dropbox/orgDocs/DocNoRang.org")
+ (front-context-string . "rent Work\n:PROPE")
+ (rear-context-string . "\n** Focus On Cur")
+ (position . 142901))
+("Basic"
+ (filename . "~/.emacs.d/personal/basic-settings.el")
+ (front-context-string)
+ (rear-context-string . "RGATORY\")))))\n\n\n")
+ (position . 951))
+("JThompson Dashboard"
  (filename . "~/Repos/Tutoring/Students/JThompson/jthompson-dash.org")
  (front-context-string)
  (rear-context-string . "hj-timeline.htm\n")
