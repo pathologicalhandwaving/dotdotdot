@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/Repos/Tutoring/" "~/Repos/ImInSpace/" "~/Repos/ScratchPad/")
+("~/.emacs.d/")

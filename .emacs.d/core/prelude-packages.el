@@ -65,7 +65,6 @@
     diminish
     easy-kill
     editorconfig
-    edit-server
     epl
     expand-region
     flycheck

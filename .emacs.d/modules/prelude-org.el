@@ -36,7 +36,6 @@
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
-(global-set-key "\C-cc" 'org-capture)
 (setq org-log-done t)
 
 (defun prelude-org-mode-defaults ()
@@ -49,7 +48,6 @@
     (make-local-variable 'minor-mode-overriding-map-alist)
     (push `(prelude-mode . ,newmap) minor-mode-overriding-map-alist))
 )
-(require 'org-protocol)
 
 (setq prelude-org-mode-hook 'prelude-org-mode-defaults)
 

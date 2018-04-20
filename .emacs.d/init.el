@@ -43,10 +43,10 @@
   (getenv
    (if (equal system-type 'windows-nt) "USERNAME" "USER")))
 
-(message "SpaceBot is waking up... Need coffee... Wait here..." current-user)
+(message "Prelude is powering up... Be patient, Master %s!" current-user)
 
 (when (version< emacs-version "24.4")
-  (error "SpaceBot requires at least GNU Emacs 24.4, but you're running %s" emacs-version))
+  (error "Prelude requires at least GNU Emacs 24.4, but you're running %s" emacs-version))
 
 ;; Always load newest byte code
 (setq load-prefer-newer t)
@@ -102,7 +102,7 @@ by Prelude.")
   (message "Loading personal configuration files in %s..." prelude-personal-preload-dir)
   (mapc 'load (directory-files prelude-personal-preload-dir 't "^[^#\.].*el$")))
 
-(message "SpaceBot no think, loading core ask then... maybe...")
+(message "Loading Prelude's core...")
 
 ;; the core stuff
 (require 'prelude-packages)
@@ -117,7 +117,7 @@ by Prelude.")
 (when (eq system-type 'darwin)
   (require 'prelude-osx))
 
-(message "SpaceBot is loading the  modules... Everyday loading the modules...")
+(message "Loading Prelude's modules...")
 
 ;; the modules
 (if (file-exists-p prelude-modules-file)
@@ -133,7 +133,7 @@ by Prelude.")
   (message "Loading personal configuration files in %s..." prelude-personal-dir)
   (mapc 'load (directory-files prelude-personal-dir 't "^[^#\.].*el$")))
 
-(message "I'm a little SpaceBot, here we go!" current-user)
+(message "Prelude is ready to do thy bidding, Master %s!" current-user)
 
 ;; Patch security vulnerability in Emacs versions older than 25.3
 (when (version< emacs-version "25.3")
