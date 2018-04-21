@@ -76,6 +76,10 @@ Icon
 .config/ranger/bookmarks
 .config/ranger/tags
 
+# emacs
+*/secrets.el
+*/secrets.el.gpg
+
 # texstudio
 .config/texstudio/lastSession.txss
 .config/texstudio/packageCache.dat
