@@ -2,23 +2,16 @@
 
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 
-;; Capture Keybind
-(global-set-key "\C-cc" 'org-capture)
+
+;; Global keybindings are in prelude-org module
 
 ;; helper functions
 
-;; brackets-to-parens
-(defun transform-brackets-to-parens(string-to-transform)
-  "Transforms [ ] to (), leaving other characters unchanged"
-  (concat
-   (mapcar #'(lambda (c) (if (equal c ?[) ?\( (if (equal c ?]) ?\) c))) string-to-transform)))
 
 
 
 ;; templates
-(setq org-capture-templates '(
-                              )
-      )
+(setq org-capture-templates '())
 
 
 
