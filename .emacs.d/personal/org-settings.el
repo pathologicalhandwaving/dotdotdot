@@ -17,11 +17,11 @@
 (advice-add 'org-self-insert-command :after #'insert-two-spaces)
 
 ;; default notes file
-(defvar org-default-notes-file "/Users/Em/Repos/ImInSpace/refile.org")
+(defvar org-default-notes-file "/Volumes/JumpShip/Inbox/refile.org")
 
 
 ;; Literate Programming
-(require 'org-babel)
+x;;(require 'org-babel)
 
 (add-to-list 'org-src-lang-modes '("dot" . "graphviz-dot"))
 
