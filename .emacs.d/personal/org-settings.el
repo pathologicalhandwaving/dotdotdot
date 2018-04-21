@@ -46,10 +46,10 @@
 ;; Org-Agenda files are set in org-agenda-settings personal file
 
 
-
 ;; org-bullets
 (require 'org-bullets)
 (add-hook 'org-mode-hook 'org-bullets-mode)
+
 (font-lock-add-keywords 'org-mode
                         '(("^ +\\([-*]\\) "
                            (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
@@ -63,6 +63,11 @@
 
 (advice-add 'org-self-insert-command :after #'insert-two-spaces)
 
+;; default notes file
+(defvar org-default-notes-file "/Volumes/JumpShip/Inbox/refile.org")
+
+
+;; source languages
 
 ;; Babel
 ;; Language Modes
