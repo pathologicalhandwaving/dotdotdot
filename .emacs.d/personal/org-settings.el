@@ -1,9 +1,13 @@
 ;;; org-settings.el
 
+;; Archives
+(add-to-list 'auto-mode-alist '("\\.\\(org\\|org_archive\\)$" . org-mode))
+
 ;; org-bullets
 (require 'org-bullets)
 (add-hook 'org-mode-hook 'org-bullets-mode)
 
+;; fontlock keywords
 (font-lock-add-keywords 'org-mode
                         '(("^ +\\([-*]\\) "
                            (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "•"))))))
@@ -20,8 +24,7 @@
 (defvar org-default-notes-file "/Volumes/JumpShip/Inbox/refile.org")
 
 
-;; Literate Programming
-x;;(require 'org-babel)
+;; source languages
 
 (add-to-list 'org-src-lang-modes '("dot" . "graphviz-dot"))
 
