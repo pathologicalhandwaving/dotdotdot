@@ -39,7 +39,14 @@
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode -1))
 
+;; Wrap Visual Line Mode
+(global-visual-line-mode t)
+
+;; No Scroll Bar
+(scroll-bar-mode -1)
+
 (menu-bar-mode -1)
+
 
 ;; the blinking cursor is nothing, but an annoyance
 (blink-cursor-mode -1)

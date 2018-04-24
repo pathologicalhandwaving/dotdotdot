@@ -48,7 +48,7 @@
   :type 'boolean
   :group 'prelude)
 
-(defcustom prelude-whitespace t
+(defcustom prelude-whitespace nil
   "Non-nil values enable Prelude's whitespace visualization."
   :type 'boolean
   :group 'prelude)
@@ -93,7 +93,7 @@ Only modes that don't derive from `prog-mode' should be listed here."
   :type 'number
   :group 'prelude)
 
-(defcustom prelude-theme 'zenburn
+(defcustom prelude-theme 'doom-city-lights
   "The default color theme, change this in your /personal/preload config."
   :type 'symbol
   :group 'prelude)

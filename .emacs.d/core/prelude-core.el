@@ -118,7 +118,7 @@ PROMPT sets the `read-string prompt."
     ;; pick a new random seed
     (random t)
     (message
-     (concat "Prelude tip: " (nth (random (length prelude-tips)) prelude-tips)))))
+     (concat "Prelude Tip: " (nth (random (length prelude-tips)) prelude-tips)))))
 
 (defun prelude-eval-after-init (form)
   "Add `(lambda () FORM)' to `after-init-hook'.
