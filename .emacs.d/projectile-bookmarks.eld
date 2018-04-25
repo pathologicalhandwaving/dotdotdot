@@ -1,1 +1,1 @@
-("~/.emacs.d/")
+("~/.emacs.d/" "/Volumes/JumpShip/Work/Tutoring/")

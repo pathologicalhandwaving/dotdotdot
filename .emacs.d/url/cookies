@@ -2,33 +2,11 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '(("historylearningsite.co.uk"
-  [url-cookie "ezouid_18960" "417947166" "Mon, 30 Mar 2020 19:16:04 UTC" "/" "historylearningsite.co.uk" nil])
- (".amazon.co.uk"
-  [url-cookie "session-id-time" "2082787201l" "Tue, 01-Jan-2036 08:00:01 GMT" "/" ".amazon.co.uk" nil]
-  [url-cookie "session-id" "258-8566782-6820462" "Tue, 01-Jan-2036 08:00:01 GMT" "/" ".amazon.co.uk" nil])
- (".soundboard.com"
-  [url-cookie "__cfduid" "df99d28fb24dedbde01f83aab3c0221de1524009947" "Thu, 18-Apr-19 00:05:47 GMT" "/" ".soundboard.com" nil])
- ("soundboard.com"
-  [url-cookie "ezovuuidtime_23795" "1524009949" "Fri, 20 Apr 2018 00:05:49 UTC" "/sb" "soundboard.com" nil]
-  [url-cookie "ezoadgid_23795" "-1" "Wed, 18 Apr 2018 00:35:47 UTC" "/" "soundboard.com" nil]
-  [url-cookie "ezouid_23795" "434221609" "Tue, 07 Apr 2020 00:05:47 UTC" "/" "soundboard.com" nil]
-  [url-cookie "ezoref_23795" "" "Wed, 18 Apr 2018 02:05:47 UTC" "/" "soundboard.com" nil]
-  [url-cookie "ezoab_23795" "mod24-" "Wed, 18 Apr 2018 00:35:47 UTC" "/" "soundboard.com" nil]
-  [url-cookie "active_template::23795" "pub_site.1524009947" "Fri, 20 Apr 2018 00:05:47 UTC" "/" "soundboard.com" nil]
-  [url-cookie "lp_23795" "http://www.soundboard.com/sb/Real_Genius_audio" "Wed, 18 Apr 2018 02:05:49 UTC" "/" "soundboard.com" nil]
-  [url-cookie "ezovid_23795" "2063283915" "Wed, 18 Apr 2018 00:35:49 UTC" "/" "soundboard.com" nil]
-  [url-cookie "ezovuuid_23795" "fa52896b-1175-4b24-5bfd-e2db4af593bd" "Wed, 18 Apr 2018 00:35:49 UTC" "/" "soundboard.com" nil]
-  [url-cookie "ezopvc_23795" "1" "Wed, 18 Apr 2018 00:35:49 UTC" "/" "soundboard.com" nil])
- ("sites.psu.edu"
-  [url-cookie "xid" "rB4C7lrNDFt2nitaA3vOAg==" "Thu, 10-May-18 19:11:23 GMT" "/" "sites.psu.edu" nil]))
+ '((".youtube.com"
+  [url-cookie "VISITOR_INFO1_LIVE" "pnvEYNFClaE" "Sun, 21-Oct-2018 19:04:31 GMT" "/" ".youtube.com" nil]))
 )
 (setq url-cookie-secure-storage
- '((".github.com"
-  [url-cookie "logged_in" "no" "Fri, 16 Apr 2038 04:12:00 -0000" "/" ".github.com" t])
- (".historylearningsite.co.uk"
-  [url-cookie "__cfduid" "d2ceb2b2448d008acbd7bf9df8c8c7feb1523387763" "Wed, 10-Apr-19 19:16:03 GMT" "/" ".historylearningsite.co.uk" t]))
-)
+ 'nil)
 
 ;; Local Variables:
 ;; version-control: never

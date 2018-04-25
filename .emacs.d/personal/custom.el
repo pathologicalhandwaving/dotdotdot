@@ -9,7 +9,7 @@
    '("c5d320f0b5b354b2be511882fc90def1d32ac5d38cccc8c68eab60a62d1621f2" default))
  '(fringe-mode 0 nil (fringe))
  '(package-selected-packages
-   '(fontawesome org-bullets ac-ispell dashboard doom-themes geiser json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters company counsel swiper ivy vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
+   '(all-the-icons-dired dired-ranger dired-toggle erc-youtube helm-emms ivy-youtube emms-player-mpv helm-youtube cyberpunk-theme org-protocol-jekyll org-index fontawesome org-bullets ac-ispell dashboard doom-themes geiser json-mode js2-mode rainbow-mode elisp-slime-nav rainbow-delimiters company counsel swiper ivy vkill exec-path-from-shell zop-to-char zenburn-theme which-key volatile-highlights undo-tree smartrep smartparens smart-mode-line operate-on-number move-text magit projectile ov imenu-anywhere guru-mode grizzl god-mode gitignore-mode gitconfig-mode git-timemachine gist flycheck expand-region epl editorconfig easy-kill diminish diff-hl discover-my-major dash crux browse-kill-ring beacon anzu ace-window))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tool-bar-mode nil))
