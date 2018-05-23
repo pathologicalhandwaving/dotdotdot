@@ -1,5 +1,10 @@
 #!/usr/bin/bash
 
+export PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
+
+# term-cmd
+export TERMCMD="/Users/Em/.emacs.d/term-cmd:$PATH"
+
 # Exports
 export TERM=xterm-256color
 

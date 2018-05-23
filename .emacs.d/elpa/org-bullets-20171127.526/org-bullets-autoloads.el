@@ -10,7 +10,9 @@
 ;;; Generated autoloads from org-bullets.el
 
 (autoload 'org-bullets-mode "org-bullets" "\
-Use UTF8 bullets in Org mode headings.\n\n(fn &optional ARG)" t nil)
+Use UTF8 bullets in Org mode headings.
+
+\(fn &optional ARG)" t nil)
 
 (if (fboundp 'register-definition-prefixes) (register-definition-prefixes "org-bullets" '("org-bullets-")))
 

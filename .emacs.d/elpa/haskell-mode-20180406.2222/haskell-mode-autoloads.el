@@ -155,7 +155,7 @@ Dump minimal imports.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "haskell" '("haskell-" "xref-prompt-for-identifier" "interactive-haskell-mode-map")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "haskell" '("haskell-" "interactive-haskell-mode-map" "xref-prompt-for-identifier")))
 
 ;;;***
 
@@ -555,7 +555,7 @@ current buffer.
 
 \(fn &optional SYM)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "haskell-doc" '("inferior-haskell-" "haskell-" "turn-off-haskell-doc")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "haskell-doc" '("haskell-" "inferior-haskell-" "turn-off-haskell-doc")))
 
 ;;;***
 
@@ -671,7 +671,7 @@ Invokes `haskell-indent-hook' if not nil.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "haskell-indent" '("turn-off-haskell-indent" "haskell-indent-")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "haskell-indent" '("haskell-indent-" "turn-off-haskell-indent")))
 
 ;;;***
 
@@ -1111,7 +1111,7 @@ Show the inferior-haskell buffer.  Start the process if needed.
 (defface w3m-haddock-heading-face '((((class color)) :inherit highlight)) "\
 Face for quarantines." :group 'haskell)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "w3m-haddock" '("w3m-haddock-" "haskell-w3m-")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "w3m-haddock" '("haskell-w3m-" "w3m-haddock-")))
 
 ;;;***
 

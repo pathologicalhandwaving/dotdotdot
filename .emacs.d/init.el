@@ -1,7 +1,6 @@
 ;;; init.el --- Prelude's configuration entry point.
-;;; Commentary: Emacs Startup File --- initialization for Emacs
 ;;
-;; Copyright (c) 2011-2017 Bozhidar Batsov
+;; Copyright (c) 2011-2018 Bozhidar Batsov
 ;;
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: http://batsov.com/prelude
@@ -44,7 +43,7 @@
   (getenv
    (if (equal system-type 'windows-nt) "USERNAME" "USER")))
 
-(message "Prelude is powering up... " current-user)
+(message "Prelude is powering up... Be patient, Master %s!" current-user)
 
 (when (version< emacs-version "24.4")
   (error "Prelude requires at least GNU Emacs 24.4, but you're running %s" emacs-version))
@@ -114,9 +113,9 @@ by Prelude.")
 (require 'prelude-editor)
 (require 'prelude-global-keybindings)
 
-;; OSX specific settings
+;; macOS specific settings
 (when (eq system-type 'darwin)
-  (require 'prelude-osx))
+  (require 'prelude-macos))
 
 (message "Loading Prelude's modules...")
 
@@ -134,7 +133,7 @@ by Prelude.")
   (message "Loading personal configuration files in %s..." prelude-personal-dir)
   (mapc 'load (directory-files prelude-personal-dir 't "^[^#\.].*el$")))
 
-(message "Prelude Locked and Loaded!" current-user)
+(message "Prelude is ready to do thy bidding, Master %s!" current-user)
 
 ;; Patch security vulnerability in Emacs versions older than 25.3
 (when (version< emacs-version "25.3")

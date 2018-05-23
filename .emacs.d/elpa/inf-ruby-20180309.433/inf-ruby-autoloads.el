@@ -113,7 +113,7 @@ Run Pry, or bundle console, in DIR.
 \(fn FILE REGEXP &optional MATCH-GROUP)" nil nil)
  (dolist (mode ruby-source-modes) (add-hook (intern (format "%s-hook" mode)) 'inf-ruby-minor-mode))
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "inf-ruby" '("inf-ruby-" "run-ruby-" "ruby-")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "inf-ruby" '("inf-ruby-" "ruby-" "run-ruby-")))
 
 ;;;***
 

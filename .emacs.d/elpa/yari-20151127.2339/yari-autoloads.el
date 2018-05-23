@@ -24,7 +24,7 @@ Look up Ruby documentation.
 
 \(fn &optional RI-TOPIC REHASH)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "yari" '("yari-" "when-ert-loaded")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "yari" '("when-ert-loaded" "yari-")))
 
 ;;;***
 

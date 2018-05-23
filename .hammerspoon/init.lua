@@ -1,3 +1,8 @@
+-- Global Log Level
+hs.logger.defaultLogLevel="info"
+
+
+-- Packages
 require('watcher')
 require('keybinds')
 require('webview')
@@ -201,3 +206,9 @@ tiling.set('layouts', {
 setLayouts(layouts)
 
 return tiling
+
+-- color abbrev
+--col = hs.drawing.color.x11
+
+-- Logos
+--rocket =  hs.image.imageFromPath(hs.configdir .. "/Users/Em/.hammerspoon/files/jetpackcat.png")

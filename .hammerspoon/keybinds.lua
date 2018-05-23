@@ -1,6 +1,11 @@
 local tiling = require "hs.tiling"
 local hotkey = require "hs.hotkey"
+
+-- Key Combinations
 local mash = {"ctrl", "cmd"}
+local hyper = {"cmd","alt","ctrl"}
+local super = {"cmd","alt","ctrl","shift"}
+
 
 hotkey.bind(mash, "c", function() tiling.cycleLayout() end)
 --hotkey.bind(mash, "j", function() tiling.cycle(1) end)

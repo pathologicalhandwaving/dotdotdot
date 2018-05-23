@@ -1,6 +1,6 @@
 ;;; prelude-ui.el --- Emacs Prelude: UI optimizations and tweaks.
 ;;
-;; Copyright © 2011-2017 Bozhidar Batsov
+;; Copyright © 2011-2018 Bozhidar Batsov
 ;;
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: https://github.com/bbatsov/prelude
@@ -39,14 +39,7 @@
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode -1))
 
-;; Wrap Visual Line Mode
-(global-visual-line-mode t)
-
-;; No Scroll Bar
-(scroll-bar-mode -1)
-
 (menu-bar-mode -1)
-
 
 ;; the blinking cursor is nothing, but an annoyance
 (blink-cursor-mode -1)

@@ -32,7 +32,8 @@ source ~/.local/bin/bashmarks.sh
 # iTerm Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
-
+alias vlc="/Applications/VLC.app/Contents/MacOS/VLC -I rc"
 
 ### LAST LINE
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"

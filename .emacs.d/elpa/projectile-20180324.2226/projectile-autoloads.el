@@ -520,7 +520,7 @@ Otherwise behave as if called interactively.
 
 (define-obsolete-function-alias 'projectile-global-mode 'projectile-mode)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "projectile" '("projectile-" "??" "def-projectile-commander-method")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "projectile" '("??" "def-projectile-commander-method" "projectile-")))
 
 ;;;***
 

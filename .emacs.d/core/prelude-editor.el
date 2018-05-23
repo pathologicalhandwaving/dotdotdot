@@ -1,6 +1,6 @@
 ;;; prelude-editor.el --- Emacs Prelude: enhanced core editing experience.
 ;;
-;; Copyright © 2011-2017 Bozhidar Batsov
+;; Copyright © 2011-2018 Bozhidar Batsov
 ;;
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: https://github.com/bbatsov/prelude
@@ -228,7 +228,7 @@ The body of the advice is in BODY."
   (when prelude-whitespace
     ;; keep the whitespace decent all the time (in this buffer)
     (add-hook 'before-save-hook 'prelude-cleanup-maybe nil t)
-    (whitespace-mode -1)))
+    (whitespace-mode +1)))
 
 (add-hook 'text-mode-hook 'prelude-enable-flyspell)
 (add-hook 'text-mode-hook 'prelude-enable-whitespace)

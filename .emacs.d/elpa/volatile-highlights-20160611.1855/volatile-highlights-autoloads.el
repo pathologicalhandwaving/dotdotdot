@@ -25,7 +25,7 @@ Minor mode for visual feedback on some operations.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "volatile-highlights" '("vhl/" "Vhl/highlight-zero-width-ranges")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "volatile-highlights" '("Vhl/highlight-zero-width-ranges" "vhl/")))
 
 ;;;***
 

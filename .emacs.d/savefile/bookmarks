@@ -2,9 +2,41 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Personal Settings"
- (filename . "~/.emacs.d/personal/my-settings.el")
- (front-context-string . ";;; my-settings.")
- (rear-context-string)
- (position . 1))
+(("org-capture-last-stored"
+ (filename . "/Volumes/JumpShip/Inbox/Clouds/Dropbox/Exile/notes.org")
+ (front-context-string . "** INPROGRESS Co")
+ (rear-context-string . "Inbox\n\n* Tasks\n\n")
+ (position . 44))
+("Workflowy"
+ (filename . "/Volumes/JumpShip/Inbox/Clouds/Dropbox/Werx/holidayinn-workflowy.org")
+ (front-context-string . "INIT Shift [100%")
+ (rear-context-string . "   :TASKS:\n\n*** ")
+ (position . 271)
+ (annotation . ""))
+("Keyword Colors"
+ (filename . "~/.emacs.d/personal/color-settings.el")
+ (front-context-string . "ackground \"DarkO")
+ (rear-context-string . " (\"SCHEDULED\" :b")
+ (position . 1918)
+ (annotation . "\n"))
+("Habits"
+ (filename . "/Volumes/JumpShip/Clouds/Dropbox/Exile/habits.org")
+ (front-context-string . "\n\n** Daily\n\n** W")
+ (rear-context-string . "elfSpy\n\n* Habits")
+ (position . 102))
+("Communications Log"
+ (filename . "/Volumes/JumpShip/Inbox/Clouds/Dropbox/Exile/communications-log.org")
+ (front-context-string . "  :PROPERTIES:\n ")
+ (rear-context-string . "munications Log\n")
+ (position . 71))
+("Appointments"
+ (filename . "/Volumes/JumpShip/Inbox/Clouds/Dropbox/Exile/appointments.org")
+ (front-context-string . "\n:YEAR: 2018\n:MO")
+ (rear-context-string . "5\n:APPOINTMENT:\n")
+ (position . 1838))
+("Schedule"
+ (filename . "/Volumes/JumpShip/Work/schedule.org")
+ (front-context-string . "#+DATE_CREATED: ")
+ (rear-context-string . "TITLE: Schedule\n")
+ (position . 19))
 )

@@ -22,7 +22,7 @@ Unconditionally turn on Bib Cite mode.
 
 \(fn)" nil nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bib-cite" '("psg-" "bib-" "search-directory-tree" "member-cis" "create-alist-from-list" "LaTeX-")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "bib-cite" '("LaTeX-" "bib-" "create-alist-from-list" "member-cis" "psg-" "search-directory-tree")))
 
 ;;;***
 
@@ -43,7 +43,7 @@ of ConTeXt-mode-hook.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "context" '("context-guess-current-interface" "ConTeXt-" "TeX-ConTeXt-sentinel")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "context" '("ConTeXt-" "TeX-ConTeXt-sentinel" "context-guess-current-interface")))
 
 ;;;***
 
@@ -134,7 +134,7 @@ runs the hooks in `docTeX-mode-hook'.
 
 (defalias 'TeX-doctex-mode 'docTeX-mode)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "latex" '("LaTeX-" "docTeX-" "TeX-" "latex-math-mode" "Bib")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "latex" '("Bib" "LaTeX-" "TeX-" "docTeX-" "latex-math-mode")))
 
 ;;;***
 
@@ -237,7 +237,7 @@ Report a bug in the preview-latex package.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "preview" '("preview-" "TeX-" "desktop-buffer-preview")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "preview" '("TeX-" "desktop-buffer-preview" "preview-")))
 
 ;;;***
 
@@ -294,7 +294,7 @@ information about your AUCTeX version and AUCTeX configuration.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex" '("TeX-" "ispell-tex-" "Bib" "docTeX-default-extension" "LaTeX-" "plain-TeX-auto-regexp-list" "VirTeX-common-initialization" "tex-" "AmS-TeX-mode-hook" "ConTeXt-")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex" '("AmS-TeX-mode-hook" "Bib" "ConTeXt-" "LaTeX-" "TeX-" "VirTeX-common-initialization" "docTeX-default-extension" "ispell-tex-" "plain-TeX-auto-regexp-list" "tex-")))
 
 ;;;***
 
@@ -318,7 +318,7 @@ Install toolbar buttons for LaTeX mode.
 ;;;### (autoloads nil "tex-buf" "tex-buf.el" (0 0 0 0))
 ;;; Generated autoloads from tex-buf.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-buf" '("TeX-" "LaTeX-" "compilation-in-progress")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-buf" '("LaTeX-" "TeX-" "compilation-in-progress")))
 
 ;;;***
 
@@ -394,7 +394,7 @@ Set `japanese-TeX-mode' to t, and enter `TeX-latex-mode'.
 ;;; Generated autoloads from tex-site.el
  (require 'tex-site)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-site" '("preview-TeX-style-dir" "AUCTeX-" "TeX-")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "tex-site" '("AUCTeX-" "TeX-" "preview-TeX-style-dir")))
 
 ;;;***
 

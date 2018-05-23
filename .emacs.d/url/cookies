@@ -2,11 +2,11 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".youtube.com"
-  [url-cookie "VISITOR_INFO1_LIVE" "pnvEYNFClaE" "Sun, 21-Oct-2018 19:04:31 GMT" "/" ".youtube.com" nil]))
-)
-(setq url-cookie-secure-storage
  'nil)
+(setq url-cookie-secure-storage
+ '((".github.com"
+  [url-cookie "logged_in" "no" "Fri, 07 May 2038 03:16:19 -0000" "/" ".github.com" t]))
+)
 
 ;; Local Variables:
 ;; version-control: never

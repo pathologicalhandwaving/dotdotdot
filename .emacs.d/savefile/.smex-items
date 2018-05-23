@@ -1,16 +1,41 @@
 
 ;; ----- smex-history -----
 (
- cd
- 5x5
- arp
- dbx
- dig
- erc
- ert
+ find-file
+ load-theme
+ org-trello-mode
+ org-trello-show-board-labels
+ org-trello-check-setup
+ org-trello-install-board-metadata
+ org-trello-install-key-and-token
 )
 
 ;; ----- smex-data -----
 (
- 
+ (find-file . 42)
+ (org-brain-pin . 1)
+ (org-brain-switch-brain . 21)
+ (org-brain-open . 8)
+ (org-brain-add-parent . 10)
+ (org-brain-visualize . 38)
+ (org-brain-goto . 2)
+ (org-brain-add-child . 5)
+ (neotree-show . 4)
+ (neotree-change-root . 2)
+ (org-brain-remove-child . 1)
+ (load-theme . 11)
+ (org-mode . 1)
+ (org-brain-delete-entry . 11)
+ (org-brain-update-id-locations . 4)
+ (org-brain-add-resource . 4)
+ (org-brain-create-relationships-from-links . 1)
+ (package-delete . 1)
+ (package-install . 6)
+ (windmove-left . 1)
+ (svg-clock . 2)
+ (org-trello-install-key-and-token . 2)
+ (org-trello-install-board-metadata . 3)
+ (org-trello-check-setup . 1)
+ (org-trello-show-board-labels . 1)
+ (org-trello-mode . 1)
 )

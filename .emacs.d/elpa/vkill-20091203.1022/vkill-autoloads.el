@@ -9,7 +9,7 @@
 ;;;### (autoloads nil "vkill" "vkill.el" (0 0 0 0))
 ;;; Generated autoloads from vkill.el
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "vkill" '("process-list-" "vkill" "list-unix-processes")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "vkill" '("list-unix-processes" "process-list-" "vkill")))
 
 ;;;***
 

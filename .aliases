@@ -1,12 +1,11 @@
 # Aliases
 
-# SciMax- Emacs Distro
-#alias max="emacs -q -l /Users/Em/scimax/init.el"
 
-
+# Convert all mp3 VoiceMemos to wav
+alias mp3towav="bash /Users/Em/.myscripts/mp3towav.sh"
 
 # Pull All Project Repos
-alias gitit="cd /Users/Em/Repos && git-pull-all"
+alias gitit="cd /Volumes/JumpShip/Lab/Projects && git-pull-all"
 
 
 # Show non-prefixed functions
@@ -73,9 +72,9 @@ alias bukuls="buku --colors oKlxm -p"
 alias kan="bash kanban"
 
 # p - pomodoro
-alias p="bash /Users/Em/.p/p"
+#alias p="bash /Users/Em/.p/p"
 
-alias pwav="bash /Users/Em/.p/p wait && afplay /Users/Em/.p/dooropen.wav"
+#alias pwav="bash /Users/Em/.p/p wait && afplay /Users/Em/.p/dooropen.wav"
 
 # Fun Colors
 alias cfun="boxes -d simple | lolcat -a -s 20"
@@ -107,7 +106,21 @@ alias findhere="find . name"
 # Adto
 #alias adto="bash /Users/Em/.myscripts/adto.sh"
 # Addone
-alias addone="bash /Users/Em/.myscripts/addone.sh && it2attention fireworks"
+#alias addone="bash /Users/Em/.myscripts/addone.sh && it2attention fireworks"
 # Logbook
 alias log="bash /Users/Em/.myscripts/logbook.sh && it2attention fireworks"
 
+# Play Slave
+alias slave="afplay /Users/Em/Music/wav/slave.wav"
+# Play Launch
+alias launch="afplay /Users/Em/Music/wav/launch.wav"
+# Play Problem
+alias problem="afplay /Users/Em/Music/wav/a13-problem.wav"
+# Play Space Guilty
+alias spaceg="afplay /Users/Em/Music/wav/SpaceCore-16.wav"
+# Play Degenerates
+alias degen="afplay /Users/Em/Music/wav/degenerates.wav"
+# Play Hero
+alias hero="afplay /Users/Em/Music/wav/hack-hero.wav"
+# I dont play well with others
+alias plays="afplay /Users/Em/Music/wav/hack-play.wav"

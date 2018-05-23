@@ -78,7 +78,7 @@ See `diff-hl-amend-mode' for more information on Diff-Hl-Amend mode.
 
 \(fn &optional ARG)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "diff-hl-amend" '("turn-on-diff-hl-amend-mode" "diff-hl-amend-setup")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "diff-hl-amend" '("diff-hl-amend-setup" "turn-on-diff-hl-amend-mode")))
 
 ;;;***
 

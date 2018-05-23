@@ -62,7 +62,7 @@ Move the selection down one row in `grizzl-completing-read'.
 
 \(fn)" t nil)
 
-(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "grizzl" '("grizzl-" "*grizzl-")))
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "grizzl" '("*grizzl-" "grizzl-")))
 
 ;;;***
 

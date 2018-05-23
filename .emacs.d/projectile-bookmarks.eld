@@ -1,1 +1,1 @@
-("~/.emacs.d/" "/Volumes/JumpShip/Work/Tutoring/")
+("~/.emacs.d/" "/Volumes/JumpShip/Work/Tutoring/" "/Volumes/JumpShip/Work/Clients/" "/Volumes/JumpShip/Lab/Projects/LLDB/" "/Volumes/JumpShip/Inbox/Clouds/Dropbox/snippets/org-mode/" "~/.emacs.d.backup/")
