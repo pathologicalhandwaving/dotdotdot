@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: date-modified
+# key: datemod
+# -
+:DATE_MODIFIED: `(format-time-string "%Y-%m-%d %H:%M")`

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tags-comm-log
+# key: <t-commlog
+# --
+#+TAGS: CALL(c) EMAIL(e) MESSAGE(G) RETCALL(r) VOICEMAIL(v) TELCONF(f) TODO(t) | FOLLOWUP(f) DONE(d)
+
+

@@ -1,0 +1,139 @@
+#+TITLE: Appointments Log
+#+CATEGORY: Appointments
+#+TAGS: SCHEDULED DONE
+
+* 2018
+  :PROPERTIES:
+  :YEAR: 2018
+  :END:
+
+** 2018-04 April
+   :PROPERTIES:
+   :MONTH: April
+   :END:
+
+*** DONE 2018-04-26 03:30 PM Thursday
+    :APPOINTMENT:
+    :APPT_DATE: 2018-04-26
+    :APPT_TIME: 03:30 PM
+
+** 2018-05 May
+
+   :PROPERTIES:
+   :MONTH: May
+   :END:
+
+*** 2018-W18
+    :PROPERTIES:
+    :WEEK: 2018-W18
+    :END:
+
+**** 2018-05-01 Tuesday
+
+**** 2018-05-02 Wednesday
+
+**** 2018-05-03 Thursday
+
+***** RESCHEDULED Barb Palma
+      :APPOINTMENT:
+      :APPT_DATE: 2018-05-03
+      :APPT_TIME: 08:30
+      :PLACE: Meridian Health
+      :CONTACT: Barb Palma
+      :APPT_DURATION: 2.5 hours
+      :APPT_TYPE: Therapy
+      :END:
+***** APPOINTMENT
+      :PROPERTIES:
+      :DATE_ADDED: 2018-05-03 15:10
+      :DATE_CREATED: 2018-05-03 15:10
+      :END:
+      :APPOINTMENT:
+      :APPT_TIME: 12:00
+      :APPT_DATE: 2018-05-05
+      :LOC_NAME: Anywhere
+      :CONTACT: Anyone
+      :DURATION: 00:50
+      :APPT_TYPE: This is a test
+      :END:
+*** 2018-W19
+    :PROPERTIES:
+    :WEEK: 2018-W19
+    :END:
+**** 2018-05-10 Doctor
+ - APPOINTMENT Walk-in Doctor's appointment for prescriptions
+**** 2018-05-12 Session
+- SESSION Jeremie 10:00
+**** 2018-05-13 HOLIDAY Mother's Day
+
+*** 2018-W20
+    :PROPERTIES:
+    :WEEK: 2018-W20
+    :END:
+
+**** 2018-05-18 Friday
+
+***** DONE Dr. Bachus
+      :APPOINTMENT:
+      :APPT_DATE: 2018-05-18
+      :APPT_TIME: 11:45
+      :PLACE: Meridian Health
+      :CONTACT: Dr. Bachus
+      :APPT_DURATION: 1.5 h
+      :APPT_TYPE: Medical
+      :END:
+
+
+*** 2018-W21
+    :PROPERTIES:
+    :WEEK: 2018-W21
+    :END:
+
+*** 2018-W22
+    :PROPERTIES:
+    :WEEK: 2018-W22
+    :END:
+    
+** 2018-06 June
+:PROPERTIES:
+:MONTH: 06
+:END:
+
+*** 2018-W23
+:PROPERTIES:
+:WEEK: 24
+:END:
+
+**** DONE Doctor June 11 7:45
+:APPOINTMENT:
+:YEAR: 2018
+:MONTH: 06
+:WEEK: 24
+:DAY: 11
+:APPT_DATE: 2018-06-11
+:APPT_TIME: 07:45
+:CONTACT: Dr. Bachus
+:LOC_NAME: Meridian Health
+:END:
+
+SCHEDULED: <2018-06-11 Mon 07:45>
+[2018-05-10 Thu 13:43]
+
+* APPOINTMENT Colleen and Iz's Wedding ❤️🍾
+  :APPOINTMENT:
+  :YEAR: 2018
+  :MONTH: 08
+  :DAY: 02
+  :APPT_DATE: 2018-08-02
+  :CONTACT: Iz Love
+  :LOC_NAME: Seattle, Washington
+  :END:
+
+SCHEDULED: <2018-08-02 Thu 17:25>
+[2018-05-15 Tue 17:26]
+
+** Wedding Website
+https://www.zola.com/wedding/kimseylove/event
+
+
+

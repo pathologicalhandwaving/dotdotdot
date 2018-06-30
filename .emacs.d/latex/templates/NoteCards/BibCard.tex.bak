@@ -1,0 +1,40 @@
+\documentclass[10pt]{article}
+\usepackage{notecards}
+
+
+
+
+\begin{document}
+\citekey{Rogaway2015} \hfill \textbf{{\footnotesize Bibliography Info}}\hfill \cardnumber{00}
+\medskip
+\color{red}{\hrule}
+\color{black}
+\bigskip
+
+\begin{addmargin}[2em]{2em}
+\begin{small}
+
+%%% Begin Bibliography
+\bibtype{Article} \\
+\bibtitle{A Title} \\
+\bibauthor{A. Author} \\
+\bibyear{1900} \\
+\bibmonth{March} \\
+\bibday{01} \\
+\bibjournal{Typos} \\
+\bibvol{03} \\
+\bibissue{10} \\
+\biburl{http://www.bullshit.com}
+\newline
+\bibabstract{A method of writing proofs is described that makes it harder to prove things that are not true. The method, based on hierarchical structuring, is simple and practical. The author's twenty years of experience writing such proofs is discussed.                  In addition to developing the students' intuition about the beautiful concepts of analysis, it is surely equally important to persuade them that precision and rigor are neither deterrents to intuition, nor ends in themselves, but the natural medium in which to formulate and think about mathematical questions.}
+%%% End Bibliography
+\end{small}
+\end{addmargin}
+\vfill
+
+
+\medskip
+\color{blue}{\hrule}
+\medskip
+\color{black}{\keywords{cryptography} \hfill \bibaccessed{\today}}
+\end{document}

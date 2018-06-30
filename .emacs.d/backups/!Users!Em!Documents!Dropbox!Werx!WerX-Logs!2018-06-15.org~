@@ -1,0 +1,60 @@
+#+TITLE: Front Desk PM Log
+#+DATE_CREATED: 2018-06-15 15:14
+#+CATEGORY: Work
+#+SHIFT: PM Front Desk
+#+TODO_SEQ: CLOCK_IN CLOCK_OUT | DONE(d)
+#+TODO_SEQ: TODO(t) | DONE(d)
+#+TODO_SEQ: LOGIN LOGOUT | DONE(d)
+#+TODO_SEQ: COUNT DEPOSIT LOG SIGN | DONE(d)
+#+TODO_SEQ: UPDATE CHECK RUN GET PRINT | DONE(d)
+
+* Front Desk Log
+:PROPERTIES:
+:ID: 332F428647A-5ECB-45A3-B7B7-E8FA2A7E843B
+:DATE_CREATED: 2018-06-15 15:14
+:END:
+
+** SHIFT_INIT
+
+   - [X] CLOCK_IN  HolidayInn Time Clock
+   - [X] MAKE      Activity Log
+   - [X] GET       PM Shift List
+   - [X] LOGIN     PMS
+   - [X] LOGIN     Chrome
+   - [X] COUNT     Open Drawer
+   - [X] LOG       Append Opening Drawer Values to Cash Log
+   - [X] OPEN      Stickies
+   - [X] CHECK     Previous Shift for Issues
+   - [X] CHECK     Incoming Groups or Special Accomodations
+   - [X] CHECK     Coffee and Water Station
+   - [X] UPDATE    Today's Rates
+   - [X] CHECK     Availability
+   - [ ] UPDATE    Amenities Log
+   - [ ] CHECK     Front Desk Supplies
+   - [X] UPDATE    Walk-in Log
+
+** LUNCH 
+
+** SHIFT_DECOMP
+
+   - [ ] UPDATE    Walk-in Log
+   - [ ] CHECK     Availability
+   - [ ] UPDATE    Amenities Log
+   - [ ] PRINT     Vacancy Report - OPTION Vacant
+   - [ ] CHECK     Bucket Check
+   - [ ] CHECK     Ensure all charges posted
+   - [ ] GET       Get Deposit Amount
+   - [ ] COUNT     Count Drawer
+   - [ ] LOG       Append Closing Drawer Values to Cash Log
+   - [ ] RUN       Cash out
+   - [ ] PRINT     Cashier Reports and Staple to *PM Shift List*
+   - [ ] RUN       Cash Out
+   - [ ] DEPOSIT   Make deposit with witness
+   - [ ] LOGOUT    PMS
+   - [ ] LOGOUT    Chrome
+   - [ ] UPDATE    PM Shift List
+   - [ ] SIGN      PM Shift List and Put in Log Box
+   - [ ] CLOCK_OUT HolidayInn Time Clock
+     
+
+   

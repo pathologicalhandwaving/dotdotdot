@@ -1,0 +1,139 @@
+#+TITLE: Quotations
+#+CATEGORY: Library
+#+HTML_HEAD_EXTRA: <style> blockquote {background:#384551; padding: 3px 13px; font-style: italic;}</style>
+
+
+
+* Quotations
+  :PROPERTIES:
+  :CUSTOM_ID: quotations
+  :END:
+
+
+** Jung
+:QUOTE:
+:AUTHOR: Jung
+:END:
+
+#+CAPTION: Loneliness
+#+BEGIN_QUOTE
+  Loneliness does not come from having no people about one, 
+  but from being unable to communicate the things that seem important to oneself, 
+  or from holding certain views which others find inadmissible.
+#+END_QUOTE
+
+
+
+** Thomas Jefferson
+:PROPERTIES:
+:AUTHOR: Thomas Jefferson
+:DESCRIPTION: Extract from Thomas Jefferson’s Fair Copy of the Kentucky Resolutions of 1798
+:URL: [[http://tjrs.monticello.org/letter/177]]
+:DATE_ADDED: 2018-04-07 12:15
+:END:
+
+
+#+CAPTION: Extract from Thomas Jefferson’s Fair Copy of the Kentucky Resolutions of 1798
+#+BEGIN_QUOTE
+  What the government is,
+  if it be not a tyranny,
+  which the men of our choice have conferred on our President,
+  and the President of our choice has assented to,
+  & accepted over the friendly strangers,
+  to whom the mild spirit of our country,
+  & it’s laws had pledged hospitality & protection:
+  that the men of our choice have more respected choice
+  bare suspicions of the President,
+  than the solid rights of innocence,
+  the claims of justification,
+  the sacred force of truth,
+  & the forms and substance of law & justice:
+  in questions of power then,
+  let no more be heard of confidence in man,
+  but bind him down from mischief by the chains of the constitution.
+#+END_QUOTE
+
+
+** Edward Snowden Mirroring Thomas Jefferson
+:PROPERTIES:
+:AUTHOR: Edward Snowden
+:DESCRIPTION: Mirroring Thomas Jefferson
+:URL: [[https://www.theatlantic.com/politics/archive/2014/05/edward-snowdens-other-motive-for-leaking/370068/]]
+:DATE_ADDED: 2018-04-07 12:30:45
+:END:
+
+
+#+CAPTION: Edward Snowden mirroring Thomas Jefferson
+#+BEGIN_QUOTE
+  While I pray that public awareness and debate will lead to reform,
+  bear in mind that the policies of men change in time,
+  and even the Constitution is subverted
+  when the appetites of power demand it.
+
+  In words from history:
+  Let us speak no more of faith in man,
+  but bind him down from mischief by the chains of cryptography.
+#+END_QUOTE
+
+
+** Edward Snowden - Privacy Analogy
+:PROPERTIES:
+:DESCRIPTION: Privacy Analogy
+:LINK: https://youtu.be/YNESMafb5ZI
+:AUTHOR: Edward Snowden
+:ATTRIBUTION: Jean-Michel Jarre
+:BOOK: Exit
+:YEAR: 2016
+:DATE_ADDED: 2018-04-07 12:32:59
+:END:
+
+#+BEGIN_QUOTE
+  Saying that you don’t care about the right to privacy
+  because you have nothing to hide,
+  is no different than saying you don’t care about freedom of speech
+  because you have nothing to say.
+  It’s a deeply anti-social principle
+  because rights are not just individual,
+  they’re collective,
+  and what may not have value to you today
+  may have value to an entire population,
+  an entire people,
+  an entire way of life tomorrow.
+  And if you don’t stand up for it,
+  then who will?
+#+END_QUOTE
+
+*** Edward Snowden Subjects not Citizens
+:PROPERTIES:
+:DESCRIPTION: Subjects not Citizens
+:LINK: https://en.m.wikiquote.org/wiki/Edward_Snowden
+:AUTHOR: Edward Snowden
+:DATE_ADDED: 2018-04-07 12:32:59
+:END:
+
+#+BEGIN_QUOTE
+  When we've got these people who have practically limitless powers
+  within a society,
+  if they get a pass without so much as a slap on the wrist,
+  what example does that set for the next group of officials
+  that come into power?
+  To push the lines a little bit further,
+  a little bit further,
+  a little bit further,
+  and we'll realize that we're no longer citizens -
+  we're subjects.
+#+END_QUOTE
+
+*** About Theodore Roosevelt
+:PROPERTIES:
+:ATTRIBUTION: Cecil Spring-Rice
+:OCCUPATION: British Ambassador to the United States
+:BOOK: The Rise of Theodore Roosevelt
+:AUTHOR: Edmund Morris
+:YEAR: 2001
+:CHAPTER: 5
+:PAGE: 81
+
+#+BEGIN_QUOTE
+  You must always remember that the president is about six.
+#+END_QUOTE

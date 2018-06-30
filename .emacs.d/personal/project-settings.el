@@ -21,8 +21,8 @@
 ;;; Code:
 
 (setq org-projectile-projects-file "/Volumes/JumpShip/Lab/lab-tasks.org")
-(setq org-agenda-files (append org-agenda-file (org-projectile-todo-files)))
+(setq org-agenda-files (append org-agenda-files (org-projectile-todo-files)))
 
-(require 'project-settings)
+(provide 'project-settings)
 (message "Project Settings Loaded!")
 ;;; project-settings.el ends here

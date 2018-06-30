@@ -21,3 +21,5 @@ fi
 
 source ~/.local/share/icons-in-terminal/icons_bash.sh
 
+# TheFuck
+eval $(thefuck --alias fuck)

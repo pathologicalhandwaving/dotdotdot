@@ -1,0 +1,132 @@
+% DEFAULT BIBLIOGRAPHY
+% CiteKeys are of the form
+% AuthorYear
+% Where Author is the last name of the first author
+% Where Year is the year of publication
+% If the author had more than one publication that year
+% and if both are in the bibliography
+
+@book{Villegas2007,
+  title     = {Experimental Number Theory},
+  author    = {Fernando Rodriguez Villegas},
+  year      = {2007},
+  publisher = {Oxford University Press},
+  isbn      = {978-1-19-852822-7},
+  keywords  = {experimental mathematics, number theory}
+}
+
+@book{Borwein2009,
+  title     = {The Computer as Crucible: An Introduction to Experimental Mathematics},
+  author    = {Johnathan M. Borwein and Keith Devlin},
+  year      = {2009},
+  isbn      = {978-1-56881-343-1},
+  publisher = {A. K. Peters Ltd.},
+  address   = {Wellesley, Massachusetts},
+  keywords  = {experimental mathematics}
+}
+
+@inproceedings{Bailey2013,
+  title     = {Computational and Analytical Mathematics},
+  author    = {David H. Bailey and Heinz H. Bauschke and Peter Borwein and Frank Garvan and Michel Thera and Jon D. Vanderwerff and Henry Wolkowicz},
+  issn      = {2194-1009},
+  isbn      = {978-1-4614-7620-7},
+  doi       = {10.1007/978-1-4614-7621-4},
+  publisher = {Springer},
+  address   = {New York, Heidelberg, Dordrecht, London},
+}
+
+@book{Kerl2013,
+  title     = {Concrete Abstract Algebra in Python},
+  author    = {John Kerl},
+  year      = {2013},
+  month     = {January},
+  day       = {9},
+  keywords  = {abstract algebra, python, mathematics},
+  abstract  = {Many group-theoretic properties from elementary abstract algebra themselves to simple, easily automated algorithms for small finite groups. A basic software system which implements such algorithms is presented. As well, we attempt to tantalize the reader into further explorations into the Python language}
+}
+
+@book{Meadows2008,
+  title     = {Thinking in Systems: A Primer},
+  author    = {Meadows, Donella H and Wright, Diana},
+  year      = {2008}, 
+  publisher = {Taylor and Francis},
+  address   = {Hoboken, NJ},
+  url       = {\url{http://cds.cern.ch/record/1608083}},
+  isbn      = {9781849773386},
+  abstract  = {Thinking in Systems is a concise and crucial book offering insight for problem-solving on scales ranging from the personal to the global. This essential primer brings systems thinking out of the realm of computers and equations and into the tangible world, showing readers how to develop the systems-thinking skills that thought leaders across the globe consider critical for 21st-century life. While readers will learn the conceptual tools and methods of systems thinking, the heart of the book is grander than methodology. Donella Meadows was known as much for nurturing positive outcomes as she was},
+  keywords  = {systems, problem solving}
+}
+
+@book{Cajori2012,
+  title     = {A History of Mathematical Notations},
+  author    = {Florian Cajori},
+  publisher = {Dover Publications, Inc.},
+  address   = {Mineola, New York},
+  year      = {2012},
+  isbn      = {978-0-486-67766-8},
+  keywords  = {mathematics, notation, history}
+}
+
+@book{Levitin2016,
+  title     = {A Field Guide to Lies - Critical Thinking in the Information Age},
+  author    = {Daniel J. Levitin},
+  publisher = {Dutton - Penguin Random House LLC},
+  address   = {375 Hudson Street, New York, NY 10014},
+  year      = {2016},
+  isbn      = {9781101985588},
+  keywords  = {deception, lies, critical thinking, fallacies}
+}
+
+@book{Jones2004,
+  title     = {Genocide, War Crimes and The West - History and Complicity},
+  author    = {Adam Jones},
+  publisher = {Zed Books},
+  address   = {7 Cynthia Street, London Ni9JF, UK, Room 400},
+  isbn      = {9781848136823},
+  year      = {2004},
+  keywords  = {genocide, war crimes, complicity, history}
+}
+
+@book{Huang2017,
+  title     = {The Hardware Hacker - Adventures in Making and Breaking Hardware},
+  author    = {Andrew ``bunnie'' Huang},
+  publisher = {No Starch Press},
+  year      = {2017},
+  keywords  = {hardware, hacking}
+}
+
+@article{Knuth1984,
+  title    = {Literate Programming},
+  author   = {Donald E. Knuth},
+  year     = {1984},
+  doi      = {10.1093/comjnl/27.2.97},
+  url      = {\url{http://dx.doi.org/10.1093/comjnl/27.2.97}},
+  eprint   = {/oup/backfile/content_public/journal/comjnl/27/2/10.1093/comjnl/27.2.97/2/270097.pdf},
+  keywords = {literate programming}
+}
+
+@article{Ganopol2018,
+  title    = {Lessons Learned: An Effective Approach to Avoid the Same Old Mistakes},
+  author   = {Ganopol M. and Oglietti M. and Ambrosino A.},
+  journal  = {Journal of Aerospace Information Systems},
+  volume   = {14},
+  number   = {9},
+  year     = {2017},
+  month    = {September},
+  doi      = {https://doi.org/10.2514/1.I010485},
+  pages    = {10},
+  abstract = {Space missions face major challenges when it comes to improving processes and procedures, making it difficult to guarantee a repeat of good experiences while avoiding bad ones. The core activity to achieve these objectives is a robust method to collect, organize, and disseminate lessons learned. The inherent complications of managing lessons include fear of finger pointing, lack of transparency, and poor team awareness, causing the process to weaken over time. For the Satélite de Aplicaciones Científicas-D/Aquarius mission, a method was implemented allowing any participant in the mission to register quick contributions about suspected anomalies, proposed improvements, or learnedlessonsintothesystem.Duringallproject phases,thesubmittedinputswereperiodicallyclassifiedandrefined by a working group and passed on to a board for final analysis and determination. This method allowed for a drastic reduction in the amount of processed items with respect to the quick contributions received. Anomalies, improvements, and lessons were recorded during the Satélite de Aplicaciones Científicas-D/Aquarius operations phase and were continuously used to improve various aspects of the mission. The benefits of using this approach include gaining valuable feedback through direct experiences, contributing to an enhanced work culture, expanding reach to other missions, and pinpointing gaps in the contributions.}
+}
+
+@misc{Meza2016,
+  title        = {Knowledge Architecture: It's Importance to an Organization},
+  author       = {David Meza},
+  organization = {NASA Johnson Space Center},
+  year         = {2016},
+  month        = {May},
+  url          = {\url{https://youtu.be/WUnScaOIoN0}},
+  annote       = {\url{https://neo4j.com/blog/nasa-lesson-learned-database-using-neo4j-linkurious/}},
+  note         = {Lessons Learned Database \url{https://llis.nasa.gov/}},
+}
+
+

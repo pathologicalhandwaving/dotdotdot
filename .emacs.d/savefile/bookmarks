@@ -2,23 +2,126 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("org-capture-last-stored"
- (filename . "/Volumes/JumpShip/Inbox/Clouds/Dropbox/Exile/notes.org")
- (front-context-string . "** INPROGRESS Co")
- (rear-context-string . "Inbox\n\n* Tasks\n\n")
- (position . 44))
-("Workflowy"
- (filename . "/Volumes/JumpShip/Inbox/Clouds/Dropbox/Werx/holidayinn-workflowy.org")
- (front-context-string . "INIT Shift [100%")
- (rear-context-string . "   :TASKS:\n\n*** ")
- (position . 271)
- (annotation . ""))
-("Keyword Colors"
- (filename . "~/.emacs.d/personal/color-settings.el")
- (front-context-string . "ackground \"DarkO")
- (rear-context-string . " (\"SCHEDULED\" :b")
- (position . 1918)
- (annotation . "\n"))
+(("Color Codes"
+ (filename . "~/Documents/Dropbox/Docs/color-coding.org")
+ (front-context-string)
+ (rear-context-string . "8-06-27\n:END:\n\n\n")
+ (position . 227))
+("Annotated Bibliographies Index"
+ (filename . "~/Documents/MEGA/MEGAsync/Library-Archive/Bibliography/AnnotatedBibs/annotatedbibs-index.org")
+ (front-context-string)
+ (rear-context-string . "18-06-27\n:END:\n\n")
+ (position . 290))
+("Bog Index"
+ (filename . "~/Documents/Dropbox/Diary/Bog/bog-index.org")
+ (front-context-string)
+ (rear-context-string . "18-06-27\n:END:\n\n")
+ (position . 230))
+("org-refile-last-stored"
+ (filename . "~/Documents/Dropbox/LabBot/readlater.org")
+ (front-context-string . "** READLATER Lot")
+ (rear-context-string . "rg-capture-2/\n\n\n")
+ (position . 10857))
+("org-capture-last-stored"
+ (filename . "~/Documents/Dropbox/LessonsLearned/lessonslearned-default.org")
+ (front-context-string)
+ (rear-context-string . "FAC001\n  :END:\n\n")
+ (position . 294))
+("TeXBot Index"
+ (filename . "~/Documents/Dropbox/TeXBot/texbot-index.org")
+ (front-context-string)
+ (rear-context-string . "8-06-27\n:END:\n\n\n")
+ (position . 230))
+("Cookbook"
+ (filename . "~/Documents/Dropbox/SwedishChef/cookbook.org")
+ (front-context-string)
+ (rear-context-string . "CDEB0F95\n:END:\n\n")
+ (position . 308))
+("Monopoly Index"
+ (filename . "~/Documents/Dropbox/Monopoly/monopoly-index.org")
+ (front-context-string)
+ (rear-context-string . "18-06-27\n:END:\n\n")
+ (position . 239))
+("LessonsLearned Index"
+ (filename . "~/Documents/Dropbox/LessonsLearned/lessonslearned-index.org")
+ (front-context-string)
+ (rear-context-string . "92B24E43\n:END:\n\n")
+ (position . 319))
+("LabBot Index"
+ (filename . "~/Documents/Dropbox/LabBot/labbot-index.org")
+ (front-context-string)
+ (rear-context-string . "18-06-27\n:END:\n\n")
+ (position . 229))
+("Exile Index"
+ (filename . "~/Documents/Dropbox/Exile/exile-index.org")
+ (front-context-string)
+ (rear-context-string . "18-06-27\n:END:\n\n")
+ (position . 224))
+("Docs Index"
+ (filename . "~/Documents/Dropbox/Docs/docs-index.org")
+ (front-context-string)
+ (rear-context-string . "18-06-27\n:END:\n\n")
+ (position . 237))
+("AudioBot Index"
+ (filename . "~/Documents/Dropbox/AudioBot/audiobot-index.org")
+ (front-context-string)
+ (rear-context-string . "18-06-27\n:END:\n\n")
+ (position . 247))
+("Acronyms"
+ (filename . "~/Documents/Dropbox/Library-Annex/acronyms.org")
+ (front-context-string . ":END:\n\n\n  - REPL")
+ (rear-context-string . "-EE36C8252A44\n  ")
+ (position . 328))
+("Book Memos"
+ (filename . "~/Documents/Dropbox/Library-Annex/book-memos.org")
+ (front-context-string)
+ (rear-context-string . "FB7C8D\n  :END:\n\n")
+ (position . 268))
+("Paperless Index"
+ (filename . "~/Documents/MEGA/MEGAsync/Library-Archive/Paperless/Paperless-Index.org")
+ (front-context-string)
+ (rear-context-string . "-06-27\n  :END:\n\n")
+ (position . 259))
+("EPubs Index"
+ (filename . "~/Documents/MEGA/MEGAsync/Library-Archive/EPubs/EPubs-Index.org")
+ (front-context-string)
+ (rear-context-string . "-06-27\n  :END:\n\n")
+ (position . 239))
+("PDFs Index"
+ (filename . "~/Documents/MEGA/MEGAsync/Library-Archive/PDFs/PDF-Index.org")
+ (front-context-string)
+ (rear-context-string . "-06-27\n  :END:\n\n")
+ (position . 234))
+("Dictionary"
+ (filename . "~/Documents/MEGA/MEGAsync/Library-Archive/Dictionary/dictionary.org")
+ (front-context-string . "\n\n\n* Dictionary\n")
+ (rear-context-string . "GS: :DICTIONARY:")
+ (position . 126))
+("Default Bibliography"
+ (filename . "~/Documents/MEGA/MEGAsync/Library-Archive/Bibliography/default.bib")
+ (front-context-string . "\n}\n\n@book{Meadow")
+ (rear-context-string . "Python language}")
+ (position . 1869))
+("Tasks"
+ (filename . "~/Documents/Dropbox/Exile/tasks.org")
+ (front-context-string . "Probabilistic Nu")
+ (rear-context-string . "mbinatorics and ")
+ (position . 4440))
+("Glossary"
+ (filename . "~/Documents/Dropbox/Library-Annex/glossary.org")
+ (front-context-string . "\n:END:\n\n*** Abso")
+ (rear-context-string . "te Value of (-1)")
+ (position . 545))
+("HI Issues"
+ (filename . "~/Documents/Dropbox/Werx/WerX-Issues/holidayinn-issues.org")
+ (front-context-string . "#+TITLE: Holiday")
+ (rear-context-string)
+ (position . 3))
+("HI Notes"
+ (filename . "~/Documents/Dropbox/Werx/WerX-Info/holidayinn-notes.org")
+ (front-context-string . "#+TITLE: Holiday")
+ (rear-context-string)
+ (position . 1))
 ("Habits"
  (filename . "/Volumes/JumpShip/Clouds/Dropbox/Exile/habits.org")
  (front-context-string . "\n\n** Daily\n\n** W")
@@ -35,8 +138,8 @@
  (rear-context-string . "5\n:APPOINTMENT:\n")
  (position . 1838))
 ("Schedule"
- (filename . "/Volumes/JumpShip/Work/schedule.org")
- (front-context-string . "#+DATE_CREATED: ")
- (rear-context-string . "TITLE: Schedule\n")
- (position . 19))
+ (filename . "~/Documents/Dropbox/Werx/WerX-Personal/schedule.org")
+ (front-context-string . "#+TITLE: Schedul")
+ (rear-context-string)
+ (position . 1))
 )

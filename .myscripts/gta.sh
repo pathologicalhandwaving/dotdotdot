@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "/Volumes/JumpShip/Lab/Projects/"
+
 local=desc
 
 git pull

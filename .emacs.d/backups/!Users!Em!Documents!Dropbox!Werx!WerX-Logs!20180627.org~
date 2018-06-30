@@ -1,0 +1,273 @@
+#+TITLE: Audit Log - Wednesday June 27, 2018
+#+DATE_CREATED: 2018-06-27 21:05
+#+CATEGORY: Work
+#+SUB_CATEGORY: Logs
+#+SHIFT: Audit
+
+
+* Audit Log: Wednesday June 27, 2018
+:PROPERTIES:
+:DATE_CREATED: 2018-06-27 21:05
+:CATEGORY: Work
+:SUB_CATEGORY: Logs
+:LOC_NAME: Holiday Inn
+:SHIFT:    Audit
+:END:
+
+
+** Preliminary Tasks [%]
+   - [ ] CLOCK_IN HolidayInn Clock
+   - [ ] Plug-in Laptop
+   - [ ] Plug-in Phone
+   - [ ] Calculator
+   - [ ] Pen
+   - [ ] Notepad
+   - [ ] LOGIN Opera
+   - [ ] LOGIN Chrome
+   - [ ] BUILD Today's Log File
+   - [ ] GET Today's Shift Issues
+     
+
+
+** COUNT Drawers and Safe [%]
+:PROPERTIES:
+:DRAWER_A: Drawer A
+:DRAWER_B: Drawer B
+:SAFE_8:   Safe 8
+:END:
+
+   - [ ] Drawer A
+   - [ ] Drawer B
+   - [ ] Safe 8
+   - [ ] Close Drawer A
+
+
+** CHECK Availability                                          :AVAILABILITY:
+:PROPERTIES:
+:AVAILABLE: Rooms Available
+:STAYOVERS: Stayovers
+:OOO:      OutOfOrder
+:OOO_ROOMS: OOO Rooms
+:ADR:      ADR
+:PEROCCUPANCY: Percent Occupancy
+:END:
+
+   - [ ] CHECK Available Rooms
+   - [ ] CHECK Stayovers
+   - [ ] CHECK Number of Arrivals
+   - [ ] CHECK Out of Order
+   - [ ] CHECK ADR
+   - [ ] CHECK Percent Occupancy
+
+
+** TODO WakeUps [%]                                             :WAKE_UPS:
+:PROPERTIES:
+:WAKEUP_NO: WakeUps
+:ROOMS:    Rooms
+:END:
+
+   - [ ] SET Mitel
+   - [ ] LOG Opera
+   - [ ] PRINT Report
+   - [ ] HOLD Report until 02:30 in case of additions
+   - IF ANY New addition Repeat
+   - [ ] *02:30* Staple Report to Request Log and Binder
+
+
+** TODO Pre-CheckIns [%]                                         :PRE_CHECKS:
+   - [ ] Pre-CheckIn Arrivals
+   - [ ] PRINT Folios
+   - [ ] MAKE Keys
+   - [ ] CLIP_FOLD and Set Aside for Arrivals
+*** TODO AUTHORIZE Cards
+   - IF Card Authorization FAIL
+     - [ ] CANCEL AUTH
+   -  ELSE Continue
+*** TODO IF Arrival NO_SHOW
+   - [ ] Place in Holder
+   - [ ] NOTE Guest Name
+
+
+** TODO File Folder [%]
+   - [ ] GET Folder
+   - [ ] Crease
+   - [ ] Write Date on Tab
+   - [ ] Write Date on Front
+   - [ ] Label NA Reports
+
+
+
+** REPORT =*C01= [%]
+   - [ ] RUN Report
+   - [ ] Use Figures for Cheatsheet
+   - [ ] Label Pre-EOD
+   - [ ] Label Date
+
+
+** TODO Make Cheatsheet                                          :CHEATSHEET:
+:PROPERTIES:
+:2930:     2930
+:2931:     2931
+:2932:     2932
+:3881:     3881
+:STAYOVERS: Stayovers
+:DRAWER_A: Drawer A
+:DRAWER_B: Drawer B
+:SAFE_8:   Safe 8
+:AVAILABLE: Rooms Available
+:OOO:      OutOfOrder
+:OOO_ROOMS: OOO Rooms
+:ADR:      ADR
+:PEROCCUPANCY: 2930
+:END:
+
+| 2930         | 2930  | 2940 |
+| 2931         | 2931 | 2941 |
+| 2932         | 2932 | 2942 |
+| 3881         | 3881 | 3891 |
+| DRAWER A     | Drawer A  |      |
+| DRAWER B     | Drawer B  |      |
+| SAFE 8       | Safe 8  |      |   
+| STAYOVERS    | Stayovers  |      |
+| OOO          | OutOfOrder  |      |
+| OOO ROOMS    | OOO Rooms  |      |
+| ADR          | ADR  |      |
+| PEROCCUPANCY | 2930  |      |
+
+
+
+*** CHECK =%OCCUPIED= [%]
+    - IF =%OCCUPIED > %95=
+      - [ ] Change IVANI Rate from .00 to ADR
+        
+
+
+** CHECK Tax-Exemptions =*ZFZ= [%]
+   - [ ] IVANI
+   - [ ] IVCFN
+   - [ ] Run =*ZFZ= REPORT
+   - [ ] PRINT Report
+   - [ ] Report to Binder
+
+
+
+** REPORT =*SR= [%]
+   - [ ] Run =*SR-9=
+   - [ ] PRINT Report
+   - [ ] ADD to STACK
+
+
+** TODO Adjust Tips [%]
+   - [ ] *9100* Folio (FB CASA) in Cashiering
+   - [ ] POST Negative Tips
+   - [ ] PAYMENT Code =9300= to Pay Balance (Balance is Negative)
+
+
+** CHECK Routing [%]
+   - [ ] CHECK Front Desk
+     - Guest 5
+     - DB 1
+   - [ ] CHECK Second Window in Cashiering
+
+
+** RUN EOD
+
+
+** TODO Files [%]
+   - [ ] PULL giftshop box folios
+   - [ ] ADD to STACK
+   - [ ] CLC Folios to Carrie's Desk
+
+
+** TODO Batch Folios [%]
+   - [ ] GOTO Cashiering
+   - [ ] Cashier functions
+   - [ ] Batch Folios
+   - [ ] Guests Departing Today
+   - [ ] Only Windows Billed to Guest
+   - [ ] All (Scroll)
+   - [ ] Remove Email Folio
+   - [ ] Process
+   - [ ] CHECK if all Folios actually printed
+   - [ ] Give to Security
+
+
+
+** PRINT Reports [%]
+   - [ ] Change Date
+   - [ ] PRINT =*C01= Negative Postings Only
+   - [ ] LABEL and Add to STACK
+   - [ ] PRINT =*C01=
+   - [ ] Add to STACK
+   - [ ] PRINT =*M04=
+   - [ ] Add to STACK
+   - [ ] PRINT =*ZMZ Past Stats= with Rate Codes
+   - [ ] KEEP Set Aside for InnFlow
+
+** REPORT =EOD Manager Report= [%]
+   - [ ] PREVIEW MR
+   - [ ] SAVE_AS =mm-dd-yyyy MR=
+   - [ ] PRINT Report
+   - [ ] KEEP Set Aside for InnFlow
+
+** REPORT =EOD TB Report= [%]
+   - [ ] PREVIEW TB
+   - [ ] SAVE_AS =mm-dd-yyyy TB=
+   - [ ] PRINT Report
+   - [ ] KEEP Set Aside for InnFlow
+
+
+** TODO InnFlow [%]
+    - [ ] Segmentation
+    - [ ] Revenue
+    - [ ] Non-Revenue
+    - [ ] Payment
+    - [ ] Guest Ledger
+    - [ ] AR Ledger
+    - [ ] Deposit Ledger
+    - [ ] CHECK for *zero variance*
+    - [ ] UPLOAD MR and TB
+    - [ ] NOTE Cash and Checks Amount
+    - [ ] Manager Checklist
+    - [ ] LOGOUT
+
+
+** EMAIL =MR= and =TB= Reports 
+   - GM
+   - MGM
+
+** TODO Bundle all files and put in cabinet
+
+
+** TODO Departing Folios
+   - [ ] PRINT =*F22=
+   - [ ] PULL Folios from =*F22=
+   - [ ] Package
+   - [ ] Add to STACK
+
+
+** TODO =MOD= Report
+   - Fill Out MOD Report
+*** EMAIL =MOD= Report
+    - FD
+    - Events
+    - HSKP
+    - GM
+
+** OVERSEE CheckOuts
+   - [ ] CHECK CLC Logged into CLC Website
+   - [ ] LOG CLC out on CLC Website as they checkout
+   - [ ] PRINT CheckOut Folios
+   - [ ] Match to Existing Folios and Staple
+     
+
+** DECOMP Tasks [%]
+   - [ ] NOTE any issues for day staff
+   - [ ] =MOD= Report Sent
+   - [ ] =MR= and =TB= Reports Sent
+   - [ ] LOGOUT Opera
+   - [ ] LOGOUT Chrome
+   - [ ] CLOCK_OUT HolidayInn Clock
+
+
+

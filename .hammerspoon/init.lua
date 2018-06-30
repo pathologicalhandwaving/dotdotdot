@@ -6,7 +6,7 @@ hs.logger.defaultLogLevel="info"
 require('watcher')
 require('keybinds')
 require('webview')
-
+require('applauncher')
 
 local tiling = {}
 
@@ -17,6 +17,8 @@ local fnutils = require "hs.fnutils"
 local geometry = require "hs.geometry"
 local alert = require "hs.alert"
 local layouts = require "hs.tiling.layouts"
+local hotkey = require "hs.hotkey"
+
 local spaces = {}
 local settings = { layouts = {} }
 
@@ -207,8 +209,4 @@ setLayouts(layouts)
 
 return tiling
 
--- color abbrev
---col = hs.drawing.color.x11
 
--- Logos
---rocket =  hs.image.imageFromPath(hs.configdir .. "/Users/Em/.hammerspoon/files/jetpackcat.png")

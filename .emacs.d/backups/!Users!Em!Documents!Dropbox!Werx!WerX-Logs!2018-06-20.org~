@@ -1,0 +1,353 @@
+#+TITLE: Audit Log - Wednesday June 20, 2018
+#+DATE_CREATED: 2018-06-20 22:58
+#+CATEGORY: Work
+#+SUB_CATEGORY: Logs
+#+SHIFT: Audit
+
+
+* Audit Log: Wednesday June 20, 2018
+:PROPERTIES:
+:DATE_CREATED: 2018-06-20 22:58
+:CATEGORY: Work
+:SUB_CATEGORY: Logs
+:LOC_NAME: Holiday Inn
+:SHIFT:    Audit
+:ID:       71B263E8-D731-48BD-BF74-509E2EBEBA5E
+:END:
+
+
+** DONE Preliminary Tasks [100%]
+:PROPERTIES:
+:ID:       19A413F9-2120-4CD1-B042-02B38E59F178
+:END:
+CLOSED [2018-06-21 Thu 00:59]
+   - [X] Plug-in Laptop
+   - [X] Plug-in Phone
+   - [X] Calculator
+   - [X] Pen
+   - [X] Notepad
+   - [X] LOGIN Opera
+   - [X] LOGIN Chrome
+   - [X] BUILD Today's Log File
+   - [X] GET Today's Shift Issues
+     
+
+
+** COUNT Drawers and Safe [%]
+:PROPERTIES:
+:DRAWER_A: 200.00
+:DRAWER_B: 204.24
+:SAFE_8:   200.00
+:ID:       97A5DF99-0654-4C42-B0A4-1DE145438535
+:END:
+
+   - [ ] Drawer A
+   - [ ] Drawer B
+   - [ ] Safe 8
+   - [ ] Close Drawer A
+
+
+** CHECK Availability                                          :AVAILABILITY:
+:PROPERTIES:
+:AVAILABLE: 0
+:STAYOVERS: 50
+:OOO:      1
+:OOO_ROOMS: 302
+:ADR:      113.95
+:PEROCCUPANCY: 100.00
+:ID:       9AE8C207-4A13-44B5-BA64-EF9E5AB322C9
+:END:
+
+   - [ ] CHECK Available Rooms
+   - [ ] CHECK Stayovers
+   - [ ] CHECK Number of Arrivals
+   - [ ] CHECK Out of Order
+   - [ ] CHECK ADR
+   - [ ] CHECK Percent Occupancy
+
+
+** TODO WakeUps [%]                                             :WAKE_UPS:
+:PROPERTIES:
+:WAKEUP_NO: WakeUps
+:ROOMS:    Rooms
+:ID:       0ABB4022-9F2F-4339-8DE1-2EF5276F18AF
+:END:
+
+   - [ ] SET Mitel
+   - [ ] LOG Opera
+   - [ ] PRINT Report
+   - [ ] HOLD Report until 02:30 in case of additions
+   - IF ANY New addition Repeat
+   - [ ] *02:30* Staple Report to Request Log and Binder
+
+
+** TODO Pre-CheckIns [%]                                         :PRE_CHECKS:
+:PROPERTIES:
+:ID:       2ACCE94C-6AA2-4E65-958A-2FD3955074C4
+:END:
+   - [ ] Pre-CheckIn Arrivals
+   - [ ] PRINT Folios
+   - [ ] MAKE Keys
+   - [ ] CLIP_FOLD and Set Aside for Arrivals
+*** TODO AUTHORIZE Cards
+:PROPERTIES:
+:ID:       6BEFD351-B0D4-4D56-9698-ECE30CD52E98
+:END:
+   - IF Card Authorization FAIL
+     - [ ] CANCEL AUTH
+   -  ELSE Continue
+*** TODO IF Arrival NO_SHOW
+:PROPERTIES:
+:ID:       7E11C248-29A8-424B-B9EA-F958CACFE210
+:END:
+   - [ ] Place in Holder
+   - [ ] NOTE Guest Name
+
+
+** TODO File Folder [%]
+:PROPERTIES:
+:ID:       AF6F7544-710B-4E49-9EB7-5FE048F73A38
+:END:
+   - [ ] GET Folder
+   - [ ] Crease
+   - [ ] Write Date on Tab
+   - [ ] Write Date on Front
+   - [ ] Label NA Reports
+
+
+
+** REPORT =*C01= [%]
+:PROPERTIES:
+:ID:       2AD933DF-2BF3-4185-8F97-F5149E134990
+:END:
+   - [ ] RUN Report
+   - [ ] Use Figures for Cheatsheet
+   - [ ] Label Pre-EOD
+   - [ ] Label Date
+
+
+** TODO Make Cheatsheet                                          :CHEATSHEET:
+:PROPERTIES:
+:2930:     14.30
+:2931:     43.67
+:2932:     --
+:3881:     --
+:STAYOVERS: 50
+:DRAWER_A: 200.00
+:DRAWER_B: 204.24
+:SAFE_8:   200.00
+:AVAILABLE: 0
+:OOO:      1
+:OOO_ROOMS: 302
+:ADR:      113.95
+:PEROCCUPANCY: 14.30
+:ID:       C0D11596-502A-4A5C-AE6C-3BD0F4DCF610
+:END:
+
+| 2930         | 14.30  | 2940 |
+| 2931         | 43.67 | 2941 |
+| 2932         | -- | 2942 |
+| 3881         | -- | 3891 |
+| DRAWER A     | 200.00  |      |
+| DRAWER B     | 204.24  |      |
+| SAFE 8       | 200.00  |      |   
+| STAYOVERS    | 50  |      |
+| OOO          | 1  |      |
+| OOO ROOMS    | 302  |      |
+| ADR          | 113.95  |      |
+| PEROCCUPANCY | 14.30  |      |
+
+
+
+*** CHECK =%OCCUPIED= [%]
+:PROPERTIES:
+:ID:       065E2D63-0A8C-4DE1-B777-F2FFCD093830
+:END:
+    - IF =%OCCUPIED > %95=
+      - [ ] Change IVANI Rate from 113.95 to ADR
+        
+
+
+** CHECK Tax-Exemptions =*ZFZ= [%]
+:PROPERTIES:
+:ID:       14CC3562-0654-45F7-B5FB-DDE569C3DC58
+:END:
+   - [ ] IVANI
+   - [ ] IVCFN
+   - [ ] Run =*ZFZ= REPORT
+   - [ ] PRINT Report
+   - [ ] Report to Binder
+
+
+
+** REPORT =*SR= [%]
+:PROPERTIES:
+:ID:       A0610997-5A42-4792-8013-014DC6909C41
+:END:
+   - [ ] Run =*SR-9=
+   - [ ] PRINT Report
+   - [ ] ADD to STACK
+
+
+** TODO Adjust Tips [%]
+:PROPERTIES:
+:ID:       60C94C54-6C12-40CE-884E-992A6A2919B2
+:END:
+   - [ ] *9100* Folio (FB CASA) in Cashiering
+   - [ ] POST Negative Tips
+   - [ ] PAYMENT Code =9300= to Pay Balance (Balance is Negative)
+
+
+** CHECK Routing [%]
+:PROPERTIES:
+:ID:       FE836C23-BD89-43B6-9EAA-08888772AFCC
+:END:
+   - [ ] CHECK Front Desk
+     - Guest 5
+     - DB 1
+   - [ ] CHECK Second Window in Cashiering
+
+
+** RUN EOD
+:PROPERTIES:
+:ID:       13F1A026-D62C-4594-ADB9-AA67595FFEC1
+:END:
+
+
+** TODO Files [%]
+:PROPERTIES:
+:ID:       B1751EDE-8FA1-4F9E-9449-3D3275736897
+:END:
+   - [ ] PULL giftshop box folios
+   - [ ] ADD to STACK
+   - [ ] CLC Folios to Carrie's Desk
+
+
+** TODO Batch Folios [%]
+:PROPERTIES:
+:ID:       51D686B0-C521-417D-8AD4-71A51FD79FCB
+:END:
+   - [ ] GOTO Cashiering
+   - [ ] Cashier functions
+   - [ ] Batch Folios
+   - [ ] Guests Departing Today
+   - [ ] Only Windows Billed to Guest
+   - [ ] All (Scroll)
+   - [ ] Remove Email Folio
+   - [ ] Process
+   - [ ] CHECK if all Folios actually printed
+   - [ ] Give to Security
+
+
+
+** PRINT Reports [%]
+:PROPERTIES:
+:ID:       1730D395-A36B-479B-9EA9-3A372F13C187
+:END:
+   - [ ] Change Date
+   - [ ] PRINT =*C01= Negative Postings Only
+   - [ ] LABEL and Add to STACK
+   - [ ] PRINT =*C01=
+   - [ ] Add to STACK
+   - [ ] PRINT =*M04=
+   - [ ] Add to STACK
+   - [ ] PRINT =*ZMZ Past Stats= with Rate Codes
+   - [ ] KEEP Set Aside for InnFlow
+
+** REPORT =EOD Manager Report= [%]
+:PROPERTIES:
+:ID:       FD0A9793-021F-4E3D-B57C-ECBB0BB3DE27
+:END:
+   - [ ] PREVIEW MR
+   - [ ] SAVE_AS =mm-dd-yyyy MR=
+   - [ ] PRINT Report
+   - [ ] KEEP Set Aside for InnFlow
+
+** REPORT =EOD TB Report= [%]
+:PROPERTIES:
+:ID:       0DA8DE6B-1964-464C-B77B-CBDF8B1589FA
+:END:
+   - [ ] PREVIEW TB
+   - [ ] SAVE_AS =mm-dd-yyyy TB=
+   - [ ] PRINT Report
+   - [ ] KEEP Set Aside for InnFlow
+
+
+** TODO InnFlow [%]
+:PROPERTIES:
+:ID:       EA221C6F-D82C-47E1-905B-625B46BD6DC3
+:END:
+    - [ ] Segmentation
+    - [ ] Revenue
+    - [ ] Non-Revenue
+    - [ ] Payment
+    - [ ] Guest Ledger
+    - [ ] AR Ledger
+    - [ ] Deposit Ledger
+    - [ ] CHECK for *zero variance*
+    - [ ] UPLOAD MR and TB
+    - [ ] NOTE Cash and Checks Amount
+    - [ ] Manager Checklist
+    - [ ] LOGOUT
+
+
+** EMAIL =MR= and =TB= Reports 
+:PROPERTIES:
+:ID:       DBEA506B-E0B9-4A8B-9915-4E950F029A1B
+:END:
+   - GM
+   - MGM
+
+** TODO Bundle all files and put in cabinet
+:PROPERTIES:
+:ID:       003F69BA-C870-4F57-96D6-20D1D72B30C6
+:END:
+
+
+** TODO Departing Folios
+:PROPERTIES:
+:ID:       E2DFEA3F-B75B-4331-8B7F-EEDD1E24F254
+:END:
+   - [ ] PRINT =*F22=
+   - [ ] PULL Folios from =*F22=
+   - [ ] Package
+   - [ ] Add to STACK
+
+
+** TODO =MOD= Report
+:PROPERTIES:
+:ID:       EDA31E1A-C014-470D-8297-6FD179636F69
+:END:
+   - Fill Out MOD Report
+*** EMAIL =MOD= Report
+:PROPERTIES:
+:ID:       250707BF-61C5-4D0A-A744-1241820F8D35
+:END:
+    - FD
+    - Events
+    - HSKP
+    - GM
+
+** OVERSEE CheckOuts
+:PROPERTIES:
+:ID:       39BE5280-44CD-4D12-88C5-D0A370486C12
+:END:
+   - [ ] CHECK CLC Logged into CLC Website
+   - [ ] LOG CLC out on CLC Website as they checkout
+   - [ ] PRINT CheckOut Folios
+   - [ ] Match to Existing Folios and Staple
+     
+
+** DECOMP Tasks [%]
+:PROPERTIES:
+:ID:       36F28B74-9B3A-4E2F-9B83-F5A7FD810E78
+:END:
+   - [ ] NOTE any issues for day staff
+   - [ ] =MOD= Report Sent
+   - [ ] =MR= and =TB= Reports Sent
+   - [ ] LOGOUT Opera
+   - [ ] LOGOUT Chrome
+   - [ ] CLOCK_OUT HolidayInn Clock
+
+
+

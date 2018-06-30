@@ -2,10 +2,20 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- 'nil)
+ '((".libraries.io"
+  [url-cookie "__cfduid" "dd19aa3a3be183364b2ee23183322099c1527560105" "Wed, 29-May-19 02:15:05 GMT" "/" ".libraries.io" nil])
+ (".reddit.com"
+  [url-cookie "rabt" "" "Thu, 28 Jun 2018 02:20:22 GMT" "/" ".reddit.com" nil]
+  [url-cookie "rseor3" "true" "Thu, 28 Jun 2018 02:20:22 GMT" "/" ".reddit.com" nil]
+  [url-cookie "uapp_cookie" "1:1527210000" "Mon, 29 May 2028 02:20:22 GMT" "/" ".reddit.com" nil])
+ ("libraries.io"
+  [url-cookie "_libraries_session" "Y3dWTWd4Vkt5d2Q2NThuL3JWbmVyY0tLR2lUaWJMWUc4UG1FZk5iMXVDa0huOHNlTmFaY08ycFkrenVIbysxK1JtdzdHYWtwTno4Qjg0VVNDQng3VzdEV1RTMURLK3M5YTU1RmFVakp4UFhKUTFWUVIvbVg1Nm5MdXM3RFo1OUtaVSticUQzYWJkaHFvckl3bXJEM3JRPT0tLUJ5MENtQWlQUVVwL2RlSEZkZUJSeUE9PQ%3D%3D--e1e2355e50b1baa33173f78b5b0070608143ec49" "Fri, 29 Jun 2018 02:15:06 -0000" "/" "libraries.io" nil]))
+)
 (setq url-cookie-secure-storage
  '((".github.com"
-  [url-cookie "logged_in" "no" "Fri, 07 May 2038 03:16:19 -0000" "/" ".github.com" t]))
+  [url-cookie "logged_in" "no" "Fri, 07 May 2038 03:16:19 -0000" "/" ".github.com" t])
+ ("reddit.com"
+  [url-cookie "edgebucket" "x56ls4Wz38uXaXv4Ck" "Thu May 28 02:20:39 2020 GMT" "/" "reddit.com" t]))
 )
 
 ;; Local Variables:

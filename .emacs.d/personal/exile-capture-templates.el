@@ -2,98 +2,276 @@
 (require 'org)
 (require 'org-capture)
 
-(defvar exile-notes-file)
-(setq exile-notes-file "/Volumes/JumpShip/Clouds/Dropbox/Exile/notes.org")
 
-(defvar exile-appointments-file)
-(setq exile-appointments-file "/Volumes/JumpShip/Clouds/Dropbox/Exile/appointments.org")
+;; Capture in Current File
+;; Call with: C-0 C-c c
+(defun org-capture-at-point ()
+  "Insert an org capture template at point."
+  (interactive)
+  (org-capture 0))
 
-(defvar exile-ideas-file)
-(setq exile-ideas-file "/Volumes/JumpShip/CaptainsLog/ideas.org")
 
-(defvar exile-readlater-file)
-(setq exile-readlater-file "/Volumes/JumpShip/Clouds/Dropbox/Library-Annex/readlater.org")
 
-(defvar exile-fact-file)
-(setq exile-fact-file "/Volumes/JumpShip/Clouds/Dropbox/Library-Annex/useful-facts.org")
 
-(defvar exile-quotes-file)
-(setq exile-quotes-file "/Volumes/JumpShip/Clouds/Dropbox/Library-Annex/quotes.org")
+(defun region-to-clocked-task (start end)
+  "Copies the selected text to the currently clocked in org-mode task."
+  (interactive "r")
+  (org-capture-string (buffer-substring-no-properties start end) "C"))
 
-(defvar exile-questions-file)
-(setq exile-questions-file "/Volumes/JumpShip/Clouds/Dropbox/Exile/questions.org")
-
-(defvar werx-notes-file)
-(setq werx-notes-file "/Volumes/JumpShip/Clouds/Dropbox/Werx/holidayinn-notes.org")
-
-(defvar werx-personal-file)
-(setq werx-personal-file "/Volumes/JumpShip/Clouds/Dropbox/Werx/holidayinn-personal.org")
-
-(defvar werx-tasks-file)
-(setq werx-tasks-file "/Volumes/JumpShip/Clouds/Dropbox/Werx/holidayinn-workflowy.org")
-
-(defvar exile-tasks-file)
-(setq exile-tasks-file "/Volumes/JumpShip/Clouds/Dropbox/Exile/tasks.org")
-
+(global-set-key (kbd "C-<F7>") 'region-to-clocked-task)
 
 
 ;; Initialize org-capture-templates list
 (setq org-capture-templates '(("t" "Task"
                                entry
                                (file+headline exile-tasks-file "Tasks")
-                               "* TODO %?\n  DATE_ADDED: %U\n"
+                               "* TODO %^{Heading}
+:PROPERTIES:
+:DATE_ADDED: %T
+:END:
+%?"
                                :empty-lines 1)
-                              ("n" "Note"
+                              ("s" "Task Starting Now"
                                entry
-                               (file+headline exile-notes-file "Notes")
-                               "** NOTE %?\n"
-                               :empty-lines 1)
+                               (file+headline exile-tasks-file "Tasks")
+                               "* CLOCKED_IN %T %^{Heading}
+:PROPERTIES:
+:CURRENT_FILE: %K
+:CLOCK: %(org-clock-in)
+:END:
+%?"
+                               :empty-lines 1
+                               :clock-in t
+                               :clock-resume t)
                               ("a" "Appointment"
                                entry
-                               (file+datetree exile-appointments-file)
-                               "**** APPOINTMENT %?\n     :APPOINTMENT:\n     :APPT_TIME: %^{Appointment Time}\n     :APPT_DATE: %^{Appointment Date}\n     :LOC_NAME: %^{Place Name}\n     :CONTACT: %^{Contact}\n     :DURATION: %^{Length of Appointment}\n     :APPT_TYPE: %^{Type of Appointment}\n     :END:"
+                               (file+olp+datetree (concat org-directory exile-appointments-file))
+                               "**** APPOINTMENT %^{Heading}
+:APPOINTMENT:
+:APPT_TIME: %^{Appointment Time}
+:APPT_DATE: %^{Appointment Date}
+:LOC_NAME: %^{Place Name}
+:CONTACT: %^{Contact}
+:DURATION: %^{Length of Appointment}
+:APPT_TYPE: %^{Type of Appointment}
+:END:
+%?"
+                               :tree-type week
                                :empty-lines 1)
-                              ("i" "Idea"
+                              ("e" "Event"
                                entry
-                               (file+headline exile-ideas-file "Ideas")
-                               "** IDEA %?\n   - Current File: %A"
+                               (file+olp+datetree (concat org-directory exile-appointments-file))
+                               "**** EVENT %^{Heading}
+:EVENT:
+:EVENT_DATE: %^{Date}
+:EVENT_TIME: %^{Time}
+:LOC_NAME: %^{Place Name}
+:CONTACT: %^{Contact}
+:DURATION: %^{Duration}
+:EVENT_TYPE: %^{Event Type}
+:END:
+%?"
+                               :empty-lines 1
+                               :tree-type week
+                               :time-prompt %Y-%m-%d)
+                              ("j" "Journal Entry"
+                               entry (function get-journal-file-today)
+                               "* %(format-time-string org-journal-time-format) %^{Heading}\n%i%?"
+                               :empty-lines 1)
+                               ("n" "Notes"
+                               entry
+                               (file+headline exile-notes-file "Notes")
+                               "** NOTE %^{Heading}
+:PROPERTIES:
+:DATE_CREATED: %U
+:END:\n
+%?"
+                               :empty-lines 1)
+                               ("c" "Comment"
+                                entry
+                                (file+headline exile-comments-file "Comments Withheld")
+                                "** COMMENT %^{Comment}
+:PROPERTIES:
+:DATE_ADDED: %U
+:END:\n
+%?"
+                                :empty-lines 1)
+                               ("l" "Lesson Learned"
+                                entry
+                                (file+olp+headline lessonslearned-default-file "Lessons Learned")
+                                "** ")
+                              ("Q" "Question"
+                               entry
+                               (file+headline labbot-questions-file "UnSorted")
+                               "*** QUESTION %^{Question}
+:PROPERTIES:
+:SUBJECT: %^{Subject}
+:DATE_ADDED: %U
+:QUESTION_STATUS: %^{Open | Answered | Closed}
+:TAGS: UNSORTED
+:ANS_LINK: [[%^{Answer Link}]]
+:END:\n
+%?"
                                :empty-lines 1)
                               ("r" "ReadLater"
                                entry
-                               (file+headline exile-readlater-file "Read Later")
-                               "** READLATER %?\n   :PROPERTIES:\n   :TITLE:%^{Title}\n   :AUTHOR: %^{Author}\n   :DATE_ACCESSED: %U\n   :URL: [[]]\n   :END:\n "
+                               (file+headline library-annex-readlater-file "Read Later")
+                               "** READLATER %?
+:PROPERTIES:
+:TITLE:%^{Title}
+:AUTHOR: %^{Author}
+:DATE_ACCESSED: %T
+:URL: [[%?]]
+:END:
+%?"
                                :empty-lines 1)
-                              ("f" "Fact"
-                               entry
-                               (file+headline exile-fact-file "Useful Facts")
-                               "** FACT %?\n   :PROPERTIES:\n   :SUBJECT: %{Subject}\n   :URL: [[%^{Link}]]\n   :END:\n"
-                               :empty-lines 1)
-                              ("q" "Question"
-                               entry
-                               (file+headline exile-questions-file "UnSorted")
-                               "*** QUESTION %?\n    :PROPERTIES:\n    :SUBJECT: %^{Subject}\n    :DATE_ADDED: %T\n    :QUESTION_STATUS: %^{Open | Closed}\n    :END:\n")
                               ("u" "Quote"
                                entry
-                               (file+headline exile-quotes-file "Quotations")
-                               "** %^{Author}\n   :PROPERTIES:\n   :AUTHOR: %^{Author}\n   :ATTRIBUTION: %^{Attribution}\n   :URL: [[%^{Link}]]\n   :DATE_ADDED: %T\n   :END:\n\n   #+CAPTION: %^{Caption}\n   #+BEGIN_QUOTE\n     %^{Quote}\n   #+END_QUOTE\n"
+                               (file+headline library-annex-quotes-file "Quotations")
+                                "** %^{Author} -- %^{Topic}
+:PROPERTIES:
+:AUTHOR: %^{Author}
+:ATTRIBUTION: %^{Attribution}
+:URL: [[%^{Link}]]
+:DATE_ADDED: %U
+:END:\n\n
+#+CAPTION: %^{Caption}
+#+BEGIN_QUOTE
+  %^{Quote}
+#+END_QUOTE\n
+%?"
                                :empty-lines 1)
-                              ("w" "Werx Note"
+                              ("m" "Book Memo"
                                entry
-                               (file+headline werx-notes-file "Notes")
-                               "** NOTE %?\n   :PROPERTIES:\n   :DATE_ADDED: %T\n   :END:\n"
+                               (file "Users/Em/Documents/Dropbox/Library-Annex/book-memos.org")
+                                "* %(helm-books)"
                                :empty-lines 1)
-                              ("wt" "Werx Task"
+                              ("a" "Bibliography Article Entry"
+                               plain
+                               (file mega-default-bibliography-file)
+                                "@article{%^{Last Name}%^{Year},
+  author     = {%^{Authors}},
+  title      = {%^{Title}},
+  day        = {%^{Day}},
+  month      = {%^{Month}},
+  year       = {%^{Year}},
+  journal    = {%^{Journal}},
+  issn       = {%^{ISSN}},
+  doi        = [%^{doi}],
+  volume     = {%^{Volume}},
+  number     = {%^{Number}},
+  pages      = {%^{Pages}},
+  note       = {%^{Note}},
+  keywords   = {%^{keywords}},
+  abstract   = {%^{Abstract}}
+}%?"
+                                :empty-lines 1)
+                              ("o" "Bibliography Book Entry"
+                               plain
+                               (file mega-default-bibliography-file)
+                                "@book{%^{Last Name}%^{Year},
+  author     = {%^{Authors}},
+  editor     = {%^{Editor}},
+  title      = {%^{Title}},
+  publisher  = {%^{Publisher}},
+  address    = {%^{Address}},
+  day        = {%^{Day}},
+  month      = {%^{Month}},
+  year       = {%^{Year}},
+  volume     = {%^{Volume}},
+  edition    = {%^{Edition}},
+  isbn       = {%^{ISBN}},
+  lccn       = {%^{Library of Congress Call Number}},
+  mrnumber   = {%^{MathSciNet Review Number}},
+  note       = {%^{Note}},
+  keywords   = {%^{keywords}}
+}%?"
+                                :empty-lines 1)
+                              ("f" "Fact"
                                entry
-                               (file+headline werx-tasks-file "Tasks")
-                               "** TODO %?\n   :PROPERTIES:\n   :DATE_ADDED: %T\n   :REPEAT: %^{True|False}\n   :END:\n"
+                               (file+headline labbot-fact-file "Facts")
+                               "** FACT %?
+:PROPERTIES:
+:FACT: %^{Fact}
+:SUBJECT: %^{Subject}
+:CONTEXT: %^{Context}
+:CITEKEY: %^{CiteKey}
+:URL: [[%^{Link}]]
+:END:\n
+%?"
                                :empty-lines 1)
-                              ("b" "Book Memo"
+                              ("i" "Idea"
                                entry
-                               (file "/Volumes/JumpShip/Library/book-memos.org")
-                               "* %(helm-books)"
+                               (file+headline labbot-ideas-file "Ideas")
+                               "** IDEA %?
+:PROPERTIES:
+:DATE_CREATED: %T
+:END:\n
+%?"
+                               :empty-lines 1)
+                              ("1" "WerX Task"
+                               entry
+                               (file+headline werx-tasks-file "WerX Tasks Log")
+                               "** TODO %?
+:PROPERTIES:
+:DATE_ADDED: %T
+:STATUS: $^{Status}
+:END:\n
+%?"
+                               :empty-lines 1)
+                              ("2" "WerX Note"
+                               entry
+                               (file+headline werx-notes-file "WerX Notes")
+                               "** NOTE %?
+:PROPERTIES:
+:DATE_ADDED: %U
+:END:\n
+%?"
+                               :empty-lines 1)
+                              ("3" "WerX Issue"
+                               entry
+                               (file+datetree werx-issues-file)
+                               "** ISSUE %?
+:PROPERTIES:
+:DATE_ADDED: %T
+:ISSUE_TYPE: %^{Complaint | Maintenance | Files | Other}
+:ISSUE_LOC: %^{Location}
+:ISSUE_PRIORITY: %^{Priority | Important | Moderate | Minor | Urgent}
+:ISSUE_STATUS: %^{Open | Report | Closed}
+:END:\n\n
+*** DETAILS %^{Details}"
+                               :empty-lines 1)
+                              ("w" "Protocol Clip"
+                               entry
+                               (file exile-notes-file)
+                               "** NOTE %^{Heading}
+:PROPERTIES:
+:DATE_ADDED: %U
+:SUBJECT: %^{Subject}
+:END:\n
+%c"
+                               :empty-lines 1)
+                              ("x" "Protocol Link"
+                               entry
+                               (file library-annex-readlater-file)
+                               "** READLATER [[%:link][%:description]]
+:PROPERTIES:
+:DATE_ADDED: %U
+:SUBJECT: %^{Subject}
+:DESCRIPTION: %:description
+:URL: %:link
+:END:\n
+%?"
+                               :empty-lines 1)
+                              ("p" "Add Recipe"
+                               entry
+                               (file "/Users/Em/Documents/Dropbox/SwedishChef/cookbook.org")
+                               "%(org-chef-get-recipe-from-url)"
                                :empty-lines 1)))
 
 
 
 (provide 'exile-capture-templates)
+(message "Capture Templates Loaded!")
 ;;; exile-capture-templates.el ends here
+

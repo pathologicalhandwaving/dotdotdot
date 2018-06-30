@@ -1,0 +1,33 @@
+\documentclass[10pt]{article}
+\usepackage{notecards}
+
+
+
+
+\begin{document}
+\citekey{Rogaway2015} \hfill \textbf{{\footnotesize Quotation}}\hfill \cardnumber{03}
+\medskip
+\color{red}{\hrule}
+\color{black}
+\bigskip
+
+\begin{addmargin}[2em]{2em}
+\begin{small}
+\vfill
+\begin{center}
+%%% Begin Quotation
+
+\quoted{This is a test of the quotation notecard}
+
+%%% End Annotation
+\end{center}
+\end{small}
+\end{addmargin}
+\vfill
+
+
+\medskip
+\color{blue}{\hrule}
+\medskip
+\color{black}{\attribution{cryptography} \hfill \keywords{quote,mykey}}
+\end{document}

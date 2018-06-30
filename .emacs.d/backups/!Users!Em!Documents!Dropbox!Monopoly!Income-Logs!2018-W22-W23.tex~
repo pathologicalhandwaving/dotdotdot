@@ -1,0 +1,153 @@
+%%% Pay Discrepancy: W22 - W23 2018
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+\documentclass[10pt]{article}
+
+\usepackage[parfill]{parskip}
+\usepackage[paperheight=8.5in,paperwidth=11in,left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{stmaryrd}
+\usepackage{geometry}
+\usepackage{stmaryrd}
+\author{<KMS>}
+\date{\today}
+\title{Schedule}
+\hypersetup{
+ pdfauthor={<KMS>},
+ pdftitle={Schedule},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.0.50 (Org mode 9.1.9)}, 
+ pdflang={English}}
+
+\begin{document}
+
+\section*{Dear Rod,}
+
+I think the computer may have made an error for pay period \texttt{05-28-2018} to \texttt{06-10-2018}. 
+
+\section*{Schedules}
+
+The following tables contain my scheduled and worked hours for weeks 22 and 23 (2018).
+\subsection*{2018, May \textsc{Week 22}}
+\label{subsec:1}
+\begin{center}
+\begin{tabular}{r|lllllll}
+Hours & Monday 28 & Tuesday 29 & Wednesday 30 & Thursday 31 & Friday 01 & Saturday 02 & Sunday 03\\
+\hline
+00:00 &  &  & Work & Work & Work &  & \\
+01:00 &  &  & Work & Work & Work &  & \\
+02:00 &  &  & Work & Work & Work &  & \\
+03:00 &  &  & Work & Work & Work &  & \\
+04:00 &  &  & Work & Work & Work &  & \\
+05:00 &  &  & Work & Work & Work &  & \\
+06:00 &  &  & Work & Work & Work &  & \\
+07:00 &  &  &  &  &  &  & \\
+08:00 &  &  &  &  &  &  & \\
+09:00 &  &  &  &  &  &  & \\
+10:00 &  &  &  &  &  &  & \\
+11:00 &  &  &  &  &  &  & \\
+12:00 &  &  &  &  &  &  & \\
+13:00 &  &  &  &  &  &  & \\
+14:00 &  &  &  &  &  &  & \\
+15:00 &  &  &  &  &  & Work & Work\\
+16:00 &  &  &  &  &  & Work & Work\\
+17:00 &  &  &  &  &  & Work & Work\\
+18:00 &  &  &  &  &  & Work & Work\\
+19:00 &  &  &  &  &  & Work & Work\\
+20:00 &  &  &  &  &  & Work & Work\\
+21:00 &  &  &  &  &  & Work & Work\\
+22:00 &  &  &  &  &  & Work & Work\\
+23:00 &  & Work & Work & Work &  &  & \\
+\end{tabular}
+\end{center}
+
+\subsection*{2018, June \textsc{Week 23}}
+\label{subsec:2}
+\begin{center}
+\begin{tabular}{r|lllllll}
+Hours & Monday 04 & Tuesday 05 & Wednesday 06 & Thursday 07 & Friday 08 & Saturday 09 & Sunday 10\\
+\hline
+00:00 &  &  & Work & Work & Work &  & \\
+01:00 &  &  & Work & Work & Work &  & \\
+02:00 &  &  & Work & Work & Work &  & \\
+03:00 &  &  & Work & Work & Work &  & \\
+04:00 &  &  & Work & Work & Work &  & \\
+05:00 &  &  & Work & Work & Work &  & \\
+06:00 &  &  & Work & Work & Work &  & \\
+07:00 &  &  &  &  &  &  & \\
+08:00 &  &  &  &  &  &  & \\
+09:00 &  &  &  &  &  &  & \\
+10:00 &  &  &  &  &  &  & \\
+11:00 &  &  &  &  &  &  & \\
+12:00 &  &  &  &  &  &  & \\
+13:00 &  &  &  &  &  &  & \\
+14:00 &  &  &  &  &  &  & \\
+15:00 &  &  &  &  &  & Work & Work\\
+16:00 &  &  &  &  &  & Work & Work\\
+17:00 &  &  &  &  &  & Work & Work\\
+18:00 &  &  &  &  &  & Work & Work\\
+19:00 &  &  &  &  &  & Work & Work\\
+20:00 &  &  &  &  &  & Work & Work\\
+21:00 &  &  &  &  &  & Work & Work\\
+22:00 &  &  &  &  &  & Work & Work\\
+23:00 &  & Work & Work & Work &  &  & \\
+\end{tabular}
+\end{center}
+
+\pagebreak
+\section*{Actual Hours Worked with Gross Pay}
+\subsection*{Week 22}
+\begin{description}
+\item[\textbf{Audit Hours:}] 8 hours $\times$ 3 days = 24 hours (10.50 per hour) = 252.00
+\item[\textbf{FD Hours:}] 7.5 hours $\times$ 2 days = 15 hours (9.50 per hour) = 142.50
+\end{description}
+
+\subsection*{Week 23}
+\begin{description}
+\item[\textbf{Audit Hours:}] 8 hours $\times$ 3 days = 24 hours (10.50 per hour) = 252.00
+\item[\textbf{FD Hours:}] 7.5 hours $\times$ 2 days = 15 hours (9.50 per hour) = 142.50
+\end{description}
+
+\subsection*{Gross Subtotal and Hours}
+\label{subsec:subtotal}
+\begin{description}
+\item[\textbf{Audit Hours:}] 48 hours $\times$ 10.50 = 504
+\item[\textbf{FD Hours:}] 30 hours $\times$ 9.50 = \$285.00
+\end{description}
+
+\subsection*{Gross Total and Hours}
+\begin{description}
+\item[\textbf{Gross Pay:}] \$789.99
+\item[\textbf{Total Hours:}] 78.0 hours
+\end{description}
+
+
+\section*{Difference}
+
+According to my pay stub for this period:
+
+\begin{description}
+\item[\textbf{FD Rate:}] 
+\end{description}
+
+
+
+\end{document}
+

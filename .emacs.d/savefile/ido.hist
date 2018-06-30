@@ -1,0 +1,45 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/Em/Documents/Dropbox/Werx/" . "WerX-Issues/")
+ ("/Users/Em/.emacs.d/" . "personal/")
+ ("/Users/Em/" . ".emacs.d/")
+ ("/Users/Em/Documents/Dropbox/" . "Werx/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ 
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/Em/.emacs.d/personal/" (23338 60631 0 0) "weather-settings.el" "Untitled.txt" "todo-settings.el" "tag-settings.el" "symbol-settings.el" "structure-templates.el" "source-settings.el" "snippet-settings.el" "refile-settings.org" "refile-settings.el" "reading-settings.el" "random-list.el" "property-settings.el" "project-settings.el" "preload/" "org-settings.el" "narrow-settings.el" "modeline-settings.el" "media-settings.el" "mail-settings.el" "log-settings.el" "location-settings.el" "link-settings.el" "latex-settings.el" "icon-settings.el" "head-settings.el" "flycheck_log-settings.el" "file-variables.el" "export-settings.el" "exile.elc" "exile.el" "exile-theme.elc" "exile-theme.el" "exile-capture-templates.el" "emms-settings.el" "custom.el" "color-settings.elc" "color-settings.el" "calendar-settings.el" "browser-settings.el" "brain-settings.el" "archive-settings.el" "agenda-settings.el" ".gitkeep" ".DS_Store" ".dir-locals.el" ".#log-settings.el" "../" "./")
+
+ ("/Users/Em/.emacs.d/" (23339 38852 0 0) "vendor/" "var/" "utils/" "url/" "themes/" "snippets/" "savefile/" "sample/" "request/" "README.md" "projectile-bookmarks.eld" "prelude-modules.el" "prelude-cheatsheet.pdf" "personal/" "org-clock-save.el" "modules/" "latex/" "init.el" "eww-bookmarks" "emms/" "elpa/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "ac-comphist.dat" ".trello/" ".projectile" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Werx/" (23339 38764 0 0) "WerX_Archive/" "WerX-Personal/" "WerX-Logs/" "WerX-Issues/" "WerX-Info/" "Icon" "holidayinn-issues.tex" "holidayinn-issues.pdf" "holidayinn-issues.org" "holidayinn-audit-tasks.org" "auto/" ".DS_Store" ".dropbox" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/" (23339 38634 0 0) "auto/" "2018-06-20.org" "2018-06-19.org" "2018-06-16.tex" "2018-06-16.pdf" "2018-06-16.org" "2018-06-15.tex" "2018-06-15.pdf" "2018-06-15.org" "2018-06-13.tex" "2018-06-13.pdf" "2018-06-13.org" "2018-06-12.tex" "2018-06-12.synctex.gz" "2018-06-12.pdf" "2018-06-12.out" "2018-06-12.org" "2018-06-12.log" "2018-06-12.aux" "2018-06-10.tex" "2018-06-10.org" "2018-06-09.tex" "2018-06-09.org" "2018-06-07.tex" "2018-06-07.pdf" "2018-06-07.org" "2018-06-06.tex" "2018-06-06.pdf" "2018-06-06.org" "2018-06-05.tex" "2018-06-05.pdf" "2018-06-05.org" "2018-06-03.tex" "2018-06-03.pdf" "2018-06-03.org" "2018-06-02.tex" "2018-06-02.pdf" "2018-06-02.org" "2018-05-30.tex" "2018-05-30.org" "2018-05-25.tex" "2018-05-25.org" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Werx/WerX-Issues/" (23326 59275 0 0) "holidayinn-issues.org" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/" (23317 28265 0 0) "Werx/" "VoiceMemos/" "ToGoBot/" "TMP/" "TeXBot/" "SwedishChef/" "SpaceBot/" "snippets/" "Ship/" "organizer.org" "Monopoly/" "Library-Annex/" "LessonsLearned/" "LabBot/" "Icon" "Exile/" "Docs/" "Diary/" "AudioBot/" "Archive/" "Apps/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Users/Em/" (23338 30985 0 0) "Torrents/" "Toolz/" "Repos/" "Public/" "Pictures/" "perl5/" "package-lock.json" "org.ics" "node_modules/" "Music/" "Movies/" "Library/" "hacker_news_data.txt" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bower_components/" "bower.json" "Applications/" ".yarnrc" ".Xauthority" ".wine/" ".wgetrc" ".wget-hsts" ".wegorc" ".w3m/" ".viminfo" ".vim/" ".vars" ".utils" ".Trash/" ".tor/" ".tldr/" ".texutils" ".subversion/" ".study" ".streamlinkrc" ".stardict/" ".ssh/" ".soundmeter/" ".slack/" ".shell_prompt.sh" ".setups/" ".serverauth.68141" ".searchlink" ".sdirs" ".sdcv_history" ".sdcv/" ".sage/" ".rnd" ".redshiftrc" ".rainbow_oauth" ".rainbow_config.json" ".qutebrowser/" ".qr-filetransfer.json" ".qq/" ".python_history" ".pubsrc" ".pubs/" ".proselint/" ".prompt" ".powerline-shell.json" ".plotly/" ".php_versions/" ".pex/" ".p.log" ".p/" ".osx" ".oracle_jre_usage/" ".npm/" ".notebook/" ".node-gyp/" ".nimble-options.json" ".newsrc-dribble" ".mysql_history" ".myscripts/" ".myeditors" ".myeditorchoice" ".myCurrentFiles" ".myconfig-backup/" ".myconfig/" ".mutt/" ".mplayer/" ".moro-config.json" ".matplotlib/" ".mathutils" ".mail/" ".local/" ".links/" ".lesshst" ".karabiner/" ".kanban.tmp.index" ".kanban.csv" ".kanban.conf" ".jupyter/" ".iterm2_shell_integration.bash" ".iterm2/" ".irssi/" ".ipython/" ".ipynb_checkpoints/" ".insert-shebang.log" ".image.so" ".ideas.json" ".hyper_plugins/" ".hyper.js" ".html2ps/" ".hammerspoon/" ".go/" ".gnuplot_history" ".gnupg_pre_2.1/" ".gnupg/" ".gnome2/" ".gitignore" ".gitconfig" ".gistup.json" ".gem/" ".functions" ".fu_cached_pickle" ".fu" ".fromscratch/" ".fonts/" ".flashcards/" ".exports" ".erc/" ".emacs_anywhere/" ".emacs.d.pre-prelude.tar" ".emacs.d/" ".elinks/" ".elfeed/" ".electron/" ".edits" ".editor" ".DS_Store" ".dropbox_uploader/" ".dropbox/" ".doingrc" ".dircolors/" ".dict/" ".cups/" ".cpanm/" ".cpan/" ".config/" ".composer/" ".clockywock" ".cider/" ".cheat/" ".CFUserTextEncoding" ".ccache/" ".calcurse/" ".calc_history" ".cache/" ".bundle/" ".bitbarrc" ".bitbar_pomodoro" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".aspell.en.pws" ".aspell.en.prepl" ".apps" ".app-envs/" ".aliases" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Exile/" (23333 45493 0 0) "tasks.org" "online-orders.org" "notes.org" "habits.org" "communications-log.org" "comments-withheld.org" "appointments.org" "201806-notes.org" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/" (23317 40240 0 0) "MEGA/" "log.txt" "Icon" "GDrive/" "Dropbox/" "App-Addons/" ".Private/" ".ipynb_checkpoints/" ".emacs.d/" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Werx/Logs/" (23306 16744 0 0) "2018-05-25.org" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

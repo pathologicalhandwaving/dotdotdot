@@ -1,0 +1,145 @@
+% Created 2018-06-28 Thu 06:20
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{<KMS>}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={<KMS>},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.0.50 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section*{2018 Audit Issue Log (KS)}
+\label{sec:org28c55c8}
+\subsection*{2018-06 June}
+\label{sec:org29630a5}
+\subsubsection*{2018-06-21 Thursday}
+\label{sec:orgf3e49e9}
+\textit{<2018-06-21 Thu>}
+
+\begin{itemize}
+\item {\bfseries\sffamily ISSUE} 01:30
+\label{sec:org323483e}
+\begin{itemize}
+\item DETAILS Guest towing a trailer with a Toyota 4Runner Plate: CHHK91. Guest Ricky Moore, room 324. Alfonso called guest's room and guest moved the vehicle.
+\label{sec:org7d5c909}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} 03:30
+\label{sec:orgdb19d1f}
+\begin{itemize}
+\item DETAILS Non-Revenue Code \texttt{4263} Did not exist in InnFlow, my attempt to create the code in Opera did not create the code in InnFlow even after restarting both. Posted as 3891: Adj Room Service Gratuity
+\label{sec:orgb80f1af}
+\end{itemize}
+
+
+\item {\bfseries\sffamily ISSUE} 06:30
+\label{sec:orgc4f60b2}
+\begin{itemize}
+\item DETAILS Pre-checked inn 311 Terry Stambaugh last night, no show. During checkout 611 Terry Stambaugh checked out.
+\label{sec:orga948448}
+\end{itemize}
+\end{itemize}
+\section*{2018}
+\label{sec:org67b8757}
+\subsection*{2018-06 June}
+\label{sec:orgda77ec0}
+\subsubsection*{2018-06-28 Thursday}
+\label{sec:org2f7a180}
+\textit{<2018-06-28 Thu>}
+
+\begin{itemize}
+\item {\bfseries\sffamily ISSUE} Bed Hairs
+\label{sec:orgfe35d9b}
+\begin{itemize}
+\item DETAILS Guest stated there were long hairs in one bed and short in the other. Wanted a room where he could see his new very nice boat. 311 was not appropriate since he is traveling with 20 year old daughter. New linens were provided and breakfast cards given. Later, Carrie reduced rate as well.
+\label{sec:org59abbca}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} 310 Phone
+\label{sec:org55e9c1a}
+\begin{itemize}
+\item DETAILS Phone in 319 does not work. Guest attempted to call several times, he could hear me but I could not hear him.
+\label{sec:org724b1d8}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} 310 Beds Issue
+\label{sec:org2936b7f}
+\begin{itemize}
+\item DETAILS Guest reported hairs in both beds; short hairs in one bed, long in the other. Provided linens as no other rooms satisfied the guest's requirements.
+\label{sec:org46ccf28}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} 506 AC
+\label{sec:orge47a115}
+\begin{itemize}
+\item DETAILS AC not cooling room according to guest, moved guest as requested to room 519.
+\label{sec:org072159e}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} Leak in Laundry Closet
+\label{sec:orgd81b672}
+\begin{itemize}
+\item DETAILS Leak is back in the Laundry store room, water in light fixture. Reported by Rose. Bucket placed, light turned off.
+\label{sec:org1b648d6}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} Leak in Breakroom
+\label{sec:org2d9113e}
+\begin{itemize}
+\item DETAILS Small trickle in breakroom, no bucket necessary at this time.
+\label{sec:orge59fe7f}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} Concierto Migration
+\label{sec:org7214628}
+\begin{itemize}
+\item DETAILS Ran OXI 14-Day Availability Report at 2AM, 4AM, and 6AM EST email sent as reply to support contact Sunil. Reports saved on desktop in folder "Concierto"
+\label{sec:org65c2aab}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} PMS Refresh Rates
+\label{sec:orgf6caffc}
+\begin{itemize}
+\item DETAILS PMS Rate Refresh needs to be run in Opera within 24 hours advised support
+\label{sec:orgfd01bc2}
+\end{itemize}
+
+\item {\bfseries\sffamily ISSUE} 612 CC-Auth
+\label{sec:org1081a11}
+\begin{itemize}
+\item DETAILS Folio comment indicates that cc-auth is on file at front desk. Unable to located cc-auth on desk or in book of accounts.
+\label{sec:org937f2f1}
+\end{itemize}
+\end{itemize}
+
+\section*{Notes}
+\label{sec:orge1b488a}
+
+\subsection*{{\bfseries\sffamily NOTE} RE: What do you think would make your next stay better -- item 15}
+\label{sec:org4a12535}
+\begin{quote}
+"4 - Adequate security of hotel grounds and faster response from front desk staff."
+\end{quote}
+
+Do we know what happened here? This sounds like a security event we should know more about.
+\end{document}

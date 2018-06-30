@@ -1,0 +1,33 @@
+# -*- mode: snippet -*-
+# name: Journal
+# key: <journal
+# --
+#+TITLE: Captain's Log - `(format-time-string "%Y-%m-%d (%A)")`
+#+CATEGORY: CaptainsLog
+#+SUB_CATEGORY: Journal
+#+DATE_CREATED: `(format-time-string "%Y-%m-%d")`
+
+
+* Captain's Log -- `(format-time-string "%Y-%m-%d  (%A)")`
+  :PROPERTIES:
+  :CUSTOM_ID: journal-`(format-time-string "%Y-%m-%d")`
+  :END:
+
+** Shit I Have ToDo Today
+
+   - [ ] $1
+
+
+** Communication Log
+
+   - $2
+
+
+** Reading Log
+
+   - $3
+
+
+** Timeline
+
+        

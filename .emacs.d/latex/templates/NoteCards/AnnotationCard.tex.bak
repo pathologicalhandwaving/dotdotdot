@@ -1,0 +1,59 @@
+
+
+\documentclass[10pt]{article}
+
+\usepackage{color}
+\usepackage{scrextend}
+
+\pagestyle{empty}
+\setlength\parindent{0pt}
+\usepackage[paperwidth=5in, 
+    paperheight=3.5in,
+    left=0.10in,
+    right=0.10in,
+    top=0.10in,
+    bottom=0.10in]{geometry}
+
+\newcommand{\citekey}[1]{{\scriptsize\textbf{[#1]}}}
+\newcommand{\cardnumber}[1]{{\scriptsize\textbf{[CardNumber:} #1\textbf{]}}}
+\newcommand{\keywords}[1]{{\scriptsize\textbf{[Keywords:} #1\textbf{]}}}
+\newcommand{\pagenumber}[1]{{\scriptsize\textbf{[Page:} #1\textbf{]}}}
+
+%% MetaData
+\usepackage[pdftex,
+            pdfauthor={K. M. Short},
+            pdftitle={Annotation Card},
+            pdfsubject={},
+            pdfkeywords={annotation},
+            pdfproducer={Latex with hyperref, or other system},
+            pdfcreator={K. M. Short}]{hyperref}
+            
+            
+            
+%%% DOCUMENT            
+
+\begin{document}
+\citekey{Rogaway2015} \hfill \textbf{{\footnotesize Annotation}}\hfill \cardnumber{03}
+\medskip
+\color{red}{\hrule}
+\color{black}
+\bigskip
+
+\begin{addmargin}[2em]{2em}
+\begin{small}
+
+%%% Begin Annotation
+
+This is a test annotation
+
+%%% End Annotation
+\end{small}
+\end{addmargin}
+\vfill
+
+
+\medskip
+\color{blue}{\hrule}
+\medskip
+\color{black}{\keywords{cryptography} \hfill \pagenumber{23}}
+\end{document}

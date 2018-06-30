@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: insert-rand-uuid
+# key: <uuid
+# --
+:ID: `(insert-rand-uuid)`
+$0

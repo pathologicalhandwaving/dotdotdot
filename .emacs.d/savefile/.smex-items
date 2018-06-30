@@ -2,35 +2,35 @@
 ;; ----- smex-history -----
 (
  find-file
- load-theme
- org-trello-mode
- org-trello-show-board-labels
- org-trello-check-setup
- org-trello-install-board-metadata
- org-trello-install-key-and-token
+ org-journal-new-entry
+ diary
+ package-install
+ delimit-columns-region
+ org-brain-visualize
+ org-brain-switch-brain
 )
 
 ;; ----- smex-data -----
 (
- (find-file . 42)
+ (find-file . 99)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
  (org-brain-add-parent . 10)
- (org-brain-visualize . 38)
+ (org-brain-visualize . 39)
  (org-brain-goto . 2)
  (org-brain-add-child . 5)
  (neotree-show . 4)
  (neotree-change-root . 2)
  (org-brain-remove-child . 1)
  (load-theme . 11)
- (org-mode . 1)
- (org-brain-delete-entry . 11)
+ (org-mode . 2)
+ (org-brain-delete-entry . 15)
  (org-brain-update-id-locations . 4)
  (org-brain-add-resource . 4)
  (org-brain-create-relationships-from-links . 1)
- (package-delete . 1)
- (package-install . 6)
+ (package-delete . 4)
+ (package-install . 31)
  (windmove-left . 1)
  (svg-clock . 2)
  (org-trello-install-key-and-token . 2)
@@ -38,4 +38,19 @@
  (org-trello-check-setup . 1)
  (org-trello-show-board-labels . 1)
  (org-trello-mode . 1)
+ (package-refresh-contents . 2)
+ (split-window-right . 1)
+ (eyebrowse-mode . 2)
+ (outline-toc-mode . 2)
+ (outline-toc-kill . 2)
+ (my/open-tree-view . 2)
+ (my/jump-to-point-and-show . 4)
+ (narrow-to-region . 1)
+ (widen . 1)
+ (org-mode-restart . 3)
+ (delimit-columns-region . 1)
+ (diary . 1)
+ (org-journal-new-entry . 1)
+ (org-latex-export-to-latex . 2)
+ (my/copy-idlink-to-clipboard . 3)
 )

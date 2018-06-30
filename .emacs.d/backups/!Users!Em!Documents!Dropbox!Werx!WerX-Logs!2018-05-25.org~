@@ -1,0 +1,42 @@
+#+TITLE: Holiday Inn Front Desk List
+#+DATE: 2018-05-25
+#+CATEGORY: Work
+
+
+* Front Desk Log - 2018-05-25 
+  :PROPERTIES:
+  :DATE: 2018-05-25
+  :END:
+
+
+** SHIFT_INIT [100%]
+- [X] Clock-in
+- [X] Load list
+- [X] Get Shift List
+- [X] Login PMS
+- [X] Login Chrome
+- [X] Open Stickies
+- [X] Check previous shift for issues
+- [X] Count Drawer
+- [X] Update Today's Rates
+- [X] Check Availability
+- [X] Check Supplies
+- [X] Walk-in Log
+
+** DONE Lunch 
+CLOSED [2018-05-27 Sun 01:25]
+
+
+** SHIFT_DECOMP  [100%]
+- [X] TODO Update Walk-in Log
+- [X] TODO Check Availability
+- [X] TODO Print Vacancy Report
+- [X] TODO Bucket Check
+- [X] TODO Ensure all charges posted
+- [X] TODO Make Deposit
+- [X] TODO Count Drawer
+- [X] TODO Cash Out
+- [X] TODO Logout PMS
+- [X] TODO Logout Chrome
+- [X] TODO Check Shift List
+- [X] TODO Sign Shift List and Turn In

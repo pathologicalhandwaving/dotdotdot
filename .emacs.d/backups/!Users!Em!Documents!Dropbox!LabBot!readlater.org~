@@ -1,0 +1,414 @@
+#+TITLE: ReadLater Refile
+#+CATEGORY: Refile
+
+* ReadLater
+:PROPERTIES:
+:ID:       0A1E353C-A4BA-4166-BA75-ED425AC9BEAA
+:END:
+
+
+** READLATER Calendar Versioning — CalVer                        :READLATER:
+:PROPERTIES:
+:ID:       9C35D94F-99E8-434C-9DBF-870B379B587E
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:34>
+:END:
+[2018-06-11 Mon 08:35]
+https://calver.org/
+
+
+** READLATER Philippe Flajolet's books
+:PROPERTIES:
+:ID:       5172B95C-5998-4D22-A556-1998CBA71D68
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:35>
+:END:
+[2018-06-18 Mon 13:10]
+http://algo.inria.fr/flajolet/Publications/books.html
+
+
+** READLATER Analytic Combinatorics Blog
+:PROPERTIES:
+:ID:       1D6F8A16-535F-4EF6-BD8D-4AD410C078D0
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-18 Mon 13:10]
+http://anacombi.blogspot.com/?m=1
+
+
+** READLATER OEIS -- Analytic Continuation Concordance
+:PROPERTIES:
+:ID:       3E239663-DB95-4C3E-8FA1-D99EACB036FA
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-18 Mon 13:12]
+http://algo.inria.fr/flajolet/Publications/AnaCombi/OEISconcordance.txt
+
+
+** READLATER Philippe Flajolet's Lectures
+:PROPERTIES:
+:ID:       498E49D5-3CC8-4CC8-A578-D182DA548D78
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-18 Mon 13:14]
+http://algo.inria.fr/flajolet/Publications/lectures.html
+
+
+** READLATER Analytic Combinatorics and Probabilistic Number Theory
+:PROPERTIES:
+:ID:       ED94C2E1-B79F-49CB-81D4-9C8A4AA1EE26
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-18 Mon 13:22]
+http://dmg.tuwien.ac.at/nfn/summer06.html
+
+
+** READLATER Learn elisp the hard way
+:PROPERTIES:
+:ID:       9A592846-DBA3-4B6B-990F-223EDFC7D587
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-18 Mon 22:05]
+https://github.com/hypernumbers/learn_elisp_the_hard_way
+
+** READLATER Improving my Orgmode workflow | König von Haunstetten
+:PROPERTIES:
+:ID:       E82C01CA-CCC0-46F4-912A-D30E36141709
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-18 Mon 13:58]
+https://koenig-haunstetten.de/2018/02/17/improving-my-orgmode-workflow/
+
+** READ Code snippet for OrgMode E05S02 | König von Haunstetten
+:PROPERTIES:
+:ID:       26D4B033-EA73-4923-BB6E-BA26E737D713
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+CLOSED [2018-06-20 Wed 19:32]
+:PROPERTIES:
+:ID:       751A832E-8740-4190-BCF3-8B24BB9D8F0F
+:END:
+[2018-06-18 Mon 13:59]
+https://koenig-haunstetten.de/2016/07/09/code-snippet-for-orgmode-e05s02/
+
+** READ Another approach for goal tracking | König von Haunstetten
+:PROPERTIES:
+:ID:       F252E8AD-FFE8-482A-B3B3-A3A25DFB28C0
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+CLOSED [2018-06-20 Wed 19:33]
+:PROPERTIES:
+:ID:       C3EA0DFD-0C70-4D38-91C4-E2654FFD580D
+:END:
+[2018-06-18 Mon 13:59]
+https://koenig-haunstetten.de/2017/12/29/another-approach-for-goal-tracking/
+
+** READLATER Google Calendar integration in OrgMode | König von Haunstetten
+:PROPERTIES:
+:ID:       5D6417DF-B760-4BCB-B057-410024735605
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-18 Mon 14:01]
+https://koenig-haunstetten.de/2017/01/02/google-calendar-integration-in-orgmode/
+
+** READLATER Emacs init file written in org-mode
+:PROPERTIES:
+:ID:       BC7B9D3F-C0DF-45A9-9DF0-2DBF4981236A
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-18 Mon 20:02]
+http://mescal.imag.fr/membres/arnaud.legrand/misc/init.php
+
+** DONE learn_elisp_the_hard_way/lesson-4-2-adding-custom-functions-to-emacs.rst at master · hypernumbers/learn_elisp_the_hard_way
+:PROPERTIES:
+:ID:       57479F55-3750-4C64-802E-DEFF6CF80C6C
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+CLOSED [2018-06-20 Wed 19:34]
+:PROPERTIES:
+:ID:       3FAE3DCB-F39E-436C-B1B8-CFB10692D089
+:END:
+[2018-06-18 Mon 20:05]
+https://github.com/hypernumbers/learn_elisp_the_hard_way/blob/master/contents/lesson-4-2-adding-custom-functions-to-emacs.rst
+
+** READ Create an org-journal template for daily journal entry - Emacs Stack Exchange
+:PROPERTIES:
+:ID:       B80B9FB6-D6DE-41E4-9EBC-5A30CF9F3A93
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+CLOSED [2018-06-20 Wed 19:34]
+:PROPERTIES:
+:ID:       CD924B5F-80DC-42A5-9D45-D5AA27642DC1
+:END:
+[2018-06-19 Tue 00:09]
+https://emacs.stackexchange.com/questions/17897/create-an-org-journal-template-for-daily-journal-entry
+
+** READ Journaling with org-mode
+:PROPERTIES:
+:ID:       41298E40-E521-4DCD-A749-40B65539F192
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+CLOSED [2018-06-20 Wed 19:34]
+:PROPERTIES:
+:ID:       CD084D7C-2E74-445B-844B-4C44EDB7272F
+:END:
+[2018-06-19 Tue 00:11]
+http://www.howardism.org/Technical/Emacs/journaling-org.html
+
+
+** READLATER Reddit - emacs - Share your Org Capture Templates!
+:PROPERTIES:
+:ID:       E70ECC65-4AEC-4E93-B66D-F448EE26DDF7
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+[2018-06-19 Tue 00:13]
+https://www.google.com/amp/s/amp.reddit.com/r/emacs/comments/7zqc7b/share_your_org_capture_templates/
+
+
+** READ How can I create custom org-mode templates? - Emacs Stack Exchange
+:PROPERTIES:
+:ID:       077500D6-BD2E-4F4B-B6A7-09691EA15934
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:36>
+:END:
+CLOSED [2018-06-20 Wed 19:34]
+:PROPERTIES:
+:ID:       C78CE030-FD66-4657-884A-2C2B6B40D20D
+:END:
+[2018-06-19 Tue 00:14]
+https://emacs.stackexchange.com/questions/34651/how-can-i-create-custom-org-mode-templates
+
+
+** READLATER How to specify org-capture template for a weekly journaling - Emacs Stack Exchange
+:PROPERTIES:
+:ID:       C79F6052-0365-49D4-A2B0-97B760C2A6A4
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-19 Tue 00:15]
+https://emacs.stackexchange.com/questions/39249/how-to-specify-org-capture-template-for-a-weekly-journaling
+
+
+** READLATER Reddit - emacs - TIP: How I use org-journal to improve my productivity
+:PROPERTIES:
+:ID:       11CC171F-B2FD-455B-AA3C-4797D657CCA9
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-19 Tue 00:15]
+https://www.google.com/amp/s/amp.reddit.com/r/emacs/comments/8kz8dv/tip_how_i_use_orgjournal_to_improve_my/
+
+
+** READLATER Logging Money In Org Mode
+:PROPERTIES:
+:ID:       AF2F5752-7F20-4AF1-8924-33DBF6C77A22
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-19 Tue 00:16]
+https://randomgeekery.org/2017/07/31/logging-money-in-org-mode/
+
+
+** READLATER My Workflow with Org-Agenda
+:PROPERTIES:
+:ID:       BA5CAE7F-1733-465D-92D7-9F0CB4503F96
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-20 Wed 17:53]
+http://cachestocaches.com/2016/9/my-workflow-org-agenda/
+
+** READLATER How to Access Your Mac’s Screen from Windows (and Vice-Versa)
+:PROPERTIES:
+:ID:       AA284B1F-49F1-4D1C-AF4E-0B523D80C6AD
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-20 Wed 18:23]
+https://www.google.com/amp/s/www.howtogeek.com/214220/how-to-access-your-macs-screen-from-windows-and-vice-versa/amp/
+
+** READLATER My org-refile workflow - dsdshome
+:PROPERTIES:
+:ID:       A2F1BD72-E92F-4986-B5FF-6273902D06F3
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-20 Wed 18:25]
+https://dsdshcym.github.io/blog/2018/03/02/my-org-refile-workflow/
+
+** READLATER How to refresh tag list in org-mode without closing and reopening emacs - Super User
+:PROPERTIES:
+:ID:       A7C170E2-420A-4171-9B48-334E253E6042
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-20 Wed 18:38]
+https://superuser.com/questions/403136/how-to-refresh-tag-list-in-org-mode-without-closing-and-reopening-emacs
+
+** READLATER Reddit - spacemacs - Enhancing your focus with OrgMode (using Spacemacs)
+:PROPERTIES:
+:ID:       45ED1594-AF42-41B6-B0B4-9C89B255261D
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-20 Wed 18:44]
+https://www.google.com/amp/s/amp.reddit.com/r/spacemacs/comments/738pw6/enhancing_your_focus_with_orgmode_using_spacemacs/
+
+** READLATER Org ad hoc code, quick hacks and workarounds
+:PROPERTIES:
+:ID:       14B02D97-5DA7-43D1-A1B7-0DA37C4B543A
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-21 Thu 20:37>
+:END:
+[2018-06-20 Wed 19:03]
+https://orgmode.org/worg/org-hacks.html
+
+
+
+
+
+
+
+
+
+
+
+
+** READLATER GasMask - TwelveSec's new Open Source tool for OSINT
+:PROPERTIES:
+:ID:       430893B8-8991-4D57-94D3-174B7CF34D5B
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:34>
+:END:
+ [2018-06-21 Thu 16:22]
+ https://www.twelvesec.com/2018/02/14/gasmask-osint-tool/
+
+
+** READLATER Namechk - Osint Tool Based On Namechk.Com For Checking Usernames On More Than 100 Websites, Forums And Social Networks | Osint tools, Security tools and Linux
+:PROPERTIES:
+:ID:       1D64AF57-B8D8-40EA-8984-988358214127
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:34>
+:END:
+ [2018-06-23 Sat 13:36]
+ https://www.google.com/amp/s/www.pinterest.com/amp/pin/789044797189506515/
+
+
+** READLATER How to Not Suck at Reporting (or How to Write Great Pentesting Reports) - Black Hills Information Security
+:PROPERTIES:
+:ID:       27922E7A-0BC2-421E-A2DF-C39B087AD9A0
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:34>
+:END:
+ [2018-06-23 Sat 13:45]
+ https://www.blackhillsinfosec.com/how-to-not-suck-at-reporting-or-how-to-write-great-pentesting-reports/
+
+
+** QUESTION What is a "cuckoo's egg"? - Information Security Stack Exchange
+:PROPERTIES:
+:ID:       9023021E-0F7F-41A1-975C-B026B1CE2684
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:35>
+:END:
+ [2018-06-23 Sat 13:46]
+ https://security.stackexchange.com/questions/16889/what-is-a-cuckoos-egg
+
+
+** READLATER Hackers Can Abuse Text Editors for Privilege Escalation | SecurityWeek.Com
+:PROPERTIES:
+:ID:       659F310B-6908-4F4A-9A37-E61412ABE192
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:35>
+:END:
+ [2018-06-23 Sat 13:48]
+ https://www.securityweek.com/hackers-can-abuse-text-editors-privilege-escalation
+
+
+** READLATER Learn BASH for Pentesters
+:PROPERTIES:
+:ID:       3B596724-A48D-4AB6-AF79-05BCB84D6A7A
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:35>
+:END:
+ [2018-06-23 Sat 13:54]
+ https://www.concise-courses.com/bash-extra-info/
+
+
+** READLATER DoD-OSS-FAQ
+:PROPERTIES:
+:ID:       1F4723E7-7EA2-489F-AF14-24135F6A0B19
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:35>
+:END:
+[2018-06-23 Sat 21:46]
+http://risacher.github.io/DoD-OSS-FAQ/
+
+** READLATER Phishing Family Tree Now: A Social Engineering Odyssey - Black Hills Information Security
+:PROPERTIES:
+:ID:       C79A75AD-AF2D-4196-9411-11F040C446AA
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:35>
+:END:
+ [2018-06-23 Sat 13:38]
+ https://www.blackhillsinfosec.com/phishing-family-tree-now-social-engineering-odyssey/
+
+
+** READLATER org-capture note types - Kûn Developer Blog
+:PROPERTIES:
+:ID:       CFA781DC-0E9A-4C52-B79F-E618891F218F
+:END:
+- :PROPERTIES:
+:REFILED: <2018-06-24 Sun 18:35>
+:END:
+ [2018-06-22 Fri 12:51]
+ http://kundeveloper.com/org-capture-2/
+
+

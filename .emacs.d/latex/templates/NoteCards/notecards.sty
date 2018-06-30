@@ -1,0 +1,87 @@
+\ProvidesPackage{notecards}
+
+\RequirePackage{color}
+\RequirePackage{scrextend}
+
+\RequirePackage{graphicx}
+\RequirePackage{float}
+\RequirePackage{caption}
+\RequirePackage{stmaryrd}
+\RequirePackage{framed}
+
+% Font
+%\RequirePackage{beton}
+%\RequirePackage{euler}
+%\RequirePackage[T1]{fontenc}
+\RequirePackage[none]{hyphenat}
+
+
+\RequirePackage{enumitem}
+\setlist{nosep}
+
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Page Specs
+\pagestyle{empty}
+\setlength\parindent{0pt}
+\RequirePackage[paperwidth=5in, 
+    paperheight=3.5in,
+    left=0.10in,
+    right=0.10in,
+    top=0.10in,
+    bottom=0.10in]{geometry}
+
+
+%%%% Annotation Card Macros
+\newcommand{\citekey}[1]{{\scriptsize\textbf{[#1]}}}
+\newcommand{\cardnumber}[1]{{\scriptsize\textbf{[CardNumber:} #1\textbf{]}}}
+\newcommand{\keywords}[1]{{\scriptsize\textbf{[Keywords:} #1\textbf{]}}}
+\newcommand{\pagenumber}[1]{{\scriptsize\textbf{[Page:} #1\textbf{]}}}
+
+%%%% Quotation Card Macros
+\newcommand{\attribution}[1]{{\scriptsize\textbf{[Attributed:} #1\textbf{]}}}
+\newcommand{\source}[1]{\textbf{Source:} \textit{#1}}
+\newcommand{\quoted}[1]{\emph{``#1''}}
+
+%%%% Definition Card Macros
+\newcommand{\defname}[1]{\textbf{Definition:} #1}
+\newcommand{\deftext}[1]{\emph{#1}}
+
+%%%% Bibliography Card Macros
+\newcommand{\bibtitle}[1]{{\scriptsize\textbf{Title:} \emph{#1}}}
+\newcommand{\bibauthor}[1]{{\scriptsize\textbf{Author:} \emph{#1}}}
+\newcommand{\bibyear}[1]{{\scriptsize\textbf{Year:} \texttt{#1}}}
+\newcommand{\bibmonth}[1]{{\scriptsize\textbf{Month:} #1}}
+\newcommand{\bibday}[1]{{\scriptsize\textbf{Day:} \texttt{#1}}}
+\newcommand{\bibjournal}[1]{{\scriptsize\textbf{Journal:} \emph{#1}}}
+\newcommand{\bibtype}[1]{{\scriptsize\textbf{Source Type:} #1}}
+\newcommand{\bibvol}[1]{{\scriptsize\textbf{Volume:} \texttt{#1}}}
+\newcommand{\bibissue}[1]{{\scriptsize\textbf{Issue:} \texttt{#1}}}
+\newcommand{\bibedition}[1]{{\scriptsize\textbf{Edition:} \texttt{#1}}}
+\newcommand{\bibaccessed}[1]{{\scriptsize\textbf{[Date Accessed:} #1\textbf{]}}}
+\newcommand{\biburl}[1]{{\scriptsize\textbf{URL:} \url{#1}}}
+\newcommand{\bibabstract}[1]{{\scriptsize\textbf{Abstract:}}\newline{\tiny\emph{#1}}}
+
+
+%%%% Misc Math Macros
+\newcommand{\mb}[1]{\mathbb{#1}}
+\newcommand{\tb}[1]{\mathtt{#1}}
+
+
+%%%% Misc
+
+\RequirePackage{url}
+
+%% MetaData
+\RequirePackage[pdftex,
+            pdfauthor={K. M. Short},
+            pdftitle={Annotation Card},
+            pdfsubject={Annotation},
+            pdfkeywords={annotation},
+            pdfproducer={LaTeX with hyperref},
+            pdfcreator={K. M. Short}]{hyperref}
+            
+            
+    

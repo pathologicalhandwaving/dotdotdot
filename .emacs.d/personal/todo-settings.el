@@ -1,35 +1,95 @@
-  (setq org-todo-keywords
-  '((sequence "TODO"
-      "MAYBE"
-      "NEXT"
-      "STARTED"
-      "WAITING"
+;;; todo-settings.el
+(require 'org)
+
+;;; Code:
+
+(setq org-todo-keywords
+  '((sequence "TODO(t)"
+      "NEXT(n)"
       "INPROGRESS"
-      "DELEGATED"
+      "WAITING"
+      "PURGATORY"
       "|"
-      "DONE"
-      "DEFERRED"
-      "CANCELLED"))
-  '((sequence "EVENT"
-              "WORK"
-              "MEETING"
-              "APPOINTMENT"
-              "SESSION"
+      "DONE")
+    (type "EVENT(e)"
+          "MEETING"
+          "APPOINTMENT"
+          "SCHEDULE"
+          "|"
+          "DONE")
+    (sequence "READLATER(r)"
               "|"
-              "RESCHEDULED"
-              "CANCELLED"))
-  )
+              "READ")
+    (sequence "ANNOTATE(a)"
+              "|"
+              "ARCHIVED")
+    (sequence "WATCHLATER"
+              "|"
+              "WATCHED")
+    (type "LISTEN"
+          "DOWNLOAD"
+          "PLAYLIST"
+          "PODCAST"
+          "|"
+          "DONE(d)")
+    (type "LIST"
+          "|"
+          "ARCHIVED")
+    (type "QUESTION(q)"
+          "ANSWER"
+          "COMMENT"
+          "|"
+          "ARCHIVED")
+    (sequence "LOOKUPLATER(l)"
+              "|"
+              "DONE(d)")
+    (sequence "NOTE(n)"
+              "|"
+              "DONE(d)")
+    (sequence "VOICEMEMO(v)"
+              "TRANSCRIBE"
+              "|"
+              "ARCHIVED")
+    (sequence "LOG"
+              "|"
+              "LOGGED")
+    (sequence "WerX(w)"
+              "FD"
+              "AUDIT"
+              "|"
+              "DONE(d)")
+    (type "ISSUE(i)"
+          "BUG"
+          "|"
+          "REPORTED")
+    (type "REPO"
+          "PULL"
+          "PUSH"
+          "REVIEW"
+          "|"
+          "LOGGED")
+    (sequence "RECIPE"
+              "COOKBOOK"
+              "|"
+              "DONE")
+    (type "PACKAGE"
+          "|"
+          "LOGGED")
+    (type "INCOME(c)"
+          "EXPENSE"
+          "GIFT"
+          "TAX"
+          "|"
+          "LOGGED")
+    (type "BILL(b)"
+          "PAYMENT"
+          "PURCHASE"
+          "BUY"
+          "|"
+          "LOGGED")))
 
-  (setq org-todo-keyword-faces
-    '(("PROJECT" :background "blue" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("TODO" :background "red1" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("NEXT" :background "OrangeRed1" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("STARTED" :background "DarkOrange2" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("WAITING" :background "SlateGray4" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("DEFERRED" :background "SlateGray3" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("DELEGATED" :background "SlateGray4" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("MAYBE" :background "pink3" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("APPOINTMENT" :background "CornflowerBlue" :foreground "black" :weight bold :box (:line-width 2 :style none))
-      ("DONE" :foreground "thistle4" :weight bold :strike-through)
-      ("CANCELLED" :background "thistle4" :foreground "black" :weight regular :strike-through)))
+(setq org-use-fast-todo-selection t)
 
+(provide 'todo-settings)
+(message "ToDo Settings Loaded!")
+;;; todo-settings.el ends here

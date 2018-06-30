@@ -1,16 +1,24 @@
 ;;; exile-theme.el
-
+(require 'doom-themes)
+(require 'org-bullets)
+(require 'all-the-icons)
+(require 'neotree)
 (require 'nxml-mode)
 ;;; Code:
 
-(require 'doom-themes)
+
 ;; City Lights
 (load-theme 'doom-city-lights)
 
+(defvar exile-dark-theme 'doom-city-lights)
+(defvar exile-light-theme 'spacemacs-light)
+
+;; Currently Active Theme
+(defvar exile-current-theme exile-dark-theme)
+
+
 
 ;; neotree
-(require 'all-the-icons)
-(require 'neotree)
 
 (doom-themes-neotree-config)
 (setq doom-neotree-file-icons t)
@@ -22,7 +30,7 @@
 
 (setq neo-dir-link-face '(:foreground "#51afef" :slant normal :height 100 :weight regular :family "Fantasque Sans Mono"))
 (setq neo-file-link-face '(:foreground "#70E1E8" :slant normal :height 100 :weight bold :family "Fantasque Sans Mono"))
-(setq neo-root-dir-face '(:foreground "#c678dd" :slant normal :height 120 :weight bold :family "Fantasque Sans Mono"))
+(setq neo-root-dir-face '(:foreground "#c678dd" :slant normal :height 110 :weight bold :family "Fantasque Sans Mono"))
 
 (set-frame-font "Fantasque Sans Mono 12")
 

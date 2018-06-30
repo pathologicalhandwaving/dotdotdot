@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: article-ref
+# key: <article
+# --
+:PROPERTIES:
+:REF_TYPE: article
+:AUTHOR: $1
+:TITLE: $2
+:JOURNAL: $3
+:YEAR: $4
+:MONTH: $5
+:DAY: $6
+:VOLUME: $7
+:NUMBER: $8
+:PAGES: $9
+:NOTE: $10
+:ABSTRACT: $11
+:END:
+$0

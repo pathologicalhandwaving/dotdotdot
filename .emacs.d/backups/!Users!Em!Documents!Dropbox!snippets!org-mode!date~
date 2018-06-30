@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: date
+# key: <da
+# --
+#+DATE:`(format-date-string "%Y-%m-%d")'

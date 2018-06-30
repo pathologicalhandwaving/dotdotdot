@@ -283,14 +283,3 @@ function numfiles() {
     echo "$N files in $1";
 }
 
-
-# unfluff
-function fluffy() {
-    cd /Users/Em/Repos/ScratchPad
-    read -p "File name:" file
-    curl -s "$@" | unfluff | jq -r .text > $file.txt
-    cat $file | head -n 5
-    cd
-    exit 0
-}
-#alias fluffy="bash fluffy"

@@ -1,0 +1,29 @@
+;;; source-settings.el
+(require 'org)
+
+;;; Code:
+
+(setq python-shell-completion-native-enable nil)
+(setq org-babel-python-command "python3")
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '(
+   (emacs-lisp . t)
+   (org . t)
+   (shell . t)
+   (python . t)
+   (gnuplot . t)
+   (octave . t)
+   (R . t)
+   (dot . t)
+   (awk . t)))
+
+(setq org-confirm-babel-evaluate nil)
+
+(setq org-src-fontify-natively t)
+(setq org-src-tab-acts-natively t)
+
+(provide 'source-settings)
+(message "Source Settings Loaded!")
+;;; source-settings.el ends here

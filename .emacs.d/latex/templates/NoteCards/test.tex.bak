@@ -1,0 +1,31 @@
+\documentclass[10pt]{article}
+\usepackage{notecards}
+
+
+
+
+\begin{document}
+\citekey{Rogaway2015} \hfill \textbf{{\footnotesize Annotation}}\hfill \cardnumber{03}
+\medskip
+\color{red}{\hrule}
+\color{black}
+\bigskip
+
+\begin{addmargin}[2em]{2em}
+\begin{small}
+
+%%% Begin Annotation
+
+This is a test of the notecards.sty package
+
+%%% End Annotation
+\end{small}
+\end{addmargin}
+\vfill
+
+
+\medskip
+\color{blue}{\hrule}
+\medskip
+\color{black}{\keywords{cryptography} \hfill \pagenumber{23}}
+\end{document}

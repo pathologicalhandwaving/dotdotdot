@@ -1,0 +1,40 @@
+%%% PAGE CORNER DOGEAR TEMPLATE
+
+\documentclass{article}
+
+
+\usepackage{tikz}
+
+
+\usepackage{verbatim}
+
+
+
+\begin{document}
+\thispagestyle{empty}
+
+%%% VALUE OF CORDINATE 8 is for right Corner
+%%\draw [fill=gray] (8,8) -- (8,0) -- (0,8) -- cycle ; SAME DOG EAR
+%%\draw [fill=gray] (0,8) -- (8,8) -- (8,0) -- cycle ; REGULAR DOGEAR ON RIGHT CORNER
+%%\draw [fill=gray] (8,8) -- (0,0) -- (0,8) -- cycle ; CUT DOWN FROM 8 INSTEAD OF DOGEAR
+%%\draw [fill=gray] (8,0) -- (0,0) -- (8,8) -- cycle ; CUT DOWN FROM SIDE INSTEAD OF DOGEAR
+%%\draw [fill=gray] (8,0) -- (0,0) -- (0,8) -- cycle ; REVERSE FILL DOGEAR
+%%\draw [fill=gray] (8,0) -- (0,0) -- (0,0) -- cycle ; SQUARE IN CORNER
+
+%% \draw [fill=gray] (8,8) -- (0,0) -- (8,8) -- cycle ; SQUARE WITH DIAGONAL LINE
+
+
+\begin{tikzpicture}[remember picture, overlay]
+    \node [shift={(-8 cm,-8cm)}]  at (current page.north east)
+        {%
+        \begin{tikzpicture}[remember picture, overlay]
+            \draw(0,0) rectangle (8,8);
+			\draw [fill=gray] (8,8) -- (8,0) -- (0,8) -- cycle ;
+            	\node[inner sep=0pt,minimum height=5pt,minimum width=10pt,rotate=-45,text centered] at (3,4) {\Large{\textbf{Topic}}};
+          \end{tikzpicture}
+        };
+
+
+\end{tikzpicture}
+
+\end{document}

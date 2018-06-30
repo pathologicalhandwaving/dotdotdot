@@ -1,0 +1,96 @@
+% Created 2018-06-20 Wed 03:22
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{amsthrm}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{stmaryrd}
+\usepackage{geometry}
+\usepackage{stmaryrd}
+\author{<KMS>}
+\date{\today}
+\title{Front Desk PM Log}
+\hypersetup{
+ pdfauthor={<KMS>},
+ pdftitle={Front Desk PM Log},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.0.50 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section*{Front Desk Log\hfill{}\textsc{WORK:HOLIDAYINN}}
+\label{sec:orga32f8ef}
+\subsection*{{\bfseries\sffamily DONE} INIT\hfill{}\textsc{SHIFT}}
+\label{sec:orgecceabc}
+CLOSED \textit{[2018-06-02 Sat 19:22]}
+
+
+\begin{itemize}
+\item[{$\boxtimes$}] CLOCK\_IN  HolidayInn Time Clock
+\item[{$\boxtimes$}] MAKE      Activity Log
+\item[{$\boxtimes$}] GET       PM Shift List
+\item[{$\boxtimes$}] LOGIN     PMS
+\item[{$\boxtimes$}] LOGIN     Chrome
+\item[{$\boxtimes$}] COUNT     Open Drawer
+\item[{$\boxtimes$}] DEPOSIT   Made deposit to make drawer \$200.0
+\item[{$\boxtimes$}] LOG       Append Opening Drawer Values to Cash Log
+\item[{$\boxtimes$}] OPEN      Stickies
+\item[{$\boxtimes$}] CHECK     Previous Shift for Issues
+\item[{$\boxtimes$}] CHECK     Incoming Groups or Special Accomodations
+\item[{$\boxtimes$}] CHECK     Coffee and Water Station
+\item[{$\boxtimes$}] UPDATE    Today's Rates
+\item[{$\boxtimes$}] CHECK     Availability
+\item[{$\boxtimes$}] UPDATE    Amenities
+\item[{$\boxtimes$}] CHECK     Front Desk Supplies
+\item[{$\boxtimes$}] UPDATE    Walk-in Log
+\end{itemize}
+
+\subsection*{{\bfseries\sffamily DONE} LUNCH}
+\label{sec:org8cea5c5}
+CLOSED \textit{[2018-06-02 Sat 19:20]}
+
+
+
+\subsection*{{\bfseries\sffamily DONE} DECOMP}
+\label{sec:org3988121}
+CLOSED \textit{[2018-06-03 Sun 00:00]}
+
+\begin{itemize}
+\item[{$\boxtimes$}] UPDATE    Walk-in Log
+\item[{$\boxtimes$}] CHECK     Availability
+\item[{$\boxtimes$}] PRINT     Vacancy Report - OPTION Vacant
+\item[{$\boxtimes$}] CHECK     Bucket Check
+\item[{$\boxtimes$}] CHECK     Ensure all charges posted
+\item[{$\boxtimes$}] GET       Get Deposit Amount
+\begin{itemize}
+\item NOTE Made drop after counting drawer to make an even \$200.00 in the amount of \$157.
+\end{itemize}
+\item[{$\boxtimes$}] COUNT     Count Drawer
+\item[{$\boxtimes$}] LOG       Append Closing Drawer Values to Cash Log
+\item[{$\boxtimes$}] DEPOSIT   Make deposit
+\item[{$\boxtimes$}] RUN       Cash out
+\item[{$\boxtimes$}] PRINT     Cashier Reports and Staple to \textbf{PM Shift List}
+\item[{$\boxtimes$}] RUN       Cash Out
+\item[{$\boxtimes$}] LOGOUT    PMS
+\item[{$\boxtimes$}] LOGOUT    Chrome
+\item[{$\boxtimes$}] UPDATE    PM Shift List
+\item[{$\boxtimes$}] SIGN      PM Shift List and Put in Log Box
+\item[{$\boxtimes$}] CLOCK\_OUT HolidayInn Time Clock
+\end{itemize}
+\end{document}
