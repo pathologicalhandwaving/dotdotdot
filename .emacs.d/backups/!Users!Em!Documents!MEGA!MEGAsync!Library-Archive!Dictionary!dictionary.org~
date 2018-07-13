@@ -1,10 +1,14 @@
 #+TITLE: Dictionary Index
-
+#+DATE_MODIFIED: 2018-06-27
+#+CATEGORY: Library
+#+SUB_CATEGORY: Dictionary
+#+FILETAGS: :DICTIONARY:
 
 
 * Dictionary
-:PROPERTIES:
-:CUSTOM_ID: dictionary-index
-:DESCRIPTION: Links to long form dictionary entries
-:DATE_CREATED: 2018-04-06 20:07:00
-:END:
+  :PROPERTIES:
+  :CUSTOM_ID: dictionary-index
+  :DESCRIPTION: Links to long form dictionary entries
+  :DATE_CREATED: 2018-04-06 20:07:00
+  :ID:       16C02103-9E5F-4C65-A011-7338C9573322
+  :END:

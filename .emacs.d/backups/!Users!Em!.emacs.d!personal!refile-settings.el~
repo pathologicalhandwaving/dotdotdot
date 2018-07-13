@@ -4,7 +4,8 @@
 
 ;;; Code:
 
-(setq org-refile-targets '((org-agenda-files :maxlevel . 9)))
+(setq org-refile-targets '((org-agenda-files :maxlevel . 9)
+                           (labbot-questions-file :maxlevel . 4)))
 
 ;; This is sort of a trick; you will have a generally cleaner and prettier experience with Refile if you don’t need to do this, but this is the only way to do top-level refiles. We configure org-refile-use-outline-path to tell Org to include the destination file as an element in the path to a heading, and to use the full paths as completion targets rather than just the heading text itself.
 (setq org-refile-use-outline-path 'file)

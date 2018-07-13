@@ -20,6 +20,9 @@
 (setq exile-notes-file "/Users/Em/Documents/Dropbox/Exile/notes.org")
 
 
+;; Comments File
+(defvar exile-comments-file)
+(setq exile-comments-file "/Users/Em/Documents/Dropbox/Exile/comments-withheld.org")
 
 
 ;; Appointments
@@ -290,6 +293,9 @@
 (defvar em-music-collections-dir)
 (setq em-music-collections-dir "/Users/Em/Music/Collections/")
 
+;; Podcasts Dicrectory
+(defvar em-podcasts-dir)
+(setq em-podcasts-dir "/Users/Em/Music/PodCasts/")
 
 ;; Pictures Directory
 (defvar em-pics-dir)

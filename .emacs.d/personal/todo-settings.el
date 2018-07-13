@@ -30,16 +30,26 @@
           "DOWNLOAD"
           "PLAYLIST"
           "PODCAST"
+          "AUDIOBOOK"
           "|"
           "DONE(d)")
+    (type "Captain's Log"
+          "|"
+          "ARCHIVED")
     (type "LIST"
           "|"
           "ARCHIVED")
     (type "QUESTION(q)"
           "ANSWER"
-          "COMMENT"
+          "CLIP"
           "|"
           "ARCHIVED")
+    (type "RECORD"
+          "MEDICAL_RECORD"
+          "SYMPTOM_RECORD"
+          "BEHAVIOR_RECORD"
+          "|"
+          "LOGGED")
     (sequence "LOOKUPLATER(l)"
               "|"
               "DONE(d)")
@@ -58,6 +68,12 @@
               "AUDIT"
               "|"
               "DONE(d)")
+    (sequence "DEFINITION"
+              "|"
+              "LOGGED")
+    (type "CLIP"
+          "|"
+          "LOGGED")
     (type "ISSUE(i)"
           "BUG"
           "|"
@@ -73,6 +89,10 @@
               "|"
               "DONE")
     (type "PACKAGE"
+          "TOOL"
+          "|"
+          "LOGGED")
+    (type "ACCOUNT"
           "|"
           "LOGGED")
     (type "INCOME(c)"
@@ -85,6 +105,24 @@
           "PAYMENT"
           "PURCHASE"
           "BUY"
+          "|"
+          "LOGGED")
+    (sequence "REFILE"
+              "|"
+              "REFILED")
+    (type "Exile"
+          "AudioBot"
+          "LibrarianBot"
+          "Monopoly"
+          "Ship"
+          "LabBot"
+          "Docs"
+          "Diary"
+          "Journal"
+          "Archive"
+          "SpaceBot"
+          "SwedishChef"
+          "TeXBot"
           "|"
           "LOGGED")))
 

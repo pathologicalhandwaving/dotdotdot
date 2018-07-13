@@ -1,366 +1,662 @@
 #+TITLE: Tasks
 #+DATE_CREATED: 2018-06-03
-#+DATE_MODIFIED: 2018-06-16
 #+CATEGORY: Exile
 #+SUB_CATEGORY: Tasks
+#+FILETAGS: :Exile:TASKS:LIST:
 
 
-* Tasks                                                      :TODO:
+* Tasks                                                     
  :PROPERTIES:
- :CUSTOM_ID: personal-tasks
- :DATE_CREATED: 2018-06-03
+ :ID:       8054E1F3-97B8-4D20-A5E7-250B63EB30B0
  :CATEGORY: Exile
  :SUB_CATEGORY: Tasks
- :ID:       8054E1F3-97B8-4D20-A5E7-250B63EB30B0
+ :DATE_CREATED: 2018-06-03
+ :LAST_REVIEW: 2018-07-05 Thu
+ :NEXT_REVIEW: 2018-07-06 Fri
+ :REVIEW_DELAY: +1d
  :END:
 
-
-
-
-** WAITING Fill out Windsong Application                           :WAITING:
+** INPROGRESS
 :PROPERTIES:
-:ID:       73A0E186-6082-4802-AE8B-964479BBFDAB
-:DATE_ADDED: [2018-06-14 07:49]
+:ID:       26987D74-9E39-4DA9-9F32-A4D6CB493A98
 :END:
-** INPROGRESS Fix Capture Templates                                    :MAINTENANCE:
+
+*** INPROGRESS Fix Capture Templates                          :MAINTENANCE:
 :PROPERTIES:
 :ID:       1DA8D518-D4C2-410C-BFDE-D997192AAFF1
+:DATE_ADDED: [2018-06-03 Sun 18:53]
 :END:
-      DATE_ADDED: [2018-06-03 Sun 18:53]
-** INPROGRESS Create directory indices
+
+*** INPROGRESS Match tag, properties, and todo colors         :MAINTENANCE:
 :PROPERTIES:
-:ID:       E1685E2B-218B-4F4E-A660-21771B05246E
+:ID:       68F0F27C-DF0A-454A-B450-440D2600C1A9
+:DATE_ADDED: [2018-06-27 Wed 03:17]
 :END:
-[2018-06-27 Wed 03:25]
+
+*** INPROGRESS Categorize colors                              :MAINTENANCE:
 :PROPERTIES:
-:ID:       E6564A84-A744-4163-80DF-7E1F9C928477
+:ID:       8A335A92-8F73-432D-9906-A252FF8658F2
+:DATE_ADDED: [2018-06-27 Wed 03:17]
 :END:
-** INPROGRESS org done strike-through settings is fucked up again
+
+*** INPROGRESS Slack setup HolidayInnLC                              :WerX:
 :PROPERTIES:
-:ID:       B391FF93-5765-47F8-967E-CE39E131E97A
+:ID:       55CC6C79-39A1-41FB-BAD9-0D6800E3121B
+:DATE_ADDED: [2018-06-25 Mon 21:29]
 :END:
-[2018-06-27 Wed 00:36]
+
+*** INPROGRESS emacsd dirtree diagram
 :PROPERTIES:
-:ID:       9A5D0C76-8563-4067-933B-398A329A6EE8
+:ID:       62875203-802C-4AA8-BD27-32B01E8C868B
+:DATE_ADDED: [2018-06-28 Thu 07:37]
 :END:
-** TODO LaTeX Template Directory Cleanup                                   :LaTeX:
+
+  https://www.dropbox.com/sh/x9lv29hhaubxokz/AADbresptq8rYkCcw5UeO9Pba?dl=0
+
+*** INPROGRESS Specify agenda files better                     :INPROGRESS:
+:PROPERTIES:
+:ID:       37CB13FC-B284-466F-8A02-601D8A2482AF
+:DATE_ADDED: [2018-06-30 Sat 00:33]
+:END:
+
+** TODO
+:PROPERTIES:
+:ID:       38EA61E2-3456-4686-8C1C-2B38E44FD6B9
+:END:
+
+*** TODO LaTeX Template Directory Cleanup                           :LaTeX:
 :PROPERTIES:
 :ID:       32B24973-BE10-4D8E-97A4-14BDF4F6E15A
+:DATE_ADDED: [2018-06-12 Tue 22:22]
 :END:
-[2018-06-12 Tue 22:22]
-** TODO Find Soft Phone Service
-:PROPERTIES:
-:ID:       FAE2A3E6-21DC-4538-BB21-8E7A7F8DDEDD
-:END:
-   DATE_ADDED: [2018-06-14 Thu 08:35]
-** TODO Schedule appointment with Dr. Bachus in three months            :SCHEDULE:
+
+*** TODO Schedule appointment with Dr. Bachus in three months    :SCHEDULE:
 :PROPERTIES:
 :ID:       02F29B17-15C7-43FC-A10E-316F4EDC4DD0
+:DATE_ADDED: [2018-06-14 Thu 08:41]
 :END:
-  DATE_ADDED: [2018-06-14 Thu 08:41]
-** TODO Fix org-mode sync mobile
-:PROPERTIES:
-:ID:       265970F2-7A8F-4A7F-A97B-2533CB704246
-:END:
-[2018-06-18 Mon 14:26]
-** TODO Fix spending capture template
+
+*** TODO Fix spending capture template
 :PROPERTIES:
 :ID:       AEDAAD57-3E4F-4775-AC65-06AB572CE017
 :END:
-** TODO Fix org-journal capture template
-:PROPERTIES:
-:DATE_ADDED: <2018-06-27 Wed 04:07>
-:ID:       CAE01B43-8FF6-433D-BAEB-0E255B274F13
-:END:
-** TODO Fix journal timeline capture template
-:PROPERTIES:
-:ID:       3421BF86-1E33-400A-B172-9F2B73C86FAB
-:END:
-** TODO AutoHotkey
-:PROPERTIES:
-:ID:       AABEAE3C-141F-4B38-A7E4-2BB6B0BEFD87
-:END:
-[2018-06-24 Sun 18:51]
-https://autohotkey.com/
-** INPROGRESS Slack setup HolidayInnLC
-:PROPERTIES:
-:ID:       55CC6C79-39A1-41FB-BAD9-0D6800E3121B
-:END:
-[2018-06-25 Mon 21:29]
 
-** TODO Match tag, properties, and todo colors
-:PROPERTIES:
-:ID:       68F0F27C-DF0A-454A-B450-440D2600C1A9
-:END:
-[2018-06-27 Wed 03:17]
-** TODO Categorize colors
-:PROPERTIES:
-:ID:       8A335A92-8F73-432D-9906-A252FF8658F2
-:END:
-[2018-06-27 Wed 03:17]
-** TODO Cleanup homebrew tools
+*** TODO Cleanup homebrew tools                               :MAINTENANCE:
 :PROPERTIES:
 :ID:       D23B0286-77A8-4CDC-B142-A327CF61DB9D
+:DATE_ADDED: [2018-06-27 Wed 03:17]
 :END:
-[2018-06-27 Wed 03:17]
-** TODO How to use commandline tools from orgmode or emacs
-:PROPERTIES:
-:ID:       838EC957-A688-4223-AE2E-30FA7FE31F10
-:END:
-[2018-06-27 Wed 03:18]
-** TODO Update hotkey cheatsheet
+
+*** TODO Update hotkey cheatsheet                             :MAINTENANCE:
 :PROPERTIES:
 :ID:       540FD92B-EAF0-4456-8EF9-1093E650C749
+:DATE_ADDED: [2018-06-27 Wed 03:25]
 :END:
-[2018-06-27 Wed 03:25]
-** TODO Settings for org-review
-:PROPERTIES:
-:ID:       C4820AEF-72B9-4705-8885-34069788D597
-:END:
-[2018-06-27 Wed 03:26]
-** TODO Cleanup myscripts directory
+
+*** TODO Cleanup myscripts directory                          :MAINTENANCE:
 :PROPERTIES:
 :ID:       680CF331-2152-4A1F-8298-5BA645C971B8
+:DATE_ADDED: [2018-06-27 Wed 03:26]
 :END:
-[2018-06-27 Wed 03:26]
-** TODO Cleanup npm packages
+
+*** TODO Cleanup npm packages                                 :MAINTENANCE:
 :PROPERTIES:
 :ID:       76712509-87B0-4053-8925-A8C16EEDD21F
+:DATE_ADDED: [2018-06-27 Wed 03:27]
 :END:
-[2018-06-27 Wed 03:27]
-** TODO Fix Tag alignment
+
+*** TODO Fix Tag alignment                                    :MAINTENANCE:
 :PROPERTIES:
 :DATE_ADDED: <2018-06-27 Wed 04:08>
 :ID:       484DB682-A95A-4B6E-A611-F8D3075ACC1C
 :END:
-** TODO Sort TMP directory
+
+*** TODO Sort TMP directory                                         :FILES:
 :PROPERTIES:
 :DATE_ADDED: <2018-06-27 Wed 04:23>
 :ID:       D9001B35-5D02-418A-810C-D0C62B8CB976
 :END:
-** TODO Groceries
+
+*** TODO symlink emacs.d/personal to dropbox
 :PROPERTIES:
-:DATE_ADDED: <2018-06-27 Wed 14:42>
-:ID:       B5DBDD91-893E-4330-8D39-BFB9F41906A8
+:ID:       47AE75C5-20B9-468B-8131-B4FF1B0B97DE
+:LAST_REVIEW: 2018-07-05 Thu
+:NEXT_REVIEW: 2018-07-06 Fri
 :END:
-** LOG Holiday Inn Coordinates
+[2018-06-30 Sat 00:50]
+
+*** TODO BUP Homebrew                                         :MAINTENANCE:
+:PROPERTIES:
+:ID:       EB80DCFE-C3DE-4F49-AAC7-EA13EF682E5C
+:DATE_ADDED: [2018-06-30 Sat 00:49]
+:END:
+
+
+*** TODO Sort, Transcribe, and Archive June AudioBot             :AudioBot:
+:PROPERTIES:
+:ID:       819C038C-D3F6-40AD-89F8-EA3D202A0C95
+:DATE_ADDED: [2018-07-05 Thu 07:06]
+:END:
+
+
+*** TODO Update TeXLive
+:PROPERTIES:
+:ID:       57F9CA7E-9D0C-4AA3-80D1-3FC679EBD436
+:DATE_ADDED: [2018-07-05 Thu 07:08]
+:END:
+
+*** TODO Home | HotelDNR - The Ultimate Do-Not-Rent List             :TODO:
+:PROPERTIES:
+:ID:       FB940259-FB1F-44F7-AD9E-6FCD59A24E78
+:END:
+[2018-07-08 Sun 16:52]
+https://www.hoteldnr.com/
+
+*** TODO What are my goals for no contact
+:PROPERTIES:
+:ID:       36A17176-4E9A-4396-AB87-448DF9D10692
+:END:
+[2018-07-11 Wed 19:46]
+What are my anti-goals
+
+
+** DEFINITION                                                   :DEFINITION:
+:PROPERTIES:
+:ID:       D6006D4E-6013-4E35-9D78-C611B9769E8E
+:END:
+*** DEFINITION False Memory :: A form of misattribution where imagination is mistaken for a memory.
+:PROPERTIES:
+:ID:       D03864D6-610C-4411-B78C-BA204551C658
+:END:
+[2018-07-05 Thu 20:57]
+
+*** DEFINITION Cryptomynesia :: A form of misattribution where a memory is mistaken for imagination, because there is no subjective experience of it being a memory.
+:PROPERTIES:
+:ID:       0EA1C331-1E43-4B2A-BD6A-6EE877BDFCFA
+:END:
+[2018-07-05 Thu 20:58]
+
+
+*** DEFINITION Ego-centric Bias :: Recalling the past in a self-serving manner, e.g., remembering one's exam grades as being better than they were, or remembering a caught fish as bigger than it really was.
+:PROPERTIES:
+:ID:       22F5676E-C302-427C-8BE3-3B85F856C8EA
+:END:
+[2018-07-05 Thu 20:58]
+
+
+*** DEFINITION Generated Effect :: That self-generated information is remembered best. For instance, people are better able to recall memories of statements that they have generated than similar statements generated by others.
+:PROPERTIES:
+:ID:       A9E0B3FD-90F3-495A-9171-B04B5E8A19EB
+:END:
+[2018-07-05 Thu 20:59]
+
+
+*** DEFINITION Google Effect :: The tendency to forget information that can be found readily online by using Internet search engines .
+:PROPERTIES:
+:ID:       620CB4B0-D501-487C-A2FD-F143511F7A58
+:END:
+[2018-07-05 Thu 21:00]
+
+
+*** DEFINITION Hindsight :: The inclination to see past events as being more predictable than they actually were; also called the 'I-knew-it-all-along' effect.
+:PROPERTIES:
+:ID:       EAA61630-1AD0-4DCA-92EE-3578E4A03711
+:END:
+[2018-07-05 Thu 21:01]
+
+
+*** DEFINITION Humor Effect :: That humorous items are more easily remembered than non-humorous ones, which might be explained by the distinctiveness of humor, the increased cognitive processing time to understand the humor, or the emotional arousal caused by the humor.
+:PROPERTIES:
+:ID:       63841A74-31F2-4335-A7B5-9ED227B57F0C
+:END:
+[2018-07-05 Thu 21:02]
+
+
+*** DEFINITION That people are more likely to identify as true statements those they have Truth Effect :: previously heard (even if they cannot consciously remember having heard them), regardless of the actual validity of the statement. In other words, a person is more likely to believe a familiar statement than an unfamiliar one.
+:PROPERTIES:
+:ID:       FD3B84F7-3439-4E0B-B3F3-D0315DD19430
+:END:
+[2018-07-05 Thu 21:02]
+
+
+*** DEFINITION Illusory Correlation :: Inaccurately remembering a relationship between two events.
+:PROPERTIES:
+:ID:       CE359CC0-AB9D-40E5-B615-B07B1C079537
+:END:
+[2018-07-05 Thu 21:03]
+
+
+*** DEFINITION Leveling and Sharpening :: Memory distortions introduced by the loss of details in a recollection over time, often concurrent with sharpening or selective recollection of certain details that take on exaggerated significance in relation to the details or aspects of the experience lost through leveling. Both biases may be reinforced over time, and by repeated recollection or re-telling of a memory.
+:PROPERTIES:
+:ID:       7355DEC9-F5A2-4874-8ABC-01D4638E2740
+:END:
+[2018-07-05 Thu 21:04]
+
+
+*** DEFINITION Levels of Processing :: That different methods of encoding information into memory have different levels of effectiveness.
+:PROPERTIES:
+:ID:       2688A0B5-D804-43A2-8A3E-113582A03969
+:END:
+[2018-07-05 Thu 21:04]
+
+
+*** DEFINITION List Length Effect :: A smaller percentage of items are remembered in a longer list, but as the length of the list increases, the absolute number of items remembered increases as well.
+:PROPERTIES:
+:ID:       FFBCA66A-079E-4C23-9167-9F03D7AC80A5
+:END:
+[2018-07-05 Thu 21:05]
+
+
+*** DEFINITION Misinformation Effect :: Memory becoming less accurate because of interference from post-event information.
+:PROPERTIES:
+:ID:       3CBECAFF-ED6B-4C20-BD63-2CB0BE68715B
+:END:
+[2018-07-05 Thu 21:06]
+
+
+*** DEFINITION Modality Effect :: That memory recall is higher for the last items of a list when the list items were received via speech than when they were received through writing
+:PROPERTIES:
+:ID:       3D3E69F1-965E-42C2-9A5B-EA481FD4C5BE
+:END:
+[2018-07-05 Thu 21:06]
+
+** REFILE                                                       :REFILE:
+:PROPERTIES:
+:ID:       4481AB31-340F-4838-90F5-9AC7799C3AE6
+:END:
+
+*** LOG Coordinates:
+:PROPERTIES:
+:ID:       F07A3B09-1DE8-4B68-8818-4A0F7E56831E
+:DATE_ADDED: [2018-06-27 Wed 05:31]
+:END:
+
+  - Lake City, Florida:
+      - Latitude:         N   30.188762
+      - Longitude:     W -82.647103
+
+  - Gainesville, Florida:
+      - Latitude:     29.651634
+      - Longitude:    -82.324829
+
+  - Oakland, California:
+      - Latitude:         N  37.769857
+      - Longitude:     W -122.22564
+
+  - Ames, Iowa:
+      - Latitude:         N  42.025495
+      - Longitude:     W -93.627594
+
+  - Cochabamba, Bolivia:
+      - Latitude: -17.413977
+      - Longitude: -66.165322
+
+  - Isiburo Secure National Park, Bolivia:
+      - Latitude: -16.406565
+      - Longitude: -66.046353
+
+  - Tambo, Bolivia:
+      - Latitude: -18.024212
+      - Longitude: -64.447805
+
+  - Chimore, Bolivia:
+      - Latitude: -16.995260
+      - Longitude: -65.152154
+
+*** LOG Holiday Inn Coordinates
 :PROPERTIES:
 :ID:       71DAED63-5EDF-454D-9558-995D4CBF40CA
+:DATE_ADDED: [2018-06-24 Sun 11:52]
 :END:
-[2018-06-24 Sun 11:52]
 
-LAT: 30.1785276
-LONG: -82.68460879999998
-** RECIPE Korean Inspired Simple Roast Beef
-:PROPERTIES:
-:ID:       3994245D-C05D-4233-9F45-9C91A5A396E2
-:END:
-[2018-06-26 Tue 19:44]
-https://www.foodiewithfamily.com/korean-inspired-simple-roast-beef/
-** RECIPE Beer Cheese Soup in 15 Minutes
-:PROPERTIES:
-:ID:       DA27280E-1883-44F1-AE93-87C176BD9794
-:END:
-[2018-06-26 Tue 14:02]
-https://cookthestory.com/beer-cheese-soup-recipe/
-** PODCAST Emacs Rocks!
-:PROPERTIES:
-:ID:       8CBBB83F-49AD-4E8E-A62E-1F4A78263CD8
-:END:
- [2018-06-23 Sat 13:55]
- http://emacsrocks.com/
+  - LAT: 30.1785276
+  - LONG: -82.68460879999998
 
-
-** BILL Phone Bill                                                    :BILL:
+*** NOTE Kerckhoffs Principle                                :CRYPTOGRAPHY:
 :PROPERTIES:
-:ID:       35A5C4A4-D488-4F23-8486-9AAFFA7AC80E
+:ID:       58E4381C-BCBF-49DB-B414-DA559D69D567
+:DATE_ADDED: [2018-07-04 Wed 14:34]
 :END:
-** BILL Car Payment                                                   :BILL:
+
+  In 1883 *Auguste Kerckhoffs* wrote two journal articles on La Cryptographie Militaire, in which he stated six design principles for military ciphers. Translated from French, they are:
+
+  - The system must be practically, if not mathematically, indecipherable;
+  - *It should not require secrecy, and it should not be a problem if it falls into enemy hands*;
+  - It must be possible to communicate and remember the key without using written notes, and correspondents must be able to change or modify it at will;
+  - It must be applicable to telegraph communications;
+  - It must be portable, and should not require several persons to handle or operate;
+  - Lastly, given the circumstances in which it is to be used, the system must be easy to use and should not be stressful to use or require its users to know and comply with a long list of rules.
+  
+  Some are no longer relevant given the ability of computers to perform complex encryption, but his second axiom, now known as Kerckhoffs's principle, is still critically important.
+
+*** NOTE Kerckhoffs's principle applies beyond codes and ciphers to security systems in general :CRYPTOGRAPHY:
+:PROPERTIES:
+:ID:       0A9A2DCC-CDA7-4DED-816F-2E30DAADF84B
+:DATE_ADDED: [2018-07-04 Wed 14:35]
+:END:
+  *Every secret creates a potential failure point.*
+    - Secrecy, in other words, is a prime cause of brittleness—and therefore something likely to make a system prone to catastrophic collapse.
+    - Conversely, openness provides ductility.
+
+*** NOTE A Generalization of Kerckhoffs's Principle          :CRYPTOGRAPHY:
+:PROPERTIES:
+:ID:       803B20EA-4149-46B4-A47D-BBE94ADB5981
+:DATE_ADDED: [2018-07-04 Wed 14:35]
+:END:
+
+  /"The fewer and simpler the secrets that one must keep to ensure system security, the easier it is to maintain system security."/
+  Bruce Schneier ties it in with a belief that *all security systems must be designed to fail as gracefully as possible.*
+
+*** BILL Car Payment                                                 :BILL:
 :PROPERTIES:
 :ID:       67DA06BD-A6FA-4007-8A21-5AA347F4C37A
 :END:
 
-* TODO Coordinates:
-[2018-06-27 Wed 05:31]
-
-Lake City, Florida:
-    Latitude:         N   30.188762
-    Longitude:     W -82.647103
-
-Gainesville, Florida:
-    Latitude:     29.651634
-    Longitude:    -82.324829
-
-Oakland, California:
-    Latitude:         N  37.769857
-    Longitude:     W -122.22564
-
-Ames, Iowa:
-    Latitude:         N  42.025495
-    Longitude:     W -93.627594
-
-Cochabamba, Bolivia:
-    Latitude: -17.413977
-    Longitude: -66.165322
-
-Isiburo Secure National Park, Bolivia:
-    Latitude: -16.406565
-    Longitude: -66.046353
-
-Tambo, Bolivia:
-    Latitude: -18.024212
-    Longitude: -64.447805
-
-Chimore, Bolivia:
-    Latitude: -16.995260
-    Longitude: -65.152154
-
-
-* READLATER OSINT Resources - The Grey Network
-[2018-06-27 Wed 05:40]
-https://sites.google.com/site/greynetwork2/home/osint-resources
-
-
-* READLATER Bellingcat's Digital Toolkit
-[2018-06-27 Wed 16:36]
-https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/mobilebasic
-
-
-* READLATER Easy IKEA Hacks For Your Apartment - Best DIY Projects - Thrillist
-[2018-06-27 Wed 20:34]
-https://www.google.com/amp/s/www.thrillist.com/amphtml/home/easy-ikea-hacks-for-your-apartment-best-diy-projects
-
-
-* READLATER IKEA Hack Ideas That Will Dominate 2018 | Apartment Therapy
-[2018-06-27 Wed 20:37]
-https://www.google.com/amp/s/amp.apartmenttherapy.com/ikea-hacks-ideas-2018-254423
-
-
-* WATCHLATER CSI for Bad Guys
-[2018-06-27 Wed 21:38]
-https://www.youtube.com/watch?v=0AwI6YrV2h4&feature=share
-
-
-
-
-* TODO emacsd dirtree diagram
-[2018-06-28 Thu 07:37]
-https://www.dropbox.com/sh/x9lv29hhaubxokz/AADbresptq8rYkCcw5UeO9Pba?dl=0
-
-
-* DONE Roc scrub
-[2018-06-28 Thu 07:59]
-
-
-* DONE Magnesium
-[2018-06-28 Thu 07:59]
-
-
-* DONE Sunscreen
-[2018-06-28 Thu 07:59]
-
-
-
-
-
-* NOTE Surprise Microexpression ::
-[2018-06-28 Thu 21:01]
-  - The brows are raised and curved
-  - Skin below the brow is stretched
-  - Horizontal wrinkles across the forehead
-  - Eyelids are opened, white of the eye showing above and below
-  - Jaw drops open and teeth are parted but there is not tension or stretching of the mouth
-
-
-* NOTE Fear Microexpression ::
-[2018-06-28 Thu 21:02]
-  - Brows are raised and drawn together, usually in a flat line
-  - Wrinkles in the forehead are in the center between the brows, not across
-  - Upper eyelid is raised, but the lower lid is tense and drawn up
-  - Upper eye has white showing, but not the lower white
-  - Mouth is open and lips are slightly tensed or stretched and drawn back
-
-
-* NOTE Disgust Microexpression ::
-[2018-06-28 Thu 21:03]
-  - Upper lid is raised
-  - Lower lip is raised
-  - Nose is wrinkled
-  - Cheeks are raised
-  - Lines show below the lower lid
-
-This is the expression you make when you smell something bad.
-
-
-* NOTE Anger Microexpression ::
-[2018-06-28 Thu 21:04]
-  - The brows are lowered and drawn together
-  - Vertical lines appear between the brows
-  - Lower lid is tensed
-  - Eyes hard stare or bulging
-  - Lips can be pressed firmly together with corners down or square shape as if shouting
-  - Nostrils may be dilated
-  - The lower jaw juts out
-
-All three facial areas must be engaged to not have any ambiguity
-
-
-* NOTE Happiness Microexpression ::
-[2018-06-28 Thu 21:06]
-  - Corners of the lips are drawn back and up
-  - Mouth may or may not be parted, teeth exposed
-  - A wrinkle runs from outer nose to outer lip
-  - Cheeks are raised
-  - Lower lid may show wrinkles or be tense
-  - Crows feet near the outside of the eyes
-
-
-
-
-* NOTE Sadness Microexpression ::
-[2018-06-28 Thu 21:07]
-  - Inner corners of the eyebrows are drawn in and then up
-  - Skin below eyebrow triangulated, with inner corner up
-  - Corner of the lips are drawn down
-Jaw comes up
-Lower lip pouts out
-
-This is the hardest microexpression to fake!
-
-
-* NOTE Contempt / Hate Microexpression ::
-[2018-06-28 Thu 21:07]
-  - One side of the mouth raises
-
-
-* BUY Agate Party Plate Set in Earthy Gifts by Streamlline
-[2018-06-29 Fri 16:26]
-https://www.perpetualkid.com/agate-party-plate-set.html?gclid=CjwKCAjwsdfZBRAkEiwAh2z65p-a9_bwV_n8-JtWqcEPC2B67cV1clK5FhZotA-5odX-4j6m_SAcuRoCusMQAvD_BwE
-
-
-* DONE Feed Animals
-[2018-06-30 Sat 00:32]
-
-
-* TODO Clean up kitchen
-[2018-06-30 Sat 00:32]
-
-
-* TODO Specify agenda files better
-[2018-06-30 Sat 00:33]
-
-
-* TODO BUP Homebrew
-[2018-06-30 Sat 00:49]
-
-
-* TODO Test out Splashtop on local network
-[2018-06-30 Sat 00:49]
-
-
-* TODO symlink emacs.d/personal to dropbox
-[2018-06-30 Sat 00:50]
-
-
-
+*** BUY Agate Party Plate Set in Earthy Gifts by Streamlline     :WISHLIST:
+:PROPERTIES:
+:ID:       DEB7FFD9-ADCC-42CD-ACEE-750EA8FABFB3
+:DATE_ADDED: [2018-06-29 Fri 16:26]
+:END:
+  https://www.perpetualkid.com/agate-party-plate-set.html?gclid=CjwKCAjwsdfZBRAkEiwAh2z65p-a9_bwV_n8-JtWqcEPC2B67cV1clK5FhZotA-5odX-4j6m_SAcuRoCusMQAvD_BwE
+
+*** COMMENT Mom has been balls to the wall bat shit crazy for 48 hours :COMMENT:
+:PROPERTIES:
+:ID:       DCE7FB66-49BC-4F00-AD4A-8DFE29CDAB4F
+:END:
+<2018-07-06 Fri>
+[2018-07-06 Fri 11:39]
+Shes sleep deprived
+She took amoxicillin and now shes acting like a crazed baseball parent on crack
+Shes making accusations that aren't even based in a strange ass alternate dimension 
+
+** LibrarianBot                                           :LibrarianBot:
+:PROPERTIES:
+:ID:       03CBE56C-7DC6-44D4-9C6D-FC49208E92C5
+:END:
+
+*** PODCAST Emacs Rocks!
+:PROPERTIES:
+:ID:       8CBBB83F-49AD-4E8E-A62E-1F4A78263CD8
+:DATE_ADDED: [2018-06-23 Sat 13:55]
+:END:
+
+  http://emacsrocks.com/
+
+*** READLATER OSINT Resources - The Grey Network
+:PROPERTIES:
+:ID:       FA3C79E4-16EE-4EA7-9474-36E84E7B2AF2
+:DATE_ADDED: [2018-06-27 Wed 05:40]
+:END:
+
+  https://sites.google.com/site/greynetwork2/home/osint-resources
+*** READLATER Bellingcat's Digital Toolkit
+:PROPERTIES:
+:ID:       7C133D6C-689C-4F4C-A1CA-98741C9C7C99
+:DATE_ADDED: [2018-06-27 Wed 16:36]
+:END:
+
+  https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/mobilebasic
+*** READLATER Easy IKEA Hacks For Your Apartment - Best DIY Projects - Thrillist
+:PROPERTIES:
+:ID:       4DAA85D0-06EC-499B-AB66-D1BCDC9AEE64
+:DATE_ADDED: [2018-06-27 Wed 20:34]
+:END: 
+
+  https://www.google.com/amp/s/www.thrillist.com/amphtml/home/easy-ikea-hacks-for-your-apartment-best-diy-projects
+*** READLATER IKEA Hack Ideas That Will Dominate 2018 | Apartment Therapy
+:PROPERTIES:
+:ID:       CADB592E-F381-4F07-B1BC-5BEF11D30945
+:DATE_ADDED: [2018-06-27 Wed 20:37]
+:END:
+
+  https://www.google.com/amp/s/amp.apartmenttherapy.com/ikea-hacks-ideas-2018-254423
+*** READLATER How do you deal with nightmare hotel guests?
+:PROPERTIES:
+:ID:       A07E35A6-5534-47C2-A08C-0814E9C8A1B8
+:DATE_ADDED: [2018-07-03 Tue 14:00]
+:END:
+  https://www.hcareers.com/article/career-advice/how-do-you-deal-with-nightmare-hotel-guests
+*** READLATER Hotel - Funny Quotes & True Stories
+:PROPERTIES:
+:ID:       C42EA85C-FF06-4423-B4F3-63B6558BB8FA
+:DATE_ADDED: [2018-07-03 Tue 14:14]
+:END:
+
+  https://notalwaysright.com/tag/hotel/
+
+
+*** READLATER High Heels -- If They Hurt, You're Doing It Wrong
+:PROPERTIES:
+:ID:       AC98CB64-A25B-4BFC-8165-88E7E1D1C42E
+:DATE_ADDED: [2018-07-03 Tue 21:19]
+:END:
+
+  https://www.xojane.com/clothes/how-to-buy-comfortable-high-heels
+*** READLATER CWE - Common Weakness Enumeration
+:PROPERTIES:
+:ID:       B6DA4B1E-F146-4A49-852A-BD67B51414BC
+:DATE_ADDED: [2018-07-04 Wed 14:27]
+:END:
+
+  http://cwe.mitre.org/
+*** READLATER Ciphertext indistinguishability - Wikipedia
+:PROPERTIES:
+:ID:       DBA556D2-74FC-42BE-88B5-AB639BA55DB3
+:DATE_ADDED: [2018-07-04 Wed 14:37]
+:END:
+  https://en.wikipedia.org/wiki/Ciphertext_indistinguishability#Indistinguishability_under_chosen-plaintext_attack_.28IND-CPA.29
+*** READLATER Common antibiotics may trigger DELIRIUM: Drugs can cause confusion, hallucinations and agitation for weeks, study warns | Daily Mail Online
+:PROPERTIES:
+:ID:       353C321E-2434-4C5D-906A-5222F02BC734
+:END:
+[2018-07-06 Fri 02:39]
+http://www.dailymail.co.uk/health/article-3451468/Common-antibiotics-trigger-DELIRIUM-Drugs-cause-confusion-hallucinations-agitation-weeks-study-warns.html
+*** READLATER AAN
+:PROPERTIES:
+:ID:       400D49C4-2A02-4A21-BAC6-0A37C074C15F
+:END:
+[2018-07-06 Fri 02:47]
+https://www.aan.com/PressRoom/Home/PressRelease/1433
+*** READLATER A 67-Year-Old Woman with Agitation and Confusion - Medical Exam Prep
+:PROPERTIES:
+:ID:       E4053974-7037-4B38-9A58-37EDC2BE437D
+:END:
+[2018-07-06 Fri 02:53]
+https://www.medicalexamprep.co.uk/67-year-old-woman-agitation-confusion/
+*** READLATER 5 Things People Commonly Say When They're Lying | Psychology Today
+:PROPERTIES:
+:ID:       DEA9D566-D74C-4E89-8398-841B942C5749
+:END:
+[2018-07-06 Fri 13:55]
+https://www.google.com/amp/s/www.psychologytoday.com/us/blog/let-their-words-do-the-talking/201611/5-things-people-commonly-say-when-theyre-lying%3famp
+*** READLATER Crazy-Makers: Dealing With Passive-Aggressive People
+:PROPERTIES:
+:ID:       C1260441-DE76-4AA3-B870-2346F539F43D
+:END:
+[2018-07-06 Fri 14:12]
+https://www.excelatlife.com/articles/crazy-makers.htm
+*** READLATER 8 Signs of Narcissistic Rage | Psychology Today
+:PROPERTIES:
+:ID:       22860897-232F-4BA2-A08F-D0D92A60D174
+:END:
+[2018-07-10 Tue 19:55]
+https://www.psychologytoday.com/us/blog/communication-success/201807/8-signs-narcissistic-rage?amp
+*** READLATER 6 Self-Sabotaging Things Narcissists Do | Psychology Today
+:PROPERTIES:
+:ID:       9D6E2C4E-D29A-4C38-9692-E93CC5CD6AF6
+:END:
+[2018-07-10 Tue 19:57]
+https://www.psychologytoday.com/us/blog/in-practice/201807/6-self-sabotaging-things-narcissists-do?amp
+
+*** READLATER Why one CEO's mental health email went viral - Chicago Tribune
+:PROPERTIES:
+:ID:       6680F04E-2C01-439C-8A9A-2D31564CBB4C
+:END:
+[2018-07-10 Tue 14:14]
+https://www.google.com/amp/www.chicagotribune.com/lifestyles/ct-viral-mental-health-email-20170714-story,amp.html
+
+** RECIPE                                                      :SwedishChef:
+:PROPERTIES:
+:ID:       789B3E10-CFDE-448D-85C3-7938EB1E7EED
+:END:
+
+*** RECIPE Korean Inspired Simple Roast Beef
+:PROPERTIES:
+:ID:       3994245D-C05D-4233-9F45-9C91A5A396E2
+:DATE_ADDED: [2018-06-26 Tue 19:44]
+:END:
+
+  https://www.foodiewithfamily.com/korean-inspired-simple-roast-beef/
+
+*** RECIPE Beer Cheese Soup in 15 Minutes
+:PROPERTIES:
+:ID:       DA27280E-1883-44F1-AE93-87C176BD9794
+:DATE_ADDED: [2018-06-26 Tue 14:02]
+:END:
+
+  https://cookthestory.com/beer-cheese-soup-recipe/
+
+
+** PACKAGE                                                     :PACKAGE:
+:PROPERTIES:
+:ID:       B3AD8084-5706-4070-9601-24380D23A464
+:END:
+
+*** PACKAGE Settings for org-review
+:PROPERTIES:
+:ID:       C4820AEF-72B9-4705-8885-34069788D597
+:DATE_ADDED: [2018-06-27 Wed 03:26]
+:END:
+
+
+*** PACKAGE docean - MELPA
+:PROPERTIES:
+:ID:       3F7CA399-37B6-4D14-A62D-AD8B7D12624A
+:DATE_ADDED: [2018-07-04 Wed 09:18]
+:END:
+
+  https://melpa.org/#/docean
+
+
+*** PACKAGE which-key - MELPA
+:PROPERTIES:
+:ID:       6B1BB39D-CCA0-45F7-9CAF-8A4BF9B3D6C8
+:DATE_ADDED: [2018-07-05 Thu 05:40]
+:END:
+
+  https://melpa.org/#/which-key
+
+** PURGATORY                                                     :PURGATORY:
+:PROPERTIES:
+:ID:       876640A2-1E28-4378-AD73-235583AB73B9
+:END:
+
+*** PURGATORY Fix org-mode sync mobile
+:PROPERTIES:
+:ID:       265970F2-7A8F-4A7F-A97B-2533CB704246
+:DATE_ADDED: [2018-06-18 Mon 14:26]
+:END:
+
+*** PURGATORY Find Soft Phone Service
+:PROPERTIES:
+:ID:       FAE2A3E6-21DC-4538-BB21-8E7A7F8DDEDD
+:DATE_ADDED: [2018-06-14 Thu 08:35]
+:END:
+
+*** PURGATORY org done strike-through settings is fucked up again
+:PROPERTIES:
+:ID:       B391FF93-5765-47F8-967E-CE39E131E97A
+:DATE_ADDED: [2018-06-27 Wed 00:36]
+:END:
+
+** WAITING                                                         :WAITING:
+:PROPERTIES:
+:ID:       564F4D9A-7D48-4922-8610-65FC924581CD
+:END:
+
+*** WAITING Fill out Windsong Application                         :WAITING:
+:PROPERTIES:
+:ID:       73A0E186-6082-4802-AE8B-964479BBFDAB
+:DATE_ADDED: [2018-06-14 07:49]
+:END:
+
+
+** COMMENT                                                         :COMMENT:
+:PROPERTIES:
+:ID:       6F7D2BD7-CD48-4484-B66D-69817C69438C
+:END:
+*** COMMENT not quite indecent proposal
+:PROPERTIES:
+:ID:       2005E2DD-32D9-4E0B-9627-708EE497CC37
+:END:
+[2018-07-09 Mon 00:00]
+"can you pose with me in pictures at various restaurants so my exwife will think im dating?"
+me: uhhh wat?
+*** COMMENT The ones who say "you give me no choice" are the biggest fools of them all.
+:PROPERTIES:
+:ID:       B57BC772-2A07-4003-83F3-8820DA42811A
+:END:
+[2018-07-09 Mon 16:10]
+*** COMMENT They sit there day after day, night after night, giving everything to a box, letting it live for them, think for them; it takes everything from them and they absently offer more. It over stimulates them, leaving them bored, empty, bitter lives that can never measure up to the carefully choreographed world it shows them.
+:PROPERTIES:
+:ID:       3A7CEFCF-3C56-4612-BCFE-126617CD2410
+:END:
+[2018-07-09 Mon 16:19]
+They waste away, and we are left behind wondering if they were ever there.
+What could we remember of them when they are gone? Two shells in front of a television is the strongest memory we have.
+A memory of lives wasted, of time they chose to spend dreaming of lives that never existed, instead of with us.
+
+
+** ACCOUNT                                                         :ACCOUNT:
+:PROPERTIES:
+:ID:       83EB9A54-F8F4-48D6-B5B3-20927F785B6F
+:END:
+*** ACCOUNT OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries
+:PROPERTIES:
+:ID:       78106B76-A0EB-443C-9A7E-289F899455DC
+:END:
+[2018-07-09 Mon 00:03]
+https://www.overdrive.com/account/sign-in?ReturnUrl=%2faccount%2fverify
+
+
+** NOTE                                                               :NOTE:
+:PROPERTIES:
+:ID:       40A8AA1B-5ED8-4669-B749-F31E3E9E4F3D
+:END:
+*** NOTE The consumption of mass media has had a profound effect on instilling the fear of terrorism in the United States, though acts of terror are a rare phenomenon.
+:PROPERTIES:
+:ID:       2A667683-5B3C-4378-BBFA-496E4099641D
+:END:
+[2018-07-10 Tue 13:06]
+file:///var/mobile/Containers/Data/Application/3FE5D8BE-EDC8-4D88-866B-FF52969A7B5D/Library/Caches/2018-07-10-13-06-37.txt
+
+Beginning in the 1960s, George Gerbner and his colleagues have accelerated the study of the relationship that exists between media consumption and the fear of crime.
+
+According to Gerbner, television and other forms of mass media create a worldview that is reflective of “recurrent media messages”, rather than one that is based on reality.
+
+Many Americans are exposed to some form of media on a daily basis, with television and social media platforms being the most used methods to receive both local and international news, and as such this is how most receive news and details that center around violent crime and acts of terror.
+
+With the rise in use of smartphones and social media, people are bombarded with constant news updates, and able to read stories related to terrorism, stories that come from all corners of the globe.
+
+Media fuels fear of terrorism and other threats to national security, all of which have negative psychological effects on the population, such as depression, anxiety, and insomnia.
+
+Politicians conduct interviews, televised or otherwise, and utilize their social media platforms immediately after violent crimes and terrorist acts, to further cement the fear of terrorism into the minds of their constituents.
+
+
+
+*** NOTE In Gestalt theory, psychologists say that instead of obtaining knowledge from what's in front of us, we often learn by making sense of the relationship between what's new and old.
+:PROPERTIES:
+:ID:       18B8E3DB-DC75-4B65-9BEC-B0228A3BA5C8
+:END:
+[2018-07-10 Tue 13:07]
+file:///var/mobile/Containers/Data/Application/3FE5D8BE-EDC8-4D88-866B-FF52969A7B5D/Library/Caches/2018-07-10-13-07-31.txt
+
+Because we have a unique perspective of the world, humans have the ability to generate their own learning experiences and interpret information that may or may not be the same for someone else.
+
+
+*** NOTE Examples of narcissistic rage range from intense outbursts and sudden fits of anger, to passive-aggressive acts such as simmering resentment, icy silence, deliberate neglect, or cutting sarcasm. What distinguishes narcissistic rage from normal anger is that it is usually unreasonable, disproportional, and cuttingly aggressive (or intensely passive-aggressive), all because the narcissists’ wants and wishes are not being catered to. It is a blow to their superficial, idealized self-image (narcissistic injury).
+:PROPERTIES:
+:ID:       87D42C6A-D5CA-494A-A298-95115AF051F7
+:END:
+[2018-07-10 Tue 19:54]
 

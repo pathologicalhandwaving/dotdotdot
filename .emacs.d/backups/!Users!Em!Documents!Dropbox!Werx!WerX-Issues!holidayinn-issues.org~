@@ -1,6 +1,7 @@
  i#+TITLE: HolidayInn - Issues Log
 #+DATE_CREATED: 2018-06-02
 #+CATEGORY: Work
+#+SUB_CATEGORY: HolidayInn
 #+TODO: ISSUE(i) REPORTED(p) DELEGATED(d) RESOLUTION(r) LOGGED(l) | CLOSED(c)
 
 * HolidayInn: Issues Log
@@ -9,10 +10,14 @@
  :CUSTOM_ID: holidayinn-issues-log
  :CATEGORY: Work
  :SHIFT: All
+ :ID:       63B23D56-E922-4C86-9EEB-70EEA2E0984C
  :END:
 
 
 ** ISSUE Room 526
+:PROPERTIES:
+:ID:       994F384C-8D4F-4B3B-908B-CF882261E11B
+:END:
   :ISSUE:
   :DATE_CREATED: 2018-06-10
   :ROOM: 526
@@ -23,6 +28,9 @@
   :END:
 
 ** ISSUE Guest Office Space
+:PROPERTIES:
+:ID:       326A2996-FF6A-4309-8915-1A29DC075B0E
+:END:
   :ISSUE:
   :DATE_CREATED: 2018-06-10
   :AREA: Guest Office Space
@@ -31,6 +39,9 @@
   :END:
   
 ** ISSUE Shreading 
+:PROPERTIES:
+:ID:       E22F18B7-E593-4559-8AFB-D97761A5A256
+:END:
   :ISSUE:
   :DATE_CREATED: 2018-06-10
   :AREA: Front Desk Trash

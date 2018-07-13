@@ -3,15 +3,67 @@
 :PROPERTIES:
 :ID:       D2A42FAB-A84C-4555-A40F-0EAFA603BC53
 :END:
+
 ** 2018-06 June
 :PROPERTIES:
-:ID:       BC4D18C2-1942-40AD-9DD9-343088AFFDBE
+:ID:       F5E17A58-D819-4E18-9C54-368DE1A04541
 :END:
+
+  
+*** 2018-06-10 Sunday
+:PROPERTIES:
+:ID:       22D566FA-F1B4-4B7B-B749-761D61B62416
+:END:
+
+**** ISSUE Room 526
+:PROPERTIES:
+:ID:       994F384C-8D4F-4B3B-908B-CF882261E11B
+:ISSUE:
+:DATE_CREATED: 2018-06-10
+:ROOM: 526
+:GUEST_NAME: Karri Petersen
+:DATE_RANGE: 2018-06-07 - 2018-06-10
+:ISSUE_TYPE: Smoking violation
+:ADVISED: Subtotalled guests room charges per day with taxes until guest admitted she was asking about the 250.00 charge. Guest claims the room smelled like that when they got there, advised to speak with Carrie during normal business hours Monday through Friday. Guest asked how we were able to charge her card, answered as per her rental agreement. Guest will speak with Carrie.
+:END:
+
+**** ISSUE Guest Office Space
+:PROPERTIES:
+:ID:       326A2996-FF6A-4309-8915-1A29DC075B0E
+:ISSUE:
+:DATE_CREATED: 2018-06-10
+:AREA: Guest Office Space
+:DESCRIPTION: Left and Right computers not network connected. Printer keeps wanting tray 1 filled. Restarted all devices. Speed test failure on both PCs. Cannot complete troubleshooting due to guest account restrictions.
+:NOTIFY: Carrie  
+:END:
+  
+**** ISSUE Shreading 
+:PROPERTIES:
+:ID:       E22F18B7-E593-4559-8AFB-D97761A5A256
+:ISSUE:
+:DATE_CREATED: 2018-06-10
+:AREA: Front Desk Trash
+:DESCRIPTION: Front desk trash contains identifying information of guests in the form of Names, Addresses, Phone Numbers, Method of Payment, and Last 4 of CC. These items should be shreaded and are not being.
+:END:
+
+*** ISSUE Room 526
+:PROPERTIES:
+:ID:       994F384C-8D4F-4B3B-908B-CF882261E11B
+:END:
+  :ISSUE:
+  :DATE_CREATED: 2018-06-10
+  :ROOM: 526
+  :GUEST_NAME: Karri Petersen
+  :DATE_RANGE: 2018-06-07 - 2018-06-10
+  :ISSUE_TYPE: Smoking violation
+  :ADVISED: Subtotalled guests room charges per day with taxes until guest admitted she was asking about the 250.00 charge. Guest claims the room smelled like that when they got there, advised to speak with Carrie during normal business hours Monday through Friday. Guest asked how we were able to charge her card, answered as per her rental agreement. Guest will speak with Carrie.
+  :END:
+
 *** 2018-06-21 Thursday
 :PROPERTIES:
 :ID:       8A623286-50DF-482B-A020-044A7EFFFD3A
 :END:
-<2018-06-21 Thu>
+[2018-06-21 Thu]
 
 **** ISSUE 01:30
 :PROPERTIES:
@@ -59,5 +111,215 @@
 :PROPERTIES:
 :ID:       FD593665-626D-4C70-8D13-CE598F9BF8B9
 :END:
+:PROPERTIES:
+:ID:       E313A6AB-4C3D-4896-8095-E0C84A85DEF5
+:END:
+ 
+*** 2018-06-28 Thursday
+:PROPERTIES:
+:ID:       75BA7064-1AEB-4D39-AD46-BEF27DBEA1FC
+:END:
+[2018-06-28 Thu]
+
+**** ISSUE Bed Hairs
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 03:28>
+:ISSUE_TYPE:  Other
+:ISSUE_LOC: 311
+:ISSUE_PRIORITY: Low
+:ISSUE_STATUS:  Closed
+:ID:       8A53B95A-D31D-47EB-9522-B595B9A74502
+:END:
+
+***** DETAILS Guest stated there were long hairs in one bed and short in the other. Wanted a room where he could see his new very nice boat. 311 was not appropriate since he is traveling with 20 year old daughter. New linens were provided and breakfast cards given. Later, Carrie reduced rate as well.
+:PROPERTIES:
+:ID:       E9030991-A1DD-4C57-8A3A-843020BA65B1
+:END:
+
+**** ISSUE 310 Phone
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 05:55>
+:ISSUE_TYPE:  Maintenance 
+:ISSUE_LOC: 310
+:ISSUE_PRIORITY:  Minor 
+:ISSUE_STATUS:  Report 
+:ID:       D1A5B65E-2F63-4A0F-BB5A-CDB3FED5A75E
+:END:
+
+***** DETAILS Phone in 319 does not work. Guest attempted to call several times, he could hear me but I could not hear him.
+:PROPERTIES:
+:ID:       013F52CD-C7F0-4175-8F2E-A6A5985F94B3
+:END:
+
+**** ISSUE 310 Beds Issue
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 05:56>
+:ISSUE_TYPE:  Other
+:ISSUE_LOC: 310 Beds
+:ISSUE_PRIORITY:  Moderate 
+:ISSUE_STATUS:  Closed
+:ID:       3D56A8A1-4239-41CF-8D82-F596C63F9DB0
+:END:
+
+***** DETAILS Guest reported hairs in both beds; short hairs in one bed, long in the other. Provided linens as no other rooms satisfied the guest's requirements.
+:PROPERTIES:
+:ID:       CBB22A62-0D64-4431-B29D-A06916C6841B
+:END:
+
+**** ISSUE 506 AC
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 05:58>
+:ISSUE_TYPE:  Maintenance 
+:ISSUE_LOC: 506
+:ISSUE_PRIORITY:  Moderate 
+:ISSUE_STATUS:  Report 
+:ID:       03D8F0AC-B898-40DB-B409-5772AE8C71C9
+:END:
+
+***** DETAILS AC not cooling room according to guest, moved guest as requested to room 519.
+:PROPERTIES:
+:ID:       A349860A-EAA6-4266-BB6D-F53E06F3BAEF
+:END:
+
+**** ISSUE Leak in Laundry Closet
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 05:59>
+:ISSUE_TYPE:  Maintenance 
+:ISSUE_LOC: Laundry Store Room
+:ISSUE_PRIORITY:  Important 
+:ISSUE_STATUS:  Report 
+:ID:       D5C71693-832D-4AEB-AA1F-965F6A5F0114
+:END:
+
+***** DETAILS Leak is back in the Laundry store room, water in light fixture. Reported by Rose. Bucket placed, light turned off.
+:PROPERTIES:
+:ID:       7656C8D2-D042-4C86-BBA8-87F6A630E9EA
+:END:
+
+**** ISSUE Leak in Breakroom
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 06:01>
+:ISSUE_TYPE:  Maintenance 
+:ISSUE_LOC: Breakroom
+:ISSUE_PRIORITY:  Minor 
+:ISSUE_STATUS:  Report 
+:ID:       56E17645-EBD4-4D81-BDD3-34EF036FB669
+:END:
+
+***** DETAILS Small trickle in breakroom, no bucket necessary at this time.
+:PROPERTIES:
+:ID:       12B5F43C-CB2F-4CA7-9BA6-8E9683AF24EC
+:END:
+
+**** ISSUE Concierto Migration
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 06:02>
+:ISSUE_TYPE:  Other
+:ISSUE_LOC: Concierto Migration
+:ISSUE_PRIORITY:  Important 
+:ISSUE_STATUS:  Report 
+:ID:       404A6064-A423-4098-BCC5-928445A42957
+:END:
+
+***** DETAILS Ran OXI 14-Day Availability Report at 2AM, 4AM, and 6AM EST email sent as reply to support contact Sunil. Reports saved on desktop in folder "Concierto"
+:PROPERTIES:
+:ID:       7F5F5C3F-2FCF-41CD-94AA-356A24E230E8
+:END:
+
+**** ISSUE PMS Refresh Rates
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 06:06>
+:ISSUE_TYPE:  Other
+:ISSUE_LOC: Office
+:ISSUE_PRIORITY:  Important 
+:ISSUE_STATUS:  Report 
+:ID:       436E2AED-77B8-47F9-B421-E1A84B1D5E6A
+:END:
+
+***** DETAILS PMS Rate Refresh needs to be run in Opera within 24 hours advised support
+:PROPERTIES:
+:ID:       0BC00C62-5E0C-4A35-976E-5222B2A3D447
+:END:
+
+**** ISSUE 612 CC-Auth
+:PROPERTIES:
+:DATE_ADDED: <2018-06-28 Thu 06:08>
+:ISSUE_TYPE:  Files 
+:ISSUE_LOC: Folio Room 612 Love
+:ISSUE_PRIORITY:  Moderate 
+:ISSUE_STATUS:  Report 
+:ID:       F2F3D8F6-BA13-45F8-9757-97CFCAAFBF06
+:END:
+
+***** DETAILS Folio comment indicates that cc-auth is on file at front desk. Unable to located cc-auth on desk or in book of accounts.
+:PROPERTIES:
+:ID:       0A75009C-333A-46C6-8D60-9A0D14CD7BE5
+:END:
+
+** 2018-07 July
+:PROPERTIES:
+:ID:       95AE025D-0A94-48D7-917A-305DAF538C60
+:END:
+*** 2018-07-05 Thursday
+:PROPERTIES:
+:ID:       1644488B-C209-41D2-B462-88E4D0F8FBB4
+:END:
+[2018-07-05 Thu]
+
+**** ISSUE  Trojan Desk B                           :VULN:DESK:WerX:ISSUE:
+:PROPERTIES:
+:ISSUE: 20180605-12:00
+:DATE_ADDED: [2018-07-05 Thu 00:22]
+:CLOSED: [2018-07-05 Thu 03:40]
+:ISSUE_TYPE:  Other
+:ISSUE_LOC: Desk B
+:ISSUE_PRIORITY:  Important 
+:ISSUE_STATUS:  Closed 
+:ID:       AAB708DA-B44D-462F-A75C-639B55C872F4
+:DESCRIPTION: Desk B acting wonky. Checked notifications. Quarentined trojan. Updating Windows Defender on Desk A, B, and Audit. Updated McAffee Definitions. Running McAfee Rootkit scan on A and B. Running Defender Full Scan on A and B. Cannot update security definitions on Carrie's computer since no connection available (sorry Carrie). Desk_C (audit) also had trojan, quarentined and then removed.
+:VULN: Cloxer.A!cl 05-21-2018, Cloxer.D!cl 06-11-2018
+:DESK_A: VULN, Defender Full Negative, Memory Rootkit Negative, Running Processes (Memory) Negative, All Local Drives Negative, 
+:DESK_B: Defender Full, Memory Rootkits - Negative, 
+:DESK_C: VULN,  Defender Full - , Memory Rootkit 
+:VULN_STATUS: Removed
+:VULN_DEGREE: Clocker is not a trojan its a component of MS wallet that MS Defender incorrectly flags as a trojan, bc Microshaft...
+:END:
 
 
+| Scan Type         | Desk A                   | Desk B        | Desk C        |
+|-------------------+--------------------------+---------------+---------------|
+| Defender - Full   | Negative                 | Negative      | Negative      |
+| Memory Rootkits   | Negative                 | Negative      | Negative      |
+| Running Processes | Negative                 | Negative      | Negative      |
+| All Local Drives  | Negative                 | Negative      | Negative      |
+| McAfee Threats    | Negative                 | Negative      | Negative      |
+| MalwareBytes      | Negative                 | Not Installed | Not Installed |
+| OS Update         | Not Finished Downloading | Ditto         | Ditto         |
+
+
+***** TODO Update Desk A Microsoft Security
+:PROPERTIES:
+:ID:       19FED62C-2A1C-4891-AAC4-130AEE4DC3C7
+:END:
+
+* Notes
+:PROPERTIES:
+:ID:       22CE59EC-15C6-4A43-8611-3C09A54FF962
+:END:
+
+** NOTE RE: What do you think would make your next stay better -- item 15
+:PROPERTIES:
+:DATE_ADDED: [2018-06-28 Thu 06:09]
+:ID:       0853B0A7-C018-457E-AAF7-B024A9FE8556
+:END:
+
+#+BEGIN_QUOTE
+  "4 - Adequate security of hotel grounds and faster response from front desk staff."
+#+END_QUOTE
+
+Do we know what happened here? This sounds like a security event we should know more about.
+
+** NOTE PM Rooms Extend if no zero balance
+:PROPERTIES:
+:ID:       E8B763ED-D438-4D0B-8E60-224A96B03084
+:END:

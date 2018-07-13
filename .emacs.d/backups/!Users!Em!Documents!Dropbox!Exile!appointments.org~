@@ -3,30 +3,29 @@
 #+TAGS: SCHEDULED DONE
 
 * 2018
-  :PROPERTIES:
-  :YEAR: 2018
-  :END:
+ :PROPERTIES:
+ :YEAR: 2018
+ :END:
 
-** 2018-04 April
-   :PROPERTIES:
-   :MONTH: April
-   :END:
+** DONE 2018-04 April
+:PROPERTIES:
+:MONTH: 04
+:END:
 
 *** DONE 2018-04-26 03:30 PM Thursday
     :APPOINTMENT:
     :APPT_DATE: 2018-04-26
     :APPT_TIME: 03:30 PM
 
-** 2018-05 May
-
-   :PROPERTIES:
-   :MONTH: May
-   :END:
+** DONE 2018-05 May
+:PROPERTIES:
+:MONTH: 05
+:END:
 
 *** 2018-W18
-    :PROPERTIES:
-    :WEEK: 2018-W18
-    :END:
+:PROPERTIES:
+:WEEK: 2018-W18
+:END:
 
 **** 2018-05-01 Tuesday
 
@@ -57,9 +56,10 @@
       :APPT_TYPE: This is a test
       :END:
 *** 2018-W19
-    :PROPERTIES:
-    :WEEK: 2018-W19
-    :END:
+:PROPERTIES:
+:WEEK: 2018-W19
+:END:
+
 **** 2018-05-10 Doctor
  - APPOINTMENT Walk-in Doctor's appointment for prescriptions
 **** 2018-05-12 Session
@@ -67,33 +67,31 @@
 **** 2018-05-13 HOLIDAY Mother's Day
 
 *** 2018-W20
-    :PROPERTIES:
-    :WEEK: 2018-W20
-    :END:
+:PROPERTIES:
+:WEEK: 2018-W20
+:END:
 
 **** 2018-05-18 Friday
-
 ***** DONE Dr. Bachus
-      :APPOINTMENT:
-      :APPT_DATE: 2018-05-18
-      :APPT_TIME: 11:45
-      :PLACE: Meridian Health
-      :CONTACT: Dr. Bachus
-      :APPT_DURATION: 1.5 h
-      :APPT_TYPE: Medical
-      :END:
-
+:APPOINTMENT:
+:APPT_DATE: 2018-05-18
+:APPT_TIME: 11:45
+:PLACE: Meridian Health
+:CONTACT: Dr. Bachus
+:APPT_DURATION: 1.5 h
+:APPT_TYPE: Medical
+:END:
 
 *** 2018-W21
-    :PROPERTIES:
-    :WEEK: 2018-W21
-    :END:
+:PROPERTIES:
+:WEEK: 2018-W21
+:END:
 
 *** 2018-W22
-    :PROPERTIES:
-    :WEEK: 2018-W22
-    :END:
-    
+:PROPERTIES:
+:WEEK: 2018-W22
+:END:
+
 ** 2018-06 June
 :PROPERTIES:
 :MONTH: 06
@@ -118,22 +116,50 @@
 
 SCHEDULED: <2018-06-11 Mon 07:45>
 [2018-05-10 Thu 13:43]
+*** 2018-W24
+:PROPERTIES:
+:WEEK: 24
+:END:
 
-* APPOINTMENT Colleen and Iz's Wedding ❤️🍾
-  :APPOINTMENT:
-  :YEAR: 2018
-  :MONTH: 08
-  :DAY: 02
-  :APPT_DATE: 2018-08-02
-  :CONTACT: Iz Love
-  :LOC_NAME: Seattle, Washington
-  :END:
+*** 2018-W25
+:PROPERTIES:
+:WEEK: 25
+:END:
 
-SCHEDULED: <2018-08-02 Thu 17:25>
-[2018-05-15 Tue 17:26]
 
-** Wedding Website
-https://www.zola.com/wedding/kimseylove/event
 
+ 
+*** 2018-W26
+:PROPERTIES:
+:WEEK: 26
+:END:
+
+** 2018-07 July
+:PROPERTIES:
+:MONTH: 07
+:END:
+
+*** 2018-W27
+:PROPERTIES:
+:WEEK: 27
+:END:
+
+** 2018-08 August
+:PROPERTIES:
+:MONTH: 08
+:END:
+
+*** EVENT Colleen and Iz's Wedding ❤️🍾
+:EVENT:
+:YEAR: 2018
+:MONTH: 08
+:DAY: 02
+:EVENT_DATE: 2018-08-02
+:EVENT_TYPE: Wedding
+:CONTACT: Iz Love
+:LOC_NAME: Seattle, Washington
+:SCHEDULED: <2018-08-02 Thu 17:25>
+:URL: https://www.zola.com/wedding/kimseylove/event
+:END:
 
 

@@ -285,6 +285,10 @@
 (defvar em-audiobooks-dir)
 (setq em-audiobooks-dir "/Users/Em/Music/AudioBooks/")
 
+;; AudioBook Notes Directory
+(defvar library-audiobook-notes-dir)
+(setq library-audiobook-notes-dir "/Users/Em/Documents/Dropbox/Library-Annex/AudioBook-Notes/")
+
 ;; WAV Files Directory
 (defvar em-wav-dir)
 (setq em-wav-dir "/Users/Em/Music/wav/")

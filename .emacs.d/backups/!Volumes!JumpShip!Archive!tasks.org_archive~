@@ -5,6 +5,9 @@ Archived entries from file /Users/Em/Documents/Dropbox/Exile/tasks.org
 
 
 * Archived Tasks
+:PROPERTIES:
+:ID:       F80C1B95-ED5C-4623-ADA1-56CEEBEA3CA2
+:END:
 
 ** DONE Find Onity manual
    :PROPERTIES:
@@ -13,6 +16,7 @@ Archived entries from file /Users/Em/Documents/Dropbox/Exile/tasks.org
    :ARCHIVE_OLPATH: Tasks
    :ARCHIVE_CATEGORY: Inbox
    :ARCHIVE_TODO: DONE
+   :ID:       581FE36B-E7F7-45B8-92CB-2E2A5C13DE76
    :END:
 CLOSED [2018-05-29 Tue 09:46]
 
@@ -30,6 +34,7 @@ Archived entries from file /Users/Em/Documents/Dropbox/Exile/tasks.org
    :ARCHIVE_OLPATH: Tasks
    :ARCHIVE_CATEGORY: Inbox
    :ARCHIVE_TODO: DONE
+   :ID:       8D082FAF-8AB1-4961-8871-4B64CDD2B9A5
    :END:
 CLOSED [2018-05-29 Tue 09:45]
 
@@ -43,6 +48,7 @@ CLOSED: [2018-05-21 Mon 14:46]
 :ARCHIVE_OLPATH: Tasks
 :ARCHIVE_CATEGORY: Inbox
 :ARCHIVE_TODO: DONE
+:ID:       7E9AE4CA-7599-4326-B5F1-FB28702ECBBF
 :END:
 
 ** DONE Pick up cash for Karen                       :CAR:PAYMENT:DONE:
@@ -52,6 +58,7 @@ CLOSED: [2018-05-21 Mon 14:46]
 :ARCHIVE_OLPATH: If it were two hours later, it would be half as long until midnight as it would be if it were an hour later. What time is it now?
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
+:ID:       2158641E-0A92-493B-90B2-7C5C4E4AF5D8
 :END:
      CLOSED [2018-06-05 Tue 22:47]
      DATE_ADDED: [2018-06-05 Tue 12:12]
@@ -63,6 +70,7 @@ CLOSED: [2018-05-21 Mon 14:46]
 :ARCHIVE_OLPATH: If it were two hours later, it would be half as long until midnight as it would be if it were an hour later. What time is it now?
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
+:ID:       5B21137D-ED7B-44F0-8F4A-6C9ED064E0AB
 :END:
           CLOSED [2018-06-05 Tue 22:45]
           SCHEDULED: <2018-06-05 Tue 21:59>
@@ -75,6 +83,7 @@ CLOSED: [2018-05-21 Mon 14:46]
 :ARCHIVE_OLPATH: If it were two hours later, it would be half as long until midnight as it would be if it were an hour later. What time is it now?
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
+:ID:       CD3AB4AB-6CC1-42A4-8175-0FCC21EA8F70
 :END:
      CLOSED [2018-06-05 Tue 22:46]
      Micheals Hours: 09:00 AM - 09:00 PM
@@ -87,6 +96,7 @@ CLOSED: [2018-05-21 Mon 14:46]
 :ARCHIVE_OLPATH: If it were two hours later, it would be half as long until midnight as it would be if it were an hour later. What time is it now?
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
+:ID:       9B04FFFC-FBCF-456C-86CE-83B44D938719
 :END:
 CLOSED [2018-06-14 Thu 07:12]
             DATE_ADDED: [2018-06-04 Mon 23:29]
@@ -98,6 +108,7 @@ CLOSED [2018-06-14 Thu 07:12]
 :ARCHIVE_OLPATH: If it were two hours later, it would be half as long until midnight as it would be if it were an hour later. What time is it now?
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
+:ID:       3C3FA2E9-5551-444B-919B-B3C88B23839C
 :END:
             DATE_ADDED: [2018-06-03 Sun 18:53]
 
@@ -108,8 +119,12 @@ CLOSED [2018-06-14 Thu 07:12]
 :ARCHIVE_OLPATH: Tasks
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
+:ID:       04CA8E09-C3E4-4BF5-8C0D-8F114C15AE69
 :END:
 *** DONE 9:00 PM
+:PROPERTIES:
+:ID:       15082973-C4B4-4012-8E9F-4195F73A9BA7
+:END:
 
 ** DONE BUY Monistat chafing powder gel
 :PROPERTIES:
@@ -118,6 +133,7 @@ CLOSED [2018-06-14 Thu 07:12]
 :ARCHIVE_OLPATH: 22 Home Hacks That'll Make Renters Say "Why Didn't I Know About This Sooner?"
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
+:ID:       293267BE-659E-4E22-AF31-A0F3D05EB236
 :END:
 CLOSED [2018-06-16 Sat 18:31]
 [2018-06-15 Fri 03:23]
@@ -130,6 +146,7 @@ CLOSED [2018-06-16 Sat 18:31]
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: TODO
+:ID:       E23DCC2E-5FF6-4D64-AAB8-E8F9ADD74EB2
 :END:
   DATE_ADDED: [2018-06-14 Thu 08:47]
 
@@ -141,6 +158,7 @@ CLOSED [2018-06-16 Sat 18:31]
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: TODO
+:ID:       2F261624-38AE-4628-BA45-1F7CA8FFE9F5
 :END:
   DATE_ADDED: [2018-06-14 Thu 08:45]
 
@@ -151,10 +169,183 @@ CLOSED [2018-06-16 Sat 18:31]
 :ARCHIVE_OLPATH: Tasks
 :ARCHIVE_CATEGORY: Exile
 :ARCHIVE_ITAGS: TODO
+:ID:       5941654B-63A9-42FF-BCC0-AFA99BE05BB9
 :END:
 [2018-06-15 Fri 03:23]
 
+** DONE Create synced apartment list
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-06-20 Wed 04:48
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ID:       516F9FF1-9CBC-483F-B472-1943658D82ED
+:END:
+CLOSED [2018-06-20 Wed 04:47]
+[2018-06-18 Mon 14:30]
 
+** DONE Feed cats at work
+SCHEDULED: <2018-06-18 Mon 17:24>
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-06-20 Wed 04:48
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: TODO
+:ID:       928D7E69-1646-43B5-8A70-210EC7517C9B
+:END:
+[2018-06-18 Mon 14:24]
 
+** DONE Macbook replacement battery
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-06-20 Wed 04:49
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ID:       4DFA992C-B512-460A-8ACA-E2C9FBD309DF
+:END:
+[2018-06-19 Tue 01:57]
 
+** DONE Create directory indices
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-07-03 Tue 17:01
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:ID:       3573D39E-C34B-41A9-B0D9-98AE4A71C43A
+:END:
+CLOSED [2018-07-03 Tue 17:01]
+:PROPERTIES:
+:ID:       E1685E2B-218B-4F4E-A660-21771B05246E
+:END:
+[2018-06-27 Wed 03:25]
+:PROPERTIES:
+:ID:       E6564A84-A744-4163-80DF-7E1F9C928477
+:END:
 
+** DONE CSI for Bad Guys
+:PROPERTIES:
+:ID:       EBC26E92-501B-4BA1-B082-9BB4D71DB79E
+:ARCHIVE_TIME: 2018-07-03 Tue 17:03
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:END:
+[2018-06-27 Wed 21:38]
+https://www.youtube.com/watch?v=0AwI6YrV2h4&feature=share
+
+** DONE Roc scrub
+:PROPERTIES:
+:ID:       A1A61672-3B7A-4631-9D48-9864DF4786C2
+:ARCHIVE_TIME: 2018-07-03 Tue 17:03
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:END:
+[2018-06-28 Thu 07:59]
+
+** DONE Magnesium
+:PROPERTIES:
+:ID:       E3BD7B4B-80A3-48F8-AC5E-80FD3A75A40B
+:ARCHIVE_TIME: 2018-07-03 Tue 17:03
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:END:
+[2018-06-28 Thu 07:59]
+
+** DONE Sunscreen
+:PROPERTIES:
+:ID:       DF07F737-C100-495B-B72A-BDFC3125732D
+:ARCHIVE_TIME: 2018-07-03 Tue 17:03
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:END:
+[2018-06-28 Thu 07:59]
+
+** DONE Feed Animals
+:PROPERTIES:
+:ID:       E5E8BB9D-33C8-464E-BEFD-5BAF46570B6C
+:ARCHIVE_TIME: 2018-07-03 Tue 17:06
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:END:
+[2018-06-30 Sat 00:32]
+
+** DONE Clean up kitchen
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-07-03 Tue 17:06
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:ID:       7BC745B5-A8A4-4BB9-8E58-FD9BFD0447D2
+:END:
+CLOSED [2018-07-03 Tue 17:06]
+:PROPERTIES:
+:ID:       E0E3D7D7-AAA5-4D3C-82BD-01BC48394CD5
+:END:
+[2018-06-30 Sat 00:32]
+
+** DONE Test out Splashtop on local network
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-07-03 Tue 17:06
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:ID:       D7D0A300-796B-4074-B8AA-80326EC19E98
+:END:
+CLOSED [2018-07-03 Tue 17:06]
+:PROPERTIES:
+:ID:       E2A612EF-D1E6-4223-9685-2A53530A5210
+:END:
+[2018-06-30 Sat 00:49]
+
+** DONE Groceries                                                   :ERRAND:
+:PROPERTIES:
+:ID:       BCBA7889-1E4C-44A7-81E4-FF64870AFC88
+:ARCHIVE_TIME: 2018-07-03 Tue 17:32
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:END:
+CLOSED [2018-07-03 Tue 17:02]
+:PROPERTIES:
+:DATE_ADDED: <2018-06-27 Wed 14:42>
+:ID:       B5DBDD91-893E-4330-8D39-BFB9F41906A8
+:END:
+
+** LOGGED Phone Bill                                                  :BILL:
+:PROPERTIES:
+:ID:       74DF7490-C7C0-49B5-B5C6-7EF85247757F
+:ARCHIVE_TIME: 2018-07-03 Tue 17:32
+:ARCHIVE_FILE: ~/Documents/Dropbox/Exile/tasks.org
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Exile
+:ARCHIVE_TODO: LOGGED
+:ARCHIVE_ITAGS: Exile TASKS LIST TODO
+:END:
+CLOSED [2018-07-03 Tue 17:02]
+:PROPERTIES:
+:ID:       35A5C4A4-D488-4F23-8486-9AAFFA7AC80E
+:END:

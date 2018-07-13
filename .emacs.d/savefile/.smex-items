@@ -2,17 +2,17 @@
 ;; ----- smex-history -----
 (
  find-file
+ calendar
+ save-buffer
+ org-web-tools-read-url-as-org
+ org-review-insert-last-review
  org-journal-new-entry
  diary
- package-install
- delimit-columns-region
- org-brain-visualize
- org-brain-switch-brain
 )
 
 ;; ----- smex-data -----
 (
- (find-file . 99)
+ (find-file . 104)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
@@ -53,4 +53,8 @@
  (org-journal-new-entry . 1)
  (org-latex-export-to-latex . 2)
  (my/copy-idlink-to-clipboard . 3)
+ (org-review-insert-last-review . 1)
+ (org-web-tools-read-url-as-org . 4)
+ (save-buffer . 1)
+ (calendar . 1)
 )

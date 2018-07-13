@@ -31,53 +31,6 @@
 :END:
 %?"
                                :empty-lines 1)
-                              ("s" "Task Starting Now"
-                               entry
-                               (file+headline exile-tasks-file "Tasks")
-                               "* CLOCKED_IN %T %^{Heading}
-:PROPERTIES:
-:CURRENT_FILE: %K
-:CLOCK: %(org-clock-in)
-:END:
-%?"
-                               :empty-lines 1
-                               :clock-in t
-                               :clock-resume t)
-                              ("a" "Appointment"
-                               entry
-                               (file+olp+datetree (concat org-directory exile-appointments-file))
-                               "**** APPOINTMENT %^{Heading}
-:APPOINTMENT:
-:APPT_TIME: %^{Appointment Time}
-:APPT_DATE: %^{Appointment Date}
-:LOC_NAME: %^{Place Name}
-:CONTACT: %^{Contact}
-:DURATION: %^{Length of Appointment}
-:APPT_TYPE: %^{Type of Appointment}
-:END:
-%?"
-                               :tree-type week
-                               :empty-lines 1)
-                              ("e" "Event"
-                               entry
-                               (file+olp+datetree (concat org-directory exile-appointments-file))
-                               "**** EVENT %^{Heading}
-:EVENT:
-:EVENT_DATE: %^{Date}
-:EVENT_TIME: %^{Time}
-:LOC_NAME: %^{Place Name}
-:CONTACT: %^{Contact}
-:DURATION: %^{Duration}
-:EVENT_TYPE: %^{Event Type}
-:END:
-%?"
-                               :empty-lines 1
-                               :tree-type week
-                               :time-prompt %Y-%m-%d)
-                              ("j" "Journal Entry"
-                               entry (function get-journal-file-today)
-                               "* %(format-time-string org-journal-time-format) %^{Heading}\n%i%?"
-                               :empty-lines 1)
                                ("n" "Notes"
                                entry
                                (file+headline exile-notes-file "Notes")
@@ -96,10 +49,6 @@
 :END:\n
 %?"
                                 :empty-lines 1)
-                               ("l" "Lesson Learned"
-                                entry
-                                (file+olp+headline lessonslearned-default-file "Lessons Learned")
-                                "** ")
                               ("Q" "Question"
                                entry
                                (file+headline labbot-questions-file "UnSorted")
@@ -267,6 +216,17 @@
                                entry
                                (file "/Users/Em/Documents/Dropbox/SwedishChef/cookbook.org")
                                "%(org-chef-get-recipe-from-url)"
+                               :empty-lines 1)
+                              ("z" "Crazy Ass Bullshit Log"
+                               entry
+                               (file "/Volumes/JumpShip/HomeBase/Family/crazy-log.org")
+                               "** %^{Family Member}
+:PROPERTIES:
+:DATE_CREATED: %U
+:BEHAVIOR: %^{Type of Crazy}
+:SEVERITY: %^{Severity}
+:DESCRIPTION: %?
+:END:"
                                :empty-lines 1)))
 
 

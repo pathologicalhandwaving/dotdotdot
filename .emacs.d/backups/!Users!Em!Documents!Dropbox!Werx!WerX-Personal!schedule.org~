@@ -1,6 +1,6 @@
 #+TITLE: Schedule
 #+DATE_CREATED: 2018-05-07
-#+DATE_MODIFIED: 2018-06-04
+#+DATE_MODIFIED: 2018-06-23
 #+CATEGORY: Work
 #+SUB_CATEGORY: Schedule
 #+LOC_NAME: HolidayInn
@@ -9,21 +9,25 @@
 * Schedule
  :PROPERTIES:
  :CUSTOM_ID: schedule
+ :ID:       9412B308-6F62-4EEB-8ED3-FEF8BE03D3D2
  :END:
 
 ** 2018
 :PROPERTIES:
 :YEAR: 2018
+:ID:       D3DC6A8B-7881-450F-9710-AE1DEEF7EAD2
 :END:
 
 *** 2018-05 May                                                  :MAY:2018:
 :PROPERTIES:
 :MONTH: 05
+:ID:       821C2C49-8429-48B7-9205-57147D67186B
 :END:
 
 **** 2018-W19                                                        :W19:
 :PROPERTIES:
 :WEEK: 19
+:ID:       F4469F68-8851-4144-A706-6293BFB81629
 :END:
 
 
@@ -58,6 +62,7 @@
 **** 2018-W20                                                        :W20:
  :PROPERTIES:
  :WEEK:     20
+ :ID:       FA062876-9A2B-49AB-86AF-1DCC023DE5D2
  :END:
 
 | Hours | Monday 14  | Tuesday 15 | Wednesday 16 | Thursday 17 | Friday 18  | Saturday 19 | Sunday 20  |
@@ -89,6 +94,7 @@
 **** 2018-W21                                                        :W21:
  :PROPERTIES:
  :WEEK_NO: 21
+ :ID:       3B9E7743-F961-415A-A6FB-784D0B77F610
  :END:
 
  | Hours | Monday 21 | Tuesday 22 | Wednesday 23 | Thursday 24 | Friday 25 | Saturday 26 | Sunday 27 |
@@ -122,6 +128,7 @@
 **** 2018-W22                                                        :W22:
  :PROPERTIES:
  :WEEK_NO: 22
+ :ID:       BF850ECF-0244-41FF-8397-C03DA318852A
  :END:
  
  | Hours | Monday 28 | Tuesday 29 | Wednesday 30 | Thursday 31 | Friday 01 | Saturday 02 | Sunday 03 |
@@ -156,12 +163,14 @@
 *** 2018-06 June                                                :JUNE:2018:
 :PROPERTIES:
 :MONTH: 06
+:ID:       7BF2330C-ECB6-432D-92BF-F1DFC91C6E0E
 :END:
 
 
 **** 2018-W23                                                        :W23:
  :PROPERTIES:
  :WEEK_NO: 23
+ :ID:       F00CE0A8-DB2F-49CD-9B4B-1077AB5C77B7
  :END:
 
   
@@ -196,6 +205,7 @@
 **** 2018-W24                                                        :W24:
  :PROPERTIES:
  :WEEK_NO: 24
+ :ID:       8935E478-EDF9-4AF2-A5C7-33E91C0E258E
  :END:
 
  | Hours | Monday 11   | Tuesday 12 | Wednesday 13 | Thursday 14 | Friday 15 | Saturday 16 | Sunday 17 |
@@ -229,51 +239,55 @@
 **** 2018-W25                                                        :W25:
  :PROPERTIES:
  :WEEK_NO: 25
+ :ID:       F77FFAD2-94E9-4824-AED3-777D82D909D7
  :END:
 
- | Hours | Monday 18 | Tuesday 19 | Wednesday 20 | Thursday 21 | Friday 22 | Saturday 23 | Sunday 24 |
- |-------+-----------+------------+--------------+-------------+-----------+-------------+-----------|
- | 00:00 |           |            |              |             |           |             |           |
- | 01:00 |           |            |              |             |           |             |           |
- | 02:00 |           |            |              |             |           |             |           |
- | 03:00 |           |            |              |             |           |             |           |
- | 04:00 |           |            |              |             |           |             |           |
- | 05:00 |           |            |              |             |           |             |           |
- | 06:00 |           |            |              |             |           |             |           |
- | 07:00 |           |            |              |             |           |             |           |
- | 08:00 |           |            |              |             |           |             |           |
- | 09:00 |           |            |              |             |           |             |           |
- | 10:00 |           |            |              |             |           |             |           |
- | 11:00 |           |            |              |             |           |             |           |
- | 12:00 |           |            |              |             |           |             |           |
- | 13:00 |           |            |              |             |           |             |           |
- | 14:00 |           |            |              |             |           |             |           |
- | 15:00 |           |            |              |             |           |             |           |
- | 16:00 |           |            |              |             |           |             |           |
- | 17:00 |           |            |              |             |           |             |           |
- | 18:00 |           |            |              |             |           |             |           |
- | 19:00 |           |            |              |             |           |             |           |
- | 20:00 |           |            |              |             |           |             |           |
- | 21:00 |           |            |              |             |           |             |           |
- | 22:00 |           |            |              |             |           |             |           |
- | 23:00 |           |            |              |             |           |             |           |
+
+ | Hours | Monday 18   | Tuesday 19 | Wednesday 20 | Thursday 21 | Friday 22 | Saturday 23 | Sunday 24 |
+ |-------+-------------+------------+--------------+-------------+-----------+-------------+-----------|
+ | 00:00 |             |            | Work         | Work        |           |             |           |
+ | 01:00 |             |            | Work         | Work        |           |             |           |
+ | 02:00 |             |            | Work         | Work        |           |             |           |
+ | 03:00 |             |            | Work         | Work        |           |             |           |
+ | 04:00 |             |            | Work         | Work        |           |             |           |
+ | 05:00 |             |            | Work         | Work        |           |             |           |
+ | 06:00 |             |            | Work         | Work        |           |             |           |
+ | 07:00 |             |            | Work         | Work        |           |             |           |
+ | 08:00 |             |            |              |             |           |             |           |
+ | 09:00 |             |            |              |             |           |             |           |
+ | 10:00 |             |            |              |             |           |             |           |
+ | 11:00 |             |            |              |             |           |             |           |
+ | 12:00 |             |            |              |             |           |             |           |
+ | 13:00 |             |            |              |             |           |             |           |
+ | 14:00 |             |            |              |             |           |             |           |
+ | 15:00 |             |            |              |             | Work      | Work        | Work      |
+ | 16:00 |             |            |              |             | Work      | Work        | Work      |
+ | 17:00 |             |            |              |             | Work      | Work        | Work      |
+ | 18:00 |             |            |              |             | Work      | Work        | Work      |
+ | 19:00 |             |            |              |             | Work      | Work        | Work      |
+ | 20:00 |             |            |              |             | Work      | Work        | Work      |
+ | 21:00 |             |            |              |             | Work      | Work        | Work      |
+ | 22:00 |             |            |              |             | Work      | Work        | Work      |
+ | 23:00 |             | Work       | Work         |             | Work      | Work        | Work      |
+
 
 
 **** 2018-W26                                                        :W26:
  :PROPERTIES:
  :WEEK_NO: 26
+ :ID:       4F273073-5BAC-4907-BCC8-FDB085F78E29
  :END:
 
  | Hours | Monday 25 | Tuesday 26 | Wednesday 27 | Thursday 28 | Friday 29 | Saturday 30 | Sunday 01 |
  |-------+-----------+------------+--------------+-------------+-----------+-------------+-----------|
- | 00:00 |           |            |              |             |           |             |           |
- | 01:00 |           |            |              |             |           |             |           |
- | 02:00 |           |            |              |             |           |             |           |
- | 03:00 |           |            |              |             |           |             |           |
- | 04:00 |           |            |              |             |           |             |           |
- | 05:00 |           |            |              |             |           |             |           |
- | 06:00 |           |            |              |             |           |             |           |
- | 07:00 |           |            |              |             |           |             |           |
+ | 00:00 |           |            |              | Work        | Work      |             |           |
+ | 01:00 |           |            |              | Work        | Work      |             |           |
+ | 02:00 |           |            |              | Work        | Work      |             |           |
+ | 03:00 |           |            |              | Work        | Work      |             |           |
+ | 04:00 |           |            |              | Work        | Work      |             |           |
+ | 05:00 |           |            |              | Work        | Work      |             |           |
+ | 06:00 |           |            |              | Work        | Work      |             |           |
+ | 07:00 |           |            |              | Work        | Work      |             |           |
  | 08:00 |           |            |              |             |           |             |           |
  | 09:00 |           |            |              |             |           |             |           |
  | 10:00 |           |            |              |             |           |             |           |
@@ -281,25 +295,27 @@
  | 12:00 |           |            |              |             |           |             |           |
  | 13:00 |           |            |              |             |           |             |           |
  | 14:00 |           |            |              |             |           |             |           |
- | 15:00 |           |            |              |             |           |             |           |
- | 16:00 |           |            |              |             |           |             |           |
- | 17:00 |           |            |              |             |           |             |           |
- | 18:00 |           |            |              |             |           |             |           |
- | 19:00 |           |            |              |             |           |             |           |
- | 20:00 |           |            |              |             |           |             |           |
- | 21:00 |           |            |              |             |           |             |           |
- | 22:00 |           |            |              |             |           |             |           |
- | 23:00 |           |            |              |             |           |             |           |
+ | 15:00 | Work      |            |              |             |           | Work        | Work      |
+ | 16:00 | Work      |            |              |             |           | Work        | Work      |
+ | 17:00 | Work      |            |              |             |           | Work        | Work      |
+ | 18:00 | Work      |            |              |             |           | Work        | Work      |
+ | 19:00 | Work      |            |              |             |           | Work        | Work      |
+ | 20:00 | Work      |            |              |             |           | Work        | Work      |
+ | 21:00 | Work      |            |              |             |           | Work        | Work      |
+ | 22:00 | Work      |            |              |             |           | Work        | Work      |
+ | 23:00 | Work      |            | Work         | Work        |           | Work        | Work      |
 
 
 
 *** 2018-07 July                                                :JULY:2018:
 :PROPERTIES:
 :MONTH: 07
+:ID:       6AF06492-C9DA-438E-BA71-DDAD4455A4CE
 :END:
 
 **** 2018-W27                                                        :W27:
  :PROPERTIES:
  :WEEK_NO: 27
+ :ID:       1B7272D8-6E37-4776-ACA9-E67B6065EFBF
  :END:
 

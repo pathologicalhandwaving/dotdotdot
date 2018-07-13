@@ -19,14 +19,14 @@
  (position . 230))
 ("org-refile-last-stored"
  (filename . "~/Documents/Dropbox/LabBot/readlater.org")
- (front-context-string . "** READLATER Lot")
- (rear-context-string . "rg-capture-2/\n\n\n")
- (position . 10857))
+ (front-context-string . "** READLATER Bel")
+ (rear-context-string . "int-resources\n\n\n")
+ (position . 11616))
 ("org-capture-last-stored"
- (filename . "~/Documents/Dropbox/LessonsLearned/lessonslearned-default.org")
- (front-context-string)
- (rear-context-string . "FAC001\n  :END:\n\n")
- (position . 294))
+ (filename . "~/Documents/Dropbox/Werx/holidayinn-issues.org")
+ (front-context-string . "**** ISSUE Opera")
+ (rear-context-string . "018-07-13 Fri>\n\n")
+ (position . 10705))
 ("TeXBot Index"
  (filename . "~/Documents/Dropbox/TeXBot/texbot-index.org")
  (front-context-string)
