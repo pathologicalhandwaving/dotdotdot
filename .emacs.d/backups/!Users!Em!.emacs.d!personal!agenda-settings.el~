@@ -85,7 +85,7 @@
 (setq org-default-priority ?C)
 (setq org-lowest-priority ?F)
 
-(org-fancy-priorities-mode)
+(org-fancy-priorities-mode +1)
 
 (setq org-fancy-priorities-list '((?A . "《A》")
                                   (?B . "《B》")
@@ -188,6 +188,7 @@
 
 ;; org-journal options
 (setq org-journal-date-format "%Y-%m-%d (%A)")
+
 (setq org-journal-dir "/Users/Em/Documents/Dropbox/Diary/JournalEntries/")
 (setq org-journal-enable-encryption nil)
 (setq org-journal-file-format "%Y%m%d.org")

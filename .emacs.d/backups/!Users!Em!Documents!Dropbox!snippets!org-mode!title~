@@ -9,9 +9,9 @@
 #+FILETAGS: $4 
 
 * $1
-  :PROPERTIES:
-  :CUSTOM_ID: $5
-  :DATE_CREATED: `(format-time-string "%Y-%m-%d")`
-  :END:
+    :PROPERTIES:
+    :CUSTOM_ID: $5
+    :DATE_CREATED: `(format-time-string "%Y-%m-%d")`
+    :END:
 
-  $0
+    $0

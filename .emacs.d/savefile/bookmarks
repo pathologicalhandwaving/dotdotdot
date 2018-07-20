@@ -18,15 +18,15 @@
  (rear-context-string . "18-06-27\n:END:\n\n")
  (position . 230))
 ("org-refile-last-stored"
- (filename . "~/Documents/Dropbox/LabBot/readlater.org")
- (front-context-string . "** READLATER Bel")
- (rear-context-string . "int-resources\n\n\n")
- (position . 11616))
+ (filename . "~/Documents/Dropbox/Library-Annex/quotes.org")
+ (front-context-string . "** QUOTATION Pou")
+ (rear-context-string . "\n  #+END_QUOTE\n\n")
+ (position . 4589))
 ("org-capture-last-stored"
- (filename . "~/Documents/Dropbox/Werx/holidayinn-issues.org")
- (front-context-string . "**** ISSUE Opera")
- (rear-context-string . "018-07-13 Fri>\n\n")
- (position . 10705))
+ (filename . "~/Documents/Dropbox/Exile/tasks.org")
+ (front-context-string . "** TODO Add HOLD")
+ (rear-context-string . "D0D5FA45\n:END:\n\n")
+ (position . 52977))
 ("TeXBot Index"
  (filename . "~/Documents/Dropbox/TeXBot/texbot-index.org")
  (front-context-string)

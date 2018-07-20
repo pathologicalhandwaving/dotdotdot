@@ -4,6 +4,10 @@
 (setq url-cookie-storage
  '((".reddit.com"
   [url-cookie "uapp_cookie" "1:1527210000" "Mon, 29 May 2028 02:20:22 GMT" "/" ".reddit.com" nil])
+ ("www.digitalocean.com"
+  [url-cookie "_community_session" "d05uMHV3Y1FIL1RSZklzdkdHd2dzeEtRWVJGdFhON2N1dng5QmxLRHVmVVpMT0lMQkh1ZGZHdjRDRC9lNHZnc0VHWWJLbWI3NU1oL2JoQmVoMjliVFE1L3J1VDVPb0xEM2cyd2dLZHhJT00rcnd5bSswbWFEc0syTTZvTUdDTUFzUDFPR256ajhBRThLdDA3QWllallOV1ZFL3VpMDllRGowcWpMdEVRaGtxblhZV3JMYlpoTzd0M1l4cmFKUkROa2t6cXgyRm55OUpUZENEeFBzNFhMam1YMWhZSmNIdi9YQittd3ZsSVlMd2phOXN2UVpWOFhFdG4yRVE2Zk9SYjF4M0JQc1NnblF0MVFvRk1kWEltcGRoRG9JcHlONlVkUjcxajZUazFtbU5BQ2t6WlVZaURudUZKczkrb0hkeStPQnpTY0VnSWpRb1k4V0tGR0t4Ui9RPT0tLVB6OFVjZmdPS2lpd09ybzNKYi9CYWc9PQ%3D%3D--b512d9ef465c5887d245a946c76290d7177b682c" "Tue, 16 Jul 2019 13:54:40 -0000" "/" "www.digitalocean.com" nil])
+ (".digitalocean.com"
+  [url-cookie "__cfduid" "df55a92787e7e1176602c6912589cc2061531744527" "Tue, 16-Jul-19 12:35:27 GMT" "/" ".digitalocean.com" nil])
  ("www.hcareers.com"
   [url-cookie "_visitor" "e23b903b-fc42-45e1-8ce8-0ebad11f0d8e" "Thu, 02-Jul-2020 23:50:34 GMT" "/" "www.hcareers.com" nil])
  (".google.com"

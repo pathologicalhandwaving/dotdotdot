@@ -1,12 +1,29 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/Em/.emacs.d/savefile/recentf" . 15974)
- ("/Users/Em/.emacs.d/savefile/ido.hist" . 8965)
+(("/Users/Em/Documents/Dropbox/snippets/org-mode/title" . 53)
+ ("/Users/Em/Documents/Dropbox/Exile/comments-withheld.org" . 119)
+ ("/Users/Em/Documents/Dropbox/Werx/holidayinn-issues.org" . 12497)
+ ("/Users/Em/Documents/Dropbox/Exile/appointments.org" . 3567)
+ ("/Users/Em/Documents/Dropbox/Exile/tasks.org" . 68671)
+ ("/Users/Em/Documents/Dropbox/Diary/JournalEntries/20180718.org" . 134)
+ ("/Users/Em/Documents/Dropbox/LessonsLearned/lessonslearned-default.org" . 160)
+ ("/Users/Em/Documents/Dropbox/LabBot/online-research-tools.org" . 697)
+ ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/2018-07-17.org" . 10803)
+ (#("/Volumes/JumpShip/Lab/Projects/OEIS/handling-strange-sequences.org" 1 9
+    (face flx-highlight-face)
+    9 12
+    (face flx-highlight-face)
+    18 21
+    (face flx-highlight-face)
+    22 26
+    (face flx-highlight-face)
+    31 33
+    (face flx-highlight-face))
+  . 1773)
+ ("/Users/Em/Documents/Dropbox/LessonsLearned/LL001.org" . 155)
+ ("/Users/Em/.emacs.d/savefile/recentf" . 16273)
+ ("/Users/Em/.emacs.d/savefile/ido.hist" . 11784)
  ("/Users/Em/.emacs.d/emms/history" . 212)
- ("/Users/Em/Documents/Dropbox/Werx/holidayinn-issues.org" . 10799)
- ("/Users/Em/Documents/Dropbox/Exile/tasks.org" . 401)
  ("/Users/Em/Documents/Dropbox/Exile/notes.org" . 64)
- ("/Users/Em/Documents/Dropbox/Exile/comments-withheld.org" . 135)
- ("/Users/Em/Documents/Dropbox/Exile/appointments.org" . 3568)
  ("/Users/Em/Documents/Dropbox/LessonsLearned/lessonslearned-index.org" . 319)
  ("/Users/Em/Documents/Dropbox/Werx/WerX-Cash.org" . 10238)
  ("/Users/Em/Documents/Dropbox/HomeBase/Apartment/Windsong-checklist.org" . 642)

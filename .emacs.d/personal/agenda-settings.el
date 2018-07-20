@@ -9,12 +9,17 @@
 
 
 ;;; org-agenda-files:
-(setq org-agenda-files '("~/Documents/Dropbox/Exile/"
-                         "~/Documents/Dropbox/LabBot/"
-                         "~/Documents/Dropbox/SpaceBot/"
-                         "~/Documents/Dropbox/Diary/"
-                         "~/Documents/Dropbox/Diary/JournalEntries/"
-                         "~/Documents/Dropbox/Diary/Bog/"))
+(setq org-agenda-files '("~/Documents/Dropbox/Exile/tasks.org"
+                         "~/Documents/Dropbox/Exile/appointments.org"
+                         "~/Documents/Dropbox/Exile/habits.org"
+                         "~/Documents/Dropbox/Exile/accounts.org"
+                         "~/Documents/Dropbox/Monopoly/bills-list.org"
+                         "~/Documents/Dropbox/Library-Annex/readlater.org"
+                         "~/Documents/Dropbox/AudioBot/audiobot-index.org"
+                         "~/Documents/Dropbox/Monopoly/budget.org"
+                         "~/Documents/Dropbox/Werx/holidayinn-issues.org"
+                         "~/Documents/Dropbox/Werx/holidayinn-notes.org"
+                         "~/Documents/Dropbox/LessonsLearned/lessonslearned-default.org"))
 
 
 ;; If file name is only numbers it is an org-mode file

@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ load-theme
  find-file
+ neotree-show
+ neotree-change-root
+ org-journal-new-entry
  calendar
  save-buffer
- org-web-tools-read-url-as-org
- org-review-insert-last-review
- org-journal-new-entry
- diary
 )
 
 ;; ----- smex-data -----
 (
- (find-file . 104)
+ (find-file . 109)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
@@ -20,10 +20,10 @@
  (org-brain-visualize . 39)
  (org-brain-goto . 2)
  (org-brain-add-child . 5)
- (neotree-show . 4)
- (neotree-change-root . 2)
+ (neotree-show . 6)
+ (neotree-change-root . 3)
  (org-brain-remove-child . 1)
- (load-theme . 11)
+ (load-theme . 12)
  (org-mode . 2)
  (org-brain-delete-entry . 15)
  (org-brain-update-id-locations . 4)
@@ -50,7 +50,7 @@
  (org-mode-restart . 3)
  (delimit-columns-region . 1)
  (diary . 1)
- (org-journal-new-entry . 1)
+ (org-journal-new-entry . 2)
  (org-latex-export-to-latex . 2)
  (my/copy-idlink-to-clipboard . 3)
  (org-review-insert-last-review . 1)

@@ -972,7 +972,7 @@ https://relprime.com/
  :END:
 
 
-* DEFINITION An advanced persistent threat is a set of stealthy and continuous computer hacking processes, often orchestrated by a person or persons targeting a specific entity. An APT usually targets either private organizations, states or both for business or political motives. APT processes require a high degree of covertness over a long period of time. The "advanced" process signifies sophisticated techniques using malware to exploit vulnerabilities in systems. The "persistent" process suggests that an external command and control system is continuously monitoring and extracting data from a specific target. The "threat" process indicates human involvement in orchestrating the attack.[1]
+** DEFINITION An advanced persistent threat is a set of stealthy and continuous computer hacking processes, often orchestrated by a person or persons targeting a specific entity. An APT usually targets either private organizations, states or both for business or political motives. APT processes require a high degree of covertness over a long period of time. The "advanced" process signifies sophisticated techniques using malware to exploit vulnerabilities in systems. The "persistent" process suggests that an external command and control system is continuously monitoring and extracting data from a specific target. The "threat" process indicates human involvement in orchestrating the attack.[1]
 [2018-07-17 Tue 02:14]
 
 APT usually refers to a group, such as a government, with both the capability and the intent to target, persistently and effectively, a specific entity. The term is commonly used to refer to cyber threats, in particular that of Internet-enabled espionage using a variety of intelligence gathering techniques to access sensitive information,[2] but applies equally to other threats such as that of traditional espionage or attacks.[3] Other recognized attack vectors include infected media, supply chain compromise, and social engineering. The purpose of these attacks is to place custom malicious code on one or multiple computers for specific tasks and to remain undetected for the longest possible period. Knowing the attacker artifacts, such as file names, can help a professional make a network-wide search to gather all affected systems.[4] Individuals, such as an individual hacker, are not usually referred to as an APT, as they rarely have the resources to be both advanced and persistent even if they are intent on gaining access to, or attacking, a specific target.[5]
@@ -980,7 +980,7 @@ APT usually refers to a group, such as a government, with both the capability an
 
 
 
-* NOTE Characteristics[edit]
+*** NOTE Characteristics[edit]
 [2018-07-17 Tue 02:15]
 
 Bodmer, Kilger, Carpenter and Jones defined the following APT criteria:[18]
@@ -996,7 +996,7 @@ Numbers involved in the attack – How many internal and external systems were i
 Knowledge source – The ability to discern any information regarding any of the specific threats through online information gathering (you might be surprised by what you can find by being a little proactive)
 
 
-* NOTE Life Cycle
+*** NOTE Life Cycle
 [2018-07-17 Tue 02:15]
 Actors behind advanced persistent threats create a growing and changing risk to organizations' financial assets, intellectual property, and reputation[19] by following a continuous process or kill chain:
 
@@ -1021,7 +1021,7 @@ In incidents analysed by Mandiant, the average period over which the attackers c
 
 
 
-* NOTE APT Terminology
+** NOTE APT Terminology
 [2018-07-17 Tue 03:57]
 Definitions of precisely what an APT is can vary, but can be summarized by their named requirements below:[3][5][22]
 
@@ -1030,17 +1030,17 @@ Persistent – Operators give priority to a specific task, rather than opportuni
 Threat – APTs are a threat because they have both capability and intent. APT attacks are executed by coordinated human actions, rather than by mindless and automated pieces of code. The operators have a specific objective and are skilled, motivated, organized and well funded.
 
 
-* CLIP In Hamlet, just before Polonius tells Claudius and Gertrude that the prince is insane, he makes the now famous statement, “brevity is the soul of wit.” In a lot of ways, the best wit is very much like ripping off a Band-Aid: swift and snappy. Keep a joke going for too long or extend the pun into a rambling metaphor, and the witty remark loses its punch
+** CLIP In Hamlet, just before Polonius tells Claudius and Gertrude that the prince is insane, he makes the now famous statement, “brevity is the soul of wit.” In a lot of ways, the best wit is very much like ripping off a Band-Aid: swift and snappy. Keep a joke going for too long or extend the pun into a rambling metaphor, and the witty remark loses its punch
 [2018-07-17 Tue 18:20]
 
 
-* CLIP “WIT HAS TRUTH IN IT; WISECRACKING IS SIMPLY CALISTHENICS WITH WORDS”
+** CLIP “WIT HAS TRUTH IN IT; WISECRACKING IS SIMPLY CALISTHENICS WITH WORDS”
 [2018-07-17 Tue 18:22]
 Dororthy Parker
 
 
 
-* READLATER 1. Be quick. Wittiness by definition has to do with being quick and clever.
+** READLATER 1. Be quick. Wittiness by definition has to do with being quick and clever.
 [2018-07-17 Tue 18:25]
 
 Timing is everything. When it comes to wit the time you spend processing your thoughts may be a missed opportunity.
@@ -1072,33 +1072,23 @@ The popularity of the phrase, “That’s what she said,” from televisions, Th
 Be like a comedian. Hypothetically drop the mike and end the show while everyone’s still laughing.
 
 
-* LISTEN Nora Ephron
+** LISTEN Nora Ephron
 [2018-07-17 Tue 18:30]
 https://open.spotify.com/episode/0NE4Zxvioy1VH6z406Gvlh?si=hcuXcHZ9TjChbLlHWTrN6w
 
 
-* CLIP Say it before you overthink it. Otherwise, your moment will pass. It’s much like the problem I have getting on a fast-moving escalator. If I’m in a hurry and approach a fast, steep escalator, I step on it without a problem. But if I stop dead-still at the top of that escalator, it seems much harder to step on. I often stand there letting one stair, then the second stair, then the third stair pass by, thinking I’ll catch the next one, or the next one, or maybe the next one. Momentum, once stopped, seems difficult to regain. So it is with conversation. Once you hesitate with quick wit, it melts in your mouth. The moment passes. Lost forever.
+** CLIP Say it before you overthink it. Otherwise, your moment will pass. It’s much like the problem I have getting on a fast-moving escalator. If I’m in a hurry and approach a fast, steep escalator, I step on it without a problem. But if I stop dead-still at the top of that escalator, it seems much harder to step on. I often stand there letting one stair, then the second stair, then the third stair pass by, thinking I’ll catch the next one, or the next one, or maybe the next one. Momentum, once stopped, seems difficult to regain. So it is with conversation. Once you hesitate with quick wit, it melts in your mouth. The moment passes. Lost forever.
 [2018-07-17 Tue 18:32]
 
 
-* CLIP Plan for spontaneity. As Mark Twain once observed: “It usually takes me more than three weeks to prepare a good impromptu speech.” Professional speakers call them “saver” lines — funny remarks to “save the day” when common things go awry like technology failures, memory lapses, or audience disruptions. For example, when delivering a speech, a colleague of mine actually fell off the stage and landed sprawling on the floor in front of her audience. Her saver line: “I’ll now take questions from the floor.” Likewise, if you typically find yourself in the same situations repeatedly, develop some reusable lines that will seem spontaneous to those around you.
+** CLIP Plan for spontaneity. As Mark Twain once observed: “It usually takes me more than three weeks to prepare a good impromptu speech.” Professional speakers call them “saver” lines — funny remarks to “save the day” when common things go awry like technology failures, memory lapses, or audience disruptions. For example, when delivering a speech, a colleague of mine actually fell off the stage and landed sprawling on the floor in front of her audience. Her saver line: “I’ll now take questions from the floor.” Likewise, if you typically find yourself in the same situations repeatedly, develop some reusable lines that will seem spontaneous to those around you.
 [2018-07-17 Tue 18:32]
 
 
-* CLIP Get physical. Body language can be as witty as spoken language. A wry smile at just the right spot. A raised eyebrow. Shrugged shoulders and a flip of the wrist. Such physical humor pumped into a conversation at an unsuspecting moment can generate the same laugh as the wittiest remark.
+** CLIP Get physical. Body language can be as witty as spoken language. A wry smile at just the right spot. A raised eyebrow. Shrugged shoulders and a flip of the wrist. Such physical humor pumped into a conversation at an unsuspecting moment can generate the same laugh as the wittiest remark.
 [2018-07-17 Tue 18:33]
 
 
-* CLIP Adopt a lighthearted frame of mind — at least temporarily. It’s difficult to be witty when you’re stressed. Give yourself permission to speak up or react “in the moment.” If you amuse, great. If not, play it straight. Simply move ahead in the conversation as if you meant the line to be straightforward. Nothing lost.
+** CLIP Adopt a lighthearted frame of mind — at least temporarily. It’s difficult to be witty when you’re stressed. Give yourself permission to speak up or react “in the moment.” If you amuse, great. If not, play it straight. Simply move ahead in the conversation as if you meant the line to be straightforward. Nothing lost.
 [2018-07-17 Tue 18:33]
-
-
-* TODO helm-bibtex/README.org at master · tmalsburg/helm-bibtex
-[2018-07-18 Wed 03:18]
-https://github.com/tmalsburg/helm-bibtex/blob/master/README.org
-
-
-* TOOL oliver marks / emacs-digitalocean-helm · GitLab
-[2018-07-18 Wed 05:47]
-https://gitlab.com/olymk2/emacs-digitalocean-helm
 

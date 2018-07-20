@@ -3,7 +3,7 @@
 ;;(require 'flymake)
 (require 'flyspell)
 
-
+(latex-preview-pane-enable)
 
 ;;; Code:
 

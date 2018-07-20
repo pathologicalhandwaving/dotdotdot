@@ -1,8 +1,13 @@
 ;;; file-variables.el
 
+
+;;; Commentary:
+;; 
+
 ;;; Code:
 
 
+;;; file-variables.el --- File Variables
 ;; ORGANIZER
 (defvar organizer-file)
 (setq organizer-file "/Users/Em/Documents/Dropbox/organizer.org")
@@ -14,6 +19,19 @@
 
 
 ;;; Exile (Personal Files)
+
+;; Exile Dir
+(defvar exile-dir)
+(setq exile-dir "/Users/Em/Documents/Dropbox/Exile/")
+
+;; Accounts File
+(defvar exile-accounts-file)
+(setq exile-accounts-file "/Users/Em/Documents/Dropbox/Exile/accounts.org")
+
+;; Contacts File
+(defvar exile-contacts-file)
+(setq exile-contacts-file "/Users/Em/Documents/Dropbox/Exile/contacts.org")
+
 
 ;; Default Notes
 (defvar exile-notes-file)
@@ -53,7 +71,17 @@
 (setq exile-comm-log-file "/Users/Em/Documents/Dropbox/Exile/communications-log.org")
 
 
+;;; Captain
+
+;; Journal Files Dir
+(defvar captain-files-dir)
+(setq captain-files-dir "/Users/Em/Documents/Dropbox/Diary/JournalEntries/")
+
 ;;; WerX Files
+
+;; WerX Dir
+(defvar werx-dir)
+(setq werx-dir "/Users/Em/Documents/Dropbox/Werx/")
 
 
 ;; WerX Issues
@@ -88,6 +116,9 @@
 ;; LabBot Path
 ;; /Users/Em/Documents/Dropbox/LabBot/
 
+;; LabBot Dir
+(defvar labbot-dir)
+(setq labbot-dir "/Users/Em/Documents/Dropbox/LabBot/")
 
 ;; Questions
 (defvar labbot-questions-file)
@@ -107,6 +138,8 @@
 (defvar labbot-projects-dir)
 (setq labbot-projects-dir "/Volumes/JumpShip/Lab/Projects")
 
+
+
 ;;; Library-Annex
 
 ;; ReadLater
@@ -122,6 +155,10 @@
 (defvar library-annex-quotes-file)
 (setq library-annex-quotes-file "/Users/Em/Documents/Dropbox/Library-Annex/quotes.org")
 
+;; Scraped Dir
+(defvar library-annex-scraped-dir)
+(setq library-annex-scraped-dir "/Users/Em/Documents/Dropbox/Library-Annex/Scraped/")
+
 
 ;; Helm-Books
 
@@ -131,8 +168,8 @@
 ;; MEGA Library-Archive
 ;; Not Really an Archive
 ;; More like a long term file store
-(defvar mega-library-archive-dir)
-(setq mega-library-archive-dir "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/")
+(defvar mega-library-dir)
+(setq mega-library-dir "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/")
 
 (defvar mega-pdfs-dir)
 (setq mega-pdfs-dir "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/PDFs/")
@@ -145,6 +182,15 @@
 
 (defvar mega-default-bibliography-file)
 (setq mega-default-bibliography-file "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Bibliography/default.bib")
+
+(defvar mega-dictionary-dir)
+(setq mega-dictionary-dir "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Dictionary/")
+
+(defvar mega-gloss-entries-dir)
+(setq mega-gloss-entries-dir "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Dictionary/Entries/")
+
+(defvar mega-dictionary-default-file)
+(setq mega-dictionary-default-file "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Dictionary/dictionary.org")
 
 
 ;;; LessonsLearned
@@ -162,6 +208,7 @@
 ;; LessonsLearned Index File
 (defvar lessonslearned-index-file)
 (setq lessonslearned-index-file "/Users/Em/Documents/Dropbox/LessonsLearned/lessonslearned-index.org")
+
 
 
 
@@ -210,8 +257,16 @@
 (setq audiobot-default-trans "/Users/Em/Documents/Dropbox/AudioBot/Transcribed/transcribed-voicememos.org")
 
 
+;;; AutoBot
+(defvar autobot-dir)
+(setq autobot-dir "/Users/Em/Documents/Dropbox/AutoBot/")
+
 
 ;;; TeXBot
+
+;; TeXBot Dir
+(defvar texbot-dir)
+(setq texbot-dir "/Users/Em/Documents/Dropbox/TeXBot/")
 
 
 ;; Templates Dir
@@ -273,6 +328,9 @@
 (defvar monopoly-grocery-list)
 (setq monopoly-grocery-list "/Users/Em/Documents/Dropbox/Monopoly/groceries.org")
 
+;; wishlist
+(defvar monopoly-wish-list)
+(setq monopoly-wish-list "/Users/Em/Documents/Dropbox/Monopoly/wishlist.org")
 
 
 ;;; Misc Variables:
@@ -325,6 +383,8 @@
 ;; Torrents Directory
 (defvar em-torrents-dir)
 (setq em-torrents-dir "/Users/Em/Torrents/")
+
+
 
 
 ;; End Code
