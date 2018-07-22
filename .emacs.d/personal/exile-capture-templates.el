@@ -10,6 +10,9 @@
   (interactive)
   (org-capture 0))
 
+;; Capture to Inbox
+(global-set-key (kbd "C-c i")
+                (lambda () (interactive) (org-capture nil "0")))
 
 
 
@@ -31,6 +34,21 @@
 :END:
 %?"
                                :empty-lines 1)
+                              ("0" "Inbox"
+                               entry
+                               (file+headline exile-inbox "Inbox")
+                               "* %^{Keyword} %^{Heading}
+:PROPERTIES:
+:DATE_ADDED: %T
+:END:
+%?"
+                               :empty-lines 1)
+                              ("d" "Diary"
+                               entry
+                               (file journal-time-entry)
+                               "* [%(format-time-string "%H:%M")]  %?"
+                               :tree-type week
+                               :empty-lines-after 1)
                                ("n" "Notes"
                                entry
                                (file+headline exile-notes-file "Notes")
@@ -62,6 +80,11 @@
 :END:\n
 %?"
                                :empty-lines 1)
+                              ("l" "Project Log"
+                               entry
+                               (file+datetree labbot-project-log)
+                               "** %U %?"
+                               :empty-lines 1)
                               ("r" "ReadLater"
                                entry
                                (file+headline library-annex-readlater-file "Read Later")
@@ -85,6 +108,7 @@
 :DATE_ADDED: %U
 :END:\n\n
 #+CAPTION: %^{Caption}
+#+HTML_HEAD_EXTRA: <style> blockquote {background:#384551; padding: 3px 13px; font-style: italic;}</style>
 #+BEGIN_QUOTE
   %^{Quote}
 #+END_QUOTE\n
@@ -95,47 +119,6 @@
                                (file "Users/Em/Documents/Dropbox/Library-Annex/book-memos.org")
                                 "* %(helm-books)"
                                :empty-lines 1)
-                              ("a" "Bibliography Article Entry"
-                               plain
-                               (file mega-default-bibliography-file)
-                                "@article{%^{Last Name}%^{Year},
-  author     = {%^{Authors}},
-  title      = {%^{Title}},
-  day        = {%^{Day}},
-  month      = {%^{Month}},
-  year       = {%^{Year}},
-  journal    = {%^{Journal}},
-  issn       = {%^{ISSN}},
-  doi        = [%^{doi}],
-  volume     = {%^{Volume}},
-  number     = {%^{Number}},
-  pages      = {%^{Pages}},
-  note       = {%^{Note}},
-  keywords   = {%^{keywords}},
-  abstract   = {%^{Abstract}}
-}%?"
-                                :empty-lines 1)
-                              ("o" "Bibliography Book Entry"
-                               plain
-                               (file mega-default-bibliography-file)
-                                "@book{%^{Last Name}%^{Year},
-  author     = {%^{Authors}},
-  editor     = {%^{Editor}},
-  title      = {%^{Title}},
-  publisher  = {%^{Publisher}},
-  address    = {%^{Address}},
-  day        = {%^{Day}},
-  month      = {%^{Month}},
-  year       = {%^{Year}},
-  volume     = {%^{Volume}},
-  edition    = {%^{Edition}},
-  isbn       = {%^{ISBN}},
-  lccn       = {%^{Library of Congress Call Number}},
-  mrnumber   = {%^{MathSciNet Review Number}},
-  note       = {%^{Note}},
-  keywords   = {%^{keywords}}
-}%?"
-                                :empty-lines 1)
                               ("f" "Fact"
                                entry
                                (file+headline labbot-fact-file "Facts")
@@ -216,17 +199,6 @@
                                entry
                                (file "/Users/Em/Documents/Dropbox/SwedishChef/cookbook.org")
                                "%(org-chef-get-recipe-from-url)"
-                               :empty-lines 1)
-                              ("z" "Crazy Ass Bullshit Log"
-                               entry
-                               (file "/Volumes/JumpShip/HomeBase/Family/crazy-log.org")
-                               "** %^{Family Member}
-:PROPERTIES:
-:DATE_CREATED: %U
-:BEHAVIOR: %^{Type of Crazy}
-:SEVERITY: %^{Severity}
-:DESCRIPTION: %?
-:END:"
                                :empty-lines 1)))
 
 

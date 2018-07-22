@@ -23,10 +23,10 @@
  (rear-context-string . "18-06-27\n:END:\n\n")
  (position . 230))
 ("org-refile-last-stored"
- (filename . "~/Documents/Dropbox/Library-Annex/quotes.org")
- (front-context-string . "** QUOTATION Pou")
- (rear-context-string . "\n  #+END_QUOTE\n\n")
- (position . 4589))
+ (filename . "~/Documents/Dropbox/Library-Annex/readlater.org")
+ (front-context-string . "** READLATER Thi")
+ (rear-context-string . "nt-checklist/\n\n\n")
+ (position . 16943))
 ("org-capture-last-stored"
  (filename . "~/Documents/Dropbox/Exile/tasks.org")
  (front-context-string . "** TODO Add HOLD")

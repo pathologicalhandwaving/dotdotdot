@@ -2,8 +2,8 @@
 ;; ----- smex-history -----
 (
  find-file
- org-journal-new-entry
  load-theme
+ org-journal-new-entry
  neotree-show
  calendar
  save-buffer
@@ -12,7 +12,7 @@
 
 ;; ----- smex-data -----
 (
- (find-file . 114)
+ (find-file . 116)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
@@ -23,7 +23,7 @@
  (neotree-show . 6)
  (neotree-change-root . 3)
  (org-brain-remove-child . 1)
- (load-theme . 13)
+ (load-theme . 14)
  (org-mode . 2)
  (org-brain-delete-entry . 15)
  (org-brain-update-id-locations . 4)

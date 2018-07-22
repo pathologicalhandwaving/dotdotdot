@@ -5,26 +5,25 @@
 ;;; Code:
 
 (setq org-refile-targets '((mega-dictionary-default-file :maxlevel . 4)
-                           (swedishchef-cookbook :maxlevel . 4)
-                           (exile-accounts-file :maxlevel . 3)
+                           (exile-notes-file :maxlevel . 5)
+                           (exile-inbox :maxlevel . 3)
+                           (library-annex-readlater-file :maxlevel . 5)
+                           (library-annex-quotes-file :maxlevel . 5)
+                           (monopoly-payments-file :maxlevel . 4)
+                           (monopoly-bills-file :maxlevel . 3)
                            (exile-appointments-file :maxlevel . 3)
+                           (exile-accounts-file :maxlevel . 3)
+                           (swedishchef-cookbook :maxlevel . 4)
                            (exile-comm-log-file :maxlevel . 4)
                            (exile-comments-file :maxlevel . 3)
                            (exile-habits-file :maxlevel . 5)
-                           (exile-notes-file :maxlevel . 5)
                            (labbot-fact-file :maxlevel . 3)
                            (labbot-ideas-file :maxlevel . 3)
                            (labbot-questions-file :maxlevel . 5)
-                           (library-annex-quotes-file :maxlevel . 5)
-                           (library-annex-readlater-file :maxlevel . 5)
-                           (mega-dictionary-default-file :maxlevel . 4)
                            (mega-default-bibliography-file :maxlevel . 5)
                            (organizer-file :maxlevel . 5)
-                           (exile-inbox :maxlevel . 3)
-                           (monopoly-bills-file :maxlevel . 3)
                            (monopoly-budget-file :maxlevel . 3)
                            (monopoly-gas-file :maxlevel . 4)
-                           (monopoly-payments-file :maxlevel . 4)
                            (monopoly-income-file :maxlevel . 4)
                            (monopoly-wish-list :maxlevel . 3)))
 
@@ -41,9 +40,9 @@
 ;;;; Refile settings
 ;; Exclude DONE state tasks from refile targets
 
-(defun exile/verify-refile-target ()
-  "Exclude todo keywords with a done state from refile targets"
-  (not (member (nth 2 (org-heading-components)) org-done-keywords)))
+;;(defun exile/verify-refile-target ()
+;;  "Exclude todo keywords with a done state from refile targets"
+;;  (not (member (nth 2 (org-heading-components)) org-done-keywords)))
 
 
 

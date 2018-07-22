@@ -18,6 +18,19 @@
 
 (set-register ?i '(file . exile-inbox))
 
+(set-register ?t '(file . exile-tasks-file))
+
+
+;;; Diary
+
+;; Running Journal File
+(defvar journal-runner)
+(setq runner "/Users/Em/Documents/Dropbox/Diary/runner.org")
+
+;; Therapy File
+(defvar journal-therapy)
+(setq journal-therapy "/Users/Em/Documents/Dropbox/Diary/therapy.org")
+
 
 ;;; Exile (Personal Files)
 
@@ -62,8 +75,8 @@
 (setq exile-orders-file "/Users/Em/Documents/Dropbox/Exile/online-orders.org")
 
 ;; Quotes
-(defvar exile-quotes-file)
-(setq exile-quotes-file "/Users/Em/Documents/Dropbox/Library-Annex/quotes.org")
+;;(defvar exile-quotes-file)
+;;(setq exile-quotes-file "/Users/Em/Documents/Dropbox/Library-Annex/quotes.org")
 
 ;; Tasks
 (defvar exile-tasks-file)
@@ -125,24 +138,24 @@
 (defvar labbot-dir)
 (setq labbot-dir "/Users/Em/Documents/Dropbox/LabBot/")
 
-;; Questions
+;; Questions File
 (defvar labbot-questions-file)
 (setq labbot-questions-file "/Users/Em/Documents/Dropbox/LabBot/questions.org")
 
-;; Project Log Fil
+;; Project Log File
 (defvar labbot-project-log)
 (setq labbot-project-log "/Users/Em/Documents/Dropbox/LabBot/project-log.org")
 
-;; Facts
+;; Facts File
 (defvar labbot-fact-file)
 (setq labbot-fact-file "/Users/Em/Documents/Dropbox/LabBot/facts.org")
 
 
-;; ideas
+;; Ideas File
 (defvar labbot-ideas-file)
 (setq labbot-ideas-file "/Users/Em/Documents/Dropbox/LabBot/ideas.org")
 
-;; projects
+;; Projects Directory
 (defvar labbot-projects-dir)
 (setq labbot-projects-dir "/Volumes/JumpShip/Lab/Projects")
 
@@ -154,6 +167,9 @@
 (defvar library-annex-readlater-file)
 (setq library-annex-readlater-file "/Users/Em/Documents/Dropbox/Library-Annex/readlater.org")
 
+;; Read
+(defvar library-annex-read-file)
+(setq library-annex-read-file "/Users/Em/Documents/Dropbox/Library-Annex/read.org")
 
 (defvar library-annex-dir)
 (setq library-annex-dir "/Users/Em/Documents/Dropbox/Library-Annex/")
@@ -169,6 +185,9 @@
 
 
 ;; Helm-Books
+;; Book Memos File
+(defvar library-annex-book-memos-file "/Users/Em/Documents/Dropbox/Library-Annex/book-memos.org")
+
 
 
 ;;; Library MEGA
@@ -200,6 +219,8 @@
 (defvar mega-dictionary-default-file)
 (setq mega-dictionary-default-file "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Dictionary/dictionary.org")
 
+(defvar mega-acronyms-file)
+(setq mega-acronyms-file "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Dictionary/acronyms.org")
 
 ;;; LessonsLearned
 

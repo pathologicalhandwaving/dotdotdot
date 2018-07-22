@@ -20,31 +20,53 @@
 ** TODO Add Categories to Blog
    :PROPERTIES:
    :DATE_ADDED: [2018-07-20 09:47]
+   :ID:       57B56890-1112-479F-B689-C4C804C50EB2
    :END:
 
 ** TODO Add Supply Reviews Section to blog
+:PROPERTIES:
+:ID:       201557E8-BE4E-4779-BFB9-F660EE411CA4
+:END:
 [2018-07-20 Fri 05:45]
 
 
 ** TODO Change ink in pen
+:PROPERTIES:
+:ID:       359F1A81-EF17-4CF2-9A17-1089EDF5FEBE
+:END:
 [2018-07-20 Fri 07:32]
 
 
 ** TODO Flush pen
+:PROPERTIES:
+:ID:       2342137A-ADBC-40F0-854F-FE554F01D532
+:END:
 [2018-07-20 Fri 07:33]
 
 
 ** TODO Dollar tree: Bucket, rags, cleaner
+:PROPERTIES:
+:ID:       437B4F87-4142-4403-B532-386EB21605D5
+:END:
 [2018-07-20 Fri 07:33]
 
 
 ** INPROGRESS Send dropbox link to Carrie
+:PROPERTIES:
+:ID:       29920F77-D643-4494-BA4C-506D8947EF6F
+:END:
 [2018-07-20 08:57]
 
 ** TODO Create Inbox File
+:PROPERTIES:
+:ID:       52538E25-FA4F-4FC9-838D-0FFA643D99FC
+:END:
 [2018-07-20 08:58]
 
 ** TODO Move boxes from car
+:PROPERTIES:
+:ID:       AFA9093E-7FDD-4ABE-B1D3-676798C77037
+:END:
 [2018-07-20 08:58]
 
 ** TODO helm-bibtex/README.org at master · tmalsburg/helm-bibtex
@@ -90,7 +112,10 @@ The popularity of the phrase, “That’s what she said,” from televisions, Th
 Be like a comedian. Hypothetically drop the mike and end the show while everyone’s still laughing.
 
 
-* RECIPE ** 7Up Martini
+** RECIPE 7Up Martini
+:PROPERTIES:
+:ID:       9DAC4F2D-EF41-477E-B0FD-33ACA104E431
+:END:
 [2018-07-19 Thu 01:19]
    :PROPERTIES:
    :CATEGORY: SwedishChef:
@@ -106,43 +131,67 @@ Be like a comedian. Hypothetically drop the mike and end the show while everyone
      - 1oz Agave syrup
 
 
-** TODO dotfiles/configuration.org at master · hrs/dotfiles
+** PACKAGE dotfiles/configuration.org at master · hrs/dotfiles
+:PROPERTIES:
+:ID:       1C94B369-7A6C-452F-B750-A68643800ADE
+:END:
 [2018-07-19 Thu 08:44]
 https://github.com/hrs/dotfiles/blob/master/emacs/.emacs.d/configuration.org#keybindings
 orgmode utils
 
 
 ** READLATER Story of My Life: How Narrative Creates Personality - The Atlantic
+:PROPERTIES:
+:ID:       623BE27B-36D3-4989-8B91-07741F1EEC1C
+:END:
 [2018-07-19 Thu 14:29]
 https://www.google.com/amp/s/www.theatlantic.com/amp/article/400796/
 
 
 ** READLATER How to Stop Believing Lies Others Told You About You | Psychology Today
+:PROPERTIES:
+:ID:       51ACA808-3C11-4BFF-BC36-3EF2B19659E9
+:END:
 [2018-07-19 Thu 14:31]
 https://www.google.com/amp/s/www.psychologytoday.com/us/blog/prescriptions-life/201209/how-stop-believing-lies-others-told-you-about-you%3famp
 
 
 ** READLATER Starter Pantry and Staples Checklist - My First Apartment
+:PROPERTIES:
+:ID:       790161F7-D11F-4538-A80B-65F09420A369
+:END:
 [2018-07-19 Thu 14:42]
 https://www.myfirstapartment.com/2005/11/starter-pantry-and-staples-checklist/
 
 
 ** READLATER Starter Apartment Checklist - My First Apartment
+:PROPERTIES:
+:ID:       7C4B6FEA-1804-40B3-98B8-4BA02B05624E
+:END:
 [2018-07-19 Thu 14:42]
 https://www.myfirstapartment.com/2005/11/starter-equipment-checklist/
 
 
 ** READLATER Things You Need For Your First Apartment: The Ultimate Checklist - My First Apartment
+:PROPERTIES:
+:ID:       A93122E9-A894-4F65-8710-34829926821A
+:END:
 [2018-07-19 Thu 14:42]
 https://www.myfirstapartment.com/2013/05/things-you-need-for-your-first-apartment/
 
 
 ** CLIP Blue Ink — Mountain of Ink
+:PROPERTIES:
+:ID:       076F0433-0599-44CB-9FD1-45D7413D4A06
+:END:
 [2018-07-20 Fri 05:44]
 https://www.mountainofink.com/blog/blue-ink
 
 
 ** CLIP Grey Ink — Mountain of Ink
+:PROPERTIES:
+:ID:       308BFEBD-2F3B-4ADF-8B25-28147EAF0271
+:END:
 [2018-07-20 Fri 05:44]
 https://www.mountainofink.com/blog/grey-ink
 
