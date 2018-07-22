@@ -4,6 +4,10 @@
 
 (setq org-todo-keyword-faces
       '(("PROJECT" :background "CornflowerBlue" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("PROJECT_LOG" :background "SlateBlue4" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("CHECK" :background "DarkOrange2" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("HOLD" :background "SlateGray4" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("NEW_FILE" :background "green" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("STARTED" :background "forest green" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("PAUSED" :background "SlateGray4" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("CANCELLED" :background "black" :foreground "SlateGray4" :weight regular (:strike-through t))
@@ -20,7 +24,7 @@
         ("DEFERRED" :background "SlateGray4" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("TIMESTAMP" :background "DeepSkyBlue1" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("DEADLINE" :background "red1" :foreground "black" :weight regular :box (:line-width 1 :style none))
-        ("ACCOUNT" :background "SlateGray4" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("ACCOUNT" :background "SlateBlue" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("WORK" :background "OrangeRed2" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("MEETING" :background "DeepSkyBlue1" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("REQUEST" :background "yellow" :foreground "black" :weight regular :box (:line-width 1 :style none))
@@ -87,7 +91,7 @@
         ("DOWNLOAD" :background "cyan4" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("AUDIOBOOK" :background "cyan4" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("DEFINITION" :background "#51AFEF" :foreground "black" :weight regular :box (:line-width 1 :style none))
-        ("COMMENT" :background "#384551" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("COMMENT" :background "yellow" :foreground "black" :weight bold :box (:line-width 1 :style none))
         ("CONVENTION" :background "#6495DD" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("LOG" :background "#575555" :foreground "black" :weight regular :box (:line-width 1 :style non))
         ("LOGGED" :background "#6C7B8B" :weight regular (:strike-through t))
@@ -157,6 +161,11 @@
         ("SpaceBot" :background "#660094" :foreground "black" :weight normal)
         ("WAITING" :background "#6C78B8" :foreground "black" :weight normal :box (:line-width 1 :style none))
         ("LabBot" :background "#6495DD" :foreground "black" :weight bold)
+        ("CITEKEY" :foreground "#0072CF" :weight bold)
+        ("SCRAPED" :background "purple" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("BOOK NOTES" :background "#EBBF83" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("CLIP" :background "#6495DD" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("QUOTE" :background "DarkViolet" :background "black" :weight regular :box (:line-width 1 :style none))
         ("Monopoly" :background "#216C2A" :foreground "black" :weight bold)
         ("BILL" :background "#216C2A" :foreground "black" :weight normal :box (:line-width 1 :style none))
         ("PAYMENT" :background "#216C2A" :foreground "black" :weight normal :box (:line-width 1 :style none))
@@ -171,6 +180,7 @@
         ("HolidayInn" :background "#3B9B35" :foreground "black" :weight bold)
         ("HOLIDAYINN" :background "#3B9B35" :foreground "black" :weight normal)
         ("DONE" :foreground "#6C7B8B" :weight normal (:strike-through t))
+        ("DUE_DATE" :foreground "#FF6655" :foregroud "black" :weight regular :box (:line-width 1 :style none))
         ("FILED" :foreground "#6C7B8B" :weight normal (:strike-through t))))
 
 

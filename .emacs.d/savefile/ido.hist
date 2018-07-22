@@ -2,15 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
- (#("/Volumes/JumpShip/" 1 9 (face flx-highlight-face) 9 12 (face flx-highlight-face)) . #("Lab/" 0 3 (face flx-highlight-face)))
- (#("/Volumes/JumpShip/Lab/Projects/" 22 26 (face flx-highlight-face)) . #("OEIS/" 0 2 (face flx-highlight-face)))
- (#("/Volumes/JumpShip/Lab/" 1 8 (face flx-highlight-face) 9 13 (face flx-highlight-face) 18 21 (face flx-highlight-face)) . #("Projects/" 0 4 (face flx-highlight-face)))
- (#("/Volumes/" 1 8 (face flx-highlight-face)) . #("JumpShip/" 0 3 (face flx-highlight-face)))
+ ("/Volumes/JumpShip/" . "Lab/")
+ ("/Volumes/JumpShip/Lab/Projects/" . "OEIS/")
+ ("/Volumes/JumpShip/Lab/" . "Projects/")
+ ("/Volumes/" . "JumpShip/")
  ("/Users/Em/Documents/Dropbox/Library-Annex/" . "Scraped/")
- ("/Users/Em/Documents/Dropbox/Werx/" . #("WerX-Logs/" 0 6 (face flx-highlight-face)))
+ ("/Users/Em/Documents/Dropbox/Werx/" . "WerX-Logs/")
  ("/Users/Em/.emacs.d/" . "personal/")
  ("/Users/Em/" . ".emacs.d/")
- ("/Users/Em/Documents/Dropbox/" . #("LabBot/" 0 5 (face flx-highlight-face)))
+ ("/Users/Em/Documents/Dropbox/" . "Werx/")
 )
 
 ;; ----- ido-work-directory-list -----
@@ -25,17 +25,31 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/Em/" (23375 46303 0 0) "VMs/" "Torrents/" "Toolz/" "Repos/" "Public/" "Pictures/" "perl5/" "package-lock.json" "org.ics" "node_modules/" "News/" "Music/" "Movies/" "Mail/" "Library/" "hacker_news_data.txt" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bower_components/" "bower.json" "Applications/" ".yarnrc" ".Xauthority" ".wine/" ".wgetrc" ".wget-hsts" ".wegorc" ".w3m/" ".viminfo" ".vim/" ".vars" ".utils" ".Trash/" ".tor/" ".tldr/" ".texutils" ".subversion/" ".study" ".streamlinkrc" ".stardict/" ".ssh/" ".soundmeter/" ".slack/" ".shell_prompt.sh" ".setups/" ".serverauth.68141" ".searchlink" ".sdirs" ".sdcv_history" ".sdcv/" ".sage/" ".rnd" ".redshiftrc" ".rainbow_oauth" ".rainbow_config.json" ".qutebrowser/" ".qr-filetransfer.json" ".qq/" ".python_history" ".pubsrc" ".pubs/" ".proselint/" ".prompt" ".powerline-shell.json" ".plotly/" ".php_versions/" ".pex/" ".p.log" ".p/" ".osx" ".oracle_jre_usage/" ".npm/" ".notebook/" ".node-gyp/" ".nimble-options.json" ".newsrc.eld" ".mysql_history" ".myscripts/" ".myeditors" ".myeditorchoice" ".myCurrentFiles" ".myconfig-backup/" ".myconfig/" ".mutt/" ".mplayer/" ".moro-config.json" ".matplotlib/" ".mathutils" ".mail/" ".local/" ".links/" ".lesshst" ".karabiner/" ".kanban.tmp.index" ".kanban.csv" ".kanban.conf" ".jupyter/" ".iterm2_shell_integration.bash" ".iterm2/" ".irssi/" ".ipython/" ".ipynb_checkpoints/" ".insert-shebang.log" ".image.so" ".ideas.json" ".hyper_plugins/" ".hyper.js" ".html2ps/" ".hammerspoon/" ".go/" ".gnuplot_history" ".gnupg_pre_2.1/" ".gnupg/" ".gnome2/" ".gitignore" ".gitconfig" ".gistup.json" ".gem/" ".functions" ".fu_cached_pickle" ".fu" ".fromscratch/" ".fonts/" ".flashcards/" ".exports" ".erc/" ".emacs_anywhere/" ".emacs.d.pre-prelude.tar" ".emacs.d/" ".elinks/" ".elfeed/" ".electron/" ".edits" ".editor" ".DS_Store" ".dropbox_uploader/" ".dropbox/" ".doingrc" ".dircolors/" ".dict/" ".cups/" ".cpanm/" ".cpan/" ".config/" ".composer/" ".clockywock" ".cider/" ".cheat/" ".CFUserTextEncoding" ".ccache/" ".calcurse/" ".calc_history" ".cache/" ".bundle/" ".bitbarrc" ".bitbar_pomodoro" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".authinfo" ".aspell.en.pws" ".aspell.en.prepl" ".apps" ".app-envs/" ".aliases" "../" "./")
+ ("/Users/Em/.emacs.d/personal/" (23377 58097 0 0) "webber-settings.el" "weather-settings.el" "Untitled.txt" "todo-settings.el" "tag-settings.el" "symbol-settings.el" "structure-templates.el" "source-settings.el" "snippet-settings.el" "search-engines.el" "scratch-settings.el" "refile-settings.org" "refile-settings.el" "reading-settings.el" "random-list.el" "property-settings.el" "project-settings.el" "preload/" "org-settings.el" "ocean-settings.el" "narrow-settings.el" "modeline-settings.el" "media-settings.el" "mail-settings.el" "log-settings.el" "location-settings.el" "link-settings.el" "latex-settings.el" "icon-settings.el" "head-settings.el" "flycheck_todo-settings.el" "file-variables.el" "export-settings.el" "exile.elc" "exile.el" "exile-theme.elc" "exile-theme.el" "exile-capture-templates.el" "emms-settings.el" "custom.el" "color-settings.elc" "color-settings.el" "calendar-settings.el" "browser-settings.el" "brain-settings.el" "archive-settings.el" "agenda-settings.el" ".gitkeep" ".DS_Store" ".dir-locals.el" "../" "./")
 
- (#("/Volumes/JumpShip/Lab/Projects/OEIS/" 22 26 (face flx-highlight-face)) (23375 46296 0 0) "../" "./")
+ ("/Users/Em/.emacs.d/" (23377 55926 0 0) "vendor/" "var/" "utils/" "url/" "themes/" "snippets/" "scratch_pop/" "savefile/" "sample/" "request/" "README.md" "projectile-bookmarks.eld" "prelude-modules.el" "prelude-cheatsheet.pdf" "personal/" "org-clock-save.el" "modules/" "latex/" "init.el" "eww-bookmarks" "emms/" "elpa/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "ac-comphist.dat" ".trello/" ".projectile" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#!Volumes!JumpShip!Archive!20180626.org_archive#" "#!Users!Em!Documents!Dropbox!Werx!WerX-Logs!2018-0710-OperaSupport.org#" "#!Users!Em!Documents!Dropbox!Exile!tasks.org#" "#!Users!Em!Documents!Dropbox!Diary!JournalEntries!20180620#" "../" "./")
 
- (#("/Volumes/JumpShip/Lab/Projects/" 22 26 (face flx-highlight-face)) (23375 46296 0 0) "WMD/" "Structures/" "OEIS/" "MacLaneCats/" "LuckyNumbers/" "LLDB/" "HolidayInn/" "DTree/" "DesConf/" "CM/" "BasicPrime/" ".DS_Store" "../" "./")
+ ("/Users/Em/" (23377 48233 0 0) "VMs/" "Torrents/" "Toolz/" "Repos/" "Public/" "Pictures/" "perl5/" "package-lock.json" "org.ics" "node_modules/" "News/" "Music/" "Movies/" "Mail/" "Library/" "hacker_news_data.txt" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bower_components/" "bower.json" "Applications/" ".yarnrc" ".Xauthority" ".wine/" ".wgetrc" ".wget-hsts" ".wegorc" ".w3m/" ".viminfo" ".vim/" ".vars" ".utils" ".Trash/" ".tor/" ".tldr/" ".texutils" ".subversion/" ".study" ".streamlinkrc" ".stardict/" ".ssh/" ".soundmeter/" ".slack/" ".shell_prompt.sh" ".setups/" ".serverauth.68141" ".searchlink" ".sdirs" ".sdcv_history" ".sdcv/" ".sage/" ".rnd" ".redshiftrc" ".rainbow_oauth" ".rainbow_config.json" ".qutebrowser/" ".qr-filetransfer.json" ".qq/" ".python_history" ".pubsrc" ".pubs/" ".proselint/" ".prompt" ".powerline-shell.json" ".plotly/" ".php_versions/" ".pex/" ".p.log" ".p/" ".osx" ".oracle_jre_usage/" ".npm/" ".notebook/" ".node-gyp/" ".nimble-options.json" ".newsrc.eld" ".mysql_history" ".myscripts/" ".myeditors" ".myeditorchoice" ".myCurrentFiles" ".myconfig-backup/" ".myconfig/" ".mutt/" ".mplayer/" ".moro-config.json" ".matplotlib/" ".mathutils" ".mail/" ".local/" ".links/" ".lesshst" ".karabiner/" ".kanban.tmp.index" ".kanban.csv" ".kanban.conf" ".jupyter/" ".iterm2_shell_integration.bash" ".iterm2/" ".irssi/" ".ipython/" ".ipynb_checkpoints/" ".insert-shebang.log" ".image.so" ".ideas.json" ".hyper_plugins/" ".hyper.js" ".html2ps/" ".hammerspoon/" ".go/" ".gnuplot_history" ".gnupg_pre_2.1/" ".gnupg/" ".gnome2/" ".gitignore" ".gitconfig" ".gistup.json" ".gem/" ".functions" ".fu_cached_pickle" ".fu" ".fromscratch/" ".fonts/" ".flashcards/" ".exports" ".erc/" ".emacs_anywhere/" ".emacs.d.pre-prelude.tar" ".emacs.d/" ".elinks/" ".elfeed/" ".electron/" ".edits" ".editor" ".DS_Store" ".dropbox_uploader/" ".dropbox/" ".doingrc" ".dircolors/" ".dict/" ".cups/" ".cpanm/" ".cpan/" ".config/" ".composer/" ".clockywock" ".cider/" ".cheat/" ".CFUserTextEncoding" ".ccache/" ".calcurse/" ".calc_history" ".cache/" ".bundle/" ".bitbarrc" ".bitbar_pomodoro" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".authinfo" ".aspell.en.pws" ".aspell.en.prepl" ".apps" ".app-envs/" ".aliases" "../" "./")
 
- (#("/Volumes/JumpShip/Lab/" 1 8 (face flx-highlight-face) 9 13 (face flx-highlight-face) 18 21 (face flx-highlight-face)) (23347 1038 0 0) "Utils/" "repo-list.org" "projects-overview.org" "Projects/" "lab-tasks.org" "Bog/" ".DS_Store" "../" "./")
+ ("/Users/Em/Documents/Dropbox/Diary/" (23375 59920 0 0) "therapy.org" "JournalEntries/" "diary.org" "Bog/" ".DS_Store" "../" "./")
 
- (#("/Volumes/JumpShip/" 1 8 (face flx-highlight-face) 9 13 (face flx-highlight-face)) (23309 50524 0 0) "Work/" "Webber/" "System/" "SelfSpy/" "Monopoly/" "Library/" "Lab/" "Inbox/" "HomeBase/" "CaptainsLog/" "Brain/" "Archive/" "Algorithms/" ".VolumeIcon.icns" ".Trashes/" ".TemporaryItems/" ".Spotlight-V100/" ".PKInstallSandboxManager/" ".gnupg/" ".fseventsd/" ".DS_Store" ".DocumentRevisions-V100-bad-1/" ".DocumentRevisions-V100/" "../" "./")
+ ("/Users/Em/Documents/Dropbox/Diary/JournalEntries/" (23377 57998 0 0) "20180720.org" "20180718.org" "20180716.org" "20180715.org" "20180713.org" "20180710.org" "20180707.org" "20180706.org" "20180704.org" "20180703.org" "20180702.org" "20180701.org" "20180630.org" "20180627.org" "20180626.org" "20180625.org" "20180620.org" "20180326.org" "20180324.org" "20180305.org" "../" "./")
 
- (#("/Volumes/" 1 8 (face flx-highlight-face)) (23374 44510 0 0) "Lucky/" "JumpShip/" "Boyd2018.org" ".DS_Store" "../" "./")
+ ("/Users/Em/Documents/Dropbox/Exile/" (23377 8736 0 0) "tasks.org" "tasks (Dont.attlocal.net's conflicted copy 2018-07-16).org" "questions.org" "online-orders.org" "notes.org" "ltximg/" "habits.org" "exile-index.org" "coordinates.org" "contacts.org" "communications-log.org" "comments-withheld.org" "appointments.org" "accounts.org" "201806-notes.org" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/" (23377 8585 0 0) "auto/" "20180627.org" "2018-07-18.org" "2018-07-17.org" "2018-07-12.org" "2018-07-11.org" "2018-07-04.org" "2018-07-03.org" "2018-06-28.org" "2018-06-20.org" "2018-06-19.org" "2018-06-16.tex" "2018-06-16.pdf" "2018-06-16.org" "2018-06-15.tex" "2018-06-15.pdf" "2018-06-15.org" "2018-06-13.tex" "2018-06-13.pdf" "2018-06-13.org" "2018-06-12.tex" "2018-06-12.synctex.gz" "2018-06-12.pdf" "2018-06-12.out" "2018-06-12.org" "2018-06-12.log" "2018-06-12.aux" "2018-06-10.tex" "2018-06-10.org" "2018-06-09.tex" "2018-06-09.org" "2018-06-07.tex" "2018-06-07.pdf" "2018-06-07.org" "2018-06-06.tex" "2018-06-06.pdf" "2018-06-06.org" "2018-06-05.tex" "2018-06-05.pdf" "2018-06-05.org" "2018-06-03.tex" "2018-06-03.pdf" "2018-06-03.org" "2018-06-02.tex" "2018-06-02.pdf" "2018-06-02.org" "2018-05-30.tex" "2018-05-30.org" "2018-05-25.tex" "2018-05-25.org" ".#2018-0710-OperaSupport.org" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/" (23372 8528 0 0) "Werx/" "Torrents/" "TMP/" "TeXBot/" "SwedishChef/" "SpaceBot/" "snippets/" "Ship/" "organizer.org" "Ocean/" "Monopoly/" "Library-Annex/" "LessonsLearned/" "LabBot/" "Icon" "HomeBase/" "Exile/" "Docs/" "Diary/" "AutoBot/" "AudioBot/" "Archive/" "Apps/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Volumes/JumpShip/Lab/Projects/OEIS/" (23375 46296 0 0) "../" "./")
+
+ ("/Volumes/JumpShip/Lab/Projects/" (23375 46296 0 0) "WMD/" "Structures/" "OEIS/" "MacLaneCats/" "LuckyNumbers/" "LLDB/" "HolidayInn/" "DTree/" "DesConf/" "CM/" "BasicPrime/" ".DS_Store" "../" "./")
+
+ ("/Volumes/JumpShip/Lab/" (23347 1038 0 0) "Utils/" "repo-list.org" "projects-overview.org" "Projects/" "lab-tasks.org" "Bog/" ".DS_Store" "../" "./")
+
+ ("/Volumes/JumpShip/" (23309 50524 0 0) "Work/" "Webber/" "System/" "SelfSpy/" "Monopoly/" "Library/" "Lab/" "Inbox/" "HomeBase/" "CaptainsLog/" "Brain/" "Archive/" "Algorithms/" ".VolumeIcon.icns" ".Trashes/" ".TemporaryItems/" ".Spotlight-V100/" ".PKInstallSandboxManager/" ".gnupg/" ".fseventsd/" ".DS_Store" ".DocumentRevisions-V100-bad-1/" ".DocumentRevisions-V100/" "../" "./")
+
+ ("/Volumes/" (23374 44510 0 0) "Lucky/" "JumpShip/" "Boyd2018.org" ".DS_Store" "../" "./")
 
  ("/Users/" (22931 38953 0 0) "Shared/" "Guest/" "Em/" ".localized" "../" "./")
 
@@ -43,25 +57,11 @@
 
  ("/Users/Em/Documents/Dropbox/Werx/" (23374 63403 0 0) "WerX_Archive/" "WerX-Personal/" "WerX-Logs/" "WerX-Issues/" "WerX-Info/" "WerX-Cash.org" "Stubs/" "Icon" "holidayinn-notes.org" "holidayinn-issues.toc" "holidayinn-issues.tex" "holidayinn-issues.synctex.gz" "holidayinn-issues.pdf" "holidayinn-issues.out" "holidayinn-issues.org" "holidayinn-issues.log" "holidayinn-issues.aux" "holidayinn-girftshop.org" "holidayinn-audit-tasks.org" "concerns.org" "auto/" ".DS_Store" ".dropbox" "../" "./")
 
- ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/" (23375 11195 0 0) "auto/" "20180627.org" "2018-07-17.org" "2018-07-12.org" "2018-07-11.org" "2018-07-04.org" "2018-07-03.org" "2018-06-28.org" "2018-06-20.org" "2018-06-19.org" "2018-06-16.tex" "2018-06-16.pdf" "2018-06-16.org" "2018-06-15.tex" "2018-06-15.pdf" "2018-06-15.org" "2018-06-13.tex" "2018-06-13.pdf" "2018-06-13.org" "2018-06-12.tex" "2018-06-12.synctex.gz" "2018-06-12.pdf" "2018-06-12.out" "2018-06-12.org" "2018-06-12.log" "2018-06-12.aux" "2018-06-10.tex" "2018-06-10.org" "2018-06-09.tex" "2018-06-09.org" "2018-06-07.tex" "2018-06-07.pdf" "2018-06-07.org" "2018-06-06.tex" "2018-06-06.pdf" "2018-06-06.org" "2018-06-05.tex" "2018-06-05.pdf" "2018-06-05.org" "2018-06-03.tex" "2018-06-03.pdf" "2018-06-03.org" "2018-06-02.tex" "2018-06-02.pdf" "2018-06-02.org" "2018-05-30.tex" "2018-05-30.org" "2018-05-25.tex" "2018-05-25.org" ".#2018-0710-OperaSupport.org" "../" "./")
-
  ("/Users/Em/Documents/Dropbox/LessonsLearned/" (23375 11322 0 0) "LL001.org" "lessonslearned-index.org" "lessonslearned-default.org" "../" "./")
-
- ("/Users/Em/Documents/Dropbox/Diary/" (23374 29251 0 0) "therapy.org" "JournalEntries/" "diary.org" "Bog/" ".DS_Store" "../" "./")
-
- ("/Users/Em/Documents/Dropbox/Diary/JournalEntries/" (23375 11212 0 0) "20180718.org" "20180715.org" "20180713.org" "20180710.org" "20180707.org" "20180706.org" "20180704.org" "20180703.org" "20180702.org" "20180701.org" "20180630.org" "20180627.org" "20180626.org" "20180620.org" ".#20180718.org" "../" "./")
-
- (#("/Users/Em/Documents/Dropbox/" 10 15 (face flx-highlight-face) 20 24 (face flx-highlight-face)) (23372 8527 0 0) "Werx/" "Torrents/" "TMP/" "TeXBot/" "SwedishChef/" "SpaceBot/" "snippets/" "Ship/" "organizer.org" "Ocean/" "Monopoly/" "Library-Annex/" "LessonsLearned/" "LabBot/" "Icon" "HomeBase/" "Exile/" "Docs/" "Diary/" "AutoBot/" "AudioBot/" "Archive/" "Apps/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
  ("/Users/Em/Documents/Dropbox/HomeBase/Apartment/" (23368 43635 0 0) "2018-07-13 09.26.13.pdf" "../" "./")
 
  ("/Users/Em/Documents/Dropbox/HomeBase/" (23368 43611 0 0) "Family/" "Apartment/" "../" "./")
-
- ("/Users/Em/.emacs.d/personal/" (23362 58527 0 0) "weather-settings.el" "Untitled.txt" "todo-settings.el" "tag-settings.el" "symbol-settings.el" "structure-templates.el" "source-settings.el" "snippet-settings.el" "scratch-settings.el" "refile-settings.org" "refile-settings.el" "reading-settings.el" "random-list.el" "property-settings.el" "project-settings.el" "preload/" "org-settings.el" "narrow-settings.el" "modeline-settings.el" "media-settings.el" "mail-settings.el" "log-settings.el" "location-settings.el" "link-settings.el" "latex-settings.el" "icon-settings.el" "head-settings.el" "file-variables.el" "export-settings.el" "exile.elc" "exile.el" "exile-theme.elc" "exile-theme.el" "exile-capture-templates.el" "emms-settings.el" "custom.el" "color-settings.elc" "color-settings.el" "calendar-settings.el" "browser-settings.el" "brain-settings.el" "archive-settings.el" "agenda-settings.el" ".gitkeep" ".DS_Store" ".dir-locals.el" "../" "./")
-
- ("/Users/Em/.emacs.d/" (23362 58362 0 0) "vendor/" "var/" "utils/" "url/" "themes/" "snippets/" "scratch_pop/" "savefile/" "sample/" "request/" "README.md" "projectile-bookmarks.eld" "prelude-modules.el" "prelude-cheatsheet.pdf" "personal/" "org-clock-save.el" "modules/" "latex/" "init.el" "eww-bookmarks" "emms/" "elpa/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "ac-comphist.dat" ".trello/" ".projectile" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#!Volumes!JumpShip!Archive!20180626.org_archive#" "#!Users!Em!Documents!Dropbox!Diary!JournalEntries!20180620#" "../" "./")
-
- ("/Users/Em/Documents/Dropbox/Exile/" (23362 58403 0 0) "tasks.org" "questions.org" "online-orders.org" "notes.org" "ltximg/" "habits.org" "exile-index.org" "coordinates.org" "contacts.org" "communications-log.org" "comments-withheld.org" "appointments.org" "201806-notes.org" ".DS_Store" ".#tasks.org" "../" "./")
 
  ("/Users/Em/Documents/Dropbox/Library-Annex/Scraped/" (23327 16144 0 0) "thinking-fallacies-part1.org" "knowledgerepresentation.org" "../" "./")
 

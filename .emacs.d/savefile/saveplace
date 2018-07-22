@@ -1,28 +1,21 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/Em/Documents/Dropbox/snippets/org-mode/title" . 53)
- ("/Users/Em/Documents/Dropbox/Exile/comments-withheld.org" . 119)
- ("/Users/Em/Documents/Dropbox/Werx/holidayinn-issues.org" . 12497)
- ("/Users/Em/Documents/Dropbox/Exile/appointments.org" . 3567)
- ("/Users/Em/Documents/Dropbox/Exile/tasks.org" . 68671)
- ("/Users/Em/Documents/Dropbox/Diary/JournalEntries/20180718.org" . 134)
+(("/Users/Em/.emacs.d/savefile/recentf" . 16296)
+ ("/Users/Em/.emacs.d/savefile/ido.hist" . 11387)
+ ("/Users/Em/.emacs.d/emms/history" . 212)
  ("/Users/Em/Documents/Dropbox/LessonsLearned/lessonslearned-default.org" . 160)
+ ("/Users/Em/Documents/Dropbox/Werx/holidayinn-issues.org" . 12497)
+ ("/Users/Em/Documents/Dropbox/Exile/appointments.org" . 4210)
+ ("/Users/Em/Documents/Dropbox/Exile/tasks.org" . 70564)
+ ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/2018-07-18.org" . 13115)
+ ("/Users/Em/Documents/Dropbox/Diary/JournalEntries/20180720.org" . 258)
+ ("/Users/Em/.emacs.d/personal/color-settings.el" . 17490)
+ ("/Users/Em/.emacs.d/personal/todo-settings.el" . 1079)
+ ("/Users/Em/Documents/Dropbox/snippets/org-mode/title" . 53)
+ ("/Users/Em/Documents/Dropbox/Exile/comments-withheld.org" . 119)
+ ("/Users/Em/Documents/Dropbox/Diary/JournalEntries/20180718.org" . 134)
  ("/Users/Em/Documents/Dropbox/LabBot/online-research-tools.org" . 697)
  ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/2018-07-17.org" . 10803)
- (#("/Volumes/JumpShip/Lab/Projects/OEIS/handling-strange-sequences.org" 1 9
-    (face flx-highlight-face)
-    9 12
-    (face flx-highlight-face)
-    18 21
-    (face flx-highlight-face)
-    22 26
-    (face flx-highlight-face)
-    31 33
-    (face flx-highlight-face))
-  . 1773)
  ("/Users/Em/Documents/Dropbox/LessonsLearned/LL001.org" . 155)
- ("/Users/Em/.emacs.d/savefile/recentf" . 16273)
- ("/Users/Em/.emacs.d/savefile/ido.hist" . 11784)
- ("/Users/Em/.emacs.d/emms/history" . 212)
  ("/Users/Em/Documents/Dropbox/Exile/notes.org" . 64)
  ("/Users/Em/Documents/Dropbox/LessonsLearned/lessonslearned-index.org" . 319)
  ("/Users/Em/Documents/Dropbox/Werx/WerX-Cash.org" . 10238)
@@ -30,8 +23,6 @@
  ("/Users/Em/.emacs.d/personal/tag-settings.el" . 2142)
  ("/Users/Em/Documents/Dropbox/snippets/org-mode/cash-log" . 33)
  ("/Users/Em/Documents/Dropbox/Werx/WerX-Personal/schedule.org" . 24492)
- ("/Users/Em/.emacs.d/personal/todo-settings.el" . 1938)
- ("/Users/Em/.emacs.d/personal/color-settings.el" . 699)
  (#("/Users/Em/Documents/Dropbox/Library-Annex/Scraped/elicitation-techniques.org" 28 31
     (face flx-highlight-face)
     42 46
@@ -40,8 +31,6 @@
  ("/Users/Em/.emacs.d/url/cookies" . 1325)
  ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/2018-06-20.org" . 10847)
  ("/Users/Em/.emacs.d/personal/exile-capture-templates.el" . 5746)
- ("/Users/Em/Documents/Dropbox/Werx/holidayinn-issues.tex" . 1685)
- ("/Users/Em/Documents/Dropbox/Werx/holidayinn-audit-tasks.org" . 308)
  ("/Users/Em/Documents/Dropbox/Library-Annex/quotes.org" . 151)
  ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/2018-06-16.org" . 414)
  ("/Volumes/JumpShip/Archive/tasks.org_archive" . 4596)
@@ -92,22 +81,12 @@
  ("/Users/Em/.emacs.d/elpa/org-cliplink-20170724.413/org-cliplink-autoloads.el" . 1793)
  ("/Users/Em/.emacs.d/elpa/ascii-art-to-unicode-1.12/ascii-art-to-unicode-autoloads.el" . 2730)
  ("/Users/Em/.emacs.d/elpa/wavefront-obj-mode-20170808.1016/wavefront-obj-mode-autoloads.el" . 621)
- ("/Volumes/JumpShip/Lab/Utils/coordinates.org" . 959)
- ("/Volumes/JumpShip/Lab/Projects/HolidayInn/scraper.org" . 2586)
  ("/Users/Em/.emacs.d/elpa/elpygen-20171225.936/elpygen-autoloads.el" . 553)
- ("/Volumes/JumpShip/Lab/Utils/"
-  (dired-filename . "/Volumes/JumpShip/Lab/Utils/coordinates.org"))
  ("/Users/Em/.emacs.d/elpa/python-x-20180218.1447/python-x-autoloads.el" . 6548)
  ("/Users/Em/.emacs.d/elpa/folding-20170925.838/folding-autoloads.el" . 9602)
  ("/Users/Em/.emacs.d/elpa/readline-complete-20150708.737/readline-complete-autoloads.el" . 959)
- ("/Volumes/JumpShip/Lab/Utils/ *org-src-fontification:python-mode*" . 221)
  ("/Volumes/JumpShip/"
   (dired-filename . "/Volumes/JumpShip/Lab"))
- ("/Volumes/JumpShip/Lab/"
-  (dired-filename . "/Volumes/JumpShip/Lab/Projects"))
- ("/Volumes/JumpShip/Lab/Projects/"
-  (dired-filename . "/Volumes/JumpShip/Lab/Projects/BasicPrime"))
- ("/Volumes/JumpShip/Lab/Utils/*Org-Babel Preview coordinates.org[ python ]*" . 159)
  ("/Volumes/JumpShip/Work/"
   (dired-filename . "/Volumes/JumpShip/Work/HolidayInn"))
  ("/Volumes/JumpShip/Work/HolidayInn/"
@@ -136,8 +115,6 @@
  ("/Users/Em/.emacs.d/elpa/sml-mode-6.8/sml-mode-autoloads.el" . 1685)
  ("/Users/Em/.emacs.d/elpa/diffview-20150928.2211/diffview-autoloads.el" . 788)
  ("/Users/Em/.emacs.d/elpa/math-symbols-20170818.759/math-symbols-autoloads.el" . 6509)
- ("/Volumes/JumpShip/Library/Standards/iso-8601.org" . 724)
- ("/Volumes/JumpShip/Lab/Projects/LLDB/README.org" . 528)
  ("/Volumes/JumpShip/Work/Academic/Development/development.org/Development Plan.org" . 1144)
  ("/Volumes/JumpShip/Work/Tutoring/Students/JThompson/Eng2/" . 320)
  ("/Volumes/JumpShip/Work/Tutoring/Students/JThompson/Eng2/essay.org" . 192)
@@ -145,8 +122,6 @@
  ("/Volumes/JumpShip/Work/Tutoring/Students/JThompson/Eng2/eng2-outline.org" . 997)
  ("/Volumes/JumpShip/Work/HolidayInn/work-log.org" . 445)
  ("/Volumes/JumpShip/Work/BugZapper/bugszapped.org" . 131)
- ("/Volumes/JumpShip/Inbox/"
-  (dired-filename . "/Volumes/JumpShip/Inbox/Clouds"))
  ("/Users/"
   (dired-filename . "/Users/Em"))
  ("/Users/Em/"

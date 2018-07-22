@@ -8,9 +8,17 @@
       "NEXT(n)"
       "INPROGRESS"
       "WAITING"
-      "PURGATORY"
+      "HOLD"
       "|"
       "DONE")
+    (type "PURGATORY"
+          "|"
+          "ACTIVE")
+    (type "CLIP"
+          "REFILE"
+          "NEW_FILE"
+          "|"
+          "DONE")
     (type "EVENT(e)"
           "MEETING"
           "APPOINTMENT"
@@ -41,7 +49,11 @@
           "ARCHIVED")
     (type "QUESTION(q)"
           "ANSWER"
-          "CLIP"
+          "|"
+          "ARCHIVED")
+    (type "CLIP"
+          "QUOTE"
+          "SCRAPED"
           "|"
           "ARCHIVED")
     (type "RECORD"
@@ -101,6 +113,10 @@
           "TAX"
           "|"
           "LOGGED")
+    (type "PROJECT"
+          "PROJECT_LOG"
+          "|"
+          "DONE")
     (type "BILL(b)"
           "PAYMENT"
           "PURCHASE"

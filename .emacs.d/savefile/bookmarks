@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Color Codes"
+(("Cash Log"
+ (filename . "~/Documents/Dropbox/Werx/WerX-Cash.org")
+ (front-context-string . "\n|     Pay Outs ")
+ (rear-context-string . "   |           |")
+ (position . 10238))
+("Color Codes"
  (filename . "~/Documents/Dropbox/Docs/color-coding.org")
  (front-context-string)
  (rear-context-string . "8-06-27\n:END:\n\n\n")

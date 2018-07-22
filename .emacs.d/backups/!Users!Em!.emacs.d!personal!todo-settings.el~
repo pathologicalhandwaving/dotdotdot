@@ -41,7 +41,7 @@
           "ARCHIVED")
     (type "QUESTION(q)"
           "ANSWER"
-          "COMMENT"
+          "CLIP"
           "|"
           "ARCHIVED")
     (type "RECORD"
@@ -71,6 +71,9 @@
     (sequence "DEFINITION"
               "|"
               "LOGGED")
+    (type "CLIP"
+          "|"
+          "LOGGED")
     (type "ISSUE(i)"
           "BUG"
           "|"
@@ -86,6 +89,7 @@
               "|"
               "DONE")
     (type "PACKAGE"
+          "TOOL"
           "|"
           "LOGGED")
     (type "ACCOUNT"

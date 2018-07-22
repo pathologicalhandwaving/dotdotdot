@@ -20,7 +20,6 @@
         ("DEFERRED" :background "SlateGray4" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("TIMESTAMP" :background "DeepSkyBlue1" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("DEADLINE" :background "red1" :foreground "black" :weight regular :box (:line-width 1 :style none))
-        ("COMMENT" :foreground "SlateGray4" :weight regular :slant oblique)
         ("ACCOUNT" :background "SlateGray4" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("WORK" :background "OrangeRed2" :foreground "black" :weight regular :box (:line-width 1 :style none))
         ("MEETING" :background "DeepSkyBlue1" :foreground "black" :weight regular :box (:line-width 1 :style none))

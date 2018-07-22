@@ -20,6 +20,7 @@
                            (mega-dictionary-default-file :maxlevel . 4)
                            (mega-default-bibliography-file :maxlevel . 5)
                            (organizer-file :maxlevel . 5)
+                           (exile-inbox :maxlevel . 3)
                            (monopoly-bills-file :maxlevel . 3)
                            (monopoly-budget-file :maxlevel . 3)
                            (monopoly-gas-file :maxlevel . 4)

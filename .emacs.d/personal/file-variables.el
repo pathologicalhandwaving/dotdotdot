@@ -16,9 +16,14 @@
 (global-set-key (kbd "\C-co")
                 (lambda () (interactive) (find-file 'organizer-file)))
 
+(set-register ?i '(file . exile-inbox))
 
 
 ;;; Exile (Personal Files)
+
+;; Inbox File
+(defvar exile-inbox)
+(setq exile-inbox "/Users/Em/Documents/Dropbox/Exile/inbox.org")
 
 ;; Exile Dir
 (defvar exile-dir)
