@@ -129,6 +129,9 @@
 (defvar labbot-questions-file)
 (setq labbot-questions-file "/Users/Em/Documents/Dropbox/LabBot/questions.org")
 
+;; Project Log Fil
+(defvar labbot-project-log)
+(setq labbot-project-log "/Users/Em/Documents/Dropbox/LabBot/project-log.org")
 
 ;; Facts
 (defvar labbot-fact-file)
