@@ -3,7 +3,7 @@
 #+CATEGORY: Library
 #+SUB_CATEGORY: Dictionary
 #+FILETAGS: :DICTIONARY:
-
+#+STARTUP: latexpreview
 
 * Dictionary                                                     :DICTIONARY:
   :PROPERTIES:
@@ -177,4 +177,744 @@
 :DATE_ADDED: [2018-07-05 Thu 21:06]
 
 :END:
+
+** DEFINITION JOMO :: Not a misspelling of /“mojo”/ but, rather, stands for /“joy of missing out”/ The antithesis of /"FOMO"/ (fear of missing out), JOMO is about disconnecting, opting out and being O.K. just where you are. :DEFINITION:
+:PROPERTIES:
+:ID:       8B0D2823-3386-4AB5-B5B1-D7C82B25C7A5
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:08>
+:END:
+[2018-07-16 Mon 11:44]
+
+
+
+
+** DEFINITION Equifinality :: Principle that in open systems a given end state can be reached by many potential means. :DEFINITION:
+:PROPERTIES:
+:ID:       5859F0BD-EF6B-464E-9D91-BBDE0B9176A4
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:08>
+:END:
+The term and concept is due to Hans Driesch, the developmental biologist, later applied by Ludwig von Bertalanffy, the founder of *general systems theory*, and by William T. Powers, the founder of *perceptual control theory*. Driesch and von Bertalanffy prefer this term, in contrast to /"goal"/, in describing complex systems' similar or *convergent behavior*. 
+
+Powers simply emphasised the flexibility of response, since it emphasizes that the same end state may be achieved via many different paths or trajectories. 
+
+In *closed systems*, a direct cause-and-effect relationship exists between the initial condition and the final state of the system.
+
+#+BEGIN_EXAMPLE
+When a computer's /'on'/ switch is pushed, the system powers up.
+#+END_EXAMPLE
+
+*Open systems* (such as biological and social systems), however, operate quite differently. 
+*The idea of equifinality suggests that similar results may be achieved with different initial conditions and in many different ways.*
+This phenomenon has also been referred to as *isotelesis* (from Greek /ἴσος isos "equal"/ and /τέλεσις/ telesis: /"the intelligent direction of effort toward the achievement of an end"/) when in games involving *superrationality*.
+
+[2018-07-16 Mon 16:49]
+
+
+** DEFINITION System :: An organized entity made up of interrelated and interdependent parts. :DEFINITION:
+:PROPERTIES:
+:ID:       F9313053-09A6-46E1-A6BD-973EE3CD0F38
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:08>
+:END:
+[2018-07-16 Mon 16:52]
+
+
+** DEFINITION Boundaries :: Barriers that define a system and distinguish it from other systems in the environment. :DEFINITION:
+:PROPERTIES:
+:ID:       565447F7-6C06-4FA7-86CD-8B35D185BD98
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:08>
+:END:
+[2018-07-16 Mon 16:52]
+
+
+** DEFINITION Homeostasis :: The tendency of a system to be resilient towards external factors and maintain its key characteristics. :DEFINITION:
+:PROPERTIES:
+:ID:       83C4E5E7-7071-4DDD-99C6-8DCA20C5C0E5
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:08>
+:END:
+[2018-07-16 Mon 16:52]
+
+
+** DEFINITION Adaptation :: The tendency of a self-adapting system to make the internal changes needed to protect itself and keep fulfilling its purpose. :DEFINITION:
+:PROPERTIES:
+:ID:       C714AA7C-BD26-4EB0-BD46-A46F635DC5F1
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:08>
+:END:
+[2018-07-16 Mon 16:53]
+
+
+** DEFINITION Reciprocal Transactions :: Circular or cyclical interactions that systems engage in such that they influence one another. :DEFINITION:
+:PROPERTIES:
+:ID:       F87C2EF9-4351-4288-86DA-6CA96349CE81
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+[2018-07-16 Mon 16:53]
+
+
+** DEFINITION Feedback Loop :: The process by which systems self-correct based on reactions from other systems in the environment. :DEFINITION:
+:PROPERTIES:
+:ID:       2DE11035-CC67-4778-B19D-F822026C6A05
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+[2018-07-16 Mon 16:53]
+
+
+** DEFINITION Throughput :: Rate of energy transfer between the system and its environment during the time it is functioning. :DEFINITION:
+:PROPERTIES:
+:ID:       15B9E027-E0C4-459E-866E-32315A1E8934
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+[2018-07-16 Mon 16:53]
+
+
+** DEFINITION Microsystem :: The system closest to the client.  :DEFINITION:
+:PROPERTIES:
+:ID:       CDE212A3-982C-4BA4-8951-E53256601F5B
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+[2018-07-16 Mon 16:54]
+
+
+** DEFINITION Mesosystem :: Relationships among the systems in an environment. :DEFINITION:
+:PROPERTIES:
+:ID:       E31D5C56-746B-4700-938D-D9DF5ECA6F22
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+[2018-07-16 Mon 16:54]
+
+
+** DEFINITION Exosystem :: A relationship between two systems that has an indirect effect on a third system. :DEFINITION:
+:PROPERTIES:
+:ID:       D2988D17-DB42-4BFE-9565-A8C482051A49
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+[2018-07-16 Mon 16:54]
+
+
+** DEFINITION Macrosystem :: A larger system that influences clients, such as policies, administration of entitlement programs, and culture. :DEFINITION:
+:PROPERTIES:
+:ID:       BCE1B116-B1EB-4A9F-AEF5-F780ADBCA550
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+[2018-07-16 Mon 16:54]
+
+
+** DEFINITION Chronosystem :: A system composed of significant life events that can affect adaptation. :DEFINITION:
+:PROPERTIES:
+:ID:       BACE1233-2499-4F19-83FF-B78507D3A5A9
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+[2018-07-16 Mon 16:55]
+
+
+** DEFINITION Emergence                                         :DEFINITION:
+ :PROPERTIES:
+ :ID:       9637EEB2-98EB-44F0-BFDB-88F182D464C9
+ :DATE_ADDED: [2018-07-16 Mon 16:56]
+ :END:
+ - :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+ In philosophy, systems theory, science, and art, emergence occurs when /"the whole is greater than the sum of the parts"/, meaning the whole has properties its parts do not have. 
+ These properties come about because of interactions among the parts.
+ 
+ In mathematical shorthand, $W = P + I$.
+
+ Emergence plays a central role in theories of integrative levels and of complex systems.
+ For instance, the phenomenon of life as studied in biology is an emergent property of chemistry, and psychological phenomena emerge from the neurobiological phenomena of living things.
+
+
+** DEFINITION Subfunction (plural subfunctions)                 :DEFINITION:
+ :PROPERTIES:
+ :ID:       322F82BF-FF88-4531-9F88-34389AF38528
+ :DATE_ADDED: [2018-07-16 Mon 17:56]
+ :END:
+
+ - :PROPERTIES:
+:REFILED: <2018-07-17 Tue 00:09>
+:END:
+ A secondary or subsidiary function.
+ 2009 May 13, Ginia Bellafante, “Where It’s 1977 and 2007 All at the Same Time”, in New York Times‎[1]:
+ “Lost” is certainly to be granted its points for its subfunction as a soap opera this season.
+
+ Subordinate Function
+
+
+
+
+** DEFINITION Glossary of Systems Theory           :SYSTEMS_THEORY:GLOSSARY:
+:PROPERTIES:
+:ID:       EE26D739-22A5-4FD1-BB17-6CA2FFCD93C4
+:DATE_ADDED: [2018-07-16 Mon 16:57]
+:END:
+
+- :PROPERTIES:
+:REFILED: <2018-07-25 Wed 08:25>
+:END:
+*** A
+:PROPERTIES:
+:ID:       559D2B43-A411-4DB6-A719-B5F140B16B58
+:END:
+
+  - Adaptive capacity :: An important part of the resilience of systems in the face of a perturbation, helping to minimise loss of function in individual human, and collective social and biological systems.
+
+  - Allopoiesis :: The process whereby a system produces something other than the system itself.
+
+  - Allostasis :: The process of achieving stability, or homeostasis, through physiological or behavioral change.
+
+  - Autopoiesis :: The process by which a system regenerates itself through the self-reproduction of its own elements and of the network of interactions that characterize them. An autopoietic system renews, repairs, and replicates or reproduces itself in a flow of matter and energy. 
+                   - *Note:* from a strictly Maturanian point of view, autopoiesis is an essential property of biological/living systems.
+*** B
+:PROPERTIES:
+:ID:       51FCEE5D-3E29-409B-958D-D10787BCC01F
+:END:
+
+  - Black box :: A technical term for a device or system or object when it is viewed primarily in terms of its input and output characteristics.
+
+  - Boundaries :: The parametric conditions, often vague, always subjectively stipulated, that delimit and define a system and set it apart from its environment.
+
+*** C
+:PROPERTIES:
+:ID:       930EF590-B310-4C6F-8561-7213B83DF475
+:END:
+
+  - Cascading failure :: Failure in a system of interconnected parts, where the service provided depends on the operation of a preceding part, and the failure of a preceding part can trigger the failure of successive parts.
+
+  - Closed system :: A system which can exchange energy (as heat or work), but not matter, with its surroundings.
+
+  - Complexity :: A complex system is characterised by components that interact in multiple ways and follow local rules. A complicated system is characterised by its layers.
+
+  - Culture :: The result of individual learning processes that distinguish one social group of higher animals from another. In humans culture is the set of interrelated concepts, products and activities through which humans express themselves, interact with each other, and become aware of themselves and the world around them.
+*** D
+:PROPERTIES:
+:ID:       0E348FFF-4F57-4888-BC80-896FB5B027D7
+:END:
+
+  - Development :: The process of liberating a system from its previous set of limiting conditions. It is an amelioration of conditions or quality.
+
+  - Dissipative structure :: A term invented by Ilya Prigogine to describe complex chemical structures undergoing the process of chemical change through the dissipation of entropy into their environment, and the corresponding importation of "negentropy" from their environment. Also known as syntropic systems.
+
+*** E
+:PROPERTIES:
+:ID:       DBFDEC16-9E45-4799-B22B-638755D01F28
+:END:
+
+  - Embeddedness :: A state in which one system is nested in another system.
+
+  - Emergence :: The appearance of novel characteristics exhibited on the level of the whole ensemble, but not by the components in isolation.
+
+  - Enantiostasis :: The ability of an open system, especially a living organism, to stabilize and conserve function in spite of an unstable environment.
+
+  - Entanglement :: A state in which the manner of being, or form of existence, of one system is inextricably tied to that of another system or set of systems.
+
+  - Entropy :: In physics, entropy is a measure of energy that is expended in a physical system but does no useful work, and tends to decrease the organizational order of the system.
+
+  - Environment :: The context within which a system exists. It is composed of all things that are external to the system, and it includes everything that may affect the system, and may be affected by it at any given time.
+
+  - Equifinality :: In open systems, the principle that the same final state can be reached from different initial conditions, or in different ways.
+
+  - Evolution :: A tendency toward greater structural complexity, ecological and/or organizational simplicity, more efficient modes of operation, greater dynamic harmony, etc. As a cosmic process, it is not limited to the domain of biological phenomena, but extends to include all aspects of change in open dynamic systems with a throughput of information and energy.
+Evolutionary systems: A type of system which reproduces with mutation.
+FEdit
+
+Feedback: A functional monitoring signal obtained from a given dynamic and continuous system. A feedback function only makes sense if this monitoring signal is looped back into an eventual control structure within a system and compared with a known desirable state. The difference between the feedback monitoring signal and the desirable state of the system gives the notion of error. The amount of error can guide corrective actions in the system that can bring the system back to the desirable state.
+
+*** H
+:PROPERTIES:
+:ID:       5468D5E5-B7AD-47F0-83D0-E14B26701E07
+:END:
+
+  - Heterarchy :: An ordering of things in which there is no single peak or leading element, and in which the element that is dominant at a given time depends on the total situation. The term is often used in contrast to hierarchy, i.e. a vertical arrangement of entities (systems and their subsystems), usually ordered from the top downwards rather than from the bottom upwards.
+
+  - Holarchy :: A concept invented by Arthur Koestler to describe behavior that is partly a function of individual nature and partly a function of the nature of the embedding system, generally operating in a bottom upwards fashion.
+
+  - Holism :: A non-reductionist descriptive and investigative strategy for generating explanatory principles of whole systems. Attention is focused on the emergent properties of the whole rather than on the reductionist behavior of the isolated parts.
+
+  - Holon (philosophy) :: A whole in itself as well as a part of a larger system.
+
+  - Homeorhesis :: A concept encompassing dynamical systems which return to a trajectory, as opposed to systems which return to a particular state, which is termed homeostasis.
+
+  - Homeostasis :: The property of either an open system or a closed system (especially a living organism) which regulates its internal environment so as to maintain a stable, constant condition.
+Human activity systems: Designed social systems organized for a purpose, which they attain by carrying out specific functions.
+
+
+*** I
+:PROPERTIES:
+:ID:       D3D4D01D-E4D8-4337-9AF4-4D5BC29357BD
+:END:
+
+  - Isolated system :: A system in which the total energy-mass is conserved without any external exchange happening.
+
+*** L
+:PROPERTIES:
+:ID:       EC4C8EB1-76B7-490C-B7FB-B34BC90CD22A
+:END:
+
+  - Lowerarchy :: A specific type of hierarchy involving a 'bottom up' arrangement of entities such that the few are influenced by the many.
+
+*** M
+:PROPERTIES:
+:ID:       8BF61E6D-41FE-4EAE-88D7-E95EFFAE4B93
+:END:
+
+  - Metastability :: The ability of a non-equilibrium state to persist for some period of time.
+
+  - Model Building :: A disciplined inquiry by which a conceptual (abstract) representation of a system is constructed or a representation of expected outcomes/output is portrayed.
+
+*** O
+:PROPERTIES:
+:ID:       8EB62345-9B52-4DC1-AD47-035142E7CD44
+:END:
+
+ 
+  - Open System Model (basics)
+
+  - Open System :: A state and characteristics of that state in which a system continuously interacts with its environment. Open systems are those that maintain their state and exhibit the characteristics of openness previously mentioned.
+
+  - Structure–organization–process :: See Structure–organization–process for various definitions.
+
+*** P
+:PROPERTIES:
+:ID:       F8566D53-433C-41B4-9822-8DC6F06BA260
+:END:
+
+  - Process :: A naturally occurring or designed sequence of actions of an agent or changes of properties or attributes of an object or system.
+
+  - Process Model :: An organized arrangement of systems concepts and principles that portray the behavior of a system through time. Its metaphor is the "motion-picture" of "movie" of the system.
+
+*** R
+:PROPERTIES:
+:ID:       B7300C05-D861-4E4B-9EA8-B9C24AE42935
+:END:
+
+  - Reductionism :: One kind of scientific orientation that seeks to understand phenomena by a) breaking them down into their smallest possible parts (a process known as analytic reductionism), or conversely b) conflating them to a one-dimensional totality (a process known as holistic reductionism).
+*** S
+:PROPERTIES:
+:ID:       C0E16225-EDFC-4F9E-8509-BED408AA9816
+:END:
+
+  - Self-organization :: A process in which the internal organization of a system, normally an open system, increases in complexity without being guided or managed by an outside source.
+
+  - Self-organizing Systems :: Systems that typically (though not always) display emergent properties.
+
+  - Steady State :: A state in which the variables (called state variables) which define the behavior of a system or a process are unchanging in time. In chemistry, it is a more general situation than dynamic equilibrium. If a system is in steady state then the recently observed behaviour of the system will continue into the future. In stochastic systems, the probabilities that various states will be repeated will remain constant.
+
+  - Strong Emergence :: A type of emergence in which the emergent property is irreducible to its individual constituents.
+
+  - Subsystem :: A major component of a system. It is made up of two or more interacting and interdependent components. Subsystems of a system interact in order to attain their own purpose(s) and the purpose(s) of the system in which they are embedded.
+
+  - Suprasystem :: The entity that is composed of a number of component systems organized in interacting relationships in order to serve their embedding suprasystem.
+
+  - Sustainability :: The ability of a system to maintain itself with no loss of function for extended periods of time. In human terms it is an ideal of creative and responsible stewardship of resources—human, natural, and financial—to generate stakeholder value while contributing to the well-being of current and future generations of all beings.
+
+  - Synchrony or synchronicity :: 
+    - In engineering :: concurrence of periods and/or phases; simultaneity of events or motions; contemporaneous occurrences.
+    - In evolutionary systems thinking :: a fortunate coincidence of phenomenon and/or of events.
+
+  - Synergy :: The process by which a system generates emergent properties resulting in the condition in which a system may be considered more than the sum of its parts, or equal to the sum of its parts plus their relationships.
+
+  - Syntony :: In evolutionary systems thinking, evolutionary consonance, the occurrence and persistence of an evolutionarily tuned dynamic regime, a purposeful creative aligning and tuning with the evolutionary flows of one's milieu. In traditional radio engineering, a condition in which two oscillators have the same resonant frequency.
+
+  - Syntropy :: The process of negentropy-importation. A syntropic system is a dissipative structure.
+
+  - Systems Design :: A decision-oriented disciplined inquiry that aims at the construction of a model that is an abstract representation of a future system.
+
+  - Soft systems methodology :: A systemic approach for tackling real-world problematic situations, an approach which provides a problem-structuring framework for users to deal with the kind of messy problem situations that lack a formal problem definition.
+
+*** W
+:PROPERTIES:
+:ID:       252AB380-31DB-49A4-9E68-8560A5CBD860
+:END:
+
+  - Weak emergence :: A type of emergence in which the emergent property is reducible to its individual constituents.
+
+  - White-box testing :: A technical term for a device or system analyzed or tested based on knowledge of its internal structure (compare to Black box).
+
+  - Wholeness :: In reference to systems, the condition in which systems are seen to be structurally divisible, but functionally indivisible wholes with emergent properties.
+
+
+** DEFINITION Advanced Persistent Threat (APT)
+:PROPERTIES:
+:ID:       58F02722-A81D-4393-9C68-231348076FF9
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-25 Wed 08:26>
+:END:
+[2018-07-17 Tue 02:14]
+An advanced persistent threat is a set of stealthy and continuous computer hacking processes, often orchestrated by a person or persons targeting a specific entity. An APT usually targets either private organizations, states or both for business or political motives. APT processes require a high degree of covertness over a long period of time. The "advanced" process signifies sophisticated techniques using malware to exploit vulnerabilities in systems. The "persistent" process suggests that an external command and control system is continuously monitoring and extracting data from a specific target. The "threat" process indicates human involvement in orchestrating the attack
+
+APT usually refers to a group, such as a government, with both the capability and the intent to target, persistently and effectively, a specific entity. The term is commonly used to refer to cyber threats, in particular that of Internet-enabled espionage using a variety of intelligence gathering techniques to access sensitive information,[2] but applies equally to other threats such as that of traditional espionage or attacks.[3] Other recognized attack vectors include infected media, supply chain compromise, and social engineering. The purpose of these attacks is to place custom malicious code on one or multiple computers for specific tasks and to remain undetected for the longest possible period. Knowing the attacker artifacts, such as file names, can help a professional make a network-wide search to gather all affected systems.[4] Individuals, such as an individual hacker, are not usually referred to as an APT, as they rarely have the resources to be both advanced and persistent even if they are intent on gaining access to, or attacking, a specific target.[5]
+
+
+
+
+*** NOTE APT Terminology
+:PROPERTIES:
+:ID:       D6D6D7D7-28DA-45B2-9B33-06D441DF1C0F
+:END:
+[2018-07-17 Tue 03:57]
+Definitions of precisely what an APT is can vary, but can be summarized by their named requirements below:[3][5][22]
+
+Advanced – Operators behind the threat have a full spectrum of intelligence-gathering techniques at their disposal. These may include computer intrusion technologies and techniques, but also extend to conventional intelligence-gathering techniques such as telephone-interception technologies and satellite imaging. While individual components of the attack may not be classed as particularly "advanced" (e.g. malware components generated from commonly available do-it-yourself malware construction kits, or the use of easily procured exploit materials), their operators can typically access and develop more advanced tools as required. They often combine multiple targeting methods, tools, and techniques in order to reach and compromise their target and maintain access to it. Operators may also demonstrate a deliberate focus on operational security that differentiates them from "less advanced" threats.
+Persistent – Operators give priority to a specific task, rather than opportunistically seeking information for financial or other gain. This distinction implies that the attackers are guided by external entities. The targeting is conducted through continuous monitoring and interaction in order to achieve the defined objectives. It does not mean a barrage of constant attacks and malware updates. In fact, a "low-and-slow" approach is usually more successful. If the operator loses access to their target they usually will reattempt access, and most often, successfully. One of the operator's goals is to maintain long-term access to the target, in contrast to threats who only need access to execute a specific task.
+Threat – APTs are a threat because they have both capability and intent. APT attacks are executed by coordinated human actions, rather than by mindless and automated pieces of code. The operators have a specific objective and are skilled, motivated, organized and well funded.
+
+
+*** NOTE Characteristics[edit]
+:PROPERTIES:
+:ID:       D24F67A5-78A1-4650-9FC9-5FB66411D9F3
+:LAST_REVIEW: 2018-07-22 Sun
+:NEXT_REVIEW: 2018-08-22 Wed
+:END:
+[2018-07-17 Tue 02:15]
+
+Bodmer, Kilger, Carpenter and Jones defined the following APT criteria:[18]
+
+Objectives – The end goal of the threat, your adversary
+Timeliness – The time spent probing and accessing your system
+Resources – The level of knowledge and tools used in the event (skills and methods will weigh on this point)
+Risk tolerance – The extent the threat will go to in order to remain undetected
+Skills and methods – The tools and techniques used throughout the event
+Actions – The precise actions of a threat or numerous threats
+Attack origination points – The number of points where the event originated
+Numbers involved in the attack – How many internal and external systems were involved in the event, and how many people's systems have different influence/importance weights
+Knowledge source – The ability to discern any information regarding any of the specific threats through online information gathering (you might be surprised by what you can find by being a little proactive)
+
+
+*** NOTE Life Cycle
+:PROPERTIES:
+:ID:       FFC3EF3D-85A0-4BE5-9653-3CDD82ACE6F1
+:END:
+[2018-07-17 Tue 02:15]
+Actors behind advanced persistent threats create a growing and changing risk to organizations' financial assets, intellectual property, and reputation[19] by following a continuous process or kill chain:
+
+Target specific organizations for a singular objective
+Attempt to gain a foothold in the environment (common tactics include spear phishing emails)
+Use the compromised systems as access into the target network
+Deploy additional tools that help fulfill the attack objective
+Cover tracks to maintain access for future initiatives
+The global landscape of APTs from all sources is sometimes referred to in the singular as "the" APT, as are references to the actor behind a specific incident or series of incidents.[citation needed]
+
+In 2013, Mandiant presented results of their research on alleged Chinese attacks using APT methodology between 2004 and 2013[20] that followed similar lifecycle:
+
+Initial compromise – performed by use  of social engineering and spear phishing,
+over  email,  using  zero-day  viruses. Another  popular  infection  method  was
+planting malware  on a  website that  the victim's employees  will be  likely to
+visit. Establish  Foothold –  plant remote  administration software  in victim's
+network,  create  net backdoors  and  tunnels  allowing  stealth access  to  its
+infrastructure.  Escalate privileges  – use  exploits and  password cracking  to
+acquire administrator privileges  over victim's computer and  possibly expand it
+to  Windows domain  administrator  accounts. Internal  reconnaissance –  collect
+information on  surrounding infrastructure, trust relationships,  Windows domain
+structure. Move  laterally – expand  control to other workstations,  servers and
+infrastructure elements and perform data harvesting on them. Maintain presence –
+ensure  continued  control over  access  channels  and credentials  acquired  in
+previous steps. Complete mission – exfiltrate stolen data from victim's network.
+In incidents analysed  by Mandiant, the average period over  which the attackers
+controlled  the victim's  network  was  one year,  with  longest  – almost  five
+years.[20]  The infiltrations  were allegedly  performed by  Shanghai-based Unit
+61398 of People's Liberation Army. Chinese officials have denied any involvement
+in these attacks.[21]
+
+
+
+** DEFINITION List of mathematical jargon                        :LIST:TODO:
+:PROPERTIES:
+:ID:       FDA3AE67-3698-4822-A390-ABED9783E0D3
+:DATE_ADDED: [2018-07-16 Mon 16:59]
+:END:
+
+
+- :PROPERTIES:
+:REFILED: <2018-07-25 Wed 08:26>
+:END:
+abstract nonsense
+Also general abstract nonsense or generalized abstract nonsense, a tongue-in-cheek reference to category theory, using which one can employ arguments that establish a (possibly concrete) result without reference to any specifics of the present problem.
+[The paper of Eilenberg and Mac Lane (1942)] introduced the very abstract idea of a 'category' — a subject then called 'general abstract nonsense'!
+
+— Saunders Mac Lane (1997)
+[Grothendieck] raised algebraic geometry to a new level of abstraction...if certain mathematicians could console themselves for a time with the hope that all these complicated structures were 'abstract nonsense'...the later papers of Grothendieck and others showed that classical problems...which had resisted efforts of several generations of talented mathematicians, could be solved in terms of...complicated concepts.
+
+— Michael Monastyrsky (2001)
+canonical
+A reference to a standard or choice-free presentation of some mathematical object. The term canonical is also used more informally, meaning roughly "standard" or "classic". For example, one might say that Euclid's proof is the "canonical proof" of the infinitude of primes.
+There are two canonical proofs that are always used to show non-mathematicians what a mathematical proof is like:
+
+—The proof that there are infinitely many prime numbers.
+—The proof of the irrationality of the square root of two.
+— Freek Wiedijk (2006, p.2)
+deep
+A result is called "deep" if its proof requires concepts and methods that are advanced beyond the concepts needed to formulate the result. The prime number theorem, proved with techniques from complex analysis, was thought to be a deep result until elementary proofs were found. The fact that π is irrational is a deep result because it requires considerable development of real analysis to prove, even though it can be stated in terms of simple number theory and geometry.
+elegant
+Also beautiful; an aesthetic term referring to the ability of an idea to provide insight into mathematics, whether by unifying disparate fields, introducing a new perspective on a single field, or providing a technique of proof which is either particularly simple, or captures the intuition or imagination as to why the result it proves is true. Gian-Carlo Rota distinguished between elegance of presentation and beauty of concept, saying that for example, some topics could be written about elegantly although the mathematical content is not beautiful, and some theorems or proofs are beautiful but may be written about inelegantly.
+The beauty of a mathematical theory is independent of the aesthetic qualities...of the theory's rigorous expositions. Some beautiful theories may never be given a presentation which matches their beauty....Instances can also be found of mediocre theories of questionable beauty which are given brilliant, exciting expositions....[Category theory] is rich in beautiful and insightful definitions and poor in elegant proofs....[The theorems] remain clumsy and dull....[Expositions of projective geometry] vied for one another in elegance of presentation and in cleverness of proof....In retrospect, one wonders what all the fuss was about.
+
+Mathematicians may say that a theorem is beautiful when they really mean to say that it is enlightening. We acknowledge a theorem's beauty when we see how the theorem 'fits' in its place....We say that a proof is beautiful when such a proof finally gives away the secret of the theorem....
+
+— Gian-Carlo Rota (1977, pp.173–174, pp.181–182)
+elementary
+A proof or result is called "elementary" if it requires only basic concepts and methods, in contrast to so-called deep results. The concept of "elementary proof" is used specifically in number theory, where it usually refers to a proof that does not use methods from complex analysis.
+folklore
+A result is called "folklore" if it is non-obvious, has not been published, and yet is generally known among the specialists in a field. Usually, it is unknown who first obtained the result. If the result is important, it may eventually find its way into the textbooks, whereupon it ceases to be folklore.
+Many of the results mentioned in this paper should be considered "folklore" in that they merely formally state ideas that are well-known to researchers in the area, but may not be obvious to beginners and to the best of my knowledge do not appear elsewhere in print.
+
+— Russell Impagliazzo (1995)
+natural
+Similar to "canonical" but more specific, this term makes reference to a description (almost exclusively in the context of transformations) which holds independently of any choices. Though long used informally, this term has found a formal definition in category theory.
+pathological
+An object behaves pathologically (or, somewhat more broadly used, in a degenerated way) if it fails to conform to the generic behavior of such objects, fails to satisfy certain regularity properties (depending on context), or simply disobeys mathematical intuition. These can be and often are contradictory requirements. Sometimes the term is more pointed, referring to an object which is specifically and artificially exhibited as a counterexample to these properties.
+Since half a century we have seen arise a crowd of bizarre functions which seem to try to resemble as little as possible the honest functions which serve some purpose....Nay more, from the logical point of view, it is these strange functions which are the most general....to-day they are invented expressly to put at fault the reasonings of our fathers....
+
+— Henri Poincaré (1913)
+[The Dirichlet function] took on an enormous importance...as giving an incentive for the creation of new types of function whose properties departed completely from what intuitively seemed admissible. A celebrated example of such a so-called 'pathological' function...is the one provided by Weierstrass....This function is continuous but not differentiable.
+
+— J. Sousa Pinto (2004)
+Note for that latter quote that as the differentiable functions are meagre in the space of continuous functions, as Banach found out in 1931, differentiable functions are colloquially speaking a rare exception among the continuous ones. Thus it can hardly be defended any-more to call non-differentiable continuous functions pathological.
+rigor (rigour)
+Mathematics strives to establish its results using indisputable logic rather than informal descriptive argument. Rigor is the use of such logic in a proof.
+well-behaved
+An object is well-behaved (in contrast with being pathological) if it does satisfy the prevailing regularity properties, or sometimes if it conforms to intuition (but intuition often suggests the opposite behavior as well). Similar to smooth (see below).
+Descriptive informalities[edit]
+
+Although ultimately every mathematical argument must meet a high standard of precision, mathematicians use descriptive but informal statements to discuss recurring themes or concepts with unwieldy formal statements. Note that many of the terms are completely rigorous in context.
+
+almost all
+A shorthand term for "all except for a set of measure zero", when there is a measure to speak of. For example, "almost all real numbers are transcendental" because the algebraic real numbers form a countable subset of the real numbers with measure zero. One can also speak of "almost all" integers having a property to mean "all except finitely many", despite the integers not admitting a measure for which this agrees with the previous usage. For example, "almost all prime numbers are odd". There is a more complicated meaning for integers as well, discussed in the main article. Finally, this term is sometimes used synonymously with generic, below.
+arbitrarily large
+Notions which arise mostly in the context of limits, referring to the recurrence of a phenomenon as the limit is approached. A statement such as that predicate P is satisfied by arbitrarily large values, can be expressed in more formal notation by ∀x : ∃y ≥ x : P(y). See also frequently. The statement that quantity f(x) depending on x "can be made" arbitrarily large, corresponds to ∀y : ∃x : f(x) ≥ y.
+arbitrary
+A shorthand for the universal quantifier. An arbitrary choice is one which is made unrestrictedly, or alternatively, a statement holds of an arbitrary element of a set if it holds of any element of that set. Also much in general-language use among mathematicians: "Of course, this problem can be arbitrarily complicated".
+eventually
+In the context of limits, this is shorthand meaning for sufficiently large arguments; the relevant argument(s) are implicit in the context. As an example, the function log(log(x)) eventually becomes larger than 100"; in this context, "eventually" means "for sufficiently large x.
+factor through
+A term in category theory referring to composition of morphisms. If we have three objects A, B, and C and a map  which is written as a composition  with  and , then f is said to factor through any (and all) of , , and .
+finite
+Next to the usual meaning of "not infinite", in another more restrictive meaning that one may encounter, a value being said to be "finite" also excludes infinitesimal values and the value 0. For example, if the variance of a random variable is said to be finite, this implies it is a positive real number.
+frequently
+In the context of limits, this is shorthand for arbitrarily large arguments and its relatives; as with eventually, the intended variant is implicit. As an example, the sequence  is frequently in the interval (1/2, 3/2), because there are arbitrarily large n for which the value of the sequence is in the interval.
+generic
+This term has similar connotations as almost all but is used particularly for concepts outside the purview of measure theory. A property holds "generically" on a set if the set satisfies some (context-dependent) notion of density, or perhaps if its complement satisfies some (context-dependent) notion of smallness. For example, a property which holds on a dense Gδ (intersection of countably many open sets) is said to hold generically. In algebraic geometry, one says that a property of points on an algebraic variety that holds on a dense Zariski open set is true generically; however, it is usually not said that a property which holds merely on a dense set (which is not Zariski open) is generic in this situation.
+in general
+In a descriptive context, this phrase introduces a simple characterization of a broad class of objects, with an eye towards identifying a unifying principle. This term introduces an "elegant" description which holds for "arbitrary" objects. Exceptions to this description may be mentioned explicitly, as "pathological" cases.
+Norbert A’Campo of the University of Basel once asked Grothendieck about something related to the Platonic solids. Grothendieck advised caution. The Platonic solids are so beautiful and so exceptional, he said, that one cannot assume such exceptional beauty will hold in more general situations.
+
+— Allyn Jackson (2004, p.1197)
+left-hand side, right-hand side (LHS, RHS)
+Most often, these refer simply to the left-hand or the right-hand side of an equation; for example,  has x on the LHS and y + 1 on the RHS. Occasionally, these are used in the sense of lvalue and rvalue: an RHS is primitive, and an LHS is derivative.
+nice
+A mathematical object is colloquially called nice or sufficiently nice if it satisfies hypotheses or properties, sometimes unspecified or even unknown, that are especially desirable in a given context. It is an informal antonym for pathological. For example, one might conjecture that a differential operator ought to satisfy a certain boundedness condition "for nice test functions," or one might state that some interesting topological invariant should be computable "for nice spaces X."
+onto
+A function (which in mathematics is generally defined as mapping the elements of one set A to elements of another B) is called "A onto B" (instead of "A to B") only if it is surjective; it may even be said that "f is onto" (i. e. surjective). Not translatable (without circumlocutons) to languages other than English.
+proper
+If, for some notion of substructure, objects are substructures of themselves (that is, the relationship is reflexive), then the qualification proper requires the objects to be different. For example, a proper subset of a set S is a subset of S that is different from S, and a proper divisor of a number n is a divisor of n that is different from n. This overloaded word is also non-jargon for a proper morphism.
+regular
+A function is called regular if it satisfies satisfactory continuity and differentiability properties, which are often context-dependent. These properties might include possessing a specified number of derivatives, with the function and its derivatives exhibiting some nice property (see nice above), such as Hölder continuity. Informally, this term is sometimes used synonymously with smooth, below. These imprecise uses of the word regular are not to be confused with the notion of a regular topological space, which is rigorously defined.
+resp.
+(Respectively) A convention to shorten parallel expositions. "A (resp. B) [has some relationship to] X (resp. Y)" means that A [has some relationship to] X and also that B [has (the same) relationship to] Y. For example, squares (resp. triangles) have 4 sides (resp. 3 sides); or compact (resp. Lindelöf) spaces are ones where every open cover has a finite (resp. countable) open subcover.
+sharp
+Often, a mathematical theorem will establish constraints on the behavior of some object; for example, a function will be shown to have an upper or lower bound. The constraint is sharp (sometimes optimal) if it cannot be made more restrictive without failing in some cases. For example, for arbitrary nonnegative real numbers x, the exponential function ex, where e = 2.7182818..., gives an upper bound on the values of the quadratic function x2. This is not sharp; the gap between the functions is everywhere at least 1. Among the exponential functions of the form αx, setting α = e2/e = 2.0870652... results in a sharp upper bound; the slightly smaller choice α = 2 fails to produce an upper bound, since then α3 = 8 < 32. In applied fields the word "tight" is often used with the same meaning.[1]
+smooth
+Smoothness is a concept which mathematics has endowed with many meanings, from simple differentiability to infinite differentiability to analyticity, and still others which are more complicated. Each such usage attempts to invoke the physically intuitive notion of smoothness.
+strong, stronger
+A theorem is said to be strong if it deduces restrictive results from general hypotheses. One celebrated example is Donaldson's theorem, which puts tight restraints on what would otherwise appear to be a large class of manifolds. This (informal) usage reflects the opinion of the mathematical community: not only should such a theorem be strong in the descriptive sense (below) but it should also be definitive in its area. A theorem, result, or condition is further called stronger than another one if a proof of the second can be easily obtained from the first but not conversely. An example is the sequence of theorems: Fermat's little theorem, Euler's theorem, Lagrange's theorem, each of which is stronger than the last; another is that a sharp upper bound (see sharp above) is a stronger result than a non-sharp one. Finally, the adjective strong or the adverb strongly may be added to a mathematical notion to indicate a related stronger notion; for example, a strong antichain is an antichain satisfying certain additional conditions, and likewise a strongly regular graph is a regular graph meeting stronger conditions. When used in this way, the stronger notion (such as "strong antichain") is a technical term with a precisely defined meaning; the nature of the extra conditions cannot be derived from the definition of the weaker notion (such as "antichain").
+sufficiently large, suitably small, sufficiently close
+In the context of limits, these terms refer to some (unspecified, even unknown) point at which a phenomenon prevails as the limit is approached. A statement such as that predicate P holds for sufficiently large values, can be expressed in more formal notation by ∃x : ∀y ≥ x : P(y). See also eventually.
+upstairs, downstairs
+A descriptive term referring to notation in which two objects are written one above the other; the upper one is upstairs and the lower, downstairs. For example, in a fiber bundle, the total space is often said to be upstairs, with the base space downstairs. In a fraction, the numerator is occasionally referred to as upstairs and the denominator downstairs, as in "bringing a term upstairs".
+up to, modulo, mod out by
+An extension to mathematical discourse of the notions of modular arithmetic. A statement is true up to a condition if the establishment of that condition is the only impediment to the truth of the statement. Also used when working with members of equivalence classes, esp. in category theory, where the equivalence relation is (categorical) isomorphism; for example, "The tensor product in a weak monoidal category is associative and unital up to a natural isomorphism."
+vanish
+To assume the value 0. For example, "The function sin(x) vanishes for those values of x that are integer multiples of π." This can also apply to limits: see Vanish at infinity.
+weak, weaker
+The converse of strong.
+well-defined
+Accurately and precisely described or specified. For example, sometimes a definition relies on a choice of some object; the result of the definition must then be independent of this choice.
+Proof terminology[edit]
+
+The formal language of proof draws repeatedly from a small pool of ideas, many of which are invoked through various lexical shorthands in practice.
+
+aliter
+An obsolescent term which is used to announce to the reader an alternative method, or proof of a result. In a proof, it therefore flags a piece of reasoning that is superfluous from a logical point of view, but has some other interest.
+by way of contradiction (BWOC), or "for, if not, ..."
+The rhetorical prelude to a proof by contradiction, preceding the negation of the statement to be proved. Also, starting a proof or a sub-proof with Assume... indicates that a proof by contradiction will be employed.
+if and only if (iff)
+An abbreviation for logical equivalence of statements.
+in general
+In the context of proofs, this phrase is often seen in induction arguments when passing from the base case to the "induction step", and similarly, in the definition of sequences whose first few terms are exhibited as examples of the formula giving every term of the sequence.
+necessary and sufficient
+A minor variant on "if and only if"; "A is necessary (sufficient) for B" means "A if (only if) B". For example, "For a field K to be algebraically closed it is necessary and sufficient that it have no finite field extensions" means "K is algebraically closed if and only if it has no finite extensions". Often used in lists, as in "The following conditions are necessary and sufficient for a field to be algebraically closed...".
+need to show (NTS), required to prove (RTP), wish to show, want to show (WTS)
+Proofs sometimes proceed by enumerating several conditions whose satisfaction will together imply the desired theorem; thus, one needs to show just these statements.
+one and only one
+A statement of the uniqueness of an object; the object exists, and furthermore, no other such object exists.
+Q.E.D.
+(Quod erat demonstrandum): A Latin abbreviation, meaning "which was to be demonstrated", historically placed at the end of proofs, but less common currently, having been supplanted by the Halmos end-of-proof mark, a square sign ∎.
+sufficiently nice
+A condition on objects in the scope of the discussion, to be specified later, that will guarantee that some stated property holds for them. When working out a theorem, the use of this expression in the statement of the theorem indicates that the conditions involved may be not yet known to the speaker, and that the intent is to collect the conditions that will be found to be needed in order for the proof of the theorem to go through.
+the following are equivalent (TFAE)
+Often several equivalent conditions (especially for a definition, such as normal subgroup) are equally useful in practice; one introduces a theorem stating an equivalence of more than two statements with TFAE.
+transport of structure
+It is often the case that two objects are shown to be equivalent in some way, and that one of them is endowed with additional structure. Using the equivalence, we may define such a structure on the second object as well, via transport of structure. For example, any two vector spaces of the same dimension are isomorphic; if one of them is given an inner product and if we fix a particular isomorphism, then we may define an inner product on the other space by factoring through the isomorphism.
+Let V be a finite-dimensional vector space over k....Let (ei)1 ≤ i ≤ n be a basis for V....There is an isomorphism of the polynomial algebra k[Tij]1 ≤ i,j ≤ n onto the algebra Symk(V ⊗ V*)....It extends to an isomorphism of k[GLn] to the localized algebra Symk(V ⊗ V*)D, where D = det(ei ⊗ ej*)....We write k[GL(V)] for this last algebra. By transport of structure, we obtain a linear algebraic group GL(V) isomorphic to GLn.
+
+— Igor Shafarevich (1991, p.12)
+without (any) loss of generality (WLOG, WOLOG, WALOG), we may assume (WMA)
+Sometimes a proposition can be more easily proved with additional assumptions on the objects it concerns. If the proposition as stated follows from this modified one with a simple and minimal explanation (for example, if the remaining special cases are identical but for notation), then the modified assumptions are introduced with this phrase and the altered proposition is proved.
+Proof techniques[edit]
+
+Mathematicians have several phrases to describe proofs or proof techniques. These are often used as hints for filling in tedious details.
+
+angle chasing
+Used to describe a geometrical proof that involves finding relationships between the various angles in a diagram.[2]
+back-of-the-envelope calculation
+An informal computation omitting much rigor without sacrificing correctness. Often this computation is "proof of concept" and treats only an accessible special case.
+brute force
+Rather than finding underlying principles or patterns, this is a method where one would evaluate as many cases as needed to sufficiently prove or provide convincing evidence that the thing in question is true. Sometimes this involves evaluating every possible case.
+by example
+A proof by example is an argument whereby a statement is not proved but instead illustrated by an example. If done well, the specific example would easily generalize to a general proof.
+by inspection
+A rhetorical shortcut made by authors who invite the reader to verify, at a glance, the correctness of a proposed expression or deduction. If an expression can be evaluated by straightforward application of simple techniques and without recourse to extended calculation or general theory, then it can be evaluated by inspection. It is also applied to solving equations; for example to find roots of a quadratic equation by inspection is to 'notice' them, or mentally check them. 'By inspection' can play a kind of gestalt role: the answer or solution simply clicks into place.
+by intimidation
+Style of proof where claims believed by the author to be easily verifiable are labelled as 'obvious' or 'trivial', which often results in the reader being confused.
+clearly, can be easily shown
+A term which shortcuts around calculation the mathematician perceives to be tedious or routine, accessible to any member of the audience with the necessary expertise in the field; Laplace used obvious (French: évident).
+complete intuition
+commonly reserved for jokes (puns on complete induction).
+diagram chasing
+[3] Given a commutative diagram of objects and morphisms between them, if one wishes to prove some property of the morphisms (such as injectivity) which can be stated in terms of elements, then the proof can proceed by tracing the path of elements of various objects around the diagram as successive morphisms are applied to it. That is, one chases elements around the diagram, or does a diagram chase.
+handwaving
+A non-technique of proof mostly employed in lectures, where formal argument is not strictly necessary. It proceeds by omission of details or even significant ingredients, and is merely a plausibility argument.
+in general
+In a context not requiring rigor, this phrase often appears as a labor-saving device when the technical details of a complete argument would outweigh the conceptual benefits. The author gives a proof in a simple enough case that the computations are reasonable, and then indicates that "in general" the proof is similar.
+index battle
+for proofs involving objects with multiple indices which can be solved by going to the bottom (if anyone wishes to take up the effort). Similar to diagram chasing.
+trivial
+Similar to clearly. A concept is trivial if it holds by definition, is immediate corollary to a known statement, or is a simple special case of a more general concept.
+Notes[edit]
+
+^ Boyd, Stephen (2004). Convex Optimization. Cambridge University Press. ISBN 0521833787.
+^ Roe, John (1993), Elementary Geometry, Oxford science publications, p. 119, ISBN 0-19-853456-6
+^ Numerous examples can be found in (Mac Lane 1998), for example on p. 100.
+References[edit]
+
+Eilenberg, Samuel; Mac Lane, Saunders (1942), "Natural Isomorphisms in Group Theory", Proc. Natl. Acad. Sci. USA, 28: 537–543, doi:10.1073/pnas.28.12.537, PMC 1078535 .
+Impagliazzo, Russell (1995), "A personal view of average-case complexity", Proc. Tenth Annual Structure in Complexity Theory Conference (SCT'95), pp. 134–147, doi:10.1109/SCT.1995.514853.
+Jackson, Allyn (2004), "Comme Appelé du Néant — As If Summoned from the Void: The Life of Alexandre Grothendieck", AMS Notices, 51 (9,10) (Parts I and II).
+Mac Lane, Saunders (1997), "The PNAS way back then" (PDF), Proc. Natl. Acad. Sci. USA, 94 (12): 5983–5985, doi:10.1073/pnas.94.12.5983.
+Mac Lane, Saunders (1998), Categories for the Working Mathematician, Springer.
+Monastyrsky, Michael (2001), "Some Trends in Modern Mathematics and the Fields Medal" (PDF), Can. Math. Soc. Notes, 33 (2 and 3).
+Pinto, J. Sousa (2004), Hoskins, R.F., ed., Infinitesimal methods for mathematical analysis, Horwood Publishing, p. 246, ISBN 978-1-898563-99-0.
+Poincare, Henri (1913), Halsted, Bruce, ed., The Foundations of Science, The Science Press, p. 435.
+Rota, Gian-Carlo (1977), "The phenomenology of mathematical beauty", Synthese, 111 (2): 171–182, doi:10.1023/A:1004930722234, ISSN 0039-7857.
+Shafarevich, Igor (1991), Kandall, G.A., ed., Algebraic Geometry, IV, Springer.
+Wiedijk, Freek, ed. (2006), The Seventeen Provers of the World, Birkhäuser, ISBN 3-540-30704-4.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=List_of_mathematical_jargon&oldid=848542106"
+Categories:
+Mathematical terminology
+Glossaries of mathematics
+Hidden categories:
+Articles lacking in-text citations from April 2010
+All articles lacking in-text citations
+Articles lacking reliable references from April 2010
+All articles lacking reliable references
+Articles with multiple maintenance issues
+Navigation menu
+
+Personal tools
+
+Not logged in
+Talk
+Contributions
+Create account
+Log in
+Namespaces
+
+Article
+Talk
+
+Variants
+
+Views
+
+Read
+Edit
+View history
+
+More
+
+Search
+
+
+Navigation
+
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Wikipedia store
+Interaction
+
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Tools
+
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Page information
+Wikidata item
+Cite this page
+Print/export
+
+Create a book
+Download as PDF
+Printable version
+Languages
+
+Afrikaans
+Edit links
+This page was last edited on 2 July 2018, at 16:08 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+
 

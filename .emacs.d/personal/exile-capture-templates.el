@@ -141,13 +141,20 @@
 :END:\n
 %?"
                                :empty-lines 1)
-                              ("1" "WerX Task"
+                              ("1" "Job Search"
                                entry
-                               (file+headline werx-tasks-file "WerX Tasks Log")
-                               "** TODO %?
+                               (file+headline werx-jobs "Job Search")
+                               "** JOB %^{Job Title}
 :PROPERTIES:
 :DATE_ADDED: %T
-:STATUS: $^{Status}
+:JOB_TITLE: %^{Job Title}
+:BUSINESS: %^{Business}
+:JOB_DESCRIPTION: %^{Job Description}
+:PAY_RATE: %^{Pay Rate}
+:CONTACT: %^{Contact}
+:PHONE: %^{Phone}
+:URL: %^{URL}
+:FOLLOW_UP: %^{Follow Up}
 :END:\n
 %?"
                                :empty-lines 1)

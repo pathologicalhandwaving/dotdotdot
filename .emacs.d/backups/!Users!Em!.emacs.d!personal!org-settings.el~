@@ -96,7 +96,7 @@
 
 ;; Empty Lines
 (setq org-blank-before-new-entry '((heading . t)
-                                   (plain-list-item . t)))
+                                   (plain-list-item . nil)))
 
 
 ;; Ellipsis
@@ -130,8 +130,8 @@
 
 
 ;; Wrap text at col 70
-(setq-default fill-column 70)
-
+(setq-default fill-column 80)
+                                                                                                    
 ;; Indentation
 (require 'dtrt-indent)
 

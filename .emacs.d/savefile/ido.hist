@@ -2,44 +2,73 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/Em/Documents/Dropbox/HomeBase/Apartment/" . "104-Inspection_Photos/")
+ ("/Users/Em/Documents/" . #("Dropbox/" 0 5 (face flx-highlight-face)))
+ ("/Users/Em/Documents/Dropbox/HomeBase/" . "Apartment/")
  ("/Volumes/JumpShip/" . "Lab/")
  ("/Volumes/JumpShip/Lab/Projects/" . "OEIS/")
  ("/Volumes/JumpShip/Lab/" . "Projects/")
  ("/Volumes/" . "JumpShip/")
  ("/Users/Em/Documents/Dropbox/Library-Annex/" . "Scraped/")
  ("/Users/Em/Documents/Dropbox/Werx/" . "WerX-Logs/")
- ("/Users/Em/.emacs.d/" . #("personal/" 0 8 (face flx-highlight-face)))
- ("/Users/Em/" . ".emacs.d/")
- ("/Users/Em/Documents/Dropbox/" . "Werx/")
+ ("/Users/Em/.emacs.d/" . "personal/")
+ ("/Users/Em/" . #("Documents/" 0 5 (face flx-highlight-face)))
+ ("/Users/Em/Documents/Dropbox/" . #("Library-Annex/" 0 3 (face flx-highlight-face)))
 )
 
 ;; ----- ido-work-directory-list -----
 (
- 
+ "/Users/Em/Documents/Dropbox/HomeBase/Apartment/104-Inspection_Photos/"
+ "/Users/Em/Documents/Dropbox/Exile/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- 
+ "20180729-114253PM.jpg"
+ "tasks.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- (#("/Users/Em/.emacs.d/personal/" 10 16 (face flx-highlight-face) 18 19 (face flx-highlight-face) 19 27 (face flx-highlight-face)) (23380 47152 0 0) "webber-settings.el" "weather-settings.el" "Untitled.txt" "todo-settings.el" "tag-settings.el" "symbol-settings.el" "structure-templates.el" "source-settings.el" "snippet-settings.el" "search-engines.el" "scratch-settings.el" "refile-settings.org" "refile-settings.el" "reading-settings.el" "random-list.el" "property-settings.el" "project-settings.el" "preload/" "org-settings.el" "ocean-settings.el" "narrow-settings.el" "modeline-settings.el" "media-settings.el" "mail-settings.el" "log-settings.el" "location-settings.el" "link-settings.el" "latex-settings.el" "icon-settings.el" "head-settings.el" "file-variables.el" "export-settings.el" "exile.elc" "exile.el" "exile-theme.elc" "exile-theme.el" "exile-capture-templates.el" "emms-settings.el" "custom.el" "color-settings.elc" "color-settings.el" "calendar-settings.el" "browser-settings.el" "brain-settings.el" "archive-settings.el" "agenda-settings.el" "1" ".gitkeep" ".DS_Store" ".dir-locals.el" "../" "./")
+ ("/Users/Em/.emacs.d/personal/" (23471 62708 0 0) "webber-settings.el" "weather-settings.el" "Untitled.txt" "todo-settings.el" "tag-settings.el" "symbol-settings.el" "structure-templates.el" "source-settings.el" "snippet-settings.el" "search-engines.el" "scratch-settings.el" "refile-settings.el" "reading-settings.el" "random-list.el" "property-settings.el" "project-settings.el" "preload/" "org-settings.el" "ocean-settings.el" "narrow-settings.el" "modeline-settings.el" "media-settings.el" "mail-settings.el" "log-settings.el" "location-settings.el" "link-settings.el" "latex-settings.el" "image-settings.el" "icon-settings.el" "head-settings.el" "flycheck_tag-settings.el" "file-variables.el" "export-settings.el" "exile.elc" "exile.el" "exile-theme.elc" "exile-theme.el" "exile-capture-templates.el" "emms-settings.el" "custom.el" "color-settings.elc" "color-settings.el" "calendar-settings.el" "browser-settings.el" "brain-settings.el" "archive-settings.el" "agenda-settings.el" "1" ".gitkeep" ".DS_Store" ".dir-locals.el" "../" "./")
 
- (#("/Users/Em/.emacs.d/" 10 16 (face flx-highlight-face) 18 19 (face flx-highlight-face)) (23380 47043 0 0) "vendor/" "var/" "utils/" "url/" "themes/" "snippets/" "scratch_pop/" "savefile/" "sample/" "request/" "README.md" "projectile-bookmarks.eld" "prelude-modules.el" "prelude-cheatsheet.pdf" "personal/" "org-clock-save.el" "modules/" "latex/" "init.el" "eww-bookmarks" "emms/" "elpa/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "ac-comphist.dat" ".trello/" ".projectile" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#!Volumes!JumpShip!LabBot!Projects!jekyll-orgtext!jekyll-orgtext!_layouts!default.html#" "#!Volumes!JumpShip!Archive!20180626.org_archive#" "#!Users!Em!Documents!Dropbox!Werx!WerX-Logs!2018-0710-OperaSupport.org#" "#!Users!Em!Documents!Dropbox!Diary!JournalEntries!20180620#" "../" "./")
+ (#("/Users/Em/Documents/Dropbox/Library-Annex/" 10 15 (face flx-highlight-face) 20 25 (face flx-highlight-face) 28 31 (face flx-highlight-face)) (23454 38817 0 0) "Scraped/" "readlater.org" "read.org" "quotes.org" "Quote-Entries/" "math-glossary.org" "ltximg/" "Library-Info/" "Library-Annex-Archive/" "Icon" "glossary.org" "Gloss-Numbers/" "Gloss-Entries/" "emacs-glossary.org" "ColoringBooks/" "book-memos.org" "AudioBook-Notes/" "anti-glossary.org" "ADHD/" "acronyms.org" ".DS_Store" ".dropbox" "../" "./")
 
- ("/Users/Em/" (23380 45447 0 0) "VMs/" "Torrents/" "Toolz/" "Repos/" "Public/" "Pictures/" "perl5/" "package-lock.json" "org.ics" "node_modules/" "News/" "Music/" "Movies/" "Mail/" "Library/" "hacker_news_data.txt" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bower_components/" "bower.json" "Applications/" ".yarnrc" ".Xauthority" ".wine/" ".wgetrc" ".wget-hsts" ".wegorc" ".w3m/" ".viminfo" ".vim/" ".vars" ".utils" ".Trash/" ".tor/" ".tldr/" ".texutils" ".subversion/" ".study" ".streamlinkrc" ".stardict/" ".ssh/" ".soundmeter/" ".slack/" ".shell_prompt.sh" ".setups/" ".serverauth.68141" ".searchlink" ".sdirs" ".sdcv_history" ".sdcv/" ".sage/" ".rnd" ".redshiftrc" ".rainbow_oauth" ".rainbow_config.json" ".qutebrowser/" ".qr-filetransfer.json" ".qq/" ".python_history" ".pubsrc" ".pubs/" ".proselint/" ".prompt" ".powerline-shell.json" ".plotly/" ".php_versions/" ".pex/" ".p.log" ".p/" ".osx" ".oracle_jre_usage/" ".npm/" ".notebook/" ".node-gyp/" ".nimble-options.json" ".newsrc.eld" ".mysql_history" ".myscripts/" ".myeditors" ".myeditorchoice" ".myCurrentFiles" ".myconfig-backup/" ".myconfig/" ".mutt/" ".mplayer/" ".moro-config.json" ".matplotlib/" ".mathutils" ".mail/" ".local/" ".links/" ".lesshst" ".karabiner/" ".kanban.tmp.index" ".kanban.csv" ".kanban.conf" ".jupyter/" ".iterm2_shell_integration.bash" ".iterm2/" ".irssi/" ".ipython/" ".ipynb_checkpoints/" ".insert-shebang.log" ".image.so" ".ideas.json" ".hyper_plugins/" ".hyper.js" ".html2ps/" ".hammerspoon/" ".go/" ".gnuplot_history" ".gnupg_pre_2.1/" ".gnupg/" ".gnome2/" ".gitignore" ".gitconfig" ".gistup.json" ".gem/" ".functions" ".fu_cached_pickle" ".fu" ".fromscratch/" ".fonts/" ".flashcards/" ".exports" ".erc/" ".emacs_anywhere/" ".emacs.d.pre-prelude.tar" ".emacs.d/" ".elinks/" ".elfeed/" ".electron/" ".edits" ".editor" ".DS_Store" ".dropbox_uploader/" ".dropbox/" ".doingrc" ".dircolors/" ".dict/" ".cups/" ".cpanm/" ".cpan/" ".config/" ".composer/" ".clockywock" ".cider/" ".cheat/" ".CFUserTextEncoding" ".ccache/" ".calcurse/" ".calc_history" ".cache/" ".bundle/" ".bitbarrc" ".bitbar_pomodoro" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".authinfo" ".aspell.en.pws" ".aspell.en.prepl" ".apps" ".app-envs/" ".aliases" "../" "./")
+ ("/Users/Em/.emacs.d/" (23471 61964 0 0) "vendor/" "var/" "utils/" "url/" "themes/" "snippets/" "scratch_pop/" "savefile/" "sample/" "request/" "README.md" "projectile-bookmarks.eld" "prelude-modules.el" "prelude-cheatsheet.pdf" "personal/" "org-clock-save.el" "modules/" "latex/" "init.el" "eww-bookmarks" "emms/" "elpa/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "ac-comphist.dat" ".trello/" ".projectile" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#!Volumes!JumpShip!LabBot!Projects!jekyll-orgtext!jekyll-orgtext!_layouts!default.html#" "#!Volumes!JumpShip!Archive!tasks.org_archive#" "#!Volumes!JumpShip!Archive!20180626.org_archive#" "#!Users!Em!Documents!Dropbox!Werx!WerX-Logs!2018-0710-OperaSupport.org#" "#!Users!Em!Documents!Dropbox!Exile!notes.org#" "#!Users!Em!Documents!Dropbox!Diary!JournalEntries!20180620#" "../" "./")
 
- ("/Users/Em/Documents/Dropbox/Diary/" (23375 59920 0 0) "therapy.org" "JournalEntries/" "diary.org" "Bog/" ".DS_Store" "../" "./")
+ ("/Users/Em/" (23471 51624 0 0) "Torrents/" "Toolz/" "Repos/" "Public/" "Pictures/" "perl5/" "package-lock.json" "org.ics" "node_modules/" "News/" "Music/" "Movies/" "Mail/" "Library/" "hacker_news_data.txt" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "bower_components/" "bower.json" "Applications/" ".yarnrc" ".Xauthority" ".wine/" ".wgetrc" ".wget-hsts" ".wegorc" ".w3m/" ".viminfo" ".vim/" ".vars" ".utils" ".Trash/" ".tor/" ".tldr/" ".texutils" ".subversion/" ".study" ".streamlinkrc" ".stardict/" ".ssh/" ".soundmeter/" ".slack/" ".shell_prompt.sh" ".setups/" ".serverauth.68141" ".searchlink" ".sdirs" ".sdcv_history" ".sdcv/" ".sage/" ".rnd" ".redshiftrc" ".rainbow_oauth" ".rainbow_config.json" ".qutebrowser/" ".qr-filetransfer.json" ".qq/" ".python_history" ".pubsrc" ".pubs/" ".proselint/" ".prompt" ".powerline-shell.json" ".polar/" ".plotly/" ".php_versions/" ".pex/" ".p.log" ".p/" ".osx" ".oracle_jre_usage/" ".npm/" ".notebook/" ".node-gyp/" ".nimble-options.json" ".newsrc.eld" ".mysql_history" ".myscripts/" ".myeditors" ".myeditorchoice" ".myCurrentFiles" ".myconfig-backup/" ".myconfig/" ".mutt/" ".mplayer/" ".moro-config.json" ".matplotlib/" ".mathutils" ".mail/" ".local/" ".links/" ".lesshst" ".karabiner/" ".kanban.tmp.index" ".kanban.csv" ".kanban.conf" ".jupyter/" ".iterm2_shell_integration.bash" ".iterm2/" ".irssi/" ".ipython/" ".ipynb_checkpoints/" ".insert-shebang.log" ".image.so" ".ideas.json" ".hyper_plugins/" ".hyper.js" ".html2ps/" ".hammerspoon/" ".go/" ".gnuplot_history" ".gnupg_pre_2.1/" ".gnupg/" ".gnome2/" ".gitignore" ".gitconfig" ".gistup.json" ".gem/" ".functions" ".fu_cached_pickle" ".fu" ".fromscratch/" ".fonts/" ".flashcards/" ".exports" ".erc/" ".emacs_anywhere/" ".emacs.d.pre-prelude.tar" ".emacs.d/" ".elinks/" ".elfeed/" ".electron/" ".edits" ".editor" ".DS_Store" ".dropbox_uploader/" ".dropbox/" ".doingrc" ".docker/" ".dircolors/" ".dict/" ".cups/" ".cpanm/" ".cpan/" ".config/" ".composer/" ".clockywock" ".cider/" ".cheat/" ".CFUserTextEncoding" ".ccache/" ".calcurse/" ".calc_history" ".cache/" ".bundle/" ".bitbarrc" ".bitbar_pomodoro" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".authinfo" ".aspell.en.pws" ".aspell.en.prepl" ".apps" ".app-envs/" ".aliases" "../" "./")
+
+ ("/Users/Em/Documents/" (23426 9690 0 0) "MEGA/" "log.txt" "Icon" "GDrive/" "Dropbox/" "Damask Drawing at GetDrawings.com | Fre...onal use Damask Drawing of your choice.pdf" "App-Addons/" ".Private/" ".ipynb_checkpoints/" ".emacs.d/" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/" (23426 4696 0 0) "Werx/" "Torrents/" "TMP/" "TeXBot/" "SwedishChef/" "SpaceBot/" "snippets/" "Ship/" "organizer.org" "Ocean/" "Monopoly/" "MakerBot/" "Library-Annex/" "LessonsLearned/" "LabBot/" "Icon" "HomeBase/" "Exile/" "Docs/" "Diary/" "AutoBot/" "AudioBot/" "Archive/" "Apps/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Exile/" (23471 59916 0 0) "tutorials.org" "tasks.org" "questions.org" "online-orders.org" "notes.org" "ltximg/" "logs.org" "inbox.org" "inbox (Dont.attlocal.net's conflicted copy 2018-07-25).org" "habits.org" "exile-index.org" "coordinates.org" "contacts.org" "communications-log.org" "comments-withheld.org" "appointments.org" "accounts.org" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Dropbox/" (23301 47105 0 0) "TeXCloud/" "TEMP/" "Screen Shot 2018-04-01 at 8.07.04 PM.png" "Screen Shot 2018-04-01 at 8.02.30 PM.png" "Screen Shot 2018-04-01 at 8.02.16 PM.png" "Icon" "Doing/" "Apps/" ".ws.agile.1Password.settings" ".emacs.d/" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/HomeBase/Apartment/104-Inspection_Photos/" (23390 50024 0 0) "20180729-120119AM.jpg" "20180729-120039AM.jpg" "20180729-120005AM.jpg" "20180729-115952PM.jpg" "20180729-115944PM.jpg" "20180729-115733PM.jpg" "20180729-115718PM.jpg" "20180729-115713PM.jpg" "20180729-115648PM.jpg" "20180729-115626PM.jpg" "20180729-115621PM.jpg" "20180729-115612PM.jpg" "20180729-115600PM.jpg" "20180729-115520PM.jpg" "20180729-115456PM.jpg" "20180729-115413PM.jpg" "20180729-115326PM.jpg" "20180729-115320PM.jpg" "20180729-115302PM.jpg" "20180729-115248PM.jpg" "20180729-115240PM.jpg" "20180729-115237PM.jpg" "20180729-115222PM.jpg" "20180729-115212PM.jpg" "20180729-115118PM.jpg" "20180729-115103PM.jpg" "20180729-115039PM.jpg" "20180729-114941PM.jpg" "20180729-114920PM.jpg" "20180729-114915PM.jpg" "20180729-114903PM.jpg" "20180729-114856PM.jpg" "20180729-114849PM.jpg" "20180729-114831PM.jpg" "20180729-114800PM.jpg" "20180729-114735PM.jpg" "20180729-114658PM.jpg" "20180729-114650PM.jpg" "20180729-114643PM.jpg" "20180729-114606PM.jpg" "20180729-114540PM.jpg" "20180729-114513PM.jpg" "20180729-114455PM.jpg" "20180729-114442PM.jpg" "20180729-114427PM.jpg" "20180729-114418PM.jpg" "20180729-114411PM.jpg" "20180729-114337PM.jpg" "20180729-114321PM.jpg" "20180729-114314PM.jpg" "20180729-114306PM.jpg" "20180729-114253PM.jpg" "104-inspect.org" ".DS_Store" ".#104-inspect.org" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/HomeBase/Apartment/" (23390 39686 0 0) "Windsong-checklist.org" "MoveIn-FixMe-List.org" "Inventory-Condition-Form.tex" "Inventory-Condition-Form.synctex.gz" "Inventory-Condition-Form.pdf" "Inventory-Condition-Form.out" "Inventory-Condition-Form.org" "Inventory-Condition-Form.log" "Inventory-Condition-Form.aux" "homebase-issues.org" "DIY/" "auto/" "apartment-supplies.org" "apartment-stocks.org" "2018-07-13 09.26.13.pdf" "104-Inspection_Photos/" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/HomeBase/" (23386 16237 0 0) "Family/" "Apartment/" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/MEGA/" (23302 21868 0 0) "Welcome to MEGA.pdf" "MEGAsync Uploads/" "MEGAsync/" "Icon" ".debris/" "../" "./")
+
+ ("/Users/Em/Documents/MEGA/MEGAsync/" (23371 41774 0 0) "SORT_ME/" "Library-Archive/" "Library/" "Attachments/" "Archive/" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/" (23302 18737 0 0) "PDFs/" "Paperless/" "EPubs/" "Dictionary/" "Bibliography/" "../" "./")
+
+ ("/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Dictionary/" (23390 47672 0 0) "README.org" "ltximg/" "Entries/" "dictionary.org" "acronyms.org" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/" (23384 25804 0 0) "auto/" "20180627.org" "2018-07-24.org" "2018-07-18.org" "2018-07-17.org" "2018-07-12.org" "2018-07-11.org" "2018-07-04.org" "2018-07-03.org" "2018-06-28.org" "2018-06-20.org" "2018-06-19.org" "2018-06-16.tex" "2018-06-16.pdf" "2018-06-16.org" "2018-06-15.tex" "2018-06-15.pdf" "2018-06-15.org" "2018-06-13.tex" "2018-06-13.pdf" "2018-06-13.org" "2018-06-12.tex" "2018-06-12.synctex.gz" "2018-06-12.pdf" "2018-06-12.out" "2018-06-12.org" "2018-06-12.log" "2018-06-12.aux" "2018-06-10.tex" "2018-06-10.org" "2018-06-09.tex" "2018-06-09.org" "2018-06-07.tex" "2018-06-07.pdf" "2018-06-07.org" "2018-06-06.tex" "2018-06-06.pdf" "2018-06-06.org" "2018-06-05.tex" "2018-06-05.pdf" "2018-06-05.org" "2018-06-03.tex" "2018-06-03.pdf" "2018-06-03.org" "2018-06-02.tex" "2018-06-02.pdf" "2018-06-02.org" "2018-05-30.tex" "2018-05-30.org" "2018-05-25.tex" "2018-05-25.org" ".#2018-0710-OperaSupport.org" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Werx/" (23379 56473 0 0) "WerX_Archive/" "WerX-Photos/" "WerX-Personal/" "WerX-Logs/" "WerX-Info/" "WerX-Cash.org" "Stubs/" "LakeCity-Utilities-Receipt.jpg" "Icon" "holidayinn-notes.org" "holidayinn-issues.org" "holidayinn-giftshop.org" "auto/" ".DS_Store" ".dropbox" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/Diary/" (23383 30492 0 0) "therapy.org" "runner.org" "JournalEntries/" "diary.org" "Bog/" "adhd.org" ".DS_Store" "../" "./")
+
+ ("/Users/Em/Documents/Dropbox/HomeBase/Apartment/DIY/" (23382 54153 0 0) "wall.org" "vanity.org" "table.org" "projects-index.org" "desk.org" "containers.org" "../" "./")
 
  ("/Users/Em/Documents/Dropbox/Diary/JournalEntries/" (23377 57998 0 0) "20180720.org" "20180718.org" "20180716.org" "20180715.org" "20180713.org" "20180710.org" "20180707.org" "20180706.org" "20180704.org" "20180703.org" "20180702.org" "20180701.org" "20180630.org" "20180627.org" "20180626.org" "20180625.org" "20180620.org" "20180326.org" "20180324.org" "20180305.org" "../" "./")
-
- ("/Users/Em/Documents/Dropbox/Exile/" (23377 8736 0 0) "tasks.org" "tasks (Dont.attlocal.net's conflicted copy 2018-07-16).org" "questions.org" "online-orders.org" "notes.org" "ltximg/" "habits.org" "exile-index.org" "coordinates.org" "contacts.org" "communications-log.org" "comments-withheld.org" "appointments.org" "accounts.org" "201806-notes.org" ".DS_Store" "../" "./")
-
- ("/Users/Em/Documents/Dropbox/Werx/WerX-Logs/" (23377 8585 0 0) "auto/" "20180627.org" "2018-07-18.org" "2018-07-17.org" "2018-07-12.org" "2018-07-11.org" "2018-07-04.org" "2018-07-03.org" "2018-06-28.org" "2018-06-20.org" "2018-06-19.org" "2018-06-16.tex" "2018-06-16.pdf" "2018-06-16.org" "2018-06-15.tex" "2018-06-15.pdf" "2018-06-15.org" "2018-06-13.tex" "2018-06-13.pdf" "2018-06-13.org" "2018-06-12.tex" "2018-06-12.synctex.gz" "2018-06-12.pdf" "2018-06-12.out" "2018-06-12.org" "2018-06-12.log" "2018-06-12.aux" "2018-06-10.tex" "2018-06-10.org" "2018-06-09.tex" "2018-06-09.org" "2018-06-07.tex" "2018-06-07.pdf" "2018-06-07.org" "2018-06-06.tex" "2018-06-06.pdf" "2018-06-06.org" "2018-06-05.tex" "2018-06-05.pdf" "2018-06-05.org" "2018-06-03.tex" "2018-06-03.pdf" "2018-06-03.org" "2018-06-02.tex" "2018-06-02.pdf" "2018-06-02.org" "2018-05-30.tex" "2018-05-30.org" "2018-05-25.tex" "2018-05-25.org" ".#2018-0710-OperaSupport.org" "../" "./")
-
- ("/Users/Em/Documents/Dropbox/" (23372 8528 0 0) "Werx/" "Torrents/" "TMP/" "TeXBot/" "SwedishChef/" "SpaceBot/" "snippets/" "Ship/" "organizer.org" "Ocean/" "Monopoly/" "Library-Annex/" "LessonsLearned/" "LabBot/" "Icon" "HomeBase/" "Exile/" "Docs/" "Diary/" "AutoBot/" "AudioBot/" "Archive/" "Apps/" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
 
  ("/Volumes/JumpShip/Lab/Projects/OEIS/" (23375 46296 0 0) "../" "./")
 
@@ -55,25 +84,15 @@
 
  ("/Users/Em/Documents/Dropbox/LabBot/" (23375 46167 0 0) "tools.org" "readlater.org_archive" "readlater.org" "re-gloss.org" "quotes.org" "questions.org" "psych-notes.org" "orgmode-recipes.org" "online-research-tools.org" "ltximg/" "LabBot_Archive/" "labbot-index.org" "ideas.org" "Icon" "facts.org" ".dropbox" "../" "./")
 
- ("/Users/Em/Documents/Dropbox/Werx/" (23374 63403 0 0) "WerX_Archive/" "WerX-Personal/" "WerX-Logs/" "WerX-Issues/" "WerX-Info/" "WerX-Cash.org" "Stubs/" "Icon" "holidayinn-notes.org" "holidayinn-issues.toc" "holidayinn-issues.tex" "holidayinn-issues.synctex.gz" "holidayinn-issues.pdf" "holidayinn-issues.out" "holidayinn-issues.org" "holidayinn-issues.log" "holidayinn-issues.aux" "holidayinn-girftshop.org" "holidayinn-audit-tasks.org" "concerns.org" "auto/" ".DS_Store" ".dropbox" "../" "./")
-
  ("/Users/Em/Documents/Dropbox/LessonsLearned/" (23375 11322 0 0) "LL001.org" "lessonslearned-index.org" "lessonslearned-default.org" "../" "./")
 
- ("/Users/Em/Documents/Dropbox/HomeBase/Apartment/" (23368 43635 0 0) "2018-07-13 09.26.13.pdf" "../" "./")
-
- ("/Users/Em/Documents/Dropbox/HomeBase/" (23368 43611 0 0) "Family/" "Apartment/" "../" "./")
-
  ("/Users/Em/Documents/Dropbox/Library-Annex/Scraped/" (23327 16144 0 0) "thinking-fallacies-part1.org" "knowledgerepresentation.org" "../" "./")
-
- ("/Users/Em/Documents/Dropbox/Library-Annex/" (23359 49737 0 0) "Untitled.org" "Scraped/" "readlater.org" "reading-order.org" "quotes.org" "Quote-Entries/" "math-glossary.org" "ltximg/" "Lippmann1921.org" "Icon" "glossary.org" "Gloss-Numbers/" "Gloss-Entries/" "emacs-glossary.org" "collins.org" "book-memos.org" "BibTeX-Library-Use.org" "AudioBook-Notes/" "anti-glossary.org" "acronyms.org" ".DS_Store" ".dropbox" "../" "./")
 
  ("/Users/Em/Documents/Dropbox/Werx/WerX-Personal/" (23362 28937 0 0) "stay-awake-activities.org" "schedule.tex" "schedule.pdf" "schedule.org" "nightshift-food.org" "holidayinn-service-schedule.org" "holidayinn-personal.org" "auto/" ".#schedule.org" "../" "./")
 
  ("/Users/Em/Documents/Dropbox/snippets/org-mode/" (23361 30014 0 0) "weektable" "videos" "video-notes" "video" "verse" "uml" "title" "timestamp" "task" "tags-comm-log" "table" "subtree.org" "style" "studentid" "setup" "session" "ref-page" "ref-note" "readme" "read-5c" "quote" "qrcode-block" "python-block" "props-comm-log" "prop-indexprop-index" "project-info" "options" "newpage" "new-recipe" "new-contact" "monopoly-file" "logline" "links" "link" "latex" "language" "keywords" "journal-time-entry" "journal" "issue-entry" "interleave-fike" "insert-rand-uuid" "include" "images" "image" "heading-5" "heading-4" "heading-3" "heading-2" "heading-1" "graphviz" "gloss-entrygloss-entry" "gas-loggas-log" "figure" "export" "exampleblock" "entry" "embedded" "email" "elisp" "dot" "description-block" "description" "definition-page" "date-modified" "date-created" "date-added" "date" "conference-ref" "center" "category" "categories" "cash-log" "bugzap" "brain-parent" "brain-friends" "brain-entry" "brain-child" "box-quote" "booklet-ref" "book-ref" "blog" "babel-sh" "author" "auditlogauditlog" "audit-time" "article-ref" "annotatedbib-entry" "agenda-file" ".DS_Store" "../" "./")
 
  ("/Users/Em/Documents/Dropbox/Werx/WerX-Issues/" (23326 59275 0 0) "holidayinn-issues.org" "../" "./")
-
- ("/Users/Em/Documents/" (23317 40240 0 0) "MEGA/" "log.txt" "Icon" "GDrive/" "Dropbox/" "App-Addons/" ".Private/" ".ipynb_checkpoints/" ".emacs.d/" ".DS_Store" "../" "./")
 
  ("/Users/Em/Documents/Dropbox/Werx/Logs/" (23306 16744 0 0) "2018-05-25.org" "../" "./")
 )

@@ -12,72 +12,246 @@
  :CATEGORY: Exile
  :SUB_CATEGORY: Tasks
  :DATE_CREATED: 2018-06-03
- :LAST_REVIEW: 2018-07-16 Mon
- :NEXT_REVIEW: 2018-07-17 Tue
+ :LAST_REVIEW: 2018-07-30 Mon
+ :NEXT_REVIEW: 2018-07-31 Tue
  :REVIEW_DELAY: +1d
  :END:
 
-** TODO Add Categories to Blog
-   :PROPERTIES:
-   :DATE_ADDED: [2018-07-20 09:47]
-   :ID:       57B56890-1112-479F-B689-C4C804C50EB2
-   :END:
-
-** TODO Add Supply Reviews Section to blog
+** TODO symlink emacs.d/personal to dropbox
 :PROPERTIES:
-:ID:       201557E8-BE4E-4779-BFB9-F660EE411CA4
+:ID:       47AE75C5-20B9-468B-8131-B4FF1B0B97DE
+:LAST_REVIEW: 2018-07-05 Thu
+:NEXT_REVIEW: 2018-07-06 Fri
 :END:
-[2018-07-20 Fri 05:45]
+[2018-06-30 Sat 00:50]
 
-
-** TODO Change ink in pen
+** TODO What are my goals for no contact
 :PROPERTIES:
-:ID:       359F1A81-EF17-4CF2-9A17-1089EDF5FEBE
+:ID:       36A17176-4E9A-4396-AB87-448DF9D10692
 :END:
-[2018-07-20 Fri 07:32]
+[2018-07-11 Wed 19:46]
+What are my anti-goals
 
 
-** TODO Flush pen
+
+
+
+** CLIP Warm yourself by the fire, son
 :PROPERTIES:
-:ID:       2342137A-ADBC-40F0-854F-FE554F01D532
+:ID:       83C81BC7-BEE9-4099-BC74-9A53156C46E8
 :END:
-[2018-07-20 Fri 07:33]
+[2018-07-21 Sat 03:07]
+And the morning will come soon
+I'll tell you stories of a better time
+In a place that we once knew
+Before we packed our bags
+And left all this behind us in the dust
+We had a place that we could call home
+And a life no one could touch
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+We are the angry and the desperate
+The hungry, and the cold
+We're the ones who kept quiet
+And always did what we were told
+But we've been sweating while you slept so calm
+In the safety of your home
+We've been pulling out the nails that hold up
+Everything you've known
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+So open your eyes, child
+Let's be on our way
+Broken windows and ashes
+Are guiding the way
+Keep quiet no longer
+We'll sing through the day
+Of the lives that we've lost
+And the lives we've reclaimed
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+Don't hold me up
+(I don't need your help, I'll stand my ground)
+Don't hold me up
+(I don't need your help)
+No! No! No!
+Don't hold me up!
+(I don't need your help, I'll stand my ground)
+Don't hold me up!
+(I don't need your help, I'll stand my ground)
+Don't let me down, down, down, down, down!
 
 
-** TODO Dollar tree: Bucket, rags, cleaner
+
+** CLIP Old White Macbook Replacable Parts:
 :PROPERTIES:
-:ID:       437B4F87-4142-4403-B532-386EB21605D5
+:ID:       6A702426-1B6C-4BCE-9B47-2F7361BC11DE
 :END:
-[2018-07-20 Fri 07:33]
+[2018-07-21 Sat 19:15]
+
+1. Replace Battery P/N: A1280
+2. Replace/Upgrade Random Access Memory (RAM) P/N: PC3-8500 1GB, 2GB, 4GB (Workaround: Any 204-Pin DDR3 SO-DIMM as long as 1 old module is left in one of the banks)
+3. Replace Hard Disk Drive P/N: Any compatible SATA Drive
+4. Replace DVD Super Drive P/N: 678-0590A or comparable 
+5. Replace Trackpad P/N: 922-9014
+6. Replace Screen Assembly P/N: 661-4820
+7. Replace WiFi AirPort Card P/N: 661-4766 607-4144
+8. Replace Fan P/N: 922-8620, 661-5418, 661-9530, 922-9530, 661-4946
+9. Replace Logic Board P/N: 661-5101, 661-4818, 661-4819
+10. Replace CPU Heat Sink P/N: 661-4945
+11. Replace Speakers P/N: 922-8618, 922-8617
+12. Replace Microphone P/N: 922-8619
+13. Replace Power Connector/DC-in-Board P/N: 661-4947
+14. Replace Keyboard/Backlight P/N: Any A1278 Keyboard
 
 
-** INPROGRESS Send dropbox link to Carrie
+** NOTE Register Keybindings Overview
 :PROPERTIES:
-:ID:       29920F77-D643-4494-BA4C-506D8947EF6F
+:ID:       62EF0635-F34E-4D4A-AE3E-DC43253BA0B9
 :END:
-[2018-07-20 08:57]
+[2018-07-22 Sun 13:48]
 
-** TODO Create Inbox File
+text register
+C-x r s a	store region as “a”
+C-x r i a	insert region stored in “a”
+C-x r r a	store rectangle as “a”
+point register
+C-x r SPC a	store current point as “a”
+C-x r j a	move to point in “a”
+window register
+C-x r w a	store configuration of windows in frame
+C-x r j a	restore window configurations
+frame register
+C-x r f a	store window configuration for all frames
+C-x r j a	restore all window configurations
+number register
+C-u 1 C-x r n a	store 1 in “a”
+C-u 1 C-x r + a	add 1 to number in “a”
+C-x r i a	insert number in “a”
+position register
+C-x r m RET	save default
+C-x r m <NAME> RET	save as NAME
+C-x r b RET	move to default
+C-x r b <NAME> RET	move to NAME
+C-x r l	list
+
+
+** BOOK_MEMO Meadows2008
 :PROPERTIES:
-:ID:       52538E25-FA4F-4FC9-838D-0FFA643D99FC
+:CITEKEY: Meadows2008
+:ID:       A1D5CE4C-1EE4-4EE4-8245-5872F5FCDC74
 :END:
-[2018-07-20 08:58]
+*** APHORISM Because of feedback delays within complex systems, by the time the problem becomes apparent it may be unnecessarily difficult to solve. :Meadows2008:APHORISM:
+ :PROPERTIES:
+ :CITEKEY: Meadows2008
+ :ID:       CFD91446-09DC-41C5-9205-CA25A35AD9FA
+ :DATE_ADDED: [2018-07-16 Mon 17:17]
+ :END:
 
-** TODO Move boxes from car
+  Aphorism:
+  "A stitch in time saves nine."
+
+
+*** APHORISM According to the competitive exclusion principle, if a reinforcing feedback loop rewards the winner of a competition with the means to win further competitions, The result will be the elimination of all but a few competitors. :Meadows2008:APHORISM:
+ :PROPERTIES:
+ :CITEKEY: Meadows2008
+ :ID:       119CCFE2-53E2-47F9-94D2-EE1A9FD3CF89
+ :DATE_ADDED: [2018-07-16 Mon 17:19]
+ :END:
+
+  Aphorism:
+  "The rich get richer and the poor get poorer."
+
+
+*** NOTE Systems Thinking                                     :Meadows2008:
+ :PROPERTIES:
+ :CITEKEY: Meadows2008
+ :ID:       12503143-5B13-481B-A880-CDF24CD5F6E7
+ :DATE_ADDED: [2018-07-16 Mon 17:24]
+ :END:
+  - understand parts
+  - see interconnections
+  - consider possible future behaviors by asking what if questions
+  
+
+
+*** NOTE The behavior of a system cannot be determined by simply knowing all of its components. understanding each component of a system individually does not necessarily translate into understanding the behavior entire system or even the behaviors between components :Meadows2008:
 :PROPERTIES:
-:ID:       AFA9093E-7FDD-4ABE-B1D3-676798C77037
+:CITEKEY: Meadows2008
+:ID:       11902A60-F04E-48FB-9368-63CD1CBB161B
+:DATE_ADDED: [2018-07-16 Mon 17:26]
 :END:
-[2018-07-20 08:58]
 
-** TODO helm-bibtex/README.org at master · tmalsburg/helm-bibtex
+*** NOTE System Requirements                                  :Meadows2008:
 :PROPERTIES:
-:ID:       0AE59248-AFE2-4EB8-B818-BADCA176770A
+:CITEKEY: Meadows2008
+:ID:       07B7B19A-6737-4450-8FC3-2DADBC37D025
+:DATE_ADDED: [2018-07-16 Mon 17:30]
 :END:
-[2018-07-18 Wed 03:18]
-https://github.com/tmalsburg/helm-bibtex/blob/master/README.org
+
+  - components 
+  - relations
+  - function
 
 
-**  READLATER 1. Be quick. Wittiness by definition has to do with being quick and clever.
+*** COMMENT Meadows2008: 12                           :COMMENT:Meadows2008:
+ :PROPERTIES:
+ :CITEKEY: Meadows2008
+ :ID:       84E24055-6F2E-446B-B235-95A1D6DBBDFB
+ :DATE_ADDED: [2018-07-16 Mon 17:48]
+ :END:
+
+ Author states that when a living thing dies it loses its system-ness.
+
+ I disagree, things that are dead are also components of systems they are host to a whole new conglomeration of microbes, cairns, and other organisms which feed on the remains. 
+ The dead thing is still a part of its system, it is that now it plays a different role.
+
+
+*** NOTE The relations within a system are often signals which can initiate, moderate, or terminate actions. :Meadows2008:
+ :PROPERTIES:
+ :ID:       84F9FC33-C44C-43B2-A8BA-AEAA497FCDD4
+ :DATE_ADDED: [2018-07-16 Mon 17:50]
+ :LAST_REVIEW: 2018-07-25 Wed
+ :NEXT_REVIEW: 2018-07-26 Thu
+ :END:
+
+*** COMMENT The purpose or function of a system of government is deducted from its behavior and not it's rhetoric or stated goals :COMMENT:Meadows2008:
+ :PROPERTIES:
+ :ID:       7BA3A91A-BEF7-49DE-951B-A15F1EA22AA0
+ :DATE_ADDED: [2018-07-16 Mon 17:52]
+ :END:
+
+*** COMMENT A key function of almost every system is to ensure it's own existence. :COMMENT:Meadows2008:
+ :PROPERTIES:
+ :CITEKEY: Meadows2008
+ :ID:       0F179451-F335-4F48-9DEB-559BCA85970A
+ :DATE_ADDED: [2018-07-16 Mon 17:54]
+ :END:
+
+** BOOK_MEMO Wit
+:PROPERTIES:
+:ID:       9285714F-E5F6-4B4F-B045-DE914E23E914
+:END:
+
+1. Be quick. Wittiness by definition has to do with being quick and clever.
 :PROPERTIES:
 :ID:       CCF25840-9CF4-49DE-8686-25A2A38927E7
 :END:
@@ -112,24 +286,47 @@ The popularity of the phrase, “That’s what she said,” from televisions, Th
 Be like a comedian. Hypothetically drop the mike and end the show while everyone’s still laughing.
 
 
-** RECIPE 7Up Martini
+*** CLIP Adopt a lighthearted frame of mind — at least temporarily. It’s difficult to be witty when you’re stressed. Give yourself permission to speak up or react “in the moment.” If you amuse, great. If not, play it straight. Simply move ahead in the conversation as if you meant the line to be straightforward. Nothing lost.
 :PROPERTIES:
-:ID:       9DAC4F2D-EF41-477E-B0FD-33ACA104E431
+:ID:       BE7B93FB-DB89-46D0-82AD-C9A1B63A5A78
 :END:
-[2018-07-19 Thu 01:19]
-   :PROPERTIES:
-   :CATEGORY: SwedishChef:
-   :SUB_CATEGORY: Beverages
-   :RECIPE: 7Up Martini
-   :DATE_ADDED: 2018-07-19
-   :END:
+[2018-07-17 Tue 18:33]
 
-     - 100% agave organic syrup
-     - 2oz vodka
-     - 1oz lemon juice
-     - 1oz lime juice
-     - 1oz Agave syrup
 
+*** CLIP Get physical. Body language can be as witty as spoken language. A wry smile at just the right spot. A raised eyebrow. Shrugged shoulders and a flip of the wrist. Such physical humor pumped into a conversation at an unsuspecting moment can generate the same laugh as the wittiest remark.
+:PROPERTIES:
+:ID:       893AEE20-862B-46CD-88C4-D8381197538F
+:END:
+[2018-07-17 Tue 18:33]
+
+
+*** CLIP In Hamlet, just before Polonius tells Claudius and Gertrude that the prince is insane, he makes the now famous statement, “brevity is the soul of wit.” In a lot of ways, the best wit is very much like ripping off a Band-Aid: swift and snappy. Keep a joke going for too long or extend the pun into a rambling metaphor, and the witty remark loses its punch
+:PROPERTIES:
+:ID:       1428700E-BDB4-4DC0-A79D-0054F46F4794
+:END:
+[2018-07-17 Tue 18:20]
+
+
+*** CLIP Plan for spontaneity. As Mark Twain once observed: “It usually takes me more than three weeks to prepare a good impromptu speech.” Professional speakers call them “saver” lines — funny remarks to “save the day” when common things go awry like technology failures, memory lapses, or audience disruptions. For example, when delivering a speech, a colleague of mine actually fell off the stage and landed sprawling on the floor in front of her audience. Her saver line: “I’ll now take questions from the floor.” Likewise, if you typically find yourself in the same situations repeatedly, develop some reusable lines that will seem spontaneous to those around you.
+:PROPERTIES:
+:ID:       79D00D0E-CFBD-46A2-BAA1-1AB8999578B5
+:END:
+[2018-07-17 Tue 18:32]
+
+
+*** CLIP Say it before you overthink it. Otherwise, your moment will pass. It’s much like the problem I have getting on a fast-moving escalator. If I’m in a hurry and approach a fast, steep escalator, I step on it without a problem. But if I stop dead-still at the top of that escalator, it seems much harder to step on. I often stand there letting one stair, then the second stair, then the third stair pass by, thinking I’ll catch the next one, or the next one, or maybe the next one. Momentum, once stopped, seems difficult to regain. So it is with conversation. Once you hesitate with quick wit, it melts in your mouth. The moment passes. Lost forever.
+:PROPERTIES:
+:ID:       D9A95850-CFC7-49D3-8640-0DD34C7CAE65
+:END:
+[2018-07-17 Tue 18:32]
+
+
+*** CLIP “WIT HAS TRUTH IN IT; WISECRACKING IS SIMPLY CALISTHENICS WITH WORDS”
+:PROPERTIES:
+:ID:       126D1625-26E3-44E3-8D05-650EBFF44A71
+:END:
+[2018-07-17 Tue 18:22]
+Dororthy Parker
 
 ** PACKAGE dotfiles/configuration.org at master · hrs/dotfiles
 :PROPERTIES:
@@ -140,455 +337,21 @@ https://github.com/hrs/dotfiles/blob/master/emacs/.emacs.d/configuration.org#key
 orgmode utils
 
 
-** READLATER Story of My Life: How Narrative Creates Personality - The Atlantic
+** PACKAGE helm-bibtex/README.org at master · tmalsburg/helm-bibtex
 :PROPERTIES:
-:ID:       623BE27B-36D3-4989-8B91-07741F1EEC1C
+:ID:       0AE59248-AFE2-4EB8-B818-BADCA176770A
 :END:
-[2018-07-19 Thu 14:29]
-https://www.google.com/amp/s/www.theatlantic.com/amp/article/400796/
+[2018-07-18 Wed 03:18]
+https://github.com/tmalsburg/helm-bibtex/blob/master/README.org
 
 
-** READLATER How to Stop Believing Lies Others Told You About You | Psychology Today
-:PROPERTIES:
-:ID:       51ACA808-3C11-4BFF-BC36-3EF2B19659E9
-:END:
-[2018-07-19 Thu 14:31]
-https://www.google.com/amp/s/www.psychologytoday.com/us/blog/prescriptions-life/201209/how-stop-believing-lies-others-told-you-about-you%3famp
-
-
-** READLATER Starter Pantry and Staples Checklist - My First Apartment
-:PROPERTIES:
-:ID:       790161F7-D11F-4538-A80B-65F09420A369
-:END:
-[2018-07-19 Thu 14:42]
-https://www.myfirstapartment.com/2005/11/starter-pantry-and-staples-checklist/
-
-
-** READLATER Starter Apartment Checklist - My First Apartment
-:PROPERTIES:
-:ID:       7C4B6FEA-1804-40B3-98B8-4BA02B05624E
-:END:
-[2018-07-19 Thu 14:42]
-https://www.myfirstapartment.com/2005/11/starter-equipment-checklist/
-
-
-** READLATER Things You Need For Your First Apartment: The Ultimate Checklist - My First Apartment
-:PROPERTIES:
-:ID:       A93122E9-A894-4F65-8710-34829926821A
-:END:
-[2018-07-19 Thu 14:42]
-https://www.myfirstapartment.com/2013/05/things-you-need-for-your-first-apartment/
-
-
-** CLIP Blue Ink — Mountain of Ink
-:PROPERTIES:
-:ID:       076F0433-0599-44CB-9FD1-45D7413D4A06
-:END:
-[2018-07-20 Fri 05:44]
-https://www.mountainofink.com/blog/blue-ink
-
-
-** CLIP Grey Ink — Mountain of Ink
-:PROPERTIES:
-:ID:       308BFEBD-2F3B-4ADF-8B25-28147EAF0271
-:END:
-[2018-07-20 Fri 05:44]
-https://www.mountainofink.com/blog/grey-ink
-
-
-** LISTEN Nora Ephron
-:PROPERTIES:
-:ID:       AC5A9F60-CD1F-4241-88E5-BD1A2F48468C
-:END:
-[2018-07-17 Tue 18:30]
-https://open.spotify.com/episode/0NE4Zxvioy1VH6z406Gvlh?si=hcuXcHZ9TjChbLlHWTrN6w
-
-
-** CLIP Adopt a lighthearted frame of mind — at least temporarily. It’s difficult to be witty when you’re stressed. Give yourself permission to speak up or react “in the moment.” If you amuse, great. If not, play it straight. Simply move ahead in the conversation as if you meant the line to be straightforward. Nothing lost.
-:PROPERTIES:
-:ID:       BE7B93FB-DB89-46D0-82AD-C9A1B63A5A78
-:END:
-[2018-07-17 Tue 18:33]
-
-
-** CLIP Get physical. Body language can be as witty as spoken language. A wry smile at just the right spot. A raised eyebrow. Shrugged shoulders and a flip of the wrist. Such physical humor pumped into a conversation at an unsuspecting moment can generate the same laugh as the wittiest remark.
-:PROPERTIES:
-:ID:       893AEE20-862B-46CD-88C4-D8381197538F
-:END:
-[2018-07-17 Tue 18:33]
-
-
-** CLIP In Hamlet, just before Polonius tells Claudius and Gertrude that the prince is insane, he makes the now famous statement, “brevity is the soul of wit.” In a lot of ways, the best wit is very much like ripping off a Band-Aid: swift and snappy. Keep a joke going for too long or extend the pun into a rambling metaphor, and the witty remark loses its punch
-:PROPERTIES:
-:ID:       1428700E-BDB4-4DC0-A79D-0054F46F4794
-:END:
-[2018-07-17 Tue 18:20]
-
-
-** CLIP Plan for spontaneity. As Mark Twain once observed: “It usually takes me more than three weeks to prepare a good impromptu speech.” Professional speakers call them “saver” lines — funny remarks to “save the day” when common things go awry like technology failures, memory lapses, or audience disruptions. For example, when delivering a speech, a colleague of mine actually fell off the stage and landed sprawling on the floor in front of her audience. Her saver line: “I’ll now take questions from the floor.” Likewise, if you typically find yourself in the same situations repeatedly, develop some reusable lines that will seem spontaneous to those around you.
-:PROPERTIES:
-:ID:       79D00D0E-CFBD-46A2-BAA1-1AB8999578B5
-:END:
-[2018-07-17 Tue 18:32]
-
-
-** CLIP Say it before you overthink it. Otherwise, your moment will pass. It’s much like the problem I have getting on a fast-moving escalator. If I’m in a hurry and approach a fast, steep escalator, I step on it without a problem. But if I stop dead-still at the top of that escalator, it seems much harder to step on. I often stand there letting one stair, then the second stair, then the third stair pass by, thinking I’ll catch the next one, or the next one, or maybe the next one. Momentum, once stopped, seems difficult to regain. So it is with conversation. Once you hesitate with quick wit, it melts in your mouth. The moment passes. Lost forever.
-:PROPERTIES:
-:ID:       D9A95850-CFC7-49D3-8640-0DD34C7CAE65
-:END:
-[2018-07-17 Tue 18:32]
-
-
-** CLIP “WIT HAS TRUTH IN IT; WISECRACKING IS SIMPLY CALISTHENICS WITH WORDS”
-:PROPERTIES:
-:ID:       126D1625-26E3-44E3-8D05-650EBFF44A71
-:END:
-[2018-07-17 Tue 18:22]
-Dororthy Parker
-
-
-
-** Book Notes
-:PROPERTIES:
-:ID:       A1D5CE4C-1EE4-4EE4-8245-5872F5FCDC74
-:END:
-** APHORISM Because of feedback delays within complex systems, by the time the problem becomes apparent it may be unnecessarily difficult to solve. :Meadows2008:APHORISM:
- :PROPERTIES:
- :CITEKEY: Meadows2008
- :ID:       CFD91446-09DC-41C5-9205-CA25A35AD9FA
- :DATE_ADDED: [2018-07-16 Mon 17:17]
- :END:
-
-  Aphorism:
-  "A stitch in time saves nine."
-
-
-** APHORISM According to the competitive exclusion principle, if a reinforcing feedback loop rewards the winner of a competition with the means to win further competitions, The result will be the elimination of all but a few competitors. :Meadows2008:APHORISM:
- :PROPERTIES:
- :CITEKEY: Meadows2008
- :ID:       119CCFE2-53E2-47F9-94D2-EE1A9FD3CF89
- :DATE_ADDED: [2018-07-16 Mon 17:19]
- :END:
-
-  Aphorism:
-  "The rich get richer and the poor get poorer."
-
-
-** NOTE Systems Thinking                                       :Meadows2008:
- :PROPERTIES:
- :CITEKEY: Meadows2008
- :ID:       12503143-5B13-481B-A880-CDF24CD5F6E7
- :DATE_ADDED: [2018-07-16 Mon 17:24]
- :END:
-  - understand parts
-  - see interconnections
-  - consider possible future behaviors by asking what if questions
-  
-
-
-** NOTE The behavior of a system cannot be determined by simply knowing all of its components. understanding each component of a system individually does not necessarily translate into understanding the behavior entire system or even the behaviors between components :Meadows2008:
-:PROPERTIES:
-:CITEKEY: Meadows2008
-:ID:       11902A60-F04E-48FB-9368-63CD1CBB161B
-:DATE_ADDED: [2018-07-16 Mon 17:26]
-:END:
-
-** NOTE System Requirements                                    :Meadows2008:
-:PROPERTIES:
-:CITEKEY: Meadows2008
-:ID:       07B7B19A-6737-4450-8FC3-2DADBC37D025
-:DATE_ADDED: [2018-07-16 Mon 17:30]
-:END:
-
-  - components 
-  - relations
-  - function
-
-
-** COMMENT Meadows2008: 12                             :COMMENT:Meadows2008:
- :PROPERTIES:
- :CITEKEY: Meadows2008
- :ID:       84E24055-6F2E-446B-B235-95A1D6DBBDFB
- :DATE_ADDED: [2018-07-16 Mon 17:48]
- :END:
-
- Author states that when a living thing dies it loses its system-ness.
-
- I disagree, things that are dead are also components of systems they are host to a whole new conglomeration of microbes, cairns, and other organisms which feed on the remains. 
- The dead thing is still a part of its system, it is that now it plays a different role.
-
-
-** NOTE The relations within a system are often signals which can initiate, moderate, or terminate actions. :Meadows2008:
- :PROPERTIES:
- :ID:       84F9FC33-C44C-43B2-A8BA-AEAA497FCDD4
- :DATE_ADDED: [2018-07-16 Mon 17:50]
- :END:
-
-** COMMENT The purpose or function of a system of government is deducted from its behavior and not it's rhetoric or stated goals :COMMENT:Meadows2008:
- :PROPERTIES:
- :ID:       7BA3A91A-BEF7-49DE-951B-A15F1EA22AA0
- :DATE_ADDED: [2018-07-16 Mon 17:52]
- :END:
-
-** COMMENT A key function of almost every system is to ensure it's own existence. :COMMENT:Meadows2008:
- :PROPERTIES:
- :CITEKEY: Meadows2008
- :ID:       0F179451-F335-4F48-9DEB-559BCA85970A
- :DATE_ADDED: [2018-07-16 Mon 17:54]
- :END:
-
-
-** TOOL oliver marks / emacs-digitalocean-helm · GitLab
+** PACKAGE oliver marks / emacs-digitalocean-helm · GitLab
 :PROPERTIES:
 :ID:       CEED8868-8604-44D8-9D87-D1FA3387AD68
 :END:
 [2018-07-18 Wed 05:47]
 https://gitlab.com/olymk2/emacs-digitalocean-helm
 
-
-
-
-** INPROGRESS
-:PROPERTIES:
-:ID:       26987D74-9E39-4DA9-9F32-A4D6CB493A98
-:END:
-
-** INPROGRESS Fix Capture Templates                                                                                  :MAINTENANCE:
-:PROPERTIES:
-:ID:       1DA8D518-D4C2-410C-BFDE-D997192AAFF1
-:DATE_ADDED: [2018-06-03 Sun 18:53]
-:END:
-
-** INPROGRESS Match tag, properties, and todo colors                                                                 :MAINTENANCE:
-:PROPERTIES:
-:ID:       68F0F27C-DF0A-454A-B450-440D2600C1A9
-:DATE_ADDED: [2018-06-27 Wed 03:17]
-:END:
-
-** INPROGRESS Categorize colors                                                                                      :MAINTENANCE:
-:PROPERTIES:
-:ID:       8A335A92-8F73-432D-9906-A252FF8658F2
-:DATE_ADDED: [2018-06-27 Wed 03:17]
-:END:
-
-** INPROGRESS Slack setup HolidayInnLC                                                                               :WerX:
-:PROPERTIES:
-:ID:       55CC6C79-39A1-41FB-BAD9-0D6800E3121B
-:DATE_ADDED: [2018-06-25 Mon 21:29]
-:END:
-
-** INPROGRESS emacsd dirtree diagram
-:PROPERTIES:
-:ID:       62875203-802C-4AA8-BD27-32B01E8C868B
-:DATE_ADDED: [2018-06-28 Thu 07:37]
-:END:
-
-  https://www.dropbox.com/sh/x9lv29hhaubxokz/AADbresptq8rYkCcw5UeO9Pba?dl=0
-
-** INPROGRESS Specify agenda files better                                                                            :INPROGRESS:
-:PROPERTIES:
-:ID:       37CB13FC-B284-466F-8A02-601D8A2482AF
-:DATE_ADDED: [2018-06-30 Sat 00:33]
-:END:
-
-** NEXT Load hack.css into github page
-:PROPERTIES:
-:ID:       C7F8B46D-9666-49E4-94E4-0E77BC47CA7C
-:END:
-[2018-07-16 Mon 21:00]
-
-** TODO
-:PROPERTIES:
-:ID:       38EA61E2-3456-4686-8C1C-2B38E44FD6B9
-:END:
-
-** TODO Start Packing                                           :HomeBase:
-:PROPERTIES:
-:ID:       8EFC9A63-F921-4D29-A3D0-222275A764B8
-:END:
-*** TODO LaTeX Template Directory Cleanup                                                                             :LaTeX:
-:PROPERTIES:
-:ID:       32B24973-BE10-4D8E-97A4-14BDF4F6E15A
-:DATE_ADDED: [2018-06-12 Tue 22:22]
-:END:
-
-** TODO Schedule appointment with Dr. Bachus in three months                                                         :SCHEDULE:
-:PROPERTIES:
-:ID:       02F29B17-15C7-43FC-A10E-316F4EDC4DD0
-:DATE_ADDED: [2018-06-14 Thu 08:41]
-:END:
-
-** TODO Fix spending capture template
-:PROPERTIES:
-:ID:       AEDAAD57-3E4F-4775-AC65-06AB572CE017
-:END:
-
-** TODO Cleanup homebrew tools                                                                                       :MAINTENANCE:
-:PROPERTIES:
-:ID:       D23B0286-77A8-4CDC-B142-A327CF61DB9D
-:DATE_ADDED: [2018-06-27 Wed 03:17]
-:END:
-
-** TODO Update hotkey cheatsheet                                                                                     :MAINTENANCE:
-:PROPERTIES:
-:ID:       540FD92B-EAF0-4456-8EF9-1093E650C749
-:DATE_ADDED: [2018-06-27 Wed 03:25]
-:END:
-
-** TODO Cleanup myscripts directory                                                                                  :MAINTENANCE:
-:PROPERTIES:
-:ID:       680CF331-2152-4A1F-8298-5BA645C971B8
-:DATE_ADDED: [2018-06-27 Wed 03:26]
-:END:
-
-** TODO Cleanup npm packages                                                                                         :MAINTENANCE:
-:PROPERTIES:
-:ID:       76712509-87B0-4053-8925-A8C16EEDD21F
-:DATE_ADDED: [2018-06-27 Wed 03:27]
-:END:
-
-** TODO Fix Tag alignment                                                                                            :MAINTENANCE:
-:PROPERTIES:
-:DATE_ADDED: <2018-06-27 Wed 04:08>
-:ID:       484DB682-A95A-4B6E-A611-F8D3075ACC1C
-:END:
-
-** TODO Sort TMP directory                                                                                           :FILES:
-:PROPERTIES:
-:DATE_ADDED: <2018-06-27 Wed 04:23>
-:ID:       D9001B35-5D02-418A-810C-D0C62B8CB976
-:END:
-
-** TODO symlink emacs.d/personal to dropbox
-:PROPERTIES:
-:ID:       47AE75C5-20B9-468B-8131-B4FF1B0B97DE
-:LAST_REVIEW: 2018-07-05 Thu
-:NEXT_REVIEW: 2018-07-06 Fri
-:END:
-[2018-06-30 Sat 00:50]
-
-** TODO Sort, Transcribe, and Archive June AudioBot                                                                  :AudioBot:
-:PROPERTIES:
-:ID:       819C038C-D3F6-40AD-89F8-EA3D202A0C95
-:DATE_ADDED: [2018-07-05 Thu 07:06]
-:END:
-
-
-** TODO Update TeXLive
-:PROPERTIES:
-:ID:       57F9CA7E-9D0C-4AA3-80D1-3FC679EBD436
-:DATE_ADDED: [2018-07-05 Thu 07:08]
-:END:
-
-** TODO What are my goals for no contact
-:PROPERTIES:
-:ID:       36A17176-4E9A-4396-AB87-448DF9D10692
-:END:
-[2018-07-11 Wed 19:46]
-What are my anti-goals
-
-** REFILE                                                                                                              :REFILE:
-:PROPERTIES:
-:ID:       4481AB31-340F-4838-90F5-9AC7799C3AE6
-:END:
-
-** LOG Coordinates:
-:PROPERTIES:
-:ID:       F07A3B09-1DE8-4B68-8818-4A0F7E56831E
-:DATE_ADDED: [2018-06-27 Wed 05:31]
-:END:
-
-  - Lake City, Florida:
-      - Latitude:         N   30.188762
-      - Longitude:     W -82.647103
-
-  - Gainesville, Florida:
-      - Latitude:     29.651634
-      - Longitude:    -82.324829
-
-  - Oakland, California:
-      - Latitude:         N  37.769857
-      - Longitude:     W -122.22564
-
-  - Ames, Iowa:
-      - Latitude:         N  42.025495
-      - Longitude:     W -93.627594
-
-  - Cochabamba, Bolivia:
-      - Latitude: -17.413977
-      - Longitude: -66.165322
-
-  - Isiburo Secure National Park, Bolivia:
-      - Latitude: -16.406565
-      - Longitude: -66.046353
-
-  - Tambo, Bolivia:
-      - Latitude: -18.024212
-      - Longitude: -64.447805
-
-  - Chimore, Bolivia:
-      - Latitude: -16.995260
-      - Longitude: -65.152154
-
-*** LOG Holiday Inn Coordinates
-:PROPERTIES:
-:ID:       71DAED63-5EDF-454D-9558-995D4CBF40CA
-:DATE_ADDED: [2018-06-24 Sun 11:52]
-:END:
-
-  - LAT: 30.1785276
-  - LONG: -82.68460879999998
-
-** BILL Car Payment                                                                                                  :BILL:
-:PROPERTIES:
-:ID:       67DA06BD-A6FA-4007-8A21-5AA347F4C37A
-:END:
-
-** BUY Agate Party Plate Set in Earthy Gifts by Streamlline                                                          :WISHLIST:
-:PROPERTIES:
-:ID:       DEB7FFD9-ADCC-42CD-ACEE-750EA8FABFB3
-:DATE_ADDED: [2018-06-29 Fri 16:26]
-:END:
-  https://www.perpetualkid.com/agate-party-plate-set.html?gclid=CjwKCAjwsdfZBRAkEiwAh2z65p-a9_bwV_n8-JtWqcEPC2B67cV1clK5FhZotA-5odX-4j6m_SAcuRoCusMQAvD_BwE
-
-** LibrarianBot                                                                                                        :LibrarianBot:
-:PROPERTIES:
-:ID:       03CBE56C-7DC6-44D4-9C6D-FC49208E92C5
-:END:
-
-** PODCAST Emacs Rocks!
-:PROPERTIES:
-:ID:       8CBBB83F-49AD-4E8E-A62E-1F4A78263CD8
-:DATE_ADDED: [2018-06-23 Sat 13:55]
-:END:
-
-  http://emacsrocks.com/
-
-** RECIPE :SwedishChef:
-:PROPERTIES:
-:ID:       789B3E10-CFDE-448D-85C3-7938EB1E7EED
-:END:
-
-** RECIPE Korean Inspired Simple Roast Beef
-:PROPERTIES:
-:ID:       3994245D-C05D-4233-9F45-9C91A5A396E2
-:DATE_ADDED: [2018-06-26 Tue 19:44]
-:END:
-
-  https://www.foodiewithfamily.com/korean-inspired-simple-roast-beef/
-
-** RECIPE Beer Cheese Soup in 15 Minutes
-:PROPERTIES:
-:ID:       DA27280E-1883-44F1-AE93-87C176BD9794
-:DATE_ADDED: [2018-06-26 Tue 14:02]
-:END:
-
-  https://cookthestory.com/beer-cheese-soup-recipe/
-
-** PACKAGE                                                                                                             :PACKAGE:
-:PROPERTIES:
-:ID:       B3AD8084-5706-4070-9601-24380D23A464
-:END:
 
 ** PACKAGE Settings for org-review
 :PROPERTIES:
@@ -642,48 +405,242 @@ https://github.com/jcrist/symcc/blob/master/README.md
 [2018-07-16 Mon 20:47]
 https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README.md
 
-
-** TOOL Reddit - emacs - What is your calendar setup?
+** IDEA Carpet Covering
 :PROPERTIES:
-:ID:       30E28B4B-15DF-4CBB-BA52-1BE4CC86DE69
+:ID:       F646CE84-D44C-4E90-A33D-B3F6ED085705
 :END:
-[2018-07-14 Sat 03:43]
-https://www.google.com/amp/s/amp.reddit.com/r/emacs/comments/86xh8c/what_is_your_calendar_setup/#ampf=undefined
+[2018-07-20 Fri 23:48]
+https://www.homedepot.com/p/Heritage-Mill-Vintage-Hickory-Natural-3-8-in-Thick-x-4-3-4-in-Wide-x-Random-Length-Engineered-Click-Wood-Flooring-33-sq-ft-case-PF9710/206126497?irgwc=1&cm_mmc=afl-ir-10078-456723-
+Heritage Mill Vintage Hickory Natural 3/8 in. Thick x 4-3/4 in. Wide x Random Length Engineered Click Wood Flooring (33 sq.ft. / case)-PF9710 - The Home Depot
 
-
-** TOOL Using Emacs - 26 - Google Calendar, Org Agenda | C'est la Z
+** PURGATORY Slack setup HolidayInnLC                                 :WerX:
 :PROPERTIES:
-:ID:       BCBE2CEE-103F-4CCF-8BCD-039EFE38F00D
+:ID:       D42C7E53-9CA8-4A16-B51D-2CE0C44B0BAB
 :END:
-[2018-07-14 Sat 03:41]
-http://cestlaz.github.io/posts/using-emacs-26-gcal/
-
-
-** TOOL integrating mu4e and calendar and contacts - emacs
+CLOSED [2018-07-22 Sun 13:30]
 :PROPERTIES:
-:ID:       AD1007F5-DA7D-4CC1-8E73-FCAB0661445E
-:LAST_REVIEW: 2018-07-15 Sun
-:NEXT_REVIEW: 2018-07-16 Mon
-:END:
-[2018-07-14 Sat 03:43]
-https://www.reddit.com/r/emacs/comments/8s7t7n/integrating_mu4e_and_calendar_and_contacts/
-
-
-** PURGATORY :PURGATORY:
-:PROPERTIES:
-:ID:       876640A2-1E28-4378-AD73-235583AB73B9
+:ID:       55CC6C79-39A1-41FB-BAD9-0D6800E3121B
+:DATE_ADDED: [2018-06-25 Mon 21:29]
 :END:
 
-** PURGATORY Fix org-mode sync mobile
+** PURGATORY Match tag, properties, and todo colors            :MAINTENANCE:
 :PROPERTIES:
-:ID:       265970F2-7A8F-4A7F-A97B-2533CB704246
-:DATE_ADDED: [2018-06-18 Mon 14:26]
+:ID:       FF60431F-B5B3-4541-AFE3-0F1410A9F380
 :END:
+CLOSED [2018-07-24 Tue 03:58]
+:PROPERTIES:
+:ID:       68F0F27C-DF0A-454A-B450-440D2600C1A9
+:DATE_ADDED: [2018-06-27 Wed 03:17]
+:END:
+
+** PURGATORY Categorize colors                                 :MAINTENANCE:
+:PROPERTIES:
+:ID:       3E9E6085-A65C-4412-A6CC-FA6DB54BE5F1
+:END:
+CLOSED [2018-07-24 Tue 03:58]
+:PROPERTIES:
+:ID:       8A335A92-8F73-432D-9906-A252FF8658F2
+:DATE_ADDED: [2018-06-27 Wed 03:17]
+:END:
+
+** PURGATORY emacsd dirtree diagram
+:PROPERTIES:
+:ID:       AD8FFD23-BFC6-4A3E-9694-B45834D33D2A
+:END:
+CLOSED [2018-07-24 Tue 03:58]
+:PROPERTIES:
+:ID:       62875203-802C-4AA8-BD27-32B01E8C868B
+:DATE_ADDED: [2018-06-28 Thu 07:37]
+:END:
+
+  https://www.dropbox.com/sh/x9lv29hhaubxokz/AADbresptq8rYkCcw5UeO9Pba?dl=0
+
+** PURGATORY Specify agenda files better                        :INPROGRESS:
+:PROPERTIES:
+:ID:       A0FD53A7-F7FD-4AC7-A031-A74EAB454B7C
+:END:
+CLOSED [2018-07-24 Tue 03:58]
+:PROPERTIES:
+:ID:       37CB13FC-B284-466F-8A02-601D8A2482AF
+:DATE_ADDED: [2018-06-30 Sat 00:33]
+:END:
+
+** PURGATORY Cleanup homebrew tools                            :MAINTENANCE:
+:PROPERTIES:
+:ID:       DDCD9C9C-1F7D-4A35-AD70-7017E866B23A
+:END:
+CLOSED [2018-07-24 Tue 03:58]
+:PROPERTIES:
+:ID:       D23B0286-77A8-4CDC-B142-A327CF61DB9D
+:DATE_ADDED: [2018-06-27 Wed 03:17]
+:END:
+
+** PURGATORY Cleanup npm packages                              :MAINTENANCE:
+:PROPERTIES:
+:ID:       0CA298AF-29B1-40CA-BDEB-069179532F22
+:END:
+CLOSED [2018-07-24 Tue 03:59]
+:PROPERTIES:
+:ID:       76712509-87B0-4053-8925-A8C16EEDD21F
+:DATE_ADDED: [2018-06-27 Wed 03:27]
+:END:
+
+** PURGATORY Update hotkey cheatsheet                          :MAINTENANCE:
+:PROPERTIES:
+:ID:       CEBEEADA-808D-4F6C-9131-E50CCC6DF90C
+:END:
+CLOSED [2018-07-24 Tue 03:58]
+:PROPERTIES:
+:ID:       540FD92B-EAF0-4456-8EF9-1093E650C749
+:DATE_ADDED: [2018-06-27 Wed 03:25]
+:END:
+
+** PURGATORY Cleanup myscripts directory                       :MAINTENANCE:
+:PROPERTIES:
+:ID:       127BF6BD-63E9-418C-A8AA-BC451DA6CA2E
+:END:
+CLOSED [2018-07-24 Tue 03:58]
+:PROPERTIES:
+:ID:       680CF331-2152-4A1F-8298-5BA645C971B8
+:DATE_ADDED: [2018-06-27 Wed 03:26]
+:END:
+
+
+** PURGATORY LYRICS The Good Left Undone
+:PROPERTIES:
+:ID:       4819178C-6A68-4A98-883F-798A07B8F1DE
+:END:
+[2018-07-22 Sun 11:45]
+
+In fields where nothing grew but weeds 
+I found a flower at my feet 
+Bending there in my direction 
+I wrapped a hand around its stem 
+I pulled until the roots gave in 
+Finding now what I've been missing 
+And I know
+So I tell myself 
+I tell myself it's wrong 
+There's a point we've passed in which we cant return 
+I've felt the cold rain of the coming storm
+All because of you 
+I haven't slept in so long 
+When I do, I dream 
+Of drowning in the ocean 
+Longing for the shore 
+Where I can lay my head down 
+I'll follow your voice 
+All you have to do 
+Is shout it out
+Inside my hands these pedals bound 
+Dried up, fallen to the ground 
+But it was already too late now 
+I pushed my fingers through the earth 
+Returned this flower to the dirt 
+So it could live; I walked away now
+But I know 
+Not a day goes by when I don't feel it's wrong 
+There's a point we've passed in which we can't return 
+I've felt the cold rain of the coming storm
+All because of you 
+All because of you 
+All because of you 
+I haven't slept in so long 
+When I do, I dream 
+Of drowning in the ocean 
+Longing for the shore 
+Where I can lay my head down 
+Inside these arms of yours 
+All because of you 
+I believe in angels 
+Not the kind with wings 
+No, not the kind with halos 
+The kind that bring you home 
+When home becomes a strange place 
+I'll follow your voice 
+All you have to do 
+Is shout it out
+
+
+
+** PURGATORY LYRICS Prayer of the Refugee
+:PROPERTIES:
+:ID:       FA7F1AAD-ADBA-4E64-BDB5-F9C28578BD89
+:END:
+[2018-07-22 Sun 11:46]
+
+Warm yourself by the fire, son
+And the morning will come soon
+I'll tell you stories of a better time
+In a place that we once knew
+Before we packed our bags
+And left all this behind us in the dust
+We had a place that we could call home
+And a life no one could touch
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+We are the angry and the desperate
+The hungry, and the cold
+We're the ones who kept quiet
+And always did what we were told
+But we've been sweating while you slept so calm
+In the safety of your home
+We've been pulling out the nails that hold up
+Everything you've known
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+So open your eyes, child
+Let's be on our way
+Broken windows and ashes
+Are guiding the way
+Keep quiet no longer
+We'll sing through the day
+Of the lives that we've lost
+And the lives we've reclaimed
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+Don't hold me up now
+I can stand my own ground
+I don't need your help now
+You will let me down, down, down!
+Don't hold me up
+(I don't need your help, I'll stand my ground)
+Don't hold me up
+(I don't need your help)
+No! No! No!
+Don't hold me up!
+(I don't need your help, I'll stand my ground)
+Don't hold me up!
+(I don't need your help, I'll stand my ground)
+Don't let me down, down, down, down, down!
 
 ** PURGATORY Find Soft Phone Service
 :PROPERTIES:
 :ID:       FAE2A3E6-21DC-4538-BB21-8E7A7F8DDEDD
 :DATE_ADDED: [2018-06-14 Thu 08:35]
+:END:
+
+** PURGATORY Fix spending capture template
+:PROPERTIES:
+:ID:       59576887-F172-4C31-9947-3DC133BFBBBF
+:END:
+CLOSED [2018-07-24 Tue 03:58]
+:PROPERTIES:
+:ID:       AEDAAD57-3E4F-4775-AC65-06AB572CE017
 :END:
 
 ** PURGATORY org done strike-through settings is fucked up again
@@ -693,612 +650,601 @@ https://www.reddit.com/r/emacs/comments/8s7t7n/integrating_mu4e_and_calendar_and
 :END:
 
 
-** WAITING :WAITING:
-:PROPERTIES:
-:ID:       564F4D9A-7D48-4922-8610-65FC924581CD
-:END:
-
-** WAITING Fill out Windsong Application                                                                             :WAITING:
-:PROPERTIES:
-:ID:       73A0E186-6082-4802-AE8B-964479BBFDAB
-:DATE_ADDED: [2018-06-14 07:49]
-:END:
-
-
-** COMMENT :COMMENT:
-:PROPERTIES:
-:ID:       6F7D2BD7-CD48-4484-B66D-69817C69438C
-:END:
-
-
-** ACCOUNT :ACCOUNT:
+                                                                   :ACCOUNT:
 :PROPERTIES:
 :ID:       83EB9A54-F8F4-48D6-B5B3-20927F785B6F
 :END:
 
-** ACCOUNT OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries
-:PROPERTIES:
-:ID:       78106B76-A0EB-443C-9A7E-289F899455DC
-:END:
-[2018-07-09 Mon 00:03]
-https://www.overdrive.com/account/sign-in?ReturnUrl=%2faccount%2fverify
 
-
-** NOTE :NOTE:
+** PURGATORY Fix org-mode sync mobile
 :PROPERTIES:
-:ID:       40A8AA1B-5ED8-4669-B749-F31E3E9E4F3D
+:ID:       265970F2-7A8F-4A7F-A97B-2533CB704246
+:DATE_ADDED: [2018-06-18 Mon 14:26]
 :END:
 
 
-
-** DEFINITION :DEFINITION:
+** IDEA Bubble Chandelier | Martha Stewart
 :PROPERTIES:
-:ID:       D6006D4E-6013-4E35-9D78-C611B9769E8E
+:ID:       EED1789D-75C8-4B62-A53F-596CC9F08E36
 :END:
+[2018-07-23 Mon 04:05]
+https://www.marthastewart.com/1066662/bubble-chandelier?xsc=soc_pin_2014_5_6_gen__M&crlt.pid=camp.QCArWZiGuJqP
 
 
-
-
-** Glossary of Systems Theory                      :SYSTEMS_THEORY:GLOSSARY:
+** READLATER Guide to Fountain Pen Nibs: Troubleshooting Tips and Tricks - JetPens.com
 :PROPERTIES:
-:ID:       EE26D739-22A5-4FD1-BB17-6CA2FFCD93C4
-:DATE_ADDED: [2018-07-16 Mon 16:57]
+:ID:       2905FC46-1BC5-4FE5-A340-885F32F8653C
 :END:
+[2018-07-23 Mon 23:33]
+https://www.jetpens.com/blog/guide-to-fountain-pen-nibs-troubleshooting-tips-and-tricks/pt/777
 
-*** A
+
+** NOTE Limescale: acetic acid vs citric acid
 :PROPERTIES:
-:ID:       559D2B43-A411-4DB6-A719-B5F140B16B58
+:ID:       C77D3177-D36C-4F2F-A6AD-900C8695A3C7
 :END:
+[2018-07-24 Tue 00:42]
 
-  - Adaptive capacity :: An important part of the resilience of systems in the face of a perturbation, helping to minimise loss of function in individual human, and collective social and biological systems.
+Acetic acid, but you need to take the job outside: it is very smelly. Acetic acid, being volatile, will clean all surfaces, not just those under the liquid. Citric acid is better if there is any rust.
 
-  - Allopoiesis :: The process whereby a system produces something other than the system itself.
 
-  - Allostasis :: The process of achieving stability, or homeostasis, through physiological or behavioral change.
-
-  - Autopoiesis :: The process by which a system regenerates itself through the self-reproduction of its own elements and of the network of interactions that characterize them. An autopoietic system renews, repairs, and replicates or reproduces itself in a flow of matter and energy. 
-                   - *Note:* from a strictly Maturanian point of view, autopoiesis is an essential property of biological/living systems.
-*** B
+** PROJECT Amazon.com : Clevr Interlocking EVA Gym Foam Floor Mat Tiles (24" x 24") | Protective Flooring for Gym Exercise Mat | Wood Grain or Granite Print | 24 sq. ft./100 sq. ft | 1 YEAR LIMITED WARRANTY : Sports & Outdoors
 :PROPERTIES:
-:ID:       51FCEE5D-3E29-409B-958D-D10787BCC01F
+:ID:       6CA05985-A5F1-4E7F-B1A9-8644AE9A1FBF
 :END:
+[2018-07-24 Tue 11:12]
+https://www.amazon.com/Clevr-Interlocking-Protective-Flooring-Exercise/dp/B07BQJXLFB/ref=pd_sbs_200_4?_encoding=UTF8&pd_rd_i=B07BQJXLFB&pd_rd_r=P59XZKC5GJPQPHS4P05Q&pd_rd_w=IrmB6&pd_rd_wg=s7B4t&refRID=P59XZKC5GJPQPHS4P05Q
 
-  - Black box :: A technical term for a device or system or object when it is viewed primarily in terms of its input and output characteristics.
 
-  - Boundaries :: The parametric conditions, often vague, always subjectively stipulated, that delimit and define a system and set it apart from its environment.
-
-*** C
+** TODO On Food and Cooking: The Science and Lore of the Kitchen: Harold McGee: 9780684800011: Amazon.com: Books
 :PROPERTIES:
-:ID:       930EF590-B310-4C6F-8561-7213B83DF475
+:ID:       F979641D-2684-44E2-B23D-857BFCF59BFC
 :END:
+[2018-07-24 Tue 14:02]
+https://www.amazon.com/Food-Cooking-Science-Lore-Kitchen/dp/0684800012/ref=sr_1_5?ie=UTF8&qid=1532454961&sr=8-5&keywords=the+science+of+food
 
-  - Cascading failure :: Failure in a system of interconnected parts, where the service provided depends on the operation of a preceding part, and the failure of a preceding part can trigger the failure of successive parts.
 
-  - Closed system :: A system which can exchange energy (as heat or work), but not matter, with its surroundings.
-
-  - Complexity :: A complex system is characterised by components that interact in multiple ways and follow local rules. A complicated system is characterised by its layers.
-
-  - Culture :: The result of individual learning processes that distinguish one social group of higher animals from another. In humans culture is the set of interrelated concepts, products and activities through which humans express themselves, interact with each other, and become aware of themselves and the world around them.
-*** D
+** READLATER 35 Cool DIY Gadgets You Can Make To Impress Your Friends
 :PROPERTIES:
-:ID:       0E348FFF-4F57-4888-BC80-896FB5B027D7
+:ID:       6D9DD947-C405-4F5A-8357-781258BAC54C
 :END:
+[2018-07-25 Wed 16:41]
+http://diyjoy.com/diy-gadgets#
 
-  - Development :: The process of liberating a system from its previous set of limiting conditions. It is an amelioration of conditions or quality.
 
-  - Dissipative structure :: A term invented by Ilya Prigogine to describe complex chemical structures undergoing the process of chemical change through the dissipation of entropy into their environment, and the corresponding importation of "negentropy" from their environment. Also known as syntropic systems.
-
-*** E
+** TOOL Dremel SM20-DR-RT Saw-Max Tool (Certified Refurbished) - Power Rotary Tools - Amazon.com
 :PROPERTIES:
-:ID:       DBFDEC16-9E45-4799-B22B-638755D01F28
+:ID:       385013F6-E6DD-4BD2-A47E-C73E4FD19C17
 :END:
+[2018-07-25 Wed 19:47]
+https://www.amazon.com/Dremel-SM20-DR-RT-Saw-Max-Certified-Refurbished/dp/B00FA56HT8/ref=pd_sbs_469_4?_encoding=UTF8&pd_rd_i=B00FA56HT8&pd_rd_r=9GF5FQPT520DH7MJ060V&pd_rd_w=PqUfp&pd_rd_wg=GdK78&psc=1&refRID=9GF5FQPT520DH7MJ060V
 
-  - Embeddedness :: A state in which one system is nested in another system.
 
-  - Emergence :: The appearance of novel characteristics exhibited on the level of the whole ensemble, but not by the components in isolation.
-
-  - Enantiostasis :: The ability of an open system, especially a living organism, to stabilize and conserve function in spite of an unstable environment.
-
-  - Entanglement :: A state in which the manner of being, or form of existence, of one system is inextricably tied to that of another system or set of systems.
-
-  - Entropy :: In physics, entropy is a measure of energy that is expended in a physical system but does no useful work, and tends to decrease the organizational order of the system.
-
-  - Environment :: The context within which a system exists. It is composed of all things that are external to the system, and it includes everything that may affect the system, and may be affected by it at any given time.
-
-  - Equifinality :: In open systems, the principle that the same final state can be reached from different initial conditions, or in different ways.
-
-  - Evolution :: A tendency toward greater structural complexity, ecological and/or organizational simplicity, more efficient modes of operation, greater dynamic harmony, etc. As a cosmic process, it is not limited to the domain of biological phenomena, but extends to include all aspects of change in open dynamic systems with a throughput of information and energy.
-Evolutionary systems: A type of system which reproduces with mutation.
-FEdit
-
-Feedback: A functional monitoring signal obtained from a given dynamic and continuous system. A feedback function only makes sense if this monitoring signal is looped back into an eventual control structure within a system and compared with a known desirable state. The difference between the feedback monitoring signal and the desirable state of the system gives the notion of error. The amount of error can guide corrective actions in the system that can bring the system back to the desirable state.
-
-*** H
+** READLATER Taping a Sore Wrist for Boxing | LIVESTRONG.COM
 :PROPERTIES:
-:ID:       5468D5E5-B7AD-47F0-83D0-E14B26701E07
+:ID:       1382E2A4-7910-480B-9479-CDDA53253517
 :END:
-
-  - Heterarchy :: An ordering of things in which there is no single peak or leading element, and in which the element that is dominant at a given time depends on the total situation. The term is often used in contrast to hierarchy, i.e. a vertical arrangement of entities (systems and their subsystems), usually ordered from the top downwards rather than from the bottom upwards.
-
-  - Holarchy :: A concept invented by Arthur Koestler to describe behavior that is partly a function of individual nature and partly a function of the nature of the embedding system, generally operating in a bottom upwards fashion.
-
-  - Holism :: A non-reductionist descriptive and investigative strategy for generating explanatory principles of whole systems. Attention is focused on the emergent properties of the whole rather than on the reductionist behavior of the isolated parts.
-
-  - Holon (philosophy) :: A whole in itself as well as a part of a larger system.
-
-  - Homeorhesis :: A concept encompassing dynamical systems which return to a trajectory, as opposed to systems which return to a particular state, which is termed homeostasis.
-
-  - Homeostasis :: The property of either an open system or a closed system (especially a living organism) which regulates its internal environment so as to maintain a stable, constant condition.
-Human activity systems: Designed social systems organized for a purpose, which they attain by carrying out specific functions.
+[2018-07-26 Thu 00:15]
+https://www.livestrong.com/article/542657-taping-a-wrist-that-is-sore-for-boxing/
 
 
-*** I
+** NOTE 8997
 :PROPERTIES:
-:ID:       D3D4D01D-E4D8-4337-9AF4-4D5BC29357BD
+:ID:       D0075589-8CFB-4967-A904-57C321EB7328
 :END:
+[2018-07-27 Fri 17:23]
+Route for third parties only
 
-  - Isolated system :: A system in which the total energy-mass is conserved without any external exchange happening.
 
-*** L
-:PROPERTIES:
-:ID:       EC4C8EB1-76B7-490C-B7FB-B34BC90CD22A
-:END:
+* TODO Red tag Joe's instructions for making LED light strings that run on low voltage for path lighting, light toys, costumes, as seen in various forms for the past 10 summers at the Oregon Country Fair. Updated August 2004
+[2018-07-29 Sun 01:09]
+http://www.breskin.com/led1.htm
 
-  - Lowerarchy :: A specific type of hierarchy involving a 'bottom up' arrangement of entities such that the few are influenced by the many.
 
-*** M
-:PROPERTIES:
-:ID:       8BF61E6D-41FE-4EAE-88D7-E95EFFAE4B93
-:END:
+* TODO Interactive, Web-Based Dashboards in Python - Siv Scripts
+[2018-07-29 Sun 01:39]
+https://alysivji.github.io/reactive-dashboards-with-dash.html
 
-  - Metastability :: The ability of a non-equilibrium state to persist for some period of time.
 
-  - Model Building :: A disciplined inquiry by which a conceptual (abstract) representation of a system is constructed or a representation of expected outcomes/output is portrayed.
+* TODO Hacks that don't require coding
+[2018-07-29 Sun 01:41]
+http://maggielee.net/hacks_presentation/
 
-*** O
-:PROPERTIES:
-:ID:       8EB62345-9B52-4DC1-AD47-035142E7CD44
-:END:
 
- 
-  - Open System Model (basics)
+* READLATER LessWrong 2.0
+[2018-07-29 Sun 12:32]
+https://www.lesswrong.com/posts/E4cKD9iTWHaE7f3AJ/melatonin-much-more-than-you-wanted-to-know
 
-  - Open System :: A state and characteristics of that state in which a system continuously interacts with its environment. Open systems are those that maintain their state and exhibit the characteristics of openness previously mentioned.
 
-  - Structure–organization–process :: See Structure–organization–process for various definitions.
+* READLATER What We Have Now Is Not Advertising | Nicholas Rempel
+[2018-07-29 Sun 12:37]
+https://nrempel.com/posts/what-we-have-now-is-not-advertising/
 
-*** P
-:PROPERTIES:
-:ID:       F8566D53-433C-41B4-9822-8DC6F06BA260
-:END:
 
-  - Process :: A naturally occurring or designed sequence of actions of an agent or changes of properties or attributes of an object or system.
+* READLATER TSA is tracking regular travelers like terrorists in secret surveillance program - The Boston Globe
+[2018-07-29 Sun 12:42]
+http://apps.bostonglobe.com/news/nation/graphics/2018/07/tsa-quiet-skies/?p1=HP_SpecialTSA
 
-  - Process Model :: An organized arrangement of systems concepts and principles that portray the behavior of a system through time. Its metaphor is the "motion-picture" of "movie" of the system.
 
-*** R
-:PROPERTIES:
-:ID:       B7300C05-D861-4E4B-9EA8-B9C24AE42935
-:END:
+* READLATER Tuple Spaces (or, Good Ideas Don't Always Win)
+[2018-07-29 Sun 12:43]
+https://software-carpentry.org/blog/2011/03/tuple-spaces-or-good-ideas-dont-always-win.html
 
-  - Reductionism :: One kind of scientific orientation that seeks to understand phenomena by a) breaking them down into their smallest possible parts (a process known as analytic reductionism), or conversely b) conflating them to a one-dimensional totality (a process known as holistic reductionism).
-*** S
-:PROPERTIES:
-:ID:       C0E16225-EDFC-4F9E-8509-BED408AA9816
-:END:
 
-  - Self-organization :: A process in which the internal organization of a system, normally an open system, increases in complexity without being guided or managed by an outside source.
+* READLATER hypotext/notation: Collection of quotes on interesting notations & how they affect thought.
+[2018-07-29 Sun 12:44]
+https://github.com/hypotext/notation
 
-  - Self-organizing Systems :: Systems that typically (though not always) display emergent properties.
 
-  - Steady State :: A state in which the variables (called state variables) which define the behavior of a system or a process are unchanging in time. In chemistry, it is a more general situation than dynamic equilibrium. If a system is in steady state then the recently observed behaviour of the system will continue into the future. In stochastic systems, the probabilities that various states will be repeated will remain constant.
+* READLATER LessWrong 2.0
+[2018-07-29 Sun 12:52]
+https://www.lesswrong.com/posts/xg3hXCYQPJkwHyik2/the-best-textbooks-on-every-subject
 
-  - Strong Emergence :: A type of emergence in which the emergent property is irreducible to its individual constituents.
 
-  - Subsystem :: A major component of a system. It is made up of two or more interacting and interdependent components. Subsystems of a system interact in order to attain their own purpose(s) and the purpose(s) of the system in which they are embedded.
+* READLATER Hone your tone of voice. A linguistic perspective on how to talk to customers
+[2018-07-29 Sun 12:55]
+https://unbabel.com/blog/tone-of-voice-linguistic-perspective/
 
-  - Suprasystem :: The entity that is composed of a number of component systems organized in interacting relationships in order to serve their embedding suprasystem.
 
-  - Sustainability :: The ability of a system to maintain itself with no loss of function for extended periods of time. In human terms it is an ideal of creative and responsible stewardship of resources—human, natural, and financial—to generate stakeholder value while contributing to the well-being of current and future generations of all beings.
+* TOOL elfeed-org/README.md at master · remyhonig/elfeed-org
+[2018-07-30 Mon 03:06]
+https://github.com/remyhonig/elfeed-org/blob/master/README.md
 
-  - Synchrony or synchronicity :: 
-    - In engineering :: concurrence of periods and/or phases; simultaneity of events or motions; contemporaneous occurrences.
-    - In evolutionary systems thinking :: a fortunate coincidence of phenomenon and/or of events.
 
-  - Synergy :: The process by which a system generates emergent properties resulting in the condition in which a system may be considered more than the sum of its parts, or equal to the sum of its parts plus their relationships.
+* WATCHLATER https://youtu.be/uuq9tuKRbCY
+[2018-07-30 Mon 14:29]
 
-  - Syntony :: In evolutionary systems thinking, evolutionary consonance, the occurrence and persistence of an evolutionarily tuned dynamic regime, a purposeful creative aligning and tuning with the evolutionary flows of one's milieu. In traditional radio engineering, a condition in which two oscillators have the same resonant frequency.
 
-  - Syntropy :: The process of negentropy-importation. A syntropic system is a dissipative structure.
+* WATCHLATER Rain Chain
+[2018-07-31 Tue 19:11]
+https://youtu.be/A_PkvWoHfoo
 
-  - Systems Design :: A decision-oriented disciplined inquiry that aims at the construction of a model that is an abstract representation of a future system.
 
-  - Soft systems methodology :: A systemic approach for tackling real-world problematic situations, an approach which provides a problem-structuring framework for users to deal with the kind of messy problem situations that lack a formal problem definition.
+* WATCHLATER rain chain ideas
+[2018-07-31 Tue 19:16]
+https://youtu.be/eQf8E1bp9Io
 
-*** W
-:PROPERTIES:
-:ID:       252AB380-31DB-49A4-9E68-8560A5CBD860
-:END:
 
-  - Weak emergence :: A type of emergence in which the emergent property is reducible to its individual constituents.
+* WATCHLATER DIY Foam Bath Mat
+[2018-07-31 Tue 20:33]
+https://youtu.be/iVxdMDtjQ34
 
-  - White-box testing :: A technical term for a device or system analyzed or tested based on knowledge of its internal structure (compare to Black box).
 
-  - Wholeness :: In reference to systems, the condition in which systems are seen to be structurally divisible, but functionally indivisible wholes with emergent properties.
-
-
-** List of mathematical jargon                                   :LIST:TODO:
-:PROPERTIES:
-:ID:       FDA3AE67-3698-4822-A390-ABED9783E0D3
-:DATE_ADDED: [2018-07-16 Mon 16:59]
-:END:
-
-
-abstract nonsense
-Also general abstract nonsense or generalized abstract nonsense, a tongue-in-cheek reference to category theory, using which one can employ arguments that establish a (possibly concrete) result without reference to any specifics of the present problem.
-[The paper of Eilenberg and Mac Lane (1942)] introduced the very abstract idea of a 'category' — a subject then called 'general abstract nonsense'!
-
-— Saunders Mac Lane (1997)
-[Grothendieck] raised algebraic geometry to a new level of abstraction...if certain mathematicians could console themselves for a time with the hope that all these complicated structures were 'abstract nonsense'...the later papers of Grothendieck and others showed that classical problems...which had resisted efforts of several generations of talented mathematicians, could be solved in terms of...complicated concepts.
-
-— Michael Monastyrsky (2001)
-canonical
-A reference to a standard or choice-free presentation of some mathematical object. The term canonical is also used more informally, meaning roughly "standard" or "classic". For example, one might say that Euclid's proof is the "canonical proof" of the infinitude of primes.
-There are two canonical proofs that are always used to show non-mathematicians what a mathematical proof is like:
-
-—The proof that there are infinitely many prime numbers.
-—The proof of the irrationality of the square root of two.
-— Freek Wiedijk (2006, p.2)
-deep
-A result is called "deep" if its proof requires concepts and methods that are advanced beyond the concepts needed to formulate the result. The prime number theorem, proved with techniques from complex analysis, was thought to be a deep result until elementary proofs were found. The fact that π is irrational is a deep result because it requires considerable development of real analysis to prove, even though it can be stated in terms of simple number theory and geometry.
-elegant
-Also beautiful; an aesthetic term referring to the ability of an idea to provide insight into mathematics, whether by unifying disparate fields, introducing a new perspective on a single field, or providing a technique of proof which is either particularly simple, or captures the intuition or imagination as to why the result it proves is true. Gian-Carlo Rota distinguished between elegance of presentation and beauty of concept, saying that for example, some topics could be written about elegantly although the mathematical content is not beautiful, and some theorems or proofs are beautiful but may be written about inelegantly.
-The beauty of a mathematical theory is independent of the aesthetic qualities...of the theory's rigorous expositions. Some beautiful theories may never be given a presentation which matches their beauty....Instances can also be found of mediocre theories of questionable beauty which are given brilliant, exciting expositions....[Category theory] is rich in beautiful and insightful definitions and poor in elegant proofs....[The theorems] remain clumsy and dull....[Expositions of projective geometry] vied for one another in elegance of presentation and in cleverness of proof....In retrospect, one wonders what all the fuss was about.
-
-Mathematicians may say that a theorem is beautiful when they really mean to say that it is enlightening. We acknowledge a theorem's beauty when we see how the theorem 'fits' in its place....We say that a proof is beautiful when such a proof finally gives away the secret of the theorem....
-
-— Gian-Carlo Rota (1977, pp.173–174, pp.181–182)
-elementary
-A proof or result is called "elementary" if it requires only basic concepts and methods, in contrast to so-called deep results. The concept of "elementary proof" is used specifically in number theory, where it usually refers to a proof that does not use methods from complex analysis.
-folklore
-A result is called "folklore" if it is non-obvious, has not been published, and yet is generally known among the specialists in a field. Usually, it is unknown who first obtained the result. If the result is important, it may eventually find its way into the textbooks, whereupon it ceases to be folklore.
-Many of the results mentioned in this paper should be considered "folklore" in that they merely formally state ideas that are well-known to researchers in the area, but may not be obvious to beginners and to the best of my knowledge do not appear elsewhere in print.
-
-— Russell Impagliazzo (1995)
-natural
-Similar to "canonical" but more specific, this term makes reference to a description (almost exclusively in the context of transformations) which holds independently of any choices. Though long used informally, this term has found a formal definition in category theory.
-pathological
-An object behaves pathologically (or, somewhat more broadly used, in a degenerated way) if it fails to conform to the generic behavior of such objects, fails to satisfy certain regularity properties (depending on context), or simply disobeys mathematical intuition. These can be and often are contradictory requirements. Sometimes the term is more pointed, referring to an object which is specifically and artificially exhibited as a counterexample to these properties.
-Since half a century we have seen arise a crowd of bizarre functions which seem to try to resemble as little as possible the honest functions which serve some purpose....Nay more, from the logical point of view, it is these strange functions which are the most general....to-day they are invented expressly to put at fault the reasonings of our fathers....
-
-— Henri Poincaré (1913)
-[The Dirichlet function] took on an enormous importance...as giving an incentive for the creation of new types of function whose properties departed completely from what intuitively seemed admissible. A celebrated example of such a so-called 'pathological' function...is the one provided by Weierstrass....This function is continuous but not differentiable.
-
-— J. Sousa Pinto (2004)
-Note for that latter quote that as the differentiable functions are meagre in the space of continuous functions, as Banach found out in 1931, differentiable functions are colloquially speaking a rare exception among the continuous ones. Thus it can hardly be defended any-more to call non-differentiable continuous functions pathological.
-rigor (rigour)
-Mathematics strives to establish its results using indisputable logic rather than informal descriptive argument. Rigor is the use of such logic in a proof.
-well-behaved
-An object is well-behaved (in contrast with being pathological) if it does satisfy the prevailing regularity properties, or sometimes if it conforms to intuition (but intuition often suggests the opposite behavior as well). Similar to smooth (see below).
-Descriptive informalities[edit]
-
-Although ultimately every mathematical argument must meet a high standard of precision, mathematicians use descriptive but informal statements to discuss recurring themes or concepts with unwieldy formal statements. Note that many of the terms are completely rigorous in context.
-
-almost all
-A shorthand term for "all except for a set of measure zero", when there is a measure to speak of. For example, "almost all real numbers are transcendental" because the algebraic real numbers form a countable subset of the real numbers with measure zero. One can also speak of "almost all" integers having a property to mean "all except finitely many", despite the integers not admitting a measure for which this agrees with the previous usage. For example, "almost all prime numbers are odd". There is a more complicated meaning for integers as well, discussed in the main article. Finally, this term is sometimes used synonymously with generic, below.
-arbitrarily large
-Notions which arise mostly in the context of limits, referring to the recurrence of a phenomenon as the limit is approached. A statement such as that predicate P is satisfied by arbitrarily large values, can be expressed in more formal notation by ∀x : ∃y ≥ x : P(y). See also frequently. The statement that quantity f(x) depending on x "can be made" arbitrarily large, corresponds to ∀y : ∃x : f(x) ≥ y.
-arbitrary
-A shorthand for the universal quantifier. An arbitrary choice is one which is made unrestrictedly, or alternatively, a statement holds of an arbitrary element of a set if it holds of any element of that set. Also much in general-language use among mathematicians: "Of course, this problem can be arbitrarily complicated".
-eventually
-In the context of limits, this is shorthand meaning for sufficiently large arguments; the relevant argument(s) are implicit in the context. As an example, the function log(log(x)) eventually becomes larger than 100"; in this context, "eventually" means "for sufficiently large x.
-factor through
-A term in category theory referring to composition of morphisms. If we have three objects A, B, and C and a map  which is written as a composition  with  and , then f is said to factor through any (and all) of , , and .
-finite
-Next to the usual meaning of "not infinite", in another more restrictive meaning that one may encounter, a value being said to be "finite" also excludes infinitesimal values and the value 0. For example, if the variance of a random variable is said to be finite, this implies it is a positive real number.
-frequently
-In the context of limits, this is shorthand for arbitrarily large arguments and its relatives; as with eventually, the intended variant is implicit. As an example, the sequence  is frequently in the interval (1/2, 3/2), because there are arbitrarily large n for which the value of the sequence is in the interval.
-generic
-This term has similar connotations as almost all but is used particularly for concepts outside the purview of measure theory. A property holds "generically" on a set if the set satisfies some (context-dependent) notion of density, or perhaps if its complement satisfies some (context-dependent) notion of smallness. For example, a property which holds on a dense Gδ (intersection of countably many open sets) is said to hold generically. In algebraic geometry, one says that a property of points on an algebraic variety that holds on a dense Zariski open set is true generically; however, it is usually not said that a property which holds merely on a dense set (which is not Zariski open) is generic in this situation.
-in general
-In a descriptive context, this phrase introduces a simple characterization of a broad class of objects, with an eye towards identifying a unifying principle. This term introduces an "elegant" description which holds for "arbitrary" objects. Exceptions to this description may be mentioned explicitly, as "pathological" cases.
-Norbert A’Campo of the University of Basel once asked Grothendieck about something related to the Platonic solids. Grothendieck advised caution. The Platonic solids are so beautiful and so exceptional, he said, that one cannot assume such exceptional beauty will hold in more general situations.
-
-— Allyn Jackson (2004, p.1197)
-left-hand side, right-hand side (LHS, RHS)
-Most often, these refer simply to the left-hand or the right-hand side of an equation; for example,  has x on the LHS and y + 1 on the RHS. Occasionally, these are used in the sense of lvalue and rvalue: an RHS is primitive, and an LHS is derivative.
-nice
-A mathematical object is colloquially called nice or sufficiently nice if it satisfies hypotheses or properties, sometimes unspecified or even unknown, that are especially desirable in a given context. It is an informal antonym for pathological. For example, one might conjecture that a differential operator ought to satisfy a certain boundedness condition "for nice test functions," or one might state that some interesting topological invariant should be computable "for nice spaces X."
-onto
-A function (which in mathematics is generally defined as mapping the elements of one set A to elements of another B) is called "A onto B" (instead of "A to B") only if it is surjective; it may even be said that "f is onto" (i. e. surjective). Not translatable (without circumlocutons) to languages other than English.
-proper
-If, for some notion of substructure, objects are substructures of themselves (that is, the relationship is reflexive), then the qualification proper requires the objects to be different. For example, a proper subset of a set S is a subset of S that is different from S, and a proper divisor of a number n is a divisor of n that is different from n. This overloaded word is also non-jargon for a proper morphism.
-regular
-A function is called regular if it satisfies satisfactory continuity and differentiability properties, which are often context-dependent. These properties might include possessing a specified number of derivatives, with the function and its derivatives exhibiting some nice property (see nice above), such as Hölder continuity. Informally, this term is sometimes used synonymously with smooth, below. These imprecise uses of the word regular are not to be confused with the notion of a regular topological space, which is rigorously defined.
-resp.
-(Respectively) A convention to shorten parallel expositions. "A (resp. B) [has some relationship to] X (resp. Y)" means that A [has some relationship to] X and also that B [has (the same) relationship to] Y. For example, squares (resp. triangles) have 4 sides (resp. 3 sides); or compact (resp. Lindelöf) spaces are ones where every open cover has a finite (resp. countable) open subcover.
-sharp
-Often, a mathematical theorem will establish constraints on the behavior of some object; for example, a function will be shown to have an upper or lower bound. The constraint is sharp (sometimes optimal) if it cannot be made more restrictive without failing in some cases. For example, for arbitrary nonnegative real numbers x, the exponential function ex, where e = 2.7182818..., gives an upper bound on the values of the quadratic function x2. This is not sharp; the gap between the functions is everywhere at least 1. Among the exponential functions of the form αx, setting α = e2/e = 2.0870652... results in a sharp upper bound; the slightly smaller choice α = 2 fails to produce an upper bound, since then α3 = 8 < 32. In applied fields the word "tight" is often used with the same meaning.[1]
-smooth
-Smoothness is a concept which mathematics has endowed with many meanings, from simple differentiability to infinite differentiability to analyticity, and still others which are more complicated. Each such usage attempts to invoke the physically intuitive notion of smoothness.
-strong, stronger
-A theorem is said to be strong if it deduces restrictive results from general hypotheses. One celebrated example is Donaldson's theorem, which puts tight restraints on what would otherwise appear to be a large class of manifolds. This (informal) usage reflects the opinion of the mathematical community: not only should such a theorem be strong in the descriptive sense (below) but it should also be definitive in its area. A theorem, result, or condition is further called stronger than another one if a proof of the second can be easily obtained from the first but not conversely. An example is the sequence of theorems: Fermat's little theorem, Euler's theorem, Lagrange's theorem, each of which is stronger than the last; another is that a sharp upper bound (see sharp above) is a stronger result than a non-sharp one. Finally, the adjective strong or the adverb strongly may be added to a mathematical notion to indicate a related stronger notion; for example, a strong antichain is an antichain satisfying certain additional conditions, and likewise a strongly regular graph is a regular graph meeting stronger conditions. When used in this way, the stronger notion (such as "strong antichain") is a technical term with a precisely defined meaning; the nature of the extra conditions cannot be derived from the definition of the weaker notion (such as "antichain").
-sufficiently large, suitably small, sufficiently close
-In the context of limits, these terms refer to some (unspecified, even unknown) point at which a phenomenon prevails as the limit is approached. A statement such as that predicate P holds for sufficiently large values, can be expressed in more formal notation by ∃x : ∀y ≥ x : P(y). See also eventually.
-upstairs, downstairs
-A descriptive term referring to notation in which two objects are written one above the other; the upper one is upstairs and the lower, downstairs. For example, in a fiber bundle, the total space is often said to be upstairs, with the base space downstairs. In a fraction, the numerator is occasionally referred to as upstairs and the denominator downstairs, as in "bringing a term upstairs".
-up to, modulo, mod out by
-An extension to mathematical discourse of the notions of modular arithmetic. A statement is true up to a condition if the establishment of that condition is the only impediment to the truth of the statement. Also used when working with members of equivalence classes, esp. in category theory, where the equivalence relation is (categorical) isomorphism; for example, "The tensor product in a weak monoidal category is associative and unital up to a natural isomorphism."
-vanish
-To assume the value 0. For example, "The function sin(x) vanishes for those values of x that are integer multiples of π." This can also apply to limits: see Vanish at infinity.
-weak, weaker
-The converse of strong.
-well-defined
-Accurately and precisely described or specified. For example, sometimes a definition relies on a choice of some object; the result of the definition must then be independent of this choice.
-Proof terminology[edit]
-
-The formal language of proof draws repeatedly from a small pool of ideas, many of which are invoked through various lexical shorthands in practice.
-
-aliter
-An obsolescent term which is used to announce to the reader an alternative method, or proof of a result. In a proof, it therefore flags a piece of reasoning that is superfluous from a logical point of view, but has some other interest.
-by way of contradiction (BWOC), or "for, if not, ..."
-The rhetorical prelude to a proof by contradiction, preceding the negation of the statement to be proved. Also, starting a proof or a sub-proof with Assume... indicates that a proof by contradiction will be employed.
-if and only if (iff)
-An abbreviation for logical equivalence of statements.
-in general
-In the context of proofs, this phrase is often seen in induction arguments when passing from the base case to the "induction step", and similarly, in the definition of sequences whose first few terms are exhibited as examples of the formula giving every term of the sequence.
-necessary and sufficient
-A minor variant on "if and only if"; "A is necessary (sufficient) for B" means "A if (only if) B". For example, "For a field K to be algebraically closed it is necessary and sufficient that it have no finite field extensions" means "K is algebraically closed if and only if it has no finite extensions". Often used in lists, as in "The following conditions are necessary and sufficient for a field to be algebraically closed...".
-need to show (NTS), required to prove (RTP), wish to show, want to show (WTS)
-Proofs sometimes proceed by enumerating several conditions whose satisfaction will together imply the desired theorem; thus, one needs to show just these statements.
-one and only one
-A statement of the uniqueness of an object; the object exists, and furthermore, no other such object exists.
-Q.E.D.
-(Quod erat demonstrandum): A Latin abbreviation, meaning "which was to be demonstrated", historically placed at the end of proofs, but less common currently, having been supplanted by the Halmos end-of-proof mark, a square sign ∎.
-sufficiently nice
-A condition on objects in the scope of the discussion, to be specified later, that will guarantee that some stated property holds for them. When working out a theorem, the use of this expression in the statement of the theorem indicates that the conditions involved may be not yet known to the speaker, and that the intent is to collect the conditions that will be found to be needed in order for the proof of the theorem to go through.
-the following are equivalent (TFAE)
-Often several equivalent conditions (especially for a definition, such as normal subgroup) are equally useful in practice; one introduces a theorem stating an equivalence of more than two statements with TFAE.
-transport of structure
-It is often the case that two objects are shown to be equivalent in some way, and that one of them is endowed with additional structure. Using the equivalence, we may define such a structure on the second object as well, via transport of structure. For example, any two vector spaces of the same dimension are isomorphic; if one of them is given an inner product and if we fix a particular isomorphism, then we may define an inner product on the other space by factoring through the isomorphism.
-Let V be a finite-dimensional vector space over k....Let (ei)1 ≤ i ≤ n be a basis for V....There is an isomorphism of the polynomial algebra k[Tij]1 ≤ i,j ≤ n onto the algebra Symk(V ⊗ V*)....It extends to an isomorphism of k[GLn] to the localized algebra Symk(V ⊗ V*)D, where D = det(ei ⊗ ej*)....We write k[GL(V)] for this last algebra. By transport of structure, we obtain a linear algebraic group GL(V) isomorphic to GLn.
-
-— Igor Shafarevich (1991, p.12)
-without (any) loss of generality (WLOG, WOLOG, WALOG), we may assume (WMA)
-Sometimes a proposition can be more easily proved with additional assumptions on the objects it concerns. If the proposition as stated follows from this modified one with a simple and minimal explanation (for example, if the remaining special cases are identical but for notation), then the modified assumptions are introduced with this phrase and the altered proposition is proved.
-Proof techniques[edit]
-
-Mathematicians have several phrases to describe proofs or proof techniques. These are often used as hints for filling in tedious details.
-
-angle chasing
-Used to describe a geometrical proof that involves finding relationships between the various angles in a diagram.[2]
-back-of-the-envelope calculation
-An informal computation omitting much rigor without sacrificing correctness. Often this computation is "proof of concept" and treats only an accessible special case.
-brute force
-Rather than finding underlying principles or patterns, this is a method where one would evaluate as many cases as needed to sufficiently prove or provide convincing evidence that the thing in question is true. Sometimes this involves evaluating every possible case.
-by example
-A proof by example is an argument whereby a statement is not proved but instead illustrated by an example. If done well, the specific example would easily generalize to a general proof.
-by inspection
-A rhetorical shortcut made by authors who invite the reader to verify, at a glance, the correctness of a proposed expression or deduction. If an expression can be evaluated by straightforward application of simple techniques and without recourse to extended calculation or general theory, then it can be evaluated by inspection. It is also applied to solving equations; for example to find roots of a quadratic equation by inspection is to 'notice' them, or mentally check them. 'By inspection' can play a kind of gestalt role: the answer or solution simply clicks into place.
-by intimidation
-Style of proof where claims believed by the author to be easily verifiable are labelled as 'obvious' or 'trivial', which often results in the reader being confused.
-clearly, can be easily shown
-A term which shortcuts around calculation the mathematician perceives to be tedious or routine, accessible to any member of the audience with the necessary expertise in the field; Laplace used obvious (French: évident).
-complete intuition
-commonly reserved for jokes (puns on complete induction).
-diagram chasing
-[3] Given a commutative diagram of objects and morphisms between them, if one wishes to prove some property of the morphisms (such as injectivity) which can be stated in terms of elements, then the proof can proceed by tracing the path of elements of various objects around the diagram as successive morphisms are applied to it. That is, one chases elements around the diagram, or does a diagram chase.
-handwaving
-A non-technique of proof mostly employed in lectures, where formal argument is not strictly necessary. It proceeds by omission of details or even significant ingredients, and is merely a plausibility argument.
-in general
-In a context not requiring rigor, this phrase often appears as a labor-saving device when the technical details of a complete argument would outweigh the conceptual benefits. The author gives a proof in a simple enough case that the computations are reasonable, and then indicates that "in general" the proof is similar.
-index battle
-for proofs involving objects with multiple indices which can be solved by going to the bottom (if anyone wishes to take up the effort). Similar to diagram chasing.
-trivial
-Similar to clearly. A concept is trivial if it holds by definition, is immediate corollary to a known statement, or is a simple special case of a more general concept.
-Notes[edit]
-
-^ Boyd, Stephen (2004). Convex Optimization. Cambridge University Press. ISBN 0521833787.
-^ Roe, John (1993), Elementary Geometry, Oxford science publications, p. 119, ISBN 0-19-853456-6
-^ Numerous examples can be found in (Mac Lane 1998), for example on p. 100.
-References[edit]
-
-Eilenberg, Samuel; Mac Lane, Saunders (1942), "Natural Isomorphisms in Group Theory", Proc. Natl. Acad. Sci. USA, 28: 537–543, doi:10.1073/pnas.28.12.537, PMC 1078535 .
-Impagliazzo, Russell (1995), "A personal view of average-case complexity", Proc. Tenth Annual Structure in Complexity Theory Conference (SCT'95), pp. 134–147, doi:10.1109/SCT.1995.514853.
-Jackson, Allyn (2004), "Comme Appelé du Néant — As If Summoned from the Void: The Life of Alexandre Grothendieck", AMS Notices, 51 (9,10) (Parts I and II).
-Mac Lane, Saunders (1997), "The PNAS way back then" (PDF), Proc. Natl. Acad. Sci. USA, 94 (12): 5983–5985, doi:10.1073/pnas.94.12.5983.
-Mac Lane, Saunders (1998), Categories for the Working Mathematician, Springer.
-Monastyrsky, Michael (2001), "Some Trends in Modern Mathematics and the Fields Medal" (PDF), Can. Math. Soc. Notes, 33 (2 and 3).
-Pinto, J. Sousa (2004), Hoskins, R.F., ed., Infinitesimal methods for mathematical analysis, Horwood Publishing, p. 246, ISBN 978-1-898563-99-0.
-Poincare, Henri (1913), Halsted, Bruce, ed., The Foundations of Science, The Science Press, p. 435.
-Rota, Gian-Carlo (1977), "The phenomenology of mathematical beauty", Synthese, 111 (2): 171–182, doi:10.1023/A:1004930722234, ISSN 0039-7857.
-Shafarevich, Igor (1991), Kandall, G.A., ed., Algebraic Geometry, IV, Springer.
-Wiedijk, Freek, ed. (2006), The Seventeen Provers of the World, Birkhäuser, ISBN 3-540-30704-4.
-Retrieved from "https://en.wikipedia.org/w/index.php?title=List_of_mathematical_jargon&oldid=848542106"
-Categories:
-Mathematical terminology
-Glossaries of mathematics
-Hidden categories:
-Articles lacking in-text citations from April 2010
-All articles lacking in-text citations
-Articles lacking reliable references from April 2010
-All articles lacking reliable references
-Articles with multiple maintenance issues
-Navigation menu
-
-Personal tools
-
-Not logged in
-Talk
-Contributions
-Create account
-Log in
-Namespaces
-
-Article
-Talk
-
-Variants
-
-Views
-
-Read
-Edit
-View history
-
-More
-
-Search
-
-
-Navigation
-
-Main page
-Contents
-Featured content
-Current events
-Random article
-Donate to Wikipedia
-Wikipedia store
-Interaction
-
-Help
-About Wikipedia
-Community portal
-Recent changes
-Contact page
-Tools
-
-What links here
-Related changes
-Upload file
-Special pages
-Permanent link
-Page information
-Wikidata item
-Cite this page
-Print/export
-
-Create a book
-Download as PDF
-Printable version
-Languages
-
-Afrikaans
-Edit links
-This page was last edited on 2 July 2018, at 16:08 (UTC).
-Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
-Privacy policy
-About Wikipedia
-Disclaimers
-Contact Wikipedia
-Developers
-Cookie statement
-Mobile view
-
-
-** WATCHLATER Closing the Gap: the quest to understand prime numbers - Vicky Neale | University of Oxford Podcasts - Audio and Video Lectures
-:PROPERTIES:
-:ID:       4F639DD9-CEBA-4F69-9C15-57AFB88EE0FB
-:END:
-[2018-07-16 Mon 19:13]
-https://podcasts.ox.ac.uk/closing-gap-quest-understand-prime-numbers-vicky-neale
-
-
-
-** PODCAST Relatively Prime – Stories from the Mathematical Domain
-:PROPERTIES:
-:ID:       5C9E48BB-14DF-4E20-AFA5-7408C3A82822
-:END:
-[2018-07-16 Mon 19:19]
-https://relprime.com/
-
-** TODO Change color of WAITING keyword in org-mode settings
-:PROPERTIES:
-:DATE_ADDED: <2018-07-19 Thu 00:52>
-:ID:       5E2F6DFD-F141-4F5D-9AFA-DC1ADDF25BFE
-:END:
-
-** DONE Create ToDo Keyword for check with color code
-:PROPERTIES:
-:DATE_ADDED: <2018-07-19 Thu 00:52>
-:ID:       CD7CA1B4-731C-4AD8-99E4-2CFFD0D5FA45
-:COMPLETED: [2018-07-20 09:30]
-:END:
-
-** DONE Add HOLD keyword and color code
-:PROPERTIES:
-:DATE_ADDED: <2018-07-19 Thu 01:37>
-:ID:       1146C6BA-49C7-4E64-BEF1-9345CB15EF2E
-:COMPLETED: [2018-07-20 09:32]
-:END:
-
-
-** DEFINITION An advanced persistent threat is a set of stealthy and continuous computer hacking processes, often orchestrated by a person or persons targeting a specific entity. An APT usually targets either private organizations, states or both for business or political motives. APT processes require a high degree of covertness over a long period of time. The "advanced" process signifies sophisticated techniques using malware to exploit vulnerabilities in systems. The "persistent" process suggests that an external command and control system is continuously monitoring and extracting data from a specific target. The "threat" process indicates human involvement in orchestrating the attack.[1]
-:PROPERTIES:
-:ID:       58F02722-A81D-4393-9C68-231348076FF9
-:END:
-[2018-07-17 Tue 02:14]
-
-APT usually refers to a group, such as a government, with both the capability and the intent to target, persistently and effectively, a specific entity. The term is commonly used to refer to cyber threats, in particular that of Internet-enabled espionage using a variety of intelligence gathering techniques to access sensitive information,[2] but applies equally to other threats such as that of traditional espionage or attacks.[3] Other recognized attack vectors include infected media, supply chain compromise, and social engineering. The purpose of these attacks is to place custom malicious code on one or multiple computers for specific tasks and to remain undetected for the longest possible period. Knowing the attacker artifacts, such as file names, can help a professional make a network-wide search to gather all affected systems.[4] Individuals, such as an individual hacker, are not usually referred to as an APT, as they rarely have the resources to be both advanced and persistent even if they are intent on gaining access to, or attacking, a specific target.[5]
-
-
-
-
-** NOTE APT Terminology
-:PROPERTIES:
-:ID:       D6D6D7D7-28DA-45B2-9B33-06D441DF1C0F
-:END:
-[2018-07-17 Tue 03:57]
-Definitions of precisely what an APT is can vary, but can be summarized by their named requirements below:[3][5][22]
-
-Advanced – Operators behind the threat have a full spectrum of intelligence-gathering techniques at their disposal. These may include computer intrusion technologies and techniques, but also extend to conventional intelligence-gathering techniques such as telephone-interception technologies and satellite imaging. While individual components of the attack may not be classed as particularly "advanced" (e.g. malware components generated from commonly available do-it-yourself malware construction kits, or the use of easily procured exploit materials), their operators can typically access and develop more advanced tools as required. They often combine multiple targeting methods, tools, and techniques in order to reach and compromise their target and maintain access to it. Operators may also demonstrate a deliberate focus on operational security that differentiates them from "less advanced" threats.
-Persistent – Operators give priority to a specific task, rather than opportunistically seeking information for financial or other gain. This distinction implies that the attackers are guided by external entities. The targeting is conducted through continuous monitoring and interaction in order to achieve the defined objectives. It does not mean a barrage of constant attacks and malware updates. In fact, a "low-and-slow" approach is usually more successful. If the operator loses access to their target they usually will reattempt access, and most often, successfully. One of the operator's goals is to maintain long-term access to the target, in contrast to threats who only need access to execute a specific task.
-Threat – APTs are a threat because they have both capability and intent. APT attacks are executed by coordinated human actions, rather than by mindless and automated pieces of code. The operators have a specific objective and are skilled, motivated, organized and well funded.
-
-
-* NOTE Characteristics[edit]
-:PROPERTIES:
-:ID:       D24F67A5-78A1-4650-9FC9-5FB66411D9F3
-:END:
-[2018-07-17 Tue 02:15]
-
-Bodmer, Kilger, Carpenter and Jones defined the following APT criteria:[18]
-
-Objectives – The end goal of the threat, your adversary
-Timeliness – The time spent probing and accessing your system
-Resources – The level of knowledge and tools used in the event (skills and methods will weigh on this point)
-Risk tolerance – The extent the threat will go to in order to remain undetected
-Skills and methods – The tools and techniques used throughout the event
-Actions – The precise actions of a threat or numerous threats
-Attack origination points – The number of points where the event originated
-Numbers involved in the attack – How many internal and external systems were involved in the event, and how many people's systems have different influence/importance weights
-Knowledge source – The ability to discern any information regarding any of the specific threats through online information gathering (you might be surprised by what you can find by being a little proactive)
-
-
-*** NOTE Life Cycle
-:PROPERTIES:
-:ID:       FFC3EF3D-85A0-4BE5-9653-3CDD82ACE6F1
-:END:
-[2018-07-17 Tue 02:15]
-Actors behind advanced persistent threats create a growing and changing risk to organizations' financial assets, intellectual property, and reputation[19] by following a continuous process or kill chain:
-
-Target specific organizations for a singular objective
-Attempt to gain a foothold in the environment (common tactics include spear phishing emails)
-Use the compromised systems as access into the target network
-Deploy additional tools that help fulfill the attack objective
-Cover tracks to maintain access for future initiatives
-The global landscape of APTs from all sources is sometimes referred to in the singular as "the" APT, as are references to the actor behind a specific incident or series of incidents.[citation needed]
-
-In 2013, Mandiant presented results of their research on alleged Chinese attacks using APT methodology between 2004 and 2013[20] that followed similar lifecycle:
-
-Initial compromise – performed by use of social engineering and spear phishing, over email, using zero-day viruses. Another popular infection method was planting malware on a website that the victim's employees will be likely to visit.
-Establish Foothold – plant remote administration software in victim's network, create net backdoors and tunnels allowing stealth access to its infrastructure.
-Escalate privileges – use exploits and password cracking to acquire administrator privileges over victim's computer and possibly expand it to Windows domain administrator accounts.
-Internal reconnaissance – collect information on surrounding infrastructure, trust relationships, Windows domain structure.
-Move laterally – expand control to other workstations, servers and infrastructure elements and perform data harvesting on them.
-Maintain presence – ensure continued control over access channels and credentials acquired in previous steps.
-Complete mission – exfiltrate stolen data from victim's network.
-In incidents analysed by Mandiant, the average period over which the attackers controlled the victim's network was one year, with longest – almost five years.[20] The infiltrations were allegedly performed by Shanghai-based Unit 61398 of People's Liberation Army. Chinese officials have denied any involvement in these attacks.[21]
+* TODO jobs lake city fl - Google Search
+[2018-08-01 Wed 03:25]
+https://www.google.com/search?q=jobs+lake+city+fl&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari#fpstate=tldetail&htidocid=wBO0O0m_qYgzOJnOAAAAAA%3D%3D&htiq=jobs%20lake%20city%20fl&htivrt=jobs
 
+
+* READLATER Before You Terminate an Employee Make Sure that You Understand… | Expert Human Resources Consultants
+[2018-08-01 Wed 12:18]
+https://newfocushr.com/2012/07/23/before-you-terminate-an-employee-make-sure-that-you-understand/
+
+
+* CALL Our Offices - Pinnacle
+[2018-08-02 Thu 10:09]
+https://pinnacleliving.com/our-offices/
+
+
+* TODO Wonder NEW Sourcing Application
+[2018-08-02 Thu 16:05]
+https://askwonder.typeform.com/to/a9kYg7
+
+
+* TODO job descriptions
+[2018-08-02 Thu 16:06]
+https://drive.google.com/embeddedfolderview?id=0B8SnPo9iOXZWYjhqOFlyLU1QOGc#
+
+
+* TODO Administrative Assistant and Receptionist - Lake City, FL 32025 - Indeed.com
+[2018-08-02 Thu 16:10]
+https://www.indeed.com/m/viewjob?jk=7d75c2d76fbe2201&from=serp&prevUrl=https%3A%2F%2Fwww.indeed.com%2Fm%2Fjobs%3Fq%3DAll%26l%3DLake%2BCity%252C%2BFL%26matchtype%3Db%26network%3Dg%26device%3Dm%26devicemodel%3D%26creative%3D234933434555%26keyword%3D%26placement%3D%26param1%3D%26param2%3D%26random%3D16715279457069170447%26aceid%3D%26adposition%3D1t1%26gclid%3DCjwKCAjw14rbBRB3EiwAKeoG_w9OZY6ZABueThNZIbggw9LB__jdA7fhDoYqUZFnB6NikfR4o-KF5RoCWSwQAvD_BwE
+
+
+* WATCHLATER B. Sanders War on Terror
+[2018-08-02 Thu 19:21]
+https://www.youtube.com/watch?v=G7NP6rtIdZg&feature=share
+
+
+* TODO jobs lake city fl - Google Search
+[2018-08-03 Fri 15:52]
+https://www.google.com/search?q=jobs+lake+city+fl&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari#fpstate=tldetail&htichips=date_posted:3days&htidocid=GMTW7_YHpf9pO6x-AAAAAA%3D%3D&htiq=jobs%20lake%20city%20fl&htischips=date_posted;3days&htivrt=jobs
+
+
+* READLATER Ten Habits of Incompetent Managers
+[2018-08-04 Sat 00:25]
+https://www.google.com/amp/s/amp.fastcompany.com/919287/ten-habits-incompetent-managers
+
+
+* READLATER Doolin hotel manager's magnificent response to a bad review on TripAdvisor | JOE.ie
+[2018-08-04 Sat 00:48]
+https://www.google.com/amp/s/www.joe.ie/amp/life-style/doolin-hotel-manager-bad-review-tripadvisor-595968
+
+
+* READLATER Ten Reasons Good Employees Get Fired
+[2018-08-04 Sat 01:18]
+https://www.google.com/amp/s/www.forbes.com/sites/lizryan/2017/11/02/ten-reasons-good-employees-get-fired/amp/
+
+
+* TODO We’re Retiring The ‘Buffer Bootcamp’ Period For New Teammates – Here’s Why
+[2018-08-04 Sat 06:22]
+https://open.buffer.com/45-day-period/
+newspeak
+
+
+* READLATER Life lessons from differential equations
+[2018-08-04 Sat 15:34]
+https://www.johndcook.com/blog/2015/07/23/life-lessons-from-differential-equations/
+
+
+* BUY Bond Bodysuit – Thistle & Spire
+[2018-08-05 Sun 11:55]
+https://www.thistleandspire.com/collections/bodysuits/products/bond-bodysuit
+
+
+* BUY Amazon.com: RABBITGOO 3D No Glue Static Decorative Films Glass Window Film Anti UV 17.7" X 78.7" (45 X 200cm): Home & Kitchen
+[2018-08-05 Sun 12:43]
+https://www.amazon.com/dp/B01N20YR6B?tag=bfrebecca-20&ascsubtag=4875771%2C8%2C30%2Cmobile_web%2C0%2C0&th=1
+
+
+* READLATER The Truth About an Indoor Lemon Tree (Hint: It Belongs Outdoors)
+[2018-08-08 Wed 10:14]
+https://www.google.com/amp/s/www.gardenista.com/posts/5-secrets-tips-grow-indoor-lemon-tree/amp/
+
+
+* READLATER How To Style Your Dresser | west elm
+[2018-08-08 Wed 13:03]
+https://www.westelm.com/m/pages/ideas-and-advice/style-your-dresser/
+
+
+* READLATER How To Grow Water Lilies In Glasses - Gardaholic.net
+[2018-08-16 Thu 17:25]
+http://gardaholic.net/2016/07/14/how-to-grow-water-lilies-in-glasses/
+
+
+* READLATER Mosses of Florida
+[2018-08-16 Thu 20:28]
+http://ufdc.ufl.edu/UF00101160/00001/uf00101160/00001/uf00101160/00001/print?options=1JJ*
+
+
+* CLIP We’re bound to be truthful,’ she said.  ‘But there’s no call to be honest.'  (WS)
+[2018-08-16 Thu 22:47]
+Granny Weatherwax
+
+
+* CLIP Granny Weatherwax was often angry.  She considered it one of her strong points.  Genuine anger is one of the world’s great creative forces.  But you had to learn how to control it.  That didn’t mean you let it trickle away.  It meant you dammed it, carefully, let it develop a working head, let it drown whole valleys of the mind and then, just when the whole structure was about to collapse, opened a tiny pipeline at the base and let the iron-hard steam of wrath power the turbines of revenge.  (WS)
+[2018-08-16 Thu 22:49]
+
+
+* CLIP When you break rules, break ‘em good and hard
+[2018-08-16 Thu 22:49]
+
+
+* CLIP 'You’d have to go a long day’s journey to find someone basically nastier than Esme,’ said Nanny Ogg, ‘and this is me sayin’ it.  She knows exactly what she is.  She was born to be good and she don’t like it.'  (WA)
+[2018-08-16 Thu 23:01]
+
+
+* CLIP 'What don't die can't live. What don't live can't change. What don't change can't learn.' (LL)
+[2018-08-16 Thu 23:03]
+
+
+* CLIP 'I had to learn.  All my life.  The hard way.  And the hard way’s pretty hard, but not so hard as the easy way.'  (LL)
+[2018-08-16 Thu 23:03]
+
+
+* CLIP She was a good witch.  That was her role in life.  That was the burden she had to bear.  Good and Evil were quite superfluous when you’d grown up with a highly developed sense of Right and Wrong.  (Ma)
+[2018-08-16 Thu 23:06]
+
+
+* CLIP '... if you do know Right from Wrong you can't choose Wrong. You just can't do it and live.' (Ma)
+[2018-08-16 Thu 23:16]
+
+
+* CLIP them as makes the endings don't get them...' (Ma)
+[2018-08-16 Thu 23:17]
+
+
+* READLATER Bioreactor - Wikipedia
+[2018-08-18 Sat 21:50]
+https://en.m.wikipedia.org/wiki/Bioreactor
+
+
+* READLATER Cryptology ePrint Archive: Report 2018/749
+[2018-08-19 Sun 06:15]
+https://eprint.iacr.org/2018/749
+
+
+* READLATER Challenge Problems: Independent Sets in Graphs
+[2018-08-19 Sun 07:45]
+https://oeis.org/A265032/a265032.html
+
+
+* TODO https://www.youtube.com/watch?v=eAD8QzY-6a0&feature=share
+[2018-08-24 Fri 03:33]
+
+
+* READLATER MicroEssay: The Future of Global English (400 Years in the Future) - The Global Language Monitor
+[2018-08-27 Mon 10:50]
+https://www.languagemonitor.com/
+
+
+* READLATER Financial Buzz Words Terms | Investopedia
+[2018-08-27 Mon 10:50]
+https://www.investopedia.com/categories/buzzwords.asp
+
+
+* IDEA Mark Montano: Cardboard Tile Ikea Hack
+[2018-08-27 Mon 19:49]
+http://www.markmontano.com/2017/08/cardboard-tile-ikea-hack.html?m=1
+
+
+* TODO Calcium Carbonate - Ultra Fine Chalk Powder
+[2018-08-29 Wed 13:08]
+https://www.kuuronline.xyz/other-paint-varnish-c-2501_2951_2952_2953_2954_2955/calcium-carbonate-ultra-fine-chalk-powder-p-12520.html&language=en
+
+
+* READLATER How to Hack WiFi Password Easily Using New Attack On WPA/WPA2
+[2018-09-01 Sat 00:18]
+https://www.google.com/amp/s/thehackernews.com/2018/08/how-to-hack-wifi-password.html%3famp=1
+
+
+* TODO College Scholarships for ADHD and LD Students
+[2018-09-01 Sat 17:56]
+https://www.additudemag.com/scholarships-for-adhd-and-ld-students/
+
+
+* TODO Scholarships - DRC
+[2018-09-01 Sat 17:58]
+https://drc.dso.ufl.edu/students/scholarships/
+
+
+* READLATER First Step to Become Data Scientist - Data Science Central
+[2018-09-03 Mon 13:25]
+https://www.datasciencecentral.com/profiles/blogs/first-step-to-become-data-scientist
+
+
+* READLATER Recreational Maths in Python - Alan Zucconi
+[2018-09-13 Thu 13:49]
+https://www.alanzucconi.com/2015/11/03/recreational-maths-python/
+
+
+* READLATER August 2018
+[2018-09-14 Fri 00:13]
+
+Thank you for enrolling in my free newsletter. Each month, I discuss recent updates about Internet Search (OSINT), Digital Privacy, and Online Security. There is something new for everyone in this month's edition.
+Make Your Amazon Account More Secure & Private
+
+I am not sure how I would get by without Amazon today. I generally make a purchase at least once a week, and all of my shipments go to a secure Amazon Locker in whatever town I happen to be in. This convenience can quickly turn into a privacy nightmare if you allow specific information to remain public. I encourage all Amazon customers to make the following three changes to their account(s).
+
+1) Remove your Amazon public profile
+
+Your Amazon profile is created automatically, whether you want it or not, and it contains comments, ratings, public Wish Lists, biographical information, and other site interaction. This profile doesn’t include your purchases or your browsing history, but it’s very informative. If you want to control what activity is visible on your public profile, do the following:
+
+Put your cursor on the “Account & Lists,” button and then click on “Your Account”
+
+Scroll down to the “Ordering and shopping preferences” section. Click the “Profile” link above the social media preferences link
+
+Click on the link in the orange box to the right that says, “Edit your profile”
+
+Click the “Edit privacy settings” tab
+
+Select “Hide all activity on your profile”
+
+If your profile is showing your real name, or other biographical information you don’t want, go back to the profile settings page and click the Edit profile tab. You can edit or delete any information like your Bio, Occupation, Location, and more. You can even change the “public name” on your profile and post reviews anonymously.
+
+2) Make your lists private
+
+There are two main “lists” on Amazon; the Shopping List, and the Wish List. Many people use their Wish Lists for gift ideas, but we often use Wish Lists as a log of items we don’t want to forget. The trouble is, anyone in the world can find your Wish List by searching your name. To check the privacy settings of your Amazon Lists, do the following:
+
+Click on the “Accounts & Lists” drop-down box then select “Shopping List” or “Wish List”
+
+On this “Your Lists” page, click on three dots (next to “Share List”) then select “Manage List”
+
+Change your list details like your list name, the name of the recipient, email, and birthday
+
+Change the list’s privacy by clicking on it and selecting “Private” on the drop-down box
+
+3) Stop Amazon from tracking your browsing
+
+Amazon tracks all your browsing activity by default. The company saves your searches, including items you recently viewed and product categories you browsed. All of this information helps Amazon create targeted ads. Although your browsing history is hidden from the public, you may find this habit unsettling. To stop Amazon from tracking your browsing activity, do the following:
+
+On the upper menu, click on “Your Browsing History”
+
+On the next page, click on the “Manage history” drop-down arrow
+
+Toggle “Turn Browsing History on/off” to Off
+
+Clear your entire browsing history here by clicking the “Remove all items” button
+
+Return to “Your Account” page
+
+Under “Email alerts, messages, and ads,” click “Advertising preferences”
+
+On this page, select “Do Not Personalize Ads from Amazon for this Internet Browser”
+
+Hit “Submit”
+Amazon is an amazingly convenient purchasing option. Like most merchants, they want your private data in order to sell you more product. These simple steps give you a bit more control of how they use your details. This list does not cover privacy considerations when using an Amazon Alexa, but my gut says that anyone concerned with privacy from Amazon would not possess a listening device such as the Alexa inside their home.
+
+Firefox Tool: Download Star
+
+Prior to Firefox version 57, I relied heavily on the DownThemAll extension for bulk downloads of files, images, or embedded data. This extension is no longer supported, and will not work within fully updated versions of Firefox. While I could switch to Firefox ESR (Extended Support Release), that is only a temporary bandage to the problem. Instead, I now use Download Star for bulk downloads, which is available here:
+
+https://addons.mozilla.org/en-US/firefox/addon/download-star/
+
+This extension adds a small white icon in the upper right of Firefox. Clicking it executes a new window with numerous options. I will begin with a quick demo of my own home page. The following image displays my selection of “Images” and the default download folder on my Mac of ~/user/Downloads/images. This can be modified to any folder you desire. The “12” indicates that all twelve images on this page will be downloaded, and you can toggle off any images you want to skip. Once you see the desired files for download, click the small down arrow next to the “12” in the upper right. This will download all of these images.
+
+
+
+In another scenario, I conducted a search of “OSINT” intitle:index.of in order to find an open directory containing files titled OSINT. This led me to https://cyberwar.nl/d/ which contains hundreds of PDF, PNG, and other file types. In the image below, you can see that I deselected the embedded images button (lower left), selected the links option (lower left), and selected the Document filter (upper middle). This immediately notified me that 559 documents are ready for download. In the image, you can see a “greyed” jpg that will not be downloaded, but green pdf files which will be retrieved. I could have selected all filters in order to download everything from this page.
+
+
+
+You can also filter by terms. In my investigations, this tools allows immediate download of hundreds of files at once. I have used it for open directories of videos, documents, and audio files. It could also be used to download images from large social media profiles. Overall, this tool is a vital companion to the embedded Firefox Screen Capture Tool.
+
+Firefox Tool: Screen Capture
+
+During my Live and Online OSINT Training Courses, I stress the importance of documentation during an online investigation. Over the years, I have demonstrated free screen capture tools such as Fireshot and Nimbus, and premium (much better) options such as Hunchly. While Hunchly is my preferred overall evidence capture tool, it currently only works in Chrome, which I try to avoid for privacy reasons. I prefer Firefox for all investigations and personal use due to the better privacy control and availability of their Containers Extension. Recent updates to Firefox introduced a native screen capture tool, which has been flawless for my investigations.
+
+Directly to the right of the address bar in Firefox is three horizontal dots. Clicking this reveals a menu with an option to “Take a Screenshot”. Selecting this option activates the screen capture utility allowing you to select a single portion of the page, the entire page, or the visible portion of the page. In the image below, I have hovered over the title portion of this blog post with the full options visible to the right.
+
+
+
+In almost every investigation, I simply choose the “Save Full Page” option and archive the result. The quality is good, but not superb. The result is a png graphic file, and I would prefer a pdf. However, the free tool gets the job done without installing additional extensions. Since I try to keep my Firefox add-ons to a minimum, I am using the feature much more heavily than Fireshot. However, I do not receive some of the Fireshot benefits such as custom file naming and archive type (pdf). Fireshot has had its own limitations, especially when capturing large Facebook and Twitter pages. The built-in Firefox screen capture has handled large social media pages with ease. I have yet to find a dynamic page that it could not capture.
+
+The Firefox screen caprture tool is embedded into every updated Firefox install. I encourage readers to test and be antiquated with the options. My rule for online investigations is “If you do not document your findings, they never existed”.
+
+Enable Universal 2nd Factor (U2F) in Firefox
+
+During my Cyber Keynotes, I heavily preach the need for two-factor authentication (2FA), preferably with a Yubikey device. I have even been known to carry a few sealed units as giveaways when someone shows interest. This small USB device is required in order to access any of my accounts that support it. A username and password is not enough. This technology is the primary reason that Google has not had any of their employee’s accounts phished since 2017 (LINK). Until recently, the Chrome browser was required in order to use Yubikeys with some services, especially Google, Facebook, and Dropbox. While Firefox cannot log into a Yubikey protected Google account by default, we can make a small modification in order to allow it to function. The following steps will activate Universal 2nd Factor (U2F) within Firefox.
+
+In the address bar, enter about:config
+
+Agree to any warnings
+
+In the search field, type security.webauth.u2f
+
+Double click the entry to change to “True”
+
+You can now navigate to GMail and other U2F optional services and use your Yubikey as you would in Chrome.
+
+Privacy & Security Podcast
+
+We have released the next episodes of our podcast about digital privacy and security. They are all available at https://inteltechniques.com/podcast.html. You can also subscribe through iTunes, Google, and Stitcher from this site. Below are the playable show links.
+
+086-This Week In Privacy
+087-Staying Private/Secure at Blackhat/Defcon
+
+Online Training Video Updates
+
+Members of my Online Video Training Courses receive video and software updates every month. The updates for this month are now live and include the following.
+
+OSINT: Documentation Techniques: This month, we are excited to bring you 3 new guest posts from Jon Engstrom. Jon has been teaching our live OSINT courses, and presents a unique perspective from his investigations. This first video explicitly demonstrates Jon's documentation techniques during his OSINT investigations. This video replaces an outdated documentation video that demonstrated tools which are no longer updated. In this video, you will learn techniques for documenting and archiving your online investigations.
+
+OSINT: Criminal Markets I: This video is the first of a two part series about online criminal marketplaces. In this video, you will learn investigation techniques associated with web forums related to criminal activity. These forums possess a unique challenge in that the majority of the participants remain as anonymous as possible. Jon will demonstrate techniques for uncovering true identities of the criminals that hide behind these "anonymous" marketplaces.
+
+OSINT: Criminal Markets II: This video is the second and final segment of the criminal markets instruction. Jon continues to demonstrate his investigation techniques into the criminals that hide behind anonymous connections in order to commit their crimes online. These two videos cover numerous facets of criminal markets, including credit card forums, database leak forums, and drug marketplaces.
+Additional Resources
+
+I sincerely thank you for your interest in my monthly newsletters. Internet search techniques, online privacy, and digital security are my passions. I am honored that so many of you have enrolled in these mailings. I also offer the following resources which may be of interest:
+ 
+OSINT & Privacy Forum (https://inteltechniques.com/forum.html): A completely free community of internet search and digital privacy enthusiasts. Register for a free account and view over 15,000 posts, or start your own topic.
+ 
+Internet Search Tool (https://inteltechniques.com/menu.html): I update my free all-in-one search tool every week. It now includes over 400 external resources and 20 custom search tools for all popular networks.
+ 
+Buscador Linux OSINT Operating System (https://inteltechniques.com/buscador): This free Virtual Machine is a complete Linux operating system that is pre-configured for online investigators. It is appropriate for those completely new to Linux as well as advanced users. It provides a safe investigation environment as well as dozens of point & click OSINT tools.
+
+Online Information Removal Workbook (https://inteltechniques.com/data/workbook.pdf): This workbook originated in my book Hiding from the Internet, and is now updated weekly in digital form. It identifies the proper opt-out procedures for removing your personal data from online websites.
+ 
+Online OSINT Video Training (https://inteltechniques.com/training/): I now have over 60 hours of HD video that provides detailed instruction of my Open Source Intelligence (OSINT) training program. New videos are added every month. Newsletter recipients continue to receive a 25% discount HERE.
+ 
+Online Privacy Video Training (https://inteltechniques.com/training/): I now have 20 hours of HD video that provides detailed instruction of my entire privacy and security training program. Combine the Privacy training with the OSINT training for the best deal.
+ 
+Free Android Video Demo (https://inteltechniques.com/demo-fb.html): I now offer the first of the three Android Emulation videos as a free demo. This important technique should assist with setting up your own virtual Android device on your computer.
+ 
+Credit Freeze Tutorial (https://computercrimeinfo.com/credit.freeze.pdf): This PDF is extracted from one of my books. It explains in great detail how to execute a credit freeze, which is vital to stop identity theft.
+ 
+Privacy Links (https://inteltechniques.com/links.hiding.html): I share all of the links from my latest book Hiding from the Internet through my website. I believe that these links could benefit those that do not wish to purchase the book. It will also provide convenience for those working through the guide.
+Privacy Related Gifts (https://inteltechniques.com/gift/): I maintain an updated list of privacy related gifts for others (or yourself) here.
+
+Monthly Newsletter
+by Michael Bazzell
+P.O. Box 70400 Washington, DC 20559 USA 
+Sent to kristimshort@icloud.com
+Unsubscribe
+Delivered by 
+
+
+
+
+
+* READLATER Pictures from the OEIS
+[2018-09-14 Fri 11:37]
+https://oeis.org/OEIS_pics.html
+
+
+* TODO internet research jobs - Google Search
+[2018-09-17 Mon 03:40]
+https://www.google.com/search?q=internet+research+jobs&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari#fpstate=tldetail&htidocid=0c99gMKC20E2JtHeAAAAAA%3D%3D&htiq=internet%20research%20jobs&htivrt=jobs
+
+
+* READLATER Unintended Consequences of US Immigration Policy: Explaining the Post-1965 Surge from Latin America
+[2018-09-17 Mon 10:35]
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3407978/#!po=67.4051
+
+
+* TODO FOL Sale Dates Page
+[2018-09-17 Mon 11:03]
+http://folacld.org/n_sale_dates.html
+
+
+* TODO Search | arXiv e-print repository
+[2018-09-17 Mon 11:03]
+https://arxiv.org/search/?searchtype=author&query=Steve+Butler
+
+
+* READLATER Wikiversity School of Law
+[2018-09-21 Fri 20:27]
+https://en.wikiversity.org/wiki/School:Law
+
+
+* TOOL OSINT Tools - SOCMINT / Dark Web / Darknet / TOR | Tomoko Discovery
+[2018-09-23 Sun 06:34]
+https://tomokodiscovery.com/free-tools-osint-socmint-dark-web-darknet-tor-bitcoin/
+
+
+* COMMENT TMW the person who brown noses at work and treats you like you're a lower life form gets a guest complaint for being rude.
+[2018-09-23 Sun 09:22]
+
+
+* WATCHLATER Numberpile idea for triangle centers
+[2018-09-23 Sun 11:04]
+https://www.youtube.com/watch?v=2vnqSwWAn34&feature=share
+
+
+* WATCHLATER theorem for descartes
+[2018-09-23 Sun 11:09]
+https://www.youtube.com/watch?v=sG_6nlMZ8f4&feature=share
+
+
+* WATCHLATER triangle centers
+[2018-09-23 Sun 11:13]
+https://www.youtube.com/watch?v=p7oGGSwUFwM&feature=share
+
+
+* WATCHLATER triangles
+[2018-09-23 Sun 11:14]
+https://www.youtube.com/watch?v=wVH4MS6v23U&feature=share
+
+
+* READLATER fraxen/tectonicplates
+[2018-09-25 Tue 17:46]
+https://github.com/fraxen/tectonicplates
+
+
+* COMMENT Justice cannot be found in a society where education only contains that which is necessary for basic life.
+[2018-09-29 Sat 06:10]
+To anyone who would say "why do i have to learn this when will I ever use it" a disservice is done when you agree never. Much of which is learned is not actively used but passively without knowing one has used it.
+
+Words have meaning, even if the current usage does not overtly imply that meaning it remains. 
+
+Why does the term "nice guy" bother us in some way. Because unconsciously we understand the original meaning of "nice", and it is not a very good thing. We understand because of what we learned that was not explicitly stated, as we understand most things, through context.
+
+We more often do not know all we've learned and we never know all we've taught.
+
+
+* COMMENT The error is on our understanding of the meaning of basic words or misunderstanding
+[2018-09-29 Sat 06:33]
+we imply meaning where none exists, apply meaning incorrectly, or state no meaning where many aggregate. 
+
+
+* COMMENT What are we telling a child when we answer "when will I ever use this?"
+[2018-09-29 Sat 06:35]
+How are we failing them and ourselves when we say "never"?
+
+Ww might never know what we've lost by allowing such a statement to become commonplace 
+
+
+* COMMENT It can never be sufficient to only consider economics when asking who is fit for parenthood for many reasons but a basic one is that to be a parent is to be a teacher
+[2018-09-29 Sat 06:41]
+we send our children to school to learn what we cannot teach them explicitly. That is why a basic education has not explicitly included how to balance a banking account, that is implied in teaching maths. If you want your child to explicitly know a particular application then teach it to them, or encourage them to apply what they've been taught outside of school.
+Parenting requires teaching which requires learning while teaching . 
 

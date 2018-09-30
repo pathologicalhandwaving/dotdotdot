@@ -21,11 +21,16 @@
 (set-register ?t '(file . exile-tasks-file))
 
 
+;; TEMP Directory
+(defvar cloud-temp-directory)
+(setq cloud-temp-directory "/Users/Em/Documents/Dropbox/TMP/")
+
+
 ;;; Diary
 
 ;; Running Journal File
 (defvar journal-runner)
-(setq runner "/Users/Em/Documents/Dropbox/Diary/runner.org")
+(setq journal-runner "/Users/Em/Documents/Dropbox/Diary/runner.org")
 
 ;; Therapy File
 (defvar journal-therapy)
@@ -74,19 +79,10 @@
 (defvar exile-orders-file)
 (setq exile-orders-file "/Users/Em/Documents/Dropbox/Exile/online-orders.org")
 
-;; Quotes
-;;(defvar exile-quotes-file)
-;;(setq exile-quotes-file "/Users/Em/Documents/Dropbox/Library-Annex/quotes.org")
+;; Tutorials List
+(defvar exile-tutorials-file)
+(setq exile-tutorials-file "/Users/Em/Documents/Dropbox/Exile/tutorials.org")
 
-;; Tasks
-(defvar exile-tasks-file)
-(setq exile-tasks-file "/Users/Em/Documents/Dropbox/Exile/tasks.org")
-
-
-
-;; Communications Log
-(defvar exile-comm-log-file)
-(setq exile-comm-log-file "/Users/Em/Documents/Dropbox/Exile/communications-log.org")
 
 
 ;;; Captain
@@ -95,8 +91,41 @@
 (defvar captain-files-dir)
 (setq captain-files-dir "/Users/Em/Documents/Dropbox/Diary/JournalEntries/")
 
+
+;;; HomeBase Files
+
+;; HomeBase Directory
+(defvar homebase-dir)
+(setq homebase-dir "/Users/Em/Documents/Dropbox/HomeBase/")
+
+;; HomeBase Apartment Directory
+(defvar homebase-apt-dir)
+(setq homebase-apt-dir "/Users/Em/Documents/Dropbox/Homebase/Apartment/")
+
+;; HomeBase DIY Directory
+(defvar homebase-diy-dir)
+(setq homebase-diy-dir "/Users/Em/Documents/Dropbox/HomeBase/Apartment/DIY/")
+
+;; HomeBase Issues File
+(defvar homebase-issues-file)
+(setq homebase-issues-file "/Users/Em/Documents/Dropbox/HomeBase/Apartment/homebase-issues.org")
+
+;; HomeBase Projects File
+(defvar homebase-projects-file)
+(setq homebase-projects-file "/Users/Em/Documents/Dropbox/HomeBase/Apartment/DIY/projects-index.org")
+
+;; HomeBase Supplies File
+(defvar homebase-supplies-list)
+(setq homebase-supplies-list "/Users/Em/Documents/Dropbox/HomeBase/Apartment/apartment-supplies.org")
+
+
 ;;; WerX Files
 
+;; Job Search File
+(defvar werx-jobs)
+(setq werx-jobs "/Users/Em/Documents/Dropbox/Werx/JobSearch/jobs.org")
+
+;; DEPRECATED
 ;; WerX Dir
 (defvar werx-dir)
 (setq werx-dir "/Users/Em/Documents/Dropbox/Werx/")
@@ -160,6 +189,16 @@
 (setq labbot-projects-dir "/Volumes/JumpShip/Lab/Projects")
 
 
+;;; Ocean
+
+;; DigitalOcean Server Settings
+(defvar ocean-default-file)
+(setq ocean-default-file "/Users/Em/Documents/Dropbox/Ocean/droplets.org")
+
+;; Ocean Log
+(defvar ocean-log-file)
+(setq ocean-log-file "/Users/Em/Documents/Dropbox/Ocean/ocean-log.org")
+
 
 ;;; Library-Annex
 
@@ -182,6 +221,10 @@
 ;; Scraped Dir
 (defvar library-annex-scraped-dir)
 (setq library-annex-scraped-dir "/Users/Em/Documents/Dropbox/Library-Annex/Scraped/")
+
+;; Cloud BibTeX Database
+(defvar cloud-bibtex-db)
+(setq cloud-bibtex-db "/Users/Em/Documents/Dropbox/Library-Annex/cloud-bibtex-db.bib")
 
 
 ;; Helm-Books

@@ -34,7 +34,7 @@ alias sbp="source /Users/Em/.bash_profile"
 alias pur="sudo purge"
 
 # Homebrew
-alias bup="brew update && brew upgrade && brew cleanup"
+alias bup="brew update; brew upgrade; brew install; brew prune; brew cleanup; brew doctor; echo='Finished Homebrew Pulls and Installs!\n Run any postinstalls manually!'"
 
 # ls is color-ls
 alias ls="color-ls"
@@ -89,7 +89,7 @@ alias clock="tty-clock -c -b -B -n -C 5 -t"
 alias stopwatch='echo "Time Started! CTRL-D to Stop" && date && time cat && date'
 
 # commandlinefu
-alias fu="python /Users/Em/Toolz/fu/fu"
+alias fu="python /usr/local/bin/fu"
 
 
 alias ia="bash /Users/Em/.dict/ia"
@@ -108,7 +108,7 @@ alias findhere="find . name"
 # Addone
 #alias addone="bash /Users/Em/.myscripts/addone.sh && it2attention fireworks"
 # Logbook
-alias log="bash /Users/Em/.myscripts/logbook.sh && it2attention fireworks"
+#alias log="bash /Users/Em/.myscripts/logbook.sh && it2attention fireworks"
 
 # Play Slave
 alias slave="afplay /Users/Em/Music/wav/slave.wav"

@@ -5,24 +5,29 @@
 
 (setq org-todo-keywords
   '((sequence "TODO(t)"
-      "NEXT(n)"
-      "INPROGRESS"
-      "WAITING"
-      "HOLD"
-      "|"
-      "DONE")
-    (type "PURGATORY"
-          "|"
-          "ACTIVE")
+              "NEXT"
+              "AFTER"
+              "INPROGRESS"
+              "WAITING"
+              "HOLD"
+              "|"
+              "CANCELLED"
+              "DONE")
+    (sequence "PURGATORY"
+              "|"
+              "CANCELLED"
+              "DONE")
     (type "CLIP"
           "REFILE"
           "NEW_FILE"
+          "FILE"
           "|"
-          "DONE")
+          "FILED")
     (type "EVENT(e)"
           "MEETING"
           "APPOINTMENT"
           "SCHEDULE"
+          "ERRAND"
           "|"
           "DONE")
     (sequence "READLATER(r)"
@@ -42,6 +47,8 @@
           "|"
           "DONE(d)")
     (type "Captain's Log"
+          "JOURNAL"
+          "DIARY"
           "|"
           "ARCHIVED")
     (type "LIST"
@@ -54,6 +61,8 @@
     (type "CLIP"
           "QUOTE"
           "SCRAPED"
+          "NOTE"
+          "ANNOTATION"
           "|"
           "ARCHIVED")
     (type "RECORD"
@@ -62,12 +71,22 @@
           "BEHAVIOR_RECORD"
           "|"
           "LOGGED")
+    (type "NOTE(n)"
+          "CLIP"
+          "BOOK"
+          "BOOK_MEMO"
+          "|"
+          "LOGGED")
+    (sequence "INSPECT"
+              "|"
+              "INSPECTED"
+              "LOGGED")
     (sequence "LOOKUPLATER(l)"
               "|"
-              "DONE(d)")
+              "LOGGED")
     (sequence "NOTE(n)"
               "|"
-              "DONE(d)")
+              "LOGGED")
     (sequence "VOICEMEMO(v)"
               "TRANSCRIBE"
               "|"
@@ -81,6 +100,9 @@
               "|"
               "DONE(d)")
     (sequence "DEFINITION"
+              "THEOREM"
+              "LAW"
+              "UNIT"
               "|"
               "LOGGED")
     (type "CLIP"
@@ -90,6 +112,9 @@
           "BUG"
           "|"
           "REPORTED")
+    (sequence "FIXME"
+              "|"
+              "FIXED")
     (type "REPO"
           "PULL"
           "PUSH"
@@ -102,12 +127,13 @@
               "DONE")
     (type "PACKAGE"
           "TOOL"
+          "SETTING"
           "|"
           "LOGGED")
     (type "ACCOUNT"
           "|"
           "LOGGED")
-    (type "INCOME(c)"
+    (type "INCOME"
           "EXPENSE"
           "GIFT"
           "TAX"
@@ -122,13 +148,37 @@
           "PURCHASE"
           "BUY"
           "|"
-          "LOGGED")
+          "PAID")
     (sequence "REFILE"
               "|"
               "REFILED")
+    (type "HomeBase(h)"
+          "APARTMENT"
+          "FIXME"
+          "CLEAN"
+          "TRASH"
+          "GET"
+          "|"
+          "DONE")
+    (type "LabBot"
+          "SEQUENCE"
+          "PROTOCOL"
+          "METHOD"
+          "ARGUMENT"
+          "HYPOTHESIS"
+          "PROCEDURE"
+          "COMPONENT"
+          "|"
+          "LOGGED")
+    (sequence "HABIT"
+              "REPEAT"
+              "|"
+              "LOGGED")
     (type "Exile"
           "AudioBot"
+          "AutoBot"
           "LibrarianBot"
+          "HomeBase"
           "Monopoly"
           "Ship"
           "LabBot"

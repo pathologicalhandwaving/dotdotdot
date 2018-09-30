@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Cash Log"
+(("Apartment Inventory"
+ (filename . "~/Documents/Dropbox/HomeBase/Apartment/Inventory-Condition-Form.org")
+ (front-context-string . "\n:PROPERTIES:\n:I")
+ (rear-context-string . ":END:\n\n*** Walls")
+ (position . 979))
+("Inbox"
+ (filename . "~/Documents/Dropbox/Exile/inbox.org")
+ (front-context-string . "#+TITLE: Inbox\n#")
+ (rear-context-string)
+ (position . 1))
+("Cash Log"
  (filename . "~/Documents/Dropbox/Werx/WerX-Cash.org")
  (front-context-string . "\n|     Pay Outs ")
  (rear-context-string . "   |           |")
@@ -23,15 +33,15 @@
  (rear-context-string . "18-06-27\n:END:\n\n")
  (position . 230))
 ("org-refile-last-stored"
- (filename . "~/Documents/Dropbox/Library-Annex/readlater.org")
- (front-context-string . "** READLATER Thi")
- (rear-context-string . "nt-checklist/\n\n\n")
- (position . 16943))
+ (filename . "~/Documents/Dropbox/Exile/comments-withheld.org")
+ (front-context-string . "** COMMENT TMW t")
+ (rear-context-string . "we've taught.\n\n\n")
+ (position . 4480))
 ("org-capture-last-stored"
- (filename . "~/Documents/Dropbox/Exile/tasks.org")
- (front-context-string . "** TODO Add HOLD")
- (rear-context-string . "D0D5FA45\n:END:\n\n")
- (position . 52977))
+ (filename . "~/Documents/Dropbox/Exile/inbox.org")
+ (front-context-string . "** TODO  Add EVE")
+ (rear-context-string . "23C6600E\n:END:\n\n")
+ (position . 6080))
 ("TeXBot Index"
  (filename . "~/Documents/Dropbox/TeXBot/texbot-index.org")
  (front-context-string)

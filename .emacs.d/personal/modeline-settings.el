@@ -9,7 +9,7 @@
       telephone-line-secondary-left-separator 'telephone-line-cubed-hollow-left
       telephone-line-primary-right-separator 'telephone-line-cubed-right
       telephone-line-secondary-right-separator 'telephone-line-cubed-hollow-right)
-(setq telephone-line-height 13)
+(setq telephone-line-height 24)
 
 
 
@@ -19,9 +19,10 @@
 (telephone-line-mode 1)
 
 ;;; Provide
-                                                                                          (provide 'modeline-settings)
-                                                                                          (message "Modeline Settings Loaded!")
-                                                                                          ;;; modeline-settings.el ends here
+
+(provide 'modeline-settings)
+(message "Modeline Settings Loaded!")
+;;; modeline-settings.el ends here
 
 
 

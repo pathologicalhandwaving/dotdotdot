@@ -1,2 +1,0 @@
-;;; refile-settings.org
-(require 'org)

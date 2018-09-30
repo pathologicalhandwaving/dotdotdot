@@ -1,0 +1,302 @@
+#+TITLE: Default Notes
+#+CATEGORY: Exile
+#+SUB_CATEGORY: Notes
+#+STARTUP: latexpreview
+
+* Notes
+ :PROPERTIES:
+ :CUSTOM_ID: exile-default-notes
+ :ID:       5DFE5341-7AC9-476F-9E6F-6466EB659223
+ :END:
+
+
+** NOTE When you use a service that is given to you for free, don't think that because you are a user you are the customer; the two are not the same.
+:PROPERTIES:
+:ID:       CA17AC6B-14F8-4CC1-82DD-F5C0CF4ADBF1
+:END:
+
+** DONE Surprise Microexpression ::                        :MICROEXPRESSION:
+:PROPERTIES:
+:ID:       B593FED8-5CC3-4D89-8DA1-901D71E915DA
+:REFILED: <2018-07-03 Tue 17:05>
+:END:
+[2018-06-28 Thu 21:01]
+  - The brows are raised and curved
+  - Skin below the brow is stretched
+  - Horizontal wrinkles across the forehead
+  - Eyelids are opened, white of the eye showing above and below
+  - Jaw drops open and teeth are parted but there is not tension or stretching of the mouth
+
+
+** DONE Fear Microexpression ::                            :MICROEXPRESSION:
+:PROPERTIES:
+:ID:       B0671D4A-BC40-46AB-8397-0791DE31EEC8
+:REFILED: <2018-07-03 Tue 17:05>
+:END:
+[2018-06-28 Thu 21:02]
+  - Brows are raised and drawn together, usually in a flat line
+  - Wrinkles in the forehead are in the center between the brows, not across
+  - Upper eyelid is raised, but the lower lid is tense and drawn up
+  - Upper eye has white showing, but not the lower white
+  - Mouth is open and lips are slightly tensed or stretched and drawn back
+
+
+** DONE Disgust Microexpression ::                         :MICROEXPRESSION:
+:PROPERTIES:
+:ID:       513A84FB-3BD4-480A-8C61-64CC5B64D8E9
+:REFILED: <2018-07-03 Tue 17:05>
+:END:
+[2018-06-28 Thu 21:03]
+  - Upper lid is raised
+  - Lower lip is raised
+  - Nose is wrinkled
+  - Cheeks are raised
+  - Lines show below the lower lid
+
+This is the expression you make when you smell something bad.
+
+
+** DONE Anger Microexpression ::                           :MICROEXPRESSION:
+:PROPERTIES:
+:ID:       19084BDE-E030-4279-91CF-4DF4B8F3D964
+:REFILED: <2018-07-03 Tue 17:05>
+:END:
+[2018-06-28 Thu 21:04]
+  - The brows are lowered and drawn together
+  - Vertical lines appear between the brows
+  - Lower lid is tensed
+  - Eyes hard stare or bulging
+  - Lips can be pressed firmly together with corners down or square shape as if shouting
+  - Nostrils may be dilated
+  - The lower jaw juts out
+
+All three facial areas must be engaged to not have any ambiguity
+
+
+** DONE Happiness Microexpression ::                       :MICROEXPRESSION:
+:PROPERTIES:
+:ID:       E3805C5A-D5C4-4007-ACEB-50F830577B1E
+:REFILED: <2018-07-03 Tue 17:05>
+:END:
+[2018-06-28 Thu 21:06]
+  - Corners of the lips are drawn back and up
+  - Mouth may or may not be parted, teeth exposed
+  - A wrinkle runs from outer nose to outer lip
+  - Cheeks are raised
+  - Lower lid may show wrinkles or be tense
+  - Crows feet near the outside of the eyes
+
+
+
+
+** DONE Sadness Microexpression ::                         :MICROEXPRESSION:
+:PROPERTIES:
+:ID:       9EA32FA2-98FA-4EE5-896D-497C6F264614
+:REFILED: <2018-07-03 Tue 17:05>
+:END:
+[2018-06-28 Thu 21:07]
+  - Inner corners of the eyebrows are drawn in and then up
+  - Skin below eyebrow triangulated, with inner corner up
+  - Corner of the lips are drawn down
+Jaw comes up
+Lower lip pouts out
+
+This is the hardest microexpression to fake!
+
+
+** DONE Contempt / Hate Microexpression ::                 :MICROEXPRESSION:
+:PROPERTIES:
+:ID:       538A0762-6C0E-4C84-B3F6-7CBA796D621C
+:REFILED: <2018-07-03 Tue 17:06>
+:END:
+[2018-06-28 Thu 21:07]
+  - One side of the mouth raises
+
+
+** NOTE Black Swan Event ::                                           :RISK:
+:PROPERTIES:
+:ID:       A3D1C914-D8DC-4CB1-9018-93EF6FB50507
+:END:
+
+:PROPERTIES:
+:ID:       6C331719-1E65-4D0C-BE8F-4F0548D67179
+:REFILED: <2018-07-03 Tue 17:07>
+:END:
+[2018-07-03 Tue 09:50]
+A black swan event is one with three characteristics 
+1. Rarity
+2. Extreme Impact
+3. Retrospective but not prospective predictability
+
+
+** NOTE A black swan can be considered a metaphor for an event that is surprising (to the observer), has a major effect, and, after being observed, is rationalized in hindsight. :RISK:
+:PROPERTIES:
+:ID:       B6B46513-0EE4-41CC-8ECF-459472C63AC1
+:REFILED: <2018-07-03 Tue 17:07>
+:CATEGORY: Library
+:SUB_CATEGORY: Dictionary
+:END:
+[2018-07-03 Tue 09:58]
+ The theory of black swans is epistemological, relating to the limited knowledge and understanding of the observer. 
+ The term was introduced and popularized by Nassim Taleb and has been associated with concepts such as *heavy tails*, *non-linear payoffs*, *model error*, and even *Knightian uncertainty*, whose /“unknowable unknown”/ event terminology was popularized by former United States Secretary of Defense Donald Rumsfeld.
+ Taleb claims that black swan events are not predictable, and in practice, the theory encourages one to /“prepare rather than predict”/, and limit one's exposure to extreme fluctuations.
+ *The black swan concept is important and poses a valid criticism of people, firms, and societies that are irresponsible in the sense that they are overly confident in their ability to anticipate and manage risk.*
+ However, claiming that extreme events are – in general – unpredictable may also lead to a lack of accountability in risk management roles.
+ In fact, it is known that in a wide range of physical systems that extreme events are predictable to some degree.
+ One simply needs to have a sufficiently deep understanding of the structure and dynamics of the focal system, and the ability to monitor it.
+ *This is the domain of the dragon kings.* 
+ Such events have been referred to as Grey Swans by Taleb. 
+ A more rigorous distinction between black swans, grey swans, and dragon kings is difficult as black swans are not precisely defined in physical and mathematical terms.
+ However technical elaboration of concepts in the Black Swan book are elaborated in the Silent Risk document. 
+ An analysis of the precise definition of a black swan in a risk management context was written by Prof. Terje Aven.
+
+
+
+** NOTE The consumption of mass media has had a profound effect on instilling the fear of terrorism in the United States, though acts of terror are a rare phenomenon.
+:PROPERTIES:
+:ID:       2A667683-5B3C-4378-BBFA-496E4099641D
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 10:58>
+:END:
+[2018-07-10 Tue 13:06]
+file:///var/mobile/Containers/Data/Application/3FE5D8BE-EDC8-4D88-866B-FF52969A7B5D/Library/Caches/2018-07-10-13-06-37.txt
+
+Beginning in the 1960s, George Gerbner and his colleagues have accelerated the study of the relationship that exists between media consumption and the fear of crime.
+
+According to Gerbner, television and other forms of mass media create a worldview that is reflective of “recurrent media messages”, rather than one that is based on reality.
+
+Many Americans are exposed to some form of media on a daily basis, with television and social media platforms being the most used methods to receive both local and international news, and as such this is how most receive news and details that center around violent crime and acts of terror.
+
+With the rise in use of smartphones and social media, people are bombarded with constant news updates, and able to read stories related to terrorism, stories that come from all corners of the globe.
+
+Media fuels fear of terrorism and other threats to national security, all of which have negative psychological effects on the population, such as depression, anxiety, and insomnia.
+
+Politicians conduct interviews, televised or otherwise, and utilize their social media platforms immediately after violent crimes and terrorist acts, to further cement the fear of terrorism into the minds of their constituents.
+
+
+
+** NOTE In Gestalt theory, psychologists say that instead of obtaining knowledge from what's in front of us, we often learn by making sense of the relationship between what's new and old.
+:PROPERTIES:
+:ID:       18B8E3DB-DC75-4B65-9BEC-B0228A3BA5C8
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 10:58>
+:END:
+[2018-07-10 Tue 13:07]
+file:///var/mobile/Containers/Data/Application/3FE5D8BE-EDC8-4D88-866B-FF52969A7B5D/Library/Caches/2018-07-10-13-07-31.txt
+
+Because we have a unique perspective of the world, humans have the ability to generate their own learning experiences and interpret information that may or may not be the same for someone else.
+
+
+** NOTE Examples of narcissistic rage range from intense outbursts and sudden fits of anger, to passive-aggressive acts such as simmering resentment, icy silence, deliberate neglect, or cutting sarcasm. What distinguishes narcissistic rage from normal anger is that it is usually unreasonable, disproportional, and cuttingly aggressive (or intensely passive-aggressive), all because the narcissists’ wants and wishes are not being catered to. It is a blow to their superficial, idealized self-image (narcissistic injury).
+:PROPERTIES:
+:ID:       87D42C6A-D5CA-494A-A298-95115AF051F7
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 10:58>
+:END:
+[2018-07-10 Tue 19:54]
+
+
+** NOTE Kerckhoffs Principle                                  :CRYPTOGRAPHY:
+:PROPERTIES:
+:ID:       58E4381C-BCBF-49DB-B414-DA559D69D567
+:DATE_ADDED: [2018-07-04 Wed 14:34]
+:END:
+
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 11:05>
+:END:
+  In 1883 *Auguste Kerckhoffs* wrote two journal articles on La Cryptographie Militaire, in which he stated six design principles for military ciphers. Translated from French, they are:
+
+  - The system must be practically, if not mathematically, indecipherable;
+  - *It should not require secrecy, and it should not be a problem if it falls into enemy hands*;
+  - It must be possible to communicate and remember the key without using written notes, and correspondents must be able to change or modify it at will;
+  - It must be applicable to telegraph communications;
+  - It must be portable, and should not require several persons to handle or operate;
+  - Lastly, given the circumstances in which it is to be used, the system must be easy to use and should not be stressful to use or require its users to know and comply with a long list of rules.
+  
+  Some are no longer relevant given the ability of computers to perform complex encryption, but his second axiom, now known as Kerckhoffs's principle, is still critically important.
+
+** NOTE Kerckhoffs's principle applies beyond codes and ciphers to security systems in general :CRYPTOGRAPHY:
+:PROPERTIES:
+:ID:       0A9A2DCC-CDA7-4DED-816F-2E30DAADF84B
+:DATE_ADDED: [2018-07-04 Wed 14:35]
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 11:05>
+:END:
+  *Every secret creates a potential failure point.*
+    - Secrecy, in other words, is a prime cause of brittleness—and therefore something likely to make a system prone to catastrophic collapse.
+    - Conversely, openness provides ductility.
+
+** NOTE A Generalization of Kerckhoffs's Principle            :CRYPTOGRAPHY:
+:PROPERTIES:
+:ID:       803B20EA-4149-46B4-A47D-BBE94ADB5981
+:DATE_ADDED: [2018-07-04 Wed 14:35]
+:END:
+
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 11:05>
+:END:
+  /"The fewer and simpler the secrets that one must keep to ensure system security, the easier it is to maintain system security."/
+  Bruce Schneier ties it in with a belief that *all security systems must be designed to fail as gracefully as possible.*
+
+** NOTE Register Keybindings Overview
+:PROPERTIES:
+:ID:       62EF0635-F34E-4D4A-AE3E-DC43253BA0B9
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-27 Fri 11:41>
+:END:
+[2018-07-22 Sun 13:48]
+
+text register
+C-x r s a	store region as “a”
+C-x r i a	insert region stored in “a”
+C-x r r a	store rectangle as “a”
+point register
+C-x r SPC a	store current point as “a”
+C-x r j a	move to point in “a”
+window register
+C-x r w a	store configuration of windows in frame
+C-x r j a	restore window configurations
+frame register
+C-x r f a	store window configuration for all frames
+C-x r j a	restore all window configurations
+number register
+C-u 1 C-x r n a	store 1 in “a”
+C-u 1 C-x r + a	add 1 to number in “a”
+C-x r i a	insert number in “a”
+position register
+C-x r m RET	save default
+C-x r m <NAME> RET	save as NAME
+C-x r b RET	move to default
+C-x r b <NAME> RET	move to NAME
+C-x r l	list
+
+
+* QUOTATION Stephen Fry
+  :PROPERTIES:
+  :ATTRIBUTION: I Saw Hate in a Graveyard
+  :PERIODICAL: The Guardian
+  :ATTRIBUTION_DATE: 2005-06-05
+  :AUTHOR: Stephen Fry
+  :ID:       50F5F66A-5533-4FE0-B93D-AB6653EA5F81
+  :END:
+
+#+BEGIN_QUOTE
+  It's now very common to hear people say, 'I'm rather offended by that.' 
+  As if that gives them certain rights. 
+  It's actually nothing more... than a whine. 
+  'I find that offensive.' 
+  It has no meaning; it has no purpose; it has no reason to be respected as a phrase. 
+  'I am offended by that.' 
+  Well, so fucking what."
+#+END_QUOTE
+
+
+
+
+
