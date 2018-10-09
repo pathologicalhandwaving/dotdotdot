@@ -3,7 +3,7 @@
 ;; ----- ido-last-directory-list -----
 (
  ("/Users/Em/Documents/Dropbox/HomeBase/Apartment/" . "104-Inspection_Photos/")
- ("/Users/Em/Documents/" . #("Dropbox/" 0 5 (face flx-highlight-face)))
+ ("/Users/Em/Documents/" . "Dropbox/")
  ("/Users/Em/Documents/Dropbox/HomeBase/" . "Apartment/")
  ("/Volumes/JumpShip/" . "Lab/")
  ("/Volumes/JumpShip/Lab/Projects/" . "OEIS/")
@@ -12,8 +12,8 @@
  ("/Users/Em/Documents/Dropbox/Library-Annex/" . "Scraped/")
  ("/Users/Em/Documents/Dropbox/Werx/" . "WerX-Logs/")
  ("/Users/Em/.emacs.d/" . "personal/")
- ("/Users/Em/" . #("Documents/" 0 5 (face flx-highlight-face)))
- ("/Users/Em/Documents/Dropbox/" . #("Library-Annex/" 0 3 (face flx-highlight-face)))
+ ("/Users/Em/" . "Documents/")
+ ("/Users/Em/Documents/Dropbox/" . "Library-Annex/")
 )
 
 ;; ----- ido-work-directory-list -----
@@ -32,7 +32,7 @@
 (
  ("/Users/Em/.emacs.d/personal/" (23471 62708 0 0) "webber-settings.el" "weather-settings.el" "Untitled.txt" "todo-settings.el" "tag-settings.el" "symbol-settings.el" "structure-templates.el" "source-settings.el" "snippet-settings.el" "search-engines.el" "scratch-settings.el" "refile-settings.el" "reading-settings.el" "random-list.el" "property-settings.el" "project-settings.el" "preload/" "org-settings.el" "ocean-settings.el" "narrow-settings.el" "modeline-settings.el" "media-settings.el" "mail-settings.el" "log-settings.el" "location-settings.el" "link-settings.el" "latex-settings.el" "image-settings.el" "icon-settings.el" "head-settings.el" "flycheck_tag-settings.el" "file-variables.el" "export-settings.el" "exile.elc" "exile.el" "exile-theme.elc" "exile-theme.el" "exile-capture-templates.el" "emms-settings.el" "custom.el" "color-settings.elc" "color-settings.el" "calendar-settings.el" "browser-settings.el" "brain-settings.el" "archive-settings.el" "agenda-settings.el" "1" ".gitkeep" ".DS_Store" ".dir-locals.el" "../" "./")
 
- (#("/Users/Em/Documents/Dropbox/Library-Annex/" 10 15 (face flx-highlight-face) 20 25 (face flx-highlight-face) 28 31 (face flx-highlight-face)) (23454 38817 0 0) "Scraped/" "readlater.org" "read.org" "quotes.org" "Quote-Entries/" "math-glossary.org" "ltximg/" "Library-Info/" "Library-Annex-Archive/" "Icon" "glossary.org" "Gloss-Numbers/" "Gloss-Entries/" "emacs-glossary.org" "ColoringBooks/" "book-memos.org" "AudioBook-Notes/" "anti-glossary.org" "ADHD/" "acronyms.org" ".DS_Store" ".dropbox" "../" "./")
+ ("/Users/Em/Documents/Dropbox/Library-Annex/" (23454 38817 0 0) "Scraped/" "readlater.org" "read.org" "quotes.org" "Quote-Entries/" "math-glossary.org" "ltximg/" "Library-Info/" "Library-Annex-Archive/" "Icon" "glossary.org" "Gloss-Numbers/" "Gloss-Entries/" "emacs-glossary.org" "ColoringBooks/" "book-memos.org" "AudioBook-Notes/" "anti-glossary.org" "ADHD/" "acronyms.org" ".DS_Store" ".dropbox" "../" "./")
 
  ("/Users/Em/.emacs.d/" (23471 61964 0 0) "vendor/" "var/" "utils/" "url/" "themes/" "snippets/" "scratch_pop/" "savefile/" "sample/" "request/" "README.md" "projectile-bookmarks.eld" "prelude-modules.el" "prelude-cheatsheet.pdf" "personal/" "org-clock-save.el" "modules/" "latex/" "init.el" "eww-bookmarks" "emms/" "elpa/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "ac-comphist.dat" ".trello/" ".projectile" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#!Volumes!JumpShip!LabBot!Projects!jekyll-orgtext!jekyll-orgtext!_layouts!default.html#" "#!Volumes!JumpShip!Archive!tasks.org_archive#" "#!Volumes!JumpShip!Archive!20180626.org_archive#" "#!Users!Em!Documents!Dropbox!Werx!WerX-Logs!2018-0710-OperaSupport.org#" "#!Users!Em!Documents!Dropbox!Exile!notes.org#" "#!Users!Em!Documents!Dropbox!Diary!JournalEntries!20180620#" "../" "./")
 

@@ -1,0 +1,5 @@
+(:name insert-translated-name
+:auto-generated t
+:type emacswiki
+:description "Insert translated string as variable or function name"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/insert-translated-name.el")

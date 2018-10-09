@@ -1,9 +1,0 @@
-;;; browser-settings.el
-
-
-
-;;; Code:
-
-
-(provide 'browser-settings)
-(message "Browser Settings Loaded!")

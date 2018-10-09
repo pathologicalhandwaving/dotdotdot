@@ -1,0 +1,5 @@
+(:name cache-path-from-shell
+:auto-generated t
+:type emacswiki
+:description "Provide a chache mechanism make sure exec-path-from-shell just execute once."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/cache-path-from-shell.el")

@@ -1,0 +1,5 @@
+(:name color-rg
+:auto-generated t
+:type emacswiki
+:description "Search and refacotry code with rg"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/color-rg.el")

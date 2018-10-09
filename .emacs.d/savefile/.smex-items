@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ smartparens-strict-mode
+ electric-pair-mode
  find-file
  neotree-show
  load-theme
  calendar
  package-refresh-contents
- package-install
- align
 )
 
 ;; ----- smex-data -----
@@ -64,4 +64,6 @@
  (org-display-inline-images . 1)
  (org-toggle-inline-images . 13)
  (org-redisplay-inline-images . 1)
+ (electric-pair-mode . 2)
+ (smartparens-strict-mode . 1)
 )

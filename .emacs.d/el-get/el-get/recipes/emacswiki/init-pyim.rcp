@@ -1,0 +1,5 @@
+(:name init-pyim
+:auto-generated t
+:type emacswiki
+:description "Configuration for pyim"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-pyim.el")

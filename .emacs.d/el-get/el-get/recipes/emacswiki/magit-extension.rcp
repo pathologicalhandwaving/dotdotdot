@@ -1,0 +1,5 @@
+(:name magit-extension
+:auto-generated t
+:type emacswiki
+:description "Extension for magit"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/magit-extension.el")

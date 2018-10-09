@@ -1,0 +1,5 @@
+(:name awesome-tab
+:auto-generated t
+:type emacswiki
+:description ";; awesome-tab.el --- Provide an out of box configuration to use tab in Emacs."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/awesome-tab.el")

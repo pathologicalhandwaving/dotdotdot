@@ -1,6 +1,7 @@
 #+TITLE: Default Notes
 #+CATEGORY: Exile
 #+SUB_CATEGORY: Notes
+#+STARTUP: latexpreview
 
 * Notes
  :PROPERTIES:
@@ -151,12 +152,104 @@ A black swan event is one with three characteristics
 
 
 
+** NOTE The consumption of mass media has had a profound effect on instilling the fear of terrorism in the United States, though acts of terror are a rare phenomenon.
+:PROPERTIES:
+:ID:       2A667683-5B3C-4378-BBFA-496E4099641D
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 10:58>
+:END:
+[2018-07-10 Tue 13:06]
+file:///var/mobile/Containers/Data/Application/3FE5D8BE-EDC8-4D88-866B-FF52969A7B5D/Library/Caches/2018-07-10-13-06-37.txt
+
+Beginning in the 1960s, George Gerbner and his colleagues have accelerated the study of the relationship that exists between media consumption and the fear of crime.
+
+According to Gerbner, television and other forms of mass media create a worldview that is reflective of “recurrent media messages”, rather than one that is based on reality.
+
+Many Americans are exposed to some form of media on a daily basis, with television and social media platforms being the most used methods to receive both local and international news, and as such this is how most receive news and details that center around violent crime and acts of terror.
+
+With the rise in use of smartphones and social media, people are bombarded with constant news updates, and able to read stories related to terrorism, stories that come from all corners of the globe.
+
+Media fuels fear of terrorism and other threats to national security, all of which have negative psychological effects on the population, such as depression, anxiety, and insomnia.
+
+Politicians conduct interviews, televised or otherwise, and utilize their social media platforms immediately after violent crimes and terrorist acts, to further cement the fear of terrorism into the minds of their constituents.
+
+
+
+** NOTE In Gestalt theory, psychologists say that instead of obtaining knowledge from what's in front of us, we often learn by making sense of the relationship between what's new and old.
+:PROPERTIES:
+:ID:       18B8E3DB-DC75-4B65-9BEC-B0228A3BA5C8
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 10:58>
+:END:
+[2018-07-10 Tue 13:07]
+file:///var/mobile/Containers/Data/Application/3FE5D8BE-EDC8-4D88-866B-FF52969A7B5D/Library/Caches/2018-07-10-13-07-31.txt
+
+Because we have a unique perspective of the world, humans have the ability to generate their own learning experiences and interpret information that may or may not be the same for someone else.
+
+
+** NOTE Examples of narcissistic rage range from intense outbursts and sudden fits of anger, to passive-aggressive acts such as simmering resentment, icy silence, deliberate neglect, or cutting sarcasm. What distinguishes narcissistic rage from normal anger is that it is usually unreasonable, disproportional, and cuttingly aggressive (or intensely passive-aggressive), all because the narcissists’ wants and wishes are not being catered to. It is a blow to their superficial, idealized self-image (narcissistic injury).
+:PROPERTIES:
+:ID:       87D42C6A-D5CA-494A-A298-95115AF051F7
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 10:58>
+:END:
+[2018-07-10 Tue 19:54]
+
+
+** NOTE Kerckhoffs Principle                                  :CRYPTOGRAPHY:
+:PROPERTIES:
+:ID:       58E4381C-BCBF-49DB-B414-DA559D69D567
+:DATE_ADDED: [2018-07-04 Wed 14:34]
+:END:
+
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 11:05>
+:END:
+  In 1883 *Auguste Kerckhoffs* wrote two journal articles on La Cryptographie Militaire, in which he stated six design principles for military ciphers. Translated from French, they are:
+
+  - The system must be practically, if not mathematically, indecipherable;
+  - *It should not require secrecy, and it should not be a problem if it falls into enemy hands*;
+  - It must be possible to communicate and remember the key without using written notes, and correspondents must be able to change or modify it at will;
+  - It must be applicable to telegraph communications;
+  - It must be portable, and should not require several persons to handle or operate;
+  - Lastly, given the circumstances in which it is to be used, the system must be easy to use and should not be stressful to use or require its users to know and comply with a long list of rules.
+  
+  Some are no longer relevant given the ability of computers to perform complex encryption, but his second axiom, now known as Kerckhoffs's principle, is still critically important.
+
+** NOTE Kerckhoffs's principle applies beyond codes and ciphers to security systems in general :CRYPTOGRAPHY:
+:PROPERTIES:
+:ID:       0A9A2DCC-CDA7-4DED-816F-2E30DAADF84B
+:DATE_ADDED: [2018-07-04 Wed 14:35]
+:END:
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 11:05>
+:END:
+  *Every secret creates a potential failure point.*
+    - Secrecy, in other words, is a prime cause of brittleness—and therefore something likely to make a system prone to catastrophic collapse.
+    - Conversely, openness provides ductility.
+
+** NOTE A Generalization of Kerckhoffs's Principle            :CRYPTOGRAPHY:
+:PROPERTIES:
+:ID:       803B20EA-4149-46B4-A47D-BBE94ADB5981
+:DATE_ADDED: [2018-07-04 Wed 14:35]
+:END:
+
+- :PROPERTIES:
+:REFILED: <2018-07-15 Sun 11:05>
+:END:
+  /"The fewer and simpler the secrets that one must keep to ensure system security, the easier it is to maintain system security."/
+  Bruce Schneier ties it in with a belief that *all security systems must be designed to fail as gracefully as possible.*
+
 * QUOTATION Stephen Fry
   :PROPERTIES:
   :ATTRIBUTION: I Saw Hate in a Graveyard
   :PERIODICAL: The Guardian
   :ATTRIBUTION_DATE: 2005-06-05
   :AUTHOR: Stephen Fry
+  :ID:       50F5F66A-5533-4FE0-B93D-AB6653EA5F81
   :END:
 
 #+BEGIN_QUOTE
@@ -168,7 +261,6 @@ A black swan event is one with three characteristics
   'I am offended by that.' 
   Well, so fucking what."
 #+END_QUOTE
-
 
 
 
