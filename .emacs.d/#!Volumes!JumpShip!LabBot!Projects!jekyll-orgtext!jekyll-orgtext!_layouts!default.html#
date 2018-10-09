@@ -1,8 +1,0 @@
-
-</header>
-
-<div class=""content>
-    {{ content }}
-</div>
-
-<footer>
