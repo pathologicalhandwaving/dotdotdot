@@ -215,8 +215,8 @@
 
 
 ;; Quotes
-(defvar library-annex-quotes-file)
-(setq library-annex-quotes-file "/Users/Em/Documents/Dropbox/Library-Annex/quotes.org")
+(defvar librarianbot-quotes)
+(setq librarianbot-quotes "/Users/Em/Documents/Dropbox/Library-Annex/quotes.org")
 
 ;; Scraped Dir
 (defvar library-annex-scraped-dir)

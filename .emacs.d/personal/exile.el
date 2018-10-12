@@ -3,7 +3,13 @@
 ;; User Info
 (setq user-full-name "K. M. Short")
 (setq user-login-name "Em")
-(setq user-mail-address "kmshort@protonmail.com")
+(setq user-mail-address "kristimshort@icloud.com")
+
+(defvar github-username)
+(setq github-username "pathologicalhandwaving")
+(defvar twitter-username)
+(setq twitter-username "pathhandwaving")
+
 
 ;;; Code:
 

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- smartparens-strict-mode
- electric-pair-mode
+ org-review-insert-last-review
+ load-theme
+ package-install
+ package-refresh-contents
+ package-delete
  find-file
  neotree-show
- load-theme
- calendar
- package-refresh-contents
 )
 
 ;; ----- smex-data -----
@@ -23,14 +23,14 @@
  (neotree-show . 8)
  (neotree-change-root . 3)
  (org-brain-remove-child . 1)
- (load-theme . 48)
+ (load-theme . 50)
  (org-mode . 2)
  (org-brain-delete-entry . 15)
  (org-brain-update-id-locations . 4)
  (org-brain-add-resource . 4)
  (org-brain-create-relationships-from-links . 1)
- (package-delete . 4)
- (package-install . 45)
+ (package-delete . 5)
+ (package-install . 48)
  (windmove-left . 1)
  (svg-clock . 2)
  (org-trello-install-key-and-token . 2)
@@ -38,7 +38,7 @@
  (org-trello-check-setup . 1)
  (org-trello-show-board-labels . 1)
  (org-trello-mode . 1)
- (package-refresh-contents . 9)
+ (package-refresh-contents . 10)
  (split-window-right . 1)
  (eyebrowse-mode . 2)
  (outline-toc-mode . 2)
@@ -53,7 +53,7 @@
  (org-journal-new-entry . 5)
  (org-latex-export-to-latex . 2)
  (my/copy-idlink-to-clipboard . 3)
- (org-review-insert-last-review . 6)
+ (org-review-insert-last-review . 9)
  (org-web-tools-read-url-as-org . 4)
  (save-buffer . 1)
  (calendar . 2)
@@ -64,6 +64,4 @@
  (org-display-inline-images . 1)
  (org-toggle-inline-images . 13)
  (org-redisplay-inline-images . 1)
- (electric-pair-mode . 2)
- (smartparens-strict-mode . 1)
 )

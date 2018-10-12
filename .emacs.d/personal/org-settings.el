@@ -6,6 +6,8 @@
 
 ;;; Code:
 
+;;; osx clipboard
+(osx-clipboard-mode +1)
 
 ;; TOC Hook
 (add-hook 'org-mode-hook #'org-make-toc-mode)

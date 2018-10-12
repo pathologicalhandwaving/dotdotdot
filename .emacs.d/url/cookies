@@ -2,27 +2,30 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".reddit.com"
-  [url-cookie "uapp_cookie" "1:1527210000" "Mon, 29 May 2028 02:20:22 GMT" "/" ".reddit.com" nil])
- ("www.digitalocean.com"
-  [url-cookie "_community_session" "d05uMHV3Y1FIL1RSZklzdkdHd2dzeEtRWVJGdFhON2N1dng5QmxLRHVmVVpMT0lMQkh1ZGZHdjRDRC9lNHZnc0VHWWJLbWI3NU1oL2JoQmVoMjliVFE1L3J1VDVPb0xEM2cyd2dLZHhJT00rcnd5bSswbWFEc0syTTZvTUdDTUFzUDFPR256ajhBRThLdDA3QWllallOV1ZFL3VpMDllRGowcWpMdEVRaGtxblhZV3JMYlpoTzd0M1l4cmFKUkROa2t6cXgyRm55OUpUZENEeFBzNFhMam1YMWhZSmNIdi9YQittd3ZsSVlMd2phOXN2UVpWOFhFdG4yRVE2Zk9SYjF4M0JQc1NnblF0MVFvRk1kWEltcGRoRG9JcHlONlVkUjcxajZUazFtbU5BQ2t6WlVZaURudUZKczkrb0hkeStPQnpTY0VnSWpRb1k4V0tGR0t4Ui9RPT0tLVB6OFVjZmdPS2lpd09ybzNKYi9CYWc9PQ%3D%3D--b512d9ef465c5887d245a946c76290d7177b682c" "Tue, 16 Jul 2019 13:54:40 -0000" "/" "www.digitalocean.com" nil])
- (".digitalocean.com"
-  [url-cookie "__cfduid" "df55a92787e7e1176602c6912589cc2061531744527" "Tue, 16-Jul-19 12:35:27 GMT" "/" ".digitalocean.com" nil])
+ '((".libraries.io"
+  [url-cookie "__cfduid" "dd19aa3a3be183364b2ee23183322099c1527560105" "Wed, 29-May-19 02:15:05 GMT" "/" ".libraries.io" nil])
+ (".google.com"
+  [url-cookie "NID" "133=Y2mTSKH5qynP_gSWAauIJTwz9l75PNJFsnB3fUSdSB6ug3ApZ9NPnNTdUzMyomUyAetR1JuYUnXxOdhs5swpbZC0WsVzP2ndaiOC2RtircHYYvENQrcoO4NXbc7ePvck" "Wed, 02-Jan-2019 22:01:46 GMT" "/" ".google.com" nil])
  ("www.hcareers.com"
   [url-cookie "_visitor" "e23b903b-fc42-45e1-8ce8-0ebad11f0d8e" "Thu, 02-Jul-2020 23:50:34 GMT" "/" "www.hcareers.com" nil])
- (".google.com"
-  [url-cookie "1P_JAR" "2018-07-03-22" "Thu, 02-Aug-2018 22:01:46 GMT" "/" ".google.com" nil]
-  [url-cookie "NID" "133=Y2mTSKH5qynP_gSWAauIJTwz9l75PNJFsnB3fUSdSB6ug3ApZ9NPnNTdUzMyomUyAetR1JuYUnXxOdhs5swpbZC0WsVzP2ndaiOC2RtircHYYvENQrcoO4NXbc7ePvck" "Wed, 02-Jan-2019 22:01:46 GMT" "/" ".google.com" nil])
- (".libraries.io"
-  [url-cookie "__cfduid" "dd19aa3a3be183364b2ee23183322099c1527560105" "Wed, 29-May-19 02:15:05 GMT" "/" ".libraries.io" nil]))
+ (".digitalocean.com"
+  [url-cookie "__cfduid" "df55a92787e7e1176602c6912589cc2061531744527" "Tue, 16-Jul-19 12:35:27 GMT" "/" ".digitalocean.com" nil])
+ ("www.digitalocean.com"
+  [url-cookie "_community_session" "d05uMHV3Y1FIL1RSZklzdkdHd2dzeEtRWVJGdFhON2N1dng5QmxLRHVmVVpMT0lMQkh1ZGZHdjRDRC9lNHZnc0VHWWJLbWI3NU1oL2JoQmVoMjliVFE1L3J1VDVPb0xEM2cyd2dLZHhJT00rcnd5bSswbWFEc0syTTZvTUdDTUFzUDFPR256ajhBRThLdDA3QWllallOV1ZFL3VpMDllRGowcWpMdEVRaGtxblhZV3JMYlpoTzd0M1l4cmFKUkROa2t6cXgyRm55OUpUZENEeFBzNFhMam1YMWhZSmNIdi9YQittd3ZsSVlMd2phOXN2UVpWOFhFdG4yRVE2Zk9SYjF4M0JQc1NnblF0MVFvRk1kWEltcGRoRG9JcHlONlVkUjcxajZUazFtbU5BQ2t6WlVZaURudUZKczkrb0hkeStPQnpTY0VnSWpRb1k4V0tGR0t4Ui9RPT0tLVB6OFVjZmdPS2lpd09ybzNKYi9CYWc9PQ%3D%3D--b512d9ef465c5887d245a946c76290d7177b682c" "Tue, 16 Jul 2019 13:54:40 -0000" "/" "www.digitalocean.com" nil])
+ ("darksky.net"
+  [url-cookie "session" "Bn2moTryNtqRlT3w06jsfQ.3znWuEJwCb8_mCGvJEgQpRVNV04rL9IrRUDV7-B0jfxoYNoIml52Ivj540fBdrEQypo3k9YcuJNJbEx_ozFx7gbK0zw7oBAlN--kYC64MIguj4PNoIuaXQCkwm90uoo2Q6zO5ZBmT7rFWWK9cx1U1g.1539059833221.86400000.RTcdJOr1t1vhM1UAU1ZrwWara6JfjVjjNvotKB5KT3A" "Wed, 10 Oct 2018 04:37:14 GMT" "/" "darksky.net" nil])
+ (".github.com"
+  [url-cookie "_octo" "GH1.1.2085590852.1539059932" "Fri, 09 Oct 2020 04:38:52 -0000" "/" ".github.com" nil])
+ (".reddit.com"
+  [url-cookie "uapp_cookie" "1:1527210000" "Mon, 29 May 2028 02:20:22 GMT" "/" ".reddit.com" nil]))
 )
 (setq url-cookie-secure-storage
- '(("reddit.com"
-  [url-cookie "edgebucket" "x56ls4Wz38uXaXv4Ck" "Thu May 28 02:20:39 2020 GMT" "/" "reddit.com" t])
+ '((".github.com"
+  [url-cookie "logged_in" "no" "Fri, 07 May 2038 03:16:19 -0000" "/" ".github.com" t])
  (".redteamsecure.com"
   [url-cookie "__cfduid" "dccd4998c5a6dea76fb2e0214332c88f81531090653" "Mon, 08-Jul-19 22:57:33 GMT" "/" ".redteamsecure.com" t])
- (".github.com"
-  [url-cookie "logged_in" "no" "Fri, 07 May 2038 03:16:19 -0000" "/" ".github.com" t]))
+ ("reddit.com"
+  [url-cookie "edgebucket" "x56ls4Wz38uXaXv4Ck" "Thu May 28 02:20:39 2020 GMT" "/" "reddit.com" t]))
 )
 
 ;; Local Variables:

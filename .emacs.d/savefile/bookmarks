@@ -39,9 +39,9 @@
  (position . 4480))
 ("org-capture-last-stored"
  (filename . "~/Documents/Dropbox/Exile/inbox.org")
- (front-context-string . "** TODO  Add EVE")
- (rear-context-string . "23C6600E\n:END:\n\n")
- (position . 6080))
+ (front-context-string . "** TODO Fix refi")
+ (rear-context-string . " are  metaphor\n\n")
+ (position . 6334))
 ("TeXBot Index"
  (filename . "~/Documents/Dropbox/TeXBot/texbot-index.org")
  (front-context-string)

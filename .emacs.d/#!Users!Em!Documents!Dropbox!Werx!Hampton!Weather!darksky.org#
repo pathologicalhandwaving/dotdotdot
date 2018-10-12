@@ -1,0 +1,18 @@
+#+TITLE:  Darksky Weather
+#+DATE_CREATED:   2018-10-08
+#+CATEGORY: WerX
+#+SUB_CATEGORY: HamptonInn
+#+FILETAGS: :WerX:HamptonInn:Darksky:Weather:
+
+* Darksky Weather
+:PROPERTIES:
+:DATE_CREATED: 2018-10-08
+:ID:       907EED86-BFCA-45C5-81E3-32F6C457C13C
+:END:
+
+
+:darksky = https://api.darksky.net
+
+GET :darksky/forecast/82b428d253eea230f3ddbcbdc022a878/37.8267,-122.4233
+
+
