@@ -105,8 +105,8 @@
 (setq org-ellipsis " ⁛")
 
 ;; org directory
-(setq org-directory "/Users/Em/Documents/Dropbox/")
-(setq org-default-notes-file (concat org-directory "~/Documents/Dropbox/Exile/notes.org"))
+(setq org-directory "/Users/Em/Dropbox/")
+(setq org-default-notes-file (concat org-directory "~/Dropbox/AgendaBot/notes.org"))
 
 
 ;; Startup

@@ -4,7 +4,7 @@
 
 ;;; Code:
 
-(setq user-mail-address "<kms.werx@gmail.com>"
+(setq user-mail-address "<kms.orgsync@gmail.com>"
       user-full-name "<KMS>")
 
 (setq gnus-select-method

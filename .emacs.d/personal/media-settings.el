@@ -34,8 +34,8 @@
 
 ;;; VoiceMemos
 
-(setq anm/notes-directory "~/Documents/Dropbox/VoiceMemos/")
-(setq anm/goto-file "~/Documents/Dropbox/Transcribed/transcribed-voicememos.org")
+(setq anm/notes-directory "~/Dropbox/AudioBot/VoiceMemos/")
+(setq anm/goto-file "~/Dropbox/AudioBot/Transcribed/transcribed-voicememos.org")
 
 
 
