@@ -29,15 +29,15 @@
 
 
 
-(setq org-log-note-headings '((done . ":CLOSED: %T")
-                              (state . ":PROPERTIES:\n:STATE_CHANGED:\n:PREVIOUS_STATE: %S\n:DATE_MODIFIED: %T\n:END:")
-                              (note . ":PROPERTIES:\n:DATE_ADDED: %T\n:END:")
-                              (reschedule . ":PROPERTIES:\n:RESCHEDULED:\n:PREVIOUS_SCHEDULE: %S\n:DATE_MODIFED: %T\n:END:")
-                              (delschedule . ":PROPERTIES:\n:UNSCHEDULED:\nPREVIOUS_SCHEDULE: %S\n:DATE_MODIFIED: %T\n:END:")
-                              (redeadline . ":PROPERTIES:\n:DEADLINE_MOVED:\n:PREVIOUS_DEADLINE: %S\n:DATE_MODIFIED: %T\n:END:")
-                              (deldeadline . ":PROPERTIES:\n:DEADLINE_REMOVED:\n:PREVIOUS_DEADLINE: %S\nDATE_MODIFIED: %T\n:END:")
-                              (refile . ":PROPERTIES:\n:REFILED: %T\n:END:")
-                              (clock-out . ":PROPERTIES:\n:CLOCKED_OUT: %T\n:END:")))
+(setq org-log-note-headings '((done . "CLOSED: %T")
+                              (state . "STATE_CHANGED: %T")
+                              (note . "NOTE_ADDED: %T")
+                              (rescheduled . "RESCHEDULED: %T FROM: %S")
+                              (delschedule . "SCHEDULE_REMOVED: %T")
+                              (redeadline . "DEADLINE_CHANGED: %T FROM: %S")
+                              (deldeadline . "DEADLINE_REMOVED: %T FROM: %S")
+                              (refile . "REFILED: %T")
+                              (clock-out . "CLOCK_OUT: %T")))
 
 
 

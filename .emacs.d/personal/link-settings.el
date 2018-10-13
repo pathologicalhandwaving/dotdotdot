@@ -17,7 +17,14 @@
           (lambda ()
             (add-hook 'before-save-hook 'my/org-add-ids-to-headlines-in-file nil 'local)))
 
+(defun my/org-add-date-to-headlines-in-file ()
+  (interactive)
+  (org-map-entries 'org-timestamp))
 
+(add-hook 'org-mode-hook
+          (lambda ()
+            (add-hook 'before-save-hook 'my/org-add-date-to-headlines-in-file nil 'local))
+            
 ;; Copy ID to Clipboard
 
 (defun my/copy-id-to-clipboard()
