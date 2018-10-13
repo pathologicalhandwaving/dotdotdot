@@ -1,4 +1,4 @@
-;;; head-settings.el
+;;; format-settings.el
 (require 'org)
 (require 'org-bullets)
 
@@ -60,6 +60,6 @@
 
 
 ;; End 
-(provide 'head-settings)
-(message "Head Settings Loaded!")
+(provide 'format-settings)
+(message "Format Settings Loaded!")
 ;;; head-settings.el ends here

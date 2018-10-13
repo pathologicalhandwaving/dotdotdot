@@ -73,16 +73,8 @@
 
 ;; Templates Dir
 (defvar texbot-templates-dir)
-(setq texbot-templates-dir "/Users/Em/Documents/Dropbox/TeXBot/templates/")
+(setq texbot-templates-dir "/Users/Em/Dropbox/TeXBot/templates/")
 
-
-;; TeXBot Archive Dir
-(defvar texbot-archive-dir)
-(setq texbot-archive-dir "/Users/Em/Documents/Dropbox/TeXBot/TeXBot_Archive/")
-
-;; TeXBot Project Dir
-(defvar texbot-projects-dir)
-(setq texbot-projects-dir "/Users/Em/Documents/Dropbox/TeXBot/TeXBot-Projects/")
 
 
 (provide 'latex-settings)
