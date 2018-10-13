@@ -1,4 +1,4 @@
-;;; exile.el
+;;; basics.el
 
 ;; User Info
 (setq user-full-name "K. M. Short")
@@ -38,7 +38,7 @@
 
 
 
-(provide 'exile)
-(message "Exile Successfully Loaded!")
+(provide 'basics)
+(message "Basics Successfully Loaded!")
 
-;;; exile.el ends here
+;;; basics.el ends here
