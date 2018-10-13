@@ -18,7 +18,7 @@
       auto-save-file-name-transforms `((".*" , "~/.emacs.d/backups" t)))
 
 
-(setq org-archive-location "/Volumes/JumpShip/Archive/%s_archive::* Archived Tasks")
+(setq org-archive-location "~/Dropbox/ARCHIVE/%s_archive::* Archived Tasks")
 
 ;; Targets include this file and any file contributing to the agenda - up to 9 levels deep
 (setq org-refile-targets (quote ((nil :maxlevel . 9)
