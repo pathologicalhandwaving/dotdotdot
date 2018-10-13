@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- org-review-insert-last-review
- load-theme
- package-install
- package-refresh-contents
- package-delete
  find-file
- neotree-show
+ org-journal-read-entry
+ org-journal-display-entry
+ org-journal-new-entry
+ package-install
+ load-theme
+ org-review-insert-last-review
 )
 
 ;; ----- smex-data -----
 (
- (find-file . 148)
+ (find-file . 154)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
@@ -23,14 +23,14 @@
  (neotree-show . 8)
  (neotree-change-root . 3)
  (org-brain-remove-child . 1)
- (load-theme . 50)
+ (load-theme . 56)
  (org-mode . 2)
  (org-brain-delete-entry . 15)
  (org-brain-update-id-locations . 4)
  (org-brain-add-resource . 4)
  (org-brain-create-relationships-from-links . 1)
  (package-delete . 5)
- (package-install . 48)
+ (package-install . 60)
  (windmove-left . 1)
  (svg-clock . 2)
  (org-trello-install-key-and-token . 2)
@@ -50,7 +50,7 @@
  (org-mode-restart . 6)
  (delimit-columns-region . 1)
  (diary . 1)
- (org-journal-new-entry . 5)
+ (org-journal-new-entry . 6)
  (org-latex-export-to-latex . 2)
  (my/copy-idlink-to-clipboard . 3)
  (org-review-insert-last-review . 9)
@@ -64,4 +64,6 @@
  (org-display-inline-images . 1)
  (org-toggle-inline-images . 13)
  (org-redisplay-inline-images . 1)
+ (org-journal-display-entry . 1)
+ (org-journal-read-entry . 1)
 )

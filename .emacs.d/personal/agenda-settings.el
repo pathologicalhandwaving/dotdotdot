@@ -136,7 +136,7 @@
 
 (setq org-agenda-include-diary t)
 
-(setq org-agenda-diary-file "/Users/Em/Documents/Dropbox/Diary/diary.org")
+(setq org-agenda-diary-file "/Users/Em/Dropbox/AgendaBot/diary.org")
 
 (setq org-agenda-insert-diary-extract-time t)
 
