@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: file-tags
+# key: <tags
+# --
+#+FILETAGS: $0

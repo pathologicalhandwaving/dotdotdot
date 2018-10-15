@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "org-msg" "20181005.1543" "Org mode to send and reply to email in HTML." '((emacs "24.4") (htmlize "1.54")) :commit "bc488c5ef820644660991c4cb73de2738173b4d4" :keywords '("extensions" "mail") :authors '(("Jérémy Compostella" . "jeremy.compostella@gmail.com")) :maintainer '("Jérémy Compostella" . "jeremy.compostella@gmail.com") :url "https://github.com/jeremy-compostella/org-msg")

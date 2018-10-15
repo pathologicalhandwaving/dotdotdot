@@ -124,3 +124,7 @@ alias degen="afplay /Users/Em/Music/wav/degenerates.wav"
 alias hero="afplay /Users/Em/Music/wav/hack-hero.wav"
 # I dont play well with others
 alias plays="afplay /Users/Em/Music/wav/hack-play.wav"
+
+# Spoof Mac
+alias spf="sudo spoof-mac randomize wi-fi"
+
