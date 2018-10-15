@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ smartparens-strict-mode
  org-bullets-mode
  org-mode
  tags-search
  org-review-insert-last-review
  org-review-insert-next-review
  yas-global-mode
- yas-reload-all
 )
 
 ;; ----- smex-data -----
@@ -71,4 +71,5 @@
  (org-review-insert-next-review . 2)
  (org-bullets-mode . 2)
  (tags-search . 1)
+ (smartparens-strict-mode . 1)
 )

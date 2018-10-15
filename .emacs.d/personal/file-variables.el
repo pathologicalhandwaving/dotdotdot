@@ -39,7 +39,7 @@
 
 ;; VoiceMemos Directory
 (defvar audiobot-voicememos-dir)
-(setq audiobot-voicememos-dir "/Users/Em/Dropbox/AudioBot/VoiceMemos"
+(setq audiobot-voicememos-dir "/Users/Em/Dropbox/AudioBot/VoiceMemos")
 
 
 ;;; AutoBot

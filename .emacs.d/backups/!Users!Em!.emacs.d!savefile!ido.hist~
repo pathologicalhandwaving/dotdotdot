@@ -19,6 +19,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/Em/.emacs.d/snippets/org-mode/"
  "/Users/Em/Documents/"
  "/Users/Em/Documents/Dropbox/"
  "/Users/Em/Documents/Dropbox/HomeBase/Apartment/104-Inspection_Photos/"
@@ -27,6 +28,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "date-created"
  "20181012.org"
  "20180729-114253PM.jpg"
  "tasks.org"
