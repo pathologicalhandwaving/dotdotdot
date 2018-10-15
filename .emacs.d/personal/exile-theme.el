@@ -18,8 +18,8 @@
 (defvar exile-current-theme exile-dark-theme)
 
 ;; Challenger Deep Settings
-(doom-challenger-deep-brighter-modeline t)
-(doom-challenger-deep-brighter-comments t)
+;;(doom-challenger-deep-brighter-modeline t)
+;;(doom-challenger-deep-brighter-comments t)
 
 
 ;; neotree
