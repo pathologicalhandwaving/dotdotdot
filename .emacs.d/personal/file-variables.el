@@ -104,16 +104,26 @@
 
 ;;; LibrarianBot
 
-;; LibrarianBot Directory
-(defvar librarianbot-dir)
-(setq librarianbot-dir "/Users/Em/Dropbox/LibrarianBot")
+;; LibrarianBot Directory (Dropbox)
+(defvar librarianbot-dropbox-dir)
+(setq librarianbot-dropbox-dir "/Users/Em/Dropbox/LibrarianBot")
 
+;;; NOTE All pdf and epub files go in MEGA for longterm storage
+;;; NOTE keep default bibliography, quotes, and readlater here
+
+;;; LibrarianBot Directory (Mega)
+(defvar librarianbot-mega-dir)
+(setq librarianbot-mega-dir "/Users/Em/MEGAasync/
 
 ;;; MOOCBot
 
 ;; MOOCBot Directory
 (defvar moocbot-dir)
 (setq moocbot-dir "/Users/Em/Dropbox/MOOCBot")
+
+;; Classes
+(defvar moocbot-classes)
+(setq moocbot-classes "/Users/Em/Dropbox/MOOCBot/classes.org")
 
 
 ;;; MakerBot
@@ -122,8 +132,14 @@
 (defvar makerbot-dir)
 (setq makerbot-dir "/Users/Em/Dropbox/MakerBot")
 
+;; The Ugly Chair Project
+(defvar makerbot-uglychair-dir)
+(setq makerbot-uglychair-dir "/Users/Em/Dropbox/MakerBot/UglyChair")
+
 
 ;;; TMP
+;;; NOTE Mobile downloads go here until sorted
+
 
 ;; TMP Directory
 (defvar tmp-dir)
@@ -135,6 +151,11 @@
 ;; TeXBot Directory
 (defvar texbot-dir)
 (setq texbot-dir "/Users/Em/Dropbox/TeXBot")
+
+;; Templates Directory
+;;; NOTE EXCEPTION =templates= directory name is lowercase to allow integration with TeX Writer ios app
+(defvar texbot-templates-dir)
+(setq texbot-templates-dir "/Users/Em/Dropbox/TeXBot/templates")
 
 
 ;;; WerXBot
