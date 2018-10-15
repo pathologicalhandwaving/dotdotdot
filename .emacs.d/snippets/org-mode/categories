@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: categories
+# key: <cats
+# --
+#+CATEGORY: $0
+#+SUBCATEGORY: $1
+$2

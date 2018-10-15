@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- find-file
- org-journal-read-entry
- org-journal-display-entry
- org-journal-new-entry
- package-install
- load-theme
+ org-bullets-mode
+ org-mode
+ tags-search
  org-review-insert-last-review
+ org-review-insert-next-review
+ yas-global-mode
+ yas-reload-all
 )
 
 ;; ----- smex-data -----
 (
- (find-file . 154)
+ (find-file . 155)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
@@ -23,14 +23,14 @@
  (neotree-show . 8)
  (neotree-change-root . 3)
  (org-brain-remove-child . 1)
- (load-theme . 56)
- (org-mode . 2)
+ (load-theme . 57)
+ (org-mode . 4)
  (org-brain-delete-entry . 15)
  (org-brain-update-id-locations . 4)
  (org-brain-add-resource . 4)
  (org-brain-create-relationships-from-links . 1)
  (package-delete . 5)
- (package-install . 60)
+ (package-install . 98)
  (windmove-left . 1)
  (svg-clock . 2)
  (org-trello-install-key-and-token . 2)
@@ -38,7 +38,7 @@
  (org-trello-check-setup . 1)
  (org-trello-show-board-labels . 1)
  (org-trello-mode . 1)
- (package-refresh-contents . 10)
+ (package-refresh-contents . 11)
  (split-window-right . 1)
  (eyebrowse-mode . 2)
  (outline-toc-mode . 2)
@@ -53,7 +53,7 @@
  (org-journal-new-entry . 6)
  (org-latex-export-to-latex . 2)
  (my/copy-idlink-to-clipboard . 3)
- (org-review-insert-last-review . 9)
+ (org-review-insert-last-review . 10)
  (org-web-tools-read-url-as-org . 4)
  (save-buffer . 1)
  (calendar . 2)
@@ -66,4 +66,9 @@
  (org-redisplay-inline-images . 1)
  (org-journal-display-entry . 1)
  (org-journal-read-entry . 1)
+ (yas-reload-all . 1)
+ (yas-global-mode . 1)
+ (org-review-insert-next-review . 2)
+ (org-bullets-mode . 2)
+ (tags-search . 1)
 )
