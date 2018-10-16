@@ -1,3 +1,12 @@
+*/ocean-settings.el
+*/weather-settings.el
+.emacs.d/request/*
+*/location-settings.el
+*/api-settings.el
+*/secrets.el
+*/calendar-settings.el
+*/my-information.el
+
 # qq content
 .qq/notes/*
 
