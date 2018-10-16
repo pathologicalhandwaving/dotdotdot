@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ find-file
  smartparens-strict-mode
  org-bullets-mode
  org-mode
  tags-search
  org-review-insert-last-review
  org-review-insert-next-review
- yas-global-mode
 )
 
 ;; ----- smex-data -----
 (
- (find-file . 155)
+ (find-file . 157)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
@@ -71,5 +71,5 @@
  (org-review-insert-next-review . 2)
  (org-bullets-mode . 2)
  (tags-search . 1)
- (smartparens-strict-mode . 1)
+ (smartparens-strict-mode . 3)
 )

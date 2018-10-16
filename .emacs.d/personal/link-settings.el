@@ -23,7 +23,8 @@
 
 (add-hook 'org-mode-hook
           (lambda ()
-            (add-hook 'before-save-hook 'my/org-add-date-to-headlines-in-file nil 'local))
+            (add-hook 'before-save-hook 'my/org-add-date-to-headlines-in-file nil 'local)))
+
             
 ;; Copy ID to Clipboard
 

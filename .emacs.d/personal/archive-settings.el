@@ -3,9 +3,9 @@
 
 
 (defvar org-archive-mark-done)
-
-;;; Code:
 (setq org-archive-mark-done nil)
+
+
 
 ;; Recent Files
 (recentf-mode 1)
@@ -18,12 +18,12 @@
       auto-save-file-name-transforms `((".*" , "~/.emacs.d/backups" t)))
 
 
-(setq org-archive-location "~/Dropbox/ARCHIVE/%s_archive::* Archived Tasks")
 
-;; 
+;; Archive Directory
+(setq org-archive-location "~/Dropbox/ARCHIVE/%s_archive::* Archived Tasks") 
 
-;; Use the current window for indirect buffer display
-(setq org-indirect-buffer-display 'current-window)
+
+
 
 
 

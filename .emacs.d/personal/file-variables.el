@@ -113,7 +113,7 @@
 
 ;;; LibrarianBot Directory (Mega)
 (defvar librarianbot-mega-dir)
-(setq librarianbot-mega-dir "/Users/Em/MEGAasync/
+(setq librarianbot-mega-dir "/Users/Em/MEGAasync/LibrarianBot")
 
 ;;; MOOCBot
 
