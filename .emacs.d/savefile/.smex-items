@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ smartparens-strict-mode
  helm-buffers-list
- org-time-stamp-inactive
- org-time-stamp
  package-delete
  time-stamp
  helm-for-files
- smartparens-strict-mode
+ find-file
+ package-install
 )
 
 ;; ----- smex-data -----
@@ -71,7 +71,7 @@
  (org-review-insert-next-review . 2)
  (org-bullets-mode . 2)
  (tags-search . 1)
- (smartparens-strict-mode . 5)
+ (smartparens-strict-mode . 6)
  (time-stamp . 4)
  (helm-find . 2)
  (helm-for-files . 8)
