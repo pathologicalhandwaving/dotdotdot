@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Apartment Inventory"
+(("Projects List"
+ (filename . "~/Dropbox/LabBot/projects.org")
+ (front-context-string)
+ (rear-context-string . "EB08CCE7\n:END:\n\n")
+ (position . 249))
+("Apartment Inventory"
  (filename . "~/Documents/Dropbox/HomeBase/Apartment/Inventory-Condition-Form.org")
  (front-context-string . "\n:PROPERTIES:\n:I")
  (rear-context-string . ":END:\n\n*** Walls")

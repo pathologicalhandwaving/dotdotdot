@@ -1,11 +1,9 @@
 ;;; notes-settings.el
 (require 'headlong)
-(require 'helm-frame)
+
 
 ;;; Code:
 
-(defvar notesbot-default)
-(setq notesbot-default "/Users/Em/Dropbox/NotesBot/default-notes.org")
 
 ;;; Keybind Notes
 (global-set-key (kbd "<f9> h")

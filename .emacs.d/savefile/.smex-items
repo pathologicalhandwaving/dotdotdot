@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- smartparens-strict-mode
- helm-buffers-list
- package-delete
- time-stamp
+ bookmark-delete
  helm-for-files
+ helm-org-rifle-occur-agenda-files
+ load-theme
  find-file
- package-install
+ smartparens-strict-mode
+ org-bullets-mode
 )
 
 ;; ----- smex-data -----
 (
- (find-file . 166)
+ (find-file . 157)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
@@ -29,8 +29,8 @@
  (org-brain-update-id-locations . 4)
  (org-brain-add-resource . 4)
  (org-brain-create-relationships-from-links . 1)
- (package-delete . 6)
- (package-install . 104)
+ (package-delete . 5)
+ (package-install . 98)
  (windmove-left . 1)
  (svg-clock . 2)
  (org-trello-install-key-and-token . 2)
@@ -53,7 +53,7 @@
  (org-journal-new-entry . 6)
  (org-latex-export-to-latex . 2)
  (my/copy-idlink-to-clipboard . 3)
- (org-review-insert-last-review . 11)
+ (org-review-insert-last-review . 10)
  (org-web-tools-read-url-as-org . 4)
  (save-buffer . 1)
  (calendar . 2)
@@ -71,24 +71,8 @@
  (org-review-insert-next-review . 2)
  (org-bullets-mode . 2)
  (tags-search . 1)
- (smartparens-strict-mode . 6)
- (time-stamp . 4)
- (helm-find . 2)
- (helm-for-files . 8)
- (org-agenda . 1)
- (org-clock-display . 2)
- (display-time-world . 1)
- (noaa . 1)
- (display-time-world-mode . 1)
- (close-display-connection . 1)
- (helm-world-time . 1)
- (helm-imenu-anywhere . 1)
- (helm-configuration . 1)
- (helm-eww . 2)
- (helm-google-searx . 2)
- (helm-google-google . 4)
- (kill-buffer . 14)
- (org-time-stamp . 1)
- (org-time-stamp-inactive . 1)
- (helm-buffers-list . 1)
+ (smartparens-strict-mode . 3)
+ (helm-org-rifle-occur-agenda-files . 1)
+ (helm-for-files . 2)
+ (bookmark-delete . 5)
 )
