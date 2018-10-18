@@ -8,7 +8,11 @@
 (setq org-agenda-files '("~/Dropbox/AgendaBot/tasks.org"
                          "~/Dropbox/AgendaBot/inbox.org"
                          "~/Dropbox/AgendaBot/agenda.org"
-                         "~/Dropbox/AgendaBot/diary.org"))
+                         "~/Dropbox/AgendaBot/logs.org"
+                         "~/Dropbox/AgendaBot/calendar.org"
+                         "~/Dropbox/AgendaBot/refile.org"
+                         "~/Dropbox/AgendaBot/birthdays.org"
+                         "~/Dropbox/LabBot/projects.org"))
 
 
 
@@ -16,7 +20,7 @@
 
 (setq org-agenda-include-diary t)
 
-(setq org-agenda-diary-file "/Users/Em/Dropbox/AgendaBot/diary.org")
+(setq org-agenda-diary-file "/Users/Em/Dropbox/AgendaBot/logs.org")
 
 (setq org-agenda-insert-diary-extract-time t)
 

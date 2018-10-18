@@ -27,26 +27,54 @@
 ;; Initialize org-capture-templates list
 (setq org-capture-templates '(("t" "ToDo"
                               entry
-                              (file+headline exile-inbox "InBox")
+                              (file+headline agendabot-tasks "Tasks")
                               "** TODO %^{Task}
-:PROPERTIES:
-:DATE_ADDED: %T
-:END:
-%?"
+   DATE_ADDED: %U
+   NOTE: %?"
                               :empty-lines 1)
+                              ("n" "Note"
+                               entry
+                               (file+headline "Notes")
+                               "** NOTE %^{Content}
+DATE_ADDED: %U"
+                               :empty-lines 1)
+                              ("a" "Add to Agenda"
+                               entry
+                               (file+datetree agendabot-default)
+                               "%U - %^{Activity}"
+                               :empty-lines 1)
+                              ("l" "Add Log Entry"
+                               entry
+                               (file+datetree agendabot-logs)
+                               "%U - %^{Activity}
+STATUS: %^{Status}"
+                               :empty-lines 1)
+                              ("c" "Calendar"
+                               entry
+                               (file+datetree agendabot-calendar)
+                               "**** %^{Event}
+DATE_ADDED: %U"
+                               :empty-lines 1)
+                              ("d" "Add Done"
+                               entry
+                               (file+datetree agendabot-default)
+                               "*** DONE %^{Completed}"
+                               :empty-lines 1)
                               ("u" "Quote"
                                entry
-                               (file librarianbot-quotes)
+                               (file+headline librarianbot-quotes "Quotations")
                                "** QUOTE %^{Author}
 :PROPERTIES:
 :AUTHOR: %^{Author}
 :DATE_ADDED: %U
 :END:
-%x"
+#+BEGIN_QUOTE
+  %x
+#+END_QUOTE"
                                :empty-lines 1)
                               ("b" "Bib Entry"
                                entry
-                               (file mega-default-bibliography-file)
+                               (file librarianbot-default-bib)
                                "@article{%^{Author Last Name}%^{Year},
   title={%^{Title}},
   author={%^{Authors}}

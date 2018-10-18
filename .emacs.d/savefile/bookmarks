@@ -38,10 +38,10 @@
  (rear-context-string . "we've taught.\n\n\n")
  (position . 4480))
 ("org-capture-last-stored"
- (filename . "~/Documents/Dropbox/Exile/inbox.org")
- (front-context-string . "** TODO Fix refi")
- (rear-context-string . " are  metaphor\n\n")
- (position . 6334))
+ (filename . "~/Dropbox/AgendaBot/tasks.org")
+ (front-context-string . "** TODO Watch th")
+ (rear-context-string . "8 Thu>\n  :END:\n\n")
+ (position . 195))
 ("TeXBot Index"
  (filename . "~/Documents/Dropbox/TeXBot/texbot-index.org")
  (front-context-string)
