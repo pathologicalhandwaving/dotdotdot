@@ -1,15 +1,17 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/Em/.emacs.d/personal/link-settings.el" . 1062)
+(("/Users/Em/Dropbox/AgendaBot/refile.org" . 135)
+ ("/Users/Em/.emacs.d/personal/helm-settings.el" . 72)
+ ("/Users/Em/.emacs.d/personal/image-settings.el" . 55)
+ ("/Users/Em/.emacs.d/personal/frame-settings.el" . 482)
+ ("/Users/Em/.emacs.d/savefile/recentf" . 16217)
+ ("/Users/Em/.emacs.d/savefile/ido.hist" . 17483)
+ ("/Users/Em/.emacs.d/personal/link-settings.el" . 1062)
  ("/Users/Em/.emacs.d/personal/agenda-settings.el" . 626)
- ("/Users/Em/.emacs.d/personal/frame-settings.el" . 511)
  ("/Users/Em/.emacs.d/personal/archive-settings.el" . 108)
  ("/Users/Em/.emacs.d/personal/my-information.el" . 159)
  ("/Users/Em/.emacs.d/personal/buffer-settings.el" . 145)
- ("/Users/Em/.emacs.d/savefile/recentf" . 16221)
- ("/Users/Em/.emacs.d/savefile/ido.hist" . 17483)
  ("/Users/Em/.emacs.d/emms/history" . 212)
  ("/Users/Em/.emacs.d/personal/file-variables.el" . 2188)
- ("/Users/Em/Dropbox/AgendaBot/refile.org" . 135)
  ("/Users/Em/.emacs.d/snippets/org-mode/file-tags" . 55)
  ("/Users/Em/.emacs.d/snippets/org-mode/categories" . 98)
  ("/Users/Em/.emacs.d/snippets/org-mode/date-created" . 56)
@@ -80,11 +82,9 @@
  ("/Users/Em/.emacs.d/elpa/el-search-1.7.9/el-search-autoloads.el" . 6591)
  ("/Users/Em/.emacs.d/elpa/stream-2.2.4/stream-autoloads.el" . 672)
  ("/Users/Em/.emacs.d/elpa/http-20181008.2121/http-autoloads.el" . 253)
- ("/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Dictionary/dictionary.org" . 18248)
  ("/Users/Em/.emacs.d/personal/tag-settings.el" . 48)
  ("/Users/Em/.emacs.d/personal/color-settings.el" . 408)
  ("/Users/Em/.emacs.d/personal/modeline-settings.el" . 422)
- ("/Users/Em/.emacs.d/personal/image-settings.el" . 87)
  ("/Volumes/JumpShip/Archive/tasks.org_archive" . 22458)
  ("/Users/Em/.emacs.d/personal/todo-settings.el" . 3061)
  ("/Users/Em/.emacs.d/elpa/occidental-theme-20130312.1258/occidental-theme-autoloads.el" . 621)
@@ -168,8 +168,6 @@
  ("/Users/Em/.emacs.d/elpa/math-symbols-20170818.759/math-symbols-autoloads.el" . 6509)
  ("/Users/"
   (dired-filename . "/Users/Em"))
- ("/Users/Em/"
-  (dired-filename . "/Users/Em/Inbox"))
  (#("/Volumes/JumpShip/HomeBase/SwedishChef/candied-bacon.org" 18 22
     (face flx-highlight-face)
     27 29

@@ -30,6 +30,14 @@
 (defvar agendabot-refile)
 (setq agendabot-refile "/Users/Em/Dropbox/AgendaBot/refile.org")
 
+;; Logs
+(defvar agendabot-logs)
+(setq agendabot-logs "/Users/Em/Dropbox/AgendaBot/logs.org")
+
+;; Calendar
+(defvar agendabot-calendar)
+(setq agendabot-calendar "/Users/Em/Dropbox/AgendaBot/calendar.org")
+
 
 ;;; AudioBot
 
@@ -73,12 +81,8 @@
 (defvar docsbot-myconfig-dir)
 (setq docsbot-myconfig-dir "/Users/Em/Dropbox/DocsBot/MyConfig")
 
+;; Tutorials
 
-;;; GitBot
-
-;; GitBot Directory
-(defvar gitbot-dir)
-(setq gitbot-dir "/Users/Em/Dropbox/GitBot")
 
 
 ;;; HomeBot
@@ -101,6 +105,11 @@
 (defvar labbot-dir)
 (setq labbot-dir "/Users/Em/Dropbox/LabBot")
 
+;; Projects
+(defvar labbot-projects)
+(setq labbot-projects "/Users/Em/Dropbox/LabBot/projects.org")
+
+
 
 ;;; LibrarianBot
 
@@ -114,6 +123,20 @@
 ;;; LibrarianBot Directory (Mega)
 (defvar librarianbot-mega-dir)
 (setq librarianbot-mega-dir "/Users/Em/MEGAasync/LibrarianBot")
+
+
+;;; Quotes
+(defvar librarianbot-quotes)
+(setq librarianbot-quotes "/Users/Em/Dropbox/LibrarianBot/quotes.org")
+
+;;; Default Bibliography
+(defvar librarianbot-default-bib)
+(setq librarianbot-default-bib "/Users/Em/Dropbox/LibrarianBot/default.bib")
+
+;;; MedBot
+(defvar medbot-dir)
+(setq medbot-dir "/Users/Em/Dropbox/MedBot")
+
 
 ;;; MOOCBot
 
@@ -131,6 +154,15 @@
 ;; MakerBot Directory
 (defvar makerbot-dir)
 (setq makerbot-dir "/Users/Em/Dropbox/MakerBot")
+
+
+;;; NotesBot
+(defvar notesbot-dir)
+(setq notesbot-dir "/Users/Em/Dropbox/NotesBot")
+
+(defvar notesbot-default)
+(setq notesbot-default "/Users/Em/Dropbox/NotesBot/default-notes.org")
+
 
 ;; The Ugly Chair Project
 (defvar makerbot-uglychair-dir)
@@ -175,6 +207,10 @@
 ;; Profile Directory
 (defvar werxbot-profile-dir)
 (setq werxbot-profile-dir "/Users/Em/Dropbox/WerXBot/Profile")
+
+;; Search
+(defvar werxbot-search-dir)
+(setq werxbot-search-dir "/Users/Em/Dropbox/WerXBot/Search")
 
 
 ;;; End Code:

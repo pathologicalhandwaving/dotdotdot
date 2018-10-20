@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ bookmark-delete
+ helm-for-files
+ helm-org-rifle-occur-agenda-files
+ load-theme
  find-file
  smartparens-strict-mode
  org-bullets-mode
- org-mode
- tags-search
- org-review-insert-last-review
- org-review-insert-next-review
 )
 
 ;; ----- smex-data -----
@@ -23,7 +23,7 @@
  (neotree-show . 8)
  (neotree-change-root . 3)
  (org-brain-remove-child . 1)
- (load-theme . 57)
+ (load-theme . 58)
  (org-mode . 4)
  (org-brain-delete-entry . 15)
  (org-brain-update-id-locations . 4)
@@ -72,4 +72,7 @@
  (org-bullets-mode . 2)
  (tags-search . 1)
  (smartparens-strict-mode . 3)
+ (helm-org-rifle-occur-agenda-files . 1)
+ (helm-for-files . 2)
+ (bookmark-delete . 5)
 )
