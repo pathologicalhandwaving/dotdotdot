@@ -17,8 +17,8 @@
  '(bog-citekey-property "CITEKEY")
  '(bog-file-directory
    "/Users/Em/Documents/MEGA/MEGAsync/Library-Archive/Bibliography")
- '(bog-note-directory "/Users/Em/Documents/Dropbox/LabBot/Projects")
- '(bog-root-directory "/Users/Em/Documents/Dropbox/LabBot")
+ '(bog-note-directory "/Users/Em/Dropbox/LabBot")
+ '(bog-root-directory "/Users/Em/Dropbox/LabBot")
  '(bog-subdirectory-group 0)
  '(column-number-mode t)
  '(custom-safe-themes
