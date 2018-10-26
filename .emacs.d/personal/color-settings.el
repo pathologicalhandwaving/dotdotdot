@@ -192,7 +192,8 @@
         ("HolidayInn" :background "#3B9B35" :foreground "black" :weight bold)
         ("HOLIDAYINN" :background "#3B9B35" :foreground "black" :weight normal)
         ("DONE" :foreground "#6C7B8B" :background "black" :weight normal (:strike-through t))
-        ("DUE_DATE" :foreground "#FF6655" :foregroud "black" :weight regular :box (:line-width 1 :style none))
+        ("DUE_DATE" :foreground "#FF6655" :foreground "black" :weight regular :box (:line-width 1 :style none))
+        ("RESPONDED" :foreground "#6c7b8b" :background dark :weight regular :box (:line-width 1 :style none))
         ("FILED" :foreground "#6C7B8B" :weight normal (:strike-through t))))
 
 
