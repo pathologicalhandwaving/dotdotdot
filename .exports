@@ -7,7 +7,7 @@ export PATH="/usr/local/bin/notify-send:$PATH"
 export PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
 
 # term-cmd
-export TERMCMD="/Users/Em/.emacs.d/term-cmd:$PATH"
+export TERMCMD="Users/Em/.emacs.d/term-cmd:$PATH"
 
 # Exports
 export TERM=xterm-256color
@@ -18,6 +18,7 @@ export TERM=xterm-256color
 
 # Python 3 Path
 export PYTHONPATH="/usr/local/bin/python3"
+
 # Python Encoding
 export PYTHONENCODING='UTF-8'
 
@@ -30,9 +31,9 @@ export ITERMPLOT=rv
 export PATH="/usr/local/share/npm/bin:$PATH"
 
 # GNU
-MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
 
 # MySQL Path
@@ -56,13 +57,13 @@ export MANPAGER='less -X';
 
 # XML
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
-export PATH="/usr/local/opt/libxslt/bin:$PATH"
-export XML_CATALOG_FILES=/usr/local/etc/xml/catalog
+export XMLPATH="/usr/local/opt/libxslt/bin:$PATH"
+#export XML_CATALOG_FILES=/usr/local/etc/xml/catalog
 
 # Cheat
 export CHEATCOLORS=true
 export DEFAULT_CHEAT_DIR="/Users/Em/.cheat"
-export CHEATPATH="$CHEATPATH:/Users/Em/.cheat"
+export CHEATPATH="/Users/Em/.cheat"
 
 # TinyCareBot
 #source "/Users/Em/.tinycarebot"
@@ -83,4 +84,8 @@ if which ruby >/dev/null && which gem >/dev/null; then
     PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
 
+
 source "/Users/Em/.vars"
+
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+

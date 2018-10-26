@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: notes-file
+# key: <notef
+# --
+* Note `(format-time-string "%Y-%m-%d %H:%M")`
+  
+  $0

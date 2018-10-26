@@ -2,17 +2,17 @@
 ;; ----- smex-history -----
 (
  bookmark-delete
- helm-for-files
- helm-org-rifle-occur-agenda-files
- load-theme
- find-file
+ cheatsheet-show
  smartparens-strict-mode
- org-bullets-mode
+ package-install
+ find-file
+ load-theme
+ cheatsheet-mode
 )
 
 ;; ----- smex-data -----
 (
- (find-file . 157)
+ (find-file . 178)
  (org-brain-pin . 1)
  (org-brain-switch-brain . 21)
  (org-brain-open . 8)
@@ -23,14 +23,14 @@
  (neotree-show . 8)
  (neotree-change-root . 3)
  (org-brain-remove-child . 1)
- (load-theme . 58)
- (org-mode . 4)
+ (load-theme . 67)
+ (org-mode . 5)
  (org-brain-delete-entry . 15)
  (org-brain-update-id-locations . 4)
  (org-brain-add-resource . 4)
  (org-brain-create-relationships-from-links . 1)
- (package-delete . 5)
- (package-install . 98)
+ (package-delete . 6)
+ (package-install . 102)
  (windmove-left . 1)
  (svg-clock . 2)
  (org-trello-install-key-and-token . 2)
@@ -47,13 +47,13 @@
  (my/jump-to-point-and-show . 4)
  (narrow-to-region . 1)
  (widen . 1)
- (org-mode-restart . 6)
+ (org-mode-restart . 7)
  (delimit-columns-region . 1)
  (diary . 1)
  (org-journal-new-entry . 6)
  (org-latex-export-to-latex . 2)
  (my/copy-idlink-to-clipboard . 3)
- (org-review-insert-last-review . 10)
+ (org-review-insert-last-review . 14)
  (org-web-tools-read-url-as-org . 4)
  (save-buffer . 1)
  (calendar . 2)
@@ -68,11 +68,20 @@
  (org-journal-read-entry . 1)
  (yas-reload-all . 1)
  (yas-global-mode . 1)
- (org-review-insert-next-review . 2)
- (org-bullets-mode . 2)
+ (org-review-insert-next-review . 3)
+ (org-bullets-mode . 6)
  (tags-search . 1)
- (smartparens-strict-mode . 3)
+ (smartparens-strict-mode . 5)
  (helm-org-rifle-occur-agenda-files . 1)
  (helm-for-files . 2)
- (bookmark-delete . 5)
+ (bookmark-delete . 30)
+ (popup-imenu . 1)
+ (yas-exit-snippet . 2)
+ (bookmark-set . 1)
+ (speedbar . 1)
+ (org-insert-item . 2)
+ (org-copy-subtree . 8)
+ (org-paste-subtree . 7)
+ (cheatsheet-show . 3)
+ (cheatsheet-mode . 1)
 )
