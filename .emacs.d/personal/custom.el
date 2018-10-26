@@ -92,19 +92,6 @@
  '(org-modules
    '(org-bbdb org-bibtex org-docview org-eww org-gnus org-habit org-id org-info org-inlinetask org-irc org-mhe org-mouse org-protocol org-rmail org-w3m org-annotate-file org-bookmark org-checklist org-choose org-collector org-elisp-symbol org-eshell org-eval-light org-eval org-favtable org-invoice org-learn org-mac-iCal org-mac-link org-man org-panel))
  '(org-outline-path-complete-in-steps t)
- '(org-priority-faces
-   '((65 :foreground "red"
-         (:background dark))
-     (66 :foreground "DarkOrange1"
-         (:background dark))
-     (67 :foreground "yellow1"
-         (:background dark))
-     (68 :foreground "green"
-         (:background dark))
-     (69 :foreground "cyan2"
-         (:background dark))
-     (70 :foreground "gray"
-         (:background dark))))
  '(org-provide-todo-statistics 'all-headlines)
  '(org-review-delay "+1d")
  '(org-review-last-timestamp-format 'active)
