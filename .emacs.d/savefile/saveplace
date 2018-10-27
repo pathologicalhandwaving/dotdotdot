@@ -1,7 +1,13 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/Em/Dropbox/AgendaBot/tasks.org" . 1320)
- ("/Users/Em/.emacs.d/"
+(("/Users/Em/.emacs.d/"
   (dired-filename . "/Users/Em/.emacs.d/personal"))
+ ("/Users/Em/.emacs.d/savefile/recentf" . 16289)
+ ("/Users/Em/.emacs.d/savefile/ido.hist" . 17313)
+ ("/Users/Em/.emacs.d/elpa/wiki-summary-20181010.1824/wiki-summary-autoloads.el" . 1309)
+ ("/Users/Em/.emacs.d/elpa/wiki-nav-20150223.1354/wiki-nav-autoloads.el" . 4920)
+ ("/Users/Em/.emacs.d/elpa/button-lock-20150223.1354/button-lock-autoloads.el" . 10074)
+ ("/Users/Em/.emacs.d/elpa/nav-flash-20140508.2041/nav-flash-autoloads.el" . 1171)
+ ("/Users/Em/Dropbox/AgendaBot/tasks.org" . 1320)
  ("/Users/Em/.emacs.d/personal/"
   (dired-filename . "/Users/Em/.emacs.d/personal/frame-settings.el"))
  ("/Users/Em/.emacs.d/personal/notes-settings.el" . 74)
@@ -10,8 +16,6 @@
  ("/Users/Em/Dropbox/AgendaBot/agenda.org" . 102)
  ("/Users/Em/.emacs.d/personal/refile-settings.el" . 496)
  ("/Users/Em/Dropbox/AgendaBot/calendar.org" . 865)
- ("/Users/Em/.emacs.d/savefile/recentf" . 16211)
- ("/Users/Em/.emacs.d/savefile/ido.hist" . 17483)
  ("/Users/Em/.emacs.d/personal/frame-settings.el" . 482)
  ("/Users/Em/.emacs.d/personal/buffer-settings.el" . 145)
  ("/Users/Em/.emacs.d/personal/helm-settings.el" . 72)

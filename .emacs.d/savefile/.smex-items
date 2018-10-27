@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-install
+ update-directory-autoloads
+ package-refresh-contents
  bookmark-delete
  cheatsheet-show
  smartparens-strict-mode
- package-install
  find-file
- load-theme
- cheatsheet-mode
 )
 
 ;; ----- smex-data -----
@@ -30,7 +30,7 @@
  (org-brain-add-resource . 4)
  (org-brain-create-relationships-from-links . 1)
  (package-delete . 6)
- (package-install . 102)
+ (package-install . 104)
  (windmove-left . 1)
  (svg-clock . 2)
  (org-trello-install-key-and-token . 2)
@@ -38,7 +38,7 @@
  (org-trello-check-setup . 1)
  (org-trello-show-board-labels . 1)
  (org-trello-mode . 1)
- (package-refresh-contents . 11)
+ (package-refresh-contents . 12)
  (split-window-right . 1)
  (eyebrowse-mode . 2)
  (outline-toc-mode . 2)
@@ -84,4 +84,5 @@
  (org-paste-subtree . 7)
  (cheatsheet-show . 3)
  (cheatsheet-mode . 1)
+ (update-directory-autoloads . 1)
 )

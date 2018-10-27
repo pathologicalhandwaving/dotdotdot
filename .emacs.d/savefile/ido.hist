@@ -19,7 +19,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
- #("/Users/Em/.emacs.d/snippets/org-mode/" 10 19 (face flx-highlight-face) 19 28 (face flx-highlight-face) 28 36 (face flx-highlight-face))
+ "/Users/Em/.emacs.d/snippets/org-mode/"
  "/Users/Em/.emacs.d/personal/"
  "/Users/Em/Documents/"
  "/Users/Em/Documents/Dropbox/"
@@ -39,11 +39,11 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- (#("/Users/Em/.emacs.d/snippets/org-mode/" 10 19 (face flx-highlight-face) 19 28 (face flx-highlight-face) 28 36 (face flx-highlight-face)) (23492 16826 0 0) "file-tags" "date-created" "categories" "../" "./")
+ ("/Users/Em/.emacs.d/snippets/org-mode/" (23492 16826 0 0) "file-tags" "date-created" "categories" "../" "./")
 
- (#("/Users/Em/.emacs.d/snippets/" 10 19 (face flx-highlight-face) 19 28 (face flx-highlight-face)) (23504 2492 0 0) "python/" "org-mode/" "latex/" "html/" "bibtex/" "bash/" ".DS_Store" "../" "./")
+ ("/Users/Em/.emacs.d/snippets/" (23504 2492 0 0) "python/" "org-mode/" "latex/" "html/" "bibtex/" "bash/" ".DS_Store" "../" "./")
 
- (#("/Users/Em/.emacs.d/" 10 19 (face flx-highlight-face)) (23503 64133 0 0) "vendor/" "var/" "utils/" "url/" "thumbs/" "themes/" "snippets/" "scratch_pop/" "savefile/" "sample/" "request/" "README.md" "projectile-bookmarks.eld" "prelude-modules.el" "prelude-cheatsheet.pdf" "personal/" "org-clock-save.el" "modules/" "latex/" "init.el" "eww-bookmarks" "emms/" "elpa/" "el-get/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "archived_settings/" ".trello/" ".org-id-locations" ".git/" ".DS_Store" "../" "./")
+ ("/Users/Em/.emacs.d/" (23503 64133 0 0) "vendor/" "var/" "utils/" "url/" "thumbs/" "themes/" "snippets/" "scratch_pop/" "savefile/" "sample/" "request/" "README.md" "projectile-bookmarks.eld" "prelude-modules.el" "prelude-cheatsheet.pdf" "personal/" "org-clock-save.el" "modules/" "latex/" "init.el" "eww-bookmarks" "emms/" "elpa/" "el-get/" "core/" "CONTRIBUTING.md" "backups/" "auto-save-list/" "archived_settings/" ".trello/" ".org-id-locations" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/Em/" (23503 58361 0 0) "Torrents/" "Toolz/" "Repos/" "Public/" "Pictures/" "perl5/" "package-lock.json" "org.ics" "node_modules/" "nltk_data/" "News/" "Music/" "Movies/" "Mail/" "Library/" "hacker_news_data.txt" "gpg/" "emacs.d/" "Dropbox (Old)/" "Dropbox/" "Downloads/" "doing.org" "Documents/" "Desktop/" "brew-postinstalls.org" "bower_components/" "bower.json" "Applications/" ".yarnrc" ".Xauthority" ".wine/" ".wgetrc" ".wget-hsts" ".wegorc" ".w3m/" ".viminfo" ".vim/" ".vars" ".utils" ".Trash/" ".tor/" ".tokens" ".tldr/" ".texutils" ".subversion/" ".study" ".streamlinkrc" ".stardict/" ".ssh/" ".soundmeter/" ".slack/" ".shell_prompt.sh" ".setups/" ".serverauth.68141" ".searchlink" ".sdirs" ".sdcv_history" ".sdcv/" ".sage/" ".rnd" ".redshiftrc" ".rainbow_oauth" ".rainbow_config.json" ".qutebrowser/" ".qr-filetransfer.json" ".qq/" ".python_history" ".pubsrc" ".pubs/" ".prompt" ".powerline-shell.json" ".polar/" ".plotly/" ".php_versions/" ".pex/" ".p.log" ".p/" ".osx" ".oracle_jre_usage/" ".npm/" ".notebook/" ".node-gyp/" ".nimble-options.json" ".newsrc.eld" ".mysql_history" ".myscripts/" ".myeditors" ".myeditorchoice" ".myCurrentFiles" ".myconfig-backup/" ".myconfig/" ".mutt/" ".mplayer/" ".moro-config.json" ".matplotlib/" ".mathutils" ".mail/" ".local/" ".links/" ".lesshst" ".karabiner/" ".kanban.tmp.index" ".kanban.csv" ".kanban.conf" ".jupyter/" ".iterm2_shell_integration.bash" ".iterm2/" ".irssi/" ".ipython/" ".ipynb_checkpoints/" ".insert-shebang.log" ".image.so" ".ideas.json" ".hyper_plugins/" ".hyper.js" ".html2ps/" ".hammerspoon/" ".go/" ".gnuplot_history" ".gnupg_pre_2.1/" ".gnupg/" ".gnome2/" ".gitignore" ".gitconfig" ".gistup.json" ".gem/" ".functions" ".fu_cached_pickle" ".fu" ".fromscratch/" ".fonts/" ".flashcards/" ".exports" ".erc/" ".emacs.d.inprog/" ".emacs.d/" ".elinks/" ".elfeed/" ".electron/" ".edits" ".editor" ".DS_Store" ".dropbox_uploader/" ".dropbox/" ".docker/" ".dircolors/" ".dict/" ".dat/" ".cups/" ".cpanm/" ".cpan/" ".config/" ".composer/" ".cider/" ".cheat/" ".ccache/" ".calcurse/" ".cache/" ".bundle/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".apps" ".aliases" "../" "./")
 
